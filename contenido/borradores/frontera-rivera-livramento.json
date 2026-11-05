@@ -1,0 +1,76 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-06-frontera-rivera-livramento",
+  "titulo": "¿Por qué en esta plaza cambias de país sin mostrar un solo papel?",
+  "descripcion": "Rivera, en Uruguay, y Santana do Livramento, en Brasil, son dos ciudades pegadas por una frontera de tierra seca. En 1943 se inauguró sobre la línea un parque mitad de cada país, con un obelisco que marca el límite y sin reja ni control. Un acuerdo de 2002 permite a los vecinos de la frontera vivir, estudiar y trabajar del otro lado, y la ley de educación uruguaya de 2008 nombra al portugués del Uruguay entre las lenguas maternas del país.\n\nFuentes:\n- Ley 18.437 (Uruguay): https://www.impo.com.uy/bases/leyes/18437-2008\n- Ley 17.659 (Uruguay): https://uruguay.justia.com/nacionales/leyes/ley-17659-jun-19-2003/gdoc\n- Frontera de la Paz: https://en.wikipedia.org/wiki/Peace_Border\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": ["#shorts", "#geografia", "#mapas", "#fronteras", "#uruguay", "#brasil"],
+  "props": {
+    "id": "2026-11-06-frontera-rivera-livramento",
+    "cabecera": "RIVERA — LA PLAZA DE DOS PAÍSES",
+    "gancho": {
+      "texto": "Mira la frontera entre Uruguay y Brasil. Cientos de kilómetros de campo y de ríos. Y de pronto la línea entra a una ciudad y cruza una plaza. ¿Qué hace una frontera en un parque?",
+      "rotulo": "UNA PLAZA"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que en toda frontera hay algo que te frena: un muro, un río, una barrera con un guardia que pide papeles. Aquí no hay nada de eso. La verdad es más simple.",
+        "rotulo": { "texto": "UN MURO", "dice": "muro" }
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una línea sin agua, una plaza y unos papeles. Y al final, algo que ninguno de los dos gobiernos planeó.",
+        "rotulo": { "texto": "SIN AGUA", "dice": "agua" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la línea. En este tramo la frontera entre Uruguay y Brasil no sigue un río: corre por tierra seca. Y cuando no hay agua de por medio, una ciudad puede crecer a un lado y otra pegada al otro. Así crecieron Rivera, en Uruguay, y Santana do Livramento, en Brasil.",
+        "rotulo": { "texto": "TIERRA SECA", "dice": "seca" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la plaza. En 1943 los presidentes Getúlio Vargas y Alfredo Baldomir inauguran un parque justo encima de la línea, mitad de cada país. En el medio, un obelisco marca el punto: de un lado Brasil, del otro Uruguay. No hay reja ni garita.",
+        "rotulo": { "texto": "1943", "dice": "1943" },
+        "imagen": { "buscar": "Plaza Internacional Rivera Livramento", "archivo": "File:Plaza Internacional.jpg" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, los papeles. En 2002 Uruguay y Brasil firman un acuerdo para los vecinos de la frontera. Según la ley uruguaya que lo aprobó, un brasileño de Livramento puede pedir un documento especial para vivir, estudiar y trabajar en Rivera. Y un uruguayo de Rivera, lo mismo del otro lado.",
+        "rotulo": { "texto": "DOCUMENTO FRONTERIZO", "dice": "documento" },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: de tanto cruzar, la frontera se metió en el idioma. Mucha gente lo llama portuñol. La Ley General de Educación de Uruguay, de 2008, lo nombra de otra manera: portugués del Uruguay. Y lo pone entre las lenguas maternas del país, junto al español.",
+        "rotulo": { "texto": "PORTUÑOL", "dice": "portuñol" },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy alguien puede salir de su casa en Rivera, atravesar la plaza para comprar pan en Livramento y volver sin mostrar un solo papel. Cambió de país dos veces antes del desayuno. El único aviso es un obelisco en medio del pasto.",
+        "rotulo": { "texto": "DOS VECES", "dice": "veces" }
+      }
+    ],
+    "remate": "En el mapa es una frontera. En la plaza es un paseo.",
+    "fuentes": [
+      { "texto": "Ley 18.437, Ley General de Educación de Uruguay (2008), art. 40", "url": "https://www.impo.com.uy/bases/leyes/18437-2008" },
+      { "texto": "Ley 17.659 (Uruguay, 2003): aprueba el Acuerdo sobre residencia, estudio y trabajo de nacionales fronterizos uruguayos y brasileños (2002)", "url": "https://uruguay.justia.com/nacionales/leyes/ley-17659-jun-19-2003/gdoc" },
+      { "texto": "Wikipedia: Peace Border (Praça Internacional, 1943)", "url": "https://en.wikipedia.org/wiki/Peace_Border" }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [-55.536, -30.896],
+      "zoomInicial": 8.5,
+      "zoomFinal": 14.5,
+      "lineas": [
+        { "id": "frontera-regional", "fronteraEntre": ["Uruguay", "Brazil"], "color": "celeste", "estilo": "solida", "dibujarEn": -1 },
+        { "id": "frontera-ciudad", "puntos": [[-55.5589, -30.8703], [-55.5524, -30.8789], [-55.5476, -30.8879], [-55.5431, -30.8922], [-55.5397, -30.8944], [-55.5365, -30.8955], [-55.5336, -30.8973], [-55.5334, -30.9001], [-55.5291, -30.8993], [-55.5221, -30.8987], [-55.5129, -30.9004], [-55.5089, -30.9032]], "color": "amarillo", "estilo": "solida", "dibujarEn": 2, "etiqueta": "LA FRONTERA" }
+      ],
+      "marcadores": [
+        { "lon": -55.552, "lat": -30.905, "etiqueta": "RIVERA (UY)", "aparecerEn": 2 },
+        { "lon": -55.528, "lat": -30.885, "etiqueta": "LIVRAMENTO (BR)", "aparecerEn": 2 },
+        { "lon": -55.5352, "lat": -30.8963, "etiqueta": "PLAZA INTERNACIONAL", "aparecerEn": 3 }
+      ]
+    }
+  }
+}

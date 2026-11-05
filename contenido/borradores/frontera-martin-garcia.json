@@ -1,0 +1,79 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-06-frontera-martin-garcia",
+  "titulo": "¿Por qué hay una isla argentina a solo 3,5 km de Uruguay?",
+  "descripcion": "La isla Martín García está a unos 3,5 km de la costa uruguaya y a casi 37 de la costa continental argentina, y es argentina. Fue cárcel de presidentes y, desde el Tratado del Río de la Plata de 1973, una isla con una sola condición: su artículo 45 la destina exclusivamente a reserva natural. Después el río la unió con Timoteo Domínguez, una isla uruguaya nacida del barro, y así apareció la única frontera seca entre los dos países.\n\nFuentes:\n- Presidencia de Uruguay (2019): https://www.gub.uy/presidencia/comunicacion/noticias/demarcacion-entre-timoteo-dominguez-martin-garcia-potenciara-desarrollo\n- Isla Martín García: https://es.wikipedia.org/wiki/Isla_Mart%C3%ADn_Garc%C3%ADa\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": ["#shorts", "#geografia", "#mapas", "#fronteras", "#argentina", "#uruguay"],
+  "props": {
+    "id": "2026-11-06-frontera-martin-garcia",
+    "cabecera": "MARTÍN GARCÍA — LA ISLA DEL LADO AJENO",
+    "gancho": {
+      "texto": "Mira el Río de la Plata, justo donde desemboca el río Uruguay. Esa isla está a tres kilómetros y medio de Uruguay, y a casi 37 de la costa continental argentina. Y es argentina. ¿Cómo?",
+      "rotulo": "3,5 KM DE URUGUAY"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "La explicación fácil es que es un error del mapa: una isla que quedó del lado equivocado del río, y que nadie se molestó en corregir. La verdad es más rara.",
+        "rotulo": { "texto": "UN ERROR DEL MAPA", "dice": "error" }
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una puerta, una cárcel y un tratado. Y al final, el río hace una jugada que ningún tratado había previsto.",
+        "rotulo": { "texto": "PUERTA, CÁRCEL, TRATADO", "dice": "cárcel" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la puerta. Junto a la isla pasa el canal Martín García, el que usan los barcos para subir al río Uruguay. Quien tiene la isla mira de cerca la entrada a ese río. Por eso, durante siglos, nadie quiso soltarla.",
+        "rotulo": { "texto": "LA PUERTA", "dice": "puerta" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la cárcel. En el siglo veinte la isla sirvió para alejar del poder a presidentes argentinos. Hipólito Yrigoyen llegó detenido en 1930. Juan Domingo Perón, en 1945. Arturo Frondizi, en 1962. Presidentes presos en una isla que se ve desde Uruguay.",
+        "rotulo": { "texto": "PRESIDENTES PRESOS", "dice": "presos" },
+        "imagen": { "buscar": "Isla Martín García", "archivo": "File:Isla Martín García 01.jpg" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el tratado. En 1973 Argentina y Uruguay firman en Montevideo el Tratado del Río de la Plata. Uruguay deja su reclamo y la isla queda argentina, con una condición. Según el artículo 45 del tratado, será destinada exclusivamente a reserva natural, para la flora y la fauna.",
+        "rotulo": { "texto": "SOLO RESERVA", "dice": "reserva" },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el río siguió trabajando. El barro que baja hacia el Plata armó, al lado, una isla nueva, Timoteo Domínguez, que es uruguaya. Con los años, las dos islas se tocaron. Así nació la única frontera seca entre Argentina y Uruguay, en medio del agua.",
+        "rotulo": { "texto": "FRONTERA SECA", "dice": "seca" }
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy en Martín García viven poco más de cien personas, entre un faro, casas viejas y monte nativo. En 2019, según la Presidencia de Uruguay, los dos países todavía estudiaban cómo marcar en el terreno esa línea que el río les dibujó.",
+        "rotulo": { "texto": "POCO MÁS DE CIEN", "dice": "cien" },
+        "fuenteEnVoz": true
+      }
+    ],
+    "remate": "Los gobiernos la separaron con un tratado. El río la unió con barro.",
+    "fuentes": [
+      { "texto": "Tratado del Río de la Plata y su Frente Marítimo (1973), Comisión Administradora del Río de la Plata", "url": "https://www.comisionriodelaplata.org/archivos/documentos/DocOriginal_TratadodelRiodelaPlataysuFrenteMaritimo.pdf" },
+      { "texto": "Presidencia de Uruguay (18-9-2019): demarcación entre Timoteo Domínguez y Martín García", "url": "https://www.gub.uy/presidencia/comunicacion/noticias/demarcacion-entre-timoteo-dominguez-martin-garcia-potenciara-desarrollo" },
+      { "texto": "Wikipedia: Isla Martín García (distancias, población, presos)", "url": "https://es.wikipedia.org/wiki/Isla_Mart%C3%ADn_Garc%C3%ADa" }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [-58.27, -34.20],
+      "zoomInicial": 9.6,
+      "zoomFinal": 13.2,
+      "lineas": [
+        { "id": "a-uruguay", "puntos": [[-58.2430, -34.1790], [-58.2080, -34.1690]], "color": "coral", "estilo": "punteada", "dibujarEn": -1, "etiqueta": "3,5 KM" },
+        { "id": "a-argentina", "puntos": [[-58.2550, -34.1880], [-58.5000, -34.4700]], "color": "amarillo", "estilo": "punteada", "dibujarEn": -1, "etiqueta": "CASI 37 KM" },
+        { "id": "frontera-seca", "puntos": [[-58.2600, -34.1745], [-58.2550, -34.1740], [-58.2490, -34.1735]], "color": "coral", "estilo": "solida", "dibujarEn": 5, "etiqueta": "FRONTERA SECA" }
+      ],
+      "marcadores": [
+        { "lon": -58.2513, "lat": -34.1826, "etiqueta": "MARTÍN GARCÍA (AR)", "aparecerEn": -1 },
+        { "lon": -58.2850, "lat": -34.0000, "etiqueta": "CARMELO (URUGUAY)", "aparecerEn": -1 },
+        { "lon": -58.5000, "lat": -34.4700, "etiqueta": "SAN ISIDRO (ARGENTINA)", "aparecerEn": -1 },
+        { "lon": -58.2580, "lat": -34.1680, "etiqueta": "TIMOTEO DOMÍNGUEZ (UY)", "aparecerEn": 5 }
+      ],
+      "zooms": [ { "escena": 5, "centro": [-58.254, -34.176], "zoom": 13.0 } ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-06-frontera-campo-de-hielo",
+  "titulo": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
+  "descripcion": "Chile y Argentina comparten una de las fronteras más largas del mundo, y en el Campo de Hielo Patagónico Sur todavía le falta un pedazo. El acuerdo firmado por Eduardo Frei y Carlos Menem en diciembre de 1998 dividió el tramo entre el monte Fitz Roy y el cerro Daudet en dos secciones: una con la línea trazada y otra, entre el Fitz Roy y el cerro Murallón, que espera el mapa de una comisión mixta. Las dos posiciones, sin opinión.\n\nFuentes:\n- Emol (2018): https://www.emol.com/noticias/Nacional/2018/10/16/924088/El-tratado-de-hace-20-anos-que-dejo-pendiente-los-limites-entre-Chile-y-Argentina-en-Campo-de-Hielo-Sur.html\n- Ley argentina 25.110: https://www.argentina.gob.ar/normativa/nacional/ley-25110-58471/texto\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": ["#shorts", "#geografia", "#mapas", "#fronteras", "#chile", "#argentina"],
+  "props": {
+    "id": "2026-11-06-frontera-campo-de-hielo",
+    "cabecera": "CAMPO DE HIELO SUR — LA LÍNEA QUE FALTA",
+    "gancho": {
+      "texto": "Mira la frontera entre Chile y Argentina: más de cinco mil kilómetros de línea. Pero al sur del monte Fitz Roy, se corta. ¿Por qué le falta un pedazo?",
+      "rotulo": "LE FALTA UN PEDAZO"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "La explicación fácil es que ahí nadie se molestó en medir: puro hielo, sin pueblos, sin nada que pelear. Pero ese tramo tiene un acuerdo firmado por dos presidentes y una comisión a cargo. La verdad es más rara.",
+        "rotulo": { "texto": "PURO HIELO", "dice": "hielo" }
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una regla, un acuerdo y un mapa que nadie termina. Y al final, lo que pasa cuando alguien camina por donde no hay línea.",
+        "rotulo": { "texto": "REGLA, ACUERDO, MAPA", "dice": "regla" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la regla. El tratado de 1881 dice que la frontera va por las cumbres más altas que dividen las aguas. En casi todos los Andes eso marca una sola línea. Aquí, bajo casi 17.000 kilómetros cuadrados de hielo, las cumbres y las aguas no siempre coinciden.",
+        "rotulo": { "texto": "1881", "dice": "1881" },
+        "imagen": { "buscar": "Southern Patagonian Ice Field" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el acuerdo. Una primera línea, de 1991, nunca se aprobó. En diciembre de 1998 Eduardo Frei y Carlos Menem firmaron otra. Según el texto del acuerdo, aprobado en Argentina por la ley 25.110, el tramo se parte en dos. Del cerro Murallón al cerro Daudet, la línea queda trazada. Del Fitz Roy al Murallón, no.",
+        "rotulo": { "texto": "PARTIDO EN DOS", "dice": "dos" },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el mapa. Para la parte que falta, el acuerdo encarga un trabajo a una comisión mixta de los dos países: levantar una carta a escala y trazar ahí la línea. Según El Mercurio, esa comisión estuvo inactiva de 1998 a 2006. Y el trabajo todavía no termina.",
+        "rotulo": { "texto": "UNA CARTA", "dice": "carta" },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: si no hay línea, nadie pide permiso. En 2018 una expedición militar argentina pasó por el Circo de los Altares, dentro de la zona sin trazar. El canciller chileno, Roberto Ampuero, dijo que ninguno de los dos países necesita permiso para entrar ahí. Y recordó que Chile también lo había hecho.",
+        "rotulo": { "texto": "SIN PERMISO", "dice": "permiso" }
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy el tramo del Fitz Roy al Murallón sigue en blanco. Muchos mapas lo marcan con una leyenda: límite pendiente. Es el único pedazo sin trazar en más de cinco mil kilómetros de frontera, y está hecho de hielo que se mueve.",
+        "rotulo": { "texto": "PENDIENTE", "dice": "pendiente" }
+      }
+    ],
+    "remate": "El tratado ya tiene la frontera. El hielo todavía no.",
+    "fuentes": [
+      { "texto": "Emol (16-10-2018): El tratado de hace 20 años que dejó pendiente los límites en Campo de Hielo Sur", "url": "https://www.emol.com/noticias/Nacional/2018/10/16/924088/El-tratado-de-hace-20-anos-que-dejo-pendiente-los-limites-entre-Chile-y-Argentina-en-Campo-de-Hielo-Sur.html" },
+      { "texto": "Ley 25.110 (Argentina): aprueba el Acuerdo para precisar el recorrido del límite desde el Monte Fitz Roy hasta el Cerro Daudet", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25110-58471/texto" }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [-73.25, -50.0],
+      "zoomInicial": 6.6,
+      "zoomFinal": 8.6,
+      "lineas": [
+        { "id": "frontera", "fronteraEntre": ["Chile", "Argentina"], "color": "celeste", "estilo": "solida", "dibujarEn": -1 },
+        { "id": "seccion-a", "puntos": [[-73.451, -49.789], [-73.55, -50.10], [-73.45, -50.45], [-73.19, -50.81], [-73.10, -50.775]], "color": "amarillo", "estilo": "solida", "dibujarEn": 3, "etiqueta": "SECCIÓN A" },
+        { "id": "seccion-b", "puntos": [[-73.043, -49.271], [-73.25, -49.53], [-73.451, -49.789]], "color": "coral", "estilo": "punteada", "dibujarEn": 3, "etiqueta": "SIN TRAZAR" }
+      ],
+      "marcadores": [
+        { "lon": -73.043, "lat": -49.271, "etiqueta": "MONTE FITZ ROY", "aparecerEn": -1 },
+        { "lon": -73.451, "lat": -49.789, "etiqueta": "CERRO MURALLÓN", "aparecerEn": 3 },
+        { "lon": -73.10, "lat": -50.775, "etiqueta": "CERRO DAUDET", "aparecerEn": 3 },
+        { "lon": -73.14, "lat": -49.31, "etiqueta": "CIRCO DE LOS ALTARES", "aparecerEn": 5 },
+        { "lon": -72.886, "lat": -49.331, "etiqueta": "EL CHALTÉN", "aparecerEn": 5 }
+      ],
+      "zooms": [ { "escena": 5, "centro": [-73.2, -49.5], "zoom": 8.4 } ]
+    }
+  }
+}
