@@ -9,7 +9,9 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
 
 - **Momentos.** Todo lo que aparece usa `aparecerEn` (o `dice`, `en`): una **palabra exacta del texto de esa línea**
   (`"1929"`, `"Concordia"`; si se repite, `"Perú#2"` es la segunda vez) o **segundos** desde que empieza la línea
-  (`1.5`). El validador rechaza palabras que no estén en el texto.
+  (`1.5`). Coincide por **palabra completa** normalizada (sin tildes ni puntuación): `"Según"` NO calza con
+  `"Segundo"`. El validador rechaza palabras que no estén literales en el texto (y sugiere la parecida) y un `#n`
+  pedido más veces de las que aparece.
 - **Duración.** Lo declarado en una escena desaparece al terminar la escena. `desaparecerEn` lo corta antes;
   `quedarse: n` lo deja n escenas más; `quedarse: "siempre"` hasta el final.
 - **Coordenadas** siempre `[lon, lat]` en grados decimales (oeste y sur negativos).
@@ -29,7 +31,21 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
 5. **La palabra clave vive en el subtítulo** (caja de acento) y, si hace falta, en `contexto` arriba. Nunca rótulos
    gigantes en medio del mapa.
 6. **Cero marca** salvo los 0,8 s finales. **Fuente dicha y mostrada** (`fuente`) al menos una vez.
-7. **Variar entre videos**: `acento` (amarillo · cian · coral), `mapa.mes` (estación del satélite), iconos y
+7. **Nada quieto más de 8 s (automático).** Si un tramo pasa > 8 s sin un cambio notable de encuadre (|Δzoom| ≥ 0,6
+   o el centro se corre ≥ 22 % del ancho), la plantilla inserta un **micro-movimiento** cada 5 s: un paneo lento de
+   15 % del ancho (hacia el centro del plano siguiente si está a la vista; si no, ida y vuelta) alternado con un zoom
+   de ±10 % (primero un pequeño retroceso), con easing largo de 1,2–2,4 s y sin SFX. Un `corte` a un encuadre casi
+   idéntico (salto de pocos px que se lee como error) se convierte solo en paneo suave. Lo hace `microMovimientos`
+   en `frontera/visual.ts`; no hay que escribirlo en el guion, pero un plano propio cada 3–6 s sigue siendo mejor.
+8. **Las etiquetas no se pisan (automático).** Cada etiqueta del mapa (pines, regiones, países, mares, ríos, áreas
+   como `MAR DE PERÚ`, etiquetas de línea y las del remate) es una caja medida; se colocan por prioridad
+   **remate > pin > región/área > país > mar > río > línea** (a igual prioridad, la que apareció antes) y la de
+   menor prioridad se corre a la posición libre más cercana de 8 alrededor de su anclaje (luego un anillo más
+   lejos), con una **línea guía fina** si se alejó > 40 px; si no cabe, se oculta. Esquivan también la franja del
+   subtítulo, el índice, la tarjeta, el contexto, la fuente, el crédito, las cotas y los iconos quietos. Se resuelve
+   con la cámara asentada del plano (no salta durante los vuelos): `frontera/colisiones.ts`. Igual conviene no
+   declarar dos etiquetas a 20 m una de otra.
+9. **Variar entre videos**: `acento` (amarillo · cian · coral), `mapa.mes` (estación del satélite), iconos y
    pictogramas distintos, índice en fila o vertical.
 
 ## 2. Nivel guion
@@ -52,6 +68,9 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
 "rematePlanos": [{ "centro": [-70.3792, -18.3505], "zoom": 16.4, "entrada": "zoom" }, { "centro": [...], "zoom": 17, "entrada": "corte", "en": "Nadie" }]
 ```
 - `mapa.mes` (1–12): Blue Marble mensual (enero = nieve en el norte). Sin `mes`: Blue Marble con relieve sombreado.
+- `mapa.ocultarBordesEn`: polígonos `[[lon, lat], …]` donde no se dibujan los bordes blancos de Natural Earth ni el
+  contorno de las áreas de país (ej. el tramo "sin trazar" de Campo de Hielo Sur, que NE dibuja igual y contradice
+  la historia). `areas[].ocultarBordes: true` (con `poligono`) hace lo mismo solo mientras esa área se ve.
 - `mapa.lineas[]`: `puntos` o `fronteraEntre`, `color` (amarillo = la protagonista, se dibuja con glow · celeste =
   agua y rutas · coral = lo que cambió), `estilo` (solida = hoy · punteada = lo reclamado o lo que fue), `dibujarEn`
   (índice de escena, -1 = gancho) + `dice` (palabra en que empieza a dibujarse), `etiqueta` (transitoria).
@@ -119,7 +138,9 @@ flechas y marcas, se abre desde el centro; el texto va rotado y siempre derecho.
 { "texto": "US$ 50 M", "tipo": "barras", "barras": [{ "etiqueta": "OFERTA", "valor": 50 }, { "etiqueta": "PAGADO", "valor": 10 }] }
 { "texto": "2º", "tipo": "ranking", "sub": "PAÍS MÁS GRANDE DEL MUNDO" }
 ```
-- La cifra cuenta hacia arriba al entrar (los años no: entran fijos). Sin `aparecerEn`, aparece cuando la voz dice el
+- Solo cuentan hacia arriba al entrar las cifras **≥ 100** (`437 KM`, `1.200 KM`); nunca años, fechas ni ordinales.
+  Las menores (`5 CANCHAS`, `3,7 HA`) entran fijas con un pop: "1 CANCHAS → 5 CANCHAS" se leía como error. Al contar
+  cambia solo el número, nunca la palabra. Sin `aparecerEn`, aparece cuando la voz dice el
   número. `pictos` = fila de personitas, canchas, barcos que entran uno a uno (porcentajes, comparaciones).
 
 ### `foto` — pantalla completa 2–3 s (máx. 1 por escena)
@@ -147,8 +168,13 @@ bloques de 2–4 palabras, mayúsculas condensadas, la palabra que suena en caja
 ],
 "indicePosicion": "fila"     // o "vertical-mapa" + "indiceAncla": [lon, lat] (apilado sobre el territorio)
 ```
-Cada ítem entra cuando la voz lo nombra y se queda; en cada `acto` siguiente se ilumina el suyo y los demás se
-apagan. Mientras el índice está arriba, tarjeta, contexto y polaroid bajan solos.
+Cada ítem entra cuando la voz lo nombra y se queda; en cada `acto` siguiente se ilumina el suyo (más grande, en
+acento, con brillo) y los demás quedan al 55 %. Mientras el índice está arriba, tarjeta, contexto y polaroid bajan
+solos; el contexto se corre además según el alto real de la tarjeta (con pictos o barras es más alta).
+
+### Crédito del satélite
+Abajo a la derecha, 22 px, discreto (62 %). Se oculta durante las fotos a pantalla completa, desde que empieza el
+remate y en el cierre; las etiquetas del mapa lo esquivan.
 
 ## 4. Esqueleto de un video (≈ 130 s, 8 líneas de voz)
 
