@@ -1,398 +1,1191 @@
 {
   "plantilla": "frontera",
-  "id": "2026-11-05-frontera-chamizal",
-  "titulo": "¿Por qué México recuperó un barrio encerrando un río en concreto?",
-  "descripcion": "En 1864 una crecida movió el río Bravo hacia el sur y un pedazo de México quedó del lado de El Paso. Casi cien años de reclamos, un arbitraje rechazado y un tratado después, la frontera se arregló de la forma más rara: encerrando al río en cemento.\nLos trazados del río en el mapa son aproximados (ilustrativos).",
+  "id": "prueba-frontera-v2-triangulo",
+  "titulo": "La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena",
+  "descripcion": "En 2014 la Corte Internacional de Justicia fijó el límite marítimo entre Perú y Chile: parte donde el paralelo del Hito 1 toca la orilla. Pero la Corte dijo que no le correspondía ubicar el punto Concordia, donde empieza la frontera terrestre. Entre el hito, ese punto y la costa quedó un triángulo de unas 3,7 hectáreas: Perú dice que la frontera nace en Concordia, Chile dice que nace en el Hito 1.\n\nFuentes:\n- CIJ, Disputa marítima (Perú c. Chile): https://www.icj-cij.org/case/137\n- Cooperativa (2014): https://cooperativa.cl/noticias/pais/relaciones-exteriores/peru/peru-reitero-que-limite-terrestre-comienza-en-el-punto/2014-09-01/061852.html\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
     "#shorts",
     "#geografia",
+    "#mapas",
     "#fronteras",
-    "#mexico",
-    "#elpaso",
-    "#historia"
+    "#peru",
+    "#chile"
   ],
   "props": {
-    "id": "2026-11-05-frontera-chamizal",
-    "cabecera": "EL PASO / JUÁREZ — EL RÍO QUE SE MUDÓ",
+    "id": "prueba-frontera-v2-triangulo",
     "gancho": {
-      "texto": "Mira la frontera entre El Paso y Ciudad Juárez. Hay un parque mexicano que pasó casi cien años del lado de Estados Unidos. Y México lo recuperó sin disparar un tiro. ¿Cómo se devuelve un pedazo de país?",
-      "rotulo": "¿País devuelto?"
+      "texto": "Mira la playa donde termina Chile y empieza Perú. Ahí hay un triángulo de arena del tamaño de unas cinco canchas de fútbol, y los dos países dicen que es suyo. ¿Cómo quedó así?",
+      "rotulo": "5 CANCHAS DE ARENA",
+      "planos": [
+        {
+          "centro": [
+            -71.0,
+            -18.6
+          ],
+          "zoom": 6.1,
+          "entrada": "corte",
+          "deriva": 0.45
+        },
+        {
+          "centro": [
+            -70.3777,
+            -18.351
+          ],
+          "zoom": 16.8,
+          "entrada": "zoom",
+          "en": "triángulo",
+          "deriva": 0.35
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "verde",
+          "etiqueta": "PERÚ",
+          "etiquetaEn": [
+            -72.3,
+            -15.4
+          ],
+          "aparecerEn": "Perú",
+          "desaparecerEn": "triángulo"
+        },
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "etiqueta": "CHILE",
+          "etiquetaEn": [
+            -69.5,
+            -21.6
+          ],
+          "aparecerEn": "Chile",
+          "desaparecerEn": "triángulo"
+        },
+        {
+          "poligono": [
+            [
+              -70.37632,
+              -18.35012
+            ],
+            [
+              -70.3786,
+              -18.35012
+            ],
+            [
+              -70.3783,
+              -18.3523
+            ]
+          ],
+          "color": "amarillo",
+          "aparecerEn": "cinco"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -74.4,
+          "lat": -21.0,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "playa"
+        },
+        {
+          "lon": -70.3755,
+          "lat": -18.3488,
+          "texto": "PERÚ",
+          "tipo": "region",
+          "aparecerEn": "dicen"
+        },
+        {
+          "lon": -70.3768,
+          "lat": -18.3532,
+          "texto": "CHILE",
+          "tipo": "region",
+          "aparecerEn": "dicen"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "5 CANCHAS",
+          "sub": "DE ARENA EN DISPUTA",
+          "pictos": {
+            "icono": "⚽",
+            "n": 5
+          },
+          "aparecerEn": "cinco",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO QUEDÓ ASÍ?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "Chile",
+        "Perú",
+        "triángulo",
+        "cinco"
+      ]
     },
     "escenas": [
       {
         "tipo": "mito",
-        "texto": "Dicen que Estados Unidos se quedó con esa tierra en una guerra, como con medio México en 1848. Suena lógico. Pero no hubo guerra, ni compra, ni invasión. La verdad es más rara.",
-        "rotulo": {
-          "texto": "¿Una guerra?",
-          "dice": "guerra"
-        }
+        "texto": "La explicación fácil es que el fallo de La Haya, en 2014, cerró de una vez la frontera entre Perú y Chile. Repartió el mar y se acabó el tema. La verdad es más rara.",
+        "planos": [
+          {
+            "centro": [
+              -71.5,
+              -18.8
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.6,
+              -18.9
+            ],
+            "zoom": 7.0,
+            "entrada": "corte",
+            "en": "Repartió",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -70.3777,
+              -18.351
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.4
+          }
+        ],
+        "foto": {
+          "buscar": "International Court of Justice HQ",
+          "archivo": "File:International Court of Justice HQ 2006.jpg",
+          "pie": "LA HAYA · CORTE INTERNACIONAL DE JUSTICIA",
+          "aparecerEn": "Haya",
+          "duracionSeg": 2.4
+        },
+        "tarjetas": [
+          {
+            "texto": "2014",
+            "sub": "EL FALLO DE LA HAYA",
+            "icono": "tribunal",
+            "aparecerEn": "frontera"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.3786,
+                -18.3501
+              ],
+              [
+                -71.34,
+                -17.7
+              ],
+              [
+                -72.3,
+                -16.95
+              ],
+              [
+                -73.7,
+                -17.25
+              ],
+              [
+                -72.6,
+                -19.1
+              ],
+              [
+                -71.78,
+                -18.3501
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "MAR DE PERÚ",
+            "etiquetaEn": [
+              -72.6,
+              -17.6
+            ],
+            "aparecerEn": "Repartió",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "poligono": [
+              [
+                -70.3786,
+                -18.3501
+              ],
+              [
+                -71.78,
+                -18.3501
+              ],
+              [
+                -72.6,
+                -19.1
+              ],
+              [
+                -72.6,
+                -20.6
+              ],
+              [
+                -70.25,
+                -20.6
+              ],
+              [
+                -70.33,
+                -18.75
+              ],
+              [
+                -70.31,
+                -18.48
+              ]
+            ],
+            "color": "rojo",
+            "etiqueta": "MAR DE CHILE",
+            "etiquetaEn": [
+              -71.6,
+              -19.7
+            ],
+            "aparecerEn": "Repartió",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.2,
+            "lat": -17.6,
+            "icono": "✅",
+            "escala": 1.3,
+            "aparecerEn": "acabó",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "2014",
+          "Perú",
+          "Chile",
+          "rara"
+        ]
       },
       {
         "tipo": "mapa-de-ruta",
-        "texto": "Todo se explica con dos cosas: un río que no se quedaba quieto y un tratado que sí. Primero, el río.",
-        "rotulo": {
-          "texto": "Un río",
-          "dice": "río"
-        }
+        "texto": "Todo se explica con dos puntos en la arena: un hito de concreto y un punto llamado Concordia. Y al final, lo que la Corte decidió no decidir.",
+        "planos": [
+          {
+            "centro": [
+              -70.3777,
+              -18.351
+            ],
+            "zoom": 15.4,
+            "entrada": "corte",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -70.37632,
+              -18.35012
+            ],
+            "zoom": 16.8,
+            "entrada": "zoom",
+            "en": "hito",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -70.3783,
+              -18.3523
+            ],
+            "zoom": 16.8,
+            "entrada": "paneo",
+            "en": "Concordia",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -71.4,
+              -18.6
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "Corte",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "⚖️",
+            "texto": "CONCORDIA",
+            "dice": "puntos"
+          },
+          {
+            "icono": "📍",
+            "texto": "HITO",
+            "dice": "hito"
+          },
+          {
+            "icono": "🌊",
+            "texto": "EL MAR",
+            "dice": "Corte"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.37632,
+            "lat": -18.35012,
+            "texto": "HITO 1",
+            "tipo": "pin",
+            "aparecerEn": "hito",
+            "desaparecerEn": "Corte"
+          },
+          {
+            "lon": -70.38,
+            "lat": -18.3548,
+            "texto": "PUNTO CONCORDIA",
+            "tipo": "region",
+            "aparecerEn": "Concordia",
+            "desaparecerEn": "Corte"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.3783,
+            "lat": -18.3523,
+            "icono": "📍",
+            "escala": 0.7,
+            "aparecerEn": "Concordia",
+            "desaparecerEn": "Corte"
+          }
+        ],
+        "clave": [
+          "dos",
+          "hito",
+          "Concordia",
+          "Corte"
+        ]
       },
       {
         "tipo": "acto",
-        "texto": "Después de la guerra de 1848, los dos países acordaron que la frontera iría por el canal más profundo del río Bravo, que en Estados Unidos llaman Río Grande. Una línea de agua. El problema es que el agua se mueve.",
-        "rotulo": {
-          "texto": "Una línea de agua",
-          "dice": "línea"
+        "texto": "Primero, Concordia. Chile y Perú firman el Tratado de Lima en 1929. Según el tratado, la frontera empieza en un punto de la costa llamado Concordia, a diez kilómetros del puente sobre el río Lluta. Perú dice que ese punto está en la orilla del mar, y que la línea nace ahí.",
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -18.24
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.34,
+              -18.38
+            ],
+            "zoom": 12,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.335,
+              -18.39
+            ],
+            "zoom": 13.2,
+            "entrada": "paneo",
+            "en": "diez",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3783,
+              -18.3523
+            ],
+            "zoom": 16.9,
+            "entrada": "zoom",
+            "en": "Perú#2",
+            "deriva": 0.25
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Chile",
+            "color": "rojo",
+            "aparecerEn": "Chile",
+            "desaparecerEn": "Según"
+          },
+          {
+            "pais": "Peru",
+            "color": "verde",
+            "aparecerEn": "Perú",
+            "desaparecerEn": "Según"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Chile",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Perú",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -70.27,
+            "lat": -18.392,
+            "texto": "RÍO LLUTA",
+            "tipo": "rio",
+            "rotacion": -14,
+            "aparecerEn": "Lluta"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.3783,
+              -18.3523
+            ],
+            "hasta": [
+              -70.3,
+              -18.41
+            ],
+            "texto": "10 KM",
+            "aparecerEn": "kilómetros",
+            "desaparecerEn": "Perú#2"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.3,
+            "lat": -18.41,
+            "icono": "🌉",
+            "escala": 0.8,
+            "aparecerEn": "puente",
+            "desaparecerEn": "Perú#2"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1929",
+            "sub": "TRATADO DE LIMA",
+            "icono": "tratado",
+            "aparecerEn": "1929"
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Lima (1929), artículo 2",
+          "dice": "Según"
         },
-        "imagen": {
-          "buscar": "Rio Grande El Paso Juarez"
-        }
-      },
-      {
-        "tipo": "acto",
-        "texto": "En 1864 llegó una crecida enorme. El río se salió de su cauce y, cuando bajó, corría bastante más al sur. Así, tierras que estaban en México amanecieron en la orilla de El Paso.",
-        "rotulo": {
-          "texto": "1864",
-          "dice": "1864"
-        }
-      },
-      {
-        "tipo": "acto",
-        "texto": "Según la Oficina del Historiador del Departamento de Estado, México reclamó esa franja durante décadas. En 1911 un arbitraje le dio la razón en parte, pero Washington rechazó el fallo. El terreno quedó en un limbo de medio siglo.",
-        "rotulo": {
-          "texto": "Limbo",
-          "dice": "limbo"
+        "contexto": {
+          "texto": "SEGÚN PERÚ",
+          "dice": "Perú#2"
         },
-        "fuenteEnVoz": true
+        "clave": [
+          "Concordia",
+          "1929",
+          "Lima",
+          "diez",
+          "Lluta",
+          "orilla"
+        ]
       },
       {
         "tipo": "acto",
-        "texto": "Segundo, el tratado. En 1963 los dos gobiernos firmaron la Convención del Chamizal. México recuperaba 437 acres, unas 177 hectáreas. En 1964, los presidentes Lyndon Johnson y Adolfo López Mateos se reunieron en la frontera para ponerla en marcha.",
-        "rotulo": {
-          "texto": "177 hectáreas",
-          "dice": "177"
+        "texto": "Segundo, el hito. En 1930 una comisión de los dos países levanta el Hito 1, unos metros tierra adentro. Chile dice que la frontera empieza justo ahí, en el hito. Entre un punto y el otro hay apenas unos 260 metros de playa.",
+        "planos": [
+          {
+            "centro": [
+              -70.37,
+              -18.36
+            ],
+            "zoom": 13.4,
+            "entrada": "corte",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -70.37632,
+              -18.35012
+            ],
+            "zoom": 16.6,
+            "entrada": "zoom",
+            "en": "Hito",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3768,
+              -18.3505
+            ],
+            "zoom": 17,
+            "entrada": "corte",
+            "en": "Chile",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -70.3773,
+              -18.3512
+            ],
+            "zoom": 17,
+            "entrada": "corte",
+            "en": "Entre",
+            "deriva": -0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1930",
+            "sub": "COMISIÓN MIXTA",
+            "icono": "bandera",
+            "aparecerEn": "1930",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.37632,
+            "lat": -18.35012,
+            "texto": "HITO 1",
+            "tipo": "pin",
+            "aparecerEn": "Hito",
+            "quedarse": "siempre"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -70.37632,
+            "lat": -18.35012,
+            "radio": 80,
+            "aparecerEn": "ahí"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.37632,
+              -18.35012
+            ],
+            "hasta": [
+              -70.3783,
+              -18.3523
+            ],
+            "texto": "260 M",
+            "aparecerEn": "260"
+          }
+        ],
+        "contexto": {
+          "texto": "SEGÚN CHILE",
+          "dice": "Chile"
         },
-        "imagen": {
-          "buscar": "Lyndon Johnson Adolfo Lopez Mateos"
-        }
+        "clave": [
+          "1930",
+          "Hito",
+          "Chile",
+          "260"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el mar. Perú demanda a Chile en 2008. La Corte Internacional de Justicia falla en enero de 2014. Según su sentencia, el límite marítimo sigue el paralelo del Hito 1 durante 80 millas náuticas. Después baja en diagonal hacia el suroeste. El océano queda repartido.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -71.5,
+              -18.7
+            ],
+            "zoom": 7.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.0,
+              -18.4
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.9,
+              -18.9
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Después",
+            "deriva": 0.25
+          }
+        ],
+        "polaroid": {
+          "buscar": "Peace Palace The Hague",
+          "archivo": "File:Peace Palace The Hague 1.jpg",
+          "pie": "Palacio de la Paz, La Haya (sede de la CIJ)",
+          "anio": "2014",
+          "lado": "derecha",
+          "aparecerEn": "Corte",
+          "duracionSeg": 3.8
+        },
+        "etiquetas": [
+          {
+            "lon": -73.2,
+            "lat": -20.6,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "mar"
+          },
+          {
+            "lon": -70.5,
+            "lat": -17.2,
+            "texto": "PERÚ",
+            "tipo": "pais",
+            "aparecerEn": "Perú"
+          },
+          {
+            "lon": -69.6,
+            "lat": -19.6,
+            "texto": "CHILE",
+            "tipo": "pais",
+            "aparecerEn": "Chile"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.4,
+              -18.12
+            ],
+            "hasta": [
+              -71.78,
+              -18.12
+            ],
+            "texto": "80 MILLAS",
+            "aparecerEn": "80"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.3786,
+                -18.3501
+              ],
+              [
+                -71.34,
+                -17.7
+              ],
+              [
+                -72.3,
+                -16.95
+              ],
+              [
+                -73.7,
+                -17.25
+              ],
+              [
+                -72.6,
+                -19.1
+              ],
+              [
+                -71.78,
+                -18.3501
+              ]
+            ],
+            "color": "verde",
+            "aparecerEn": "repartido"
+          },
+          {
+            "poligono": [
+              [
+                -70.3786,
+                -18.3501
+              ],
+              [
+                -71.78,
+                -18.3501
+              ],
+              [
+                -72.6,
+                -19.1
+              ],
+              [
+                -72.6,
+                -20.6
+              ],
+              [
+                -70.25,
+                -20.6
+              ],
+              [
+                -70.33,
+                -18.75
+              ],
+              [
+                -70.31,
+                -18.48
+              ]
+            ],
+            "color": "rojo",
+            "aparecerEn": "repartido"
+          }
+        ],
+        "fuente": {
+          "texto": "Corte Internacional de Justicia · sentencia del 27-1-2014",
+          "dice": "Según"
+        },
+        "clave": [
+          "2008",
+          "2014",
+          "Hito",
+          "80",
+          "suroeste"
+        ]
       },
       {
         "tipo": "giro",
-        "texto": "Y aquí está el giro: para que la frontera no se moviera nunca más, encerraron al río en concreto. Según la Comisión Internacional de Límites y Aguas, excavaron un cauce nuevo de 4,4 millas, unos siete kilómetros, y lo revistieron entero. La línea ya no la decide el agua.",
-        "rotulo": {
-          "texto": "Río de concreto",
-          "dice": "concreto"
+        "texto": "Y aquí está el giro: la línea en el mar parte donde el paralelo del Hito 1 toca la orilla. Y la Corte dijo que no le correspondía ubicar el punto Concordia. Entre el hito, ese punto y el agua quedó un triángulo de casi cuatro hectáreas. Seis años de juicio por el océano, y lo pendiente es la arena.",
+        "planos": [
+          {
+            "centro": [
+              -70.3786,
+              -18.3501
+            ],
+            "zoom": 14.6,
+            "entrada": "zoom",
+            "deriva": 0.5
+          },
+          {
+            "centro": [
+              -70.3786,
+              -18.3501
+            ],
+            "zoom": 17,
+            "entrada": "corte",
+            "en": "orilla",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -70.3783,
+              -18.3523
+            ],
+            "zoom": 16.8,
+            "entrada": "paneo",
+            "en": "Corte",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -70.3778,
+              -18.3509
+            ],
+            "zoom": 17,
+            "entrada": "corte",
+            "en": "Entre",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -70.4,
+              -18.36
+            ],
+            "zoom": 12.6,
+            "entrada": "zoom",
+            "en": "Seis",
+            "deriva": 0.3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
         },
-        "fuenteEnVoz": true
+        "resaltes": [
+          {
+            "lon": -70.3786,
+            "lat": -18.35012,
+            "radio": 110,
+            "aparecerEn": "orilla"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.3783,
+            "lat": -18.3523,
+            "icono": "📍",
+            "escala": 0.8,
+            "tachado": true,
+            "aparecerEn": "correspondía",
+            "desaparecerEn": "Entre"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.37632,
+                -18.35012
+              ],
+              [
+                -70.3786,
+                -18.35012
+              ],
+              [
+                -70.3783,
+                -18.3523
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "EL TRIÁNGULO",
+            "etiquetaEn": [
+              -70.379,
+              -18.3483
+            ],
+            "aparecerEn": "triángulo",
+            "quedarse": "siempre"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3,7 HA",
+            "sub": "CINCO CANCHAS DE FÚTBOL",
+            "icono": "⚽",
+            "aparecerEn": "hectáreas",
+            "duracionSeg": 3.0
+          }
+        ],
+        "clave": [
+          "giro",
+          "Hito",
+          "Concordia",
+          "triángulo",
+          "cuatro",
+          "arena"
+        ]
       },
       {
         "tipo": "hoy",
-        "texto": "Hoy, la tierra devuelta es el Parque Público Federal El Chamizal, uno de los parques más grandes de Ciudad Juárez. Del otro lado, un memorial nacional recuerda el acuerdo. Y entre los dos corre un río recto, de cemento, que ya no puede cambiar de opinión.",
-        "rotulo": {
-          "texto": "El Chamizal",
-          "dice": "Chamizal"
+        "texto": "Hoy Perú dice que el triángulo es peruano. Chile dice que es chileno. Los dos gobiernos se han mandado notas de protesta por esa playa. Y en la playa misma no hay casas, ni rejas, ni nada que repartir: arena, un hito de concreto y el Pacífico.",
+        "planos": [
+          {
+            "centro": [
+              -70.3778,
+              -18.3509
+            ],
+            "zoom": 16.9,
+            "entrada": "corte",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -70.3772,
+              -18.3515
+            ],
+            "zoom": 17,
+            "entrada": "paneo",
+            "en": "Chile",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -70.3,
+              -18.25
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "en": "Los",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3768,
+              -18.3515
+            ],
+            "zoom": 16.4,
+            "entrada": "zoom",
+            "en": "misma",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.3755,
+            "lat": -18.3488,
+            "texto": "PERÚ",
+            "tipo": "region",
+            "aparecerEn": "peruano",
+            "desaparecerEn": "Los"
+          },
+          {
+            "lon": -70.3768,
+            "lat": -18.3532,
+            "texto": "CHILE",
+            "tipo": "region",
+            "aparecerEn": "chileno",
+            "desaparecerEn": "Los"
+          },
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Los",
+            "desaparecerEn": "misma"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Los",
+            "desaparecerEn": "misma"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.25,
+            "lat": -18.05,
+            "icono": "tratado",
+            "ruta": [
+              [
+                -70.25,
+                -18.06
+              ],
+              [
+                -70.36,
+                -18.25
+              ],
+              [
+                -70.31,
+                -18.44
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "aparecerEn": "notas",
+            "desaparecerEn": "misma"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.44,
+            "icono": "tratado",
+            "ruta": [
+              [
+                -70.31,
+                -18.44
+              ],
+              [
+                -70.2,
+                -18.25
+              ],
+              [
+                -70.25,
+                -18.06
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "aparecerEn": "protesta",
+            "desaparecerEn": "misma"
+          },
+          {
+            "lon": -70.3762,
+            "lat": -18.3522,
+            "icono": "🏠",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "casas"
+          },
+          {
+            "lon": -70.3786,
+            "lat": -18.3512,
+            "icono": "🚧",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "rejas"
+          }
+        ],
+        "contexto": {
+          "texto": "NOTAS DE PROTESTA",
+          "dice": "protesta"
         },
-        "imagen": {
-          "buscar": "Chamizal National Memorial"
-        }
+        "foto": {
+          "buscar": "Playa las machas Arica",
+          "archivo": "File:Playa las machas.jpg",
+          "pie": "PLAYA LAS MACHAS · ARICA, HACIA LA FRONTERA",
+          "aparecerEn": "arena",
+          "duracionSeg": 2.6
+        },
+        "clave": [
+          "Perú",
+          "Chile",
+          "protesta",
+          "arena",
+          "Pacífico"
+        ]
       }
     ],
-    "remate": "El río movió la frontera sin pedir permiso. La frontera encerró al río para no moverse más.",
+    "remate": "La Corte trazó la línea en el agua. Nadie ha trazado la línea en la arena.",
     "fuentes": [
       {
-        "texto": "Office of the Historian, U.S. Department of State — documentos sobre El Chamizal (arbitraje de 1911 y Convención de 1963)",
-        "url": "https://history.state.gov/search?q=chamizal+convention"
+        "texto": "Corte Internacional de Justicia: Disputa marítima (Perú c. Chile), sentencia del 27-1-2014",
+        "url": "https://www.icj-cij.org/case/137"
       },
       {
-        "texto": "Comisión Internacional de Límites y Aguas (IBWC) — historia",
-        "url": "https://www.ibwc.gov/about-us/history/"
+        "texto": "Cooperativa (1-9-2014): Perú reiteró que límite terrestre comienza en el Punto Concordia",
+        "url": "https://cooperativa.cl/noticias/pais/relaciones-exteriores/peru/peru-reitero-que-limite-terrestre-comienza-en-el-punto/2014-09-01/061852.html"
       },
       {
-        "texto": "National Park Service — Chamizal National Memorial, historia",
-        "url": "https://www.nps.gov/cham/learn/historyculture/index.htm"
+        "texto": "24 Horas: El triángulo terrestre que sigue dividiendo a Chile y Perú",
+        "url": "https://www.24horas.cl/internacional/juicioenlahaya/el-triangulo-terrestre-que-sigue-dividiendo-a-chile-y-peru-1049719"
       }
     ],
     "mapa": {
       "fondo": "satelite",
       "centro": [
-        -106.45,
-        31.75
+        -70.377,
+        -18.351
       ],
-      "zoomInicial": 13.3,
-      "zoomFinal": 13.9,
+      "zoomInicial": 10.5,
+      "zoomFinal": 15.5,
       "lineas": [
         {
-          "id": "frontera-hoy",
-          "color": "celeste",
-          "estilo": "punteada",
-          "dibujarEn": -1,
+          "id": "limite-terrestre",
           "puntos": [
             [
-              -106.51,
-              31.7612
+              -70.37632,
+              -18.35012
             ],
             [
-              -106.499,
-              31.755
+              -70.37399,
+              -18.34685
             ],
             [
-              -106.4876,
-              31.7487
+              -70.37052,
+              -18.34246
             ],
             [
-              -106.48,
-              31.7498
-            ],
-            [
-              -106.472,
-              31.753
-            ],
-            [
-              -106.465,
-              31.758
-            ],
-            [
-              -106.458,
-              31.762
-            ],
-            [
-              -106.45,
-              31.7642
-            ],
-            [
-              -106.442,
-              31.761
-            ],
-            [
-              -106.434,
-              31.7555
-            ],
-            [
-              -106.42,
-              31.7522
-            ],
-            [
-              -106.41,
-              31.748
-            ],
-            [
-              -106.39,
-              31.739
+              -70.3639,
+              -18.3354
             ]
-          ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "frontera"
         },
         {
-          "id": "rio-1852",
+          "id": "linea-concordia",
+          "puntos": [
+            [
+              -70.3783,
+              -18.3523
+            ],
+            [
+              -70.37632,
+              -18.35012
+            ]
+          ],
           "color": "amarillo",
           "estilo": "punteada",
           "dibujarEn": 2,
-          "etiqueta": "Río en 1852",
-          "puntos": [
-            [
-              -106.51,
-              31.7625
-            ],
-            [
-              -106.499,
-              31.7565
-            ],
-            [
-              -106.4876,
-              31.7505
-            ],
-            [
-              -106.479,
-              31.7525
-            ],
-            [
-              -106.471,
-              31.7565
-            ],
-            [
-              -106.464,
-              31.7615
-            ],
-            [
-              -106.457,
-              31.766
-            ],
-            [
-              -106.449,
-              31.768
-            ],
-            [
-              -106.441,
-              31.765
-            ],
-            [
-              -106.433,
-              31.759
-            ],
-            [
-              -106.42,
-              31.7535
-            ],
-            [
-              -106.41,
-              31.7495
-            ],
-            [
-              -106.39,
-              31.7405
-            ]
-          ]
+          "dice": "orilla",
+          "etiqueta": "SEGÚN PERÚ"
         },
         {
-          "id": "rio-1864",
-          "color": "coral",
-          "estilo": "punteada",
-          "dibujarEn": 3,
-          "etiqueta": "Río tras 1864",
+          "id": "paralelo",
           "puntos": [
             [
-              -106.4876,
-              31.7487
+              -70.3786,
+              -18.35012
             ],
             [
-              -106.478,
-              31.7495
+              -71.78,
+              -18.35012
             ],
             [
-              -106.472,
-              31.7515
-            ],
-            [
-              -106.465,
-              31.7522
-            ],
-            [
-              -106.457,
-              31.754
-            ],
-            [
-              -106.45,
-              31.7555
-            ],
-            [
-              -106.442,
-              31.7552
-            ],
-            [
-              -106.434,
-              31.755
-            ],
-            [
-              -106.42,
-              31.7522
+              -72.6,
+              -19.1
             ]
-          ]
-        },
-        {
-          "id": "canal-1968",
+          ],
           "color": "celeste",
           "estilo": "solida",
-          "dibujarEn": 6,
-          "etiqueta": "Canal de concreto",
-          "puntos": [
-            [
-              -106.51,
-              31.7612
-            ],
-            [
-              -106.499,
-              31.755
-            ],
-            [
-              -106.4876,
-              31.7487
-            ],
-            [
-              -106.48,
-              31.7498
-            ],
-            [
-              -106.472,
-              31.753
-            ],
-            [
-              -106.465,
-              31.758
-            ],
-            [
-              -106.458,
-              31.762
-            ],
-            [
-              -106.45,
-              31.7642
-            ],
-            [
-              -106.442,
-              31.761
-            ],
-            [
-              -106.434,
-              31.7555
-            ],
-            [
-              -106.42,
-              31.7522
-            ],
-            [
-              -106.41,
-              31.748
-            ],
-            [
-              -106.39,
-              31.739
-            ]
-          ]
-        }
-      ],
-      "marcadores": [
-        {
-          "lon": -106.487,
-          "lat": 31.776,
-          "etiqueta": "EL PASO",
-          "aparecerEn": -1
-        },
-        {
-          "lon": -106.472,
-          "lat": 31.728,
-          "etiqueta": "CIUDAD JUÁREZ",
-          "aparecerEn": -1
-        },
-        {
-          "lon": -106.457,
-          "lat": 31.7575,
-          "etiqueta": "EL CHAMIZAL",
-          "aparecerEn": 7
-        }
-      ],
-      "zooms": [
-        {
-          "escena": 2,
-          "centro": [
-            -106.462,
-            31.756
-          ],
-          "zoom": 13.9
-        },
-        {
-          "escena": 5,
-          "centro": [
-            -106.456,
-            31.757
-          ],
-          "zoom": 14.2
-        },
-        {
-          "escena": 7,
-          "centro": [
-            -106.458,
-            31.755
-          ],
-          "zoom": 13.8
+          "dibujarEn": 4,
+          "dice": "paralelo",
+          "etiqueta": "LÍMITE MARÍTIMO"
         }
       ]
-    }
+    },
+    "acento": "amarillo",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ES ESTA PLAYA?",
+      "clave": "PLAYA",
+      "paises": [
+        "Peru",
+        "Chile"
+      ],
+      "centro": [
+        -70.9,
+        -18.6
+      ],
+      "zoom": 4.9,
+      "pines": [
+        {
+          "lon": -70.37632,
+          "lat": -18.35012,
+          "texto": "HITO 1"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -70.3814,
+        "lat": -18.3484,
+        "texto": "LA LÍNEA EN EL AGUA"
+      },
+      {
+        "lon": -70.3776,
+        "lat": -18.3528,
+        "texto": "¿Y LA ARENA?"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.3792,
+          -18.3505
+        ],
+        "zoom": 16.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -70.3778,
+          -18.3509
+        ],
+        "zoom": 17,
+        "entrada": "corte",
+        "en": "Nadie",
+        "deriva": 0.2
+      }
+    ],
+    "cabecera": "HITO 1 — EL TRIÁNGULO DE ARENA"
   }
 }
