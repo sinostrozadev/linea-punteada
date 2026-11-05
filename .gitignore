@@ -1,0 +1,28 @@
+.env
+*.log
+node_modules/
+public/audio/generado/
+public/sim/
+public/voz/
+.remotion/
+secrets/
+public/imagenes/
+# Recortes satelitales de NASA GIBS: se regeneran con preparar-frontera (caché por URL).
+public/mapas/
+# salida/: lo pesado se ignora (mp4, wav, simulaciones, logs, pruebas). Se commitea solo el estado
+# liviano que mantiene la producción en la nube (.github/workflows/producir.yml): json de la bandeja
+# y de las compilaciones, la lista manual y las hojas de contacto.
+salida/*
+!salida/bandeja/
+salida/bandeja/*
+!salida/bandeja/*.json
+!salida/bandeja/PARA-SUBIR-A-MANO.md
+!salida/compilaciones/
+salida/compilaciones/*
+!salida/compilaciones/*.json
+!salida/revisiones/
+salida/revisiones/*
+!salida/revisiones/ULTIMA.md
+!salida/revisiones/hojas/
+salida/revisiones/hojas/*
+!salida/revisiones/hojas/*.jpg
