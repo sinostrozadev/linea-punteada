@@ -6,7 +6,7 @@
 - **Canal creado: https://www.youtube.com/@lineapunteada** (id `UCp05AZK18-TL8pp74ntbdUw`), canal de marca de la
   cuenta sinostrozadev, con avatar, banner, marca de agua y descripción publicados.
 
-## 1. Audiencia del canal ("hecho para niños": NO) — tu clic, 30 segundos
+## ✅ 1. Audiencia del canal: "not made for kids" (Santiago lo marcó 2026-11-05 ~01:00; verificado por Claude)
 El script de subida por Studio hereda la audiencia del canal y se niega a subir si no está en "Not made for kids".
 Es una declaración legal (COPPA) y la marcas tú:
 - Studio → Settings → Channel → **Advanced settings** → "Audience" → **"No, set this channel as not made for kids"** → Save.
