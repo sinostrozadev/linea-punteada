@@ -6,15 +6,15 @@ import { cargarFuentes } from '../../marca/fuentes';
 import { ImagenResuelta, ImagenesResueltas } from '../comun/guion';
 import { estimarTiempos, planificar, type Plan, type Tiempos } from '../comun/plan';
 import { Pin } from '../frontera/Mapa';
-import { FRAMES_CIERRE_V2, T_TITULO, camaraEn } from '../frontera/visual';
+import { FRAMES_CIERRE_V2, T_TITULO, camaraAsentada, camaraEn } from '../frontera/visual';
 import { CamposLugar, FondoNivel, type ModoKenBurns } from './guion';
 import { FotoKenBurns } from './FotoKenBurns';
 import { MapaLugarVista, inicioDeEscenaLugar } from './MapaLugar';
 import {
-  OFFSET_COMPLETO, PUNTO_Y_COMPLETO, SOLAPE, alfaInset, bloqueEn, fotoTapaMapa, visualLugar, zoomCompletoEn, kenBurnsDelPlan, vistasDelPlan, zoomInsetEn,
+  OFFSET_COMPLETO, PUNTO_Y_COMPLETO, SOLAPE, proyeccionLugar, alfaInset, bloqueEn, fotoTapaMapa, visualLugar, zoomCompletoEn, kenBurnsDelPlan, vistasDelPlan, zoomInsetEn,
 } from './camara';
 import { CapasMapa, paisPorNombre } from './compartido/CapasMapa';
-import { CapasPantalla, CierreV2 } from './compartido/CapasPantalla';
+import { CapasPantalla, CierreV2, reservasPantalla } from './compartido/CapasPantalla';
 import { ALTO_MAPA_TITULO, TarjetaTituloBase } from './compartido/TarjetaTituloBase';
 
 /** Props de la composición: el guion + lo que agrega preparar-lugar. */
@@ -112,6 +112,12 @@ export const Lugar: React.FC<PropsLugar> = (props) => {
     ? camaraEn(vis.planos, t)
     : { centro: props.mapa.punto, zoom: zoomCompletoEn(props.mapa, frame, plan.duracionFrames, FPS, apariciones, FORMATO.alto) };
   const fyMapa = vis.v2 ? FY_V2 : PUNTO_Y_COMPLETO;
+  // Anticolisión de etiquetas: cámara asentada del plano (estable en los vuelos) + lo que ocupan las capas de encima.
+  const hayRasterMapa = fondos.length > 0 && Math.abs(props.mapa.punto[1]) <= 60;
+  const camRef = vis.v2 ? camaraAsentada(vis.planos, t) : cam;
+  const proyRef = proyeccionLugar(camRef.centro, camRef.zoom, FORMATO.ancho, FORMATO.alto, fyMapa, hayRasterMapa).clipExtent(null);
+  const xyRef = (p: [number, number]) => (proyRef(p) as [number, number] | null) ?? null;
+  const reservas = reservasPantalla(vis, t, FORMATO.ancho);
   const zInset = vis.v2 ? Math.max(1.5, cam.zoom - OFFSET_COMPLETO) : zoomInsetEn(props.mapa, frame, plan.duracionFrames);
 
   // Segmentos de foto: cada plano de una línea con vista foto es un corte a otro Ken Burns.
@@ -161,7 +167,7 @@ export const Lugar: React.FC<PropsLugar> = (props) => {
       {!fotoTapaMapa(plan, vistas, frame) && (
         <MapaLugarVista mapa={props.mapa} fondos={fondos} ancho={FORMATO.ancho} alto={FORMATO.alto} zoom={cam.zoom} frame={frame} fps={FPS}
           modo="completo" apariciones={apariciones} centro={cam.centro} fy={fyMapa} v2
-          capas={(xy, camino, pxKm) => <CapasMapa vis={vis} t={t} xy={xy} camino={camino} acento={acento} ancho={FORMATO.ancho} alto={FORMATO.alto} pxKm={pxKm} />} />
+          capas={(xy, camino, pxKm) => <CapasMapa vis={vis} t={t} xy={xy} camino={camino} acento={acento} ancho={FORMATO.ancho} alto={FORMATO.alto} pxKm={pxKm} xyRef={xyRef} reservas={reservas} />} />
       )}
       {segmentos.map((s, n) => (
         <Sequence key={`f-${n}`} from={s.desde} durationInFrames={Math.max(1, s.frames)}>
