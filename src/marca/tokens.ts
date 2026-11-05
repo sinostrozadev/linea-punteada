@@ -31,6 +31,25 @@ export const PALETA = {
 /** Colores con nombre que pueden pedir los guiones (líneas del mapa, marcadores). */
 export const COLORES_GUION = { amarillo: PALETA.amarillo, celeste: PALETA.celeste, coral: PALETA.coral } as const;
 
+/**
+ * Máscaras de territorio (frontera v2): rayas diagonales translúcidas + borde. Tonos un poco más
+ * apagados que la paleta de texto para que el satélite se siga leyendo debajo.
+ */
+export const COLORES_MASCARA = {
+  verde: '#3FBF6A',
+  rojo: '#F0646A',
+  violeta: '#8E7CF0',
+  amarillo: '#FFC94A',
+  azul: '#4FA3F7',
+} as const;
+
+/** Color de acento por video (caja del subtítulo, palabra clave del título, tarjetas). Amarillo por defecto. */
+export const ACENTOS = { amarillo: '#FFD23F', cian: '#3EC6E8', coral: '#FF6B5E' } as const;
+export type Acento = keyof typeof ACENTOS;
+
+/** Océano oscuro y brillo de costa del mapa satelital (frontera v2). */
+export const MAPA = { oceano: '#0A2A4A', costa: '#CFE9FF', borde: '#FFFFFF', pin: '#E8384F' } as const;
+
 /** Fondo con transparencia (para velos sobre el mapa). */
 export const fondoAlfa = (a: number) => `rgba(11,29,46,${a})`;
 
@@ -42,6 +61,12 @@ export const TIPO = {
   /** Bricolage Grotesque llega hasta 800 en Google Fonts (900 no existe): el rótulo usa 800 + borde grueso. */
   pesoRotulo: 800,
   pesoDisplay: 800,
+  /** Condensada en mayúsculas para subtítulos, etiquetas de mapa y tarjetas (estilo Ñerd). */
+  condensada: 'Bebas Neue',
+  /** Condensada con peso (alternativa más gruesa para cifras grandes y etiquetas pequeñas). */
+  condensadaPeso: 'Oswald',
+  /** Emoji a color (instalada en el sistema: ~/.local/share/fonts/NotoColorEmoji.ttf). */
+  emoji: 'Noto Color Emoji',
 } as const;
 
 /** Duraciones en segundos: Shorts narrados de 2–3 min (historia completa). */
