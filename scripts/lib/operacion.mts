@@ -48,7 +48,7 @@ export const asegurarDirectorios = () => {
 };
 
 // ---------------------------------------------------------------- tipos
-/** Plantillas del canal (src/plantillas/<p>/). Hoy solo `frontera` tiene composición; `lugar` y `ruta` vienen después. */
+/** Plantillas del canal (src/plantillas/<p>/). Cada una tiene composición (Frontera, Lugar, Ruta) y su scripts/preparar-<p>.mts. */
 export const PLANTILLAS = ['frontera', 'lugar', 'ruta'] as const;
 export type Plantilla = (typeof PLANTILLAS)[number];
 
@@ -408,7 +408,7 @@ export const slugificar = (texto: string, max = 40) =>
 
 export const capitalizar = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
-/** Composición de Remotion para una plantilla: frontera → Frontera. */
+/** Composición de Remotion para una plantilla: frontera → Frontera, lugar → Lugar, ruta → Ruta. */
 export const composicionDe = (plantilla: string) => capitalizar(plantilla);
 
 /** Categoría de YouTube: 27 Educación para todo el canal (geografía con fuentes). */

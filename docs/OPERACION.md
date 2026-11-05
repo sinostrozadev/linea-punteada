@@ -12,14 +12,23 @@ generar-guiones ─► contenido/backlog/<plantilla>-<slug>.json            (id 
      compilar ─► salida/compilaciones/<fecha>-compilacion.mp4 (largo 16:9 con los Shorts de la semana)
 ```
 
+## Plantillas
+| Plantilla | Composición | Preparar | Qué es |
+|---|---|---|---|
+| `frontera` | `Frontera` | `scripts/preparar-frontera.mts` | frontera curiosa sobre satélite (`src/plantillas/frontera/`) |
+| `lugar` | `Lugar` | `scripts/preparar-lugar.mts` | foto Ken Burns + mapa inset (`src/plantillas/lugar/README.md`) |
+| `ruta` | `Ruta` | `scripts/preparar-ruta.mts` | globo, línea que se dibuja y contador (`src/plantillas/ruta/README.md`) |
+
+Cada una trae su `ejemplo.json` propio (nunca se importa desde `contenido/`) y se registra en `src/Root.tsx` con `registrar()`.
+
 ## Comandos
 | Qué | Comando |
 |---|---|
 | Estado | `npx tsx scripts/estado.mts` |
 | Día completo | `npx tsx scripts/diario.mts` (`--solo-render`, `--n K`, `--solo-subir`, `--sin-generar`, `--dry-run`) |
 | Generar guiones | `npx tsx scripts/generar-guiones.mts --plantilla frontera --n 5 [--mostrar-prompt]` |
-| Preparar uno a mano | `npx tsx scripts/preparar-frontera.mts <guion.json>` |
-| Render de prueba | `npx remotion render src/index.ts Frontera salida/pruebas/<id>.mp4 --props=salida/trabajo/<id>.props.json --scale=0.5 --concurrency=1 --x264-preset=veryfast` |
+| Preparar uno a mano | `npx tsx scripts/preparar-<plantilla>.mts <guion.json>` (`preparar-frontera`, `preparar-lugar`, `preparar-ruta`) |
+| Render de prueba | `npx remotion render src/index.ts <Frontera|Lugar|Ruta> salida/pruebas/<id>.mp4 --props=salida/trabajo/<id>.props.json --scale=0.5 --concurrency=1 --x264-preset=veryfast` |
 | Fotogramas de revisión | `npx tsx scripts/fotogramas.mts <video.mp4>` |
 | Subir por Studio (piloto de Bolita Lab encendido) | `LP_CANAL_ID=UC… node herramientas/navegador/subir-studio.mjs <id> <AAAA-MM-DD> <HH:MM>` |
 | Subir por API / exportar | `npx tsx scripts/subir.mts subir --todos` · `npx tsx scripts/subir.mts exportar` |
@@ -31,7 +40,7 @@ Variables: `LINEA_MEMORIA_MIN_MB` (1500), `LINEA_CONCURRENCIA` (1), `LINEA_RENDE
 
 ## Calendario (`contenido/calendario.json`)
 2 Shorts diarios **12:00 y 18:00 America/Santiago**, largo **domingo 10:00**, rotación `frontera → lugar → ruta`
-(mientras solo exista `frontera`, el diario usa la que tenga guiones), mínimo 4 en bandeja y 8 en backlog.
+(el diario intercala las 3 plantillas; si a una no le quedan guiones usa la que tenga), mínimo 4 en bandeja y 8 en backlog.
 
 ## Cron
 `scripts/cron.txt` (04:45 diario, sábado 05:30 compilación, 08:15 estado): lo instala Santiago (`crontab -e`).
