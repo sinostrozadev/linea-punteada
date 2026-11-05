@@ -22,3 +22,4 @@
 - **subir-studio** exige `LP_CANAL_ID`: la sesión de Google del piloto es la misma de Bolita Lab y sin id fijo podría subir
   al canal equivocado.
 - 2026-11-05 · Las plantillas importan su guion de ejemplo desde `src/plantillas/<p>/ejemplo.json`, nunca desde `contenido/`: el diario mueve los guiones al promoverlos y el bundle de Remotion rompía ("Module not found") en todos los renders siguientes. Chamizal pasa a `contenido/reserva/` (Ñerd ya lo hizo).
+- 2026-11-05 · Lock de render compartido: los renders de PRUEBA de agentes (scale 0.25, tramos con --frames) toman el lock con `flock -w 60` y ceden; los de producción (diario) con `-w 1800`. Motivo: dos Shorts de producción perdieron el lock por timeout (30 min) mientras un agente renderizaba una prueba completa de 55 min. Regla: entre 08:00 y 12:00 la producción tiene prioridad.
