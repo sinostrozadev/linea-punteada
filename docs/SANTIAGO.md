@@ -14,6 +14,8 @@ Es una declaración legal (COPPA) y la marcas tú:
 - Claude te deja esa pantalla abierta en http://localhost:8777/ver cuando termine la noche. Sin esto no se programan Shorts.
 
 ## 2. Más adelante (no urgente)
-- `crontab -e` con las líneas de `scripts/cron.txt` cuando exista (Claude te avisa).
+- **Cron del canal (cuando quieras que ande solo sin sesión de Claude):** `crontab -e` y pega las 3 líneas de
+  `scripts/cron.txt` (diario 04:45, compilar sáb 05:30, estado 08:15; horas distintas a Bolita Lab). Mientras no esté,
+  Claude corre el diario a mano en cada sesión.
 - `.wslconfig memory=12GB` (pendiente desde Bolita Lab: menos OOM en renders).
 - Secretos de GitHub cuando se encienda la nube (igual que Bolita Lab).
