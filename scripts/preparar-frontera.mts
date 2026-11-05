@@ -52,7 +52,8 @@ const vis = resolverVisual(guion, plan);
 const crudos: Evento[] = [
   ...plan.eventos.filter((e) => e.tipo === 'golpe' || e.tipo === 'riser' || e.tipo === 'cierre'),
   { t: T_TITULO - 0.12, tipo: 'whoosh' as const, fuerza: 0.9 },
-  ...vis.planos.slice(1).map((p) => (p.entrada === 'corte' ? { t: p.t0, tipo: 'tic' as const, fuerza: 0.55 } : { t: Math.max(0, p.t0 - 0.1), tipo: 'whoosh' as const, fuerza: 0.7 })),
+  // Los micro-movimientos que agrega la plantilla (paneos lentos) no llevan SFX: no son un cambio de plano.
+  ...vis.planos.slice(1).filter((p) => !p.micro).map((p) => (p.entrada === 'corte' ? { t: p.t0, tipo: 'tic' as const, fuerza: 0.55 } : { t: Math.max(0, p.t0 - 0.1), tipo: 'whoosh' as const, fuerza: 0.7 })),
   ...vis.trazos.map((t) => ({ t, tipo: 'trazo' as const, fuerza: 1, dur: DURACION_TRAZO_SEG })),
   ...vis.marcadoresDesde.map((t) => ({ t, tipo: 'tic' as const, fuerza: 0.6 })),
   ...vis.areas.map((a) => ({ t: a.desde, tipo: 'pop' as const, fuerza: 0.45 })),

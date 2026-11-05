@@ -67,6 +67,12 @@ export const MapaFrontera = z.object({
     etiqueta: z.string().min(1).max(24),
     aparecerEn: z.number().int().min(-1),
   })).max(8).optional(),
+  /**
+   * v2: polígonos ([lon, lat], ≥ 3 vértices) donde NO se dibujan los bordes blancos de Natural Earth ni el contorno
+   * de las áreas de país. Para cuando el borde de NE contradice la historia (ej. el tramo "sin trazar" de Campo de
+   * Hielo Sur, que NE dibuja igual). Vale todo el video; para ocultarlos solo mientras se ve un área, `areas[].ocultarBordes`.
+   */
+  ocultarBordesEn: z.array(z.array(LonLat).min(3)).max(6).optional(),
   /** Saltos de cámara opcionales al empezar una escena (con spring); el zoom lento sigue sumándose encima. */
   zooms: z.array(z.object({ escena: z.number().int().min(0), centro: LonLat, zoom: z.number().min(1).max(16) })).optional(),
 });
@@ -120,7 +126,10 @@ export const Area = z.object({
   aparecerEn: Momento.optional(),
   desaparecerEn: Momento.optional(),
   quedarse: Quedarse.optional(),
-}).refine((a) => !!a.pais || !!a.poligono || (a.tipo === 'franja' && !!a.linea), { message: 'cada área necesita `pais`, `poligono` o (franja) `linea`' });
+  /** Con `poligono`: mientras el área se ve, no se dibujan dentro de ella los bordes de Natural Earth (ver `mapa.ocultarBordesEn`). */
+  ocultarBordes: z.boolean().optional(),
+}).refine((a) => !!a.pais || !!a.poligono || (a.tipo === 'franja' && !!a.linea), { message: 'cada área necesita `pais`, `poligono` o (franja) `linea`' })
+  .refine((a) => !a.ocultarBordes || !!a.poligono, { message: '`ocultarBordes` necesita `poligono`' });
 export type Area = z.infer<typeof Area>;
 
 /**
@@ -260,9 +269,18 @@ export const GuionFrontera = CamposFrontera.superRefine((g, ctx) => {
     ].filter((p): p is string => typeof p === 'string');
     const norm = (w: string) => w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9ñ]/g, '');
     const tokens = texto.split(/\s+/).map(norm);
+    // Coincidencia por palabra COMPLETA normalizada (sin tildes ni puntuación): "Según" no calza con "Segundo".
+    // `#n` pide la n-ésima aparición y también se valida.
     palabras.forEach((p) => {
-      const w = norm(p.replace(/#\d+$/, ''));
-      if (w && !tokens.some((t) => t === w || (w.length >= 4 && t.startsWith(w)))) ctx.addIssue({ code: 'custom', path: base, message: `la palabra "${p}" no está en el texto de esta línea` });
+      const m = /^(.*?)#(\d+)$/.exec(p.trim());
+      const w = norm(m ? m[1] : p);
+      const n = m ? Number(m[2]) : 1;
+      if (!w) return;
+      const veces = tokens.filter((t) => t === w).length;
+      if (veces >= n) return;
+      const parecida = tokens.find((t) => t.startsWith(w) || (w.startsWith(t) && t.length >= 4));
+      const motivo = veces ? `aparece ${veces} vez/veces, no ${n}` : parecida ? `no está literal (¿"${parecida}"?)` : 'no está en el texto de esta línea';
+      ctx.addIssue({ code: 'custom', path: base, message: `la palabra "${p}" ${motivo}` });
     });
   });
   (g.mapa.zooms ?? []).forEach((z, i) => {

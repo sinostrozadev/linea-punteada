@@ -8,7 +8,7 @@ import type { Plan, Palabra } from '../comun/plan';
 import { normalizar } from '../comun/plan';
 import type { Contexto, Foto, FuentePantalla, ItemIndice, Momento, Polaroid, Quedarse, Tarjeta } from '../comun/direccion';
 import type { Area, Cota, EtiquetaMapa, GuionFrontera, IconoMapa, Plano } from './guion';
-import type { LonLat } from './mapa';
+import { gradosPorPx, type LonLat } from './mapa';
 
 /** Duración de la tarjeta de título del frame 0 (s). Después, corte al satélite. */
 export const T_TITULO = 0.9;
@@ -16,7 +16,8 @@ export const T_TITULO = 0.9;
 export const FRAMES_CIERRE_V2 = 48;
 
 export type Ventana = { desde: number; hasta: number };
-export type PlanoResuelto = Plano & { t0: number; t1: number; linea: number; deriva: number };
+/** `micro`: movimiento de cámara que agregó la plantilla (no el guion): paneo lento, sin SFX. */
+export type PlanoResuelto = Plano & { t0: number; t1: number; linea: number; deriva: number; micro?: boolean };
 /** Una capa con su ventana de tiempo: `d` = lo declarado en el guion, `k` = línea de voz donde se declaró. */
 export type ConVentana<T> = Ventana & { d: T; k: number; id: string };
 
@@ -48,7 +49,7 @@ type Dir = Partial<GuionFrontera['escenas'][number]> & { texto: string };
 
 const ease = (x: number) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
 
-/** Busca la n-ésima aparición de una palabra ("Hito#2") en las palabras de la línea. */
+/** Busca la n-ésima aparición de una palabra ("Hito#2") en las palabras de la línea (palabra completa normalizada). */
 export const buscarPalabraN = (palabras: Palabra[], palabra: string): number => {
   const m = /^(.*?)#(\d+)$/.exec(palabra.trim());
   const w = normalizar(m ? m[1] : palabra);
@@ -56,7 +57,7 @@ export const buscarPalabraN = (palabras: Palabra[], palabra: string): number => 
   if (!w) return -1;
   for (let i = 0; i < palabras.length; i++) {
     const n = normalizar(palabras[i].texto);
-    if (n === w || (w.length >= 4 && n.startsWith(w))) if (--veces === 0) return i;
+    if (n === w && --veces === 0) return i; // palabra completa: "Según" no calza con "Segundo"
   }
   return -1;
 };
@@ -152,6 +153,7 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
     planos.forEach((p, i) => { p.deriva = (dz * ((planos[i + 1]?.t0 ?? total) - p.t0)) / total; });
   }
   planos.forEach((p, i) => { p.t1 = planos[i + 1]?.t0 ?? fin + 1; });
+  if (v2) microMovimientos(planos, fin);
 
   // ---------------------------------------------------------------- capas por línea
   const areas: Visual['areas'] = [];
@@ -242,6 +244,73 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
   return { v2, planos, trazos, marcadoresDesde, areas, etiquetas, contextos, cotas, iconos, resaltes, tarjetas, fotos, polaroids, fuentes, indice, remateEtiquetas, claves, fin };
 };
 
+// ---------------------------------------------------------------- micro-movimientos
+
+/**
+ * Ritmo de cámara mínimo (docs/DIRECCION-VISUAL.md §1): ningún encuadre se queda > `maxQuieto` s sin un cambio
+ * NOTABLE (|Δzoom| ≥ 0,6 o el centro se corre ≥ 22 % del ancho). Si el guion no lo da, la plantilla inserta un
+ * micro-movimiento cada `cada` s: paneo lento de `paneo`·ancho (hacia el centro del plano siguiente si está cerca,
+ * o de ida y vuelta) alternado con un zoom de ±10 % (`zoom` niveles), con easing largo. Un `corte` a un encuadre
+ * casi idéntico (salto de pocos px que se lee como error) se convierte en un paneo suave. Todo determinista; los
+ * desplazamientos se alternan para no salir de los recortes satelitales (margen 1,4×).
+ */
+export const MICRO = { maxQuieto: 8, cada: 5, paneo: 0.15, zoom: Math.log2(1.1), anchoPx: 1080 } as const;
+
+const corrimientoPx = (a: LonLat, b: LonLat, zoom: number) => Math.hypot(a[0] - b[0], a[1] - b[1]) / gradosPorPx(zoom);
+const esNotable = (antes: PlanoResuelto, p: PlanoResuelto) =>
+  Math.abs(p.zoom - (antes.zoom + antes.deriva)) >= 0.6 || corrimientoPx(antes.centro, p.centro, p.zoom) >= 0.22 * MICRO.anchoPx;
+
+const microMovimientos = (planos: PlanoResuelto[], fin: number) => {
+  // 1) Cortes a casi el mismo encuadre → paneo suave.
+  for (let j = 1; j < planos.length; j++) {
+    if (planos[j].entrada === 'corte' && !esNotable(planos[j - 1], planos[j])) { planos[j].entrada = 'paneo'; planos[j].micro = true; }
+  }
+  // 2) Tramos sin cambio notable: momentos donde hace falta mover la cámara.
+  const notables = planos.map((p, j) => j === 0 || esNotable(planos[j - 1], p));
+  const momentos: number[] = [];
+  let quietoDesde = planos[0].t0;
+  for (let j = 1; j <= planos.length; j++) {
+    if (j < planos.length && !notables[j]) continue;
+    const hasta = j < planos.length ? planos[j].t0 : fin;
+    if (hasta - quietoDesde > MICRO.maxQuieto) for (let tm = quietoDesde + MICRO.cada; tm < hasta - 2.5; tm += MICRO.cada) momentos.push(tm);
+    if (j < planos.length) quietoDesde = planos[j].t0 + DURACION_TRANSICION(planos[j]);
+  }
+  // 3) Aplicar: si ya hay un plano (no notable) que empieza a ±1,2 s, se le suma el movimiento; si no, se parte el plano.
+  momentos.forEach((tm, c) => {
+    const k = planos.findIndex((p) => tm >= p.t0 && tm < p.t1);
+    if (k < 0) return;
+    const cerca = planos.findIndex((p, j) => j > 0 && Math.abs(p.t0 - tm) <= 1.2 && !notables[j]);
+    let destino: PlanoResuelto;
+    if (cerca >= 0) {
+      destino = planos[cerca];
+    } else {
+      const q = planos[k];
+      const T = Math.max(0.5, q.t1 - q.t0);
+      const parte = (tm - q.t0) / T;
+      destino = { ...q, t0: tm, t1: q.t1, zoom: q.zoom + q.deriva * parte, deriva: q.deriva * (1 - parte), en: undefined, duracionSeg: undefined };
+      q.deriva *= parte;
+      q.t1 = tm;
+      planos.splice(k + 1, 0, destino);
+      notables.splice(k + 1, 0, false);
+    }
+    destino.entrada = 'paneo';
+    destino.micro = true;
+    const ida = Math.floor(c / 2) % 2 === 0 ? 1 : -1;
+    if (c % 2 === 0) {
+      // Paneo: hacia el centro del siguiente plano del guion si está a la vista; si no, ida y vuelta en horizontal.
+      const g = gradosPorPx(destino.zoom), paso = MICRO.paneo * MICRO.anchoPx * g;
+      const sig = planos.slice(planos.indexOf(destino) + 1).find((p) => !p.micro);
+      const dx = sig ? sig.centro[0] - destino.centro[0] : 0, dy = sig ? sig.centro[1] - destino.centro[1] : 0;
+      const d = Math.hypot(dx, dy);
+      const [ux, uy] = sig && d / g > 20 && d / g < MICRO.anchoPx ? [dx / d, dy / d] : [ida, 0];
+      const largo = Math.min(paso, d / g > 20 && d / g < MICRO.anchoPx ? d : paso);
+      destino.centro = [destino.centro[0] + ux * largo, destino.centro[1] + uy * largo];
+    } else {
+      destino.zoom -= ida * MICRO.zoom; // primero un pequeño retroceso, la vez siguiente vuelve a acercarse
+    }
+  });
+};
+
 // ---------------------------------------------------------------- cámara
 
 export type EstadoCamara = { centro: LonLat; zoom: number };
@@ -254,6 +323,7 @@ const base = (p: PlanoResuelto, t: number): EstadoCamara => {
 
 export const DURACION_TRANSICION = (p: PlanoResuelto) => {
   const T = p.t1 - p.t0;
+  if (p.micro) return Math.min(2.4, Math.max(1.2, 0.5 * T)); // micro-movimiento: lento, casi imperceptible como "corte"
   return p.entrada === 'zoom' ? Math.min(1.7, Math.max(0.8, 0.55 * T)) : p.entrada === 'paneo' ? Math.min(1.3, Math.max(0.6, 0.5 * T)) : 0;
 };
 
@@ -278,6 +348,19 @@ export const camaraEn = (planos: PlanoResuelto[], t: number, i?: number): Estado
     w = Math.max(0, Math.min(1, w));
   }
   return { centro: [c1[0] + (c0[0] - c1[0]) * w, c1[1] + (c0[1] - c1[1]) * w], zoom };
+};
+
+/**
+ * Cámara "asentada" del plano vigente en `t`: la de después de su transición (o la del final del plano si la deriva
+ * aleja, que es la más abierta). La usa la resolución de colisiones de etiquetas para que su decisión no salte de
+ * un cuadro a otro mientras la cámara vuela.
+ */
+export const camaraAsentada = (planos: PlanoResuelto[], t: number): EstadoCamara => {
+  let k = 0;
+  for (let j = 0; j < planos.length; j++) if (planos[j].t0 <= t) k = j;
+  const p = planos[k];
+  const tRef = p.deriva >= 0 ? p.t0 + DURACION_TRANSICION(p) : Math.max(p.t0, p.t1 - 1e-3);
+  return camaraEn(planos, tRef, k);
 };
 
 /** Opacidad de entrada/salida de una capa con ventana (rápida: 0,25 s). */
