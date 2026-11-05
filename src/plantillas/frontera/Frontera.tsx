@@ -112,6 +112,12 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
   if (indiceArriba && ind && !foto) reservas.push({ x0: FORMATO.seguro.lados - 10, y0: ARRIBA_INDICE, x1: FORMATO.seguro.lados - 10 + ind.items.length * 264, y1: ARRIBA_INDICE + ALTO_INDICE - 10 });
   if (tarjetaActiva && !foto) reservas.push({ x0: 90, y0: topTarjeta, x1: W - 90, y1: topTarjeta + altoTarjeta(tarjetaActiva.d) });
   if (contextoActivo && !foto) reservas.push({ x0: 60, y0: topContexto, x1: W - 60, y1: topContexto + 118 });
+  // Polaroid (aprox.: marco 472 px + año gigante encima) a su lado.
+  for (const pol of vis.polaroids) {
+    if (t < pol.desde || t >= pol.hasta || foto) continue;
+    const top = (pol.d.anio ? 380 : 470) + bajar, der = (pol.d.lado ?? 'derecha') === 'derecha';
+    reservas.push({ x0: der ? W - 66 - 500 : 40, y0: top, x1: der ? W - 40 : 66 + 500, y1: top + (pol.d.anio ? 140 : 0) + 560 });
+  }
   if (fuenteActiva) reservas.push({ x0: FORMATO.seguro.lados, y0: 1372, x1: FORMATO.seguro.lados + 920, y1: 1372 + 84 });
   if (oCredito > 0) reservas.push({ x0: W - 30 - ANCHO_CREDITO, y0: ARRIBA_CREDITO - 4, x1: W - 20, y1: ARRIBA_CREDITO + 32 });
 
