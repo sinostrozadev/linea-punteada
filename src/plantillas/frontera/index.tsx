@@ -2,7 +2,7 @@ import React from 'react';
 import { Composition } from 'remotion';
 import { FORMATO } from '../../marca/tokens';
 import { Frontera, PropsFrontera, calcularMetadataFrontera } from './Frontera';
-import ejemplo from '../../../contenido/backlog/frontera-chamizal.json';
+import ejemplo from './ejemplo.json';
 
 export { GuionFrontera } from './guion';
 

@@ -1,0 +1,398 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-05-frontera-chamizal",
+  "titulo": "¿Por qué México recuperó un barrio encerrando un río en concreto?",
+  "descripcion": "En 1864 una crecida movió el río Bravo hacia el sur y un pedazo de México quedó del lado de El Paso. Casi cien años de reclamos, un arbitraje rechazado y un tratado después, la frontera se arregló de la forma más rara: encerrando al río en cemento.\nLos trazados del río en el mapa son aproximados (ilustrativos).",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#fronteras",
+    "#mexico",
+    "#elpaso",
+    "#historia"
+  ],
+  "props": {
+    "id": "2026-11-05-frontera-chamizal",
+    "cabecera": "EL PASO / JUÁREZ — EL RÍO QUE SE MUDÓ",
+    "gancho": {
+      "texto": "Mira la frontera entre El Paso y Ciudad Juárez. Hay un parque mexicano que pasó casi cien años del lado de Estados Unidos. Y México lo recuperó sin disparar un tiro. ¿Cómo se devuelve un pedazo de país?",
+      "rotulo": "¿País devuelto?"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Estados Unidos se quedó con esa tierra en una guerra, como con medio México en 1848. Suena lógico. Pero no hubo guerra, ni compra, ni invasión. La verdad es más rara.",
+        "rotulo": {
+          "texto": "¿Una guerra?",
+          "dice": "guerra"
+        }
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos cosas: un río que no se quedaba quieto y un tratado que sí. Primero, el río.",
+        "rotulo": {
+          "texto": "Un río",
+          "dice": "río"
+        }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Después de la guerra de 1848, los dos países acordaron que la frontera iría por el canal más profundo del río Bravo, que en Estados Unidos llaman Río Grande. Una línea de agua. El problema es que el agua se mueve.",
+        "rotulo": {
+          "texto": "Una línea de agua",
+          "dice": "línea"
+        },
+        "imagen": {
+          "buscar": "Rio Grande El Paso Juarez"
+        }
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1864 llegó una crecida enorme. El río se salió de su cauce y, cuando bajó, corría bastante más al sur. Así, tierras que estaban en México amanecieron en la orilla de El Paso.",
+        "rotulo": {
+          "texto": "1864",
+          "dice": "1864"
+        }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Según la Oficina del Historiador del Departamento de Estado, México reclamó esa franja durante décadas. En 1911 un arbitraje le dio la razón en parte, pero Washington rechazó el fallo. El terreno quedó en un limbo de medio siglo.",
+        "rotulo": {
+          "texto": "Limbo",
+          "dice": "limbo"
+        },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el tratado. En 1963 los dos gobiernos firmaron la Convención del Chamizal. México recuperaba 437 acres, unas 177 hectáreas. En 1964, los presidentes Lyndon Johnson y Adolfo López Mateos se reunieron en la frontera para ponerla en marcha.",
+        "rotulo": {
+          "texto": "177 hectáreas",
+          "dice": "177"
+        },
+        "imagen": {
+          "buscar": "Lyndon Johnson Adolfo Lopez Mateos"
+        }
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: para que la frontera no se moviera nunca más, encerraron al río en concreto. Según la Comisión Internacional de Límites y Aguas, excavaron un cauce nuevo de 4,4 millas, unos siete kilómetros, y lo revistieron entero. La línea ya no la decide el agua.",
+        "rotulo": {
+          "texto": "Río de concreto",
+          "dice": "concreto"
+        },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy, la tierra devuelta es el Parque Público Federal El Chamizal, uno de los parques más grandes de Ciudad Juárez. Del otro lado, un memorial nacional recuerda el acuerdo. Y entre los dos corre un río recto, de cemento, que ya no puede cambiar de opinión.",
+        "rotulo": {
+          "texto": "El Chamizal",
+          "dice": "Chamizal"
+        },
+        "imagen": {
+          "buscar": "Chamizal National Memorial"
+        }
+      }
+    ],
+    "remate": "El río movió la frontera sin pedir permiso. La frontera encerró al río para no moverse más.",
+    "fuentes": [
+      {
+        "texto": "Office of the Historian, U.S. Department of State — documentos sobre El Chamizal (arbitraje de 1911 y Convención de 1963)",
+        "url": "https://history.state.gov/search?q=chamizal+convention"
+      },
+      {
+        "texto": "Comisión Internacional de Límites y Aguas (IBWC) — historia",
+        "url": "https://www.ibwc.gov/about-us/history/"
+      },
+      {
+        "texto": "National Park Service — Chamizal National Memorial, historia",
+        "url": "https://www.nps.gov/cham/learn/historyculture/index.htm"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [
+        -106.45,
+        31.75
+      ],
+      "zoomInicial": 13.3,
+      "zoomFinal": 13.9,
+      "lineas": [
+        {
+          "id": "frontera-hoy",
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": -1,
+          "puntos": [
+            [
+              -106.51,
+              31.7612
+            ],
+            [
+              -106.499,
+              31.755
+            ],
+            [
+              -106.4876,
+              31.7487
+            ],
+            [
+              -106.48,
+              31.7498
+            ],
+            [
+              -106.472,
+              31.753
+            ],
+            [
+              -106.465,
+              31.758
+            ],
+            [
+              -106.458,
+              31.762
+            ],
+            [
+              -106.45,
+              31.7642
+            ],
+            [
+              -106.442,
+              31.761
+            ],
+            [
+              -106.434,
+              31.7555
+            ],
+            [
+              -106.42,
+              31.7522
+            ],
+            [
+              -106.41,
+              31.748
+            ],
+            [
+              -106.39,
+              31.739
+            ]
+          ]
+        },
+        {
+          "id": "rio-1852",
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "etiqueta": "Río en 1852",
+          "puntos": [
+            [
+              -106.51,
+              31.7625
+            ],
+            [
+              -106.499,
+              31.7565
+            ],
+            [
+              -106.4876,
+              31.7505
+            ],
+            [
+              -106.479,
+              31.7525
+            ],
+            [
+              -106.471,
+              31.7565
+            ],
+            [
+              -106.464,
+              31.7615
+            ],
+            [
+              -106.457,
+              31.766
+            ],
+            [
+              -106.449,
+              31.768
+            ],
+            [
+              -106.441,
+              31.765
+            ],
+            [
+              -106.433,
+              31.759
+            ],
+            [
+              -106.42,
+              31.7535
+            ],
+            [
+              -106.41,
+              31.7495
+            ],
+            [
+              -106.39,
+              31.7405
+            ]
+          ]
+        },
+        {
+          "id": "rio-1864",
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "etiqueta": "Río tras 1864",
+          "puntos": [
+            [
+              -106.4876,
+              31.7487
+            ],
+            [
+              -106.478,
+              31.7495
+            ],
+            [
+              -106.472,
+              31.7515
+            ],
+            [
+              -106.465,
+              31.7522
+            ],
+            [
+              -106.457,
+              31.754
+            ],
+            [
+              -106.45,
+              31.7555
+            ],
+            [
+              -106.442,
+              31.7552
+            ],
+            [
+              -106.434,
+              31.755
+            ],
+            [
+              -106.42,
+              31.7522
+            ]
+          ]
+        },
+        {
+          "id": "canal-1968",
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 6,
+          "etiqueta": "Canal de concreto",
+          "puntos": [
+            [
+              -106.51,
+              31.7612
+            ],
+            [
+              -106.499,
+              31.755
+            ],
+            [
+              -106.4876,
+              31.7487
+            ],
+            [
+              -106.48,
+              31.7498
+            ],
+            [
+              -106.472,
+              31.753
+            ],
+            [
+              -106.465,
+              31.758
+            ],
+            [
+              -106.458,
+              31.762
+            ],
+            [
+              -106.45,
+              31.7642
+            ],
+            [
+              -106.442,
+              31.761
+            ],
+            [
+              -106.434,
+              31.7555
+            ],
+            [
+              -106.42,
+              31.7522
+            ],
+            [
+              -106.41,
+              31.748
+            ],
+            [
+              -106.39,
+              31.739
+            ]
+          ]
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": -106.487,
+          "lat": 31.776,
+          "etiqueta": "EL PASO",
+          "aparecerEn": -1
+        },
+        {
+          "lon": -106.472,
+          "lat": 31.728,
+          "etiqueta": "CIUDAD JUÁREZ",
+          "aparecerEn": -1
+        },
+        {
+          "lon": -106.457,
+          "lat": 31.7575,
+          "etiqueta": "EL CHAMIZAL",
+          "aparecerEn": 7
+        }
+      ],
+      "zooms": [
+        {
+          "escena": 2,
+          "centro": [
+            -106.462,
+            31.756
+          ],
+          "zoom": 13.9
+        },
+        {
+          "escena": 5,
+          "centro": [
+            -106.456,
+            31.757
+          ],
+          "zoom": 14.2
+        },
+        {
+          "escena": 7,
+          "centro": [
+            -106.458,
+            31.755
+          ],
+          "zoom": 13.8
+        }
+      ]
+    }
+  }
+}

@@ -21,3 +21,4 @@
 - **generar-guiones**: `docs/GUION.md` va como `--system-prompt` de `claude -p` (lo escribe Fable); si falta, resumen mínimo.
 - **subir-studio** exige `LP_CANAL_ID`: la sesión de Google del piloto es la misma de Bolita Lab y sin id fijo podría subir
   al canal equivocado.
+- 2026-11-05 · Las plantillas importan su guion de ejemplo desde `src/plantillas/<p>/ejemplo.json`, nunca desde `contenido/`: el diario mueve los guiones al promoverlos y el bundle de Remotion rompía ("Module not found") en todos los renders siguientes. Chamizal pasa a `contenido/reserva/` (Ñerd ya lo hizo).
