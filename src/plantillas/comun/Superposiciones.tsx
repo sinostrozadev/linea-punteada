@@ -19,12 +19,33 @@ export const trazoOscuro = { WebkitTextStroke: '6px rgba(6,16,28,0.78)', paintOr
 const POSICION = { arriba: 'center 22%', centro: 'center center', abajo: 'center 78%' } as const;
 const autorCorto = (a: string, n = 34) => (a.length > n ? `${a.slice(0, n - 2).trim()}…` : a);
 
-/** Texto con su primera cifra contando de 0 al valor (respeta coma decimal y punto de miles). */
+const RE_CIFRA = /(\d{1,3}(?:\.\d{3})+|\d+)(?:,(\d+))?/;
+
+/**
+ * ¿La primera cifra del texto cuenta hacia arriba al entrar? Solo las ≥ 100: "1 CANCHAS → 5 CANCHAS" se lee como
+ * un error y un "3,7" que pasa por "1,2" no informa nada. Nunca cuentan años (1905 → 1929 se lee como otro año),
+ * fechas ("27-1-2014", "1/2") ni ordinales ("2º", "1.ª", "3er").
+ */
+export const cifraCuenta = (texto: string): boolean => {
+  const m = RE_CIFRA.exec(texto);
+  if (!m) return false;
+  const entero = Number(m[1].replace(/\./g, ''));
+  if (entero < 100) return false;
+  if (!m[2] && /^\d{4}$/.test(m[1]) && entero >= 1000 && entero <= 2100) return false;
+  const antes = texto.slice(0, m.index), despues = texto.slice(m.index + m[0].length);
+  if (/[-/]\s*$/.test(antes) || /^\s*[-/]\s*\d/.test(despues)) return false;
+  if (/^(?:\s*\.?\s*[ºª°]|(?:er|ro|do|to|vo|no)\b)/i.test(despues)) return false;
+  return true;
+};
+
+/**
+ * Texto con su primera cifra contando de 0 al valor (respeta coma decimal y punto de miles). Solo cambia el
+ * número: la palabra que lo acompaña ("CANCHAS", "HA") queda fija durante todo el conteo. Si la cifra no cuenta
+ * (`cifraCuenta`), devuelve el texto tal cual (entra fijo, con pop).
+ */
 const contar = (texto: string, p: number) => {
-  const m = /(\d{1,3}(?:\.\d{3})+|\d+)(?:,(\d+))?/.exec(texto);
-  if (!m) return texto;
-  // Un año no cuenta (1905 → 1929 se lee como otro año): entra fijo.
-  if (!m[2] && /^\d{4}$/.test(m[1]) && Number(m[1]) >= 1000 && Number(m[1]) <= 2100) return texto;
+  if (!cifraCuenta(texto)) return texto;
+  const m = RE_CIFRA.exec(texto)!;
   const entero = Number(m[1].replace(/\./g, ''));
   const dec = m[2]?.length ?? 0;
   const valor = (entero + (dec ? Number(m[2]) / Math.pow(10, dec) : 0)) * p;
@@ -37,6 +58,21 @@ const contar = (texto: string, p: number) => {
 
 export const ARRIBA_TARJETA = 292;
 
+/** Alto aproximado (px) que ocupa una tarjeta de cifra: lo que va debajo (contexto) se corre esto y no la pisa. */
+export const altoTarjeta = (tarjeta: Tarjeta): number => {
+  let h = 143 + 18; // cifra + barra de acento
+  if (tarjeta.sub) h += 14 + 58;
+  const tipo = tarjeta.tipo ?? 'cifra';
+  if (tipo === 'barras' && tarjeta.barras) h += 22 + 36 + tarjeta.barras.length * 54;
+  if (tipo === 'linea-tiempo') h += 22 + 56;
+  if (tarjeta.pictos) {
+    const lado = tarjeta.pictos.n > 8 ? 70 : 92;
+    const porFila = Math.max(1, Math.floor(906 / (lado + 6)));
+    h += 18 + Math.ceil(tarjeta.pictos.n / porFila) * (lado + 6);
+  }
+  return h;
+};
+
 /** `top`: borde superior (por defecto ARRIBA_TARJETA; más abajo cuando el índice ocupa la franja de arriba). */
 export const TarjetaCifra: React.FC<{ tarjeta: Tarjeta; t: number; desde: number; hasta: number; acento: string; top?: number }> = ({ tarjeta, t, desde, hasta, acento, top = ARRIBA_TARJETA }) => {
   if (t < desde || t >= hasta) return null;
@@ -45,11 +81,14 @@ export const TarjetaCifra: React.FC<{ tarjeta: Tarjeta; t: number; desde: number
   const p = interpolate(t - desde, [0, 0.7], [0, 1], { extrapolateRight: 'clamp', easing: (x) => 1 - Math.pow(1 - x, 3) });
   const tipo = tarjeta.tipo ?? 'cifra';
   const max = Math.max(...(tarjeta.barras ?? []).map((b) => b.valor), 1);
+  // La cifra que no cuenta entra fija con un pop (resorte con rebote, un pelo después de la tarjeta).
+  const cuenta = tipo !== 'ranking' && cifraCuenta(tarjeta.texto);
+  const pop = 0.55 + 0.45 * resorte(t, desde + 0.06, { damping: 8, stiffness: 260 });
   return (
     <div style={{ position: 'absolute', left: 0, right: 0, top, display: 'flex', flexDirection: 'column', alignItems: 'center', opacity: o, transform: `scale(${0.86 + 0.14 * e})`, transformOrigin: '50% 0%' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 22 }}>
         {tarjeta.icono && <Icono nombre={tarjeta.icono} tamano={118} acento={acento} />}
-        <div style={{ fontFamily: TIPO.condensadaPeso, fontWeight: 700, fontSize: 150, lineHeight: 0.95, color: PALETA.tinta, textShadow: sombraTexto, letterSpacing: 1, textTransform: 'uppercase' }}>
+        <div style={{ fontFamily: TIPO.condensadaPeso, fontWeight: 700, fontSize: 150, lineHeight: 0.95, color: PALETA.tinta, textShadow: sombraTexto, letterSpacing: 1, textTransform: 'uppercase', fontVariantNumeric: 'tabular-nums', transform: cuenta ? undefined : `scale(${pop})`, transformOrigin: '50% 60%' }}>
           {tipo === 'ranking' ? tarjeta.texto : contar(tarjeta.texto, p)}
         </div>
       </div>
@@ -118,7 +157,7 @@ export const FotoCompleta: React.FC<{ imagen: ImagenResuelta; pie: string; t: nu
       }}>
         <span style={{ width: 14, height: 14, borderRadius: 7, background: PALETA.coral, boxShadow: `0 0 10px ${PALETA.coral}` }} />{pie}
       </div>
-      <div style={{ position: 'absolute', left: FORMATO.seguro.lados, right: 200, top: FORMATO.alto - FORMATO.seguro.abajo - 30, fontFamily: TIPO.texto, fontWeight: 500, fontSize: 19, color: '#E6EEF5', opacity: 0.8, textShadow: '0 1px 4px #000', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+      <div style={{ position: 'absolute', left: FORMATO.seguro.lados, right: 200, top: FORMATO.alto - FORMATO.seguro.abajo - 30, fontFamily: TIPO.texto, fontWeight: 500, fontSize: 22, color: '#E6EEF5', opacity: 0.78, textShadow: '0 1px 4px #000', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
         Foto: {autorCorto(imagen.autor)} · {imagen.licencia} · Wikimedia Commons
       </div>
     </div>
@@ -196,7 +235,7 @@ export const IndiceEnumeracion: React.FC<{ items: (ItemIndice & { desde: number 
           return (
             <div key={i} style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', width: 250, transform: `scale(${(0.5 + 0.5 * e) * (esActivo ? 1.14 : apagado ? 0.9 : 1)})`,
-              opacity: apagado ? 0.62 : 1, transformOrigin: '50% 30%',
+              opacity: apagado ? 0.55 : 1, transformOrigin: '50% 30%',
             }}>
               <div style={{ filter: esActivo ? `drop-shadow(0 0 16px ${acento})` : undefined }}><Icono nombre={it.icono} tamano={136} acento={acento} /></div>
               <div style={{
