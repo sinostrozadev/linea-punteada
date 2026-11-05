@@ -1,0 +1,1518 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-05-frontera-laguna-del-desierto",
+  "titulo": "Chile y Argentina pelearon un lago por una frase escrita en 1902",
+  "descripcion": "Chile la llama Laguna del Desierto; Argentina, Lago del Desierto. El laudo británico de 1902 dijo que entre el Hito 62 y el monte Fitz Roy la frontera sigue la divisoria local de aguas, y cada país leyó esas palabras a su manera. El 21 de octubre de 1994 un tribunal de cinco juristas latinoamericanos decidió a favor de Argentina; Chile pidió revisión y en 1995 fue rechazada. Desde el Fitz Roy hacia el sur empieza el tramo que todavía no tiene línea.\n\nFuentes:\n- Laudo de 1994 (RIAA, Naciones Unidas), ficha en italaw: https://www.italaw.com/node/42299\n- Laguna del Desierto incident: https://en.wikipedia.org/wiki/Laguna_del_Desierto_incident\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile",
+    "#argentina"
+  ],
+  "props": {
+    "id": "2026-11-05-frontera-laguna-del-desierto",
+    "gancho": {
+      "texto": "Mira este lago, al norte del monte Fitz Roy. Chile lo llama Laguna del Desierto; Argentina, Lago del Desierto. Y un tribunal decidió de quién era leyendo una sola frase escrita en 1902. ¿Cuál?",
+      "rotulo": "UNA FRASE",
+      "planos": [
+        {
+          "centro": [
+            -72.92,
+            -49.15
+          ],
+          "zoom": 8.6,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -72.864,
+            -49.036
+          ],
+          "zoom": 11.0,
+          "entrada": "zoom",
+          "en": "lago",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -72.86,
+            -49.0
+          ],
+          "zoom": 10.0,
+          "entrada": "corte",
+          "en": "Chile",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -72.9,
+            -49.1
+          ],
+          "zoom": 9.4,
+          "entrada": "zoom",
+          "en": "tribunal",
+          "deriva": 0.35
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "etiqueta": "CHILE",
+          "etiquetaEn": [
+            -73.25,
+            -48.9
+          ],
+          "aparecerEn": "Chile",
+          "desaparecerEn": "tribunal"
+        },
+        {
+          "pais": "Argentina",
+          "color": "verde",
+          "etiqueta": "ARGENTINA",
+          "etiquetaEn": [
+            -72.5,
+            -49.1
+          ],
+          "aparecerEn": "Argentina",
+          "desaparecerEn": "tribunal"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -73.043,
+          "lat": -49.271,
+          "texto": "MONTE FITZ ROY",
+          "tipo": "pin",
+          "aparecerEn": "Fitz"
+        },
+        {
+          "lon": -72.835,
+          "lat": -49.02,
+          "texto": "LAGUNA DEL DESIERTO",
+          "tipo": "mar",
+          "aparecerEn": "Laguna",
+          "desaparecerEn": "Argentina"
+        },
+        {
+          "lon": -72.835,
+          "lat": -49.05,
+          "texto": "LAGO DEL DESIERTO",
+          "tipo": "mar",
+          "aparecerEn": "Lago#2",
+          "desaparecerEn": "tribunal"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "1902",
+          "sub": "UNA SOLA FRASE",
+          "icono": "tratado",
+          "aparecerEn": "1902",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿CUÁL?",
+        "dice": "Cuál"
+      },
+      "clave": [
+        "Fitz",
+        "Laguna",
+        "Lago",
+        "tribunal",
+        "frase",
+        "1902"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que en la Patagonia la frontera la puso el que llegó primero, con más gente. Aquí hubo patrullas, es cierto. Pero el final lo escribió un tribunal que discutió el sentido de una frase. La verdad es más rara.",
+        "planos": [
+          {
+            "centro": [
+              -70.0,
+              -47.0
+            ],
+            "zoom": 5.6,
+            "entrada": "corte",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -72.86,
+              -49.02
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "en": "Aquí",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.88,
+              -49.06
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "en": "tribunal",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.9,
+              -49.1
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.5,
+            "lat": -46.5,
+            "texto": "PATAGONIA",
+            "tipo": "region",
+            "aparecerEn": "Patagonia",
+            "desaparecerEn": "Aquí"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -72.7,
+                -48.88
+              ],
+              [
+                -72.744,
+                -48.914
+              ],
+              [
+                -72.921,
+                -48.953
+              ],
+              [
+                -73.018,
+                -48.999
+              ],
+              [
+                -73.093,
+                -49.097
+              ],
+              [
+                -73.183,
+                -49.238
+              ],
+              [
+                -73.043,
+                -49.271
+              ],
+              [
+                -72.8,
+                -49.16
+              ],
+              [
+                -72.76,
+                -49.06
+              ],
+              [
+                -72.72,
+                -48.95
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "ZONA EN DISPUTA",
+            "aparecerEn": "patrullas",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -71.2,
+            "lat": -48.2,
+            "icono": "🚩",
+            "escala": 1.1,
+            "aparecerEn": "primero",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -70.4,
+            "lat": -48.2,
+            "icono": "👥",
+            "escala": 1.0,
+            "aparecerEn": "gente",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -73.05,
+            "lat": -48.98,
+            "icono": "🐎",
+            "ruta": [
+              [
+                -73.1,
+                -48.95
+              ],
+              [
+                -72.92,
+                -49.0
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "escala": 0.9,
+            "aparecerEn": "patrullas",
+            "desaparecerEn": "tribunal"
+          },
+          {
+            "lon": -72.62,
+            "lat": -49.08,
+            "icono": "🐎",
+            "ruta": [
+              [
+                -72.6,
+                -49.08
+              ],
+              [
+                -72.8,
+                -49.04
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "escala": 0.9,
+            "aparecerEn": "cierto",
+            "desaparecerEn": "tribunal"
+          },
+          {
+            "lon": -72.86,
+            "lat": -49.04,
+            "icono": "tribunal",
+            "escala": 1.2,
+            "aparecerEn": "tribunal",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "Patagonia",
+          "primero",
+          "patrullas",
+          "tribunal",
+          "frase",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres fechas: 1902, 1965 y 1994. Un rey, una patrulla y un tribunal. Y al final, por qué esta historia sigue abierta unos kilómetros más al sur.",
+        "planos": [
+          {
+            "centro": [
+              -72.87,
+              -49.05
+            ],
+            "zoom": 10.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.86,
+              -49.0
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "en": "1965",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -72.74,
+              -48.89
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "en": "rey",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.86,
+              -49.02
+            ],
+            "zoom": 11.4,
+            "entrada": "paneo",
+            "en": "patrulla",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.9,
+              -49.05
+            ],
+            "zoom": 9.8,
+            "entrada": "zoom",
+            "en": "tribunal",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.1,
+              -49.45
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "sur",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "👑",
+            "texto": "REY",
+            "dice": "1902"
+          },
+          {
+            "icono": "🐎",
+            "texto": "PATRULLA",
+            "dice": "1965"
+          },
+          {
+            "icono": "tribunal",
+            "texto": "TRIBUNAL",
+            "dice": "1994"
+          }
+        ],
+        "indicePosicion": "fila",
+        "etiquetas": [
+          {
+            "lon": -72.7,
+            "lat": -48.88,
+            "texto": "HITO 62",
+            "tipo": "pin",
+            "aparecerEn": "rey",
+            "desaparecerEn": "tribunal"
+          },
+          {
+            "lon": -72.835,
+            "lat": -49.02,
+            "texto": "LAGUNA DEL DESIERTO",
+            "tipo": "mar",
+            "aparecerEn": "patrulla",
+            "desaparecerEn": "tribunal"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -73.1,
+            "lat": -49.38,
+            "icono": "⬇️",
+            "ruta": [
+              [
+                -73.08,
+                -49.3
+              ],
+              [
+                -73.2,
+                -49.5
+              ]
+            ],
+            "duracionSeg": 1.6,
+            "escala": 1.1,
+            "aparecerEn": "sur"
+          }
+        ],
+        "clave": [
+          "1902",
+          "1965",
+          "1994",
+          "rey",
+          "patrulla",
+          "tribunal"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, 1902. El rey Eduardo VII de Inglaterra resuelve como árbitro la frontera patagónica. Para este tramo, entre el Hito 62 y el monte Fitz Roy, escribe que la línea sigue la divisoria local de aguas. Chile y Argentina leen esa frase de manera opuesta.",
+        "planos": [
+          {
+            "centro": [
+              -70.5,
+              -46.0
+            ],
+            "zoom": 5.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.5,
+              -47.5
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "árbitro",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.88,
+              -49.07
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "tramo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.73,
+              -48.89
+            ],
+            "zoom": 11.0,
+            "entrada": "corte",
+            "en": "Hito",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.9,
+              -49.05
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "en": "divisoria",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.87,
+              -49.03
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "en": "opuesta",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "King Edward VII Fildes 1902",
+          "archivo": "File:King Edward VII - Fildes 1902.jpg",
+          "pie": "Eduardo VII, rey del Reino Unido · retrato de Luke Fildes",
+          "anio": "1902",
+          "lado": "derecha",
+          "aparecerEn": "Eduardo",
+          "duracionSeg": 3.6
+        },
+        "etiquetas": [
+          {
+            "lon": -69.8,
+            "lat": -46.0,
+            "texto": "PATAGONIA",
+            "tipo": "region",
+            "aparecerEn": "patagónica",
+            "desaparecerEn": "tramo"
+          },
+          {
+            "lon": -72.7,
+            "lat": -48.88,
+            "texto": "HITO 62",
+            "tipo": "pin",
+            "aparecerEn": "Hito",
+            "desaparecerEn": "opuesta"
+          },
+          {
+            "lon": -73.043,
+            "lat": -49.271,
+            "texto": "MONTE FITZ ROY",
+            "tipo": "pin",
+            "aparecerEn": "Fitz",
+            "desaparecerEn": "opuesta"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.86,
+            "lat": -49.12,
+            "icono": "rio",
+            "escala": 0.9,
+            "aparecerEn": "aguas",
+            "desaparecerEn": "Chile"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -72.7,
+                -48.88
+              ],
+              [
+                -72.744,
+                -48.914
+              ],
+              [
+                -72.921,
+                -48.953
+              ],
+              [
+                -73.018,
+                -48.999
+              ],
+              [
+                -73.093,
+                -49.097
+              ],
+              [
+                -73.183,
+                -49.238
+              ],
+              [
+                -73.043,
+                -49.271
+              ],
+              [
+                -72.8,
+                -49.16
+              ],
+              [
+                -72.76,
+                -49.06
+              ],
+              [
+                -72.72,
+                -48.95
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "ZONA EN DISPUTA",
+            "etiquetaEn": [
+              -72.88,
+              -49.1
+            ],
+            "aparecerEn": "opuesta",
+            "quedarse": 1
+          }
+        ],
+        "contexto": {
+          "texto": "LA DIVISORIA LOCAL",
+          "dice": "divisoria"
+        },
+        "clave": [
+          "1902",
+          "Eduardo",
+          "árbitro",
+          "Hito",
+          "divisoria",
+          "opuesta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, 1965. Con la línea en duda, Carabineros de Chile y Gendarmería argentina patrullan la misma zona. En noviembre, un enfrentamiento cerca de la laguna termina con la muerte del teniente chileno Hernán Merino. Cada país culpa al otro de iniciarlo.",
+        "planos": [
+          {
+            "centro": [
+              -72.86,
+              -49.02
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.95,
+              -48.98
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "en": "Carabineros",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.78,
+              -49.06
+            ],
+            "zoom": 10.8,
+            "entrada": "paneo",
+            "en": "Gendarmería",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.86,
+              -49.0
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "noviembre",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.86,
+              -49.03
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "en": "Cada",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1965",
+            "sub": "NOVIEMBRE · LAGUNA DEL DESIERTO",
+            "aparecerEn": "noviembre",
+            "duracionSeg": 3.0
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -73.05,
+            "lat": -48.97,
+            "icono": "🐎",
+            "ruta": [
+              [
+                -73.08,
+                -48.96
+              ],
+              [
+                -72.92,
+                -48.99
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "escala": 0.9,
+            "aparecerEn": "Carabineros",
+            "desaparecerEn": "noviembre"
+          },
+          {
+            "lon": -72.68,
+            "lat": -49.08,
+            "icono": "🐎",
+            "ruta": [
+              [
+                -72.66,
+                -49.09
+              ],
+              [
+                -72.8,
+                -49.05
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "escala": 0.9,
+            "aparecerEn": "Gendarmería",
+            "desaparecerEn": "noviembre"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.02,
+            "lat": -48.94,
+            "texto": "CARABINEROS",
+            "tipo": "region",
+            "aparecerEn": "Carabineros",
+            "desaparecerEn": "noviembre"
+          },
+          {
+            "lon": -72.7,
+            "lat": -49.11,
+            "texto": "GENDARMERÍA",
+            "tipo": "region",
+            "aparecerEn": "Gendarmería",
+            "desaparecerEn": "noviembre"
+          },
+          {
+            "lon": -72.835,
+            "lat": -49.02,
+            "texto": "LAGUNA DEL DESIERTO",
+            "tipo": "mar",
+            "aparecerEn": "laguna"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -72.864,
+            "lat": -49.036,
+            "radio": 130,
+            "aparecerEn": "laguna"
+          }
+        ],
+        "contexto": {
+          "texto": "LA LÍNEA EN DUDA",
+          "dice": "duda"
+        },
+        "clave": [
+          "1965",
+          "Carabineros",
+          "Gendarmería",
+          "noviembre",
+          "Merino"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, 1994. En 1991 Patricio Aylwin y Carlos Menem llevan el caso a un tribunal de cinco juristas latinoamericanos. El fallo llega el 21 de octubre de 1994. Según el laudo, publicado por Naciones Unidas, la divisoria deja la laguna del lado argentino. Chile pide revisión. En 1995 la respuesta es no, y Chile acata.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -70.5,
+              -46.0
+            ],
+            "zoom": 5.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.5,
+              -42.0
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "en": "tribunal",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.9,
+              -49.05
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "fallo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.9,
+              -49.05
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.86,
+              -49.02
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "en": "laguna",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.9,
+              -49.05
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "revisión",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Aylwin",
+            "desaparecerEn": "fallo"
+          },
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Menem",
+            "desaparecerEn": "fallo"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1994",
+            "sub": "EL LAUDO",
+            "icono": "tribunal",
+            "aparecerEn": "octubre",
+            "duracionSeg": 3.0
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -72.7,
+                -48.88
+              ],
+              [
+                -72.744,
+                -48.914
+              ],
+              [
+                -72.921,
+                -48.953
+              ],
+              [
+                -73.018,
+                -48.999
+              ],
+              [
+                -73.093,
+                -49.097
+              ],
+              [
+                -73.183,
+                -49.238
+              ],
+              [
+                -73.043,
+                -49.271
+              ],
+              [
+                -72.8,
+                -49.16
+              ],
+              [
+                -72.76,
+                -49.06
+              ],
+              [
+                -72.72,
+                -48.95
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "ZONA EN DISPUTA",
+            "aparecerEn": "Según",
+            "desaparecerEn": "argentino"
+          },
+          {
+            "pais": "Argentina",
+            "color": "verde",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -72.78,
+              -49.07
+            ],
+            "aparecerEn": "argentino"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.6,
+            "lat": -48.95,
+            "icono": "📄",
+            "escala": 1.0,
+            "aparecerEn": "revisión"
+          },
+          {
+            "lon": -72.6,
+            "lat": -48.95,
+            "icono": "📄",
+            "escala": 1.0,
+            "tachado": true,
+            "aparecerEn": "respuesta"
+          }
+        ],
+        "fuente": {
+          "texto": "Laudo del 21-10-1994 · RIAA vol. XXII (ONU)",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "CINCO JURISTAS",
+          "dice": "cinco"
+        },
+        "clave": [
+          "1991",
+          "cinco",
+          "1994",
+          "laudo",
+          "argentino",
+          "1995"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el laudo de 1902 llegaba hasta la cumbre del Fitz Roy. Desde ese mismo cerro hacia el sur empieza el Campo de Hielo Patagónico Sur, donde la frontera todavía tiene un tramo sin trazar. La montaña que cerró un pleito es la que abre el otro.",
+        "planos": [
+          {
+            "centro": [
+              -72.95,
+              -49.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -73.043,
+              -49.271
+            ],
+            "zoom": 12.0,
+            "entrada": "zoom",
+            "en": "cumbre",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -73.25,
+              -49.55
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "sur",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 9.8,
+            "entrada": "corte",
+            "en": "tramo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.0,
+              -49.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "montaña",
+            "deriva": 0.3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "resaltes": [
+          {
+            "lon": -73.043,
+            "lat": -49.271,
+            "radio": 110,
+            "aparecerEn": "cumbre"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.043,
+            "lat": -49.271,
+            "texto": "MONTE FITZ ROY",
+            "tipo": "pin",
+            "aparecerEn": "Fitz",
+            "quedarse": 1
+          },
+          {
+            "lon": -73.48,
+            "lat": -49.95,
+            "texto": "CAMPO DE HIELO SUR",
+            "tipo": "region",
+            "aparecerEn": "Hielo"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -73.633,
+                -49.1667
+              ],
+              [
+                -72.983,
+                -49.1667
+              ],
+              [
+                -72.983,
+                -49.7917
+              ],
+              [
+                -73.633,
+                -49.7917
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "TRAMO SIN TRAZAR",
+            "aparecerEn": "tramo"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.75,
+            "lat": -49.75,
+            "icono": "hielo",
+            "escala": 1.1,
+            "aparecerEn": "Hielo",
+            "desaparecerEn": "montaña"
+          }
+        ],
+        "foto": {
+          "buscar": "Fitz Roy Lago del Desierto",
+          "archivo": "File:Fitz Roy- Lago del Desierto.JPG",
+          "pie": "EL FITZ ROY DESDE EL LAGO DEL DESIERTO",
+          "aparecerEn": "montaña",
+          "duracionSeg": 2.6
+        },
+        "clave": [
+          "giro",
+          "1902",
+          "Fitz",
+          "Hielo",
+          "trazar",
+          "pleito"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la laguna está en la provincia argentina de Santa Cruz, y su agua baja por el río de las Vueltas hacia el Atlántico. En su orilla norte empieza un sendero que cruza a pie hasta Candelario Mancilla, en Chile. Un paso fronterizo sin autos: solo mochilas.",
+        "planos": [
+          {
+            "centro": [
+              -70.6,
+              -49.4
+            ],
+            "zoom": 6.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.6,
+              -49.7
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Vueltas",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.85,
+              -48.995
+            ],
+            "zoom": 11.2,
+            "entrada": "zoom",
+            "en": "orilla",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.8,
+              -48.93
+            ],
+            "zoom": 10.6,
+            "entrada": "paneo",
+            "en": "Candelario",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -72.77,
+              -48.9
+            ],
+            "zoom": 11.8,
+            "entrada": "corte",
+            "en": "mochilas",
+            "deriva": 0.2
+          }
+        ],
+        "foto": {
+          "buscar": "Lago del Desierto",
+          "archivo": "File:Lago del Desierto.jpg",
+          "pie": "LAGO DEL DESIERTO · SANTA CRUZ, ARGENTINA",
+          "aparecerEn": "laguna",
+          "duracionSeg": 2.4
+        },
+        "polaroid": {
+          "buscar": "Ferry at Candelario Mancilla",
+          "archivo": "File:Ferry at Candelario Mancilla (3260765640).jpg",
+          "pie": "Ferry en Candelario Mancilla, lago O'Higgins (Chile)",
+          "lado": "izquierda",
+          "aparecerEn": "Mancilla",
+          "duracionSeg": 2.8
+        },
+        "etiquetas": [
+          {
+            "lon": -69.8,
+            "lat": -48.9,
+            "texto": "SANTA CRUZ",
+            "tipo": "region",
+            "aparecerEn": "Santa",
+            "desaparecerEn": "orilla"
+          },
+          {
+            "lon": -72.91,
+            "lat": -49.2,
+            "texto": "RÍO DE LAS VUELTAS",
+            "tipo": "rio",
+            "rotacion": -84,
+            "aparecerEn": "Vueltas",
+            "desaparecerEn": "orilla"
+          },
+          {
+            "lon": -66.6,
+            "lat": -49.6,
+            "texto": "OCÉANO ATLÁNTICO",
+            "tipo": "mar",
+            "aparecerEn": "Atlántico",
+            "desaparecerEn": "orilla"
+          },
+          {
+            "lon": -72.743,
+            "lat": -48.869,
+            "texto": "CANDELARIO MANCILLA",
+            "tipo": "pin",
+            "aparecerEn": "Candelario"
+          },
+          {
+            "lon": -72.82,
+            "lat": -48.84,
+            "texto": "CHILE",
+            "tipo": "region",
+            "aparecerEn": "Chile"
+          },
+          {
+            "lon": -72.72,
+            "lat": -49.0,
+            "texto": "ARGENTINA",
+            "tipo": "region",
+            "aparecerEn": "Chile"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.87,
+            "lat": -49.08,
+            "icono": "💧",
+            "ruta": [
+              [
+                -72.87,
+                -49.08
+              ],
+              [
+                -72.89,
+                -49.33
+              ],
+              [
+                -72.5,
+                -49.6
+              ],
+              [
+                -72.0,
+                -49.85
+              ],
+              [
+                -72.1,
+                -50.2
+              ],
+              [
+                -71.0,
+                -50.15
+              ],
+              [
+                -69.5,
+                -50.1
+              ],
+              [
+                -68.4,
+                -50.12
+              ]
+            ],
+            "duracionSeg": 3.0,
+            "escala": 0.8,
+            "aparecerEn": "agua",
+            "desaparecerEn": "orilla"
+          },
+          {
+            "lon": -72.85,
+            "lat": -48.995,
+            "icono": "🥾",
+            "ruta": [
+              [
+                -72.85,
+                -48.995
+              ],
+              [
+                -72.8,
+                -48.94
+              ],
+              [
+                -72.743,
+                -48.869
+              ]
+            ],
+            "duracionSeg": 3.0,
+            "escala": 0.9,
+            "aparecerEn": "sendero"
+          },
+          {
+            "lon": -72.79,
+            "lat": -48.93,
+            "icono": "🚗",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "autos"
+          },
+          {
+            "lon": -72.77,
+            "lat": -48.9,
+            "icono": "🎒",
+            "escala": 1.0,
+            "aparecerEn": "mochilas"
+          }
+        ],
+        "contexto": {
+          "texto": "SOLO A PIE",
+          "dice": "pie"
+        },
+        "clave": [
+          "Santa",
+          "Vueltas",
+          "Atlántico",
+          "sendero",
+          "Candelario",
+          "mochilas"
+        ]
+      }
+    ],
+    "remate": "En 1902 se escribió la frontera. En 1994 se leyó.",
+    "fuentes": [
+      {
+        "texto": "Laudo Argentina-Chile, Laguna del Desierto (21-10-1994), Reports of International Arbitral Awards, vol. XXII (Naciones Unidas); ficha en italaw",
+        "url": "https://www.italaw.com/node/42299"
+      },
+      {
+        "texto": "Análisis del laudo de Laguna del Desierto (core.ac.uk)",
+        "url": "https://core.ac.uk/download/83570877.pdf"
+      },
+      {
+        "texto": "Wikipedia: Laguna del Desierto incident (1965)",
+        "url": "https://en.wikipedia.org/wiki/Laguna_del_Desierto_incident"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -72.92,
+        -49.07
+      ],
+      "zoomInicial": 8.4,
+      "zoomFinal": 9.4,
+      "lineas": [
+        {
+          "id": "segun-chile",
+          "puntos": [
+            [
+              -72.7,
+              -48.88
+            ],
+            [
+              -72.72,
+              -48.95
+            ],
+            [
+              -72.76,
+              -49.06
+            ],
+            [
+              -72.8,
+              -49.16
+            ],
+            [
+              -73.043,
+              -49.271
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Chile",
+          "etiqueta": "SEGÚN CHILE"
+        },
+        {
+          "id": "segun-argentina",
+          "puntos": [
+            [
+              -72.7,
+              -48.88
+            ],
+            [
+              -72.744,
+              -48.914
+            ],
+            [
+              -72.921,
+              -48.953
+            ],
+            [
+              -73.018,
+              -48.999
+            ],
+            [
+              -73.093,
+              -49.097
+            ],
+            [
+              -73.108,
+              -49.135
+            ],
+            [
+              -73.183,
+              -49.238
+            ],
+            [
+              -73.043,
+              -49.271
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Argentina",
+          "etiqueta": "SEGÚN ARGENTINA"
+        },
+        {
+          "id": "limite-1994",
+          "puntos": [
+            [
+              -72.7,
+              -48.88
+            ],
+            [
+              -72.744,
+              -48.914
+            ],
+            [
+              -72.921,
+              -48.953
+            ],
+            [
+              -73.018,
+              -48.999
+            ],
+            [
+              -73.093,
+              -49.097
+            ],
+            [
+              -73.108,
+              -49.135
+            ],
+            [
+              -73.183,
+              -49.238
+            ],
+            [
+              -73.043,
+              -49.271
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "divisoria",
+          "etiqueta": "LÍMITE DESDE 1994"
+        },
+        {
+          "id": "campo-de-hielo",
+          "puntos": [
+            [
+              -73.043,
+              -49.271
+            ],
+            [
+              -73.25,
+              -49.53
+            ],
+            [
+              -73.43,
+              -49.8
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 5,
+          "dice": "trazar",
+          "etiqueta": "SIN TRAZAR"
+        }
+      ]
+    },
+    "acento": "coral",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ES ESTE LAGO?",
+      "clave": "LAGO",
+      "paises": [
+        "Chile",
+        "Argentina"
+      ],
+      "centro": [
+        -71.0,
+        -47.5
+      ],
+      "zoom": 4.6,
+      "pines": [
+        {
+          "lon": -72.864,
+          "lat": -49.036,
+          "texto": "LAGUNA DEL DESIERTO"
+        }
+      ],
+      "icono": "📜"
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -72.75,
+        "lat": -49.1,
+        "texto": "1902: SE ESCRIBIÓ"
+      },
+      {
+        "lon": -72.98,
+        "lat": -48.97,
+        "texto": "1994: SE LEYÓ"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -72.9,
+          -49.07
+        ],
+        "zoom": 9.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -72.88,
+          -49.02
+        ],
+        "zoom": 11.2,
+        "entrada": "corte",
+        "en": "1994",
+        "deriva": 0.25
+      }
+    ],
+    "cabecera": "LAGUNA DEL DESIERTO — UNA FRASE DE 1902"
+  }
+}

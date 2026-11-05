@@ -599,7 +599,7 @@
             ],
             "zoom": 7.4,
             "entrada": "zoom",
-            "en": "Según#2",
+            "en": "Según",
             "deriva": 0.3
           },
           {
@@ -809,7 +809,7 @@
             "icono": "✍️",
             "escala": 1.0,
             "aparecerEn": "firmaron",
-            "desaparecerEn": "Según#2"
+            "desaparecerEn": "Según"
           },
           {
             "lon": -72.35,
@@ -822,7 +822,7 @@
         ],
         "fuente": {
           "texto": "Acuerdo de 1998 · Ley argentina 25.110",
-          "dice": "Según#2"
+          "dice": "Según"
         },
         "contexto": {
           "texto": "PARTIDO EN DOS",
