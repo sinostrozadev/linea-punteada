@@ -1,0 +1,17 @@
+# Línea Punteada — líneas para `crontab -e` (las instala Santiago: es un consentimiento suyo).
+# NO uses `crontab scripts/cron.txt`: pisaría el crontab entero (ahí viven las líneas de Bolita Lab).
+# Horas distintas a Bolita Lab (03:30 diario, 04:30 compilar dom, 05:00 revisar lun) para no chocar en RAM;
+# además el render toma /tmp/bolita-render.lock (flock), compartido entre canales.
+SHELL=/bin/bash
+PATH=/home/santiago/.nvm/versions/node/v22.14.0/bin:/home/santiago/.local/bin:/usr/local/bin:/usr/bin:/bin
+HOME=/home/santiago
+
+# Diario 04:45: huérfanos, render hasta 4 'listo' (de a uno, esperando RAM ≥ 1500 MB), guiones si el backlog
+# baja de 8 (claude -p con docs/GUION.md) y subida por API o PARA-SUBIR-A-MANO.md.
+45 4 * * * cd /home/santiago/projects/yt/linea-punteada && node_modules/.bin/tsx scripts/diario.mts >> salida/logs/cron.log 2>&1
+
+# Compilación semanal, sábados 05:30 (video largo 16:9 con los últimos Shorts; se publica el domingo 10:00).
+30 5 * * 6 cd /home/santiago/projects/yt/linea-punteada && node_modules/.bin/tsx scripts/compilar.mts --n 10 >> salida/logs/cron.log 2>&1 && node_modules/.bin/tsx scripts/subir.mts exportar >> salida/logs/cron.log 2>&1
+
+# Estado cada mañana 08:15 (cat salida/logs/estado.log).
+15 8 * * * cd /home/santiago/projects/yt/linea-punteada && node_modules/.bin/tsx scripts/estado.mts > salida/logs/estado.log 2>&1

@@ -1,0 +1,16 @@
+{
+  "zonaHoraria": "America/Santiago",
+  "comentario": "Ranuras de publicación (dias: 0=domingo … 6=sábado). Línea Punteada: 2 Shorts diarios a las 12:00 y 18:00 desde el día 1 (sin fase doble aparte). El video largo va los domingos a las 10:00 y no ocupa ranuras de Shorts. Rotación cíclica de plantillas; mientras solo exista `frontera`, el diario usa la que tenga guiones.",
+  "ranuras": [
+    { "dias": [0, 1, 2, 3, 4, 5, 6], "hora": "12:00" },
+    { "dias": [0, 1, 2, 3, 4, 5, 6], "hora": "18:00" }
+  ],
+  "dobleHasta": null,
+  "ranurasLargo": [
+    { "dias": [0], "hora": "10:00" }
+  ],
+  "rotacion": ["frontera", "lugar", "ruta"],
+  "minimoBandeja": 4,
+  "minimoBacklog": 8,
+  "margenMinutos": 20
+}
