@@ -1,29 +1,33 @@
 import React, { useMemo } from 'react';
-import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig, type CalculateMetadataFunction } from 'remotion';
+import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, type CalculateMetadataFunction } from 'remotion';
 import { z } from 'zod';
-import { FORMATO, PALETA, TIPO } from '../../marca/tokens';
+import { ACENTOS, FORMATO, MAPA, PALETA, TIPO } from '../../marca/tokens';
 import { cargarFuentes } from '../../marca/fuentes';
-import { MarcaDeAgua } from '../../marca/MarcaDeAgua';
-import { Cierre } from '../../marca/Cierre';
 import { ImagenesResueltas } from '../comun/guion';
-import { FRAMES_CIERRE, buscarPalabra, estimarTiempos, planificar, type Bloque, type Plan, type Tiempos } from '../comun/plan';
-import { Subtitulos } from '../comun/Subtitulos';
-import { Cabecera } from '../comun/Cabecera';
-import { Rotulo, type EstiloRotulo } from '../comun/Rotulo';
-import { TarjetaImagen } from '../comun/TarjetaImagen';
-import { Remate, mitadesRemate } from '../comun/Remate';
-import { ZONA } from '../comun/disposicion';
-import { CamposFrontera, FondoResuelto } from './guion';
-import { Mapa } from './Mapa';
+import { estimarTiempos, planificar, type Plan, type Tiempos } from '../comun/plan';
+import { SubtitulosBloque } from '../comun/SubtitulosBloque';
+import { ALTO_INDICE, ARRIBA_TARJETA, CierreLinea, EtiquetaContexto, FotoCompleta, IndiceEnumeracion, PolaroidMapa, TarjetaCifra, TarjetaFuente } from '../comun/Superposiciones';
+import { CamposFrontera, FondoCapa, FondoResuelto, type GeoRecortado } from './guion';
+import { Mapa, type Fondo } from './Mapa';
+import { TarjetaTitulo } from './TarjetaTitulo';
+import { proyeccion } from './mapa';
+import { FRAMES_CIERRE_V2, T_TITULO, camaraEn, fotoEn, resolverVisual, type Visual } from './visual';
 
 /** Props de la composición: el guion + lo que agrega preparar-frontera. */
 export const PropsFrontera = CamposFrontera.extend({
   duracionFrames: z.number().optional(),
   tiempos: z.any().optional(),
-  /** Fotos de Commons por índice de línea (0 = gancho). */
+  /** v1: fotos de Commons por línea (`imagen` de escena; en v2 se muestran como polaroid). */
   imagenes: ImagenesResueltas.optional(),
-  /** Recorte satelital descargado (si falta o falló, el mapa usa vectores oscuros). */
+  /** v2: foto a pantalla completa y polaroid por línea de voz (0 = gancho). */
+  fotos: ImagenesResueltas.optional(),
+  polaroids: ImagenesResueltas.optional(),
+  /** v1: un solo recorte satelital. */
   fondoMapa: FondoResuelto.optional(),
+  /** v2: varias capas (relieve regional + Sentinel-2 en los planos cercanos). */
+  fondos: z.array(FondoCapa).optional(),
+  /** v2: Natural Earth 1:10 M recortado (z.any: no se valida campo a campo por tamaño). */
+  geo: z.any().optional(),
   /** Atribución para la descripción (no se usa en el render). */
   creditos: z.string().optional(),
 });
@@ -42,95 +46,100 @@ export const calcularMetadataFrontera: CalculateMetadataFunction<PropsFrontera> 
       tiempos = estimarTiempos(props);
     }
   }
-  const plan = planificar(props, tiempos, FPS);
+  const plan = planificar(props, tiempos, FPS, FRAMES_CIERRE_V2);
   return { durationInFrames: plan.duracionFrames, props: { ...props, tiempos, duracionFrames: plan.duracionFrames } };
 };
 
-const estiloDe = (tipo: string): EstiloRotulo => (tipo === 'mito' ? 'mito' : tipo === 'giro' ? 'giro' : 'clave');
-
-/** Una escena: subtítulos, rótulo (en la palabra `dice`) y tarjeta de imagen opcional. */
-const Escena: React.FC<{ bloque: Bloque; props: PropsFrontera }> = ({ bloque, props }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const escena = props.escenas[bloque.indice - 1];
-  const imagen = props.imagenes?.[String(bloque.indice)];
-  const rotuloDesde = bloque.rotuloEn === null ? null : Math.round(bloque.rotuloEn * fps);
-  // Mito: el rótulo se tacha cuando la voz dice "verdad" ("La verdad es más rara.").
-  const iVerdad = escena.tipo === 'mito' ? buscarPalabra(bloque.linea.palabras, 'verdad') : -1;
-  const tacharEn = iVerdad >= 0 && rotuloDesde !== null ? Math.round(bloque.linea.palabras[iVerdad].inicio * fps) - rotuloDesde : undefined;
-  return (
-    <AbsoluteFill>
-      {imagen && <TarjetaImagen imagen={imagen} frame={frame} frames={bloque.frames} variante={bloque.indice} />}
-      {escena.rotulo && rotuloDesde !== null && (
-        <Rotulo texto={escena.rotulo.texto} frame={frame - rotuloDesde} frames={bloque.frames - rotuloDesde} estilo={estiloDe(escena.tipo)}
-          centroY={imagen ? ZONA.rotulo.centroYConImagen : ZONA.rotulo.centroY} tacharEn={tacharEn} />
-      )}
-      <Subtitulos linea={bloque.linea} frameLocal={frame} resaltar={bloque.palabraRotulo >= 0 ? [bloque.palabraRotulo] : []} />
-    </AbsoluteFill>
-  );
-};
-
-const Gancho: React.FC<{ bloque: Bloque; props: PropsFrontera }> = ({ bloque, props }) => {
-  const frame = useCurrentFrame();
-  const imagen = props.imagenes?.['0'];
-  return (
-    <AbsoluteFill>
-      {imagen && <TarjetaImagen imagen={imagen} frame={frame} frames={bloque.frames} variante={0} />}
-      <Rotulo texto={props.gancho.rotulo} frame={frame} frames={bloque.frames} inmediato centroY={imagen ? ZONA.rotulo.centroYConImagen : ZONA.rotulo.centroY} />
-      <Subtitulos linea={bloque.linea} frameLocal={frame} />
-    </AbsoluteFill>
-  );
-};
-
-const BloqueRemate: React.FC<{ bloque: Bloque; texto: string }> = ({ bloque, texto }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  // La segunda mitad entra cuando la voz llega a su primera palabra.
-  const [a] = mitadesRemate(texto);
-  const nA = a.split(/\s+/).filter(Boolean).length;
-  const p = bloque.linea.palabras[nA];
-  const segundaEn = p ? Math.round(p.inicio * fps) : Math.round(bloque.frames * 0.45);
-  return <Remate texto={texto} frame={frame} segundaEn={segundaEn} />;
+/** Bloque de voz vigente en el frame (para los subtítulos). */
+const bloqueEn = (plan: Plan, frame: number) => {
+  let k = 0;
+  for (let i = 0; i < plan.bloques.length; i++) if (plan.bloques[i].desde <= frame) k = i;
+  return plan.bloques[k];
 };
 
 export const Frontera: React.FC<PropsFrontera> = (props) => {
   cargarFuentes();
   const frame = useCurrentFrame();
+  const t = frame / FPS;
   const tiempos: Tiempos = props.tiempos ?? estimarTiempos(props);
-  const plan: Plan = useMemo(() => planificar(props, tiempos, FPS), [props, tiempos]);
+  const plan: Plan = useMemo(() => planificar(props, tiempos, FPS, FRAMES_CIERRE_V2), [props, tiempos]);
+  const vis: Visual = useMemo(() => resolverVisual(props, plan), [props, plan]);
+  const acento = ACENTOS[props.acento ?? 'amarillo'];
+  const fondos: Fondo[] = props.fondos?.length ? props.fondos : props.fondoMapa ? [props.fondoMapa] : [];
+  const geo = props.geo as GeoRecortado | undefined;
   const hayVoz = !!props.tiempos;
+  const cam = camaraEn(vis.planos, t);
+  const W = FORMATO.ancho, H = FORMATO.alto;
+
+  // Tarjeta de título (frame 0): por defecto la cámara del primer plano, 1,6 niveles más lejos.
+  const tt = props.tarjetaTitulo;
+  const p0 = vis.planos[0];
+  const camTitulo = { centro: tt?.centro ?? p0.centro, zoom: tt?.zoom ?? p0.zoom - 1.6 };
+
+  const foto = fotoEn(vis, t);
+  const tarjetaActiva = vis.tarjetas.find((x) => t >= x.desde && t < x.hasta);
+  const b = bloqueEn(plan, frame);
+  const enTitulo = t < T_TITULO;
+  const enCierre = frame >= plan.cierreDesde;
+
+  // Índice: ítem activo durante los actos; ancla vertical proyectada si se pidió.
+  const ind = vis.indice;
+  const activo = ind?.activo.find((a) => t >= a.desde && t < a.hasta)?.item ?? null;
+  let ancla: [number, number] | null = null;
+  if (ind?.posicion === 'vertical-mapa' && ind.ancla) {
+    const pr = proyeccion(fondos.length ? 'equirectangular' : 'mercator', cam, W, H).clipExtent(null);
+    ancla = (pr(ind.ancla) as [number, number]) ?? null;
+  }
+
+  // Con el índice en fila arriba, tarjeta, contexto y polaroid bajan para no pisarlo.
+  const indiceArriba = !!ind && ind.posicion === 'fila' && t >= (ind.items[0]?.desde ?? Infinity) && t < ind.hasta;
+  const bajar = indiceArriba ? ALTO_INDICE : 0;
+
   return (
-    <AbsoluteFill style={{ background: PALETA.fondo }}>
-      <Mapa mapa={props.mapa} fondo={props.fondoMapa} plan={plan} frame={frame} />
+    <AbsoluteFill style={{ background: MAPA.oceano }}>
+      <Mapa mapa={props.mapa} fondos={fondos} geo={geo} vis={vis} t={t} cam={cam} acento={acento} ancho={W} alto={H} />
       {hayVoz && <Audio src={staticFile(`audio/generado/${props.id}.wav`)} volume={1} />}
       {hayVoz && tiempos.lineas.map((l) => (
         <Sequence key={l.indice} from={Math.round(l.inicio * FPS)} durationInFrames={Math.ceil(l.duracionAudio * FPS) + 2}>
           <Audio src={staticFile(l.archivo)} volume={1} />
         </Sequence>
       ))}
-      {props.fondoMapa && (
-        <div style={{
-          position: 'absolute', left: FORMATO.seguro.lados, bottom: ZONA.creditoMapa.bottom, fontFamily: TIPO.texto, fontWeight: 500,
-          fontSize: 19, color: PALETA.tintaSuave, opacity: 0.8, textShadow: '0 1px 4px rgba(0,0,0,0.9)',
-        }}>{props.fondoMapa.credito}</div>
+
+      {/* Sobre el mapa: polaroids, tarjetas, contexto, índice, fuente. */}
+      {vis.polaroids.map((p) => {
+        const img = p.d.v1 ? props.imagenes?.[String(p.k)] : props.polaroids?.[String(p.k)];
+        return img ? <PolaroidMapa key={p.id} imagen={img} pie={p.d.pie} anio={p.d.anio} forma={p.d.forma} lado={p.d.lado} t={t} desde={p.desde} hasta={p.hasta} acento={acento} bajar={bajar} /> : null;
+      })}
+      {!foto && vis.tarjetas.map((x) => <TarjetaCifra key={x.id} tarjeta={x.d} t={t} desde={x.desde} hasta={x.hasta} acento={acento} top={ARRIBA_TARJETA + bajar} />)}
+      {!foto && vis.contextos.map((c) => <EtiquetaContexto key={c.id} texto={c.d.texto} t={t} desde={c.desde} hasta={c.hasta} acento={acento} top={(tarjetaActiva ? 640 : 330) + bajar} />)}
+      {!foto && ind && <IndiceEnumeracion items={ind.items} activo={activo} t={t} hasta={ind.hasta} acento={acento} ancla={ancla} />}
+      {vis.fotos.map((f) => {
+        const img = props.fotos?.[String(f.k)];
+        return img ? <FotoCompleta key={f.id} imagen={img} pie={f.d.pie} t={t} desde={f.desde} hasta={f.hasta} variante={f.k} /> : null;
+      })}
+      {vis.fuentes.map((f) => <TarjetaFuente key={f.id} texto={f.d.texto} t={t} desde={f.desde} hasta={f.hasta} acento={acento} />)}
+
+      {!enTitulo && !enCierre && (
+        <SubtitulosBloque linea={b.linea} frameLocal={frame - b.desde} claves={vis.claves[b.indice]} acento={acento} />
       )}
-      <Cabecera texto={props.cabecera} />
-      <Sequence from={plan.gancho.desde} durationInFrames={plan.gancho.frames}>
-        <Gancho bloque={plan.gancho} props={props} />
-      </Sequence>
-      {plan.escenas.map((b) => (
-        <Sequence key={b.indice} from={b.desde} durationInFrames={b.frames}>
-          <Escena bloque={b} props={props} />
-        </Sequence>
-      ))}
-      {/* El remate termina donde empieza el cierre: si sigue debajo, su texto se transparenta detrás de la marca. */}
-      <Sequence from={plan.remate.desde} durationInFrames={plan.remate.frames}>
-        <BloqueRemate bloque={plan.remate} texto={props.remate} />
-      </Sequence>
-      <MarcaDeAgua />
-      <Sequence from={plan.cierreDesde} durationInFrames={FRAMES_CIERRE}>
-        <Cierre />
+      {fondos.length > 0 && !enTitulo && (
+        <div style={{ position: 'absolute', right: 30, bottom: FORMATO.seguro.abajo - 30, fontFamily: TIPO.texto, fontWeight: 500, fontSize: 15, color: PALETA.tintaSuave, opacity: 0.55, textShadow: '0 1px 3px #000' }}>
+          {creditoVisible(fondos, cam.zoom)}
+        </div>
+      )}
+      {enTitulo && (
+        <TarjetaTitulo texto={tt?.texto ?? props.gancho.rotulo} clave={tt?.clave} cam={camTitulo} t={t} mapa={props.mapa} fondos={fondos} geo={geo} vis={vis}
+          acento={acento} paises={tt?.paises ?? props.mapa.paises} pines={tt?.pines} icono={tt?.icono} />
+      )}
+      <Sequence from={plan.cierreDesde} durationInFrames={FRAMES_CIERRE_V2}>
+        <CierreLinea frame={frame - plan.cierreDesde} acento={acento} />
       </Sequence>
     </AbsoluteFill>
   );
+};
+
+/** Crédito corto de la capa que domina el cuadro (el completo va en la descripción). */
+const creditoVisible = (fondos: Fondo[], zoom: number) => {
+  const f = [...fondos].reverse().find((x) => x.zoom === undefined || zoom >= x.zoom - 0.6) ?? fondos[0];
+  return /s2cloudless/.test(f.capa) ? 'Sentinel-2 cloudless 2016 · EOX · CC BY 4.0' : /Landsat/.test(f.capa) ? 'NASA · Landsat WELD' : 'NASA Blue Marble';
 };
