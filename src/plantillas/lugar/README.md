@@ -30,7 +30,13 @@ Desde la v2 `lugar` comparte la dirección visual de frontera (docs/DIRECCION-VI
   esquemas de frontera), `visualV2.ts` (adapta el guion a `frontera/visual.resolverVisual` + SFX), `CapasMapa.tsx` (capas
   pegadas al mapa con cualquier proyección), `CapasPantalla.tsx` (bloque de `comun/Superposiciones` + subtítulos + cierre,
   igual que en Frontera.tsx) y `TarjetaTituloBase.tsx`.
-- Ejemplo v2: `contenido/borradores/lugar-clipperton-1917.v2.json` (= `ejemplo.json`). Prueba: `salida/pruebas/lugar-v2-clipperton.mp4`.
+- **Anticolisión de etiquetas** (`comun/colisiones.ts`, el mismo de frontera): `CapasMapa` mide cada etiqueta y las coloca
+  por prioridad (remate > pin > área > país > mar > río), esquivando marcadores, texto de cotas, iconos quietos, la
+  franja del subtítulo y las cajas de pantalla (`CapasPantalla.reservasPantalla`: tarjeta, contexto, índice, polaroid,
+  fuente). Decide con la cámara asentada del plano (`frontera/visual.camaraAsentada`) y confirma con la real: no salta
+  en los vuelos; línea guía si se corre > 40 px; se oculta si no cabe.
+- Ejemplo v2: `contenido/borradores/lugar-clipperton-1917.v2.json` (= `ejemplo.json`). Pruebas por tramos a 0,25:
+  `salida/pruebas/lugar-v2-a.mp4` (0–30 s) y `lugar-v2-b.mp4` (32–62 s), hojas `lugar-v2-{a,b}-hoja.jpg`.
 
 ## Flujo
 ```bash
