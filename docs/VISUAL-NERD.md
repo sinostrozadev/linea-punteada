@@ -62,3 +62,22 @@ lo que haremos nosotros además.
 4. **Ruta animada y contador** (plantilla `ruta`) y **Ken Burns en fotos** (plantilla `lugar`): cosas que Ñerd no tiene.
 5. Las dos etiquetas del remate sobre el mapa (como Ñerd) **y** el remate hablado.
 6. Índice de enumeración con pictogramas propios (SVG, CC0) además de emoji, para que no se vea igual a Ñerd.
+
+## 6. Confirmación con el 2.º Short (capital de Canadá, 1,3 M, 104 s; `salida/referentes/nerd/canada-sheet_0..2.jpg`)
+Mismo sistema exacto (tarjeta de título a 0 s con "¿AQUÍ?" + pin + 🔍, corte al satélite a 0,7 s, evento cada ~2 s,
+subtítulos 2–4 palabras con palabra clave en caja, sin marca). Lo que suma:
+- **Color de acento por video**: Arizona amarillo, Canadá **cian**; el mismo acento en la caja del subtítulo, la palabra
+  clave del título y las tarjetas. (Nosotros: amarillo por defecto, cian o coral como variante por video.)
+- **Tarjetas de cifra con icono**: "2º / PAÍS MÁS GRANDE DEL MUNDO", "76 % / VIVE A MENOS DE 160 KM DE EE. UU." con una
+  **fila de personitas** sobre la franja de la frontera, "16 años / 1841 – 1857" con **barra de línea de tiempo**,
+  "+200 / VOTACIONES" con icono de urna, años con subtítulo ("1812 / EE. UU. CONTRA GRAN BRETAÑA", "1814 / LA RESPUESTA
+  BRITÁNICA", "1857 / LA REINA DECIDE"), "INGLESES vs FRANCESES" sobre una pintura.
+- **Índice de enumeración también vertical sobre el mapa** (❄️ FRÍO / ⚔️ GUERRA / 👑 REINA apilados en el territorio),
+  no solo en fila arriba.
+- **Cotas en todas partes**: "70 km", "59 km", "202 km", "13 km", "22 km", "55 km", "66 km" (hasta 4 a la vez, rotadas).
+- **Franja**: máscara en banda a lo largo de la frontera ("una franja" amarilla rayada de ~160 km).
+- **Clips de video aéreo** (Toronto, Quebec, canal Rideau, parlamento): nosotros no podemos (licencias) → foto de Commons
+  con Ken Burns + leve paralaje; una **foto circular** incrustada sobre el mapa (102 s) sí.
+- **Satélite estacional**: Canadá en invierno (nieve) para el "frío". NASA Blue Marble tiene 12 meses: elegir el mes por
+  el tema (`mapa.mes`).
+- Iconos emoji grandes como "dibujos": 🔍, ❄️, ⚔️, 👑, 🛡️, 🚢, 🔥, 🌲, 🪵.
