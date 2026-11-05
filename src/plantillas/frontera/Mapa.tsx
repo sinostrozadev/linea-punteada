@@ -163,8 +163,8 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
 
   // ---------------------------------------------------------------- colisiones de etiquetas
   // Cada etiqueta visible es una caja medida; se colocan por prioridad y la menor se corre o se oculta
-  // (frontera/colisiones.ts). Se resuelve con la cámara ASENTADA del plano (no salta durante los vuelos) y el
-  // desplazamiento se aplica sobre la cámara real.
+  // (frontera/colisiones.ts). Primero con la cámara ASENTADA del plano (decisión estable durante los vuelos) y
+  // luego con la real, prefiriendo lo decidido: no salta y nunca se pisan.
   type Rotulo = EtiquetaColision & { punto: [number, number] };
   const reunir = (xyF: (p: LonLat) => [number, number] | null): { rot: Rotulo[]; obst: Caja[] } => {
     const rot: Rotulo[] = [];
@@ -258,7 +258,9 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
   const ref = reunir((q) => libreRef(q) as [number, number] | null);
   const vivos = new Set(actual.rot.map((r) => r.id));
   const banda: Caja = { x0: 0, y0: SUB_DESDE, x1: ancho, y1: SUB_HASTA };
-  const colocacion = resolverColisiones(ref.rot.filter((r) => vivos.has(r.id)), [...ref.obst, ...reservas, banda], { x0: 16, y0: 200, x1: ancho - 16, y1: alto - 300 });
+  const zonaEt = { x0: 16, y0: 200, x1: ancho - 16, y1: alto - 300 };
+  const preferidas = resolverColisiones(ref.rot.filter((r) => vivos.has(r.id)), [...ref.obst, ...reservas, banda], zonaEt);
+  const colocacion = resolverColisiones(actual.rot, [...actual.obst, ...reservas, banda], zonaEt, preferidas);
   const porId = new Map(actual.rot.map((r) => [r.id, r]));
   /** Centro final de una etiqueta (cámara real) o null si no cabe. */
   const ubicar = (id: string): [number, number] | null => {

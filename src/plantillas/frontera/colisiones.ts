@@ -7,9 +7,9 @@
  * anclaje (luego un segundo anillo más lejos). Si no cabe en ninguna, se oculta. Lo fijo (marcadores de pin, cotas,
  * franja del subtítulo, índice, tarjeta, contexto, crédito) son obstáculos que nunca se mueven.
  *
- * Para que nada salte de un cuadro a otro durante un vuelo de cámara, Mapa.tsx resuelve con la cámara ASENTADA del
- * plano vigente y aplica el desplazamiento elegido sobre la cámara real: la decisión solo cambia cuando cambia el
- * plano o aparece/desaparece una etiqueta.
+ * Para que nada salte de un cuadro a otro durante un vuelo de cámara, Mapa.tsx resuelve primero con la cámara
+ * ASENTADA del plano vigente y pasa esas decisiones como `preferidas` a la resolución con la cámara real: se
+ * mantienen mientras sigan libres, y si en pleno vuelo chocan, la real manda (nunca se pisan).
  */
 
 export type Caja = { x0: number; y0: number; x1: number; y1: number };
@@ -52,7 +52,7 @@ const DIRECCIONES: [number, number][] = [[0, -1], [0, 1], [1, 0], [-1, 0], [1, -
  * Coloca las etiquetas. `zona` = rectángulo donde pueden vivir (fuera quedan los bordes y la franja inferior).
  * Devuelve, por id, el desplazamiento del centro respecto del natural, o `null` si se oculta.
  */
-export const resolverColisiones = (etiquetas: EtiquetaColision[], obstaculos: Caja[], zona: Caja): Map<string, Colocacion | null> => {
+export const resolverColisiones = (etiquetas: EtiquetaColision[], obstaculos: Caja[], zona: Caja, preferidas?: Map<string, Colocacion | null>): Map<string, Colocacion | null> => {
   const out = new Map<string, Colocacion | null>();
   const puestas: Caja[] = [...obstaculos];
   const dentro = (c: Caja) => c.x0 >= zona.x0 && c.x1 <= zona.x1 && c.y0 >= zona.y0 && c.y1 <= zona.y1;
@@ -75,6 +75,9 @@ export const resolverColisiones = (etiquetas: EtiquetaColision[], obstaculos: Ca
       // Correr en horizontal dentro del cuadro (texto ancho cerca del borde).
       const cx = Math.max(zona.x0 + e.w / 2, Math.min(zona.x1 - e.w / 2, nx));
       if (cx !== nx) candidatas.splice(1, 0, [cx, ny]);
+      // Estabilidad: lo que se decidió con la cámara asentada va primero (si sigue libre, no salta).
+      const pref = preferidas?.get(e.id);
+      if (pref) candidatas.unshift([nx + pref.dx, ny + pref.dy]);
     }
     const elegida = candidatas.find(([cx, cy]) => libre(cajaEn(cx, cy, e.w, e.h), e.ancla));
     if (!elegida) { out.set(e.id, null); continue; }
