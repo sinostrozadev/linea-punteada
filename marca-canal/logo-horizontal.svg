@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 110" width="1120" height="220">
+  <g transform="translate(5,5) scale(1)"><circle cx="50" cy="50" r="44" fill="#12304A" stroke="#4FC3F7" stroke-width="5"/>
+  <path d="M50 6 C32 24 32 76 50 94 M50 6 C68 24 68 76 50 94 M8 50 H92" fill="none" stroke="#4FC3F7" stroke-opacity=".35" stroke-width="2.5"/>
+  <path d="M22 76 L68 32" fill="none" stroke="#FFD23F" stroke-width="9" stroke-linecap="round" stroke-dasharray="0.1 13.2"/>
+  <circle cx="74" cy="26" r="9" fill="#FF5E5B" stroke="#0B1D2E" stroke-width="3"/></g>
+  <text x="125" y="70" font-family="'Bricolage Grotesque','Arial Black',sans-serif" font-weight="800" font-size="52" fill="#FFFFFF">Línea <tspan fill="#FFD23F">Punteada</tspan></text>
+  <text x="127" y="96" font-family="Inter,Arial,sans-serif" font-size="15" fill="#4FC3F7">Cada línea del mapa esconde una historia.</text>
+</svg>
