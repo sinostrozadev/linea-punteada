@@ -155,3 +155,6 @@ export const envoltorioDe = <P extends z.ZodTypeAny>(plantilla: (typeof PLANTILL
     hashtags: z.array(z.string()),
     props,
   });
+
+/** Dirección visual compartida (tarjetas, fotos, polaroids, índice, contexto, fuente): ver ./direccion.ts. */
+export * from './direccion';

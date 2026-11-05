@@ -158,7 +158,8 @@ export type Plan = {
 };
 
 /** Planifica bloques, rótulos y eventos comunes a partir del guion y los tiempos de la voz. */
-export const planificar = (guion: Pick<GuionBase, 'escenas'>, tiempos: Tiempos, fps: number): Plan => {
+/** `framesCierre`: largo del cierre de marca (90 por defecto; frontera v2 usa 48 = 0,8 s). */
+export const planificar = (guion: Pick<GuionBase, 'escenas'>, tiempos: Tiempos, fps: number, framesCierre = FRAMES_CIERRE): Plan => {
   const f = (seg: number) => Math.round(seg * fps);
   const L = tiempos.lineas;
   const finDe = (i: number) => (i + 1 < L.length ? L[i + 1].inicio : tiempos.total);
@@ -187,7 +188,7 @@ export const planificar = (guion: Pick<GuionBase, 'escenas'>, tiempos: Tiempos, 
   eventos.push({ t: remate.linea.inicio, tipo: 'golpe', fuerza: 1 });
   const cierreDesde = f(tiempos.total + 0.4);
   eventos.push({ t: cierreDesde / fps, tipo: 'cierre', fuerza: 1 });
-  const duracionFrames = cierreDesde + FRAMES_CIERRE;
+  const duracionFrames = cierreDesde + framesCierre;
   // El remate dura hasta el cierre (incluye el respiro de 0,4 s).
   remate.frames = cierreDesde - remate.desde;
   eventos.sort((a, b) => a.t - b.t);
