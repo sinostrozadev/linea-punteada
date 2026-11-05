@@ -91,5 +91,17 @@ CuriosaMente: "¿De dónde viene tu ACENTO?" 5,39 M).
 - **Sí:** fórmula Ñerd (ya está en el prompt de `dato` del repo madre), Shorts de 2–3 min, títulos con contradicción
   explícita, "¿Por qué…?" como columna vertebral, historias humanas con mapa (GeoGlobeTales/UMI), "Por qué nadie vive en…"
   (Geoff), Short + largo del mismo tema (Geoff/GeoGlobeTales).
+- **Temas que Ñerd YA hizo (lista leída 2026-11-05 01:30, ~45 Shorts; no repetir sin un ángulo nuevo):** Arizona/Gadsden,
+  capital de Canadá, Chile largo y angosto, Hispaniola verde/café, Mongolia, Egipto 95 % vacío, Madagascar, Namibia (brazo
+  de Caprivi y costa), Países Bajos bajo el mar, dos países dentro de Italia, Kaliningrado, corredor de Siliguri, Gambia,
+  Croacia/Bosnia (Neum), Francia-Brasil (Guayana), Guyana/Esequibo, Gibraltar, Lesoto, Llívia, Cabinda, Transnistria,
+  Belice/Guatemala, Sáhara Occidental (2 partes), **Guerra del Chaco** ("¿quién se quedó con el tesoro?", 569 k),
+  **Acre** (2 Shorts: "Bolivia cambió el Acre por un tren… que nunca entró a Bolivia" 9,8 k y "Bolivia le dio a Brasil un
+  territorio más grande que Uruguay… por esta esquinita" 207 k), **Chamizal** ("México y EE. UU. movieron un río para
+  cerrar una pelea de un siglo", 83 k), **Beagle** (Chile vs Argentina, 241 k), Antártida argentina (embarazada, 235 k),
+  Honduras/El Salvador, isla Bermeja, Nicaragua/Walker, California 1848, litio boliviano, Madrid capital, Washington D.C.,
+  Australia 86 % vacía, Darién sin carretera. → Nuestros **Acre y Chamizal pasan a reserva** (salir 2 semanas después
+  con el mismo tema no suma); siguen limpios: triángulo terrestre, Campo de Hielo, Laguna del Desierto, Rivera, Martín
+  García, Bushby, Clipperton 1917, Selkirk, Puerto Williams, Atacama, La Rinconada, Uruguay 1828, Panamá 1903.
 - **No:** rankings "Los 15…" (Urckari, formato de lista = riesgo "inauténtico"), "Descubren… CAMBIARÁ" (educamundi), clases
   escolares (Sebas), temas copiados de Ñerd (Chile largo/angosto, Hispaniola verde/café, Arizona, Canadá, Mongolia).
