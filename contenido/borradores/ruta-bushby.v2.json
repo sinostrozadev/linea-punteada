@@ -1,0 +1,780 @@
+{
+  "plantilla": "ruta",
+  "id": "pendiente-ruta-bushby",
+  "titulo": "¿Por qué tardó 28 años en caminar de Chile a Inglaterra?",
+  "descripcion": "Karl Bushby salió de Punta Arenas el 1 de noviembre de 1998 con un carrito y un plan de doce años. Llegó a la casa de su madre en Hull el 2 de noviembre de 2026. En el medio: la selva del Darién, el estrecho de Bering cruzado sobre el hielo, casi diez años para atravesar Rusia y el mar Caspio cruzado a nado.\nLa ruta del mapa es aproximada (grandes círculos entre ciudades del recorrido) y las fechas son las publicadas por la prensa.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#chile",
+    "#aventura"
+  ],
+  "props": {
+    "id": "pendiente-ruta-bushby",
+    "cabecera": "PUNTA ARENAS → HULL — A PIE",
+    "gancho": {
+      "texto": "Mira esta línea. Sale de Punta Arenas, sube por toda América, cruza a Rusia y termina en una casa de Inglaterra. Un hombre la recorrió caminando. Tardó veintiocho años. ¿Por qué tanto?",
+      "rotulo": "28 años a pie",
+      "planos": [
+        {
+          "centro": [
+            -70,
+            -25
+          ],
+          "zoom": 3.55,
+          "entrada": "corte",
+          "deriva": 0.15
+        },
+        {
+          "centro": [
+            -105,
+            40
+          ],
+          "zoom": 3.5,
+          "entrada": "paneo",
+          "en": "América",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            90,
+            58
+          ],
+          "zoom": 3.5,
+          "entrada": "paneo",
+          "en": "Rusia",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            -0.5,
+            53
+          ],
+          "zoom": 5.2,
+          "entrada": "zoom",
+          "en": "Inglaterra",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            60,
+            45
+          ],
+          "zoom": 3.4,
+          "entrada": "zoom",
+          "en": "Tardó",
+          "deriva": 0.1
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "28 AÑOS",
+          "sub": "CAMINANDO",
+          "tipo": "linea-tiempo",
+          "desde": "1998",
+          "hasta": "2026",
+          "aparecerEn": "veintiocho",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ TANTO?",
+        "dice": "Por"
+      },
+      "clave": [
+        "línea",
+        "Punta",
+        "Arenas",
+        "Rusia",
+        "Inglaterra",
+        "veintiocho"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que dar la vuelta al mundo a pie es cosa de piernas: eliges una ruta y no paras. Karl Bushby, un exparacaidista británico, salió de Punta Arenas el 1 de noviembre de 1998, con un carrito y un plan de doce años. La verdad es peor.",
+        "tramo": [
+          0,
+          3
+        ],
+        "foto": {
+          "buscar": "Punta Arenas Strait of Magellan",
+          "archivo": "File:Punta Arenas Strait of Magellan.jpg",
+          "pie": "PUNTA ARENAS · ESTRECHO DE MAGALLANES",
+          "aparecerEn": "Karl",
+          "duracionSeg": 2.6
+        },
+        "tarjetas": [
+          {
+            "texto": "1998",
+            "sub": "SALE DE PUNTA ARENAS",
+            "aparecerEn": "1998",
+            "duracionSeg": 2.4
+          },
+          {
+            "texto": "12 AÑOS",
+            "sub": "EL PLAN ORIGINAL",
+            "aparecerEn": "doce",
+            "duracionSeg": 2.4
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES PEOR",
+          "dice": "verdad"
+        },
+        "clave": [
+          "piernas",
+          "Karl",
+          "Bushby",
+          "1998",
+          "doce",
+          "peor"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos cosas: una selva sin caminos y un mar congelado. Y al final, un enemigo que no aparece en ningún mapa.",
+        "tramo": [
+          3,
+          5
+        ],
+        "indice": [
+          {
+            "icono": "🌴",
+            "texto": "SELVA",
+            "dice": "selva"
+          },
+          {
+            "icono": "🧊",
+            "texto": "HIELO",
+            "dice": "congelado"
+          },
+          {
+            "icono": "🛂",
+            "texto": "PAPELES",
+            "dice": "enemigo"
+          }
+        ],
+        "clave": [
+          "dos",
+          "selva",
+          "congelado",
+          "enemigo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la selva. En 2001 cruzó el Tapón del Darién, la selva sin carreteras entre Colombia y Panamá. Al salir, pasó dieciocho días preso por entrar sin visa. Después subió por México, Estados Unidos y Canadá, hasta Alaska.",
+        "tramo": [
+          5,
+          11
+        ],
+        "planos": [
+          {
+            "centro": [
+              -77.5,
+              7.6
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -102,
+              38
+            ],
+            "zoom": 3.7,
+            "entrada": "zoom",
+            "en": "Después",
+            "deriva": 0.15
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -74.8,
+            "lat": 5.2,
+            "texto": "COLOMBIA",
+            "tipo": "pais",
+            "aparecerEn": "Colombia",
+            "desaparecerEn": "Después"
+          },
+          {
+            "lon": -80.6,
+            "lat": 8.9,
+            "texto": "PANAMÁ",
+            "tipo": "region",
+            "aparecerEn": "Panamá",
+            "desaparecerEn": "Después"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -78.4,
+                7.2
+              ],
+              [
+                -77.0,
+                7.0
+              ],
+              [
+                -76.8,
+                8.3
+              ],
+              [
+                -77.9,
+                9.0
+              ],
+              [
+                -78.6,
+                8.4
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "EL TAPÓN",
+            "etiquetaEn": [
+              -77.7,
+              8.0
+            ],
+            "aparecerEn": "Tapón",
+            "desaparecerEn": "Después"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Ceiba tree in the Darien Jungle",
+          "archivo": "File:Ceiba tree in the Darien Jungle.jpg",
+          "pie": "Selva del Darién, Panamá",
+          "anio": "2001",
+          "lado": "izquierda",
+          "aparecerEn": "selva#2",
+          "duracionSeg": 2.6
+        },
+        "tarjetas": [
+          {
+            "texto": "18 DÍAS",
+            "sub": "PRESO POR ENTRAR SIN VISA",
+            "icono": "🛂",
+            "aparecerEn": "dieciocho",
+            "duracionSeg": 2.6
+          }
+        ],
+        "clave": [
+          "selva",
+          "2001",
+          "Darién",
+          "dieciocho",
+          "Alaska"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el hielo. Según la agencia AP, en marzo de 2006 cruzó el estrecho de Bering caminando sobre el mar congelado, junto a Dimitri Kieffer. Fueron unas dos semanas entre bloques de hielo. Al pisar Chukotka, los guardias rusos los detuvieron por no entrar por un puesto fronterizo.",
+        "fuenteEnVoz": true,
+        "tramo": [
+          11,
+          13
+        ],
+        "planos": [
+          {
+            "centro": [
+              -160,
+              64.5
+            ],
+            "zoom": 4.7,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -171.2,
+              66.5
+            ],
+            "zoom": 7.7,
+            "entrada": "zoom",
+            "en": "Bering",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -172,
+              66.4
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Chukotka",
+            "deriva": 0.15
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -168.1,
+              65.62
+            ],
+            "hasta": [
+              -169.9,
+              65.97
+            ],
+            "texto": "93 KM",
+            "aparecerEn": "caminando",
+            "desaparecerEn": "Chukotka"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -168.9,
+            "lat": 65.25,
+            "texto": "ESTRECHO DE BERING",
+            "tipo": "mar",
+            "aparecerEn": "estrecho",
+            "desaparecerEn": "Chukotka"
+          },
+          {
+            "lon": -174,
+            "lat": 67.2,
+            "texto": "RUSIA",
+            "tipo": "pais",
+            "aparecerEn": "rusos"
+          },
+          {
+            "lon": -163.5,
+            "lat": 65.0,
+            "texto": "EE. UU.",
+            "tipo": "pais",
+            "aparecerEn": "rusos"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Spring Ice Chokes the Bering Strait",
+          "archivo": "File:Spring Ice Chokes the Bering Strait (657).jpg",
+          "pie": "Hielo en el estrecho de Bering (NASA)",
+          "lado": "izquierda",
+          "aparecerEn": "Fueron",
+          "duracionSeg": 2.4
+        },
+        "tarjetas": [
+          {
+            "texto": "2 SEMANAS",
+            "sub": "SOBRE EL MAR CONGELADO",
+            "icono": "🧊",
+            "aparecerEn": "semanas",
+            "duracionSeg": 2.4
+          }
+        ],
+        "fuente": {
+          "texto": "Associated Press (AP)",
+          "dice": "Según"
+        },
+        "clave": [
+          "hielo",
+          "AP",
+          "2006",
+          "Bering",
+          "Chukotka"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el hielo le tomó dos semanas. Rusia, casi diez años. Le negaron la visa en 2012, y en 2013 le prohibieron volver durante cinco años. Siguió por Mongolia, China y Asia central, hasta que la pandemia lo dejó varado. Sin visa para rodearlo, cruzó el mar Caspio a nado: 288 kilómetros en 31 días.",
+        "tramo": [
+          13,
+          22
+        ],
+        "planos": [
+          {
+            "centro": [
+              125,
+              62
+            ],
+            "zoom": 3.8,
+            "entrada": "zoom",
+            "deriva": 0.15
+          },
+          {
+            "centro": [
+              90,
+              47
+            ],
+            "zoom": 3.9,
+            "entrada": "paneo",
+            "en": "Siguió",
+            "deriva": 0.15
+          },
+          {
+            "centro": [
+              50.6,
+              41.6
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "en": "Caspio",
+            "deriva": 0.15
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "areas": [
+          {
+            "pais": "Russia",
+            "color": "rojo",
+            "etiqueta": "RUSIA",
+            "etiquetaEn": [
+              110,
+              64
+            ],
+            "aparecerEn": "Rusia",
+            "desaparecerEn": "Siguió"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "10 AÑOS",
+            "sub": "PARA CRUZAR RUSIA",
+            "tipo": "linea-tiempo",
+            "desde": "2006",
+            "hasta": "2016",
+            "aparecerEn": "diez",
+            "duracionSeg": 2.8
+          },
+          {
+            "texto": "288 KM",
+            "sub": "A NADO EN 31 DÍAS",
+            "icono": "🏊",
+            "aparecerEn": "288",
+            "duracionSeg": 2.8
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              50.9,
+              42.65
+            ],
+            "hasta": [
+              49.95,
+              40.2
+            ],
+            "texto": "288 KM",
+            "aparecerEn": "288"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Caspian Sea from orbit",
+          "archivo": "File:Caspian Sea from orbit.jpg",
+          "pie": "El mar Caspio desde el espacio (NASA)",
+          "lado": "izquierda",
+          "aparecerEn": "rodearlo",
+          "duracionSeg": 2.0
+        },
+        "clave": [
+          "giro",
+          "diez",
+          "2012",
+          "pandemia",
+          "Caspio",
+          "288"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la línea está cerrada. Atravesó Turquía y media Europa, cruzó el canal de la Mancha a nado el 5 de octubre, y el 2 de noviembre de 2026 llegó caminando a la casa de su madre, en Hull. Casi cincuenta mil kilómetros, cuatro continentes y unos treinta países.",
+        "tramo": [
+          22,
+          29
+        ],
+        "planos": [
+          {
+            "centro": [
+              22,
+              47
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "deriva": 0.15
+          },
+          {
+            "centro": [
+              0.6,
+              52.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Mancha",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              40,
+              40
+            ],
+            "zoom": 3.35,
+            "entrada": "zoom",
+            "en": "cincuenta",
+            "deriva": 0.1
+          }
+        ],
+        "contexto": {
+          "texto": "LA LÍNEA SE CIERRA",
+          "dice": "cerrada"
+        },
+        "etiquetas": [
+          {
+            "lon": 0.6,
+            "lat": 50.35,
+            "texto": "CANAL DE LA MANCHA",
+            "tipo": "mar",
+            "aparecerEn": "canal",
+            "desaparecerEn": "cincuenta"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2026",
+            "sub": "LLEGA A CASA, EN HULL",
+            "aparecerEn": "2026",
+            "duracionSeg": 2.4
+          },
+          {
+            "texto": "50.000 KM",
+            "sub": "4 CONTINENTES · 30 PAÍSES",
+            "aparecerEn": "cincuenta",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "cerrada",
+          "Mancha",
+          "2026",
+          "Hull",
+          "cincuenta"
+        ]
+      }
+    ],
+    "remate": "El hielo lo dejó pasar en dos semanas. Los papeles, en diez años.",
+    "fuentes": [
+      {
+        "texto": "AP: Karl Bushby vuelve a casa tras 28 años y 31.000 millas (2026-11)",
+        "url": "https://www.ajc.com/news/2026/11/karl-bushby-returns-home-to-northern-england-after-a-28-year-31000-mile-walk-around-the-world/"
+      },
+      {
+        "texto": "ITV News: llega a Dover tras cruzar el canal a nado (2026-10-06)",
+        "url": "https://www.itv.com/news/calendar/2026-10-06/man-who-set-out-to-walk-globe-arrived-back-in-uk-28-years-later"
+      },
+      {
+        "texto": "ExplorersWeb: el último tramo de la caminata",
+        "url": "https://explorersweb.com/karl-bushby-begins-home-stretch-of-27-year-round-the-world-walk/"
+      },
+      {
+        "texto": "Wikipedia: Karl Bushby (cronología, fuente secundaria)",
+        "url": "https://en.wikipedia.org/wiki/Karl_Bushby"
+      }
+    ],
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "amarillo",
+      "escala": 1.1,
+      "kmReales": 49890,
+      "puntos": [
+        {
+          "lon": -70.91,
+          "lat": -53.16,
+          "etiqueta": "PUNTA ARENAS",
+          "fecha": "1998-11-01"
+        },
+        {
+          "lon": -70.65,
+          "lat": -33.45,
+          "etiqueta": "SANTIAGO"
+        },
+        {
+          "lon": -77.04,
+          "lat": -12.05,
+          "etiqueta": "LIMA"
+        },
+        {
+          "lon": -78.47,
+          "lat": -0.18,
+          "etiqueta": "QUITO"
+        },
+        {
+          "lon": -74.07,
+          "lat": 4.71,
+          "etiqueta": "BOGOTÁ"
+        },
+        {
+          "lon": -77.7,
+          "lat": 7.9,
+          "etiqueta": "DARIÉN",
+          "fecha": "2001-02"
+        },
+        {
+          "lon": -79.52,
+          "lat": 8.98
+        },
+        {
+          "lon": -99.13,
+          "lat": 19.43,
+          "etiqueta": "MÉXICO"
+        },
+        {
+          "lon": -110.94,
+          "lat": 31.34,
+          "etiqueta": "NOGALES",
+          "fecha": "2002-04-29"
+        },
+        {
+          "lon": -111.9,
+          "lat": 48.6,
+          "fecha": "2003-01-01"
+        },
+        {
+          "lon": -135.05,
+          "lat": 60.72
+        },
+        {
+          "lon": -147.72,
+          "lat": 64.84,
+          "etiqueta": "ALASKA"
+        },
+        {
+          "lon": -168.09,
+          "lat": 65.61,
+          "etiqueta": "BERING",
+          "fecha": "2006-03-17"
+        },
+        {
+          "lon": -169.81,
+          "lat": 66.16,
+          "etiqueta": "CHUKOTKA",
+          "fecha": "2006-03-31"
+        },
+        {
+          "lon": 153.7,
+          "lat": 67.45,
+          "etiqueta": "SREDNEKOLYMSK",
+          "fecha": "2011-04-25"
+        },
+        {
+          "lon": 129.73,
+          "lat": 62.03,
+          "etiqueta": "YAKUTSK"
+        },
+        {
+          "lon": 107.6,
+          "lat": 51.83
+        },
+        {
+          "lon": 106.92,
+          "lat": 47.92,
+          "etiqueta": "ULÁN BATOR",
+          "fecha": "2017-08-08"
+        },
+        {
+          "lon": 87.62,
+          "lat": 43.83,
+          "etiqueta": "CHINA",
+          "fecha": "2018"
+        },
+        {
+          "lon": 76.9,
+          "lat": 43.24
+        },
+        {
+          "lon": 69.24,
+          "lat": 41.3,
+          "etiqueta": "UZBEKISTÁN",
+          "fecha": "2019-06"
+        },
+        {
+          "lon": 51.2,
+          "lat": 43.65,
+          "etiqueta": "AKTAU",
+          "fecha": "2024-08"
+        },
+        {
+          "lon": 49.87,
+          "lat": 40.41,
+          "etiqueta": "BAKÚ",
+          "fecha": "2024-09"
+        },
+        {
+          "lon": 44.79,
+          "lat": 41.72,
+          "etiqueta": "GEORGIA"
+        },
+        {
+          "lon": 28.98,
+          "lat": 41.01,
+          "etiqueta": "ESTAMBUL",
+          "fecha": "2025"
+        },
+        {
+          "lon": 19.04,
+          "lat": 47.5,
+          "etiqueta": "BUDAPEST",
+          "fecha": "2025-11-15"
+        },
+        {
+          "lon": 3.39,
+          "lat": 50.6,
+          "fecha": "2026-09-18"
+        },
+        {
+          "lon": 1.58,
+          "lat": 50.87,
+          "etiqueta": "CALAIS"
+        },
+        {
+          "lon": 1.31,
+          "lat": 51.1,
+          "etiqueta": "DOVER",
+          "fecha": "2026-10-05"
+        },
+        {
+          "lon": -0.33,
+          "lat": 53.74,
+          "etiqueta": "HULL",
+          "fecha": "2026-11-02"
+        }
+      ],
+      "mes": 3
+    },
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ TARDÓ 28 AÑOS A PIE?",
+      "clave": "28 AÑOS",
+      "icono": "🥾"
+    },
+    "rematePlanos": [
+      {
+        "centro": [
+          115,
+          60
+        ],
+        "zoom": 3.45,
+        "entrada": "zoom",
+        "deriva": 0.12
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -170,
+        "lat": 66,
+        "texto": "2 SEMANAS"
+      },
+      {
+        "lon": 75,
+        "lat": 60,
+        "texto": "10 AÑOS"
+      }
+    ]
+  }
+}

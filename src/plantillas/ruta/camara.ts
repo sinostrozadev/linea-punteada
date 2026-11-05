@@ -8,6 +8,7 @@
 import { geoDistance, geoEquirectangular, geoOrthographic, type GeoProjection } from 'd3-geo';
 import { cabezaEn, type LonLat, type Recorrido, type Trazado } from './trazado';
 import type { MapaRuta } from './guion';
+import { camaraEn as camaraPlanos, type PlanoResuelto } from '../frontera/visual';
 
 export type Camara = { centro: LonLat; /** escala d3 (px por radián) */ k: number; /** y en pantalla del centro de la cámara */ y: number };
 
@@ -19,7 +20,7 @@ export const lonLatDe = ([x, y, z]: V3): LonLat => {
   return [Math.atan2(y, x) / RAD, Math.asin(Math.max(-1, Math.min(1, z / n))) / RAD];
 };
 /** Slerp de verdad entre dos puntos de la esfera (robusto cerca de antípodas). */
-const slerp = (a: LonLat, b: LonLat, t: number): LonLat => {
+export const slerp = (a: LonLat, b: LonLat, t: number): LonLat => {
   const va = vector(a);
   const vb = vector(b);
   const cos = Math.max(-1, Math.min(1, va[0] * vb[0] + va[1] * vb[1] + va[2] * vb[2]));
@@ -155,3 +156,55 @@ export const proyeccionDe = (mapa: MapaRuta, cam: Camara, ancho: number): GeoPro
   mapa.proyeccion === 'globo'
     ? geoOrthographic().scale(cam.k).translate([ancho / 2, cam.y]).rotate([-cam.centro[0], -cam.centro[1], 0]).clipAngle(90).precision(0.5)
     : geoEquirectangular().scale(cam.k).center(cam.centro).translate([ancho / 2, cam.y]).precision(0.5);
+
+// ------------------------------------------------------------------------------------------------ v2: planos
+
+const ease = (x: number) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+
+/** Mezcla de dos cámaras: slerp de centros, escala logarítmica, y lineal. */
+export const mezclar = (a: Camara, b: Camara, u: number): Camara => ({
+  centro: slerp(a.centro, b.centro, u),
+  k: Math.exp(Math.log(a.k) + (Math.log(b.k) - Math.log(a.k)) * u),
+  y: a.y + (b.y - a.y) * u,
+});
+
+export type ContextoV2 = {
+  c: Contexto;
+  /** Planos resueltos (resolverVisual de frontera) y qué líneas de voz los declaran. */
+  planos: PlanoResuelto[];
+  conPlanos: boolean[];
+  /** Inicio (s) de cada línea de voz; el gancho empieza tras la tarjeta de título. */
+  inicios: number[];
+  yPlano: number;
+};
+
+/**
+ * Cámara v2 en el segundo t. Línea SIN planos = seguimiento automático de la cabeza (camaraEn). Línea CON planos =
+ * cámara fija del plano (centro + zoom, deriva lenta y transición zoom/paneo de frontera dentro del grupo); al
+ * entrar desde otra cámara con `entrada` zoom/paneo vuela con easing; al volver al seguimiento se funde en 1,1 s.
+ */
+export const camaraV2 = (v: ContextoV2, t: number): Camara => {
+  let L = 0;
+  for (let i = 0; i < v.inicios.length; i++) if (v.inicios[i] <= t) L = i;
+  const auto = () => camaraEn(v.c, t);
+  const grupo = (linea: number, tt: number): Camara => {
+    const ps = v.planos.filter((p) => p.linea === linea).map((p) => ({ ...p }));
+    ps.forEach((p, i) => { p.t1 = ps[i + 1]?.t0 ?? Infinity; });
+    const e = camaraPlanos(ps, tt);
+    return { centro: e.centro, k: escalaDeZoom(e.zoom), y: v.yPlano };
+  };
+  const t0 = v.inicios[L];
+  if (!v.conPlanos[L]) {
+    const a = auto();
+    if (L > 0 && v.conPlanos[L - 1] && t < t0 + 1.1) return mezclar(grupo(L - 1, t0 - 1e-3), a, ease((t - t0) / 1.1));
+    return a;
+  }
+  const g = grupo(L, t);
+  const primero = v.planos.find((p) => p.linea === L);
+  const D = primero?.entrada === 'zoom' ? 1.5 : primero?.entrada === 'paneo' ? 1.1 : 0;
+  if (D > 0 && t < t0 + D) {
+    const previa = L > 0 && v.conPlanos[L - 1] ? grupo(L - 1, t0 - 1e-3) : auto();
+    return mezclar(previa, g, ease((t - t0) / D));
+  }
+  return g;
+};

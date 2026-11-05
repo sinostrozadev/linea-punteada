@@ -9,6 +9,7 @@
  */
 import { z } from 'zod';
 import { CamposBase, Escena, envoltorioDe, validarFormula } from '../comun/guion';
+import { CamposV2, DireccionMapaV2, validarDireccionV2 } from '../lugar/compartido/direccionMapa';
 
 /** Fecha de un punto: "AAAA", "AAAA-MM" o "AAAA-MM-DD". */
 export const FechaPunto = z.string().regex(/^\d{4}(-\d{2}(-\d{2})?)?$/, 'fecha en formato AAAA, AAAA-MM o AAAA-MM-DD');
@@ -36,8 +37,9 @@ export const MapaRuta = z.object({
    */
   proyeccion: z.enum(['globo', 'plano']),
   /**
-   * satelite = recorte NASA GIBS (solo con `plano`); relieve = Blue Marble con relieve (solo `plano`; en el
-   * globo se ve como `oscuro`); oscuro = vectores Natural Earth en la paleta del canal.
+   * satelite = recorte NASA GIBS; relieve = Blue Marble con relieve. v2: en el `globo` ambos se ven como textura
+   * Blue Marble reproyectada sobre la esfera (mundial + recortes regionales en los planos cercanos) con brillo de
+   * costa e iluminación; oscuro = vectores Natural Earth en la paleta del canal.
    */
   fondo: z.enum(['satelite', 'relieve', 'oscuro']),
   /** Puntos del viaje EN ORDEN (≥ 3). El primero y el último suelen tener etiqueta y fecha. */
@@ -56,6 +58,11 @@ export const MapaRuta = z.object({
   kmReales: z.number().positive().optional(),
   /** Contador de distancia y tiempo abajo a la izquierda (por defecto true). */
   mostrarContador: z.boolean().optional(),
+  /**
+   * v2, solo `globo` con fondo satelite/relieve: mes (1–12) del Blue Marble mensual de NASA para la textura del globo
+   * (nieve y hielo marino de esa estación). Sin `mes`: Blue Marble con relieve sombreado y batimetría.
+   */
+  mes: z.number().int().min(1).max(12).optional(),
 });
 export type MapaRuta = z.infer<typeof MapaRuta>;
 
@@ -66,10 +73,19 @@ export const EscenaRuta = Escena.extend({
    * Un tramo [i, i] deja la cabeza quieta en el punto i. El gancho nunca dibuja (muestra la ruta entera en fantasma).
    */
   tramo: z.tuple([z.number().int().min(0), z.number().int().min(0)]).optional(),
+  /**
+   * v2 (docs/DIRECCION-VISUAL.md): planos, máscaras, etiquetas, cotas, iconos, tarjetas, foto, polaroid, contexto,
+   * fuente, índice. En `ruta` una escena SIN `planos` sigue la cabeza de la línea (cámara automática); una escena CON
+   * `planos` fija la cámara del globo (centro = hacia dónde mira, zoom 3 ≈ medio planeta · 4,5 un continente ·
+   * 6 un país · 8 un estrecho) y la línea sigue dibujándose debajo.
+   */
+  ...DireccionMapaV2,
 });
 export type EscenaRuta = z.infer<typeof EscenaRuta>;
 
 export const CamposRuta = CamposBase.extend({
+  gancho: CamposBase.shape.gancho.extend(DireccionMapaV2),
+  ...CamposV2,
   /** 5–9 escenas en orden de locución (cada una con su `tramo` opcional). */
   escenas: z.array(EscenaRuta).min(5).max(9),
   mapa: MapaRuta,
@@ -78,10 +94,8 @@ export const CamposRuta = CamposBase.extend({
 /** Props de la plantilla `ruta` (lo que viaja en `props` del envoltorio). */
 export const GuionRuta = CamposRuta.superRefine((g, ctx) => {
   validarFormula(g, ctx);
+  validarDireccionV2(g, ctx);
   const n = g.mapa.puntos.length;
-  if (g.mapa.fondo === 'satelite' && g.mapa.proyeccion !== 'plano') {
-    ctx.addIssue({ code: 'custom', path: ['mapa', 'fondo'], message: 'el fondo satelite solo sirve con proyeccion "plano"' });
-  }
   let ultimo = 0;
   g.escenas.forEach((e, i) => {
     if (!e.tramo) return;

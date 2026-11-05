@@ -6,6 +6,27 @@ regional con satélite), línea punteada amarilla que se dibuja punto a punto, m
 contador de km y de tiempo transcurrido, rótulos enormes sincronizados con la voz, subtítulos palabra a palabra,
 fotos de Commons y cierre de marca.
 
+## v2 (estándar Ñerd, 2026-11-05)
+Desde la v2 `ruta` comparte la dirección visual de frontera (docs/DIRECCION-VISUAL.md) con las piezas de
+`src/plantillas/lugar/compartido/` (contrato, línea de tiempo, capas de mapa y de pantalla, tarjeta de título):
+- **Tarjeta de título** (0,9 s) con el globo y la ruta entera en fantasma; **sin cabecera, marca de agua ni rótulos
+  gigantes**; subtítulos en bloques con `clave`; cierre de 0,8 s con línea punteada.
+- **Globo satelital**: `GloboTextura.tsx` reproyecta en un canvas, píxel a píxel, texturas Blue Marble EPSG:4326 (una
+  mundial 4096×2048 + recortes regionales para los planos con zoom ≥ 4,5; `mapa.mes` = Blue Marble mensual, p. ej. 3 =
+  hielo marino de marzo en Bering) sobre la ortográfica de la cámara, con luz arriba a la izquierda, oscurecido del limbo
+  y océano llevado al azul marino del canal; encima brillo de costa NE. Sin textura (fondo `oscuro`): continentes con
+  relleno + degradado de luz.
+- **Planos** (`planos[]` por línea, esquema de frontera): una línea SIN planos sigue la cabeza de la línea (cámara
+  automática v1); una línea CON planos fija la cámara (centro + zoom: 3,5 medio planeta · 4,5 continente · 6–7 país · 8
+  un estrecho) con deriva y vuelos; entrar/salir del seguimiento se funde con slerp + escala logarítmica (`camaraV2`).
+- Cuando la cámara se acerca mucho (k > 1,4 × escala máxima), la línea recorrida se dibuja como trazo punteado en
+  pantalla sobre la polilínea densa (los puntitos precalculados quedarían a cientos de px).
+- Capas: `cotas` (93 KM en Bering, 288 KM en el Caspio), `areas`, `etiquetas`, `iconos`, `resaltes`, `tarjetas`,
+  `contexto`, `indice`, `polaroid`, `foto`, `fuente`, `remateEtiquetas`; el contador sigue (con el color de `acento`).
+  Una `imagen` v1 de escena se muestra como polaroid.
+- La cabeza va en y 840 (encima de los subtítulos, franja 1080–1310); la vista general en y 900.
+- Ejemplo v2: `contenido/borradores/ruta-bushby.v2.json` (= `ejemplo.json`). Prueba: `salida/pruebas/ruta-v2-bushby.mp4`.
+
 ## Flujo
 ```bash
 npx tsx scripts/preparar-ruta.mts contenido/guiones/<id>.json      # valida, voz, trazado, sonido, fotos, satélite → salida/trabajo/<id>.props.json
@@ -26,7 +47,7 @@ entre las escenas sin tramo; el gancho no dibuja) + `mapa` (`src/plantillas/ruta
 - `color?` (amarillo), `escala?` (globo: radio máximo en anchos de pantalla, 1,1), `zoom?` (plano: zoom máximo, 6),
   `kmReales?` (distancia real según las fuentes: el contador escala los km de los grandes círculos para terminar en esa
   cifra), `mostrarContador?` (true).
-Lo que agrega preparar (no va en el guion): `tiempos`, `duracionFrames`, `trazado`, `imagenes`, `fondoMapa`, `creditos`.
+Lo que agrega preparar (no va en el guion): `tiempos`, `duracionFrames`, `trazado`, `imagenes`, `fotos`, `polaroids`, `fondoMapa`, `texturasGlobo`, `creditos`.
 
 ## Cómo está armado
 - `trazado.ts` (puro): `calcularTrazado` densifica la ruta por grandes círculos cada ~50 km (`geoInterpolate`), acumula km

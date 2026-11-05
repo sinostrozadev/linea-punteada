@@ -25,17 +25,17 @@ export const TOP_CONTADOR = FORMATO.alto - FORMATO.seguro.abajo - ALTO_CONTADOR 
  * Contador discreto abajo a la izquierda, sobre la zona segura: km acumulados (grandes círculos) y tiempo
  * desde el primer hito con el año en curso. Cifras tabulares: los dígitos no bailan mientras avanzan.
  */
-export const Contador: React.FC<{ km: number; anio: number | null; anio0: number | null; opacidad: number }> = ({ km, anio, anio0, opacidad }) => {
+export const Contador: React.FC<{ km: number; anio: number | null; anio0: number | null; opacidad: number; acento?: string }> = ({ km, anio, anio0, opacidad, acento = PALETA.amarillo }) => {
   if (opacidad <= 0.01) return null;
   const hayTiempo = anio !== null && anio0 !== null;
   return (
     <div style={{
       position: 'absolute', left: FORMATO.seguro.lados, top: TOP_CONTADOR, height: ALTO_CONTADOR, opacity: opacidad,
       display: 'flex', alignItems: 'center', gap: 22, padding: '10px 26px 10px 22px', borderRadius: 26, background: fondoAlfa(0.8),
-      boxShadow: '0 10px 30px rgba(0,0,0,0.45)', borderLeft: `6px solid ${PALETA.amarillo}`,
+      boxShadow: '0 10px 30px rgba(0,0,0,0.45)', borderLeft: `6px solid ${acento}`,
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1 }}>
-        <div style={{ fontFamily: TIPO.texto, fontWeight: 800, fontSize: 54, color: PALETA.amarillo, fontVariantNumeric: 'tabular-nums', letterSpacing: -1 }}>
+        <div style={{ fontFamily: TIPO.texto, fontWeight: 800, fontSize: 54, color: acento, fontVariantNumeric: 'tabular-nums', letterSpacing: -1 }}>
           {formatoKm(km)}<span style={{ fontSize: 30, color: PALETA.tinta, marginLeft: 8, letterSpacing: 0 }}>km</span>
         </div>
         <div style={{ fontFamily: TIPO.texto, fontWeight: 600, fontSize: 21, color: PALETA.tintaSuave, letterSpacing: 2.5, marginTop: 8 }}>DISTANCIA</div>
