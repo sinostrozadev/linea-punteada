@@ -6,7 +6,9 @@ import type { Topology, GeometryCollection } from 'topojson-specification';
 import type { FeatureCollection, MultiLineString } from 'geojson';
 import paises50 from 'world-atlas/countries-50m.json';
 import tierra50 from 'world-atlas/land-50m.json';
-import { PALETA, TIPO, fondoAlfa } from '../../marca/tokens';
+import { MAPA, PALETA, TIPO, fondoAlfa } from '../../marca/tokens';
+import { escalaDeZoom } from '../frontera/mapa';
+import { Pin } from '../frontera/Mapa';
 import type { FondoNivel, MapaLugar as TMapaLugar } from './guion';
 import { proyeccionLugar } from './camara';
 
@@ -49,6 +51,13 @@ type Props = {
   apariciones: number[];
   /** Franja vertical [y0, y1] ocupada por un rótulo: las etiquetas que caen ahí se atenúan. */
   franjaRotulo?: [number, number] | null;
+  /** v2: centro de la cámara (por defecto el punto) y altura relativa donde cae (por defecto 0,68 / 0,5 en el inset). */
+  centro?: [number, number];
+  fy?: number;
+  /** v2: capas pegadas al mapa (CapasMapa), con la proyección de este lienzo. */
+  capas?: (xy: (p: [number, number]) => [number, number] | null, camino: (g: object) => string | null, pxKm: number) => React.ReactNode;
+  /** v2: estilo de etiquetas condensado (Bebas) y pines rojos para los marcadores, como frontera v2. */
+  v2?: boolean;
 };
 
 /**
@@ -56,15 +65,34 @@ type Props = {
  * bordes Natural Earth, líneas punteadas del punto a los marcadores, marcadores y el PUNTO coral que parpadea con su
  * etiqueta. Todo se recalcula por frame (determinista).
  */
-export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoom, frame, fps, modo, apariciones, franjaRotulo }) => {
+export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoom, frame, fps, modo, apariciones, franjaRotulo, centro, fy: fyPedido, capas, v2 }) => {
   const completo = modo === 'completo';
   const hayRaster = fondos.length > 0 && Math.abs(mapa.punto[1]) <= 60;
-  const fy = completo ? 0.68 : 0.5;
-  const proy = proyeccionLugar(mapa.punto, zoom, ancho, alto, fy, hayRaster);
+  const fy = fyPedido ?? (completo ? 0.68 : 0.5);
+  const c = centro ?? mapa.punto;
+  const proy = proyeccionLugar(c, zoom, ancho, alto, fy, hayRaster);
   const camino = geoPath(proy);
-  const libre = proyeccionLugar(mapa.punto, zoom, ancho, alto, fy, hayRaster).clipExtent(null);
+  const libre = proyeccionLugar(c, zoom, ancho, alto, fy, hayRaster).clipExtent(null);
+  const xy = (p: [number, number]) => (libre(p) as [number, number] | null) ?? null;
+  const pxKm = escalaDeZoom(zoom) / 6371;
   // Niveles a dibujar: el más lejano siempre (base) y los que ya tienen resolución útil a este zoom.
-  const niveles = hayRaster ? fondos.filter((f, i) => i === 0 || f.zoom <= zoom + 0.6) : [];
+  // Se recorren del más fino al más grueso: cuando uno ya tiene resolución útil y cubre todo el lienzo, los de debajo
+  // no se dibujan (con recortes por plano hay decenas; componerlos todos hundía el render, igual que en frontera).
+  const niveles: FondoNivel[] = [];
+  if (hayRaster) {
+    for (let i = fondos.length - 1; i >= 0; i--) {
+      const f = fondos[i];
+      if (!(i === 0 || f.zoom <= zoom + 0.6)) continue;
+      const a = libre([f.bbox[0], f.bbox[3]]), b = libre([f.bbox[2], f.bbox[1]]);
+      if (!a || !b || b[0] <= 0 || a[0] >= ancho || b[1] <= 0 || a[1] >= alto) continue;
+      // Un recorte estirado a más de ~10 px de pantalla por texel es borroso y, a zoom 13–15, mide decenas de miles de
+      // px: Chrome se cae ("Page crashed"). Se omite salvo que sea lo único que hay.
+      const texel = f.gradosPx ? (b[0] - a[0]) / ((f.bbox[2] - f.bbox[0]) / f.gradosPx) : 1;
+      if (texel > 10 && (niveles.length || i > 0)) continue;
+      niveles.unshift(f);
+      if (a[0] <= 0 && a[1] <= 0 && b[0] >= ancho && b[1] >= alto) break;
+    }
+  }
   const atenuar = (y: number) => (franjaRotulo && y > franjaRotulo[0] && y < franjaRotulo[1] ? 0.22 : 1);
   const [px, py] = libre(mapa.punto) ?? [ancho / 2, alto * fy];
   const ret = pasosReticula(zoom);
@@ -83,10 +111,18 @@ export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoo
       {hayRaster && <div style={{ position: 'absolute', inset: 0, background: PALETA.fondo2, mixBlendMode: 'lighten' }} />}
       {hayRaster && <div style={{ position: 'absolute', inset: 0, background: fondoAlfa(0.12) }} />}
       <svg width={ancho} height={alto} style={{ position: 'absolute', inset: 0 }}>
+        <defs><filter id="brilloCosta" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation={6} /></filter></defs>
         {/* Cuadrícula de meridianos y paralelos: en mar abierto es lo que deja ver que la cámara se mueve. */}
         <path d={camino(reticula(ret.grueso)) ?? ''} fill="none" stroke={PALETA.celeste} strokeOpacity={0.16} strokeWidth={completo ? 1.5 : 1.2} />
         <path d={camino(reticula(ret.fino)) ?? ''} fill="none" stroke={PALETA.celeste} strokeOpacity={0.16 * ret.alfaFino} strokeWidth={completo ? 1.5 : 1.2} />
         {!hayRaster && <path d={camino(TIERRA) ?? ''} fill={PALETA.fondo2} stroke={PALETA.borde} strokeWidth={1.5} />}
+        {/* v2: brillo claro en la costa (como frontera): la silueta se lee al instante sobre el satélite. */}
+        {v2 && hayRaster && zoom <= 10.5 && (
+          <g>
+            <path d={camino(TIERRA) ?? ''} fill="none" stroke={MAPA.costa} strokeWidth={completo ? 8 : 5} strokeOpacity={0.3} filter="url(#brilloCosta)" />
+            <path d={camino(TIERRA) ?? ''} fill="none" stroke={MAPA.costa} strokeWidth={completo ? 2.2 : 1.4} strokeOpacity={0.8} />
+          </g>
+        )}
         {zoom <= 9 && (
           <path d={camino(BORDES) ?? ''} fill="none" stroke={hayRaster ? PALETA.tinta : PALETA.borde} strokeOpacity={hayRaster ? 0.3 : 0.9}
             strokeWidth={completo ? 2 : 1.5} strokeDasharray={hayRaster ? '6 6' : undefined} />
@@ -114,6 +150,7 @@ export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoo
         const aparece = Math.round(apariciones[i] * fps);
         if (frame < aparece) return null;
         const e = spring({ frame: frame - aparece, fps, config: { damping: 11, stiffness: 160 } });
+        if (v2) return <Pin key={`m-${i}`} x={p[0]} y={p[1]} texto={m.etiqueta} e={e} o={atenuar(p[1])} escala={completo ? 1 : 0.7} />;
         const fs = 36 * k;
         const anchoEt = m.etiqueta.length * fs * 0.66 + 30;
         const izquierda = p[0] + anchoEt > ancho - 30 && p[0] - anchoEt > 30;
@@ -141,11 +178,16 @@ export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoo
           border: `${5 * k}px solid ${PALETA.tinta}`, opacity: brillo, boxShadow: `0 0 ${24 * k}px ${PALETA.coral}`,
         }} />
         <div style={{
-          position: 'absolute', left: 0, top: 34 * k, transform: 'translateX(-50%)', whiteSpace: 'nowrap',
-          fontFamily: TIPO.display, fontWeight: 800, fontSize: (completo ? 52 : 40), letterSpacing: 1.5, color: PALETA.coral,
-          WebkitTextStroke: `${completo ? 10 : 8}px ${PALETA.fondo}`, paintOrder: 'stroke fill', textTransform: 'uppercase',
+          // v2: si el punto cae en la mitad de abajo, la etiqueta va arriba (debajo están los subtítulos).
+          position: 'absolute', left: 0, top: v2 && completo && py > alto * 0.5 ? -110 : 34 * k, transform: 'translateX(-50%)', whiteSpace: 'nowrap',
+          ...(v2
+            ? { fontFamily: TIPO.condensada, fontSize: completo ? 64 : 44, letterSpacing: 4, color: '#fff', textShadow: '0 0 3px rgba(0,0,0,0.95), 0 3px 10px rgba(0,0,0,0.75)' }
+            : { fontFamily: TIPO.display, fontWeight: 800, fontSize: completo ? 52 : 40, letterSpacing: 1.5, color: PALETA.coral, WebkitTextStroke: `${completo ? 10 : 8}px ${PALETA.fondo}`, paintOrder: 'stroke fill' }),
+          textTransform: 'uppercase',
         }}>{mapa.etiqueta}</div>
       </div>
+      {capas?.(xy, (g) => camino(g as never), pxKm)}
+      {v2 && completo && <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 85% 70% at 50% 48%, rgba(0,0,0,0) 55%, rgba(4,12,22,0.5) 100%)' }} />}
     </div>
   );
 };

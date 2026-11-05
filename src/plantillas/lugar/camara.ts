@@ -8,7 +8,9 @@
 import { geoEquirectangular, geoMercator, type GeoProjection } from 'd3-geo';
 import { escalaDeZoom, gradosPorPx } from '../frontera/mapa';
 import type { Plan } from '../comun/plan';
-import type { EscenaLugar, MapaLugar, ModoKenBurns } from './guion';
+import type { Visual } from '../frontera/visual';
+import type { EscenaLugar, GuionLugar, MapaLugar, ModoKenBurns } from './guion';
+import { resolverV2 } from './compartido/visualV2';
 
 export type LonLat = [number, number];
 
@@ -127,3 +129,7 @@ export const zoomCompletoEn = (mapa: MapaLugar, frame: number, total: number, fp
   });
   return z + DERIVA_COMPLETO * Math.min(1, Math.max(0, frame / Math.max(1, total)));
 };
+
+/** Línea de tiempo visual v2 (resolverVisual de frontera) con la cámara de pantalla completa (zoom del inset + OFFSET_COMPLETO). */
+export const visualLugar = (g: Pick<GuionLugar, 'gancho' | 'escenas' | 'remate' | 'mapa' | 'rematePlanos' | 'remateEtiquetas'>, plan: Plan): Visual =>
+  resolverV2(g, plan, { centro: g.mapa.punto as LonLat, zoomInicial: g.mapa.zoomInicial + OFFSET_COMPLETO, zoomFinal: g.mapa.zoomFinal + OFFSET_COMPLETO }, true);

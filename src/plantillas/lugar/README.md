@@ -6,6 +6,32 @@ Burns** y, encima, un **mapa inset redondo** (480 px) con el punto coral que par
 punto. Las escenas pueden pasar a **mapa a pantalla completa** (`vista: 'mapa'`). Cabecera, subtítulos palabra a
 palabra, rótulos en la palabra `dice`, remate, marca de agua y cierre vienen de `src/plantillas/comun/`.
 
+## v2 (estándar Ñerd, 2026-11-05)
+Desde la v2 `lugar` comparte la dirección visual de frontera (docs/DIRECCION-VISUAL.md, docs/VISUAL-NERD.md):
+- **Tarjeta de título** en el frame 0 (0,9 s): mapa chico (punto + `tarjetaTitulo.paises` + `pines` + `icono`), regla de
+  acento y la pregunta (`tarjetaTitulo.texto`, o `gancho.rotulo` si falta).
+- **Sin cabecera ni marca de agua permanentes**: la cabecera sale como pastilla "● CABECERA" 3 s al empezar cada racha
+  de fotos. Cierre de 0,8 s con línea punteada (`CierreLinea`).
+- **Subtítulos en bloques** (`SubtitulosBloque`, caja de acento; `clave` por línea) en vez de palabra a palabra; los
+  `rotulo` v1 se convierten solos en etiqueta de `contexto`.
+- **Planos** por línea de voz (`planos[]`, mismo esquema que frontera): en vista `mapa` mueven el mapa a pantalla completa
+  (centro + zoom + deriva, vuelos zoom/paneo de `frontera/visual.camaraEn`); en vista `foto` cada plano es un **corte a
+  otro Ken Burns** de la foto y un **salto del inset** (zoom del inset = zoom del plano − 1,17, siempre centrado en el punto).
+- **Capas sobre el mapa** (solo vista mapa): `areas` (país NE 1:50 M o polígono), `etiquetas` (pais/region/rio/mar/pin),
+  `cotas`, `iconos` (con `ruta`, `tachado`), `resaltes`, `remateEtiquetas`. **Capas de pantalla** (mapa y foto):
+  `tarjetas`, `contexto`, `indice` (en mapa-de-ruta), `polaroid`, `foto` (pantalla completa), `fuente`.
+- `acento` (amarillo | cian | coral). El inset baja a 300 px bajo los subtítulos (y 1330).
+- Satélite v2: recortes **por plano** con `scripts/lib/satelite.mts` (Blue Marble lejos, Sentinel-2 2016 cerca, como
+  frontera); a zoom 13–15 Sentinel-2 muestra el atolón entero. `MapaLugar` dibuja del recorte más fino al más grueso y
+  corta cuando uno cubre el cuadro (con ~40 recortes, componerlos todos hundía el render).
+- Guiones v1 (sin planos) siguen validando y renderizando con el aspecto v2: cámara v1 (zoom lento global que frena por
+  los marcadores), satélite por niveles, sin planos.
+- Piezas compartidas con `ruta` en `compartido/` (candidatas a `comun/`): `direccionMapa.ts` (contrato v2 sobre los
+  esquemas de frontera), `visualV2.ts` (adapta el guion a `frontera/visual.resolverVisual` + SFX), `CapasMapa.tsx` (capas
+  pegadas al mapa con cualquier proyección), `CapasPantalla.tsx` (bloque de `comun/Superposiciones` + subtítulos + cierre,
+  igual que en Frontera.tsx) y `TarjetaTituloBase.tsx`.
+- Ejemplo v2: `contenido/borradores/lugar-clipperton-1917.v2.json` (= `ejemplo.json`). Prueba: `salida/pruebas/lugar-v2-clipperton.mp4`.
+
 ## Flujo
 ```bash
 npx tsx scripts/preparar-lugar.mts contenido/guiones/<id>.json      # valida, voz, sonido, fotos, satélite → salida/trabajo/<id>.props.json

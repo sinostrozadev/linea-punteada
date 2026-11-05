@@ -10,6 +10,7 @@
  */
 import { z } from 'zod';
 import { CamposBase, Escena, ImagenEscena, ImagenResuelta, envoltorioDe, validarFormula } from '../comun/guion';
+import { CamposV2, DireccionMapaV2, validarDireccionV2 } from './compartido/direccionMapa';
 
 const LonLat = z.tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)]);
 
@@ -28,6 +29,13 @@ export const EscenaLugar = Escena.extend({
   vista: z.enum(['foto', 'mapa']).optional(),
   /** Movimiento de la foto: acercar | alejar | izquierda | derecha. Si falta, la plantilla alterna sola. */
   kenBurns: z.enum(MODOS_KEN_BURNS).optional(),
+  /**
+   * v2 (docs/DIRECCION-VISUAL.md): planos, máscaras, etiquetas, cotas, iconos, tarjetas, foto, polaroid, contexto,
+   * fuente, índice. En `lugar` los `planos` son la cámara del mapa: en vista `mapa` mueven el mapa a pantalla completa
+   * (centro + zoom); en vista `foto` cada plano es un corte a otro Ken Burns de la foto y un salto del inset
+   * (zoom del inset = zoom del plano − 1,17). Las capas pegadas al mapa solo se ven en vista `mapa`.
+   */
+  ...DireccionMapaV2,
 });
 export type EscenaLugar = z.infer<typeof EscenaLugar>;
 
@@ -64,6 +72,8 @@ export const MapaLugar = z.object({
 export type MapaLugar = z.infer<typeof MapaLugar>;
 
 export const CamposLugar = CamposBase.extend({
+  gancho: CamposBase.shape.gancho.extend(DireccionMapaV2),
+  ...CamposV2,
   /** 5–9 escenas en orden de locución (con `vista` y `kenBurns` opcionales). */
   escenas: z.array(EscenaLugar).min(5).max(9),
   mapa: MapaLugar,
@@ -78,6 +88,7 @@ export const CamposLugar = CamposBase.extend({
 /** Props de la plantilla `lugar` (lo que viaja en `props` del envoltorio). */
 export const GuionLugar = CamposLugar.superRefine((g, ctx) => {
   validarFormula(g, ctx);
+  validarDireccionV2(g, ctx);
   const n = g.escenas.length;
   (g.mapa.marcadores ?? []).forEach((m, i) => {
     if (m.aparecerEn >= n) ctx.addIssue({ code: 'custom', path: ['mapa', 'marcadores', i, 'aparecerEn'], message: `escena ${m.aparecerEn} no existe (hay ${n})` });
@@ -101,6 +112,8 @@ export const FondoNivel = z.object({
   capa: z.string(),
   credito: z.string(),
   zoom: z.number(),
+  /** v2: grados por píxel del recorte (bajarFondos de scripts/lib/satelite.mts). */
+  gradosPx: z.number().optional(),
 });
 export type FondoNivel = z.infer<typeof FondoNivel>;
 
