@@ -13,7 +13,10 @@ Es una declaración legal (COPPA) y la marcas tú:
 - URL directa: https://studio.youtube.com/channel/UCp05AZK18-TL8pp74ntbdUw?d=sd&sds=channel&sdst=advanced
 - Claude te deja esa pantalla abierta en http://localhost:8777/ver cuando termine la noche. Sin esto no se programan Shorts.
 
-## 2. Más adelante (no urgente)
+## ✅ 2. Primer video programado (2026-11-05 12:00)
+https://youtube.com/shorts/xl1dVN0KX7Q — triángulo terrestre Perú-Chile, plantilla v2 (nivel Ñerd). Nada que hacer.
+
+## 3. Más adelante (no urgente)
 - **Cron del canal (cuando quieras que ande solo sin sesión de Claude):** `crontab -e` y pega las 3 líneas de
   `scripts/cron.txt` (diario 04:45, compilar sáb 05:30, estado 08:15; horas distintas a Bolita Lab). Mientras no esté,
   Claude corre el diario a mano en cada sesión.
