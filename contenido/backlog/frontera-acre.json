@@ -1,0 +1,83 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-06-frontera-acre",
+  "titulo": "Brasil compró un estado a Bolivia y pagó con un tren que llegó tarde",
+  "descripcion": "Acre fue boliviano hasta 1903. Brasil no lo conquistó: lo pagó, con libras, con tierra y con la promesa de un tren por la selva. El Tratado de Petrópolis fijó dos millones de libras esterlinas en dos cuotas y el ferrocarril Madeira-Mamoré, que Brasil prometió intentar terminar en cuatro años. Llegó a Guajará-Mirim en 1912, justo cuando el caucho amazónico se derrumbaba.\n\nFuentes:\n- Tratado de Petrópolis (1903), texto en Wikisource: https://pt.wikisource.org/wiki/Tratado_de_Petr%C3%B3polis\n- Portal Amazônia: Estrada de Ferro Madeira-Mamoré: https://portalamazonia.com/amazonia-az/estrada-de-ferro-madeira-mamore\n- IBGE: Acre: https://www.ibge.gov.br/cidades-e-estados/ac\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": ["#shorts", "#geografia", "#mapas", "#fronteras", "#historia", "#brasil"],
+  "props": {
+    "id": "2026-11-06-frontera-acre",
+    "cabecera": "ACRE — EL ESTADO QUE SE PAGÓ CON UN TREN",
+    "gancho": {
+      "texto": "Mira la esquina oeste de Brasil, metida entre Perú y Bolivia. Ese pedazo de selva era boliviano hasta 1903, y Brasil no lo conquistó: lo pagó. ¿Con qué?",
+      "rotulo": "LO PAGÓ"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "La explicación fácil es que el gigante se lo quitó al vecino más chico. Y hubo balas: en 1902 los caucheros brasileños de Acre se alzaron contra Bolivia. Pero el final no lo escribió un fusil. Lo escribió una factura. La verdad es más rara.",
+        "rotulo": { "texto": "SE LO QUITÓ", "dice": "quitó" }
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un árbol, una factura y un tren. Y al final, el tren llega justo a tiempo para no servir.",
+        "rotulo": { "texto": "ÁRBOL, FACTURA, TREN", "dice": "árbol" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el árbol. A fines del siglo diecinueve el mundo quería neumáticos, y el mejor caucho salía de un árbol amazónico, la seringueira. Miles de brasileños entraron a Acre a sangrarlo. La tierra era boliviana. La gente, casi toda, brasileña.",
+        "rotulo": { "texto": "CAUCHO", "dice": "caucho" },
+        "imagen": { "buscar": "rubber tapper Amazon" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la factura. El 17 de noviembre de 1903 se firma el Tratado de Petrópolis. Según su texto, Brasil se queda con Acre y le paga a Bolivia dos millones de libras esterlinas, en dos cuotas. Y además le entrega unos 3.000 kilómetros cuadrados de tierra brasileña.",
+        "rotulo": { "texto": "2 MILLONES DE LIBRAS", "dice": "millones" },
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el tren. El tratado también obliga a Brasil a tender una vía férrea por la selva, el Madeira-Mamoré: unos 366 kilómetros para saltarse los rápidos del río Madeira y sacar el caucho boliviano hacia el Atlántico. Brasil promete esforzarse por terminarlo en cuatro años.",
+        "rotulo": { "texto": "4 AÑOS", "dice": "cuatro" },
+        "imagen": { "buscar": "Madeira-Mamoré Railway", "archivo": "File:Autoridades em Visita ao Trecho Concluído da Ferrovia Madeira-Mamoré - 582, Acervo do Museu Paulista da USP.jpg" }
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: las obras empiezan recién en 1907, y el primer tren llega a Guajará-Mirim en 1912, casi nueve años después de la firma. Justo cuando el caucho amazónico se derrumba. Las plantaciones de Asia, nacidas de semillas sacadas de Brasil, ya producen más y más barato.",
+        "rotulo": { "texto": "1912", "dice": "1912" }
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Acre es un estado de unos 164.000 kilómetros cuadrados, según el IBGE. Su capital se llama Rio Branco, por el diplomático que negoció la compra. El tren dejó de correr en 1972. En Porto Velho sus locomotoras siguen ahí, quietas, a la orilla del río.",
+        "rotulo": { "texto": "164.000 KM²", "dice": "164.000" },
+        "fuenteEnVoz": true,
+        "imagen": { "buscar": "Madeira-Mamoré locomotive Porto Velho" }
+      }
+    ],
+    "remate": "Bolivia cambió el caucho por un tren. El tren llegó cuando el caucho ya no valía.",
+    "fuentes": [
+      { "texto": "Tratado de Petrópolis (17-11-1903), texto íntegro en Wikisource", "url": "https://pt.wikisource.org/wiki/Tratado_de_Petr%C3%B3polis" },
+      { "texto": "Portal Amazônia: Estrada de Ferro Madeira-Mamoré", "url": "https://portalamazonia.com/amazonia-az/estrada-de-ferro-madeira-mamore" },
+      { "texto": "IBGE: Cidades e Estados, Acre (área territorial)", "url": "https://www.ibge.gov.br/cidades-e-estados/ac" }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [-68.8, -9.6],
+      "zoomInicial": 5.8,
+      "zoomFinal": 6.8,
+      "paises": ["Bolivia"],
+      "lineas": [
+        { "id": "frontera-peru", "fronteraEntre": ["Brazil", "Peru"], "color": "celeste", "estilo": "solida", "dibujarEn": -1 },
+        { "id": "frontera-bolivia", "fronteraEntre": ["Brazil", "Bolivia"], "color": "amarillo", "estilo": "solida", "dibujarEn": 3, "etiqueta": "FRONTERA HOY" },
+        { "id": "madeira-mamore", "puntos": [[-63.90, -8.76], [-64.40, -9.20], [-65.36, -9.70], [-65.40, -10.20], [-65.34, -10.78]], "color": "coral", "estilo": "solida", "dibujarEn": 4, "etiqueta": "MADEIRA-MAMORÉ" }
+      ],
+      "marcadores": [
+        { "lon": -70.5, "lat": -9.0, "etiqueta": "ACRE", "aparecerEn": -1 },
+        { "lon": -65.5, "lat": -13.5, "etiqueta": "BOLIVIA", "aparecerEn": -1 },
+        { "lon": -73.8, "lat": -11.5, "etiqueta": "PERÚ", "aparecerEn": -1 },
+        { "lon": -63.90, "lat": -8.76, "etiqueta": "PORTO VELHO", "aparecerEn": 4 },
+        { "lon": -65.34, "lat": -10.78, "etiqueta": "GUAJARÁ-MIRIM", "aparecerEn": 5 },
+        { "lon": -67.81, "lat": -9.97, "etiqueta": "RIO BRANCO", "aparecerEn": 6 }
+      ]
+    }
+  }
+}
