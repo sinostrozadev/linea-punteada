@@ -9,7 +9,8 @@ import { COLORES_GUION, COLORES_MASCARA, FORMATO, MAPA, PALETA, TIPO } from '../
 import { Icono } from '../comun/Icono';
 import type { FondoResuelto, GeoRecortado, MapaFrontera, Poligonos } from './guion';
 import { DURACION_TRAZO_SEG, escalaDeZoom, proyeccion, tipoProyeccion, type LonLat } from './mapa';
-import { opacidadVentana, type EstadoCamara, type Visual } from './visual';
+import { camaraAsentada, opacidadVentana, type EstadoCamara, type Visual } from './visual';
+import { PRIORIDAD, anchoTexto, bordeMasCercano, resolverColisiones, type Caja, type EtiquetaColision } from './colisiones';
 
 // ---------------------------------------------------------------- datos
 type Props = { name?: string };
@@ -43,7 +44,7 @@ const resorte = (t: number, desde: number, config = { damping: 13, stiffness: 19
 const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
 /** Franja de los subtítulos (~62 % de la altura): las etiquetas de mapa que caen ahí suben por encima. */
 const SUB_DESDE = 1080, SUB_HASTA = 1310;
-const fueraDeSubtitulo = (y: number) => (y > SUB_DESDE && y < SUB_HASTA ? SUB_DESDE - 10 : y);
+const fueraDeSubtitulo = (y: number, h = 50) => (y + h / 2 > SUB_DESDE && y - h / 2 < SUB_HASTA ? SUB_DESDE - h / 2 - 12 : y);
 /** Centro x para que un texto de `n` letras (condensada de `fs` px) no se salga del cuadro. */
 const dentroX = (x: number, n: number, fs: number, ancho: number) => { const m = (n * fs * 0.46) / 2 + 40; return Math.max(m, Math.min(ancho - m, x)); };
 
@@ -64,6 +65,8 @@ type PropsMapa = {
   /** Tarjeta de título: solo satélite, costa, bordes y contornos (sin capas de escena). */
   soloBase?: boolean;
   paisesContorno?: string[];
+  /** Cajas de pantalla ocupadas por capas de encima (índice, tarjeta, contexto, fuente, crédito): las etiquetas las esquivan. */
+  reservas?: Caja[];
   children?: React.ReactNode;
 };
 
@@ -74,15 +77,19 @@ const ESTILO_ETIQUETA: Record<string, { fontSize: number; letterSpacing: number;
   mar: { fontSize: 46, letterSpacing: 12, color: '#CFE7FF', opacity: 0.92 },
 };
 
-/** Pin rojo tipo gota con punto blanco y nombre encima. */
-export const Pin: React.FC<{ x: number; y: number; texto?: string; e: number; o: number; escala?: number }> = ({ x, y, texto, e, o, escala = 1 }) => (
+/** Centro del nombre de un pin respecto de su punta (px, sin colisiones): encima del marcador. */
+export const PIN_TEXTO_Y = -90;
+const PIN_FS = 54, PIN_ESP = 3;
+
+/** Pin rojo tipo gota con punto blanco y nombre encima. `texto` = null lo oculta (no cabe); `dx`/`dy` lo corren. */
+export const Pin: React.FC<{ x: number; y: number; texto?: string | null; e: number; o: number; escala?: number; dx?: number; dy?: number }> = ({ x, y, texto, e, o, escala = 1, dx = 0, dy = 0 }) => (
   <div style={{ position: 'absolute', left: x, top: y, opacity: o, transform: `scale(${e * escala})`, transformOrigin: '0 0' }}>
     <svg width={48} height={62} viewBox="0 0 48 62" style={{ position: 'absolute', left: -24, top: -60, filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.6))' }}>
       <path d="M24 60 C24 60 4 36 4 22 A20 20 0 0 1 44 22 C44 36 24 60 24 60 Z" fill={MAPA.pin} stroke="#fff" strokeWidth={3} />
       <circle cx={24} cy={22} r={7.5} fill="#fff" />
     </svg>
     {texto && (
-      <div style={{ position: 'absolute', left: 0, top: -122, transform: 'translateX(-50%)', whiteSpace: 'nowrap', fontFamily: TIPO.condensada, fontSize: 54, letterSpacing: 3, color: PALETA.tinta, textShadow: sombra }}>{texto}</div>
+      <div style={{ position: 'absolute', left: dx, top: PIN_TEXTO_Y + dy, transform: 'translate(-50%, -50%)', whiteSpace: 'nowrap', fontFamily: TIPO.condensada, fontSize: PIN_FS, letterSpacing: PIN_ESP, color: PALETA.tinta, textShadow: sombra }}>{texto}</div>
     )}
   </div>
 );
@@ -93,7 +100,7 @@ export const Pin: React.FC<{ x: number; y: number; texto?: string; e: number; o:
  * líneas que se dibujan (la protagonista con brillo), cotas, resaltes; encima en HTML: etiquetas, pines e iconos.
  * Todo depende solo de `t` y `cam` (determinista).
  */
-export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acento, ancho, alto, soloBase, paisesContorno, children }) => {
+export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acento, ancho, alto, soloBase, paisesContorno, reservas = [], children }) => {
   const hayRaster = fondos.length > 0;
   const tipo = hayRaster ? 'equirectangular' : tipoProyeccion(mapa, false);
   const proy: GeoProjection = proyeccion(tipo, cam, ancho, alto);
@@ -116,7 +123,13 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
   const oCosta = clamp01((11.6 - cam.zoom) / 1.2);
   const oBordes = clamp01((11.8 - cam.zoom) / 1.2);
   const dTierra = tierra && oCosta > 0 ? camino(tierra) ?? '' : '';
-  const desfase = (t * 14) % 26; // las rayas de las máscaras se deslizan despacio: nada queda quieto
+  const desfase = (t * 14) % 26;
+  // Zonas donde no se dibujan los bordes de Natural Earth (mapa.ocultarBordesEn siempre; areas[].ocultarBordes mientras se ven).
+  const sinBordes: { d: string; o: number }[] = [
+    ...(mapa.ocultarBordesEn ?? []).map((pg) => ({ d: caminoLibre(multipoligono([[[...pg, pg[0]] as [number, number][]]])) ?? '', o: 1 })),
+    ...(soloBase ? [] : vis.areas.filter((v) => v.d.ocultarBordes && v.d.poligono).map((v) => ({ d: caminoLibre(multipoligono([[[...v.d.poligono!, v.d.poligono![0]] as [number, number][]]])) ?? '', o: opacidadVentana(v, t, 0.35, 0.4) }))),
+  ].filter((z) => z.d && z.o > 0);
+  const mascaraBordes = sinBordes.length ? 'url(#sinBordes)' : undefined; // las rayas de las máscaras se deslizan despacio: nada queda quieto
 
   // Capas raster que de verdad se ven. Se recorren de la más fina a la más gruesa: cuando una capa opaca cubre todo
   // el cuadro (descontando el 7 % de borde difuminado), las de debajo no se dibujan. Sin esto, a zoom 17 se
@@ -148,6 +161,120 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
     return { d: g ? camino(g) ?? '' : '' };
   };
 
+  // ---------------------------------------------------------------- colisiones de etiquetas
+  // Cada etiqueta visible es una caja medida; se colocan por prioridad y la menor se corre o se oculta
+  // (frontera/colisiones.ts). Se resuelve con la cámara ASENTADA del plano (no salta durante los vuelos) y el
+  // desplazamiento se aplica sobre la cámara real.
+  type Rotulo = EtiquetaColision & { punto: [number, number] };
+  const reunir = (xyF: (p: LonLat) => [number, number] | null): { rot: Rotulo[]; obst: Caja[] } => {
+    const rot: Rotulo[] = [];
+    const obst: Caja[] = [];
+    if (soloBase) return { rot, obst };
+    const punto = (q: [number, number]): Caja => ({ x0: q[0], y0: q[1], x1: q[0], y1: q[1] });
+    vis.remateEtiquetas.forEach((r, i) => {
+      if (t < r.desde) return;
+      const q = xyF([r.lon, r.lat]);
+      if (!q) return;
+      const h = 92;
+      const y = q[1] > SUB_DESDE - h / 2 - 12 && q[1] < SUB_HASTA ? SUB_DESDE - h / 2 - 12 : q[1];
+      rot.push({ id: `re-${i}`, prioridad: PRIORIDAD.remate, desde: r.desde, ancla: punto(q), punto: q, natural: [dentroX(q[0], r.texto.length, 80, ancho), y], w: anchoTexto(r.texto, 80, 4) + 36, h });
+    });
+    const pin = (id: string, q: [number, number], texto: string | undefined, desde: number) => {
+      const marcador: Caja = { x0: q[0] - 24, y0: q[1] - 62, x1: q[0] + 24, y1: q[1] + 2 };
+      obst.push(marcador);
+      if (texto) rot.push({ id, prioridad: PRIORIDAD.pin, desde, ancla: marcador, punto: [q[0], q[1] - 62], natural: [q[0], q[1] + PIN_TEXTO_Y], w: anchoTexto(texto, PIN_FS, PIN_ESP), h: PIN_FS * 1.05 });
+    };
+    vis.etiquetas.forEach((v) => {
+      if (opacidadVentana(v, t, 0.3, 0.35) <= 0 || v.d.lon === undefined || v.d.lat === undefined) return;
+      const q = xyF([v.d.lon, v.d.lat]);
+      if (!q || q[0] < -200 || q[0] > ancho + 200 || q[1] < 0 || q[1] > alto) return;
+      if (v.d.tipo === 'pin') return pin(v.id, q, v.d.texto, v.desde);
+      const est = ESTILO_ETIQUETA[v.d.tipo] ?? ESTILO_ETIQUETA.region;
+      const w = anchoTexto(v.d.texto, est.fontSize, est.letterSpacing), h = est.fontSize * 1.05;
+      const prioridad = PRIORIDAD[v.d.tipo] ?? PRIORIDAD.region;
+      if (v.d.rotacion) {
+        const r = (v.d.rotacion * Math.PI) / 180, c = Math.abs(Math.cos(r)), sn = Math.abs(Math.sin(r));
+        rot.push({ id: v.id, prioridad, desde: v.desde, ancla: punto(q), punto: q, natural: q, w: w * c + h * sn, h: w * sn + h * c, fija: true });
+      } else {
+        rot.push({ id: v.id, prioridad, desde: v.desde, ancla: punto(q), punto: q, natural: [dentroX(q[0], v.d.texto.length, est.fontSize, ancho), fueraDeSubtitulo(q[1], h)], w, h });
+      }
+    });
+    (mapa.marcadores ?? []).forEach((m, i) => {
+      const q = xyF([m.lon, m.lat]);
+      const t0 = vis.marcadoresDesde[i] ?? 0;
+      if (!q || t < t0 || q[0] < 30 || q[0] > ancho - 30 || q[1] < 0 || q[1] > alto) return;
+      pin(`m-${i}`, q, m.etiqueta, t0);
+    });
+    vis.areas.forEach((v) => {
+      if (!v.d.etiqueta || opacidadVentana(v, t, 0.35, 0.4) <= 0) return;
+      const pg = v.d.poligono;
+      const ancla: LonLat | undefined = v.d.etiquetaEn ?? (pg ? [pg.reduce((s, p) => s + p[0], 0) / pg.length, pg.reduce((s, p) => s + p[1], 0) / pg.length] : undefined);
+      const q = ancla ? xyF(ancla) : null;
+      if (!q || q[0] < 60 || q[0] > ancho - 60 || q[1] < 200 || q[1] > alto - 300) return;
+      // Un área que en pantalla mide menos de ~70 px no se nombra (a escala regional "EL TRIÁNGULO" sería ruido).
+      if (pg) {
+        const ps = pg.map((x) => xyF(x)).filter((x): x is [number, number] => !!x);
+        const lado = Math.max(Math.max(...ps.map((x) => x[0])) - Math.min(...ps.map((x) => x[0])), Math.max(...ps.map((x) => x[1])) - Math.min(...ps.map((x) => x[1])));
+        if (lado < 70) return;
+      }
+      const h = 55;
+      rot.push({ id: `al-${v.id}`, prioridad: PRIORIDAD.area, desde: v.desde, ancla: punto(q), punto: q, natural: [dentroX(q[0], v.d.etiqueta.length, 52, ancho), fueraDeSubtitulo(q[1], h)], w: anchoTexto(v.d.etiqueta, 52, 5), h });
+    });
+    mapa.lineas.forEach((l, i) => {
+      if (!l.etiqueta || !l.puntos) return;
+      const desde = vis.trazos[i] + DURACION_TRAZO_SEG * 0.7;
+      if (t < desde || t >= vis.trazos[i] + DURACION_TRAZO_SEG + 3.5) return;
+      const pts = l.puntos;
+      const m = pts.length % 2 ? pts[(pts.length - 1) / 2] : ([(pts[pts.length / 2 - 1][0] + pts[pts.length / 2][0]) / 2, (pts[pts.length / 2 - 1][1] + pts[pts.length / 2][1]) / 2] as LonLat);
+      const q = xyF(m);
+      if (!q || q[0] < 80 || q[0] > ancho - 80 || q[1] < 200 || q[1] > alto - 300) return;
+      rot.push({ id: `le-${l.id}`, prioridad: PRIORIDAD.linea, desde, ancla: punto(q), punto: q, natural: [q[0], q[1] + 56], w: anchoTexto(l.etiqueta, 50, 4), h: 53 });
+    });
+    // Obstáculos fijos sobre el mapa: texto de las cotas e iconos quietos.
+    vis.cotas.forEach((v) => {
+      if (opacidadVentana(v, t) <= 0) return;
+      const a = xyF(v.d.desde), b = xyF(v.d.hasta);
+      if (!a || !b) return;
+      let ang = Math.atan2(b[1] - a[1], b[0] - a[0]);
+      if (ang > Math.PI / 2) ang -= Math.PI;
+      if (ang < -Math.PI / 2) ang += Math.PI;
+      const mx = (a[0] + b[0]) / 2 + Math.sin(ang) * 42, my = (a[1] + b[1]) / 2 - Math.cos(ang) * 42;
+      const w = anchoTexto(v.d.texto, 68, 3), h = 72, c = Math.abs(Math.cos(ang)), sn = Math.abs(Math.sin(ang));
+      const W = w * c + h * sn, H = w * sn + h * c;
+      obst.push({ x0: mx - W / 2, y0: my - H / 2, x1: mx + W / 2, y1: my + H / 2 });
+    });
+    vis.iconos.forEach((v) => {
+      if (v.d.ruta || opacidadVentana(v, t) <= 0) return;
+      const q = xyF([v.d.lon, v.d.lat]);
+      if (!q) return;
+      const r = (96 * (v.d.escala ?? 1)) / 2;
+      obst.push({ x0: q[0] - r, y0: q[1] - r, x1: q[0] + r, y1: q[1] + r });
+    });
+    return { rot, obst };
+  };
+  const actual = reunir(xy);
+  const camRef = soloBase ? cam : camaraAsentada(vis.planos, t);
+  const libreRef = proyeccion(tipo, camRef, ancho, alto).clipExtent(null);
+  const ref = reunir((q) => libreRef(q) as [number, number] | null);
+  const vivos = new Set(actual.rot.map((r) => r.id));
+  const banda: Caja = { x0: 0, y0: SUB_DESDE, x1: ancho, y1: SUB_HASTA };
+  const colocacion = resolverColisiones(ref.rot.filter((r) => vivos.has(r.id)), [...ref.obst, ...reservas, banda], { x0: 16, y0: 200, x1: ancho - 16, y1: alto - 300 });
+  const porId = new Map(actual.rot.map((r) => [r.id, r]));
+  /** Centro final de una etiqueta (cámara real) o null si no cabe. */
+  const ubicar = (id: string): [number, number] | null => {
+    const r = porId.get(id);
+    if (!r) return null;
+    const c = colocacion.get(id);
+    if (c === null) return null;
+    return [r.natural[0] + (c?.dx ?? 0), r.natural[1] + (c?.dy ?? 0)];
+  };
+  const guias = actual.rot.flatMap((r) => {
+    const c = colocacion.get(r.id);
+    if (!c?.guia) return [];
+    const centro: [number, number] = [r.natural[0] + c.dx, r.natural[1] + c.dy];
+    return [{ id: r.id, desde: r.punto, hasta: bordeMasCercano(centro, r.w + 8, r.h, r.punto) }];
+  });
+
   return (
     <div style={{ position: 'absolute', left: 0, top: 0, width: ancho, height: alto, background: MAPA.oceano, overflow: 'hidden' }}>
       {capasVisibles.map(({ f, i, a, b, o }) => {
@@ -172,6 +299,12 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
           ))}
           <filter id="brillo" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation={7} /></filter>
           <filter id="brilloSuave" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation={3} /></filter>
+          {sinBordes.length > 0 && (
+            <mask id="sinBordes" maskUnits="userSpaceOnUse" x={0} y={0} width={ancho} height={alto}>
+              <rect width={ancho} height={alto} fill="#fff" />
+              {sinBordes.map((z, i) => <path key={i} d={z.d} fill="#000" fillOpacity={z.o} stroke="#000" strokeOpacity={z.o} strokeWidth={14} />)}
+            </mask>
+          )}
           {dTierra && (<mask id="mar"><rect width={ancho} height={alto} fill="#fff" /><path d={dTierra} fill="#000" /></mask>)}
         </defs>
         {/* Océano azul marino y costa con brillo claro: la silueta se lee al instante. */}
@@ -183,7 +316,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
             <path d={dTierra} fill="none" stroke={MAPA.costa} strokeWidth={2.4} strokeOpacity={0.85} />
           </g>
         )}
-        {bordes && oBordes > 0 && <path d={camino(bordes) ?? ''} fill="none" stroke={MAPA.borde} strokeWidth={2.2} strokeOpacity={0.78 * oBordes} />}
+        {bordes && oBordes > 0 && <path d={camino(bordes) ?? ''} fill="none" stroke={MAPA.borde} strokeWidth={2.2} strokeOpacity={0.78 * oBordes} mask={mascaraBordes} />}
         {(paisesContorno ?? []).map((n) => {
           const g = paisesGeo.get(n.toLowerCase());
           return g ? <path key={n} d={camino(g) ?? ''} fill={acento} fillOpacity={0.12} stroke={acento} strokeWidth={4} strokeOpacity={0.95} /> : null;
@@ -206,8 +339,10 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
           return (
             <g key={v.id} opacity={o}>
               <path d={d} fill={relleno} fillOpacity={v.d.trama === 'solida' ? 0.45 : 1} stroke="none" />
-              <path d={d} fill="none" stroke={c} strokeWidth={10} strokeOpacity={0.4} filter="url(#brilloSuave)" />
-              <path d={d} fill="none" stroke="#fff" strokeWidth={3.5} strokeOpacity={0.9} strokeLinejoin="round" />
+              <g mask={v.d.pais ? mascaraBordes : undefined}>
+                <path d={d} fill="none" stroke={c} strokeWidth={10} strokeOpacity={0.4} filter="url(#brilloSuave)" />
+                <path d={d} fill="none" stroke="#fff" strokeWidth={3.5} strokeOpacity={0.9} strokeLinejoin="round" />
+              </g>
             </g>
           );
         })}
@@ -288,23 +423,24 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
           }}>{v.d.texto}</div>
         );
       })}
+      {/* Líneas guía finas: una etiqueta que se corrió más de 40 px de su anclaje queda unida a él. */}
+      {guias.length > 0 && (
+        <svg width={ancho} height={alto} style={{ position: 'absolute', inset: 0 }}>
+          {guias.map((g) => (
+            <g key={`g-${g.id}`}>
+              <line x1={g.desde[0]} y1={g.desde[1]} x2={g.hasta[0]} y2={g.hasta[1]} stroke="rgba(0,0,0,0.55)" strokeWidth={4.5} strokeLinecap="round" />
+              <line x1={g.desde[0]} y1={g.desde[1]} x2={g.hasta[0]} y2={g.hasta[1]} stroke="#fff" strokeWidth={2} strokeOpacity={0.9} strokeLinecap="round" />
+              <circle cx={g.desde[0]} cy={g.desde[1]} r={4} fill="#fff" stroke="rgba(0,0,0,0.55)" strokeWidth={1.5} />
+            </g>
+          ))}
+        </svg>
+      )}
       {/* Etiquetas dentro de las máscaras. */}
       {!soloBase && vis.areas.map((v) => {
         if (!v.d.etiqueta) return null;
         const o = opacidadVentana(v, t, 0.35, 0.4);
-        if (o <= 0) return null;
-        const pg = v.d.poligono;
-        const ancla: LonLat | undefined = v.d.etiquetaEn ?? (pg ? [pg.reduce((s, p) => s + p[0], 0) / pg.length, pg.reduce((s, p) => s + p[1], 0) / pg.length] : undefined);
-        const p = ancla ? xy(ancla) : null;
-        if (!p || p[0] < 60 || p[0] > ancho - 60 || p[1] < 200 || p[1] > alto - 300) return null;
-        // Un área que en pantalla mide menos de ~70 px no se nombra (a escala regional "EL TRIÁNGULO" sería ruido).
-        if (pg) {
-          const ps = pg.map((q) => xy(q)).filter((q): q is [number, number] => !!q);
-          const lado = Math.max(Math.max(...ps.map((q) => q[0])) - Math.min(...ps.map((q) => q[0])), Math.max(...ps.map((q) => q[1])) - Math.min(...ps.map((q) => q[1])));
-          if (lado < 70) return null;
-        }
-        p[1] = fueraDeSubtitulo(p[1]);
-        p[0] = dentroX(p[0], v.d.etiqueta.length, 52, ancho);
+        const p = o > 0 ? ubicar(`al-${v.id}`) : null;
+        if (!p) return null;
         const e = resorte(t, v.desde + 0.15);
         return (
           <div key={`al-${v.id}`} style={{
@@ -316,12 +452,16 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
       {!soloBase && vis.etiquetas.map((v) => {
         const o = opacidadVentana(v, t, 0.3, 0.35);
         if (o <= 0 || v.d.lon === undefined || v.d.lat === undefined) return null;
-        const p = xy([v.d.lon, v.d.lat]);
-        if (!p || p[0] < -200 || p[0] > ancho + 200 || p[1] < 0 || p[1] > alto) return null;
+        const q = xy([v.d.lon, v.d.lat]);
+        if (!q || q[0] < -200 || q[0] > ancho + 200 || q[1] < 0 || q[1] > alto) return null;
         const e = resorte(t, v.desde);
-        if (v.d.tipo === 'pin') return <Pin key={v.id} x={p[0]} y={p[1]} texto={v.d.texto} e={e} o={o} />;
+        const p = ubicar(v.id);
+        if (v.d.tipo === 'pin') {
+          const n = porId.get(v.id);
+          return <Pin key={v.id} x={q[0]} y={q[1]} texto={p ? v.d.texto : null} e={e} o={o} dx={p && n ? p[0] - q[0] : 0} dy={p && n ? p[1] - (q[1] + PIN_TEXTO_Y) : 0} />;
+        }
+        if (!p) return null;
         const est = ESTILO_ETIQUETA[v.d.tipo] ?? ESTILO_ETIQUETA.region;
-        if (!v.d.rotacion) { p[1] = fueraDeSubtitulo(p[1]); p[0] = dentroX(p[0], v.d.texto.length, est.fontSize, ancho); }
         return (
           <div key={v.id} style={{
             position: 'absolute', left: p[0], top: p[1], whiteSpace: 'nowrap', textTransform: 'uppercase', fontFamily: TIPO.condensada, textShadow: sombra,
@@ -331,10 +471,11 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
         );
       })}
       {!soloBase && (mapa.marcadores ?? []).map((m, i) => {
-        const p = xy([m.lon, m.lat]);
+        const q = xy([m.lon, m.lat]);
         const t0 = vis.marcadoresDesde[i] ?? 0;
-        if (!p || t < t0 || p[0] < 30 || p[0] > ancho - 30 || p[1] < 0 || p[1] > alto) return null;
-        return <Pin key={`m-${i}`} x={p[0]} y={p[1]} texto={m.etiqueta} e={resorte(t, t0)} o={1} />;
+        if (!q || t < t0 || q[0] < 30 || q[0] > ancho - 30 || q[1] < 0 || q[1] > alto) return null;
+        const p = ubicar(`m-${i}`);
+        return <Pin key={`m-${i}`} x={q[0]} y={q[1]} texto={p ? m.etiqueta : null} e={resorte(t, t0)} o={1} dx={p ? p[0] - q[0] : 0} dy={p ? p[1] - (q[1] + PIN_TEXTO_Y) : 0} />;
       })}
       {!soloBase && vis.iconos.map((v) => {
         const o = opacidadVentana(v, t);
@@ -372,30 +513,26 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
         const desde = vis.trazos[i] + DURACION_TRAZO_SEG * 0.7;
         const hasta = vis.trazos[i] + DURACION_TRAZO_SEG + 3.5;
         if (t < desde || t >= hasta) return null;
+        const p = ubicar(`le-${l.id}`);
+        if (!p) return null;
         const oL = clamp01((hasta - t) / 0.3);
-        const pts = l.puntos;
-        const m = pts.length % 2 ? pts[(pts.length - 1) / 2] : ([(pts[pts.length / 2 - 1][0] + pts[pts.length / 2][0]) / 2, (pts[pts.length / 2 - 1][1] + pts[pts.length / 2][1]) / 2] as LonLat);
-        const p = xy(m);
-        if (!p || p[0] < 80 || p[0] > ancho - 80 || p[1] < 200 || p[1] > alto - 300) return null;
         const e = resorte(t, desde);
         return (
           <div key={`le-${l.id}`} style={{
-            position: 'absolute', left: p[0], top: p[1] + 56, transform: `translate(-50%, -50%) scale(${e})`, whiteSpace: 'nowrap', opacity: oL,
+            position: 'absolute', left: p[0], top: p[1], transform: `translate(-50%, -50%) scale(${e})`, whiteSpace: 'nowrap', opacity: oL,
             fontFamily: TIPO.condensada, fontSize: 50, letterSpacing: 4, color: COLORES_GUION[l.color], textShadow: sombra,
           }}>{l.etiqueta}</div>
         );
       })}
-      {/* Remate: las dos etiquetas del cierre sobre el mapa, en acento y grandes. */}
+      {/* Remate: las dos etiquetas del cierre sobre el mapa, en acento y grandes (fondo: dejan aire sobre el subtítulo). */}
       {!soloBase && vis.remateEtiquetas.map((r, i) => {
         if (t < r.desde) return null;
-        const p = xy([r.lon, r.lat]);
+        const p = ubicar(`re-${i}`);
         if (!p) return null;
-        // Las del remate son más grandes y llevan fondo: dejan más aire sobre el subtítulo.
-        if (p[1] > SUB_DESDE - 80 && p[1] < SUB_HASTA) p[1] = SUB_DESDE - 80;
         const e = resorte(t, r.desde, { damping: 12, stiffness: 170 });
         return (
           <div key={`re-${i}`} style={{
-            position: 'absolute', left: dentroX(p[0], r.texto.length, 80, ancho), top: p[1], transform: `translate(-50%, -50%) scale(${0.7 + 0.3 * e})`, opacity: Math.min(1, e * 1.5),
+            position: 'absolute', left: p[0], top: p[1], transform: `translate(-50%, -50%) scale(${0.7 + 0.3 * e})`, opacity: Math.min(1, e * 1.5),
             whiteSpace: 'nowrap', fontFamily: TIPO.condensada, fontSize: 80, letterSpacing: 4, color: acento, textShadow: sombra,
             padding: '4px 18px 0', borderRadius: 10, background: 'rgba(8,20,34,0.55)',
           }}>{r.texto}</div>
