@@ -63,6 +63,18 @@ cuenta una historia; más de 480 no entra en un Short. Escenas: 5–9. Cada esce
   `dibujarEn` = la escena donde la voz las nombra, marcadores con el nombre del lugar. La línea punteada amarilla es "lo
   que falta / lo que fue"; la sólida celeste es "lo que es"; coral es "aquí".
 
+## 4b. Dirección visual (desde la v2, 2026-11-05) — obligatoria en cada guion
+El guion también dirige la imagen, escena por escena, con los campos de `docs/DIRECCION-VISUAL.md` (la referencia
+completa con ejemplos): `acento` (amarillo/cian/coral, distinto entre videos seguidos), `mapa.mes` (Blue Marble mensual
+según el tema), `planos[]` (un plano cada 3–6 s alternando escala: general → región → detalle; entrada corte/zoom/paneo),
+`areas[]` (territorios rayados con etiqueta; la zona clave en amarillo), `etiquetas[]` (países, regiones, ríos rotados,
+mares, pines, `contexto` en los hitos de la fórmula), `cotas[]` (distancias reales), `indice[]` (la enumeración de
+"tres cosas" con pictogramas, se queda en pantalla), `iconos[]`, `tarjetas[]` (fechas con subtítulo, cifras, barras,
+línea de tiempo, ranking), `foto`/`polaroid` (Commons con `archivo` verificado, nada de personas vivas), `clave` (la
+palabra del subtítulo en caja), `remateEtiquetas` (el remate visualizado sobre el mapa). Reglas de ritmo: un evento visual
+cada ~2 s, nada estático > 8 s, máximo 1 tarjeta y 1 foto por escena, `dice` siempre literal en el texto. Molde terminado:
+`contenido/borradores/frontera-triangulo-terrestre.v2.json`. Un guion sin dirección visual no se renderiza.
+
 ## 5. Título, descripción, hashtags
 - **Título** (≤ 70 caracteres): contradicción explícita o pregunta con cifra. Patrones que rinden: "¿Por qué X está a
   solo N km de Y?", "X le compró Y a Z… y pagó con W", "La frontera que todavía no existe", "Dos países se pelean por
