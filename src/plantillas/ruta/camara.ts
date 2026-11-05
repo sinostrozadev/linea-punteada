@@ -8,7 +8,7 @@
 import { geoDistance, geoEquirectangular, geoOrthographic, type GeoProjection } from 'd3-geo';
 import { cabezaEn, type LonLat, type Recorrido, type Trazado } from './trazado';
 import type { MapaRuta } from './guion';
-import { camaraEn as camaraPlanos, type PlanoResuelto } from '../frontera/visual';
+import { DURACION_TRANSICION, camaraEn as camaraPlanos, type PlanoResuelto } from '../frontera/visual';
 
 export type Camara = { centro: LonLat; /** escala d3 (px por radián) */ k: number; /** y en pantalla del centro de la cámara */ y: number };
 
@@ -207,4 +207,23 @@ export const camaraV2 = (v: ContextoV2, t: number): Camara => {
     return mezclar(previa, g, ease((t - t0) / D));
   }
   return g;
+};
+
+/**
+ * Cámara v2 "asentada" en t (como camaraAsentada de frontera): en una línea con planos, la del plano vigente después
+ * de su transición (o al final si la deriva aleja); en seguimiento automático, la real. La usa la anticolisión de
+ * etiquetas (CapasMapa) para que lo decidido no salte mientras la cámara vuela.
+ */
+export const camaraAsentadaV2 = (v: ContextoV2, t: number): Camara => {
+  let L = 0;
+  for (let i = 0; i < v.inicios.length; i++) if (v.inicios[i] <= t) L = i;
+  if (!v.conPlanos[L]) return camaraV2(v, t);
+  const ps = v.planos.filter((p) => p.linea === L);
+  let p = ps[0];
+  for (const q of ps) if (q.t0 <= t) p = q;
+  const fin = v.inicios[L + 1] ?? Infinity;
+  const t1 = Math.min(fin, ps[ps.indexOf(p) + 1]?.t0 ?? Infinity) - 1e-3;
+  const entrada = p === ps[0] ? 1.6 : DURACION_TRANSICION(p);
+  const tRef = p.deriva >= 0 ? Math.min(t1, Math.max(p.t0, v.inicios[L]) + entrada) : t1;
+  return camaraV2(v, Number.isFinite(tRef) ? tRef : t);
 };

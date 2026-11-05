@@ -8,12 +8,13 @@ import { estimarTiempos, planificar, type Plan, type Tiempos } from '../comun/pl
 import { FondoCapa, FondoResuelto } from '../frontera/guion';
 import { FRAMES_CIERRE_V2, T_TITULO } from '../frontera/visual';
 import { CapasMapa } from '../lugar/compartido/CapasMapa';
-import { CapasPantalla, CierreV2 } from '../lugar/compartido/CapasPantalla';
+import { CapasPantalla, CierreV2, reservasPantalla } from '../lugar/compartido/CapasPantalla';
 import { ALTO_MAPA_TITULO, TarjetaTituloBase } from '../lugar/compartido/TarjetaTituloBase';
 import { CamposRuta } from './guion';
 import { MapaRuta } from './MapaRuta';
-import { Contador } from './Contador';
-import { camaraV2 } from './camara';
+import { ALTO_CONTADOR, Contador, TOP_CONTADOR } from './Contador';
+import { geoDistance } from 'd3-geo';
+import { camaraAsentadaV2, camaraV2, proyeccionDe } from './camara';
 import { cabezaEn, type Trazado } from './trazado';
 import { contextoV2De, modeloDe, trazadoDe, visualRuta } from './modelo';
 
@@ -73,6 +74,12 @@ export const Ruta: React.FC<PropsRuta> = (props) => {
   const hayVoz = !!props.tiempos;
   const texturas = props.mapa.proyeccion === 'globo' ? props.texturasGlobo ?? [] : [];
   const W = FORMATO.ancho, H = FORMATO.alto;
+  // Anticolisión de etiquetas: cámara asentada (estable en los vuelos) + capas de encima y el contador.
+  const camRef = camaraAsentadaV2(ctxV2, t);
+  const proyRef = proyeccionDe(props.mapa, camRef, W);
+  const xyRef = (p: [number, number]) =>
+    props.mapa.proyeccion === 'globo' && geoDistance(p, camRef.centro) > Math.PI / 2 - 0.1 ? null : ((proyRef(p) as [number, number] | null) ?? null);
+  const reservas = reservasPantalla(vis, t, W, verContador > 0 ? { x0: FORMATO.seguro.lados - 10, y0: TOP_CONTADOR - 10, x1: FORMATO.seguro.lados + 520, y1: TOP_CONTADOR + ALTO_CONTADOR + 10 } : null);
 
   // Tarjeta de título: el globo con la ruta entera en fantasma, más chico y arriba.
   const general = modelo.ctx.general;
@@ -83,7 +90,7 @@ export const Ruta: React.FC<PropsRuta> = (props) => {
     <AbsoluteFill style={{ background: PALETA.fondo }}>
       <MapaRuta mapa={props.mapa} tr={tr} rec={modelo.rec} cam={cam} cabeza={cabeza} frame={frame} fondo={props.fondoMapa}
         fantasma={fantasma} franjaRotulo={null} texturas={texturas}
-        v2={{ acento, capas: (xy, camino, pxKm) => <CapasMapa vis={vis} t={t} xy={xy} camino={camino} acento={acento} ancho={W} alto={H} pxKm={pxKm} /> }} />
+        v2={{ acento, capas: (xy, camino, pxKm) => <CapasMapa vis={vis} t={t} xy={xy} camino={camino} acento={acento} ancho={W} alto={H} pxKm={pxKm} xyRef={xyRef} reservas={reservas} /> }} />
       {/* Viñeta suave (como frontera v2). */}
       <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 85% 70% at 50% 48%, rgba(0,0,0,0) 55%, rgba(4,12,22,0.45) 100%)' }} />
       {hayVoz && <Audio src={staticFile(`audio/generado/${props.id}.wav`)} volume={1} />}
