@@ -118,6 +118,25 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
   const dTierra = tierra && oCosta > 0 ? camino(tierra) ?? '' : '';
   const desfase = (t * 14) % 26; // las rayas de las máscaras se deslizan despacio: nada queda quieto
 
+  // Capas raster que de verdad se ven. Se recorren de la más fina a la más gruesa: cuando una capa opaca cubre todo
+  // el cuadro (descontando el 7 % de borde difuminado), las de debajo no se dibujan. Sin esto, a zoom 17 se
+  // componían decenas de recortes escalados ×100 con filtro y máscara: el render caía a 0,4 cuadros/s.
+  const capasVisibles = useMemo(() => {
+    const out: { f: Fondo; i: number; a: [number, number]; b: [number, number]; o: number }[] = [];
+    for (let i = fondos.length - 1; i >= 0; i--) {
+      const f = fondos[i];
+      const a = proy([f.bbox[0], f.bbox[3]]) as [number, number] | null;
+      const b = proy([f.bbox[2], f.bbox[1]]) as [number, number] | null;
+      if (!a || !b || b[0] < 0 || a[0] > ancho || b[1] < 0 || a[1] > alto) continue;
+      const o = i === 0 || f.zoom === undefined ? 1 : clamp01((cam.zoom - (f.zoom - 1.4)) / 0.8);
+      if (o <= 0) continue;
+      out.unshift({ f, i, a, b, o });
+      const mx = (b[0] - a[0]) * (i > 0 ? 0.07 : 0), my = (b[1] - a[1]) * (i > 0 ? 0.07 : 0);
+      if (o >= 1 && a[0] + mx <= 0 && a[1] + my <= 0 && b[0] - mx >= ancho && b[1] - my >= alto) break;
+    }
+    return out;
+  }, [fondos, proy, cam.zoom, ancho, alto]);
+
   const geometriaArea = (a: Visual['areas'][number]['d']): { d: string; ancho?: number } => {
     if (a.tipo === 'franja' && a.linea) {
       const pts = typeof a.linea === 'string' ? mapa.lineas.find((l) => l.id === a.linea)?.puntos : a.linea;
@@ -131,12 +150,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
 
   return (
     <div style={{ position: 'absolute', left: 0, top: 0, width: ancho, height: alto, background: MAPA.oceano, overflow: 'hidden' }}>
-      {fondos.map((f, i) => {
-        const a = proy([f.bbox[0], f.bbox[3]]);
-        const b = proy([f.bbox[2], f.bbox[1]]);
-        if (!a || !b || b[0] < 0 || a[0] > ancho || b[1] < 0 || a[1] > alto) return null;
-        const o = i === 0 || f.zoom === undefined ? 1 : clamp01((cam.zoom - (f.zoom - 1.4)) / 0.8);
-        if (o <= 0) return null;
+      {capasVisibles.map(({ f, i, a, b, o }) => {
         const detalle = /s2cloudless|Landsat/.test(f.capa);
         const borde = 'linear-gradient(to right, transparent 0, #000 7%, #000 93%, transparent 100%)';
         const bordeV = 'linear-gradient(to bottom, transparent 0, #000 7%, #000 93%, transparent 100%)';
