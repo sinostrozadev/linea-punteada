@@ -42,7 +42,7 @@ export const MapaLugar = z.object({
   /** El lugar de la historia, [lon, lat]. El mapa siempre está centrado en él. */
   punto: LonLat,
   /**
-   * Zoom tipo mapa web del mapa INSET (círculo de 500 px): 3 ≈ un continente, 5 ≈ un país, 7 ≈ una región,
+   * Zoom tipo mapa web del mapa INSET (círculo de 480 px): 3 ≈ un continente, 5 ≈ un país, 7 ≈ una región,
    * 9 ≈ una ciudad. Va de `zoomInicial` (lejos: que se vea el continente o el país vecino) a `zoomFinal` (cerca)
    * despacio durante TODO el video. El mapa a pantalla completa usa el mismo encuadre (≈ +1 de zoom).
    */

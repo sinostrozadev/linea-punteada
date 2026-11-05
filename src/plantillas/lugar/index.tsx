@@ -2,7 +2,8 @@ import React from 'react';
 import { Composition } from 'remotion';
 import { FORMATO } from '../../marca/tokens';
 import { Lugar, PropsLugar, calcularMetadataLugar } from './Lugar';
-import ejemplo from '../../../contenido/borradores/lugar-clipperton-1917.json';
+// Copia local del guion de ejemplo: el diario mueve los guiones de backlog a guiones y un import a contenido/ rompe el bundle.
+import ejemplo from './ejemplo.json';
 
 export { GuionLugar, EnvoltorioLugar } from './guion';
 

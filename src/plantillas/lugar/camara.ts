@@ -12,9 +12,9 @@ import type { EscenaLugar, MapaLugar, ModoKenBurns } from './guion';
 
 export type LonLat = [number, number];
 
-export const DIAMETRO_INSET = 500;
+export const DIAMETRO_INSET = 480;
 /** Borde superior del inset (deja el rótulo arriba y el crédito debajo, dentro de la zona segura). */
-export const INSET_TOP = 1030;
+export const INSET_TOP = 1056;
 export const OFFSET_COMPLETO = Math.log2(1080 / DIAMETRO_INSET);
 /** Fracción del alto donde queda el punto en el mapa a pantalla completa. */
 export const PUNTO_Y_COMPLETO = 0.68;

@@ -2,7 +2,7 @@
 
 La historia es un **punto** (una ciudad que no debería existir, una isla perdida, "el lugar más X del mundo"), contada
 en 2–3 minutos (Short 1080×1920, 60 fps, 110–175 s). Protagonista: **una foto grande de Wikimedia Commons con Ken
-Burns** y, encima, un **mapa inset redondo** (500 px) con el punto coral que parpadea y un zoom lento del continente al
+Burns** y, encima, un **mapa inset redondo** (480 px) con el punto coral que parpadea y un zoom lento del continente al
 punto. Las escenas pueden pasar a **mapa a pantalla completa** (`vista: 'mapa'`). Cabecera, subtítulos palabra a
 palabra, rótulos en la palabra `dice`, remate, marca de agua y cierre vienen de `src/plantillas/comun/`.
 
@@ -29,7 +29,7 @@ Lo que agrega preparar (no va en el guion): `tiempos`, `duracionFrames`, `fotoPr
 `fondosMapa[]` (`{src, bbox, capa, credito, zoom}`, del más lejano al más cercano), `creditos`.
 
 ## Cómo está armado
-- `camara.ts` (puro): zoom del inset lineal de inicial a final; el mapa grande usa el mismo encuadre (`+log2(1080/500)`)
+- `camara.ts` (puro): zoom del inset lineal de inicial a final; el mapa grande usa el mismo encuadre (`+log2(1080/480)`)
   pero **frena** para no dejar fuera los marcadores ya nombrados (`zoomCompletoEn`, con fundido de 1,6 s y una deriva
   mínima de 0,25 para que nunca quede quieto). En pantalla completa el punto va al 68 % del alto: el rótulo (centro 860)
   no lo tapa. Vistas efectivas por bloque (sin foto disponible → mapa; el remate siempre es mapa), Ken Burns por bloque,
@@ -62,4 +62,4 @@ cierre. Un islote no se ve en satélite a zoom ≤ 9: el punto coral es el lugar
 ## Fórmula de guion
 docs/GUION.md. Para `lugar`: el gancho empieza con lo que se ve en la foto ("Mira este anillo de coral…"); las escenas de
 distancias o vecinos van en `vista: 'mapa'`; 2–3 fotos propias de escena como máximo. Ejemplo:
-`contenido/borradores/lugar-clipperton-1917.json`.
+`contenido/borradores/lugar-clipperton-1917.json` (copia para Studio en `src/plantillas/lugar/ejemplo.json`).

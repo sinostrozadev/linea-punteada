@@ -122,7 +122,9 @@ export const Lugar: React.FC<PropsLugar> = (props) => {
   const vistaActual = vistas[iActual];
   // Franja del rótulo en pantalla (para atenuar etiquetas del mapa grande que caigan debajo).
   const rotuloVisible = bActual.tipo !== 'remate' && bActual.rotuloEn !== null && frame - bActual.desde >= Math.round(bActual.rotuloEn * FPS);
-  const franja: [number, number] | null = rotuloVisible ? [ROTULO_Y[vistaActual] - 200, ROTULO_Y[vistaActual] + 200] : null;
+  // En el remate, la franja es la del texto gigante (ver comun/Remate: centro 900 ± ~420).
+  const franja: [number, number] | null = bActual.tipo === 'remate' ? [ZONA.remate.centroY - 420, ZONA.remate.centroY + 420]
+    : rotuloVisible ? [ROTULO_Y[vistaActual] - 200, ROTULO_Y[vistaActual] + 200] : null;
   const aInset = alfaInset(plan, vistas, frame);
   const eInset = spring({ frame: frame - bActual.desde, fps: FPS, config: { damping: 14, stiffness: 120 } });
   const escalaInset = iActual === 0 || (iActual > 0 && vistas[iActual - 1] === 'foto') || vistaActual !== 'foto' ? 1 : 0.85 + 0.15 * eInset;

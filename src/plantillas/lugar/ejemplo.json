@@ -1,0 +1,76 @@
+{
+  "plantilla": "lugar",
+  "id": "lugar-clipperton-1917",
+  "titulo": "Los olvidaron tres años en una isla y un hombre se proclamó rey",
+  "descripcion": "Entre 1914 y 1917 México tuvo una guarnición de unas cien personas en Clipperton, un atolón perdido a 1.080 km de su costa. La Revolución cortó el barco de provisiones, llegó el escorbuto, murió el gobernador Ramón Arnaud y el farero Victoriano Álvarez se proclamó rey. El 18 de julio de 1917 la Marina de EE. UU. rescató a cuatro mujeres y siete niños. Catorce años después, un laudo del rey de Italia le dio la isla a Francia.\nLa posición del punto en el mapa es exacta; la escala del mapa es ilustrativa.",
+  "hashtags": ["#shorts", "#geografia", "#mapas", "#historia", "#mexico", "#clipperton"],
+  "props": {
+    "id": "lugar-clipperton-1917",
+    "cabecera": "CLIPPERTON — LA ISLA OLVIDADA",
+    "gancho": {
+      "texto": "Mira este anillo de coral en medio del Pacífico. Ahí vivieron unas cien personas a las que su país dejó de visitar durante tres años. ¿Cómo se olvida a cien personas?",
+      "rotulo": "Olvidados"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Clipperton es una isla de náufragos, un pedazo de coral donde solo llegan barcos perdidos. Que nadie viviría ahí por gusto. La verdad es peor.",
+        "rotulo": { "texto": "Náufragos", "dice": "náufragos" },
+        "imagen": { "buscar": "Clipperton Rock 1899", "archivo": "File:Clipperton Rock (1899).jpg" },
+        "kenBurns": "derecha"
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos cosas: una guerra lejana y un barco que dejó de venir. Y al final, la isla se perdió en un lugar que nadie esperaba.",
+        "rotulo": { "texto": "Un barco", "dice": "barco" },
+        "vista": "mapa"
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la guarnición. Hacia 1914 México tenía en Clipperton a unas cien personas: soldados, sus esposas, sus hijos y un farero. La isla está a unos 1.080 kilómetros de la costa mexicana. Todo llegaba por barco desde Acapulco.",
+        "rotulo": { "texto": "1.080 km", "dice": "kilómetros" },
+        "vista": "mapa"
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la guerra. Con la Revolución Mexicana, el barco de provisiones dejó de llegar. Sin frutas ni verduras vino el escorbuto, y la guarnición empezó a morir. En 1915 el gobernador, el capitán Ramón Arnaud, murió en el mar intentando pedir ayuda.",
+        "rotulo": { "texto": "Escorbuto", "dice": "escorbuto" },
+        "imagen": { "buscar": "Monumento a Ramón Arnaud Orizaba", "archivo": "File:Monumento a Ramón Arnaud en Orizaba.jpg", "encuadre": "arriba" }
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el rey. En la isla quedó un solo hombre adulto: el farero Victoriano Álvarez. Se proclamó rey de Clipperton y sometió con violencia a las mujeres. El 18 de julio de 1917 un barco de la Marina de Estados Unidos encontró a las sobrevivientes: cuatro mujeres y siete niños.",
+        "rotulo": { "texto": "El rey", "dice": "rey" }
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: catorce años después, México perdió la isla sin un solo disparo. Según el laudo arbitral publicado en el American Journal of International Law, en 1931 el rey de Italia, Víctor Manuel Tercero, decidió que Clipperton era de Francia.",
+        "rotulo": { "texto": "El rey de Italia", "dice": "Italia" },
+        "fuenteEnVoz": true,
+        "vista": "mapa"
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Clipperton está deshabitada. Desde el aire se ve igual que en 1917: un anillo de coral, una laguna cerrada y una roca solitaria, a más de diez mil kilómetros de París.",
+        "rotulo": { "texto": "Deshabitada", "dice": "deshabitada" },
+        "kenBurns": "alejar"
+      }
+    ],
+    "remate": "México dejó a su gente sin barco. Francia se quedó con la isla sin gente.",
+    "fuentes": [
+      { "texto": "Laudo arbitral sobre la isla de Clipperton (28-1-1931), American Journal of International Law, vol. 26, n.º 2 (1932), pp. 390–394", "url": "https://doi.org/10.2307/2189369" },
+      { "texto": "Wikipedia: Isla Clipperton (historia de la guarnición mexicana, 1914–1917)", "url": "https://es.wikipedia.org/wiki/Isla_Clipperton" }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "punto": [-109.21, 10.30],
+      "zoomInicial": 3,
+      "zoomFinal": 8,
+      "etiqueta": "CLIPPERTON",
+      "marcadores": [
+        { "lon": -99.88, "lat": 16.85, "etiqueta": "ACAPULCO", "aparecerEn": 2 }
+      ]
+    },
+    "imagenPrincipal": { "buscar": "Clipperton Island ISS", "archivo": "File:ISS008-E-7026 - View of Pacific Ocean.jpg" }
+  }
+}
