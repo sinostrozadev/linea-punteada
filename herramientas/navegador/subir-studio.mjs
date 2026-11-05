@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url';
 const B = 'http://127.0.0.1:8777';
 const BANDEJA = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..', 'salida', 'bandeja');
 const CANAL = process.env.LP_CANAL_ID;
+const NOMBRE = process.env.LP_CANAL_NOMBRE || 'Línea Punteada'; // nombre visible del canal de marca (selector "Select a channel")
 const [id, fecha, hora] = process.argv.slice(2);
 if (!id || !fecha || !hora) { console.error('uso: node subir-studio.mjs <id> <YYYY-MM-DD> <HH:MM>'); process.exit(2); }
 
@@ -41,17 +42,69 @@ const fechaStudio = `${meses[m - 1]} ${d}, ${y}`;
 const [hh, mm] = hora.split(':').map(Number);
 const horaStudio = `${((hh + 11) % 12) + 1}:${String(mm).padStart(2, '0')} ${hh < 12 ? 'AM' : 'PM'}`;
 
+// Selector de canal de marca: si Studio redirige a signin_prompt ("Select a channel"), elegir el canal objetivo por nombre y
+// verificar que de verdad estamos en él. Si no se puede comprobar, FALLA (nunca subir al canal equivocado).
+const textoPagina = async () => { const t = await llamar('/texto'); return typeof t === 'string' ? t : JSON.stringify(t); };
+const asegurarCanal = async () => {
+  await esperar(2500);
+  for (let i = 0; i < 2; i++) {
+    if (!/Select a channel/i.test(await textoPagina())) break;
+    console.log(`… YouTube pide elegir canal → "${NOMBRE}"`);
+    const r = await llamar(`/clicktexto?texto=${q(NOMBRE)}&exacto=1`);
+    if (r && r.error) fallo('no pude elegir el canal "' + NOMBRE + '": ' + r.error);
+    await esperar(5000);
+  }
+  const estado = () => evalJs(`({u:location.href,n:(document.querySelector('#entity-name, ytcp-navigation-drawer')?.innerText||'').replace(/\\n+/g,' | ')})`);
+  let e = {};
+  try {
+    e = await hasta(async () => {
+      const v = await estado();
+      return v && typeof v === 'object' && !/signin_prompt/.test(v.u) && (v.u.includes(CANAL) || v.n.includes(NOMBRE)) ? v : null;
+    }, 30000, 1500, 'verificación de canal');
+  } catch { e = await estado(); fallo('no estoy en el canal "' + NOMBRE + '" / ' + CANAL + ': ' + JSON.stringify(e).slice(0, 300)); }
+  console.log('✓ canal verificado:', (e.u || '').slice(0, 80));
+};
+const idDeFila = (extra = '') => `(()=>{const T=${JSON.stringify(meta.titulo.trim())};for(const r of document.querySelectorAll('ytcp-video-row')){const ls=r.innerText.split(String.fromCharCode(10)).map(x=>x.trim());if(!ls.includes(T)${extra})continue;const a=r.querySelector('a[href*="/video/"]');const m=a&&a.href.match(/\\/video\\/([\\w-]+)/);if(m)return m[1];}return ''})()`;
+// Abre /videos/short y devuelve el id de la fila programada/publicada con ese título ('' si no hay; los borradores no cuentan)
+const buscarEnLista = async () => {
+  await llamar(`/ir?url=${q(`https://studio.youtube.com/channel/${CANAL}/videos/short`)}`);
+  await asegurarCanal();
+  await esperar(5000);
+  return String(await evalJs(idDeFila(`||/Edit draft/.test(r.innerText)`)) || '');
+};
+const extraerId = (hrefs, t = '') => ((hrefs || []).join(' ') + ' ' + t).match(/(?:youtube\.com\/shorts\/|youtu\.be\/)([\w-]{11})/)?.[1] || '';
+const leerConfirmacion = () => evalJs(`(()=>{const ds=[...document.querySelectorAll('ytcp-uploads-dialog, ytcp-video-share-dialog, ytcp-uploads-still-processing-dialog')];return {t:ds.map(d=>d.innerText).join(' ').replace(/\\n+/g,' | '),h:ds.flatMap(d=>[...d.querySelectorAll('a')].map(a=>a.href))}})()`);
+const marcar = (videoId, extra = {}) => {
+  meta.estado = 'subido';
+  meta.publicarEn = meta.publicarEn || `${fecha}T${hora}:00-03:00`;
+  meta.videoId = videoId;
+  meta.url = `https://youtube.com/shorts/${videoId}`;
+  meta.programado = `${fecha} ${hora}`;
+  meta.subidoEn = new Date().toISOString();
+  Object.assign(meta, extra);
+  fs.writeFileSync(`${BANDEJA}/${id}.json`, JSON.stringify(meta, null, 2) + '\n');
+};
+
 console.log(`→ ${id} · ${fechaStudio} ${horaStudio} · ${categoria}`);
 
 // 1. Abrir diálogo de subida y cargar el archivo (o retomar un borrador ya subido con BORRADOR=1)
 if (process.env.BORRADOR === '1') {
   await llamar(`/ir?url=${q(`https://studio.youtube.com/channel/${CANAL}/videos/short`)}`);
+  await asegurarCanal();
   await hasta(() => evalJs(`Array.from(document.querySelectorAll('ytcp-video-row')).some(r=>/Edit draft/.test(r.innerText))`), 90000, 2000, 'fila del borrador');
   const fila = await evalJs(`Array.from(document.querySelectorAll('ytcp-video-row')).filter(r=>/Edit draft/.test(r.innerText)).map(r=>r.innerText.split(String.fromCharCode(10))[1]||r.innerText.slice(0,60))`);
   if (!Array.isArray(fila) || fila.length !== 1 || !fila[0].replace(/\s/g,'-').includes(id)) fallo('borrador inesperado: ' + JSON.stringify(fila));
   await llamar(`/clicktexto?texto=${q('Edit draft')}&exacto=1`);
 } else {
+  // Anti-duplicados: si ya hay una fila con este título (fallo a medias), no volver a subir.
+  const previo = await buscarEnLista();
+  if (previo) {
+    marcar(previo, { nota: 'ya existía en Studio; marcado sin re-subir' });
+    console.log(`✓ ${id} ya estaba en Studio → https://youtube.com/shorts/${previo} (bandeja marcada, sin re-subir)`);
+    process.exit(0);
+  }
   await llamar(`/ir?url=${q(`https://studio.youtube.com/channel/${CANAL}/videos/upload?d=ud`)}`);
+  await asegurarCanal();
   await hasta(() => evalJs(`document.querySelectorAll('input[type=file]').length>0`), 30000, 1000, 'input de archivo');
   await esperar(1500);
   const sub = await llamar(`/archivo?sel=${q('input[type=file]')}&ruta=${q(archivo)}`);
@@ -126,16 +179,32 @@ if (!vis.includes(fechaStudio) || !vis.includes(horaStudio) || !vis.includes('GM
 await hasta(async () => /Checks complete|Upload complete|Processing/.test(await textoDialogo()), 120000, 2000, 'subida completa');
 await hasta(() => evalJs(`(()=>{const b=document.querySelector('ytcp-uploads-dialog #done-button');return !!b && !b.hasAttribute('disabled')})()`), 60000, 1000, 'botón Schedule');
 await llamar(`/click?sel=${q('ytcp-uploads-dialog #done-button')}`);
-const conf = await hasta(() => evalJs(`(()=>{const d=document.querySelector('ytcp-video-share-dialog, ytcp-uploads-still-processing-dialog');const t=d?d.innerText:'';return /Video scheduled|will be set to public/.test(t)?t.replace(/\\n+/g,' | '):''})()`), 60000, 1000, 'confirmación');
-const link = (conf.match(/https:\/\/youtube\.com\/shorts\/[\w-]+/) || [])[0];
-if (!link) fallo('sin link en confirmación: ' + conf.slice(0, 300));
-await llamar(`/clicktexto?texto=Close&exacto=1`);
-await esperar(1000);
+await hasta(async () => { const c = await leerConfirmacion(); return c && /Video scheduled|will be set to public|Video processing|Video link/.test(c.t); }, 60000, 1000, 'confirmación');
+let c = await leerConfirmacion();
+let videoId = extraerId(c.h, c.t);
+if (!videoId) {
+  console.log('… sin link aún; esperando a que termine el procesamiento (hasta 3 min)');
+  try {
+    await hasta(async () => {
+      c = await leerConfirmacion();
+      videoId = extraerId(c.h, c.t);
+      return videoId || !/Video processing/.test(c.t) || /Video link/.test(c.t);
+    }, 180000, 3000, 'fin de procesamiento');
+  } catch (e) { console.log('… ' + e.message); }
+  c = await leerConfirmacion(); videoId = videoId || extraerId(c.h, c.t);
+}
+const cerrar = async () => {
+  const r = await llamar(`/click?sel=${q('ytcp-uploads-dialog ytcp-button:has-text("Close") >> visible=true')}`);
+  if (r && r.error) await llamar(`/clicktexto?texto=Close&exacto=1`);
+  await esperar(1500);
+};
+await cerrar();
+if (!videoId) {
+  console.log('… último recurso: buscar la fila en /videos/short');
+  videoId = await hasta(async () => (await buscarEnLista()) || null, 120000, 5000, 'fila del video en la lista').catch(() => '');
+}
+if (!videoId) fallo('video programado pero sin id (bandeja NO marcada): ' + (c.t || '').slice(0, 300));
 
-// 8. Marcar en la bandeja
-meta.estado = 'subido';
-meta.publicarEn = `${fecha}T${hora}:00-03:00`;
-meta.videoId = (link.match(/shorts\/([\w-]+)/) || [])[1];
-meta.subidoEn = new Date().toISOString();
-fs.writeFileSync(`${BANDEJA}/${id}.json`, JSON.stringify(meta, null, 2) + '\n');
-console.log(`✓ ${id} → ${link} · ${fecha} ${hora}`);
+// 8. Marcar en la bandeja (solo con id)
+marcar(videoId);
+console.log(`✓ ${id} → https://youtube.com/shorts/${videoId} · ${fecha} ${hora}`);
