@@ -25,7 +25,10 @@ Desde la v2 `ruta` comparte la dirección visual de frontera (docs/DIRECCION-VIS
   `contexto`, `indice`, `polaroid`, `foto`, `fuente`, `remateEtiquetas`; el contador sigue (con el color de `acento`).
   Una `imagen` v1 de escena se muestra como polaroid.
 - La cabeza va en y 840 (encima de los subtítulos, franja 1080–1310); la vista general en y 900.
-- Ejemplo v2: `contenido/borradores/ruta-bushby.v2.json` (= `ejemplo.json`). Prueba: `salida/pruebas/ruta-v2-bushby.mp4`.
+- **Anticolisión de etiquetas** con `comun/colisiones.ts` (vía `CapasMapa`, como `lugar`): referencia = cámara
+  asentada del plano (`camaraAsentadaV2`; en seguimiento automático, la real); el contador es una reserva más.
+- Ejemplo v2: `contenido/borradores/ruta-bushby.v2.json` (= `ejemplo.json`). Pruebas por tramos a 0,25:
+  `salida/pruebas/ruta-v2-a.mp4` (0–30 s) y `ruta-v2-b.mp4` (57–90 s: Bering y Caspio), hojas `ruta-v2-{a,b}-hoja.jpg`.
 
 ## Flujo
 ```bash
