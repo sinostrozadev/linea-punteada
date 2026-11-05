@@ -247,7 +247,8 @@ export const CierreLinea: React.FC<{ frame: number; acento: string }> = ({ frame
   const avance = interpolate(frame, [0, 30], [0, 1], { extrapolateRight: 'clamp', easing: (x) => 1 - Math.pow(1 - x, 2) });
   const velo = interpolate(frame, [0, 12], [0, 0.55], { extrapolateRight: 'clamp' });
   const e = spring({ frame: frame - 6, fps: FPS, config: { damping: 14, stiffness: 180 } });
-  const x0 = 120, x1 = FORMATO.ancho - 120, y = 1010;
+  // Tercio inferior: arriba quedan las etiquetas del remate sobre el mapa (no se pisan).
+  const x0 = 120, x1 = FORMATO.ancho - 120, y = 1430;
   const xf = x0 + (x1 - x0) * avance;
   return (
     <div style={{ position: 'absolute', inset: 0, background: fondoAlfa(velo) }}>
