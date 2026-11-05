@@ -1,0 +1,1413 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-05-frontera-rivera-livramento",
+  "titulo": "¿Por qué en esta plaza cambias de país sin mostrar un solo papel?",
+  "descripcion": "Rivera, en Uruguay, y Santana do Livramento, en Brasil, son dos ciudades pegadas por una frontera de tierra seca. En 1943 se inauguró sobre la línea un parque mitad de cada país, con un obelisco que marca el límite y sin reja ni control. Un acuerdo de 2002 permite a los vecinos de la frontera vivir, estudiar y trabajar del otro lado, y la ley de educación uruguaya de 2008 nombra al portugués del Uruguay entre las lenguas maternas del país.\n\nFuentes:\n- Ley 18.437 (Uruguay): https://www.impo.com.uy/bases/leyes/18437-2008\n- Ley 17.659 (Uruguay): https://uruguay.justia.com/nacionales/leyes/ley-17659-jun-19-2003/gdoc\n- Frontera de la Paz: https://en.wikipedia.org/wiki/Peace_Border\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#uruguay",
+    "#brasil"
+  ],
+  "props": {
+    "id": "2026-11-05-frontera-rivera-livramento",
+    "gancho": {
+      "texto": "Mira la frontera entre Uruguay y Brasil. Cientos de kilómetros de campo y de ríos. Y de pronto la línea entra a una ciudad y cruza una plaza. ¿Qué hace una frontera en un parque?",
+      "rotulo": "UNA PLAZA",
+      "planos": [
+        {
+          "centro": [
+            -55.5,
+            -31.6
+          ],
+          "zoom": 6.5,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -55.538,
+            -30.897
+          ],
+          "zoom": 13.0,
+          "entrada": "zoom",
+          "en": "ciudad",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -55.5352,
+            -30.8963
+          ],
+          "zoom": 15.6,
+          "entrada": "zoom",
+          "en": "plaza",
+          "deriva": 0.25
+        },
+        {
+          "centro": [
+            -55.5351,
+            -30.8963
+          ],
+          "zoom": 17.0,
+          "entrada": "corte",
+          "en": "parque",
+          "deriva": 0.2
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Uruguay",
+          "color": "verde",
+          "etiqueta": "URUGUAY",
+          "etiquetaEn": [
+            -56.0,
+            -32.7
+          ],
+          "aparecerEn": "Uruguay",
+          "desaparecerEn": "ciudad"
+        },
+        {
+          "pais": "Brazil",
+          "color": "rojo",
+          "etiqueta": "BRASIL",
+          "etiquetaEn": [
+            -54.2,
+            -29.9
+          ],
+          "aparecerEn": "Brasil",
+          "desaparecerEn": "ciudad"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -56.75,
+          "lat": -30.3,
+          "texto": "RÍO CUAREIM",
+          "tipo": "rio",
+          "rotacion": 31,
+          "aparecerEn": "ríos",
+          "desaparecerEn": "ciudad"
+        },
+        {
+          "lon": -53.55,
+          "lat": -32.35,
+          "texto": "RÍO YAGUARÓN",
+          "tipo": "rio",
+          "rotacion": -55,
+          "aparecerEn": "ríos",
+          "desaparecerEn": "ciudad"
+        },
+        {
+          "lon": -54.6,
+          "lat": -32.4,
+          "texto": "CAMPO",
+          "tipo": "region",
+          "aparecerEn": "campo",
+          "desaparecerEn": "ciudad"
+        },
+        {
+          "lon": -55.5408,
+          "lat": -30.9001,
+          "texto": "RIVERA",
+          "tipo": "pin",
+          "aparecerEn": "ciudad",
+          "desaparecerEn": "plaza"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "2 PAÍSES",
+          "sub": "UNA SOLA PLAZA",
+          "icono": "bandera",
+          "aparecerEn": "plaza",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿UNA FRONTERA EN UN PARQUE?",
+        "dice": "parque"
+      },
+      "clave": [
+        "Uruguay",
+        "Brasil",
+        "ríos",
+        "ciudad",
+        "plaza",
+        "parque"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que en toda frontera hay algo que te frena: un muro, un río, una barrera con un guardia que pide papeles. Aquí no hay nada de eso. La verdad es más simple.",
+        "planos": [
+          {
+            "centro": [
+              -55.536,
+              -30.897
+            ],
+            "zoom": 14.2,
+            "entrada": "corte",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -55.5352,
+              -30.8963
+            ],
+            "zoom": 16.6,
+            "entrada": "corte",
+            "en": "muro",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -55.5351,
+              -30.8963
+            ],
+            "zoom": 17.0,
+            "entrada": "zoom",
+            "en": "Aquí",
+            "deriva": -0.3
+          },
+          {
+            "centro": [
+              -55.538,
+              -30.898
+            ],
+            "zoom": 14.8,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -55.5362,
+            "lat": -30.8958,
+            "icono": "🧱",
+            "escala": 0.9,
+            "aparecerEn": "muro",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -55.5352,
+            "lat": -30.8966,
+            "icono": "🌊",
+            "escala": 0.9,
+            "aparecerEn": "río",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -55.5342,
+            "lat": -30.896,
+            "icono": "🚧",
+            "escala": 0.9,
+            "aparecerEn": "barrera",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -55.5362,
+            "lat": -30.8958,
+            "icono": "🧱",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "nada"
+          },
+          {
+            "lon": -55.5352,
+            "lat": -30.8966,
+            "icono": "🛂",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "nada"
+          },
+          {
+            "lon": -55.5342,
+            "lat": -30.896,
+            "icono": "🚧",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "nada"
+          }
+        ],
+        "foto": {
+          "buscar": "Praca Internacional Livramento",
+          "archivo": "File:Praça Internacional - panoramio (4).jpg",
+          "pie": "PLAZA INTERNACIONAL · RIVERA–LIVRAMENTO",
+          "aparecerEn": "verdad",
+          "duracionSeg": 2.4
+        },
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS SIMPLE",
+          "dice": "verdad"
+        },
+        "clave": [
+          "muro",
+          "río",
+          "barrera",
+          "papeles",
+          "nada",
+          "simple"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una línea sin agua, una plaza y unos papeles. Y al final, algo que ninguno de los dos gobiernos planeó.",
+        "planos": [
+          {
+            "centro": [
+              -55.536,
+              -30.897
+            ],
+            "zoom": 13.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.54,
+              -30.894
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "línea",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -55.5352,
+              -30.8963
+            ],
+            "zoom": 16.6,
+            "entrada": "corte",
+            "en": "plaza",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -55.538,
+              -30.899
+            ],
+            "zoom": 14.4,
+            "entrada": "zoom",
+            "en": "papeles",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.6,
+              -30.98
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "gobiernos",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🏜️",
+            "texto": "LÍNEA SECA",
+            "dice": "línea"
+          },
+          {
+            "icono": "🌳",
+            "texto": "PLAZA",
+            "dice": "plaza"
+          },
+          {
+            "icono": "📄",
+            "texto": "PAPELES",
+            "dice": "papeles"
+          }
+        ],
+        "indicePosicion": "vertical-mapa",
+        "indiceAncla": [
+          -55.527,
+          -30.89
+        ],
+        "iconos": [
+          {
+            "lon": -55.55,
+            "lat": -30.95,
+            "icono": "❓",
+            "escala": 1.2,
+            "aparecerEn": "planeó"
+          }
+        ],
+        "clave": [
+          "tres",
+          "línea",
+          "agua",
+          "plaza",
+          "papeles",
+          "planeó"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la línea. En este tramo la frontera entre Uruguay y Brasil no sigue un río: corre por tierra seca. Y cuando no hay agua de por medio, una ciudad puede crecer a un lado y otra pegada al otro. Así crecieron Rivera, en Uruguay, y Santana do Livramento, en Brasil.",
+        "planos": [
+          {
+            "centro": [
+              -55.75,
+              -30.97
+            ],
+            "zoom": 9.0,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.8,
+              -30.98
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "en": "seca",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.537,
+              -30.897
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "en": "ciudad",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.539,
+              -30.898
+            ],
+            "zoom": 14.0,
+            "entrada": "corte",
+            "en": "Rivera",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -55.533,
+              -30.892
+            ],
+            "zoom": 14.0,
+            "entrada": "paneo",
+            "en": "Santana",
+            "deriva": 0.25
+          }
+        ],
+        "areas": [
+          {
+            "tipo": "franja",
+            "linea": [
+              [
+                -56.022,
+                -31.046
+              ],
+              [
+                -55.889,
+                -31.078
+              ],
+              [
+                -55.831,
+                -31.052
+              ],
+              [
+                -55.712,
+                -30.943
+              ],
+              [
+                -55.651,
+                -30.862
+              ],
+              [
+                -55.5365,
+                -30.8955
+              ]
+            ],
+            "anchoKm": 6,
+            "color": "amarillo",
+            "etiqueta": "TIERRA SECA",
+            "etiquetaEn": [
+              -55.8,
+              -30.93
+            ],
+            "aparecerEn": "seca",
+            "desaparecerEn": "ciudad"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -55.983,
+              -31.083
+            ],
+            "hasta": [
+              -55.5352,
+              -30.8963
+            ],
+            "texto": "47 KM SECOS",
+            "aparecerEn": "seca",
+            "desaparecerEn": "ciudad"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.75,
+            "lat": -30.3,
+            "texto": "RÍO CUAREIM",
+            "tipo": "rio",
+            "rotacion": 31,
+            "aparecerEn": "río",
+            "desaparecerEn": "seca"
+          },
+          {
+            "lon": -55.983,
+            "lat": -31.083,
+            "texto": "MASOLLER",
+            "tipo": "pin",
+            "aparecerEn": "seca",
+            "desaparecerEn": "ciudad"
+          },
+          {
+            "lon": -55.5408,
+            "lat": -30.9001,
+            "texto": "RIVERA · UY",
+            "tipo": "pin",
+            "aparecerEn": "Rivera",
+            "quedarse": 1
+          },
+          {
+            "lon": -55.5318,
+            "lat": -30.8894,
+            "texto": "LIVRAMENTO · BR",
+            "tipo": "pin",
+            "aparecerEn": "Santana",
+            "quedarse": 1
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -55.545,
+            "lat": -30.905,
+            "icono": "🏘️",
+            "escala": 0.9,
+            "aparecerEn": "lado"
+          },
+          {
+            "lon": -55.527,
+            "lat": -30.887,
+            "icono": "🏘️",
+            "escala": 0.9,
+            "aparecerEn": "pegada"
+          }
+        ],
+        "contexto": {
+          "texto": "SIN RÍO DE POR MEDIO",
+          "dice": "agua"
+        },
+        "clave": [
+          "río",
+          "seca",
+          "agua",
+          "Rivera",
+          "Santana",
+          "Livramento"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la plaza. En 1943 los presidentes Getúlio Vargas y Alfredo Baldomir inauguran un parque justo encima de la línea, mitad de cada país. En el medio, un obelisco marca el punto: de un lado Brasil, del otro Uruguay. No hay reja ni garita.",
+        "planos": [
+          {
+            "centro": [
+              -55.538,
+              -30.898
+            ],
+            "zoom": 13.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.5352,
+              -30.8963
+            ],
+            "zoom": 15.8,
+            "entrada": "zoom",
+            "en": "Vargas",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.5352,
+              -30.8963
+            ],
+            "zoom": 16.8,
+            "entrada": "zoom",
+            "en": "parque",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.5351,
+              -30.8963
+            ],
+            "zoom": 17.0,
+            "entrada": "corte",
+            "en": "obelisco",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.5345,
+              -30.8958
+            ],
+            "zoom": 17.0,
+            "entrada": "paneo",
+            "en": "Brasil",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.5355,
+              -30.8966
+            ],
+            "zoom": 16.6,
+            "entrada": "corte",
+            "en": "reja",
+            "deriva": 0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1943",
+            "sub": "LA PLAZA",
+            "icono": "bandera",
+            "aparecerEn": "1943",
+            "duracionSeg": 2.4
+          }
+        ],
+        "polaroid": {
+          "buscar": "Getulio Vargas retrato oficial",
+          "archivo": "File:Getúlio Vargas - retrato oficial de 1930.JPG",
+          "pie": "Getúlio Vargas, presidente de Brasil · retrato oficial",
+          "anio": "1943",
+          "lado": "izquierda",
+          "aparecerEn": "Vargas",
+          "duracionSeg": 3.0
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                -55.5368,
+                -30.8953
+              ],
+              [
+                -55.5336,
+                -30.8973
+              ],
+              [
+                -55.5345,
+                -30.8977
+              ],
+              [
+                -55.5368,
+                -30.897
+              ]
+            ],
+            "color": "verde",
+            "aparecerEn": "mitad",
+            "quedarse": 1
+          },
+          {
+            "poligono": [
+              [
+                -55.5368,
+                -30.8953
+              ],
+              [
+                -55.5357,
+                -30.895
+              ],
+              [
+                -55.5334,
+                -30.8957
+              ],
+              [
+                -55.5336,
+                -30.8973
+              ]
+            ],
+            "color": "rojo",
+            "aparecerEn": "mitad",
+            "quedarse": 1
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -55.5352,
+            "lat": -30.8949,
+            "texto": "BRASIL",
+            "tipo": "region",
+            "aparecerEn": "Brasil"
+          },
+          {
+            "lon": -55.5357,
+            "lat": -30.8972,
+            "texto": "URUGUAY",
+            "tipo": "region",
+            "aparecerEn": "Uruguay"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -55.5351,
+            "lat": -30.8963,
+            "radio": 70,
+            "aparecerEn": "punto"
+          }
+        ],
+        "foto": {
+          "buscar": "Plaza Internacional Rivera",
+          "archivo": "File:Plaza Internacional.jpg",
+          "pie": "PLAZA INTERNACIONAL · EL OBELISCO",
+          "aparecerEn": "obelisco",
+          "duracionSeg": 2.4
+        },
+        "iconos": [
+          {
+            "lon": -55.5362,
+            "lat": -30.8958,
+            "icono": "🚧",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "reja"
+          },
+          {
+            "lon": -55.5342,
+            "lat": -30.8968,
+            "icono": "🛂",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "garita"
+          }
+        ],
+        "contexto": {
+          "texto": "MITAD Y MITAD",
+          "dice": "mitad"
+        },
+        "clave": [
+          "1943",
+          "Vargas",
+          "Baldomir",
+          "mitad",
+          "obelisco",
+          "garita"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, los papeles. En 2002 Uruguay y Brasil firman un acuerdo para los vecinos de la frontera. Según la ley uruguaya que lo aprobó, un brasileño de Livramento puede pedir un documento especial para vivir, estudiar y trabajar en Rivera. Y un uruguayo de Rivera, lo mismo del otro lado.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -55.536,
+              -30.897
+            ],
+            "zoom": 13.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.55,
+              -30.9
+            ],
+            "zoom": 12.6,
+            "entrada": "zoom",
+            "en": "vecinos",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.5318,
+              -30.8894
+            ],
+            "zoom": 14.4,
+            "entrada": "corte",
+            "en": "Livramento",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -55.5408,
+              -30.9001
+            ],
+            "zoom": 14.4,
+            "entrada": "paneo",
+            "en": "Rivera",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -55.5408,
+              -30.9001
+            ],
+            "zoom": 14.8,
+            "entrada": "corte",
+            "en": "uruguayo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.5318,
+              -30.8894
+            ],
+            "zoom": 14.4,
+            "entrada": "paneo",
+            "en": "lado",
+            "deriva": 0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2002",
+            "sub": "ACUERDO PARA VECINOS DE FRONTERA",
+            "icono": "tratado",
+            "aparecerEn": "2002",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "Ley 17.659 (Uruguay, 2003) · acuerdo de 2002",
+          "dice": "Según"
+        },
+        "etiquetas": [
+          {
+            "lon": -55.5318,
+            "lat": -30.8894,
+            "texto": "LIVRAMENTO · BR",
+            "tipo": "pin",
+            "aparecerEn": "Livramento"
+          },
+          {
+            "lon": -55.5408,
+            "lat": -30.9001,
+            "texto": "RIVERA · UY",
+            "tipo": "pin",
+            "aparecerEn": "Livramento"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -55.5318,
+            "lat": -30.8894,
+            "icono": "📄",
+            "ruta": [
+              [
+                -55.5318,
+                -30.8894
+              ],
+              [
+                -55.5408,
+                -30.9001
+              ]
+            ],
+            "duracionSeg": 1.8,
+            "escala": 1.0,
+            "aparecerEn": "documento",
+            "desaparecerEn": "uruguayo"
+          },
+          {
+            "lon": -55.544799999999995,
+            "lat": -30.8981,
+            "icono": "🏠",
+            "escala": 0.8,
+            "aparecerEn": "vivir",
+            "desaparecerEn": "uruguayo"
+          },
+          {
+            "lon": -55.5408,
+            "lat": -30.9031,
+            "icono": "🎓",
+            "escala": 0.8,
+            "aparecerEn": "estudiar",
+            "desaparecerEn": "uruguayo"
+          },
+          {
+            "lon": -55.5368,
+            "lat": -30.899099999999997,
+            "icono": "💼",
+            "escala": 0.8,
+            "aparecerEn": "trabajar",
+            "desaparecerEn": "uruguayo"
+          },
+          {
+            "lon": -55.5408,
+            "lat": -30.9001,
+            "icono": "📄",
+            "ruta": [
+              [
+                -55.5408,
+                -30.9001
+              ],
+              [
+                -55.5318,
+                -30.8894
+              ]
+            ],
+            "duracionSeg": 1.8,
+            "escala": 1.0,
+            "aparecerEn": "mismo"
+          }
+        ],
+        "contexto": {
+          "texto": "DOCUMENTO FRONTERIZO",
+          "dice": "documento"
+        },
+        "clave": [
+          "2002",
+          "vecinos",
+          "Livramento",
+          "documento",
+          "Rivera"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: de tanto cruzar, la frontera se metió en el idioma. Mucha gente lo llama portuñol. La Ley General de Educación de Uruguay, de 2008, lo nombra de otra manera: portugués del Uruguay. Y lo pone entre las lenguas maternas del país, junto al español.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -55.5352,
+              -30.8963
+            ],
+            "zoom": 15.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.538,
+              -30.897
+            ],
+            "zoom": 13.4,
+            "entrada": "zoom",
+            "en": "idioma",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.0,
+              -32.5
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "en": "Ley",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.3,
+              -31.3
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "en": "portugués",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.0,
+              -32.6
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "español",
+            "deriva": 0.3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "iconos": [
+          {
+            "lon": -55.536,
+            "lat": -30.894,
+            "icono": "💬",
+            "escala": 1.2,
+            "aparecerEn": "idioma",
+            "desaparecerEn": "Ley"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -55.533,
+            "lat": -30.8915,
+            "texto": "PORTUÑOL",
+            "tipo": "region",
+            "aparecerEn": "portuñol",
+            "desaparecerEn": "Ley"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2008",
+            "sub": "LEY GENERAL DE EDUCACIÓN",
+            "icono": "📚",
+            "aparecerEn": "2008",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "Ley 18.437, Ley General de Educación (Uruguay), art. 40",
+          "dice": "Ley"
+        },
+        "areas": [
+          {
+            "pais": "Uruguay",
+            "color": "verde",
+            "etiqueta": "URUGUAY",
+            "etiquetaEn": [
+              -56.0,
+              -32.9
+            ],
+            "aparecerEn": "Uruguay",
+            "desaparecerEn": "portugués"
+          },
+          {
+            "tipo": "franja",
+            "linea": [
+              [
+                -57.512,
+                -30.277
+              ],
+              [
+                -57.131,
+                -30.151
+              ],
+              [
+                -56.832,
+                -30.102
+              ],
+              [
+                -56.562,
+                -30.321
+              ],
+              [
+                -56.216,
+                -30.581
+              ],
+              [
+                -55.997,
+                -30.826
+              ],
+              [
+                -56.022,
+                -31.046
+              ],
+              [
+                -55.831,
+                -31.052
+              ],
+              [
+                -55.651,
+                -30.862
+              ],
+              [
+                -55.511,
+                -30.905
+              ],
+              [
+                -55.259,
+                -31.228
+              ],
+              [
+                -55.01,
+                -31.287
+              ],
+              [
+                -54.604,
+                -31.459
+              ],
+              [
+                -54.402,
+                -31.714
+              ],
+              [
+                -54.049,
+                -31.887
+              ],
+              [
+                -53.758,
+                -32.055
+              ],
+              [
+                -53.581,
+                -32.425
+              ],
+              [
+                -53.12,
+                -32.707
+              ],
+              [
+                -53.326,
+                -32.974
+              ],
+              [
+                -53.534,
+                -33.244
+              ],
+              [
+                -53.38,
+                -33.741
+              ]
+            ],
+            "anchoKm": 40,
+            "color": "amarillo",
+            "etiqueta": "PORTUGUÉS DEL URUGUAY",
+            "etiquetaEn": [
+              -55.0,
+              -31.6
+            ],
+            "aparecerEn": "portugués"
+          }
+        ],
+        "clave": [
+          "giro",
+          "idioma",
+          "portuñol",
+          "2008",
+          "portugués",
+          "español"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy alguien puede salir de su casa en Rivera, atravesar la plaza para comprar pan en Livramento y volver sin mostrar un solo papel. Cambió de país dos veces antes del desayuno. El único aviso es un obelisco en medio del pasto.",
+        "planos": [
+          {
+            "centro": [
+              -55.538,
+              -30.898
+            ],
+            "zoom": 15.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.5352,
+              -30.8963
+            ],
+            "zoom": 16.8,
+            "entrada": "zoom",
+            "en": "plaza",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.534,
+              -30.8955
+            ],
+            "zoom": 16.6,
+            "entrada": "paneo",
+            "en": "Livramento",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.5362,
+              -30.897
+            ],
+            "zoom": 16.6,
+            "entrada": "paneo",
+            "en": "volver",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -55.5351,
+              -30.8963
+            ],
+            "zoom": 17.0,
+            "entrada": "zoom",
+            "en": "obelisco",
+            "deriva": 0.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -55.5372,
+            "lat": -30.8978,
+            "icono": "🚶",
+            "ruta": [
+              [
+                -55.5372,
+                -30.8978
+              ],
+              [
+                -55.5351,
+                -30.8963
+              ],
+              [
+                -55.5338,
+                -30.895
+              ]
+            ],
+            "duracionSeg": 3.0,
+            "escala": 1.0,
+            "aparecerEn": "salir",
+            "desaparecerEn": "volver"
+          },
+          {
+            "lon": -55.5336,
+            "lat": -30.8948,
+            "icono": "🥖",
+            "escala": 0.9,
+            "aparecerEn": "pan",
+            "desaparecerEn": "volver"
+          },
+          {
+            "lon": -55.5338,
+            "lat": -30.895,
+            "icono": "🚶",
+            "ruta": [
+              [
+                -55.5338,
+                -30.895
+              ],
+              [
+                -55.5351,
+                -30.8963
+              ],
+              [
+                -55.5372,
+                -30.8978
+              ]
+            ],
+            "duracionSeg": 2.5,
+            "escala": 1.0,
+            "aparecerEn": "volver"
+          },
+          {
+            "lon": -55.5345,
+            "lat": -30.897,
+            "icono": "🛂",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "papel"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -55.5365,
+            "lat": -30.8976,
+            "texto": "URUGUAY",
+            "tipo": "region",
+            "aparecerEn": "Rivera"
+          },
+          {
+            "lon": -55.534,
+            "lat": -30.895,
+            "texto": "BRASIL",
+            "tipo": "region",
+            "aparecerEn": "Livramento"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 VECES",
+            "sub": "DE PAÍS ANTES DEL DESAYUNO",
+            "icono": "☕",
+            "aparecerEn": "dos",
+            "duracionSeg": 2.8
+          }
+        ],
+        "polaroid": {
+          "buscar": "Obelisco Plaza Internacional Rivera",
+          "archivo": "File:Obelisco - Plaza Internacional - Frontera de la Paz - Livramento - Rivera.jpeg",
+          "pie": "El obelisco de la Plaza Internacional",
+          "lado": "derecha",
+          "aparecerEn": "obelisco",
+          "duracionSeg": 3.2
+        },
+        "contexto": {
+          "texto": "SIN MOSTRAR PAPELES",
+          "dice": "papel"
+        },
+        "clave": [
+          "Rivera",
+          "plaza",
+          "Livramento",
+          "papel",
+          "dos",
+          "obelisco"
+        ]
+      }
+    ],
+    "remate": "En el mapa es una frontera. En la plaza es un paseo.",
+    "fuentes": [
+      {
+        "texto": "Ley 18.437, Ley General de Educación de Uruguay (2008), art. 40",
+        "url": "https://www.impo.com.uy/bases/leyes/18437-2008"
+      },
+      {
+        "texto": "Ley 17.659 (Uruguay, 2003): aprueba el Acuerdo sobre residencia, estudio y trabajo de nacionales fronterizos uruguayos y brasileños (2002)",
+        "url": "https://uruguay.justia.com/nacionales/leyes/ley-17659-jun-19-2003/gdoc"
+      },
+      {
+        "texto": "Wikipedia: Peace Border (Praça Internacional, 1943)",
+        "url": "https://en.wikipedia.org/wiki/Peace_Border"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -55.536,
+        -30.896
+      ],
+      "zoomInicial": 8.5,
+      "zoomFinal": 14.5,
+      "lineas": [
+        {
+          "id": "frontera-regional",
+          "fronteraEntre": [
+            "Uruguay",
+            "Brazil"
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "frontera"
+        },
+        {
+          "id": "frontera-ciudad",
+          "puntos": [
+            [
+              -55.5589,
+              -30.8703
+            ],
+            [
+              -55.5524,
+              -30.8789
+            ],
+            [
+              -55.5476,
+              -30.8879
+            ],
+            [
+              -55.5431,
+              -30.8922
+            ],
+            [
+              -55.5397,
+              -30.8944
+            ],
+            [
+              -55.5365,
+              -30.8955
+            ],
+            [
+              -55.5336,
+              -30.8973
+            ],
+            [
+              -55.5334,
+              -30.9001
+            ],
+            [
+              -55.5291,
+              -30.8993
+            ],
+            [
+              -55.5221,
+              -30.8987
+            ],
+            [
+              -55.5129,
+              -30.9004
+            ],
+            [
+              -55.5089,
+              -30.9032
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "línea",
+          "etiqueta": "LA FRONTERA"
+        }
+      ]
+    },
+    "acento": "amarillo",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUÉ PAÍS ES ESTA PLAZA?",
+      "clave": "PLAZA",
+      "paises": [
+        "Uruguay",
+        "Brazil"
+      ],
+      "centro": [
+        -55.6,
+        -31.4
+      ],
+      "zoom": 5.3,
+      "pines": [
+        {
+          "lon": -55.5352,
+          "lat": -30.8963,
+          "texto": "PLAZA INTERNACIONAL"
+        }
+      ],
+      "icono": "🌳"
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -55.5344,
+        "lat": -30.8955,
+        "texto": "EN EL MAPA: FRONTERA"
+      },
+      {
+        "lon": -55.536,
+        "lat": -30.897,
+        "texto": "EN LA PLAZA: PASEO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -55.5352,
+          -30.8963
+        ],
+        "zoom": 16.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -55.5351,
+          -30.8963
+        ],
+        "zoom": 17.0,
+        "entrada": "corte",
+        "en": "plaza",
+        "deriva": 0.2
+      }
+    ],
+    "cabecera": "RIVERA — LA PLAZA DE DOS PAÍSES"
+  }
+}

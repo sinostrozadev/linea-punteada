@@ -1,0 +1,755 @@
+{
+  "plantilla": "lugar",
+  "id": "lugar-clipperton-1917",
+  "titulo": "Los olvidaron tres años en una isla y un hombre se proclamó rey",
+  "descripcion": "Entre 1914 y 1917 México tuvo una guarnición de unas cien personas en Clipperton, un atolón perdido a 1.080 km de su costa. La Revolución cortó el barco de provisiones, llegó el escorbuto, murió el gobernador Ramón Arnaud y el farero Victoriano Álvarez se proclamó rey. El 18 de julio de 1917 la Marina de EE. UU. rescató a cuatro mujeres y siete niños. Catorce años después, un laudo del rey de Italia le dio la isla a Francia.\nLa posición del punto en el mapa es exacta; la escala del mapa es ilustrativa.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#mexico",
+    "#clipperton"
+  ],
+  "props": {
+    "id": "lugar-clipperton-1917",
+    "cabecera": "CLIPPERTON — LA ISLA OLVIDADA",
+    "gancho": {
+      "texto": "Mira este anillo de coral en medio del Pacífico. Ahí vivieron unas cien personas a las que su país dejó de visitar durante tres años. ¿Cómo se olvida a cien personas?",
+      "rotulo": "Olvidados",
+      "planos": [
+        {
+          "centro": [
+            -109.21,
+            10.3
+          ],
+          "zoom": 4.6,
+          "entrada": "corte",
+          "deriva": 0.5
+        },
+        {
+          "centro": [
+            -109.21,
+            10.3
+          ],
+          "zoom": 7.2,
+          "entrada": "zoom",
+          "en": "Ahí",
+          "deriva": 0.4
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "100 PERSONAS",
+          "sub": "EN UN ANILLO DE CORAL",
+          "pictos": {
+            "icono": "🧍",
+            "n": 10
+          },
+          "aparecerEn": "cien",
+          "duracionSeg": 2.8
+        },
+        {
+          "texto": "3 AÑOS",
+          "sub": "SIN QUE NADIE VOLVIERA",
+          "tipo": "linea-tiempo",
+          "desde": "1914",
+          "hasta": "1917",
+          "aparecerEn": "tres",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO SE OLVIDA?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "coral",
+        "Pacífico",
+        "cien",
+        "tres"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Clipperton es una isla de náufragos, un pedazo de coral donde solo llegan barcos perdidos. Que nadie viviría ahí por gusto. La verdad es peor.",
+        "imagen": {
+          "buscar": "Clipperton Rock 1899",
+          "archivo": "File:Clipperton Rock (1899).jpg"
+        },
+        "kenBurns": "derecha",
+        "planos": [
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 8.2,
+            "entrada": "corte",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "en": "Que",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 12,
+            "entrada": "corte",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES PEOR",
+          "dice": "verdad"
+        },
+        "clave": [
+          "náufragos",
+          "coral",
+          "peor"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un barco que dejó de venir, una guerra lejana y un rey que nadie eligió. Y al final, la isla se perdió en un lugar que nadie esperaba.",
+        "vista": "mapa",
+        "planos": [
+          {
+            "centro": [
+              -105.2,
+              14.6
+            ],
+            "zoom": 5.6,
+            "entrada": "corte",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 13.3,
+            "entrada": "zoom",
+            "en": "rey",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -80,
+              25
+            ],
+            "zoom": 3.4,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🚢",
+            "texto": "BARCO",
+            "dice": "barco"
+          },
+          {
+            "icono": "⚔️",
+            "texto": "GUERRA",
+            "dice": "guerra"
+          },
+          {
+            "icono": "👑",
+            "texto": "EL REY",
+            "dice": "rey"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -99.88,
+            "lat": 16.85,
+            "icono": "🚢",
+            "ruta": [
+              [
+                -99.88,
+                16.6
+              ],
+              [
+                -104.5,
+                13.4
+              ],
+              [
+                -108.8,
+                10.5
+              ]
+            ],
+            "duracionSeg": 2.2,
+            "aparecerEn": "barco",
+            "desaparecerEn": "rey",
+            "tachado": true
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -111.5,
+            "lat": 16.5,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "guerra",
+            "desaparecerEn": "rey"
+          }
+        ],
+        "clave": [
+          "tres",
+          "barco",
+          "guerra",
+          "rey"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la guarnición. Hacia 1914 México tenía en Clipperton a unas cien personas: soldados, sus esposas, sus hijos y un farero. La isla está a unos 1.080 kilómetros de la costa mexicana. Todo llegaba por barco desde Acapulco.",
+        "vista": "mapa",
+        "planos": [
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 13.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -106.3,
+              14.6
+            ],
+            "zoom": 6.05,
+            "entrada": "zoom",
+            "en": "isla",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -104.8,
+              15.3
+            ],
+            "zoom": 6.15,
+            "entrada": "paneo",
+            "en": "Todo",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1914",
+            "sub": "LA GUARNICIÓN MEXICANA",
+            "aparecerEn": "1914",
+            "duracionSeg": 2.4
+          },
+          {
+            "texto": "100",
+            "sub": "SOLDADOS, ESPOSAS, HIJOS",
+            "pictos": {
+              "icono": "🧍",
+              "n": 10
+            },
+            "aparecerEn": "cien",
+            "duracionSeg": 3
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -109.21,
+              10.3
+            ],
+            "hasta": [
+              -103.75,
+              18.35
+            ],
+            "texto": "1.080 KM",
+            "aparecerEn": "kilómetros"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -101.5,
+            "lat": 21.5,
+            "texto": "MÉXICO",
+            "tipo": "pais",
+            "aparecerEn": "costa"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -99.88,
+            "lat": 16.85,
+            "icono": "🚢",
+            "ruta": [
+              [
+                -99.88,
+                16.6
+              ],
+              [
+                -104.5,
+                13.4
+              ],
+              [
+                -108.8,
+                10.5
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "aparecerEn": "barco",
+            "escala": 0.9
+          }
+        ],
+        "clave": [
+          "guarnición",
+          "1914",
+          "cien",
+          "1.080",
+          "Acapulco"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la guerra. Con la Revolución Mexicana, el barco de provisiones dejó de llegar. Sin frutas ni verduras vino el escorbuto, y la guarnición empezó a morir. En 1915 el gobernador, el capitán Ramón Arnaud, murió en el mar intentando pedir ayuda.",
+        "imagen": {
+          "buscar": "Monumento a Ramón Arnaud Orizaba",
+          "archivo": "File:Monumento a Ramón Arnaud en Orizaba.jpg",
+          "encuadre": "arriba"
+        },
+        "planos": [
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 5.6,
+            "entrada": "corte",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "en": "escorbuto",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "en": "1915",
+            "deriva": 0.4
+          }
+        ],
+        "contexto": {
+          "texto": "ESCORBUTO",
+          "dice": "escorbuto"
+        },
+        "tarjetas": [
+          {
+            "texto": "1915",
+            "sub": "MUERE EL GOBERNADOR",
+            "aparecerEn": "1915",
+            "duracionSeg": 2.8
+          }
+        ],
+        "clave": [
+          "guerra",
+          "Revolución",
+          "escorbuto",
+          "Ramón",
+          "Arnaud"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el rey. En la isla quedó un solo hombre adulto: el farero Victoriano Álvarez. Se proclamó rey de Clipperton y sometió con violencia a las mujeres. El 18 de julio de 1917 un barco de la Marina de Estados Unidos encontró a las sobrevivientes: cuatro mujeres y siete niños.",
+        "vista": "mapa",
+        "planos": [
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 13.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.209,
+              10.285
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "farero",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -109.5,
+              12.5
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Marina",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "en": "cuatro",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -109.2085,
+            "lat": 10.2845,
+            "texto": "LA ROCA",
+            "tipo": "pin",
+            "aparecerEn": "farero",
+            "desaparecerEn": "Marina"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -109.2105,
+            "lat": 10.2875,
+            "icono": "👑",
+            "escala": 1.2,
+            "aparecerEn": "rey#2",
+            "desaparecerEn": "Marina"
+          },
+          {
+            "lon": -112,
+            "lat": 20,
+            "icono": "🚢",
+            "ruta": [
+              [
+                -111.5,
+                19.5
+              ],
+              [
+                -110.2,
+                14.5
+              ],
+              [
+                -109.4,
+                10.7
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "aparecerEn": "Marina",
+            "desaparecerEn": "cuatro"
+          }
+        ],
+        "polaroid": {
+          "buscar": "USS Yorktown PG-1",
+          "archivo": "File:USS Yorktown (PG-1), side view 2.jpg",
+          "pie": "USS Yorktown, el barco que llegó en 1917",
+          "anio": "1917",
+          "lado": "derecha",
+          "aparecerEn": "Marina",
+          "duracionSeg": 2.8
+        },
+        "tarjetas": [
+          {
+            "texto": "11 VIVOS",
+            "sub": "4 MUJERES · 7 NIÑOS",
+            "pictos": {
+              "icono": "🧍",
+              "n": 11
+            },
+            "aparecerEn": "cuatro",
+            "duracionSeg": 3.2
+          }
+        ],
+        "clave": [
+          "rey",
+          "Victoriano",
+          "Álvarez",
+          "1917",
+          "cuatro",
+          "siete"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: catorce años después, México perdió la isla sin un solo disparo. Según el laudo arbitral publicado en el American Journal of International Law, en 1931 el rey de Italia, Víctor Manuel Tercero, decidió que Clipperton era de Francia.",
+        "fuenteEnVoz": true,
+        "vista": "mapa",
+        "planos": [
+          {
+            "centro": [
+              -106,
+              15.5
+            ],
+            "zoom": 5.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -48,
+              28
+            ],
+            "zoom": 2.6,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -40,
+              30
+            ],
+            "zoom": 2.8,
+            "entrada": "paneo",
+            "en": "Italia",
+            "deriva": 0.2
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "areas": [
+          {
+            "pais": "Mexico",
+            "color": "verde",
+            "etiqueta": "MÉXICO",
+            "etiquetaEn": [
+              -102,
+              23
+            ],
+            "aparecerEn": "México",
+            "desaparecerEn": "Italia"
+          },
+          {
+            "pais": "Italy",
+            "color": "violeta",
+            "aparecerEn": "Italia"
+          },
+          {
+            "pais": "France",
+            "color": "azul",
+            "etiqueta": "FRANCIA",
+            "etiquetaEn": [
+              2.5,
+              47
+            ],
+            "aparecerEn": "Francia"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1931",
+            "sub": "LAUDO DEL REY DE ITALIA",
+            "aparecerEn": "1931",
+            "duracionSeg": 2.6
+          }
+        ],
+        "polaroid": {
+          "buscar": "Victor Emmanuel III King of Italy",
+          "archivo": "File:Victor Emmanuel III King of Italy Giacomo Brogi.jpg",
+          "pie": "Víctor Manuel III, rey de Italia",
+          "forma": "circulo",
+          "lado": "derecha",
+          "aparecerEn": "Víctor",
+          "duracionSeg": 3.4
+        },
+        "fuente": {
+          "texto": "Laudo arbitral sobre Clipperton · AJIL, 1932",
+          "dice": "Según"
+        },
+        "clave": [
+          "giro",
+          "catorce",
+          "1931",
+          "Italia",
+          "Francia"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Clipperton está deshabitada. Desde el aire se ve igual que en 1917: un anillo de coral, una laguna cerrada y una roca solitaria, a más de diez mil kilómetros de París.",
+        "vista": "mapa",
+        "planos": [
+          {
+            "centro": [
+              -109.21,
+              10.3
+            ],
+            "zoom": 14.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.215,
+              10.31
+            ],
+            "zoom": 14.9,
+            "entrada": "paneo",
+            "en": "anillo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -48,
+              30
+            ],
+            "zoom": 2.55,
+            "entrada": "zoom",
+            "en": "diez",
+            "deriva": 0.15
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -109.218,
+            "lat": 10.305,
+            "texto": "LAGUNA",
+            "tipo": "region",
+            "aparecerEn": "laguna",
+            "desaparecerEn": "diez"
+          },
+          {
+            "lon": -109.2085,
+            "lat": 10.2845,
+            "texto": "ROCA",
+            "tipo": "pin",
+            "aparecerEn": "roca",
+            "desaparecerEn": "diez"
+          },
+          {
+            "lon": 2.35,
+            "lat": 48.86,
+            "texto": "PARÍS",
+            "tipo": "pin",
+            "aparecerEn": "París"
+          }
+        ],
+        "contexto": {
+          "texto": "DESHABITADA",
+          "dice": "deshabitada"
+        },
+        "cotas": [
+          {
+            "desde": [
+              -109.21,
+              10.3
+            ],
+            "hasta": [
+              2.35,
+              48.86
+            ],
+            "texto": "10.670 KM",
+            "aparecerEn": "diez"
+          }
+        ],
+        "clave": [
+          "deshabitada",
+          "1917",
+          "coral",
+          "París"
+        ]
+      }
+    ],
+    "remate": "México dejó a su gente sin barco. Francia se quedó con la isla sin gente.",
+    "fuentes": [
+      {
+        "texto": "Laudo arbitral sobre la isla de Clipperton (28-1-1931), American Journal of International Law, vol. 26, n.º 2 (1932), pp. 390–394",
+        "url": "https://doi.org/10.2307/2189369"
+      },
+      {
+        "texto": "Wikipedia: Isla Clipperton (historia de la guarnición mexicana, 1914–1917)",
+        "url": "https://es.wikipedia.org/wiki/Isla_Clipperton"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "punto": [
+        -109.21,
+        10.3
+      ],
+      "zoomInicial": 3,
+      "zoomFinal": 8,
+      "etiqueta": "CLIPPERTON",
+      "marcadores": [
+        {
+          "lon": -99.88,
+          "lat": 16.85,
+          "etiqueta": "ACAPULCO",
+          "aparecerEn": 2
+        }
+      ]
+    },
+    "imagenPrincipal": {
+      "buscar": "Clipperton Island ISS",
+      "archivo": "File:ISS008-E-7026 - View of Pacific Ocean.jpg"
+    },
+    "acento": "coral",
+    "tarjetaTitulo": {
+      "texto": "¿CÓMO SE OLVIDA A CIEN PERSONAS?",
+      "clave": "OLVIDA",
+      "centro": [
+        -104.5,
+        16.5
+      ],
+      "zoom": 4.4,
+      "paises": [
+        "Mexico"
+      ],
+      "icono": "🏝️"
+    },
+    "rematePlanos": [
+      {
+        "centro": [
+          -45,
+          26
+        ],
+        "zoom": 2.55,
+        "entrada": "corte",
+        "deriva": 0.15
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -102,
+        "lat": 24,
+        "texto": "SIN BARCO"
+      },
+      {
+        "lon": 2.5,
+        "lat": 47,
+        "texto": "SIN GENTE"
+      }
+    ]
+  }
+}

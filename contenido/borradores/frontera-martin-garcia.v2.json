@@ -1,0 +1,1348 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-05-frontera-martin-garcia",
+  "titulo": "¿Por qué hay una isla argentina a solo 3,5 km de Uruguay?",
+  "descripcion": "La isla Martín García está a unos 3,5 km de la costa uruguaya y a casi 37 de la costa continental argentina, y es argentina. Fue cárcel de presidentes y, desde el Tratado del Río de la Plata de 1973, una isla con una sola condición: su artículo 45 la destina exclusivamente a reserva natural. Después el río la unió con Timoteo Domínguez, una isla uruguaya nacida del barro, y así apareció la única frontera seca entre los dos países.\n\nFuentes:\n- Presidencia de Uruguay (2019): https://www.gub.uy/presidencia/comunicacion/noticias/demarcacion-entre-timoteo-dominguez-martin-garcia-potenciara-desarrollo\n- Isla Martín García: https://es.wikipedia.org/wiki/Isla_Mart%C3%ADn_Garc%C3%ADa\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#argentina",
+    "#uruguay"
+  ],
+  "props": {
+    "id": "2026-11-05-frontera-martin-garcia",
+    "gancho": {
+      "texto": "Mira el Río de la Plata, justo donde desemboca el río Uruguay. Esa isla está a tres kilómetros y medio de Uruguay, y a casi 37 de la costa continental argentina. Y es argentina. ¿Cómo?",
+      "rotulo": "3,5 KM DE URUGUAY",
+      "planos": [
+        {
+          "centro": [
+            -57.5,
+            -34.6
+          ],
+          "zoom": 7.4,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -58.35,
+            -34.0
+          ],
+          "zoom": 9.4,
+          "entrada": "zoom",
+          "en": "Uruguay",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -58.228,
+            -34.177
+          ],
+          "zoom": 12.8,
+          "entrada": "zoom",
+          "en": "isla",
+          "deriva": 0.25
+        },
+        {
+          "centro": [
+            -58.36,
+            -34.32
+          ],
+          "zoom": 9.6,
+          "entrada": "zoom",
+          "en": "37",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -58.2513,
+            -34.1826
+          ],
+          "zoom": 13.4,
+          "entrada": "corte",
+          "en": "argentina#2",
+          "deriva": 0.25
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -57.3,
+          "lat": -34.8,
+          "texto": "RÍO DE LA PLATA",
+          "tipo": "rio",
+          "rotacion": 24,
+          "aparecerEn": "Plata",
+          "desaparecerEn": "isla"
+        },
+        {
+          "lon": -58.4,
+          "lat": -33.65,
+          "texto": "RÍO URUGUAY",
+          "tipo": "rio",
+          "rotacion": -80,
+          "aparecerEn": "Uruguay",
+          "desaparecerEn": "isla"
+        },
+        {
+          "lon": -58.2513,
+          "lat": -34.1826,
+          "texto": "MARTÍN GARCÍA",
+          "tipo": "pin",
+          "aparecerEn": "isla"
+        },
+        {
+          "lon": -58.05,
+          "lat": -34.05,
+          "texto": "URUGUAY",
+          "tipo": "region",
+          "aparecerEn": "Uruguay#2",
+          "desaparecerEn": "argentina#2"
+        },
+        {
+          "lon": -58.75,
+          "lat": -34.42,
+          "texto": "ARGENTINA",
+          "tipo": "region",
+          "aparecerEn": "argentina",
+          "desaparecerEn": "argentina#2"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -58.243,
+            -34.179
+          ],
+          "hasta": [
+            -58.205,
+            -34.168
+          ],
+          "texto": "3,5 KM",
+          "aparecerEn": "tres",
+          "desaparecerEn": "argentina#2"
+        },
+        {
+          "desde": [
+            -58.253,
+            -34.19
+          ],
+          "hasta": [
+            -58.49,
+            -34.455
+          ],
+          "texto": "37 KM",
+          "aparecerEn": "37",
+          "desaparecerEn": "argentina#2"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -58.259,
+              -34.176
+            ],
+            [
+              -58.247,
+              -34.1742
+            ],
+            [
+              -58.2429,
+              -34.18
+            ],
+            [
+              -58.245,
+              -34.189
+            ],
+            [
+              -58.252,
+              -34.191
+            ],
+            [
+              -58.258,
+              -34.186
+            ]
+          ],
+          "color": "verde",
+          "etiqueta": "ARGENTINA",
+          "etiquetaEn": [
+            -58.2513,
+            -34.195
+          ],
+          "aparecerEn": "argentina#2"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "3,5 vs 37 KM",
+          "tipo": "barras",
+          "barras": [
+            {
+              "etiqueta": "A URUGUAY",
+              "valor": 3.5
+            },
+            {
+              "etiqueta": "A ARGENTINA",
+              "valor": 37
+            }
+          ],
+          "aparecerEn": "37",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "Plata",
+        "Uruguay",
+        "tres",
+        "37",
+        "argentina",
+        "Cómo"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "La explicación fácil es que es un error del mapa: una isla que quedó del lado equivocado del río, y que nadie se molestó en corregir. La verdad es más rara.",
+        "planos": [
+          {
+            "centro": [
+              -58.3,
+              -34.25
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "isla",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.3,
+              -34.2
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -58.12,
+            "lat": -34.3,
+            "icono": "🗺️",
+            "escala": 1.1,
+            "aparecerEn": "mapa",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -58.12,
+            "lat": -34.3,
+            "icono": "✏️",
+            "escala": 1.0,
+            "tachado": true,
+            "aparecerEn": "corregir",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Uruguay",
+            "color": "rojo",
+            "etiqueta": "URUGUAY",
+            "etiquetaEn": [
+              -58.05,
+              -34.05
+            ],
+            "aparecerEn": "lado",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "pais": "Argentina",
+            "color": "verde",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -58.6,
+              -34.42
+            ],
+            "aparecerEn": "lado",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "foto": {
+          "buscar": "Isla Martin Garcia mirando a Uruguay",
+          "archivo": "File:Isla Martin Garcia mirando a Uruguay - panoramio.jpg",
+          "pie": "DESDE MARTÍN GARCÍA, MIRANDO A URUGUAY",
+          "aparecerEn": "corregir",
+          "duracionSeg": 2.2
+        },
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "error",
+          "mapa",
+          "isla",
+          "equivocado",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una puerta, una cárcel y un tratado. Y al final, el río hace una jugada que ningún tratado había previsto.",
+        "planos": [
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 12.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.24,
+              -34.17
+            ],
+            "zoom": 12.8,
+            "entrada": "corte",
+            "en": "puerta",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "en": "cárcel",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -57.8,
+              -34.5
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "en": "tratado",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.255,
+              -34.172
+            ],
+            "zoom": 13.6,
+            "entrada": "zoom",
+            "en": "jugada",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🚪",
+            "texto": "PUERTA",
+            "dice": "puerta"
+          },
+          {
+            "icono": "⛓️",
+            "texto": "CÁRCEL",
+            "dice": "cárcel"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          }
+        ],
+        "indicePosicion": "fila",
+        "resaltes": [
+          {
+            "lon": -58.258,
+            "lat": -34.168,
+            "radio": 100,
+            "aparecerEn": "jugada"
+          }
+        ],
+        "clave": [
+          "tres",
+          "puerta",
+          "cárcel",
+          "tratado",
+          "jugada"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la puerta. Junto a la isla pasa el canal Martín García, el que usan los barcos para subir al río Uruguay. Quien tiene la isla mira de cerca la entrada a ese río. Por eso, durante siglos, nadie quiso soltarla.",
+        "planos": [
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 11.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.25,
+              -34.12
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "canal",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.3,
+              -34.0
+            ],
+            "zoom": 10.2,
+            "entrada": "paneo",
+            "en": "barcos",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 12.8,
+            "entrada": "zoom",
+            "en": "Quien",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.1,
+              -34.4
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "siglos",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.215,
+            "lat": -34.11,
+            "texto": "CANAL MARTÍN GARCÍA",
+            "tipo": "rio",
+            "rotacion": -72,
+            "aparecerEn": "canal",
+            "desaparecerEn": "Quien"
+          },
+          {
+            "lon": -58.4,
+            "lat": -33.75,
+            "texto": "RÍO URUGUAY",
+            "tipo": "rio",
+            "rotacion": -80,
+            "aparecerEn": "Uruguay",
+            "desaparecerEn": "Quien"
+          },
+          {
+            "lon": -58.2513,
+            "lat": -34.1826,
+            "texto": "MARTÍN GARCÍA",
+            "tipo": "pin",
+            "aparecerEn": "Quien",
+            "desaparecerEn": "siglos"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -58.15,
+            "lat": -34.32,
+            "icono": "barco",
+            "ruta": [
+              [
+                -58.15,
+                -34.32
+              ],
+              [
+                -58.215,
+                -34.24
+              ],
+              [
+                -58.236,
+                -34.185
+              ],
+              [
+                -58.245,
+                -34.12
+              ],
+              [
+                -58.3,
+                -34.02
+              ],
+              [
+                -58.4,
+                -33.9
+              ]
+            ],
+            "duracionSeg": 3.5,
+            "escala": 1.0,
+            "aparecerEn": "barcos",
+            "desaparecerEn": "Quien"
+          },
+          {
+            "lon": -58.27,
+            "lat": -34.19,
+            "icono": "👁️",
+            "escala": 1.0,
+            "aparecerEn": "mira",
+            "desaparecerEn": "siglos"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Admiralty Chart Isla Martin Garcia",
+          "archivo": "File:Admiralty Chart No 1751 Puerto Sauce to Isla Martin Garcia, Published 1846, New Edition 1924.jpg",
+          "pie": "Carta del Almirantazgo británico hasta la isla Martín García",
+          "anio": "1846",
+          "lado": "derecha",
+          "aparecerEn": "siglos",
+          "duracionSeg": 3.2
+        },
+        "contexto": {
+          "texto": "LA ENTRADA AL RÍO URUGUAY",
+          "dice": "entrada"
+        },
+        "clave": [
+          "canal",
+          "barcos",
+          "Uruguay",
+          "entrada",
+          "siglos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la cárcel. En el siglo veinte la isla sirvió para alejar del poder a presidentes argentinos. Hipólito Yrigoyen llegó detenido en 1930. Juan Domingo Perón, en 1945. Arturo Frondizi, en 1962. Presidentes presos en una isla que se ve desde Uruguay.",
+        "planos": [
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 13.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.25,
+              -34.183
+            ],
+            "zoom": 14.4,
+            "entrada": "zoom",
+            "en": "poder",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.33,
+              -34.4
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Hipólito",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 14.0,
+            "entrada": "zoom",
+            "en": "Perón",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.248,
+              -34.185
+            ],
+            "zoom": 14.2,
+            "entrada": "paneo",
+            "en": "Frondizi",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.21,
+              -34.15
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "Uruguay",
+            "deriva": 0.3
+          }
+        ],
+        "foto": {
+          "buscar": "Isla Martin Garcia",
+          "archivo": "File:Isla Martín García 01.jpg",
+          "pie": "ISLA MARTÍN GARCÍA",
+          "aparecerEn": "isla",
+          "duracionSeg": 2.2
+        },
+        "polaroid": {
+          "buscar": "Retrato Hipolito Yrigoyen",
+          "archivo": "File:\"Retrato del Presidente Hipolito Yrigoyen\" (cropped).jpg",
+          "pie": "Hipólito Yrigoyen, presidente argentino",
+          "anio": "1930",
+          "lado": "derecha",
+          "aparecerEn": "Yrigoyen",
+          "duracionSeg": 3.0
+        },
+        "tarjetas": [
+          {
+            "texto": "3 PRESIDENTES",
+            "sub": "DETENIDOS EN LA ISLA",
+            "pictos": {
+              "icono": "👤",
+              "n": 3
+            },
+            "aparecerEn": "Frondizi",
+            "duracionSeg": 3.0
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "icono": "barco",
+            "ruta": [
+              [
+                -58.38,
+                -34.6
+              ],
+              [
+                -58.33,
+                -34.4
+              ],
+              [
+                -58.2513,
+                -34.1826
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 0.9,
+            "aparecerEn": "Hipólito",
+            "desaparecerEn": "Perón"
+          },
+          {
+            "lon": -58.244,
+            "lat": -34.186,
+            "icono": "⛓️",
+            "escala": 0.9,
+            "aparecerEn": "detenido",
+            "desaparecerEn": "Frondizi"
+          },
+          {
+            "lon": -58.205,
+            "lat": -34.165,
+            "icono": "👀",
+            "escala": 1.0,
+            "aparecerEn": "ve"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Hipólito",
+            "desaparecerEn": "Perón"
+          },
+          {
+            "lon": -58.18,
+            "lat": -34.14,
+            "texto": "URUGUAY",
+            "tipo": "region",
+            "aparecerEn": "Uruguay"
+          }
+        ],
+        "contexto": {
+          "texto": "PRESIDENTES PRESOS",
+          "dice": "presos"
+        },
+        "clave": [
+          "Yrigoyen",
+          "1930",
+          "Perón",
+          "1945",
+          "Frondizi",
+          "1962"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el tratado. En 1973 Argentina y Uruguay firman en Montevideo el Tratado del Río de la Plata. Uruguay deja su reclamo y la isla queda argentina, con una condición. Según el artículo 45 del tratado, será destinada exclusivamente a reserva natural, para la flora y la fauna.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -57.2,
+              -34.7
+            ],
+            "zoom": 7.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.6,
+              -34.85
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "en": "Montevideo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 12.6,
+            "entrada": "zoom",
+            "en": "isla",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 13.6,
+            "entrada": "corte",
+            "en": "Según",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.249,
+              -34.183
+            ],
+            "zoom": 14.4,
+            "entrada": "zoom",
+            "en": "flora",
+            "deriva": 0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1973",
+            "sub": "TRATADO DEL RÍO DE LA PLATA",
+            "icono": "tratado",
+            "aparecerEn": "1973",
+            "duracionSeg": 2.8
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado del Río de la Plata (1973), artículo 45",
+          "dice": "Según"
+        },
+        "etiquetas": [
+          {
+            "lon": -56.19,
+            "lat": -34.9,
+            "texto": "MONTEVIDEO",
+            "tipo": "pin",
+            "aparecerEn": "Montevideo",
+            "desaparecerEn": "isla"
+          },
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Argentina",
+            "desaparecerEn": "isla"
+          },
+          {
+            "lon": -57.84,
+            "lat": -34.47,
+            "texto": "COLONIA",
+            "tipo": "pin",
+            "aparecerEn": "Montevideo",
+            "desaparecerEn": "isla"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -58.259,
+                -34.176
+              ],
+              [
+                -58.247,
+                -34.1742
+              ],
+              [
+                -58.2429,
+                -34.18
+              ],
+              [
+                -58.245,
+                -34.189
+              ],
+              [
+                -58.252,
+                -34.191
+              ],
+              [
+                -58.258,
+                -34.186
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -58.2513,
+              -34.195
+            ],
+            "aparecerEn": "argentina#2",
+            "desaparecerEn": "reserva"
+          },
+          {
+            "poligono": [
+              [
+                -58.259,
+                -34.176
+              ],
+              [
+                -58.247,
+                -34.1742
+              ],
+              [
+                -58.2429,
+                -34.18
+              ],
+              [
+                -58.245,
+                -34.189
+              ],
+              [
+                -58.252,
+                -34.191
+              ],
+              [
+                -58.258,
+                -34.186
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "RESERVA NATURAL",
+            "etiquetaEn": [
+              -58.2513,
+              -34.195
+            ],
+            "aparecerEn": "reserva"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -58.255,
+            "lat": -34.18,
+            "icono": "🌿",
+            "escala": 0.9,
+            "aparecerEn": "flora"
+          },
+          {
+            "lon": -58.246,
+            "lat": -34.186,
+            "icono": "🐦",
+            "escala": 0.9,
+            "aparecerEn": "fauna"
+          }
+        ],
+        "contexto": {
+          "texto": "SOLO RESERVA NATURAL",
+          "dice": "reserva"
+        },
+        "clave": [
+          "1973",
+          "Montevideo",
+          "condición",
+          "45",
+          "reserva"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el río siguió trabajando. El barro que baja hacia el Plata armó, al lado, una isla nueva, Timoteo Domínguez, que es uruguaya. Con los años, las dos islas se tocaron. Así nació la única frontera seca entre Argentina y Uruguay, en medio del agua.",
+        "planos": [
+          {
+            "centro": [
+              -58.3,
+              -34.1
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.255,
+              -34.172
+            ],
+            "zoom": 12.8,
+            "entrada": "zoom",
+            "en": "barro",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.258,
+              -34.168
+            ],
+            "zoom": 14.0,
+            "entrada": "corte",
+            "en": "Timoteo",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.2545,
+              -34.1742
+            ],
+            "zoom": 15.4,
+            "entrada": "zoom",
+            "en": "tocaron",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.2545,
+              -34.1742
+            ],
+            "zoom": 16.0,
+            "entrada": "corte",
+            "en": "única",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -58.255,
+              -34.175
+            ],
+            "zoom": 13.0,
+            "entrada": "zoom",
+            "en": "agua",
+            "deriva": 0.3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "iconos": [
+          {
+            "lon": -58.35,
+            "lat": -34.0,
+            "icono": "rio",
+            "ruta": [
+              [
+                -58.35,
+                -34.0
+              ],
+              [
+                -58.3,
+                -34.08
+              ],
+              [
+                -58.26,
+                -34.16
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 1.0,
+            "aparecerEn": "barro",
+            "desaparecerEn": "tocaron"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -58.266,
+                -34.166
+              ],
+              [
+                -58.255,
+                -34.165
+              ],
+              [
+                -58.247,
+                -34.17
+              ],
+              [
+                -58.249,
+                -34.1735
+              ],
+              [
+                -58.26,
+                -34.1745
+              ],
+              [
+                -58.266,
+                -34.171
+              ]
+            ],
+            "color": "rojo",
+            "etiqueta": "TIMOTEO DOMÍNGUEZ · UY",
+            "etiquetaEn": [
+              -58.258,
+              -34.164
+            ],
+            "aparecerEn": "Timoteo",
+            "quedarse": "siempre"
+          },
+          {
+            "poligono": [
+              [
+                -58.259,
+                -34.176
+              ],
+              [
+                -58.247,
+                -34.1742
+              ],
+              [
+                -58.2429,
+                -34.18
+              ],
+              [
+                -58.245,
+                -34.189
+              ],
+              [
+                -58.252,
+                -34.191
+              ],
+              [
+                -58.258,
+                -34.186
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "MARTÍN GARCÍA · AR",
+            "etiquetaEn": [
+              -58.2513,
+              -34.195
+            ],
+            "aparecerEn": "islas",
+            "quedarse": "siempre"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Isla Martin Garcia Timoteo Dominguez",
+          "archivo": "File:Isla martin garcia-timoteo dominguez 1.png",
+          "pie": "Martín García y Timoteo Domínguez, ya unidas",
+          "lado": "izquierda",
+          "aparecerEn": "años",
+          "duracionSeg": 3.0
+        },
+        "resaltes": [
+          {
+            "lon": -58.2545,
+            "lat": -34.1742,
+            "radio": 90,
+            "aparecerEn": "única"
+          }
+        ],
+        "clave": [
+          "giro",
+          "barro",
+          "Timoteo",
+          "uruguaya",
+          "tocaron",
+          "seca"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy en Martín García viven poco más de cien personas, entre un faro, casas viejas y monte nativo. En 2019, según la Presidencia de Uruguay, los dos países todavía estudiaban cómo marcar en el terreno esa línea que el río les dibujó.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -58.2513,
+              -34.1826
+            ],
+            "zoom": 13.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.252,
+              -34.181
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "faro",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -58.248,
+              -34.186
+            ],
+            "zoom": 14.8,
+            "entrada": "paneo",
+            "en": "monte",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.2545,
+              -34.1742
+            ],
+            "zoom": 15.8,
+            "entrada": "zoom",
+            "en": "2019",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -58.2545,
+              -34.1742
+            ],
+            "zoom": 16.6,
+            "entrada": "corte",
+            "en": "línea",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "100 HABITANTES",
+            "sub": "POCO MÁS, EN TODA LA ISLA",
+            "pictos": {
+              "icono": "👤",
+              "n": 10
+            },
+            "aparecerEn": "cien",
+            "duracionSeg": 2.8
+          }
+        ],
+        "foto": {
+          "buscar": "Viejo faro Martin Garcia",
+          "archivo": "File:Viejo faro en Martín Garcia.jpg",
+          "pie": "EL FARO · ISLA MARTÍN GARCÍA",
+          "aparecerEn": "faro",
+          "duracionSeg": 2.4
+        },
+        "fuente": {
+          "texto": "Presidencia de Uruguay (18-9-2019)",
+          "dice": "según"
+        },
+        "iconos": [
+          {
+            "lon": -58.255,
+            "lat": -34.184,
+            "icono": "🏠",
+            "escala": 0.8,
+            "aparecerEn": "casas",
+            "desaparecerEn": "2019"
+          },
+          {
+            "lon": -58.247,
+            "lat": -34.187,
+            "icono": "🌳",
+            "escala": 0.8,
+            "aparecerEn": "monte",
+            "desaparecerEn": "2019"
+          },
+          {
+            "lon": -58.2525,
+            "lat": -34.1738,
+            "icono": "📐",
+            "escala": 0.9,
+            "aparecerEn": "marcar"
+          }
+        ],
+        "contexto": {
+          "texto": "UNA LÍNEA SIN MARCAR",
+          "dice": "marcar"
+        },
+        "clave": [
+          "cien",
+          "faro",
+          "2019",
+          "Presidencia",
+          "marcar",
+          "dibujó"
+        ]
+      }
+    ],
+    "remate": "Los gobiernos la separaron con un tratado. El río la unió con barro.",
+    "fuentes": [
+      {
+        "texto": "Tratado del Río de la Plata y su Frente Marítimo (1973), Comisión Administradora del Río de la Plata",
+        "url": "https://www.comisionriodelaplata.org/archivos/documentos/DocOriginal_TratadodelRiodelaPlataysuFrenteMaritimo.pdf"
+      },
+      {
+        "texto": "Presidencia de Uruguay (18-9-2019): demarcación entre Timoteo Domínguez y Martín García",
+        "url": "https://www.gub.uy/presidencia/comunicacion/noticias/demarcacion-entre-timoteo-dominguez-martin-garcia-potenciara-desarrollo"
+      },
+      {
+        "texto": "Wikipedia: Isla Martín García (distancias, población, presos)",
+        "url": "https://es.wikipedia.org/wiki/Isla_Mart%C3%ADn_Garc%C3%ADa"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 4,
+      "centro": [
+        -58.27,
+        -34.2
+      ],
+      "zoomInicial": 9.6,
+      "zoomFinal": 13.2,
+      "lineas": [
+        {
+          "id": "canal",
+          "puntos": [
+            [
+              -58.15,
+              -34.32
+            ],
+            [
+              -58.215,
+              -34.24
+            ],
+            [
+              -58.236,
+              -34.185
+            ],
+            [
+              -58.245,
+              -34.12
+            ],
+            [
+              -58.3,
+              -34.02
+            ],
+            [
+              -58.4,
+              -33.9
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "canal",
+          "etiqueta": "CANAL"
+        },
+        {
+          "id": "frontera-seca",
+          "puntos": [
+            [
+              -58.26,
+              -34.1745
+            ],
+            [
+              -58.255,
+              -34.174
+            ],
+            [
+              -58.249,
+              -34.1735
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 5,
+          "dice": "seca",
+          "etiqueta": "FRONTERA SECA"
+        }
+      ]
+    },
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ ESTA ISLA ES ARGENTINA?",
+      "clave": "ARGENTINA",
+      "paises": [
+        "Argentina",
+        "Uruguay"
+      ],
+      "centro": [
+        -58.0,
+        -34.4
+      ],
+      "zoom": 6.4,
+      "pines": [
+        {
+          "lon": -58.2513,
+          "lat": -34.1826,
+          "texto": "MARTÍN GARCÍA"
+        }
+      ],
+      "icono": "isla"
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -58.2513,
+        "lat": -34.187,
+        "texto": "SEPARADA POR UN TRATADO"
+      },
+      {
+        "lon": -58.256,
+        "lat": -34.172,
+        "texto": "UNIDA POR EL BARRO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -58.2513,
+          -34.179
+        ],
+        "zoom": 14.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -58.2545,
+          -34.1742
+        ],
+        "zoom": 16.4,
+        "entrada": "corte",
+        "en": "río",
+        "deriva": 0.2
+      }
+    ],
+    "cabecera": "MARTÍN GARCÍA — LA ISLA DEL LADO AJENO"
+  }
+}

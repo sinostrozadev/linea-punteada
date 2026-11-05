@@ -1,0 +1,1604 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-05-frontera-campo-de-hielo",
+  "titulo": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
+  "descripcion": "Chile y Argentina comparten una de las fronteras más largas del mundo, y en el Campo de Hielo Patagónico Sur todavía le falta un pedazo. El acuerdo firmado por Eduardo Frei y Carlos Menem en diciembre de 1998 dividió el tramo entre el monte Fitz Roy y el cerro Daudet en dos secciones: una con la línea trazada y otra, entre el Fitz Roy y el cerro Murallón, que espera el mapa de una comisión mixta. Las dos posiciones, sin opinión.\n\nFuentes:\n- Emol (2018): https://www.emol.com/noticias/Nacional/2018/10/16/924088/El-tratado-de-hace-20-anos-que-dejo-pendiente-los-limites-entre-Chile-y-Argentina-en-Campo-de-Hielo-Sur.html\n- Ley argentina 25.110: https://www.argentina.gob.ar/normativa/nacional/ley-25110-58471/texto\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile",
+    "#argentina"
+  ],
+  "props": {
+    "id": "2026-11-05-frontera-campo-de-hielo",
+    "gancho": {
+      "texto": "Mira la frontera entre Chile y Argentina: más de cinco mil kilómetros de línea. Pero al sur del monte Fitz Roy, se corta. ¿Por qué le falta un pedazo?",
+      "rotulo": "LE FALTA UN PEDAZO",
+      "planos": [
+        {
+          "centro": [
+            -68.8,
+            -41.5
+          ],
+          "zoom": 4.4,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -73.2,
+            -49.6
+          ],
+          "zoom": 7.4,
+          "entrada": "zoom",
+          "en": "Fitz",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -73.25,
+            -49.53
+          ],
+          "zoom": 8.6,
+          "entrada": "corte",
+          "en": "corta",
+          "deriva": 0.35
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "etiqueta": "CHILE",
+          "etiquetaEn": [
+            -71.2,
+            -29.5
+          ],
+          "aparecerEn": "Chile",
+          "desaparecerEn": "Fitz"
+        },
+        {
+          "pais": "Argentina",
+          "color": "verde",
+          "etiqueta": "ARGENTINA",
+          "etiquetaEn": [
+            -65.5,
+            -35.5
+          ],
+          "aparecerEn": "Argentina",
+          "desaparecerEn": "Fitz"
+        },
+        {
+          "poligono": [
+            [
+              -73.633,
+              -49.1667
+            ],
+            [
+              -72.983,
+              -49.1667
+            ],
+            [
+              -72.983,
+              -49.7917
+            ],
+            [
+              -73.633,
+              -49.7917
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "LE FALTA ESTO",
+          "aparecerEn": "falta"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -78.5,
+          "lat": -40,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "frontera"
+        },
+        {
+          "lon": -59.5,
+          "lat": -45,
+          "texto": "OCÉANO ATLÁNTICO",
+          "tipo": "mar",
+          "aparecerEn": "Argentina"
+        },
+        {
+          "lon": -73.043,
+          "lat": -49.271,
+          "texto": "MONTE FITZ ROY",
+          "tipo": "pin",
+          "aparecerEn": "Fitz"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "+5.000 KM",
+          "sub": "DE FRONTERA ENTRE CHILE Y ARGENTINA",
+          "icono": "bandera",
+          "aparecerEn": "cinco",
+          "duracionSeg": 2.8
+        }
+      ],
+      "resaltes": [
+        {
+          "lon": -73.25,
+          "lat": -49.53,
+          "radio": 120,
+          "aparecerEn": "corta"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ LE FALTA?",
+        "dice": "falta"
+      },
+      "clave": [
+        "Chile",
+        "Argentina",
+        "cinco",
+        "Fitz",
+        "corta",
+        "pedazo"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "La explicación fácil es que ahí nadie se molestó en medir: puro hielo, sin pueblos, sin nada que pelear. Pero ese tramo tiene un acuerdo firmado por dos presidentes y una comisión a cargo. La verdad es más rara.",
+        "planos": [
+          {
+            "centro": [
+              -73.5,
+              -49.9
+            ],
+            "zoom": 9.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.35,
+              -49.5
+            ],
+            "zoom": 10.8,
+            "entrada": "corte",
+            "en": "hielo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.2,
+              -50.0
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Pero",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.35
+          }
+        ],
+        "foto": {
+          "buscar": "Campo de Hielo Patagonico Sur aerial",
+          "archivo": "File:Campo de Hielo Patagónico Sur 4.jpg",
+          "pie": "CAMPO DE HIELO SUR · AL FONDO, EL FITZ ROY",
+          "aparecerEn": "hielo",
+          "duracionSeg": 2.4
+        },
+        "iconos": [
+          {
+            "lon": -73.25,
+            "lat": -49.6,
+            "icono": "🏘️",
+            "escala": 1.0,
+            "tachado": true,
+            "aparecerEn": "pueblos",
+            "desaparecerEn": "Pero"
+          },
+          {
+            "lon": -73.0,
+            "lat": -49.75,
+            "icono": "⚔️",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "pelear",
+            "desaparecerEn": "Pero"
+          },
+          {
+            "lon": -72.55,
+            "lat": -49.9,
+            "icono": "tratado",
+            "escala": 1.1,
+            "aparecerEn": "acuerdo",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -72.55,
+            "lat": -50.25,
+            "icono": "🧭",
+            "escala": 0.9,
+            "aparecerEn": "comisión",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.48,
+            "lat": -49.95,
+            "texto": "CAMPO DE HIELO SUR",
+            "tipo": "region",
+            "aparecerEn": "nadie",
+            "desaparecerEn": "Pero"
+          },
+          {
+            "lon": -71.2,
+            "lat": -49.95,
+            "texto": "DOS PRESIDENTES",
+            "tipo": "region",
+            "aparecerEn": "presidentes",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "medir",
+          "hielo",
+          "acuerdo",
+          "presidentes",
+          "comisión",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una regla, un acuerdo y un mapa que nadie termina. Y al final, lo que pasa cuando alguien camina por donde no hay línea.",
+        "planos": [
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.08,
+              -49.3
+            ],
+            "zoom": 11.0,
+            "entrada": "corte",
+            "en": "regla",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.3,
+              -49.65
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "mapa",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.15,
+              -49.305
+            ],
+            "zoom": 11.0,
+            "entrada": "zoom",
+            "en": "camina",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "📏",
+            "texto": "REGLA",
+            "dice": "regla"
+          },
+          {
+            "icono": "tratado",
+            "texto": "ACUERDO",
+            "dice": "acuerdo"
+          },
+          {
+            "icono": "🗺️",
+            "texto": "MAPA",
+            "dice": "mapa"
+          }
+        ],
+        "indicePosicion": "vertical-mapa",
+        "indiceAncla": [
+          -72.25,
+          -49.45
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.043,
+            "lat": -49.271,
+            "texto": "MONTE FITZ ROY",
+            "tipo": "pin",
+            "aparecerEn": "regla",
+            "desaparecerEn": "mapa"
+          },
+          {
+            "lon": -73.43,
+            "lat": -49.8,
+            "texto": "CERRO MURALLÓN",
+            "tipo": "pin",
+            "aparecerEn": "acuerdo",
+            "desaparecerEn": "camina"
+          },
+          {
+            "lon": -73.15,
+            "lat": -49.305,
+            "texto": "CIRCO DE LOS ALTARES",
+            "tipo": "pin",
+            "aparecerEn": "camina"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -73.13000000000001,
+            "lat": -49.335,
+            "icono": "🥾",
+            "escala": 0.9,
+            "aparecerEn": "camina"
+          }
+        ],
+        "clave": [
+          "tres",
+          "regla",
+          "acuerdo",
+          "mapa",
+          "camina",
+          "línea"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la regla. El tratado de 1881 dice que la frontera va por las cumbres más altas que dividen las aguas. En casi todos los Andes eso marca una sola línea. Aquí, bajo casi 17.000 kilómetros cuadrados de hielo, las cumbres y las aguas no siempre coinciden.",
+        "planos": [
+          {
+            "centro": [
+              -70.8,
+              -43.5
+            ],
+            "zoom": 5.4,
+            "entrada": "corte",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -73.0,
+              -49.28
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "cumbres",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.6,
+              -44.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "Andes",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.4,
+              -49.8
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Aquí",
+            "deriva": 0.35
+          },
+          {
+            "centro": [
+              -73.3,
+              -49.45
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "en": "coinciden",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1881",
+            "sub": "EL TRATADO DE LÍMITES",
+            "icono": "tratado",
+            "aparecerEn": "1881",
+            "duracionSeg": 2.8
+          }
+        ],
+        "polaroid": {
+          "buscar": "Fitz Roy",
+          "archivo": "File:Fitz Roy 2.jpg",
+          "pie": "Cumbres del macizo del Fitz Roy",
+          "lado": "derecha",
+          "aparecerEn": "altas",
+          "duracionSeg": 3.0
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                -73.55,
+                -48.35
+              ],
+              [
+                -73.2,
+                -48.5
+              ],
+              [
+                -73.05,
+                -49.2
+              ],
+              [
+                -72.95,
+                -49.8
+              ],
+              [
+                -73.1,
+                -50.4
+              ],
+              [
+                -73.2,
+                -50.9
+              ],
+              [
+                -73.35,
+                -51.4
+              ],
+              [
+                -73.6,
+                -51.3
+              ],
+              [
+                -73.75,
+                -50.6
+              ],
+              [
+                -73.85,
+                -49.8
+              ],
+              [
+                -73.7,
+                -49.0
+              ]
+            ],
+            "color": "azul",
+            "etiqueta": "17.000 KM² DE HIELO",
+            "etiquetaEn": [
+              -73.45,
+              -50.0
+            ],
+            "aparecerEn": "17.000"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -71.4,
+            "lat": -40.5,
+            "texto": "CORDILLERA DE LOS ANDES",
+            "tipo": "region",
+            "rotacion": -80,
+            "aparecerEn": "Andes",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -76.2,
+            "lat": -45.5,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "Andes",
+            "desaparecerEn": "Aquí"
+          },
+          {
+            "lon": -73.043,
+            "lat": -49.271,
+            "texto": "MONTE FITZ ROY",
+            "tipo": "pin",
+            "aparecerEn": "cumbres",
+            "desaparecerEn": "Andes"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.75,
+            "lat": -49.2,
+            "icono": "montana",
+            "escala": 1.0,
+            "aparecerEn": "cumbres",
+            "desaparecerEn": "Andes"
+          },
+          {
+            "lon": -72.7,
+            "lat": -49.45,
+            "icono": "rio",
+            "escala": 0.9,
+            "aparecerEn": "aguas",
+            "desaparecerEn": "Andes"
+          },
+          {
+            "lon": -72.7,
+            "lat": -49.6,
+            "icono": "❄️",
+            "escala": 1.0,
+            "aparecerEn": "hielo"
+          }
+        ],
+        "contexto": {
+          "texto": "CUMBRES ≠ AGUAS",
+          "dice": "coinciden"
+        },
+        "clave": [
+          "1881",
+          "cumbres",
+          "aguas",
+          "Andes",
+          "17.000",
+          "coinciden"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el acuerdo. Una primera línea, de 1991, nunca se aprobó. En diciembre de 1998 Eduardo Frei y Carlos Menem firmaron otra. Según el texto del acuerdo, aprobado en Argentina por la ley 25.110, el tramo se parte en dos. Del cerro Murallón al cerro Daudet, la línea queda trazada. Del Fitz Roy al Murallón, no.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -73.25,
+              -50.05
+            ],
+            "zoom": 7.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.8,
+              -42.0
+            ],
+            "zoom": 4.8,
+            "entrada": "corte",
+            "en": "diciembre",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.25,
+              -50.05
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "en": "Según#2",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.15,
+              -49.95
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "dos",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.3,
+              -50.35
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Murallón",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 9.6,
+            "entrada": "paneo",
+            "en": "Fitz",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1998",
+            "sub": "FREI Y MENEM",
+            "icono": "tratado",
+            "aparecerEn": "1998",
+            "duracionSeg": 2.8
+          }
+        ],
+        "areas": [
+          {
+            "tipo": "franja",
+            "linea": [
+              [
+                -73.43,
+                -49.8
+              ],
+              [
+                -73.54,
+                -49.877
+              ],
+              [
+                -73.569,
+                -49.921
+              ],
+              [
+                -73.5,
+                -49.978
+              ],
+              [
+                -73.482,
+                -50.022
+              ],
+              [
+                -73.529,
+                -50.14
+              ],
+              [
+                -73.345,
+                -50.243
+              ],
+              [
+                -73.284,
+                -50.333
+              ],
+              [
+                -73.277,
+                -50.425
+              ],
+              [
+                -73.263,
+                -50.557
+              ],
+              [
+                -73.201,
+                -50.626
+              ],
+              [
+                -73.187,
+                -50.716
+              ],
+              [
+                -73.1,
+                -50.775
+              ]
+            ],
+            "anchoKm": 10,
+            "color": "verde",
+            "etiqueta": "TRAZADA",
+            "etiquetaEn": [
+              -73.0,
+              -50.3
+            ],
+            "aparecerEn": "trazada"
+          },
+          {
+            "poligono": [
+              [
+                -73.633,
+                -49.1667
+              ],
+              [
+                -72.983,
+                -49.1667
+              ],
+              [
+                -72.983,
+                -49.7917
+              ],
+              [
+                -73.633,
+                -49.7917
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "SIN TRAZAR",
+            "aparecerEn": "Fitz",
+            "quedarse": "siempre"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -72.2,
+            "lat": -49.95,
+            "texto": "ARGENTINA",
+            "tipo": "pais",
+            "aparecerEn": "Argentina",
+            "desaparecerEn": "dos"
+          },
+          {
+            "lon": -73.43,
+            "lat": -49.8,
+            "texto": "CERRO MURALLÓN",
+            "tipo": "pin",
+            "aparecerEn": "Murallón",
+            "quedarse": 3
+          },
+          {
+            "lon": -73.1,
+            "lat": -50.775,
+            "texto": "CERRO DAUDET",
+            "tipo": "pin",
+            "aparecerEn": "Daudet"
+          },
+          {
+            "lon": -73.043,
+            "lat": -49.271,
+            "texto": "MONTE FITZ ROY",
+            "tipo": "pin",
+            "aparecerEn": "Fitz",
+            "quedarse": "siempre"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -73.43,
+              -49.8
+            ],
+            "hasta": [
+              -73.1,
+              -50.775
+            ],
+            "texto": "110 KM",
+            "aparecerEn": "Daudet",
+            "desaparecerEn": "Fitz"
+          },
+          {
+            "desde": [
+              -73.043,
+              -49.271
+            ],
+            "hasta": [
+              -73.43,
+              -49.8
+            ],
+            "texto": "65 KM",
+            "aparecerEn": "Fitz"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.5,
+            "lat": -49.9,
+            "icono": "tratado",
+            "escala": 1.0,
+            "tachado": true,
+            "aparecerEn": "1991",
+            "desaparecerEn": "diciembre"
+          },
+          {
+            "lon": -72.5,
+            "lat": -50.1,
+            "icono": "✍️",
+            "escala": 1.0,
+            "aparecerEn": "firmaron",
+            "desaparecerEn": "Según#2"
+          },
+          {
+            "lon": -72.35,
+            "lat": -50.25,
+            "icono": "📜",
+            "escala": 1.0,
+            "aparecerEn": "25.110",
+            "desaparecerEn": "dos"
+          }
+        ],
+        "fuente": {
+          "texto": "Acuerdo de 1998 · Ley argentina 25.110",
+          "dice": "Según#2"
+        },
+        "contexto": {
+          "texto": "PARTIDO EN DOS",
+          "dice": "dos"
+        },
+        "clave": [
+          "1991",
+          "1998",
+          "Frei",
+          "Menem",
+          "25.110",
+          "dos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el mapa. Para la parte que falta, el acuerdo encarga un trabajo a una comisión mixta de los dos países: levantar una carta a escala y trazar ahí la línea. Según El Mercurio, esa comisión estuvo inactiva de 1998 a 2006. Y el trabajo todavía no termina.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 9.2,
+            "entrada": "corte",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -73.3,
+              -49.42
+            ],
+            "zoom": 10.4,
+            "entrada": "corte",
+            "en": "comisión",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.22,
+              -49.6
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "en": "carta",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.35,
+              -49.65
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "en": "todavía",
+            "deriva": -0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "8 AÑOS",
+            "sub": "COMISIÓN INACTIVA",
+            "tipo": "linea-tiempo",
+            "desde": "1998",
+            "hasta": "2006",
+            "aparecerEn": "inactiva",
+            "duracionSeg": 3.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -73.75,
+            "lat": -49.45,
+            "icono": "🇨🇱",
+            "escala": 0.9,
+            "aparecerEn": "mixta",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -72.85,
+            "lat": -49.45,
+            "icono": "🇦🇷",
+            "escala": 0.9,
+            "aparecerEn": "mixta",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -73.3,
+            "lat": -49.5,
+            "icono": "🗺️",
+            "escala": 1.3,
+            "aparecerEn": "carta",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -73.3,
+            "lat": -49.5,
+            "icono": "⏳",
+            "escala": 1.2,
+            "aparecerEn": "inactiva",
+            "desaparecerEn": "todavía"
+          },
+          {
+            "lon": -73.3,
+            "lat": -49.55,
+            "icono": "🚧",
+            "escala": 1.1,
+            "aparecerEn": "termina"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.3,
+            "lat": -49.3,
+            "texto": "ESCALA 1:50.000",
+            "tipo": "region",
+            "aparecerEn": "escala",
+            "desaparecerEn": "Según"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Southern Patagonian Ice Field boundary section",
+          "archivo": "File:Sección del límite entre Argentina y Chile en el Campo de Hielo Patagónico Sur.jpg",
+          "pie": "El tramo del límite, visto por satélite",
+          "lado": "derecha",
+          "aparecerEn": "Según",
+          "duracionSeg": 3.4
+        },
+        "fuente": {
+          "texto": "El Mercurio, vía Emol (16-10-2018)",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "UNA CARTA A ESCALA",
+          "dice": "carta"
+        },
+        "clave": [
+          "comisión",
+          "carta",
+          "Mercurio",
+          "1998",
+          "2006",
+          "termina"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: si no hay línea, nadie pide permiso. En 2018 una expedición militar argentina pasó por el Circo de los Altares, dentro de la zona sin trazar. El canciller chileno, Roberto Ampuero, dijo que ninguno de los dos países necesita permiso para entrar ahí. Y recordó que Chile también lo había hecho.",
+        "planos": [
+          {
+            "centro": [
+              -73.25,
+              -49.45
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -73.15,
+              -49.305
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "en": "2018",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.16,
+              -49.31
+            ],
+            "zoom": 12.4,
+            "entrada": "corte",
+            "en": "zona",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -73.2,
+              -49.5
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "en": "canciller",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.3,
+              -49.6
+            ],
+            "zoom": 10.4,
+            "entrada": "corte",
+            "en": "recordó",
+            "deriva": 0.3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "tarjetas": [
+          {
+            "texto": "2018",
+            "sub": "EXPEDICIÓN EN LA ZONA SIN TRAZAR",
+            "icono": "bandera",
+            "aparecerEn": "2018",
+            "duracionSeg": 2.4
+          }
+        ],
+        "foto": {
+          "buscar": "Circo de los Altares",
+          "archivo": "File:Circo de los Altares, parque nacional Bernardo O'Higgins, región de Magallanes y Antártica Chilena, Chile (1).jpg",
+          "pie": "CIRCO DE LOS ALTARES · CAMPO DE HIELO SUR",
+          "aparecerEn": "Circo",
+          "duracionSeg": 2.6
+        },
+        "iconos": [
+          {
+            "lon": -72.886,
+            "lat": -49.331,
+            "icono": "🥾",
+            "ruta": [
+              [
+                -72.886,
+                -49.331
+              ],
+              [
+                -73.0,
+                -49.29
+              ],
+              [
+                -73.15,
+                -49.305
+              ]
+            ],
+            "duracionSeg": 2.5,
+            "escala": 0.9,
+            "aparecerEn": "expedición",
+            "desaparecerEn": "canciller"
+          },
+          {
+            "lon": -73.0,
+            "lat": -49.5,
+            "icono": "🛂",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "permiso",
+            "desaparecerEn": "expedición"
+          },
+          {
+            "lon": -73.0,
+            "lat": -49.5,
+            "icono": "🛂",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "necesita",
+            "desaparecerEn": "recordó"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.15,
+            "lat": -49.305,
+            "texto": "CIRCO DE LOS ALTARES",
+            "tipo": "pin",
+            "aparecerEn": "Circo",
+            "desaparecerEn": "canciller"
+          },
+          {
+            "lon": -72.886,
+            "lat": -49.331,
+            "texto": "EL CHALTÉN",
+            "tipo": "pin",
+            "aparecerEn": "expedición",
+            "desaparecerEn": "canciller"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -73.15,
+            "lat": -49.305,
+            "radio": 110,
+            "aparecerEn": "dentro"
+          }
+        ],
+        "clave": [
+          "giro",
+          "permiso",
+          "2018",
+          "Circo",
+          "Altares",
+          "Ampuero"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy el tramo del Fitz Roy al Murallón sigue en blanco. Muchos mapas lo marcan con una leyenda: límite pendiente. Es el único pedazo sin trazar en más de cinco mil kilómetros de frontera, y está hecho de hielo que se mueve.",
+        "planos": [
+          {
+            "centro": [
+              -73.25,
+              -49.53
+            ],
+            "zoom": 8.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.3,
+              -49.55
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "en": "leyenda",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.8,
+              -41.5
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "en": "único",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.3,
+              -49.6
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "hielo",
+            "deriva": 0.4
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -73.043,
+              -49.271
+            ],
+            "hasta": [
+              -73.43,
+              -49.8
+            ],
+            "texto": "65 KM",
+            "aparecerEn": "tramo",
+            "desaparecerEn": "único"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -73.32,
+            "lat": -49.5,
+            "texto": "LÍMITE PENDIENTE",
+            "tipo": "region",
+            "aparecerEn": "pendiente",
+            "desaparecerEn": "único"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Chile",
+            "color": "rojo",
+            "etiqueta": "CHILE",
+            "etiquetaEn": [
+              -71.2,
+              -29.5
+            ],
+            "aparecerEn": "único",
+            "desaparecerEn": "hielo"
+          },
+          {
+            "pais": "Argentina",
+            "color": "verde",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -65.5,
+              -35.5
+            ],
+            "aparecerEn": "único",
+            "desaparecerEn": "hielo"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3ª",
+            "tipo": "ranking",
+            "sub": "FRONTERA MÁS LARGA DEL MUNDO",
+            "aparecerEn": "cinco",
+            "duracionSeg": 2.8
+          }
+        ],
+        "polaroid": {
+          "buscar": "Cerro Murallon ISS",
+          "archivo": "File:ISS075-E-103994 - View of Southern Patagonian Ice Field - Cerro Murallón - Murallon Glacier - Cerro Don Bosco - Cerro Tosello - Glaciar Cono (cropped).jpg",
+          "pie": "El cerro Murallón visto desde la Estación Espacial",
+          "lado": "izquierda",
+          "aparecerEn": "Murallón",
+          "duracionSeg": 3.0
+        },
+        "iconos": [
+          {
+            "lon": -73.4,
+            "lat": -49.62,
+            "icono": "❄️",
+            "ruta": [
+              [
+                -73.4,
+                -49.62
+              ],
+              [
+                -73.28,
+                -49.64
+              ]
+            ],
+            "duracionSeg": 2.0,
+            "escala": 1.1,
+            "aparecerEn": "mueve"
+          }
+        ],
+        "contexto": {
+          "texto": "EN BLANCO",
+          "dice": "blanco"
+        },
+        "clave": [
+          "Fitz",
+          "Murallón",
+          "pendiente",
+          "único",
+          "hielo",
+          "mueve"
+        ]
+      }
+    ],
+    "remate": "El tratado ya tiene la frontera. El hielo todavía no.",
+    "fuentes": [
+      {
+        "texto": "Emol (16-10-2018): El tratado de hace 20 años que dejó pendiente los límites en Campo de Hielo Sur",
+        "url": "https://www.emol.com/noticias/Nacional/2018/10/16/924088/El-tratado-de-hace-20-anos-que-dejo-pendiente-los-limites-entre-Chile-y-Argentina-en-Campo-de-Hielo-Sur.html"
+      },
+      {
+        "texto": "Ley 25.110 (Argentina): aprueba el Acuerdo para precisar el recorrido del límite desde el Monte Fitz Roy hasta el Cerro Daudet",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25110-58471/texto"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -73.25,
+        -49.8
+      ],
+      "zoomInicial": 6.6,
+      "zoomFinal": 8.6,
+      "lineas": [
+        {
+          "id": "frontera-norte",
+          "puntos": [
+            [
+              -72.586,
+              -48.615
+            ],
+            [
+              -72.593,
+              -48.791
+            ],
+            [
+              -72.744,
+              -48.914
+            ],
+            [
+              -72.921,
+              -48.953
+            ],
+            [
+              -73.018,
+              -48.999
+            ],
+            [
+              -73.093,
+              -49.097
+            ],
+            [
+              -73.108,
+              -49.135
+            ],
+            [
+              -73.183,
+              -49.238
+            ],
+            [
+              -73.043,
+              -49.271
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "línea"
+        },
+        {
+          "id": "frontera-sur",
+          "puntos": [
+            [
+              -73.43,
+              -49.8
+            ],
+            [
+              -73.54,
+              -49.877
+            ],
+            [
+              -73.569,
+              -49.921
+            ],
+            [
+              -73.5,
+              -49.978
+            ],
+            [
+              -73.482,
+              -50.022
+            ],
+            [
+              -73.529,
+              -50.14
+            ],
+            [
+              -73.345,
+              -50.243
+            ],
+            [
+              -73.284,
+              -50.333
+            ],
+            [
+              -73.277,
+              -50.425
+            ],
+            [
+              -73.263,
+              -50.557
+            ],
+            [
+              -73.201,
+              -50.626
+            ],
+            [
+              -73.187,
+              -50.716
+            ],
+            [
+              -73.1,
+              -50.775
+            ],
+            [
+              -72.939,
+              -50.685
+            ],
+            [
+              -72.755,
+              -50.616
+            ],
+            [
+              -72.661,
+              -50.669
+            ],
+            [
+              -72.507,
+              -50.601
+            ],
+            [
+              -72.323,
+              -50.642
+            ],
+            [
+              -72.341,
+              -50.716
+            ],
+            [
+              -72.337,
+              -50.761
+            ],
+            [
+              -72.262,
+              -50.836
+            ],
+            [
+              -72.276,
+              -51.008
+            ],
+            [
+              -72.337,
+              -51.037
+            ],
+            [
+              -72.395,
+              -51.092
+            ],
+            [
+              -72.381,
+              -51.16
+            ],
+            [
+              -72.258,
+              -51.231
+            ],
+            [
+              -72.312,
+              -51.298
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "línea"
+        },
+        {
+          "id": "seccion-trazada",
+          "puntos": [
+            [
+              -73.43,
+              -49.8
+            ],
+            [
+              -73.54,
+              -49.877
+            ],
+            [
+              -73.569,
+              -49.921
+            ],
+            [
+              -73.5,
+              -49.978
+            ],
+            [
+              -73.482,
+              -50.022
+            ],
+            [
+              -73.529,
+              -50.14
+            ],
+            [
+              -73.345,
+              -50.243
+            ],
+            [
+              -73.284,
+              -50.333
+            ],
+            [
+              -73.277,
+              -50.425
+            ],
+            [
+              -73.263,
+              -50.557
+            ],
+            [
+              -73.201,
+              -50.626
+            ],
+            [
+              -73.187,
+              -50.716
+            ],
+            [
+              -73.1,
+              -50.775
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "trazada",
+          "etiqueta": "LÍNEA TRAZADA"
+        },
+        {
+          "id": "seccion-pendiente",
+          "puntos": [
+            [
+              -73.043,
+              -49.271
+            ],
+            [
+              -73.25,
+              -49.53
+            ],
+            [
+              -73.43,
+              -49.8
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "Fitz",
+          "etiqueta": "SIN TRAZAR"
+        }
+      ]
+    },
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ LE FALTA UN PEDAZO?",
+      "clave": "PEDAZO",
+      "paises": [
+        "Chile",
+        "Argentina"
+      ],
+      "centro": [
+        -69.5,
+        -44.5
+      ],
+      "zoom": 3.9,
+      "pines": [
+        {
+          "lon": -73.043,
+          "lat": -49.271,
+          "texto": "FITZ ROY"
+        }
+      ],
+      "icono": "❄️"
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -73.05,
+        "lat": -50.3,
+        "texto": "EL TRATADO: LÍNEA"
+      },
+      {
+        "lon": -73.3,
+        "lat": -49.45,
+        "texto": "EL HIELO: SIN LÍNEA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -73.3,
+          -50.0
+        ],
+        "zoom": 7.9,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -73.25,
+          -49.53
+        ],
+        "zoom": 9.4,
+        "entrada": "corte",
+        "en": "hielo",
+        "deriva": 0.25
+      }
+    ],
+    "cabecera": "CAMPO DE HIELO SUR — LA LÍNEA QUE FALTA"
+  }
+}
