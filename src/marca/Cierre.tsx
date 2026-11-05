@@ -13,7 +13,7 @@ export const Cierre: React.FC = () => {
   cargarFuentes();
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
-  const velo = interpolate(frame, [0, 10], [0.3, 0.9], { extrapolateRight: 'clamp' });
+  const velo = interpolate(frame, [0, 10], [0.55, 0.94], { extrapolateRight: 'clamp' });
   const avance = interpolate(frame, [0, 0.9 * fps], [0, 1], { extrapolateRight: 'clamp' });
   const entrada = spring({ frame, fps, config: { damping: 13, stiffness: 170 } });
   const x0 = 120;

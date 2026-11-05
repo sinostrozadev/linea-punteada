@@ -123,7 +123,8 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
           <Escena bloque={b} props={props} />
         </Sequence>
       ))}
-      <Sequence from={plan.remate.desde} durationInFrames={plan.remate.frames + FRAMES_CIERRE}>
+      {/* El remate termina donde empieza el cierre: si sigue debajo, su texto se transparenta detrás de la marca. */}
+      <Sequence from={plan.remate.desde} durationInFrames={plan.remate.frames}>
         <BloqueRemate bloque={plan.remate} texto={props.remate} />
       </Sequence>
       <MarcaDeAgua />

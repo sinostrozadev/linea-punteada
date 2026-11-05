@@ -153,6 +153,19 @@ const posicionEtiqueta = (mapa: MapaFrontera, plan: Plan, i: number, frameAparec
   return mejor ?? { punto: puntoEnFraccion(pts, xy, 0.5), arriba: true, ancho: anchoEt };
 };
 
+/**
+ * ¿Hay un rótulo enorme en pantalla en este frame? Si lo hay, las etiquetas del mapa que caen en su
+ * franja se atenúan para que el rótulo no quede "agujereado" por un marcador.
+ */
+const rotuloEnPantalla = (plan: Plan, frame: number, fps: number) => {
+  const b = plan.bloques.find((x) => frame >= x.desde && frame < x.desde + x.frames);
+  if (!b || b.tipo === 'remate' || b.rotuloEn === null) return false;
+  return frame - b.desde >= Math.round(b.rotuloEn * fps);
+};
+/** Franja vertical (px) que ocupa el rótulo (ver comun/disposicion.ts: centro 880–1010 ± ~190). */
+const FRANJA_ROTULO: [number, number] = [660, 1220];
+const atenuar = (y: number, hayRotulo: boolean) => (hayRotulo && y > FRANJA_ROTULO[0] && y < FRANJA_ROTULO[1] ? 0.22 : 1);
+
 type PropsMapa = { mapa: MapaFrontera; fondo?: FondoResuelto; plan: Plan; frame: number };
 
 /**
@@ -178,6 +191,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondo, plan, frame }) => {
   // Margen en grados para descartar países fuera de vista (vista ≈ 1920 px de alto).
   const margen = Math.min(180, (1920 * 360) / (256 * Math.pow(2, cam.zoom)) + 2);
   const resaltados = (mapa.paises ?? []).length ? PAISES.filter(({ f }) => (mapa.paises ?? []).some((c) => esPais(f as never, c))) : [];
+  const hayRotulo = rotuloEnPantalla(plan, frame, fps);
   const verBordes = cam.zoom <= 9; // a escala de ciudad Natural Earth es demasiado grueso: se oculta
 
   const [x0, y0] = raster ? proy([raster.bbox[0], raster.bbox[3]]) ?? [0, 0] : [0, 0];
@@ -217,7 +231,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondo, plan, frame }) => {
         return (
           <div key={`e-${l.id}`} style={{
             position: 'absolute', left: p[0] - pos.ancho / 2, top: p[1] + (pos.arriba ? -ALTO_ETIQUETA - 14 : 14), width: pos.ancho, textAlign: 'center',
-            transform: `scale(${e})`, fontFamily: TIPO.texto, fontWeight: 800, fontSize: 30, lineHeight: `${ALTO_ETIQUETA}px`, letterSpacing: 2,
+            transform: `scale(${e})`, opacity: atenuar(p[1], hayRotulo), fontFamily: TIPO.texto, fontWeight: 800, fontSize: 30, lineHeight: `${ALTO_ETIQUETA}px`, letterSpacing: 2,
             color: COLORES_GUION[l.color], textTransform: 'uppercase', WebkitTextStroke: `6px ${PALETA.fondo}`, paintOrder: 'stroke fill', whiteSpace: 'nowrap',
           }}>{l.etiqueta}</div>
         );
@@ -233,7 +247,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondo, plan, frame }) => {
         const anchoEtiqueta = m.etiqueta.length * 27 + 30;
         const izquierda = p[0] + anchoEtiqueta > width - 40 && p[0] - anchoEtiqueta > 40;
         return (
-          <div key={`m-${i}`} style={{ position: 'absolute', left: p[0], top: p[1], transform: `scale(${e})` }}>
+          <div key={`m-${i}`} style={{ position: 'absolute', left: p[0], top: p[1], transform: `scale(${e})`, opacity: atenuar(p[1], hayRotulo) }}>
             <div style={{ position: 'absolute', left: -26 * pulso, top: -26 * pulso, width: 52 * pulso, height: 52 * pulso, borderRadius: '50%', border: `3px solid ${PALETA.coral}`, opacity: 1.6 - pulso }} />
             <div style={{ position: 'absolute', left: -13, top: -13, width: 26, height: 26, borderRadius: '50%', background: PALETA.coral, border: `4px solid ${PALETA.tinta}` }} />
             <div style={{
