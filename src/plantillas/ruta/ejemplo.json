@@ -1,0 +1,102 @@
+{
+  "plantilla": "ruta",
+  "id": "pendiente-ruta-bushby",
+  "titulo": "¿Por qué tardó 28 años en caminar de Chile a Inglaterra?",
+  "descripcion": "Karl Bushby salió de Punta Arenas el 1 de noviembre de 1998 con un carrito y un plan de doce años. Llegó a la casa de su madre en Hull el 2 de noviembre de 2026. En el medio: la selva del Darién, el estrecho de Bering cruzado sobre el hielo, casi diez años para atravesar Rusia y el mar Caspio cruzado a nado.\nLa ruta del mapa es aproximada (grandes círculos entre ciudades del recorrido) y las fechas son las publicadas por la prensa.",
+  "hashtags": ["#shorts", "#geografia", "#mapas", "#historia", "#chile", "#aventura"],
+  "props": {
+    "id": "pendiente-ruta-bushby",
+    "cabecera": "PUNTA ARENAS → HULL — A PIE",
+    "gancho": {
+      "texto": "Mira esta línea. Sale de Punta Arenas, sube por toda América, cruza a Rusia y termina en una casa de Inglaterra. Un hombre la recorrió caminando. Tardó veintiocho años. ¿Por qué tanto?",
+      "rotulo": "28 años a pie"
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que dar la vuelta al mundo a pie es cosa de piernas: eliges una ruta y no paras. Karl Bushby, un exparacaidista británico, salió de Punta Arenas el 1 de noviembre de 1998, con un carrito y un plan de doce años. La verdad es peor.",
+        "rotulo": { "texto": "12 años", "dice": "doce" },
+        "tramo": [0, 3]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos cosas: una selva sin caminos y un mar congelado. Y al final, un enemigo que no aparece en ningún mapa.",
+        "rotulo": { "texto": "Selva y hielo", "dice": "selva" },
+        "tramo": [3, 5]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la selva. En 2001 cruzó el Tapón del Darién, la selva sin carreteras entre Colombia y Panamá. Al salir, pasó dieciocho días preso por entrar sin visa. Después subió por México, Estados Unidos y Canadá, hasta Alaska.",
+        "rotulo": { "texto": "Darién", "dice": "Darién" },
+        "imagen": { "buscar": "Darien Gap jungle" },
+        "tramo": [5, 11]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el hielo. Según la agencia AP, en marzo de 2006 cruzó el estrecho de Bering caminando sobre el mar congelado, junto a Dimitri Kieffer. Fueron unas dos semanas entre bloques de hielo. Al pisar Chukotka, los guardias rusos los detuvieron por no entrar por un puesto fronterizo.",
+        "rotulo": { "texto": "Bering", "dice": "Bering" },
+        "imagen": { "buscar": "Bering Strait sea ice" },
+        "fuenteEnVoz": true,
+        "tramo": [11, 13]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el hielo le tomó dos semanas. Rusia, casi diez años. Le negaron la visa en 2012, y en 2013 le prohibieron volver durante cinco años. Siguió por Mongolia, China y Asia central, hasta que la pandemia lo dejó varado. Sin visa para rodearlo, cruzó el mar Caspio a nado: 288 kilómetros en 31 días.",
+        "rotulo": { "texto": "10 años", "dice": "diez" },
+        "tramo": [13, 22]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la línea está cerrada. Atravesó Turquía y media Europa, cruzó el canal de la Mancha a nado el 5 de octubre, y el 2 de noviembre de 2026 llegó caminando a la casa de su madre, en Hull. Casi cincuenta mil kilómetros, cuatro continentes y unos treinta países.",
+        "rotulo": { "texto": "Hull", "dice": "Hull" },
+        "tramo": [22, 29]
+      }
+    ],
+    "remate": "El hielo lo dejó pasar en dos semanas. Los papeles, en diez años.",
+    "fuentes": [
+      { "texto": "AP: Karl Bushby vuelve a casa tras 28 años y 31.000 millas (2026-11)", "url": "https://www.ajc.com/news/2026/11/karl-bushby-returns-home-to-northern-england-after-a-28-year-31000-mile-walk-around-the-world/" },
+      { "texto": "ITV News: llega a Dover tras cruzar el canal a nado (2026-10-06)", "url": "https://www.itv.com/news/calendar/2026-10-06/man-who-set-out-to-walk-globe-arrived-back-in-uk-28-years-later" },
+      { "texto": "ExplorersWeb: el último tramo de la caminata", "url": "https://explorersweb.com/karl-bushby-begins-home-stretch-of-27-year-round-the-world-walk/" },
+      { "texto": "Wikipedia: Karl Bushby (cronología, fuente secundaria)", "url": "https://en.wikipedia.org/wiki/Karl_Bushby" }
+    ],
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "oscuro",
+      "color": "amarillo",
+      "escala": 1.1,
+      "kmReales": 49890,
+      "puntos": [
+        { "lon": -70.91, "lat": -53.16, "etiqueta": "PUNTA ARENAS", "fecha": "1998-11-01" },
+        { "lon": -70.65, "lat": -33.45, "etiqueta": "SANTIAGO" },
+        { "lon": -77.04, "lat": -12.05, "etiqueta": "LIMA" },
+        { "lon": -78.47, "lat": -0.18, "etiqueta": "QUITO" },
+        { "lon": -74.07, "lat": 4.71, "etiqueta": "BOGOTÁ" },
+        { "lon": -77.7, "lat": 7.9, "etiqueta": "DARIÉN", "fecha": "2001-02" },
+        { "lon": -79.52, "lat": 8.98 },
+        { "lon": -99.13, "lat": 19.43, "etiqueta": "MÉXICO" },
+        { "lon": -110.94, "lat": 31.34, "etiqueta": "NOGALES", "fecha": "2002-04-29" },
+        { "lon": -111.9, "lat": 48.6, "fecha": "2003-01-01" },
+        { "lon": -135.05, "lat": 60.72 },
+        { "lon": -147.72, "lat": 64.84, "etiqueta": "ALASKA" },
+        { "lon": -168.09, "lat": 65.61, "etiqueta": "BERING", "fecha": "2006-03-17" },
+        { "lon": -169.81, "lat": 66.16, "etiqueta": "CHUKOTKA", "fecha": "2006-03-31" },
+        { "lon": 153.7, "lat": 67.45, "etiqueta": "SREDNEKOLYMSK", "fecha": "2011-04-25" },
+        { "lon": 129.73, "lat": 62.03, "etiqueta": "YAKUTSK" },
+        { "lon": 107.6, "lat": 51.83 },
+        { "lon": 106.92, "lat": 47.92, "etiqueta": "ULÁN BATOR", "fecha": "2017-08-08" },
+        { "lon": 87.62, "lat": 43.83, "etiqueta": "CHINA", "fecha": "2018" },
+        { "lon": 76.9, "lat": 43.24 },
+        { "lon": 69.24, "lat": 41.3, "etiqueta": "UZBEKISTÁN", "fecha": "2019-06" },
+        { "lon": 51.2, "lat": 43.65, "etiqueta": "AKTAU", "fecha": "2024-08" },
+        { "lon": 49.87, "lat": 40.41, "etiqueta": "BAKÚ", "fecha": "2024-09" },
+        { "lon": 44.79, "lat": 41.72, "etiqueta": "GEORGIA" },
+        { "lon": 28.98, "lat": 41.01, "etiqueta": "ESTAMBUL", "fecha": "2025" },
+        { "lon": 19.04, "lat": 47.5, "etiqueta": "BUDAPEST", "fecha": "2025-11-15" },
+        { "lon": 3.39, "lat": 50.6, "fecha": "2026-09-18" },
+        { "lon": 1.58, "lat": 50.87, "etiqueta": "CALAIS" },
+        { "lon": 1.31, "lat": 51.1, "etiqueta": "DOVER", "fecha": "2026-10-05" },
+        { "lon": -0.33, "lat": 53.74, "etiqueta": "HULL", "fecha": "2026-11-02" }
+      ]
+    }
+  }
+}
