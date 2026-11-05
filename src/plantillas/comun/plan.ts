@@ -4,6 +4,7 @@
  * Líneas de voz: 0 = gancho, 1..n = escenas, n+1 = remate.
  */
 import type { GuionBase } from './guion';
+import { pesoDeLectura } from './numeros';
 
 /** Pausa entre líneas de voz, en segundos (narración: algo más que en un dato rápido). */
 export const PAUSA = 0.32;
@@ -26,6 +27,8 @@ export type LineaTiempo = {
   palabras: Palabra[];
   /** true si los límites de palabra vienen del servicio TTS. */
   reales: boolean;
+  /** Mayor desfase (s) de una palabra frente a su posición esperada (ver desfaseMaximo); estado.mts puede avisar. */
+  desfaseMax?: number;
 };
 export type Tiempos = { id: string; voz: string; pausa: number; lineas: LineaTiempo[]; total: number; limitesReales: boolean };
 
@@ -37,7 +40,7 @@ export const normalizar = (p: string) => p.toLowerCase().normalize('NFD').replac
 /** Estimación de tiempos por largo de palabra, para Studio sin voz o si el servicio no da límites. */
 export const estimarPalabras = (texto: string, duracion?: number): Palabra[] => {
   const tokens = tokenizar(texto);
-  const pesos = tokens.map((t) => 0.12 + 0.055 * normalizar(t).length + (/[,.;:!?…]$/.test(t) ? 0.16 : 0));
+  const pesos = tokens.map((t) => 0.12 + 0.055 * pesoDeLectura(t) + (/[,.;:!?…]$/.test(t) ? 0.16 : 0));
   const suma = pesos.reduce((a, b) => a + b, 0);
   const total = duracion ?? suma + 0.1;
   const k = (total - 0.1) / suma;
@@ -50,6 +53,28 @@ export const estimarPalabras = (texto: string, duracion?: number): Palabra[] => 
   });
 };
 
+/**
+ * Desfase por palabra (s): cuánto se aparta su inicio de donde la pondría un reparto proporcional DENTRO de su
+ * oración (anclado en el inicio y fin reales de la oración; las cifras pesan lo que su lectura). Una cifra que
+ * llega tarde porque el alineador se desplazó se ve aquí; las pausas normales no (se compensan por oración).
+ */
+export const desfasePorPalabra = (palabras: Palabra[]): number[] => {
+  const res = new Array<number>(palabras.length).fill(0);
+  let a = 0;
+  for (let i = 0; i < palabras.length; i++) {
+    if (!/[.?!:;…]["»”)]*$/.test(palabras[i].texto) && i < palabras.length - 1) continue;
+    const grupo = palabras.slice(a, i + 1);
+    const pesos = grupo.map((p) => Math.max(1, pesoDeLectura(p.texto)) + (/[,]$/.test(p.texto) ? 3 : 0));
+    const suma = pesos.reduce((x, y) => x + y, 0);
+    const t0 = grupo[0].inicio, dur = grupo[grupo.length - 1].fin - t0;
+    let acum = 0;
+    grupo.forEach((p, n) => { res[a + n] = Math.abs(p.inicio - (t0 + (dur * acum) / suma)); acum += pesos[n]; });
+    a = i + 1;
+  }
+  return res;
+};
+export const desfaseMaximo = (palabras: Palabra[]): number => +Math.max(0, ...desfasePorPalabra(palabras)).toFixed(2);
+
 /** Textos de voz de cualquier guion del canal, en orden: gancho, escenas, remate. */
 export const textosDelGuion = (g: Pick<GuionBase, 'gancho' | 'escenas' | 'remate'>): { tipo: TipoLinea; texto: string }[] => [
   { tipo: 'gancho', texto: g.gancho.texto },
@@ -61,7 +86,7 @@ export const textosDelGuion = (g: Pick<GuionBase, 'gancho' | 'escenas' | 'remate
 export const armarTiempos = (
   id: string,
   voz: string,
-  medidas: { tipo: TipoLinea; texto: string; archivo: string; duracionAudio: number; palabras: Palabra[]; reales: boolean }[],
+  medidas: { tipo: TipoLinea; texto: string; archivo: string; duracionAudio: number; palabras: Palabra[]; reales: boolean; desfaseMax?: number }[],
 ): Tiempos => {
   let t = 0;
   const lineas: LineaTiempo[] = medidas.map((m, indice) => {

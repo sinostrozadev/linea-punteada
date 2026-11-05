@@ -14,7 +14,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { VOZ_POR_DEFECTO, type GuionBase } from '../src/plantillas/comun/guion';
-import { armarTiempos, estimarPalabras, normalizar, textosDelGuion, tokenizar, type Palabra, type Tiempos, type TipoLinea } from '../src/plantillas/comun/plan';
+import { habladasDe, alinearHabladas, VERSION_ALINEACION, type Limite } from './lib/alinear.mjs';
+import { armarTiempos, textosDelGuion, type Palabra, type Tiempos, type TipoLinea } from '../src/plantillas/comun/plan';
 
 export const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FORMATO_AUDIO = OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3;
@@ -22,7 +23,8 @@ const FORMATO_AUDIO = OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3;
 const PROSODIA = { rate: '+4%' };
 const REINTENTOS = 3;
 
-type Sidecar = { hash: string; voz: string; duracionAudio: number; palabras: Palabra[]; reales: boolean; texto: string };
+/** `limites` = WordBoundary crudos del servicio (para diagnosticar y realinear sin volver a sintetizar). */
+type Sidecar = { hash: string; voz: string; duracionAudio: number; palabras: Palabra[]; reales: boolean; texto: string; desfaseMax?: number; alineacion?: number; limites?: { texto: string; inicio: number; fin: number }[] };
 
 const hashDe = (texto: string, voz: string) => crypto.createHash('sha256').update(`${voz}\n${JSON.stringify(PROSODIA)}\n${texto}`).digest('hex').slice(0, 16);
 
@@ -33,43 +35,6 @@ export const leerProps = (ruta: string): GuionBase => {
 };
 
 export type LineaVoz = { tipo: TipoLinea; texto: string };
-
-type Limite = { Type: string; Data: { Offset: number; Duration: number; text: { Text: string } } };
-
-/** Alinea los límites del servicio (sin puntuación) con los tokens visibles del texto. */
-const alinear = (texto: string, limites: Limite[], duracionAudio: number): { palabras: Palabra[]; reales: boolean } => {
-  const tokens = tokenizar(texto);
-  const habladas = limites.filter((l) => l.Type === 'WordBoundary').map((l) => ({ texto: l.Data.text.Text, inicio: l.Data.Offset / 1e7, fin: (l.Data.Offset + l.Data.Duration) / 1e7 }));
-  if (habladas.length === 0) return { palabras: estimarPalabras(texto, duracionAudio), reales: false };
-  const palabras: Palabra[] = [];
-  let j = 0;
-  for (let i = 0; i < tokens.length; i++) {
-    const nt = normalizar(tokens[i]);
-    // El servicio a veces parte o junta tokens ("8:20", "mil-millones"): buscamos coincidencia cercana.
-    let k = -1;
-    for (let m = j; m < Math.min(habladas.length, j + 3); m++) {
-      const nh = normalizar(habladas[m].texto);
-      if (nh === nt || (nh && nt.startsWith(nh)) || (nt && nh.startsWith(nt))) { k = m; break; }
-    }
-    if (k >= 0) {
-      // Si el token visible abarca varias palabras habladas (ej. "8:20" → "8", "20"), extendemos el fin.
-      let fin = habladas[k].fin;
-      let m = k + 1;
-      let resto = nt.slice(normalizar(habladas[k].texto).length);
-      while (resto.length && m < habladas.length && resto.startsWith(normalizar(habladas[m].texto))) { resto = resto.slice(normalizar(habladas[m].texto).length); fin = habladas[m].fin; m++; }
-      palabras.push({ texto: tokens[i], inicio: habladas[k].inicio, fin });
-      j = m;
-    } else {
-      // Sin coincidencia: interpolamos entre la anterior y la siguiente conocida.
-      const prev = palabras[palabras.length - 1];
-      const sig = habladas[j];
-      const inicio = prev ? prev.fin + 0.02 : 0.1;
-      const fin = sig ? Math.max(inicio + 0.08, sig.inicio - 0.02) : Math.min(duracionAudio, inicio + 0.25);
-      palabras.push({ texto: tokens[i], inicio, fin });
-    }
-  }
-  return { palabras, reales: true };
-};
 
 const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -112,7 +77,16 @@ export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gan
       let sidecar: Sidecar | null = null;
       if (fs.existsSync(mp3) && fs.existsSync(sidecarRuta)) {
         const previo = JSON.parse(fs.readFileSync(sidecarRuta, 'utf8')) as Sidecar;
-        if (previo.hash === hash) sidecar = previo;
+        if (previo.hash === hash && previo.limites) {
+          sidecar = previo;
+          if (previo.alineacion !== VERSION_ALINEACION) {
+            // Otro algoritmo de alineación: se recalcula con los límites guardados, sin llamar al servicio.
+            const r = alinearHabladas(texto, previo.limites, previo.duracionAudio);
+            sidecar = { ...previo, palabras: r.palabras, reales: r.reales, desfaseMax: r.desfaseMax, alineacion: VERSION_ALINEACION };
+            fs.writeFileSync(sidecarRuta, JSON.stringify(sidecar, null, 2) + '\n');
+            console.log(`~ voz ${id}/${i} (${tipo}): realineada (desfase máx ${r.desfaseMax}s)`);
+          }
+        } // sin `limites` (sidecar antiguo): se vuelve a sintetizar para guardarlos
       }
       if (!sidecar) {
         let ultimoError: unknown = null;
@@ -126,8 +100,9 @@ export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gan
             const duracionAudio = meta.format.duration ?? 0;
             if (!(duracionAudio > 0)) throw new Error('mp3 sin duración válida');
             fs.renameSync(tmp, mp3);
-            const { palabras, reales } = alinear(texto, limites, duracionAudio);
-            sidecar = { hash, voz, duracionAudio: +duracionAudio.toFixed(3), palabras, reales, texto };
+            const habladas = habladasDe(limites);
+            const { palabras, reales, desfaseMax } = alinearHabladas(texto, habladas, duracionAudio);
+            sidecar = { hash, voz, duracionAudio: +duracionAudio.toFixed(3), palabras, reales, texto, desfaseMax, alineacion: VERSION_ALINEACION, limites: habladas };
             fs.writeFileSync(sidecarRuta, JSON.stringify(sidecar, null, 2) + '\n');
             console.log(`+ voz ${id}/${i} (${tipo}): ${sidecar.duracionAudio}s, ${palabras.length} palabras${reales ? '' : ' (estimadas)'}`);
           } catch (e) {
@@ -142,7 +117,7 @@ export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gan
       } else {
         console.log(`= voz ${id}/${i} (${tipo}): en caché`);
       }
-      medidas.push({ tipo, texto, archivo: `voz/${id}/${i}.mp3`, duracionAudio: sidecar.duracionAudio, palabras: sidecar.palabras, reales: sidecar.reales });
+      medidas.push({ tipo, texto, archivo: `voz/${id}/${i}.mp3`, duracionAudio: sidecar.duracionAudio, palabras: sidecar.palabras, reales: sidecar.reales, desfaseMax: sidecar.desfaseMax });
     }
   } finally {
     try { tts?.close(); } catch { /* nada */ }
