@@ -203,7 +203,7 @@ const metadatosDe = (e: EntradaConRuta): Metadatos => {
     title: e.titulo.length > 100 ? e.titulo.slice(0, 97) + '…' : e.titulo,
     description: descripcion.slice(0, 4900),
     tags,
-    categoryId: esShort ? categoriaDe(e.plantilla) : '24',
+    categoryId: esShort ? categoriaDe(e.plantilla) : '27', // largos: Educación (antes '24' Entretenimiento, herencia de Bolita Lab)
   };
 };
 
