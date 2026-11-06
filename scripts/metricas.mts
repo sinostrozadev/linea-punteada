@@ -88,7 +88,8 @@ const capturar = async (): Promise<{ estado: Resultado | string; textos: Record<
         if (MALA.test(texto)) { texto = await asegurarCanal(`https://studio.youtube.com/channel/${CANAL}/${p.ruta}`); url = (await piloto('/url')).url ?? ''; if (MALA.test(texto)) break; }
         if (p.espera.test(texto) && texto.length > 300) { await dormir(2500); texto = String(await piloto('/texto', { max: '6000' })); break; }
       }
-      const png = await piloto('/captura', {}, true);
+      // La página de monetización tiene las barras al YPP abajo del todo: captura de página completa.
+      const png = await piloto('/captura', p.nombre.includes('monetizacion') ? { full: '1' } : {}, true);
       const archivo = path.join(dir, `${p.nombre}.png`);
       let veredicto = 'ok';
       if (MALA.test(texto)) veredicto = 'canal equivocado (el cambio de canal no funcionó)';
@@ -178,7 +179,10 @@ const main = async () => {
     fecha, canalId: CANAL, generadoEn: new Date().toISOString(), zona,
     subs: canal.subs, videosPublicados: canal.videosPublicados ?? subidos.length,
     vistasTotales, // suma pública de los videos subidos (equivale a las vistas del canal salvo videos borrados)
-    vistas28d: studio.vistas28d, vistas48h: studio.vistas48h, horasTotales: studio.horas28d,
+    // Regex de Studio aún sin afinar (2026-11-06 leyó 15.000 en un canal con 2.645 vistas): se descarta lo implausible.
+    vistas28d: studio.vistas28d != null && studio.vistas28d <= vistasTotales ? studio.vistas28d : null,
+    vistas48h: studio.vistas48h != null && studio.vistas48h <= vistasTotales ? studio.vistas48h : null,
+    horasTotales: studio.horas28d,
     progresoYPP: studio.ypp,
     fuentes: { numeros: 'públicos (curl a youtube.com)', studio: 'texto de Studio, mejor esfuerzo', api: existeSecreto(ARCHIVO_TOKEN_YT) ? 'token presente (aún no usado)' : 'sin token' },
     capturas: cap.estado,
