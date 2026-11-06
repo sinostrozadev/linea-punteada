@@ -69,7 +69,7 @@ const MIN = 60_000;
 const TIEMPO_PREPARAR = 20 * MIN;
 // Shorts de 2–3 min a 60 fps: ~4× los frames de un Short de Bolita Lab.
 const TIEMPO_RENDER = parseInt(process.env.LINEA_RENDER_MAX_MIN ?? '150', 10) * MIN;
-const TIEMPO_GENERAR = 20 * MIN;
+const TIEMPO_GENERAR = 45 * MIN; // ≈ 7 min por guion con Opus (de a uno) × hasta 4 por plantilla + reintentos
 const TIEMPO_SUBIR = 4 * 60 * MIN;
 const rel = (p: string) => path.relative(RAIZ, p);
 

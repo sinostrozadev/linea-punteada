@@ -20,6 +20,8 @@ Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas
 - Documentación al día: `docs/DIRECCION-VISUAL.md` §1b, `docs/GUION.md` §4b/§7, `docs/DECISIONES.md`, `docs/ESTADO-2026-11-05.md` (cierre 02:40), `docs/ESTRATEGIA.md` con el objetivo en la primera línea.
 - `.wslconfig` con `memory=12GB` y `swap=8GB` (respaldo `.wslconfig.bak-2026-11-05`); vale al reiniciar WSL.
 
+- **Generador de guiones arreglado** (10:00): `claude -p` usa Opus por defecto y escribe de a un guion (414 s cada uno medido); el diario le da 45 min por plantilla; rotación solo `frontera` hasta revisar `lugar`/`ruta`. Primer guion nuevo en el backlog: "La guerra por un petróleo que no estaba" (0 errores de cámara, 3 avisos).
+
 ## Herramientas exploradas
 - **Piloto compartido (8777) con cambio de identidad por canal**: `/clicktexto Switch account` → youtube.com/account → clic en el canal. Funciona para subir y para capturar métricas; documentado en `navegador-piloto` e `incidentes-canal`.
 - **Captura de página completa del piloto** (`/captura` con `full=1`) para pantallas largas de Studio (monetización).

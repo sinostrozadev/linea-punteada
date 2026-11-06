@@ -29,7 +29,9 @@ const { values: opc } = parseArgs({
   options: {
     plantilla: { type: 'string' },
     n: { type: 'string', default: '5' },
-    modelo: { type: 'string' },
+    // Opus por defecto (regla de orquestación: subagentes nunca Fable). Medido 2026-11-06: 1 guion de frontera ≈ 7 min con Opus;
+    // con el modelo por defecto de la sesión (Fable) no terminaba en 10 min.
+    modelo: { type: 'string', default: 'opus' },
     schema: { type: 'string' },
     'dry-run': { type: 'boolean', default: false },
     'mostrar-prompt': { type: 'boolean', default: false },
@@ -185,7 +187,7 @@ const main = async () => {
 
   const prompt = construirPrompt(plantilla, n, schema.texto, rel(schema.ruta), ejemplos, usados);
   if (opc['mostrar-prompt']) console.log(prompt);
-  console.log(`Generando ${n} guion(es) de "${plantilla}" con claude -p (${opc.modelo ?? 'modelo por defecto'}; prompt ${prompt.length} chars, ${ejemplos.length} ejemplos, ${usados.length} títulos usados)…`);
+  console.log(`Generando ${n} guion(es) de "${plantilla}", de a uno, con claude -p (modelo ${opc.modelo}; prompt ${prompt.length} chars, ${ejemplos.length} ejemplos, ${usados.length} títulos usados)…`);
   if (opc['dry-run']) return console.log('[dry-run] no se llama a claude.');
 
   const validadores = opc.schema ? { props: null, envoltorio: null } : await cargarValidadores(plantilla, schema.ruta);
@@ -194,11 +196,12 @@ const main = async () => {
   let escritos = 0;
   const yaUsados = new Set(usados.map((t) => t.toLowerCase()));
   const rechazos: string[] = [];
-  // Hasta 2 intentos: el segundo pide solo los que faltan y le cuenta a Claude qué falló.
-  for (let intento = 1; intento <= 2 && escritos < n; intento++) {
-    const faltan = n - escritos;
-    const texto = intento === 1 ? prompt : construirPrompt(plantilla, faltan, schema.texto, rel(schema.ruta), ejemplos, [...yaUsados]) +
-      `\n\nEn el intento anterior se descartaron guiones por: ${rechazos.slice(-6).join(' || ')}. Corrígelo.`;
+  // DE A UNO: cada llamada pide un solo guion (≈ 7 min con Opus; pedir 4 juntos superaba los 10 min de tope y se perdía todo).
+  // Hasta 2 intentos por guion: el segundo le cuenta a Claude qué falló. Máximo n*2 llamadas.
+  const faltan = 1;
+  for (let intento = 1; intento <= n * 2 && escritos < n; intento++) {
+    const texto = construirPrompt(plantilla, 1, schema.texto, rel(schema.ruta), ejemplos, [...yaUsados]) +
+      (rechazos.length ? `\n\nEn el intento anterior se descartaron guiones por: ${rechazos.slice(-6).join(' || ')}. Corrígelo.` : '');
     let crudos: unknown[];
     try {
       crudos = extraerArray(await llamarClaude(texto));

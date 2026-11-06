@@ -1,0 +1,1092 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-la-guerra-por-un-petroleo-que-no-estaba",
+  "titulo": "La guerra por un petróleo que no estaba",
+  "descripcion": "Entre 1932 y 1935 Bolivia y Paraguay pelearon por el Chaco Boreal, y murieron más de 90.000 personas. Se la conoce como la guerra del petróleo, pero los historiadores discuten esa explicación: en el Chaco no había depósitos conocidos y Bolivia buscaba un puerto en el río Paraguay. Paraguay se quedó con unas tres cuartas partes del territorio en 1938 y sigue sin producción comercial de petróleo; los pozos de Standard Oil estaban al pie de los Andes, en Bolivia.\n\nFuentes:\n- Chaco War (cita a Hughes 2005 y Cote 2013): https://en.wikipedia.org/wiki/Chaco_War\n- Guerra del Chaco: https://es.wikipedia.org/wiki/Guerra_del_Chaco\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#bolivia",
+    "#paraguay"
+  ],
+  "props": {
+    "id": "pendiente-frontera-la-guerra-por-un-petroleo-que-no-estaba",
+    "cabecera": "CHACO — LA GUERRA SIN PETRÓLEO",
+    "acento": "coral",
+    "tarjetaTitulo": {
+      "texto": "¿UNA GUERRA POR UN PETRÓLEO QUE NO ESTABA?",
+      "clave": "PETRÓLEO",
+      "paises": [
+        "Bolivia",
+        "Paraguay"
+      ],
+      "centro": [
+        -61,
+        -21
+      ],
+      "zoom": 4.8,
+      "pines": [
+        {
+          "lon": -60.5,
+          "lat": -21.5,
+          "texto": "CHACO"
+        }
+      ],
+      "icono": "🛢️"
+    },
+    "gancho": {
+      "texto": "Mira este monte seco entre Bolivia y Paraguay. Aquí murieron más de 90.000 personas, y noventa años después sigue sin dar petróleo comercial. ¿Por qué pelearon?",
+      "rotulo": "SIN PETRÓLEO",
+      "planos": [
+        {
+          "centro": [
+            -60.5,
+            -21.3
+          ],
+          "zoom": 5.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -60.5,
+            -21.5
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "en": "murieron",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -60.5,
+            -21.5
+          ],
+          "zoom": 7.4,
+          "entrada": "zoom",
+          "en": "petróleo",
+          "deriva": 0.25
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Bolivia",
+          "color": "verde",
+          "etiqueta": "BOLIVIA",
+          "etiquetaEn": [
+            -64.5,
+            -18.5
+          ],
+          "aparecerEn": "Bolivia",
+          "desaparecerEn": "murieron"
+        },
+        {
+          "pais": "Paraguay",
+          "color": "rojo",
+          "etiqueta": "PARAGUAY",
+          "etiquetaEn": [
+            -57.8,
+            -23.6
+          ],
+          "aparecerEn": "Paraguay",
+          "desaparecerEn": "murieron"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "90.000",
+          "sub": "MUERTOS ENTRE LOS DOS PAÍSES",
+          "aparecerEn": "90.000",
+          "duracionSeg": 2.6
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -60.5,
+          "lat": -21.5,
+          "icono": "🛢️",
+          "escala": 1.3,
+          "tachado": true,
+          "aparecerEn": "petróleo"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "pelearon"
+      },
+      "clave": [
+        "Bolivia",
+        "Paraguay",
+        "90.000",
+        "petróleo",
+        "pelearon"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que fue la guerra del petróleo: Standard Oil empujando a Bolivia, Shell empujando a Paraguay, y dos países peleando por los pozos de otros. Suena perfecto. La verdad es más rara.",
+        "rotulo": {
+          "texto": "GUERRA DEL PETRÓLEO",
+          "dice": "petróleo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60.5,
+              -21.5
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63.2,
+              -20.6
+            ],
+            "zoom": 6.8,
+            "entrada": "paneo",
+            "en": "Standard",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -58.4,
+              -23.4
+            ],
+            "zoom": 6.8,
+            "entrada": "paneo",
+            "en": "Shell",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -60.5,
+              -21.5
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "pozos",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -64.2,
+            "lat": -19.6,
+            "texto": "STANDARD OIL",
+            "tipo": "region",
+            "aparecerEn": "Standard",
+            "desaparecerEn": "pozos"
+          },
+          {
+            "lon": -57.6,
+            "lat": -24.6,
+            "texto": "SHELL",
+            "tipo": "region",
+            "aparecerEn": "Shell",
+            "desaparecerEn": "pozos"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -63.4,
+            "lat": -20.5,
+            "icono": "💰",
+            "escala": 1,
+            "aparecerEn": "Standard",
+            "desaparecerEn": "pozos"
+          },
+          {
+            "lon": -58.2,
+            "lat": -23.5,
+            "icono": "💰",
+            "escala": 1,
+            "aparecerEn": "Shell",
+            "desaparecerEn": "pozos"
+          },
+          {
+            "lon": -60.5,
+            "lat": -21.5,
+            "icono": "🛢️",
+            "escala": 1.2,
+            "aparecerEn": "pozos",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "Standard",
+          "Shell",
+          "pozos",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un mar, un río y una línea trazada en 1938. Y al final, un giro sobre dónde estaba de verdad el petróleo.",
+        "rotulo": {
+          "texto": "MAR, RÍO, LÍNEA",
+          "dice": "línea"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63,
+              -22
+            ],
+            "zoom": 5,
+            "entrada": "zoom",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -60.5,
+              -21.5
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "en": "línea",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🌊",
+            "texto": "MAR",
+            "dice": "mar"
+          },
+          {
+            "icono": "rio",
+            "texto": "RÍO",
+            "dice": "río"
+          },
+          {
+            "icono": "tratado",
+            "texto": "LÍNEA",
+            "dice": "línea"
+          }
+        ],
+        "indicePosicion": "fila",
+        "etiquetas": [
+          {
+            "lon": -74.5,
+            "lat": -23,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "mar",
+            "desaparecerEn": "línea"
+          },
+          {
+            "lon": -57.2,
+            "lat": -22.3,
+            "texto": "RÍO PARAGUAY",
+            "tipo": "rio",
+            "rotacion": -85,
+            "aparecerEn": "río"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -63.5,
+            "lat": -20.1,
+            "icono": "❓",
+            "escala": 1.2,
+            "aparecerEn": "giro"
+          }
+        ],
+        "clave": [
+          "mar",
+          "río",
+          "línea",
+          "1938",
+          "giro"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el mar. Desde el tratado de 1904 con Chile, Bolivia no tiene costa en el Pacífico. Sus exportaciones dependen de puertos ajenos. Entonces mira al otro lado del mapa: el Chaco Boreal, un territorio casi vacío. Bolivia dice que es herencia de la colonia. Paraguay dice que lo ocupa hace décadas.",
+        "rotulo": {
+          "texto": "1904",
+          "dice": "1904"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.6,
+              -22.8
+            ],
+            "zoom": 5.8,
+            "entrada": "paneo",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -69.4,
+              -23.5
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "costa",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -66.8,
+              -21.2
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "puertos",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -60.5,
+              -21.5
+            ],
+            "zoom": 6,
+            "entrada": "paneo",
+            "en": "Chaco",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -62.6,
+              -20.6
+            ],
+            "zoom": 6.4,
+            "entrada": "paneo",
+            "en": "Bolivia#2",
+            "deriva": 0.15
+          },
+          {
+            "centro": [
+              -59,
+              -22.8
+            ],
+            "zoom": 6.4,
+            "entrada": "paneo",
+            "en": "Paraguay",
+            "deriva": 0.15
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1904",
+            "sub": "TRATADO DE BOLIVIA Y CHILE",
+            "icono": "tratado",
+            "aparecerEn": "1904",
+            "duracionSeg": 2.8
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.45,
+                -21.5
+              ],
+              [
+                -68.5,
+                -21.5
+              ],
+              [
+                -67.1,
+                -23.2
+              ],
+              [
+                -68.4,
+                -25.4
+              ],
+              [
+                -70.6,
+                -25.4
+              ]
+            ],
+            "color": "azul",
+            "etiqueta": "COSTA HASTA 1904",
+            "aparecerEn": "costa",
+            "desaparecerEn": "Chaco"
+          },
+          {
+            "poligono": [
+              [
+                -57.65,
+                -25.3
+              ],
+              [
+                -59.5,
+                -24.4
+              ],
+              [
+                -61.7,
+                -23
+              ],
+              [
+                -63.4,
+                -21.3
+              ],
+              [
+                -63.2,
+                -19.8
+              ],
+              [
+                -60.5,
+                -19
+              ],
+              [
+                -58.2,
+                -19.6
+              ],
+              [
+                -57.9,
+                -22
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "CHACO BOREAL",
+            "etiquetaEn": [
+              -60.5,
+              -21.4
+            ],
+            "aparecerEn": "Chaco",
+            "quedarse": 1
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.4,
+            "lat": -23.65,
+            "texto": "ANTOFAGASTA",
+            "tipo": "pin",
+            "aparecerEn": "costa",
+            "desaparecerEn": "puertos"
+          },
+          {
+            "lon": -65.26,
+            "lat": -19.03,
+            "texto": "BOLIVIA",
+            "tipo": "pais",
+            "aparecerEn": "Bolivia#2"
+          },
+          {
+            "lon": -57.63,
+            "lat": -25.28,
+            "texto": "ASUNCIÓN",
+            "tipo": "pin",
+            "aparecerEn": "Paraguay"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -71.4,
+            "lat": -22.9,
+            "icono": "barco",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "puertos",
+            "desaparecerEn": "Chaco"
+          }
+        ],
+        "contexto": {
+          "texto": "DOS VERSIONES",
+          "dice": "dice"
+        },
+        "clave": [
+          "1904",
+          "costa",
+          "Chaco",
+          "colonia",
+          "décadas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el río. Según el historiador Matthew Hughes, hay poca evidencia dura de que las petroleras provocaran la guerra. Según Stephen Cote, en el Chaco no había depósitos conocidos. Lo que Bolivia buscaba era un puerto en el río Paraguay. Y por él, una salida al Atlántico.",
+        "rotulo": {
+          "texto": "UN PUERTO",
+          "dice": "puerto"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -59.4,
+              -22
+            ],
+            "zoom": 6.2,
+            "entrada": "paneo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -60,
+              -21.6
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "depósitos",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -57.93,
+              -22.29
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "en": "puerto",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -58.5,
+              -29
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "en": "salida",
+            "deriva": 0.2
+          }
+        ],
+        "fuente": {
+          "texto": "M. Hughes (2005) · S. Cote (2013)",
+          "dice": "Según"
+        },
+        "etiquetas": [
+          {
+            "lon": -57.93,
+            "lat": -22.29,
+            "texto": "PUERTO CASADO",
+            "tipo": "pin",
+            "aparecerEn": "puerto",
+            "desaparecerEn": "salida"
+          },
+          {
+            "lon": -50,
+            "lat": -36,
+            "texto": "OCÉANO ATLÁNTICO",
+            "tipo": "mar",
+            "aparecerEn": "Atlántico"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -60,
+            "lat": -21.6,
+            "icono": "🛢️",
+            "escala": 1.2,
+            "tachado": true,
+            "aparecerEn": "depósitos",
+            "desaparecerEn": "puerto"
+          },
+          {
+            "lon": -57.9,
+            "lat": -22.3,
+            "icono": "barco",
+            "ruta": [
+              [
+                -57.9,
+                -22.3
+              ],
+              [
+                -57.63,
+                -25.28
+              ],
+              [
+                -58.83,
+                -27.47
+              ],
+              [
+                -60.64,
+                -32.95
+              ],
+              [
+                -58.4,
+                -34.6
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 1,
+            "aparecerEn": "salida"
+          }
+        ],
+        "contexto": {
+          "texto": "NO HABÍA DEPÓSITOS",
+          "dice": "depósitos"
+        },
+        "clave": [
+          "Hughes",
+          "Cote",
+          "depósitos",
+          "puerto",
+          "Atlántico"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la línea. La guerra empieza el 9 de septiembre de 1932, en el fortín Boquerón, y dura casi tres años. Muchos mueren de sed y de enfermedad. Las armas callan el 12 de junio de 1935. Y en 1938, un tratado firmado en Buenos Aires deja a Paraguay unas tres cuartas partes del Chaco.",
+        "rotulo": {
+          "texto": "TRES CUARTAS PARTES",
+          "dice": "cuartas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -59.6,
+              -22.4
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -59.94,
+              -22.63
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "fortín",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -60.3,
+              -22.2
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "Muchos",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -60.5,
+              -21.3
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "armas",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -60.5,
+              -20.6
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "en": "1938",
+            "deriva": 0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3 AÑOS",
+            "tipo": "linea-tiempo",
+            "desde": "1932",
+            "hasta": "1935",
+            "sub": "LA GUERRA DEL CHACO",
+            "aparecerEn": "dura",
+            "duracionSeg": 3.2
+          }
+        ],
+        "polaroid": {
+          "buscar": "Bolivian soldiers Chaco War",
+          "archivo": "File:Retratos de soldados bolivianos en la Guerra del Chaco.jpg",
+          "pie": "Soldados bolivianos en la Guerra del Chaco",
+          "lado": "derecha",
+          "aparecerEn": "sed",
+          "duracionSeg": 3.2
+        },
+        "etiquetas": [
+          {
+            "lon": -59.94,
+            "lat": -22.63,
+            "texto": "FORTÍN BOQUERÓN",
+            "tipo": "pin",
+            "aparecerEn": "Boquerón",
+            "desaparecerEn": "sed"
+          },
+          {
+            "lon": -58.5,
+            "lat": -22.6,
+            "texto": "PARAGUAY",
+            "tipo": "pais",
+            "aparecerEn": "Paraguay"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -59.2,
+            "lat": -22.6,
+            "icono": "guerra",
+            "escala": 1,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "sed"
+          }
+        ],
+        "contexto": {
+          "texto": "LA LÍNEA DE 1938",
+          "dice": "1938"
+        },
+        "clave": [
+          "1932",
+          "Boquerón",
+          "sed",
+          "1935",
+          "1938",
+          "cuartas"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: Paraguay anunció petróleo en el Chaco en 2012 y perforó el pozo Lapacho en 2014. Sin producción comercial. Los pozos de Standard Oil estaban más al oeste, al pie de los Andes, en el lado que Bolivia nunca perdió. En 1937, Bolivia nacionalizó esos pozos.",
+        "rotulo": {
+          "texto": "AL PIE DE LOS ANDES",
+          "dice": "Andes"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60.5,
+              -21.3
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -60.7,
+              -21.7
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "en": "Lapacho",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -63.52,
+              -20.05
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "oeste",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63.52,
+              -20.05
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "1937",
+            "deriva": 0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1937",
+            "sub": "BOLIVIA NACIONALIZA A STANDARD OIL",
+            "icono": "🛢️",
+            "aparecerEn": "1937",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -63.52,
+            "lat": -20.05,
+            "texto": "CAMIRI",
+            "tipo": "pin",
+            "aparecerEn": "Standard"
+          },
+          {
+            "lon": -65.4,
+            "lat": -20.4,
+            "texto": "ANDES",
+            "tipo": "region",
+            "aparecerEn": "Andes"
+          },
+          {
+            "lon": -63.45,
+            "lat": -21.26,
+            "texto": "VILLA MONTES",
+            "tipo": "pin",
+            "aparecerEn": "Bolivia"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -60.7,
+            "lat": -21.7,
+            "icono": "🛢️",
+            "escala": 1.2,
+            "tachado": true,
+            "aparecerEn": "comercial",
+            "desaparecerEn": "oeste"
+          },
+          {
+            "lon": -63.1,
+            "lat": -19.8,
+            "icono": "🛢️",
+            "escala": 1.2,
+            "aparecerEn": "Standard"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -63.52,
+            "lat": -20.05,
+            "radio": 120,
+            "aparecerEn": "Standard"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "2012",
+          "Lapacho",
+          "Standard",
+          "Andes",
+          "1937"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la línea cruza el monte en tramos casi rectos. Recién en 2009, en Buenos Aires, los presidentes de Bolivia y Paraguay firmaron el acta final del límite. Del lado paraguayo hay ganado y colonias menonitas. Al pie de los Andes, Bolivia todavía saca gas.",
+        "rotulo": {
+          "texto": "2009",
+          "dice": "2009"
+        },
+        "planos": [
+          {
+            "centro": [
+              -61.8,
+              -20.6
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -61,
+              -20.8
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "2009",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -60.03,
+              -22.35
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "paraguayo",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -63.4,
+              -21.2
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Andes",
+            "deriva": 0.25
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2009",
+            "sub": "ACTA FINAL DEL LÍMITE",
+            "icono": "tratado",
+            "aparecerEn": "2009",
+            "duracionSeg": 2.8
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -60.03,
+            "lat": -22.35,
+            "texto": "FILADELFIA",
+            "tipo": "pin",
+            "aparecerEn": "colonias"
+          },
+          {
+            "lon": -63.45,
+            "lat": -21.26,
+            "texto": "VILLA MONTES",
+            "tipo": "pin",
+            "aparecerEn": "Andes"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -59.6,
+            "lat": -22.1,
+            "icono": "🐄",
+            "escala": 1,
+            "aparecerEn": "ganado",
+            "desaparecerEn": "Andes"
+          },
+          {
+            "lon": -63.1,
+            "lat": -21,
+            "icono": "🔥",
+            "escala": 1,
+            "aparecerEn": "gas"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Filadelfia Paraguay Mennonite",
+          "pie": "Colonia menonita en el Chaco paraguayo",
+          "lado": "izquierda",
+          "aparecerEn": "menonitas",
+          "duracionSeg": 2.4
+        },
+        "clave": [
+          "2009",
+          "Bolivia",
+          "ganado",
+          "menonitas",
+          "gas"
+        ]
+      }
+    ],
+    "remate": "Paraguay ganó el Chaco y no halló petróleo. Bolivia perdió el Chaco y conservó el suyo.",
+    "remateEtiquetas": [
+      {
+        "lon": -60,
+        "lat": -21.8,
+        "texto": "GANÓ EL CHACO"
+      },
+      {
+        "lon": -63.52,
+        "lat": -20.05,
+        "texto": "CONSERVÓ EL SUYO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -61.4,
+          -21
+        ],
+        "zoom": 6.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Chaco War (cita a Hughes 2005 y Cote 2013)",
+        "url": "https://en.wikipedia.org/wiki/Chaco_War"
+      },
+      {
+        "texto": "Wikipedia: Guerra del Chaco",
+        "url": "https://es.wikipedia.org/wiki/Guerra_del_Chaco"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 8,
+      "centro": [
+        -60.5,
+        -21.5
+      ],
+      "zoomInicial": 5.6,
+      "zoomFinal": 6.8,
+      "paises": [
+        "Bolivia",
+        "Paraguay"
+      ],
+      "lineas": [
+        {
+          "id": "rio-paraguay",
+          "puntos": [
+            [
+              -58.17,
+              -20.23
+            ],
+            [
+              -57.93,
+              -22.29
+            ],
+            [
+              -57.43,
+              -23.41
+            ],
+            [
+              -57.63,
+              -25.28
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "río",
+          "etiqueta": "RÍO PARAGUAY"
+        },
+        {
+          "id": "salida-atlantico",
+          "puntos": [
+            [
+              -57.63,
+              -25.28
+            ],
+            [
+              -58.83,
+              -27.47
+            ],
+            [
+              -60.64,
+              -32.95
+            ],
+            [
+              -58.4,
+              -34.6
+            ],
+            [
+              -56.5,
+              -35.2
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "salida"
+        },
+        {
+          "id": "limite-1938",
+          "fronteraEntre": [
+            "Bolivia",
+            "Paraguay"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "1938",
+          "etiqueta": "LÍMITE DE 1938"
+        }
+      ]
+    }
+  }
+}
