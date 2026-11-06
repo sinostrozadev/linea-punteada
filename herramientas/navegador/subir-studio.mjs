@@ -136,11 +136,15 @@ if (r1.error) fallo('idioma: ' + r1.error);
 await esperar(1200);
 await llamar(`/clicktexto?texto=${q('Spanish (Latin America)')}&exacto=1`);
 await esperar(1000);
-const r2 = await llamar(`/click?sel=${q('ytcp-uploads-dialog ytcp-dropdown-trigger:has-text("People & Blogs")')}`);
-if (r2.error) fallo('categoría: ' + r2.error);
-await esperar(1200);
-await llamar(`/clicktexto?texto=${q(categoria)}&exacto=1`);
-await esperar(1000);
+// Studio recuerda la última categoría del canal: el desplegable puede venir ya en `categoria` (y no en "People & Blogs").
+const yaCategoria = await evalJs(`Array.from(document.querySelectorAll('ytcp-uploads-dialog ytcp-dropdown-trigger')).some(e=>e.innerText.trim()===${JSON.stringify(categoria)})`);
+if (!yaCategoria) {
+  const r2 = await llamar(`/click?sel=${q('ytcp-uploads-dialog ytcp-dropdown-trigger:has-text("People & Blogs")')}`);
+  if (r2.error) fallo('categoría: ' + r2.error);
+  await esperar(1200);
+  await llamar(`/clicktexto?texto=${q(categoria)}&exacto=1`);
+  await esperar(1000);
+}
 const resumen = await evalJs(`Array.from(document.querySelectorAll('ytcp-uploads-dialog ytcp-dropdown-trigger')).map(i=>i.innerText.trim().replace(/\\n/g,'=')).filter(t=>/language|Entertain|Science|Educat|People/.test(t)).join(' ; ')`);
 if (!/Spanish \(Latin America\)/.test(resumen) || !resumen.includes(categoria)) fallo('idioma/categoría: ' + resumen);
 const chips = await evalJs(`Array.from(document.querySelectorAll('ytcp-uploads-dialog ytcp-chip')).map(c=>c.innerText.trim())`);
