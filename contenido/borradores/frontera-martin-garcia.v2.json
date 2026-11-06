@@ -28,16 +28,6 @@
         },
         {
           "centro": [
-            -58.35,
-            -34.0
-          ],
-          "zoom": 9.4,
-          "entrada": "zoom",
-          "en": "Uruguay",
-          "deriva": 0.3
-        },
-        {
-          "centro": [
             -58.228,
             -34.177
           ],
@@ -254,7 +244,7 @@
             "lon": -58.12,
             "lat": -34.3,
             "icono": "✏️",
-            "escala": 1.0,
+            "escala": 1,
             "tachado": true,
             "aparecerEn": "corregir",
             "desaparecerEn": "verdad"
@@ -315,26 +305,6 @@
             "zoom": 12.4,
             "entrada": "corte",
             "deriva": 0.3
-          },
-          {
-            "centro": [
-              -58.24,
-              -34.17
-            ],
-            "zoom": 12.8,
-            "entrada": "corte",
-            "en": "puerta",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
-              -58.2513,
-              -34.1826
-            ],
-            "zoom": 14.2,
-            "entrada": "zoom",
-            "en": "cárcel",
-            "deriva": 0.25
           },
           {
             "centro": [
@@ -401,7 +371,7 @@
               -34.1826
             ],
             "zoom": 11.6,
-            "entrada": "corte",
+            "entrada": "zoom",
             "deriva": 0.3
           },
           {
@@ -412,16 +382,6 @@
             "zoom": 10.4,
             "entrada": "zoom",
             "en": "canal",
-            "deriva": 0.3
-          },
-          {
-            "centro": [
-              -58.3,
-              -34.0
-            ],
-            "zoom": 10.2,
-            "entrada": "paneo",
-            "en": "barcos",
             "deriva": 0.3
           },
           {
@@ -505,7 +465,7 @@
               ]
             ],
             "duracionSeg": 3.5,
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "barcos",
             "desaparecerEn": "Quien"
           },
@@ -513,7 +473,7 @@
             "lon": -58.27,
             "lat": -34.19,
             "icono": "👁️",
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "mira",
             "desaparecerEn": "siglos"
           }
@@ -554,16 +514,6 @@
           },
           {
             "centro": [
-              -58.25,
-              -34.183
-            ],
-            "zoom": 14.4,
-            "entrada": "zoom",
-            "en": "poder",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
               -58.33,
               -34.4
             ],
@@ -577,7 +527,7 @@
               -58.2513,
               -34.1826
             ],
-            "zoom": 14.0,
+            "zoom": 14,
             "entrada": "zoom",
             "en": "Perón",
             "deriva": 0.25
@@ -591,16 +541,6 @@
             "entrada": "paneo",
             "en": "Frondizi",
             "deriva": 0.25
-          },
-          {
-            "centro": [
-              -58.21,
-              -34.15
-            ],
-            "zoom": 11.6,
-            "entrada": "zoom",
-            "en": "Uruguay",
-            "deriva": 0.3
           }
         ],
         "foto": {
@@ -617,7 +557,7 @@
           "anio": "1930",
           "lado": "derecha",
           "aparecerEn": "Yrigoyen",
-          "duracionSeg": 3.0
+          "duracionSeg": 3
         },
         "tarjetas": [
           {
@@ -628,7 +568,7 @@
               "n": 3
             },
             "aparecerEn": "Frondizi",
-            "duracionSeg": 3.0
+            "duracionSeg": 3
           }
         ],
         "iconos": [
@@ -667,7 +607,7 @@
             "lon": -58.205,
             "lat": -34.165,
             "icono": "👀",
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "ve"
           }
         ],
@@ -712,7 +652,7 @@
               -34.7
             ],
             "zoom": 7.4,
-            "entrada": "corte",
+            "entrada": "zoom",
             "deriva": 0.3
           },
           {
@@ -743,16 +683,6 @@
             "zoom": 13.6,
             "entrada": "corte",
             "en": "Según",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
-              -58.249,
-              -34.183
-            ],
-            "zoom": 14.4,
-            "entrada": "zoom",
-            "en": "flora",
             "deriva": 0.25
           }
         ],
@@ -924,7 +854,7 @@
               -58.258,
               -34.168
             ],
-            "zoom": 14.0,
+            "zoom": 14,
             "entrada": "corte",
             "en": "Timoteo",
             "deriva": 0.25
@@ -934,30 +864,10 @@
               -58.2545,
               -34.1742
             ],
-            "zoom": 15.4,
-            "entrada": "zoom",
-            "en": "tocaron",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
-              -58.2545,
-              -34.1742
-            ],
-            "zoom": 16.0,
+            "zoom": 16,
             "entrada": "corte",
             "en": "única",
             "deriva": 0.2
-          },
-          {
-            "centro": [
-              -58.255,
-              -34.175
-            ],
-            "zoom": 13.0,
-            "entrada": "zoom",
-            "en": "agua",
-            "deriva": 0.3
           }
         ],
         "contexto": {
@@ -967,12 +877,12 @@
         "iconos": [
           {
             "lon": -58.35,
-            "lat": -34.0,
+            "lat": -34,
             "icono": "rio",
             "ruta": [
               [
                 -58.35,
-                -34.0
+                -34
               ],
               [
                 -58.3,
@@ -984,7 +894,7 @@
               ]
             ],
             "duracionSeg": 2.4,
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "barro",
             "desaparecerEn": "tocaron"
           }
@@ -1069,7 +979,7 @@
           "pie": "Martín García y Timoteo Domínguez, ya unidas",
           "lado": "izquierda",
           "aparecerEn": "años",
-          "duracionSeg": 3.0
+          "duracionSeg": 3
         },
         "resaltes": [
           {
@@ -1098,8 +1008,8 @@
               -58.2513,
               -34.1826
             ],
-            "zoom": 13.8,
-            "entrada": "corte",
+            "zoom": 13,
+            "entrada": "zoom",
             "deriva": 0.3
           },
           {
@@ -1111,16 +1021,6 @@
             "entrada": "zoom",
             "en": "faro",
             "deriva": 0.2
-          },
-          {
-            "centro": [
-              -58.248,
-              -34.186
-            ],
-            "zoom": 14.8,
-            "entrada": "paneo",
-            "en": "monte",
-            "deriva": 0.25
           },
           {
             "centro": [
@@ -1297,7 +1197,7 @@
         "Uruguay"
       ],
       "centro": [
-        -58.0,
+        -58,
         -34.4
       ],
       "zoom": 6.4,
@@ -1328,7 +1228,7 @@
           -58.2513,
           -34.179
         ],
-        "zoom": 14.4,
+        "zoom": 13.6,
         "entrada": "zoom",
         "deriva": 0.2
       },

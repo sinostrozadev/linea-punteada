@@ -35,16 +35,6 @@
           "entrada": "zoom",
           "en": "Fitz",
           "deriva": 0.3
-        },
-        {
-          "centro": [
-            -73.25,
-            -49.53
-          ],
-          "zoom": 8.6,
-          "entrada": "corte",
-          "en": "corta",
-          "deriva": 0.35
         }
       ],
       "areas": [
@@ -174,7 +164,7 @@
           {
             "centro": [
               -73.2,
-              -50.0
+              -50
             ],
             "zoom": 7.6,
             "entrada": "zoom",
@@ -186,7 +176,7 @@
               -73.25,
               -49.53
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "zoom",
             "en": "verdad",
             "deriva": 0.35
@@ -204,13 +194,13 @@
             "lon": -73.25,
             "lat": -49.6,
             "icono": "🏘️",
-            "escala": 1.0,
+            "escala": 1,
             "tachado": true,
             "aparecerEn": "pueblos",
             "desaparecerEn": "Pero"
           },
           {
-            "lon": -73.0,
+            "lon": -73,
             "lat": -49.75,
             "icono": "⚔️",
             "escala": 0.9,
@@ -281,20 +271,10 @@
           },
           {
             "centro": [
-              -73.08,
-              -49.3
-            ],
-            "zoom": 11.0,
-            "entrada": "corte",
-            "en": "regla",
-            "deriva": 0.3
-          },
-          {
-            "centro": [
               -73.3,
               -49.65
             ],
-            "zoom": 8.8,
+            "zoom": 7.4,
             "entrada": "zoom",
             "en": "mapa",
             "deriva": 0.3
@@ -304,7 +284,7 @@
               -73.15,
               -49.305
             ],
-            "zoom": 11.0,
+            "zoom": 11,
             "entrada": "zoom",
             "en": "camina",
             "deriva": 0.3
@@ -385,12 +365,12 @@
               -43.5
             ],
             "zoom": 5.4,
-            "entrada": "corte",
+            "entrada": "zoom",
             "deriva": 0.35
           },
           {
             "centro": [
-              -73.0,
+              -73,
               -49.28
             ],
             "zoom": 10.4,
@@ -417,16 +397,6 @@
             "entrada": "zoom",
             "en": "Aquí",
             "deriva": 0.35
-          },
-          {
-            "centro": [
-              -73.3,
-              -49.45
-            ],
-            "zoom": 9.6,
-            "entrada": "corte",
-            "en": "coinciden",
-            "deriva": 0.3
           }
         ],
         "tarjetas": [
@@ -444,7 +414,7 @@
           "pie": "Cumbres del macizo del Fitz Roy",
           "lado": "derecha",
           "aparecerEn": "altas",
-          "duracionSeg": 3.0
+          "duracionSeg": 3
         },
         "areas": [
           {
@@ -491,14 +461,14 @@
               ],
               [
                 -73.7,
-                -49.0
+                -49
               ]
             ],
             "color": "azul",
             "etiqueta": "17.000 KM² DE HIELO",
             "etiquetaEn": [
               -73.45,
-              -50.0
+              -50
             ],
             "aparecerEn": "17.000"
           }
@@ -535,7 +505,7 @@
             "lon": -72.75,
             "lat": -49.2,
             "icono": "montana",
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "cumbres",
             "desaparecerEn": "Andes"
           },
@@ -551,7 +521,7 @@
             "lon": -72.7,
             "lat": -49.6,
             "icono": "❄️",
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "hielo"
           }
         ],
@@ -585,10 +555,10 @@
           {
             "centro": [
               -68.8,
-              -42.0
+              -42
             ],
             "zoom": 4.8,
-            "entrada": "corte",
+            "entrada": "zoom",
             "en": "diciembre",
             "deriva": 0.3
           },
@@ -600,16 +570,6 @@
             "zoom": 7.4,
             "entrada": "zoom",
             "en": "Según",
-            "deriva": 0.3
-          },
-          {
-            "centro": [
-              -73.15,
-              -49.95
-            ],
-            "zoom": 8.4,
-            "entrada": "zoom",
-            "en": "dos",
             "deriva": 0.3
           },
           {
@@ -703,7 +663,7 @@
             "color": "verde",
             "etiqueta": "TRAZADA",
             "etiquetaEn": [
-              -73.0,
+              -73,
               -50.3
             ],
             "aparecerEn": "trazada"
@@ -798,7 +758,7 @@
             "lon": -72.5,
             "lat": -49.9,
             "icono": "tratado",
-            "escala": 1.0,
+            "escala": 1,
             "tachado": true,
             "aparecerEn": "1991",
             "desaparecerEn": "diciembre"
@@ -807,7 +767,7 @@
             "lon": -72.5,
             "lat": -50.1,
             "icono": "✍️",
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "firmaron",
             "desaparecerEn": "Según"
           },
@@ -815,7 +775,7 @@
             "lon": -72.35,
             "lat": -50.25,
             "icono": "📜",
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "25.110",
             "desaparecerEn": "dos"
           }
@@ -847,7 +807,7 @@
               -73.25,
               -49.53
             ],
-            "zoom": 9.2,
+            "zoom": 9.6,
             "entrada": "corte",
             "deriva": 0.4
           },
@@ -880,16 +840,6 @@
             "entrada": "zoom",
             "en": "Según",
             "deriva": 0.3
-          },
-          {
-            "centro": [
-              -73.35,
-              -49.65
-            ],
-            "zoom": 10.2,
-            "entrada": "corte",
-            "en": "todavía",
-            "deriva": -0.3
           }
         ],
         "tarjetas": [
@@ -1017,7 +967,7 @@
               -73.2,
               -49.5
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "zoom",
             "en": "canciller",
             "deriva": 0.3
@@ -1064,7 +1014,7 @@
                 -49.331
               ],
               [
-                -73.0,
+                -73,
                 -49.29
               ],
               [
@@ -1078,7 +1028,7 @@
             "desaparecerEn": "canciller"
           },
           {
-            "lon": -73.0,
+            "lon": -73,
             "lat": -49.5,
             "icono": "🛂",
             "escala": 1.1,
@@ -1087,7 +1037,7 @@
             "desaparecerEn": "expedición"
           },
           {
-            "lon": -73.0,
+            "lon": -73,
             "lat": -49.5,
             "icono": "🛂",
             "escala": 1.1,
@@ -1140,7 +1090,7 @@
               -73.25,
               -49.53
             ],
-            "zoom": 8.8,
+            "zoom": 7.6,
             "entrada": "corte",
             "deriva": 0.3
           },
@@ -1239,7 +1189,7 @@
           "pie": "El cerro Murallón visto desde la Estación Espacial",
           "lado": "izquierda",
           "aparecerEn": "Murallón",
-          "duracionSeg": 3.0
+          "duracionSeg": 3
         },
         "iconos": [
           {
@@ -1256,7 +1206,7 @@
                 -49.64
               ]
             ],
-            "duracionSeg": 2.0,
+            "duracionSeg": 2,
             "escala": 1.1,
             "aparecerEn": "mueve"
           }
@@ -1582,9 +1532,9 @@
       {
         "centro": [
           -73.3,
-          -50.0
+          -50
         ],
-        "zoom": 7.9,
+        "zoom": 7.6,
         "entrada": "zoom",
         "deriva": 0.2
       },

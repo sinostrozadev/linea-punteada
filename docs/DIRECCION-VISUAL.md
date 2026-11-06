@@ -24,6 +24,7 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
    12 s solo tiene un plano y una etiqueta, está muerta.
 2. **Un plano nuevo cada 3–6 s**, alternando escala: general (país) → medio (región) → cerrado (el detalle). Vuelve
    al general para explicar y al cerrado para mostrar. Los cortes caen en límite de frase (la plantilla los ajusta).
+   Cómo se pasa de un plano a otro (corte, vuelo, paneo) lo fija la **gramática de cámara** (§1b), que es obligatoria.
 3. **El detalle se ve grande.** Una cota o un triángulo de 250 m necesita zoom 16,8–17; a zoom 15 mide 50 px y no
    existe. Las áreas que en pantalla miden menos de 70 px no muestran su etiqueta.
 4. **Una idea por capa a la vez.** Máx. 1 tarjeta y 1 contexto simultáneos; etiquetas que ya cumplieron, fuera
@@ -47,6 +48,44 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
    declarar dos etiquetas a 20 m una de otra.
 9. **Variar entre videos**: `acento` (amarillo · cian · coral), `mapa.mes` (estación del satélite), iconos y
    pictogramas distintos, índice en fila o vertical.
+
+## 1b. Gramática de cámara (reglas duras; el validador rechaza el guion si no se cumplen)
+
+**Por qué.** Santiago vio "Laguna del Desierto" (2026-11-05) y dijo que tenía "muchos cambios de cámara bruscos dentro
+del mapa que dejaban perdido"; el triángulo terrestre no. Medición (tiempos reales de la voz): Laguna 43 planos en
+148 s (3,4 s/plano), 18 cortes, cuatro escenas que abren con un corte seco a un plano general centrado a 270–480 km del
+anterior, y zoom en **diente de sierra** (10 → 11,4 → 9,4 → 10,4 → 11,4…: ±0,6 a ±2,3 niveles ida y vuelta sobre el
+mismo centro). Triángulo: 31 planos en 132 s (4,2 s/plano); cuando cambia de lugar **vuela**; cuando corta, corta al
+mismo zoom, acerca de golpe sobre el mismo sujeto o salta ≥ 3 niveles sobre el mismo eje. Con estas reglas el triángulo
+da **0 fallas** y Laguna **24** (justo en los puntos que Santiago percibió).
+
+**Cómo se mide.** Se compara cada plano con el **anterior** tal como estaba en pantalla al final (su `zoom + deriva`;
+deriva por defecto +0,3). Δz = zoom nuevo − zoom final anterior. El encuadre a zoom z mide 1080 × 1920 px con
+`360 / (256·2^z)` grados por px. "**A la vista**" = el centro nuevo cae en el 90 % central del cuadro anterior.
+"**Cuadros**" = distancia entre centros medida en anchos (o altos) del cuadro anterior. En `frontera` una escena sin
+`planos` hereda el último; en `lugar`/`ruta` vuelve a la cámara automática, así que su siguiente plano no se compara.
+
+| regla | qué exige | umbral |
+|---|---|---|
+| **R1 · el corte tiene una razón** | Un `corte` solo es válido si es **(a) mismo encuadre**: \|Δz\| ≤ 0,7 y el centro nuevo a la vista; **(b) golpe al sujeto**: acerca entre +0,7 y +3 con el centro nuevo a ≤ 0,6 medio cuadro del centro (en el eje); **(c) cambio de escala claro**: \|Δz\| ≥ 3 (general ↔ detalle, como Ñerd). Un corte que **aleja** entre 0,7 y 3 niveles es diente de sierra: prohibido (usa `zoom`, mantén el zoom o aleja ≥ 3). Un `paneo` no cambia la escala más de ±1,5. | 0,7 · 3 · 0,6 · 1,5 |
+| **R2 · fuera de cuadro se vuela** | Si el centro nuevo **no estaba a la vista**, la entrada es `zoom` (vuelo) o `paneo` si es adyacente (≤ 1,5 cuadros). Nunca `corte`. Única excepción: el corte que aleja ≥ 3 niveles **sobre el mismo lugar** (el general se centra a ≤ 0,85 cuadros del plano anterior). Un general "de reorientación" centrado en OTRO lugar es un cambio de lugar: se vuela. | 0,9 · 1,5 · 0,85 |
+| **R3 · sin diente de sierra** | Sobre el mismo lugar (centro a la vista), no se acerca y aleja en tramos medianos (0,5 ≤ \|Δz\| < 3) seguidos: **(a)** un corte que acerca de golpe no va pegado a un tramo mediano en sentido contrario (antes o después); **(b)** nunca tres tramos medianos alternando (acercar → alejar → acercar). Los vuelos entre lugares distintos (ruta) no cuentan. | 0,5 · 3 |
+| **R4 · duración** | Ningún plano < 1,0 s (parpadeo); nunca dos planos seguidos < 2,0 s (ráfaga); promedio del video ≥ 3,8 s/plano → **máx. 39 planos en 150 s** (con tiempos estimados por palabras, que salen ~7 % largos: ≥ 4,1 s, máx. 36 en 150 s; los mínimos por plano se aplican con 15 % de holgura). El primer y el último plano no cuentan para los mínimos. | 1,0 · 2,0 · 3,8 |
+| **R5 · cambio de escena** | Es R1/R2 aplicado al **primer plano de cada escena**: si la escena cambia de lugar, se entra volando (`zoom`) o se abre con un general centrado donde estábamos y desde ahí se vuela; el corte seco entre escenas solo si el lugar es el mismo. | (los de R1/R2) |
+
+**Recetas.**
+- *Ir a otro lugar:* `{ "entrada": "zoom" }` al lugar nuevo (la plantilla vuela alejándose y acercándose). Si está lejos,
+  un general intermedio también con `zoom`.
+- *Mostrar el detalle:* corte de +3 o más sobre un punto que se ve (o `zoom` si no está centrado).
+- *Volver al contexto:* corte de −3 o más centrado **en el mismo sitio**, o `zoom` hacia afuera.
+- *Ritmo sin mareo:* entre dos planos del mismo sitio, cambia la capa (área, etiqueta, cota, tarjeta), no el zoom; la
+  `deriva` y los micro-movimientos (§1.7) ya mueven la cámara.
+
+**Verificar.** `npx tsx scripts/camara.mts <guion.json>` imprime la tabla de planos (línea, t0, duración, `en`,
+zoom → zoom final, Δz, distancia, cuadro, entrada) y las violaciones. Con un `salida/trabajo/<id>.props.json` usa los
+tiempos reales de la voz. El `superRefine` de las 3 plantillas (`src/plantillas/comun/camara.ts`) rechaza el guion
+con mensajes del tipo `gramática de cámara R1 · escenas[3].planos[0]: corte con Δzoom -1,3 (diente de sierra…) → usa
+entrada "zoom", deja el zoom en 11,5 o aleja hasta ≤ 8,5`.
 
 ## 2. Nivel guion
 
@@ -85,7 +124,9 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
   { "centro": [-70.3773, -18.3512], "zoom": 17, "entrada": "corte", "en": "Entre", "deriva": -0.25 }
 ]
 ```
-- `entrada`: `corte` (seco, lo normal) · `zoom` (vuelo con easing largo; acercarse o alejarse) · `paneo` (deslizarse).
+- `entrada`: `corte` (seco) · `zoom` (vuelo con easing largo; acercarse o alejarse) · `paneo` (deslizarse). Cuál va
+  en cada caso lo dice la **gramática de cámara** (§1b): corte solo al mismo encuadre, golpe al sujeto o ±3 niveles
+  sobre el mismo eje; a otro lugar, siempre `zoom`.
 - `en` (palabra o s) o `duracionSeg` del anterior; sin ninguno, se reparten en límites de frase.
 - `deriva`: zoom lento dentro del plano (por defecto +0,3; negativo = se aleja). Nada queda quieto.
 - Una escena sin `planos` sigue con el último. Si alguna escena usa planos, el gancho debe declarar ≥ 1.
@@ -189,5 +230,5 @@ remate y en el cierre; las etiquetas del mapa lo esquivan.
 | remate | cerrado → corte | `remateEtiquetas` (la simetría del remate hablado), luego 0,8 s de línea punteada |
 
 ## 5. Verificar
-`npx tsx scripts/preparar-frontera.mts <guion>` (valida palabras, índices y planos) → render a `--scale=0.5` →
+`npx tsx scripts/camara.mts <guion>` (gramática de cámara, §1b) → `npx tsx scripts/preparar-frontera.mts <guion>` (valida palabras, índices y planos) → render a `--scale=0.5` →
 `npx tsx scripts/hoja-contacto.mts <mp4> <hoja.jpg> --cada 2` y mirarla junto a `salida/referentes/nerd/*.jpg`.

@@ -10,6 +10,7 @@
  */
 import { z } from 'zod';
 import { CamposBase, Escena, ImagenEscena, ImagenResuelta, envoltorioDe, validarFormula } from '../comun/guion';
+import { validarCamara } from '../comun/camara';
 import { CamposV2, DireccionMapaV2, validarDireccionV2 } from './compartido/direccionMapa';
 
 const LonLat = z.tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)]);
@@ -89,6 +90,8 @@ export const CamposLugar = CamposBase.extend({
 export const GuionLugar = CamposLugar.superRefine((g, ctx) => {
   validarFormula(g, ctx);
   validarDireccionV2(g, ctx);
+  // Gramática de cámara (docs/DIRECCION-VISUAL.md §1b): una línea sin planos vuelve a la cámara automática.
+  validarCamara(g, ctx, { continua: false });
   const n = g.escenas.length;
   (g.mapa.marcadores ?? []).forEach((m, i) => {
     if (m.aparecerEn >= n) ctx.addIssue({ code: 'custom', path: ['mapa', 'marcadores', i, 'aparecerEn'], message: `escena ${m.aparecerEn} no existe (hay ${n})` });

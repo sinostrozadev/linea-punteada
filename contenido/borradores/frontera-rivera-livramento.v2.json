@@ -31,27 +31,17 @@
             -55.538,
             -30.897
           ],
-          "zoom": 13.0,
+          "zoom": 13,
           "entrada": "zoom",
           "en": "ciudad",
           "deriva": 0.3
         },
         {
           "centro": [
-            -55.5352,
-            -30.8963
-          ],
-          "zoom": 15.6,
-          "entrada": "zoom",
-          "en": "plaza",
-          "deriva": 0.25
-        },
-        {
-          "centro": [
             -55.5351,
             -30.8963
           ],
-          "zoom": 17.0,
+          "zoom": 17,
           "entrada": "corte",
           "en": "parque",
           "deriva": 0.2
@@ -63,7 +53,7 @@
           "color": "verde",
           "etiqueta": "URUGUAY",
           "etiquetaEn": [
-            -56.0,
+            -56,
             -32.7
           ],
           "aparecerEn": "Uruguay",
@@ -165,20 +155,10 @@
           },
           {
             "centro": [
-              -55.5351,
-              -30.8963
-            ],
-            "zoom": 17.0,
-            "entrada": "zoom",
-            "en": "Aquí",
-            "deriva": -0.3
-          },
-          {
-            "centro": [
               -55.538,
               -30.898
             ],
-            "zoom": 14.8,
+            "zoom": 13.6,
             "entrada": "zoom",
             "en": "verdad",
             "deriva": 0.3
@@ -264,28 +244,8 @@
               -30.897
             ],
             "zoom": 13.6,
-            "entrada": "corte",
-            "deriva": 0.3
-          },
-          {
-            "centro": [
-              -55.54,
-              -30.894
-            ],
-            "zoom": 15.2,
             "entrada": "zoom",
-            "en": "línea",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
-              -55.5352,
-              -30.8963
-            ],
-            "zoom": 16.6,
-            "entrada": "corte",
-            "en": "plaza",
-            "deriva": 0.25
+            "deriva": 0.3
           },
           {
             "centro": [
@@ -357,8 +317,8 @@
               -55.75,
               -30.97
             ],
-            "zoom": 9.0,
-            "entrada": "corte",
+            "zoom": 9,
+            "entrada": "zoom",
             "deriva": 0.3
           },
           {
@@ -366,7 +326,7 @@
               -55.8,
               -30.98
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "zoom",
             "en": "seca",
             "deriva": 0.3
@@ -383,20 +343,10 @@
           },
           {
             "centro": [
-              -55.539,
-              -30.898
-            ],
-            "zoom": 14.0,
-            "entrada": "corte",
-            "en": "Rivera",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
               -55.533,
               -30.892
             ],
-            "zoom": 14.0,
+            "zoom": 14,
             "entrada": "paneo",
             "en": "Santana",
             "deriva": 0.25
@@ -530,7 +480,7 @@
               -55.538,
               -30.898
             ],
-            "zoom": 13.4,
+            "zoom": 14,
             "entrada": "corte",
             "deriva": 0.3
           },
@@ -556,33 +506,13 @@
           },
           {
             "centro": [
-              -55.5351,
-              -30.8963
-            ],
-            "zoom": 17.0,
-            "entrada": "corte",
-            "en": "obelisco",
-            "deriva": 0.2
-          },
-          {
-            "centro": [
               -55.5345,
               -30.8958
             ],
-            "zoom": 17.0,
+            "zoom": 17,
             "entrada": "paneo",
             "en": "Brasil",
             "deriva": 0.2
-          },
-          {
-            "centro": [
-              -55.5355,
-              -30.8966
-            ],
-            "zoom": 16.6,
-            "entrada": "corte",
-            "en": "reja",
-            "deriva": 0.25
           }
         ],
         "tarjetas": [
@@ -601,7 +531,7 @@
           "anio": "1943",
           "lado": "izquierda",
           "aparecerEn": "Vargas",
-          "duracionSeg": 3.0
+          "duracionSeg": 3
         },
         "areas": [
           {
@@ -743,18 +673,8 @@
               -30.8894
             ],
             "zoom": 14.4,
-            "entrada": "corte",
+            "entrada": "zoom",
             "en": "Livramento",
-            "deriva": 0.25
-          },
-          {
-            "centro": [
-              -55.5408,
-              -30.9001
-            ],
-            "zoom": 14.4,
-            "entrada": "paneo",
-            "en": "Rivera",
             "deriva": 0.25
           },
           {
@@ -766,16 +686,6 @@
             "entrada": "corte",
             "en": "uruguayo",
             "deriva": 0.2
-          },
-          {
-            "centro": [
-              -55.5318,
-              -30.8894
-            ],
-            "zoom": 14.4,
-            "entrada": "paneo",
-            "en": "lado",
-            "deriva": 0.25
           }
         ],
         "tarjetas": [
@@ -823,7 +733,7 @@
               ]
             ],
             "duracionSeg": 1.8,
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "documento",
             "desaparecerEn": "uruguayo"
           },
@@ -866,7 +776,7 @@
               ]
             ],
             "duracionSeg": 1.8,
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "mismo"
           }
         ],
@@ -908,7 +818,7 @@
           },
           {
             "centro": [
-              -56.0,
+              -56,
               -32.5
             ],
             "zoom": 6.8,
@@ -921,19 +831,9 @@
               -55.3,
               -31.3
             ],
-            "zoom": 8.0,
+            "zoom": 8,
             "entrada": "zoom",
             "en": "portugués",
-            "deriva": 0.3
-          },
-          {
-            "centro": [
-              -56.0,
-              -32.6
-            ],
-            "zoom": 6.6,
-            "entrada": "zoom",
-            "en": "español",
             "deriva": 0.3
           }
         ],
@@ -980,7 +880,7 @@
             "color": "verde",
             "etiqueta": "URUGUAY",
             "etiquetaEn": [
-              -56.0,
+              -56,
               -32.9
             ],
             "aparecerEn": "Uruguay",
@@ -1078,7 +978,7 @@
             "color": "amarillo",
             "etiqueta": "PORTUGUÉS DEL URUGUAY",
             "etiquetaEn": [
-              -55.0,
+              -55,
               -31.6
             ],
             "aparecerEn": "portugués"
@@ -1118,16 +1018,6 @@
           },
           {
             "centro": [
-              -55.534,
-              -30.8955
-            ],
-            "zoom": 16.6,
-            "entrada": "paneo",
-            "en": "Livramento",
-            "deriva": 0.2
-          },
-          {
-            "centro": [
               -55.5362,
               -30.897
             ],
@@ -1141,7 +1031,7 @@
               -55.5351,
               -30.8963
             ],
-            "zoom": 17.0,
+            "zoom": 17,
             "entrada": "zoom",
             "en": "obelisco",
             "deriva": 0.2
@@ -1166,8 +1056,8 @@
                 -30.895
               ]
             ],
-            "duracionSeg": 3.0,
-            "escala": 1.0,
+            "duracionSeg": 3,
+            "escala": 1,
             "aparecerEn": "salir",
             "desaparecerEn": "volver"
           },
@@ -1198,7 +1088,7 @@
               ]
             ],
             "duracionSeg": 2.5,
-            "escala": 1.0,
+            "escala": 1,
             "aparecerEn": "volver"
           },
           {
@@ -1402,7 +1292,7 @@
           -55.5351,
           -30.8963
         ],
-        "zoom": 17.0,
+        "zoom": 17,
         "entrada": "corte",
         "en": "plaza",
         "deriva": 0.2

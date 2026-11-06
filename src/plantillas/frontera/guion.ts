@@ -9,6 +9,7 @@
 import { z } from 'zod';
 import { CamposBase, Escena, envoltorioDe, validarFormula } from '../comun/guion';
 import { AcentoVideo, DireccionComun, IconoNombre, ItemIndice, Momento, Quedarse } from '../comun/direccion';
+import { validarCamara } from '../comun/camara';
 
 const LonLat = z.tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)]);
 
@@ -240,6 +241,8 @@ export const CamposFrontera = CamposBase.extend({
 /** Props de la plantilla `frontera` (lo que viaja en `props` del envoltorio). */
 export const GuionFrontera = CamposFrontera.superRefine((g, ctx) => {
   validarFormula(g, ctx);
+  // Gramática de cámara (docs/DIRECCION-VISUAL.md §1b): en frontera la cámara es continua (una línea sin planos hereda el último).
+  validarCamara(g, ctx, { continua: true });
   const n = g.escenas.length;
   g.mapa.lineas.forEach((l, i) => {
     if (l.dibujarEn >= n) ctx.addIssue({ code: 'custom', path: ['mapa', 'lineas', i, 'dibujarEn'], message: `escena ${l.dibujarEn} no existe (hay ${n})` });
