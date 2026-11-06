@@ -1,0 +1,946 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-la-frontera-mas-vigilada-de-europa-se",
+  "titulo": "La frontera más vigilada de Europa se abrió por un papel mal leído",
+  "descripcion": "El 9 de noviembre de 1989, Günter Schabowski leyó en vivo un reglamento de viajes que no había visto discutir. Le preguntaron desde cuándo regía y contestó: inmediatamente, sin demora. El papel exigía pedir visa y debía regir desde el día siguiente, pero esa noche miles de personas llegaron a los pasos de Berlín. Hacia las 23:30, sin órdenes, el oficial Harald Jäger abrió el de Bornholmer Strasse.\n\nFuentes:\n- Stiftung Berliner Mauer (Fundación del Muro de Berlín): https://www.stiftung-berliner-mauer.de/en\n- Chronik der Mauer (Crónica del Muro): https://www.chronik-der-mauer.de/en/\n- Encyclopaedia Britannica: Berlin Wall: https://www.britannica.com/topic/Berlin-Wall\n\nEl trazado del Muro y de la antigua frontera en el mapa es aproximado.\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#berlin"
+  ],
+  "props": {
+    "id": "pendiente-frontera-la-frontera-mas-vigilada-de-europa-se",
+    "cabecera": "BERLÍN — EL PAPEL QUE ABRIÓ EL MURO",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿QUIÉN ABRIÓ EL MURO DE BERLÍN?",
+      "clave": "ABRIÓ",
+      "paises": [
+        "Germany"
+      ],
+      "centro": [
+        11.5,
+        51.8
+      ],
+      "zoom": 4.8,
+      "pines": [
+        {
+          "lon": 13.38,
+          "lat": 52.52,
+          "texto": "BERLÍN"
+        }
+      ],
+      "icono": "📄"
+    },
+    "gancho": {
+      "texto": "Mira este punto en medio de Alemania del Este. Es Berlín Occidental, una ciudad encerrada por un muro. Y la frontera más vigilada de Europa se abrió una noche por un papel mal leído. ¿Cómo?",
+      "rotulo": "MAL LEÍDO",
+      "planos": [
+        {
+          "centro": [
+            11.2,
+            51.6
+          ],
+          "zoom": 5.8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            13.28,
+            52.5
+          ],
+          "zoom": 9.4,
+          "entrada": "zoom",
+          "en": "Berlín",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            12.4,
+            51.9
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "en": "frontera",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              10.9,
+              54
+            ],
+            [
+              11.1,
+              53.6
+            ],
+            [
+              11.55,
+              53.05
+            ],
+            [
+              10.95,
+              52.85
+            ],
+            [
+              10.85,
+              52.3
+            ],
+            [
+              10.6,
+              51.75
+            ],
+            [
+              10.2,
+              51.3
+            ],
+            [
+              10.05,
+              50.7
+            ],
+            [
+              10.7,
+              50.3
+            ],
+            [
+              12.2,
+              50.3
+            ],
+            [
+              14.8,
+              51
+            ],
+            [
+              14.6,
+              52.5
+            ],
+            [
+              14.25,
+              53.9
+            ]
+          ],
+          "color": "rojo",
+          "etiqueta": "ALEMANIA DEL ESTE",
+          "etiquetaEn": [
+            12.6,
+            51.3
+          ],
+          "aparecerEn": "Alemania",
+          "desaparecerEn": "Berlín"
+        },
+        {
+          "poligono": [
+            [
+              13.1,
+              52.5
+            ],
+            [
+              13.12,
+              52.59
+            ],
+            [
+              13.25,
+              52.66
+            ],
+            [
+              13.37,
+              52.63
+            ],
+            [
+              13.4,
+              52.56
+            ],
+            [
+              13.41,
+              52.53
+            ],
+            [
+              13.45,
+              52.5
+            ],
+            [
+              13.5,
+              52.47
+            ],
+            [
+              13.45,
+              52.41
+            ],
+            [
+              13.3,
+              52.38
+            ],
+            [
+              13.15,
+              52.4
+            ],
+            [
+              13.1,
+              52.42
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "BERLÍN OCCIDENTAL",
+          "aparecerEn": "Occidental",
+          "quedarse": 2
+        }
+      ],
+      "iconos": [
+        {
+          "lon": 13.28,
+          "lat": 52.5,
+          "icono": "📄",
+          "escala": 1.2,
+          "aparecerEn": "papel"
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "Occidental",
+        "muro",
+        "vigilada",
+        "papel"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que el Muro cayó a martillazos, con la multitud arriba y los guardias rendidos. Las fotos son reales, pero llegaron después. Esa noche, lo primero que abrió la frontera fue una frase dicha ante las cámaras. La verdad es más rara.",
+        "rotulo": {
+          "texto": "A MARTILLAZOS",
+          "dice": "martillazos"
+        },
+        "planos": [
+          {
+            "centro": [
+              13.378,
+              52.516
+            ],
+            "zoom": 12,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 12.5,
+            "entrada": "corte",
+            "en": "Esa",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.3,
+              52.5
+            ],
+            "zoom": 9.9,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 13.378,
+            "lat": 52.516,
+            "texto": "PUERTA DE BRANDEBURGO",
+            "tipo": "pin",
+            "aparecerEn": "Muro",
+            "desaparecerEn": "Esa"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 13.39,
+            "lat": 52.518,
+            "icono": "🔨",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "martillazos",
+            "desaparecerEn": "Esa"
+          },
+          {
+            "lon": 13.39,
+            "lat": 52.511,
+            "icono": "🎤",
+            "escala": 1.1,
+            "aparecerEn": "frase",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "foto": {
+          "buscar": "Berlin Wall November 1989",
+          "pie": "EL MURO DE BERLÍN · NOVIEMBRE DE 1989",
+          "aparecerEn": "fotos",
+          "duracionSeg": 2.6
+        },
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "martillazos",
+          "fotos",
+          "frase",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una isla, un papel y una pregunta. Y al final, alguien tuvo que decidir solo.",
+        "rotulo": {
+          "texto": "ISLA, PAPEL, PREGUNTA",
+          "dice": "pregunta"
+        },
+        "planos": [
+          {
+            "centro": [
+              13.3,
+              52.5
+            ],
+            "zoom": 10.3,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 12.5,
+            "entrada": "zoom",
+            "en": "papel",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.398,
+              52.554
+            ],
+            "zoom": 12.9,
+            "entrada": "paneo",
+            "en": "alguien",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "isla",
+            "texto": "ISLA",
+            "dice": "isla"
+          },
+          {
+            "icono": "📄",
+            "texto": "PAPEL",
+            "dice": "papel"
+          },
+          {
+            "icono": "🎤",
+            "texto": "PREGUNTA",
+            "dice": "pregunta"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "isla",
+          "papel",
+          "pregunta",
+          "solo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la isla. Berlín Occidental queda a unos 150 kilómetros de Alemania Occidental, en medio de Alemania del Este. En agosto de 1961 la rodean. Según la Fundación del Muro de Berlín, son unos 155 kilómetros de muro, y al menos 140 personas mueren junto a él.",
+        "rotulo": {
+          "texto": "155 KM",
+          "dice": "155"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              12,
+              52.2
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.28,
+              52.5
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "en": "agosto",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.28,
+              52.5
+            ],
+            "zoom": 10.4,
+            "entrada": "corte",
+            "en": "Según",
+            "deriva": 0.3
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              11,
+              52.25
+            ],
+            "hasta": [
+              13.1,
+              52.5
+            ],
+            "texto": "150 KM",
+            "aparecerEn": "150",
+            "desaparecerEn": "agosto"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1961",
+            "sub": "AGOSTO · EMPIEZA EL CERCO",
+            "aparecerEn": "1961",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "Stiftung Berliner Mauer · Fundación del Muro de Berlín",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "UNA CIUDAD ISLA",
+          "dice": "isla"
+        },
+        "clave": [
+          "isla",
+          "150",
+          "1961",
+          "155",
+          "140"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el papel. El 9 de noviembre de 1989, con miles de alemanes del Este escapando por Hungría y Checoslovaquia, el gobierno redacta un reglamento nuevo de viajes. Egon Krenz se lo pasa a Günter Schabowski, su vocero, justo antes de una conferencia de prensa. Schabowski no estuvo cuando lo discutieron.",
+        "rotulo": {
+          "texto": "REGLAMENTO",
+          "dice": "reglamento"
+        },
+        "planos": [
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              15.5,
+              50.3
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "en": "miles",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "Egon",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 13.6,
+            "entrada": "corte",
+            "en": "Schabowski#2",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1989",
+            "sub": "9 DE NOVIEMBRE · REGLAMENTO",
+            "icono": "tratado",
+            "aparecerEn": "1989",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 19.3,
+            "lat": 47.2,
+            "texto": "HUNGRÍA",
+            "tipo": "pais",
+            "aparecerEn": "Hungría",
+            "desaparecerEn": "Egon"
+          },
+          {
+            "lon": 15.6,
+            "lat": 49.8,
+            "texto": "CHECOSLOVAQUIA",
+            "tipo": "pais",
+            "aparecerEn": "Checoslovaquia",
+            "desaparecerEn": "Egon"
+          },
+          {
+            "lon": 13.39,
+            "lat": 52.511,
+            "texto": "CENTRO DE PRENSA",
+            "tipo": "pin",
+            "aparecerEn": "conferencia"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Günter Schabowski 1989",
+          "pie": "Günter Schabowski, vocero del gobierno de Alemania del Este",
+          "anio": "1989",
+          "lado": "derecha",
+          "aparecerEn": "Schabowski",
+          "duracionSeg": 3.6
+        },
+        "contexto": {
+          "texto": "NO ESTUVO",
+          "dice": "estuvo"
+        },
+        "clave": [
+          "1989",
+          "Hungría",
+          "reglamento",
+          "Schabowski",
+          "discutieron"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la pregunta. Casi a las siete de la tarde, en vivo, Schabowski lee el papel. Un periodista pregunta desde cuándo rige. Él revuelve sus hojas y contesta: inmediatamente, sin demora. Las noticias de la noche dicen que el Muro está abierto.",
+        "rotulo": {
+          "texto": "SIN DEMORA",
+          "dice": "demora"
+        },
+        "planos": [
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 14,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 14.3,
+            "entrada": "corte",
+            "en": "periodista",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              13.38,
+              52.53
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "en": "noticias",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "EN VIVO",
+            "sub": "9 DE NOVIEMBRE, 18:53",
+            "aparecerEn": "siete",
+            "duracionSeg": 2.4
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 13.39,
+            "lat": 52.513,
+            "icono": "🎤",
+            "escala": 1.2,
+            "aparecerEn": "periodista",
+            "desaparecerEn": "noticias"
+          },
+          {
+            "lon": 13.38,
+            "lat": 52.545,
+            "icono": "📺",
+            "escala": 1.1,
+            "aparecerEn": "noticias"
+          }
+        ],
+        "contexto": {
+          "texto": "¿DESDE CUÁNDO?",
+          "dice": "cuándo"
+        },
+        "clave": [
+          "siete",
+          "periodista",
+          "inmediatamente",
+          "abierto"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el papel no abría nada. Pedía solicitar visa, y debía regir desde el día siguiente. Pero miles ya esperan en el paso de Bornholmer Strasse y nadie da órdenes. Hacia las once y media de la noche, el oficial de la Stasi Harald Jäger decide solo y manda abrir.",
+        "rotulo": {
+          "texto": "SIN ÓRDENES",
+          "dice": "órdenes"
+        },
+        "planos": [
+          {
+            "centro": [
+              13.39,
+              52.511
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.398,
+              52.554
+            ],
+            "zoom": 13,
+            "entrada": "paneo",
+            "en": "miles",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.398,
+              52.554
+            ],
+            "zoom": 14.2,
+            "entrada": "corte",
+            "en": "Harald",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 13.398,
+            "lat": 52.554,
+            "texto": "BORNHOLMER STRASSE",
+            "tipo": "pin",
+            "aparecerEn": "Bornholmer",
+            "quedarse": 1
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 13.39,
+            "lat": 52.513,
+            "icono": "📄",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "abría",
+            "desaparecerEn": "miles"
+          },
+          {
+            "lon": 13.402,
+            "lat": 52.56,
+            "icono": "👥",
+            "escala": 1.1,
+            "aparecerEn": "miles"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 13.398,
+            "lat": 52.554,
+            "radio": 120,
+            "aparecerEn": "abrir"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "CASI MEDIANOCHE",
+            "sub": "23:30 · LA PRIMERA BARRERA SE ABRE",
+            "aparecerEn": "Hacia",
+            "duracionSeg": 2.8
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "visa",
+          "siguiente",
+          "Bornholmer",
+          "Jäger",
+          "abrir"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy casi no queda Muro en pie. Una doble fila de adoquines marca su trazado por el centro de Berlín, y la gente la pisa sin mirar. En Bornholmer, el puente sigue ahí, junto a una plaza que lleva el nombre de esa fecha: 9 de noviembre.",
+        "rotulo": {
+          "texto": "DOBLE FILA",
+          "dice": "adoquines"
+        },
+        "planos": [
+          {
+            "centro": [
+              13.38,
+              52.52
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.3755,
+              52.5095
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "en": "adoquines",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              13.398,
+              52.554
+            ],
+            "zoom": 13.4,
+            "entrada": "zoom",
+            "en": "Bornholmer",
+            "deriva": 0.3
+          }
+        ],
+        "foto": {
+          "buscar": "Berlin Wall cobblestones marker",
+          "pie": "LA HUELLA DEL MURO · BERLÍN",
+          "aparecerEn": "adoquines",
+          "duracionSeg": 2.6
+        },
+        "etiquetas": [
+          {
+            "lon": 13.398,
+            "lat": 52.552,
+            "texto": "PLAZA 9 DE NOVIEMBRE",
+            "tipo": "pin",
+            "aparecerEn": "plaza"
+          }
+        ],
+        "contexto": {
+          "texto": "LA LÍNEA SIGUE AHÍ",
+          "dice": "trazado"
+        },
+        "clave": [
+          "adoquines",
+          "trazado",
+          "Bornholmer",
+          "noviembre"
+        ]
+      }
+    ],
+    "remate": "Una noche de 1961 cerró la ciudad. Una frase de 1989 la abrió.",
+    "remateEtiquetas": [
+      {
+        "lon": 13.2,
+        "lat": 52.56,
+        "texto": "1961: UNA NOCHE"
+      },
+      {
+        "lon": 13.42,
+        "lat": 52.47,
+        "texto": "1989: UNA FRASE"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          13.3,
+          52.5
+        ],
+        "zoom": 10.3,
+        "entrada": "zoom",
+        "deriva": 0.3
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Stiftung Berliner Mauer (Fundación del Muro de Berlín)",
+        "url": "https://www.stiftung-berliner-mauer.de/en"
+      },
+      {
+        "texto": "Chronik der Mauer (Crónica del Muro)",
+        "url": "https://www.chronik-der-mauer.de/en/"
+      },
+      {
+        "texto": "Encyclopaedia Britannica: Berlin Wall",
+        "url": "https://www.britannica.com/topic/Berlin-Wall"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 11,
+      "centro": [
+        11.2,
+        51.6
+      ],
+      "zoomInicial": 5.8,
+      "zoomFinal": 10.6,
+      "lineas": [
+        {
+          "id": "frontera-interna",
+          "puntos": [
+            [
+              10.9,
+              54
+            ],
+            [
+              11.1,
+              53.6
+            ],
+            [
+              11.55,
+              53.05
+            ],
+            [
+              10.95,
+              52.85
+            ],
+            [
+              10.85,
+              52.3
+            ],
+            [
+              10.6,
+              51.75
+            ],
+            [
+              10.2,
+              51.3
+            ],
+            [
+              10.05,
+              50.7
+            ],
+            [
+              10.7,
+              50.3
+            ],
+            [
+              12.2,
+              50.3
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": -1,
+          "dice": "Alemania",
+          "etiqueta": "FRONTERA HASTA 1990"
+        },
+        {
+          "id": "muro",
+          "puntos": [
+            [
+              13.1,
+              52.5
+            ],
+            [
+              13.12,
+              52.59
+            ],
+            [
+              13.25,
+              52.66
+            ],
+            [
+              13.37,
+              52.63
+            ],
+            [
+              13.4,
+              52.56
+            ],
+            [
+              13.41,
+              52.53
+            ],
+            [
+              13.45,
+              52.5
+            ],
+            [
+              13.5,
+              52.47
+            ],
+            [
+              13.45,
+              52.41
+            ],
+            [
+              13.3,
+              52.38
+            ],
+            [
+              13.15,
+              52.4
+            ],
+            [
+              13.1,
+              52.42
+            ],
+            [
+              13.1,
+              52.5
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "rodean",
+          "etiqueta": "EL MURO"
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": 13.38,
+          "lat": 52.52,
+          "etiqueta": "BERLÍN",
+          "aparecerEn": -1
+        }
+      ]
+    }
+  }
+}

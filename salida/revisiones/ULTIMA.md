@@ -42,6 +42,7 @@ Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas
 - Esta carpeta `salida/revisiones/` con el formato fijo que lee el panel.
 
 ## Pendiente
+- **PRIMERO esta noche, antes de las 04:45:** verificar con web (agente Opus) los hechos y las URLs de los 5 guiones de frontera del backlog (generados de memoria por `claude -p`); corregir o descartar. Sin eso, el diario renderiza el primero para el 11-08 12:00.
 - `claude auth login` (Santiago) antes del 2026-11-07 y, para el cron, `claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN` en el crontab; sin eso no hay guiones nuevos.
 - Backlog en 0 (mínimo 8): regenerar hoy en cuanto `claude -p` responda.
 - Estrenar `lugar` (Clipperton) y `ruta` (Bushby) tras revisar la hoja de contacto; plantilla 16:9 para el largo del domingo.

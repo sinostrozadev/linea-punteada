@@ -1,0 +1,1023 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-mexico-recupero-tierra-de-texas",
+  "titulo": "¿Por qué México recuperó tierra de Texas moviendo un río?",
+  "descripcion": "En 1864 una crecida del río Bravo dejó parte de México del lado de El Paso. Siguieron casi cien años de discusión: un tratado de 1884, un arbitraje de 1911 que Estados Unidos rechazó y, por fin, la Convención del Chamizal de 1963. México recibió unas 177 hectáreas, y para que la nueva línea fuera real hubo que cavarle otro cauce al río: unos 7 km forrados en concreto, con miles de vecinos mudados.\n\nFuentes:\n- Office of the Historian, Departamento de Estado de EE. UU.: The Chamizal Dispute: https://history.state.gov/milestones/1961-1968/chamizal\n- Comisión Internacional de Límites y Aguas: Convención del Chamizal (1963): https://www.ibwc.gov/Files/ChamizalConvention1963.pdf\n- National Park Service: Chamizal: https://www.nps.gov/articles/chamizal.htm\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#mexico"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-mexico-recupero-tierra-de-texas",
+    "cabecera": "EL PASO — EL RÍO QUE MOVIERON",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ MOVIERON ESTE RÍO?",
+      "clave": "RÍO",
+      "paises": [
+        "Mexico",
+        "United States of America"
+      ],
+      "centro": [
+        -104,
+        30
+      ],
+      "zoom": 5,
+      "pines": [
+        {
+          "lon": -106.47,
+          "lat": 31.77,
+          "texto": "EL PASO"
+        }
+      ],
+      "icono": "rio"
+    },
+    "gancho": {
+      "texto": "Mira la frontera entre El Paso y Ciudad Juárez. Es el río Bravo, y su cauce es de concreto. Para devolverle tierra a México, dos países movieron un río. ¿Por qué?",
+      "rotulo": "MOVIERON UN RÍO",
+      "planos": [
+        {
+          "centro": [
+            -106.47,
+            31.76
+          ],
+          "zoom": 9.2,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -106.46,
+            31.757
+          ],
+          "zoom": 12.4,
+          "entrada": "zoom",
+          "en": "río",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -106.4525,
+            31.764
+          ],
+          "zoom": 13.4,
+          "entrada": "zoom",
+          "en": "concreto",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -106.455,
+            31.757
+          ],
+          "zoom": 12.6,
+          "entrada": "zoom",
+          "en": "movieron",
+          "deriva": 0.2
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -106.5,
+          "lat": 31.82,
+          "texto": "EL PASO",
+          "tipo": "pin",
+          "aparecerEn": "Paso"
+        },
+        {
+          "lon": -106.45,
+          "lat": 31.7,
+          "texto": "CIUDAD JUÁREZ",
+          "tipo": "pin",
+          "aparecerEn": "Juárez"
+        },
+        {
+          "lon": -106.4525,
+          "lat": 31.764,
+          "texto": "RÍO BRAVO",
+          "tipo": "rio",
+          "rotacion": -24,
+          "aparecerEn": "Bravo"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "Juárez",
+        "Bravo",
+        "concreto",
+        "tierra",
+        "movieron"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que esta línea quedó fija después de la guerra de 1848: el tratado la puso en el río Bravo y se acabó la discusión. Un río, una frontera, para siempre. La verdad es más rara.",
+        "rotulo": {
+          "texto": "PARA SIEMPRE",
+          "dice": "siempre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -103,
+              29.5
+            ],
+            "zoom": 5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -103.5,
+              29.8
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "Bravo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -106.46,
+              31.76
+            ],
+            "zoom": 11.5,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1848",
+            "sub": "EL RÍO BRAVO COMO FRONTERA",
+            "icono": "tratado",
+            "aparecerEn": "1848",
+            "duracionSeg": 2.8
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -101,
+            "lat": 34,
+            "texto": "ESTADOS UNIDOS",
+            "tipo": "pais",
+            "aparecerEn": "guerra",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -103,
+            "lat": 26,
+            "texto": "MÉXICO",
+            "tipo": "pais",
+            "aparecerEn": "guerra",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "1848",
+          "tratado",
+          "Bravo",
+          "siempre",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una crecida, un fallo y un canal. Y al final, un arreglo que obligó a hacer las maletas a miles de personas.",
+        "rotulo": {
+          "texto": "TRES COSAS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -106.46,
+              31.76
+            ],
+            "zoom": 11.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -106.455,
+              31.757
+            ],
+            "zoom": 12.6,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "rio",
+            "texto": "CRECIDA",
+            "dice": "crecida"
+          },
+          {
+            "icono": "tribunal",
+            "texto": "FALLO",
+            "dice": "fallo"
+          },
+          {
+            "icono": "🏗️",
+            "texto": "CANAL",
+            "dice": "canal"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": -106.45,
+            "lat": 31.74,
+            "icono": "🧳",
+            "escala": 1.1,
+            "aparecerEn": "maletas"
+          }
+        ],
+        "clave": [
+          "crecida",
+          "fallo",
+          "canal",
+          "maletas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la crecida. En 1864 el Bravo se desborda y abre un cauce nuevo más al sur. Cientos de hectáreas de México, el Chamizal, amanecen del lado de El Paso. Nadie movió un hito: se movió el agua.",
+        "rotulo": {
+          "texto": "1864",
+          "dice": "1864"
+        },
+        "planos": [
+          {
+            "centro": [
+              -106.46,
+              31.755
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.455,
+              31.752
+            ],
+            "zoom": 13.3,
+            "entrada": "corte",
+            "en": "cauce",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.45,
+              31.755
+            ],
+            "zoom": 13.6,
+            "entrada": "zoom",
+            "en": "Chamizal",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.455,
+              31.755
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "en": "Nadie",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1864",
+            "sub": "LA CRECIDA",
+            "icono": "rio",
+            "aparecerEn": "1864",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -106.488,
+            "lat": 31.749,
+            "icono": "🌊",
+            "ruta": [
+              [
+                -106.488,
+                31.749
+              ],
+              [
+                -106.47,
+                31.746
+              ],
+              [
+                -106.45,
+                31.745
+              ],
+              [
+                -106.43,
+                31.752
+              ]
+            ],
+            "duracionSeg": 2.6,
+            "escala": 0.9,
+            "aparecerEn": "desborda",
+            "desaparecerEn": "Chamizal"
+          },
+          {
+            "lon": -106.47,
+            "lat": 31.765,
+            "icono": "📍",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "hito"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -106.47,
+                31.757
+              ],
+              [
+                -106.4525,
+                31.766
+              ],
+              [
+                -106.435,
+                31.765
+              ],
+              [
+                -106.43,
+                31.752
+              ],
+              [
+                -106.45,
+                31.745
+              ],
+              [
+                -106.47,
+                31.746
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "EL CHAMIZAL",
+            "aparecerEn": "Chamizal",
+            "quedarse": 2
+          }
+        ],
+        "contexto": {
+          "texto": "SE MOVIÓ EL AGUA",
+          "dice": "agua"
+        },
+        "clave": [
+          "1864",
+          "cauce",
+          "Chamizal",
+          "hito",
+          "agua"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el fallo. México reclama: si el río saltó de golpe, la frontera se queda donde estaba. Estados Unidos responde que se corrió de a poco, y un tratado de 1884 dice que entonces la línea lo sigue. En 1911 un árbitro canadiense parte el terreno en dos. Estados Unidos rechaza el fallo.",
+        "rotulo": {
+          "texto": "RECHAZADO",
+          "dice": "rechaza"
+        },
+        "planos": [
+          {
+            "centro": [
+              -106.455,
+              31.755
+            ],
+            "zoom": 13.2,
+            "entrada": "corte",
+            "deriva": 0.1
+          },
+          {
+            "centro": [
+              -106.45,
+              31.758
+            ],
+            "zoom": 13.3,
+            "entrada": "paneo",
+            "en": "Estados",
+            "deriva": 0.1
+          },
+          {
+            "centro": [
+              -106.45,
+              31.755
+            ],
+            "zoom": 13.6,
+            "entrada": "zoom",
+            "en": "1911",
+            "deriva": 0.1
+          },
+          {
+            "centro": [
+              -106.455,
+              31.755
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "Estados#2",
+            "deriva": 0.1
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -106.45,
+            "lat": 31.735,
+            "texto": "SEGÚN MÉXICO: DE GOLPE",
+            "tipo": "region",
+            "aparecerEn": "golpe",
+            "desaparecerEn": "1911"
+          },
+          {
+            "lon": -106.45,
+            "lat": 31.785,
+            "texto": "SEGÚN EE. UU.: DE A POCO",
+            "tipo": "region",
+            "aparecerEn": "poco",
+            "desaparecerEn": "1911"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1911",
+            "sub": "ÁRBITRO CANADIENSE",
+            "icono": "tribunal",
+            "aparecerEn": "1911",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -106.45,
+            "lat": 31.757,
+            "icono": "📄",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "rechaza"
+          }
+        ],
+        "contexto": {
+          "texto": "DOS VERSIONES",
+          "dice": "responde"
+        },
+        "clave": [
+          "golpe",
+          "poco",
+          "1884",
+          "1911",
+          "rechaza"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el canal. Medio siglo después, Kennedy y López Mateos retoman el caso. Según la Oficina del Historiador del Departamento de Estado, la Convención de 1963 le devuelve a México unas 177 hectáreas. Pero una línea en el papel no basta: hay que cambiar el río de lugar.",
+        "rotulo": {
+          "texto": "177 HECTÁREAS",
+          "dice": "177"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -90,
+              30
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -106.455,
+              31.757
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -106.4525,
+              31.76
+            ],
+            "zoom": 13.4,
+            "entrada": "corte",
+            "en": "línea",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.04,
+            "lat": 38.9,
+            "texto": "WASHINGTON",
+            "tipo": "pin",
+            "aparecerEn": "Kennedy",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -99.13,
+            "lat": 19.43,
+            "texto": "CIUDAD DE MÉXICO",
+            "tipo": "pin",
+            "aparecerEn": "Mateos",
+            "desaparecerEn": "Según"
+          }
+        ],
+        "polaroid": {
+          "buscar": "John F. Kennedy Adolfo López Mateos",
+          "pie": "Kennedy y López Mateos",
+          "anio": "1962",
+          "lado": "derecha",
+          "aparecerEn": "Kennedy",
+          "duracionSeg": 3
+        },
+        "tarjetas": [
+          {
+            "texto": "177 HA",
+            "sub": "VUELVEN A MÉXICO · 1963",
+            "icono": "tratado",
+            "aparecerEn": "177",
+            "duracionSeg": 3
+          }
+        ],
+        "fuente": {
+          "texto": "Office of the Historian · Departamento de Estado",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "CAMBIAR EL RÍO",
+          "dice": "cambiar"
+        },
+        "clave": [
+          "Kennedy",
+          "1963",
+          "177",
+          "papel",
+          "lugar"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: para mover la frontera, movieron el río. Cavaron un cauce nuevo y lo forraron en concreto, unos siete kilómetros, para que el Bravo no pudiera volver a escaparse. Más de cinco mil vecinos del lado de El Paso tuvieron que mudarse. El río que corrió la línea terminó encerrado por ella.",
+        "rotulo": {
+          "texto": "CONCRETO",
+          "dice": "concreto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -106.455,
+              31.757
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.4525,
+              31.764
+            ],
+            "zoom": 13.4,
+            "entrada": "zoom",
+            "en": "Cavaron",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.453,
+              31.755
+            ],
+            "zoom": 12.5,
+            "entrada": "zoom",
+            "en": "siete",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.45,
+              31.767
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "en": "vecinos",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -106.453,
+              31.758
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "corrió",
+            "deriva": 0.2
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -106.488,
+              31.749
+            ],
+            "hasta": [
+              -106.418,
+              31.757
+            ],
+            "texto": "7 KM",
+            "aparecerEn": "siete",
+            "desaparecerEn": "vecinos"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -106.455,
+            "lat": 31.778,
+            "icono": "🏗️",
+            "escala": 1,
+            "aparecerEn": "Cavaron",
+            "desaparecerEn": "vecinos"
+          },
+          {
+            "lon": -106.45,
+            "lat": 31.762,
+            "icono": "🏠",
+            "ruta": [
+              [
+                -106.45,
+                31.762
+              ],
+              [
+                -106.442,
+                31.778
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 0.9,
+            "aparecerEn": "mudarse",
+            "desaparecerEn": "corrió"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "+5.000",
+            "sub": "VECINOS SE MUDAN",
+            "pictos": {
+              "icono": "🏠",
+              "n": 5
+            },
+            "aparecerEn": "cinco",
+            "duracionSeg": 3
+          }
+        ],
+        "foto": {
+          "buscar": "Rio Grande concrete channel El Paso",
+          "pie": "RÍO BRAVO · EL CAUCE EN CONCRETO",
+          "aparecerEn": "forraron",
+          "duracionSeg": 2.4
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "movieron",
+          "concreto",
+          "siete",
+          "cinco",
+          "encerrado"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy el Bravo pasa entre dos parques: el Memorial del Chamizal en El Paso y el Parque El Chamizal en Juárez. Y desde el aire se ve el canal gris, demasiado derecho para ser un río. Un río que ya no elige por dónde pasa la frontera.",
+        "rotulo": {
+          "texto": "EL CANAL GRIS",
+          "dice": "gris"
+        },
+        "planos": [
+          {
+            "centro": [
+              -106.453,
+              31.758
+            ],
+            "zoom": 13.2,
+            "entrada": "corte",
+            "deriva": 0.1
+          },
+          {
+            "centro": [
+              -106.451,
+              31.768
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "en": "Memorial",
+            "deriva": 0.1
+          },
+          {
+            "centro": [
+              -106.453,
+              31.748
+            ],
+            "zoom": 14,
+            "entrada": "paneo",
+            "en": "Parque",
+            "deriva": 0.1
+          },
+          {
+            "centro": [
+              -106.455,
+              31.757
+            ],
+            "zoom": 12.6,
+            "entrada": "zoom",
+            "en": "aire",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -106.451,
+            "lat": 31.768,
+            "texto": "MEMORIAL DEL CHAMIZAL",
+            "tipo": "pin",
+            "aparecerEn": "Memorial",
+            "desaparecerEn": "aire"
+          },
+          {
+            "lon": -106.453,
+            "lat": 31.748,
+            "texto": "PARQUE EL CHAMIZAL",
+            "tipo": "pin",
+            "aparecerEn": "Parque",
+            "desaparecerEn": "aire"
+          },
+          {
+            "lon": -106.5,
+            "lat": 31.82,
+            "texto": "EL PASO",
+            "tipo": "pin",
+            "aparecerEn": "aire"
+          },
+          {
+            "lon": -106.45,
+            "lat": 31.7,
+            "texto": "CIUDAD JUÁREZ",
+            "tipo": "pin",
+            "aparecerEn": "aire"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Chamizal National Memorial",
+          "pie": "Memorial del Chamizal, El Paso",
+          "lado": "izquierda",
+          "aparecerEn": "Memorial",
+          "duracionSeg": 3
+        },
+        "contexto": {
+          "texto": "HOY",
+          "dice": "Hoy"
+        },
+        "clave": [
+          "parques",
+          "Chamizal",
+          "gris",
+          "frontera"
+        ]
+      }
+    ],
+    "remate": "Primero el río movió la frontera. Después la frontera movió al río.",
+    "rematePlanos": [
+      {
+        "centro": [
+          -106.455,
+          31.757
+        ],
+        "zoom": 13,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -106.45,
+        "lat": 31.738,
+        "texto": "1864: EL RÍO MOVIÓ LA LÍNEA"
+      },
+      {
+        "lon": -106.45,
+        "lat": 31.776,
+        "texto": "1963: LA LÍNEA MOVIÓ EL RÍO"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Office of the Historian, Departamento de Estado de EE. UU.: The Chamizal Dispute",
+        "url": "https://history.state.gov/milestones/1961-1968/chamizal"
+      },
+      {
+        "texto": "Comisión Internacional de Límites y Aguas: Convención del Chamizal (1963)",
+        "url": "https://www.ibwc.gov/Files/ChamizalConvention1963.pdf"
+      },
+      {
+        "texto": "National Park Service: Chamizal",
+        "url": "https://www.nps.gov/articles/chamizal.htm"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 6,
+      "centro": [
+        -106.47,
+        31.76
+      ],
+      "zoomInicial": 9.2,
+      "zoomFinal": 13,
+      "ocultarBordesEn": [
+        [
+          [
+            -106.62,
+            31.82
+          ],
+          [
+            -106.3,
+            31.82
+          ],
+          [
+            -106.3,
+            31.66
+          ],
+          [
+            -106.62,
+            31.66
+          ]
+        ]
+      ],
+      "lineas": [
+        {
+          "id": "rio-bravo",
+          "puntos": [
+            [
+              -106.488,
+              31.749
+            ],
+            [
+              -104.9,
+              30.6
+            ],
+            [
+              -104.5,
+              29.6
+            ],
+            [
+              -103.2,
+              29
+            ],
+            [
+              -102.7,
+              29.7
+            ],
+            [
+              -101.4,
+              29.77
+            ],
+            [
+              -100.5,
+              28.9
+            ],
+            [
+              -99.5,
+              27.5
+            ],
+            [
+              -99.1,
+              26.4
+            ],
+            [
+              -97.15,
+              25.95
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 0,
+          "dice": "Bravo"
+        },
+        {
+          "id": "cauce-viejo",
+          "puntos": [
+            [
+              -106.488,
+              31.749
+            ],
+            [
+              -106.47,
+              31.757
+            ],
+            [
+              -106.4525,
+              31.766
+            ],
+            [
+              -106.435,
+              31.765
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Bravo",
+          "etiqueta": "CAUCE ANTES DE 1864"
+        },
+        {
+          "id": "cauce-1864",
+          "puntos": [
+            [
+              -106.488,
+              31.749
+            ],
+            [
+              -106.47,
+              31.746
+            ],
+            [
+              -106.45,
+              31.745
+            ],
+            [
+              -106.43,
+              31.752
+            ],
+            [
+              -106.415,
+              31.755
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "cauce",
+          "etiqueta": "CAUCE DESDE 1864"
+        },
+        {
+          "id": "canal-concreto",
+          "puntos": [
+            [
+              -106.488,
+              31.749
+            ],
+            [
+              -106.47,
+              31.756
+            ],
+            [
+              -106.4525,
+              31.764
+            ],
+            [
+              -106.435,
+              31.763
+            ],
+            [
+              -106.418,
+              31.757
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 5,
+          "dice": "Cavaron",
+          "etiqueta": "CANAL DE CONCRETO"
+        }
+      ]
+    }
+  }
+}
