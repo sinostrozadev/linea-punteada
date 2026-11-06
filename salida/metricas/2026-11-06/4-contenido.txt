@@ -24,31 +24,31 @@ Overview
 Content
 Audience
 Trends
-Oct 8 – Nov 4, 2026
+Oct 9 – Nov 5, 2026
 Last 28 days
 Views
 Views
-—
+2.9K
 Total views for the selected date range, region and other filters.
 Engaged views
-—
+1.8K
 How many times viewers stay to watch past the initial seconds.
 Likes
-—
+52
 The change in total likes found by subtracting "likes removed" from "likes added" for the selected date range, region and other filters. Prior to September 1, 2012, "likes removed" were not subtracted.
 Subscribers
-—
++6
 The change in total subscribers found by subtracting subscribers lost from subscribers gained for the selected date range and region.
-Oct 8, 2026
-Oct 13, 2026
-Oct 17, 2026
-Oct 22, 2026
-Oct 26, 2026
-Oct 31, 2026
-Nov 4, 20...
-3
-2
-1
+Oct 9, 2026
+Oct 14, 2026
+Oct 18, 2026
+Oct 23, 2026
+Oct 27, 2026
+Nov 1, 2026
+Nov 5, 20...
+3,000
+2,000
+1,000
 0
 2
 Views
@@ -60,15 +60,61 @@ External
 YouTube search
 Suggested videos
 Playlists
-Not enough traffic data to show this report
+	
+Shorts feed
+	
+	
+97.5%
+
+
+	
+YouTube search
+	
+	
+1.5%
+
+
+	
+Other YouTube features
+	
+	
+0.8%
+
+
+	
+Channel pages
+	
+	
+0.2%
+
+
+	
+Sound pages
+	
+	
+0.1%
 See more
 How viewers engaged
 Last 28 days
-Nothing to show for these dates
+75.1%
+24.9%
+Stayed to watch
+Swiped away
 See more
 Top Shorts
 Views · Last 28 days
-Nothing to show for these dates
+	
+Chile y Argentina pelearon un lago por una frase escrita en 1902
+	
+	
+1.6K
+
+
+	
+La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena
+	
+	
+1.3K
 See more
 Top Remixed
 Your content used to create Shorts · Last 28 days

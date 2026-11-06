@@ -1,14 +1,14 @@
 {
   "fecha": "2026-11-06",
   "canalId": "UCp05AZK18-TL8pp74ntbdUw",
-  "generadoEn": "2026-11-06T05:31:53.601Z",
+  "generadoEn": "2026-11-06T11:16:18.043Z",
   "zona": "America/Santiago",
   "subs": 6,
   "videosPublicados": 2,
-  "vistasTotales": 2645,
-  "vistas28d": 15000,
+  "vistasTotales": 2892,
+  "vistas28d": null,
   "vistas48h": 3,
-  "horasTotales": null,
+  "horasTotales": 460,
   "progresoYPP": {
     "subs": null,
     "vistasShorts90d": null,
@@ -33,7 +33,7 @@
       "plantilla": "frontera",
       "tipo": "short",
       "publicarEn": "2026-11-05T18:00:00-03:00",
-      "vistas": 1372,
+      "vistas": 1592,
       "publicadoEn": "2026-11-05T13:00:35-08:00",
       "segundos": 150,
       "privado": false
@@ -69,10 +69,23 @@
       "plantilla": "frontera",
       "tipo": "short",
       "publicarEn": null,
-      "vistas": 1273,
+      "vistas": 1300,
       "publicadoEn": "2026-11-05T07:00:31-08:00",
       "segundos": 133,
       "privado": false
+    },
+    {
+      "id": "o3yQPPqXoQA",
+      "bandeja": "2026-11-06-frontera-campo-de-hielo",
+      "titulo": "",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-07T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
     }
-  ]
+  ],
+  "actualizaciones": 1
 }
