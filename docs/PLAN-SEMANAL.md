@@ -16,10 +16,10 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
 | jue 11-05 | 18:00 | frontera | Chile y Argentina pelearon un lago por una frase escrita en 1902 | serie · _La línea que falta_ | — | publicado ([8rm7lrivW0Q](https://youtube.com/shorts/8rm7lrivW0Q)) | Ñerd (Shorts de frontera 2–3 min) | abre la serie del laudo de 1902 (sigue Campo de Hielo) |
 | vie 11-06 | 12:00 | frontera | ¿Por qué hay una isla argentina a solo 3,5 km de Uruguay? | evergreen | — | renderizado | Ñerd (Shorts de frontera 2–3 min) | audiencia AR/UY; tratado del 19-11-1973 cumple aniversario la semana del 16 |
 | vie 11-06 | 18:00 | frontera | ¿Por qué en esta plaza cambias de país sin mostrar un solo papel? | evergreen | — | dirigido · ⚠ render en curso (diario --n 2) | Ñerd (Shorts de frontera 2–3 min) | audiencia UY/BR; frontera urbana (formato distinto a los anteriores) |
-| sáb 11-07 | 12:00 | ruta | Salió caminando de Punta Arenas y tardó 28 años en llegar a su casa | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull a pie tras 28 años (salió de Punta Arenas en 1998) ([2026-11-02](https://www.itv.com/news/calendar/2026-11-02/adventurer-arrives-back-in-home-city-after-28-year-walk-round-the-world)) | dirigido · ⚠ plantilla ruta debe pasar revisión v2 (hoja de contacto) antes del render | GeoGlobeTales (Bushby, 61 M) | noticia de 5 días que se enfría; tema probado con 61 M; abre la serie y es el largo del 11-15 |
+| sáb 11-07 | 12:00 | frontera | Chile y Argentina tienen un tramo de frontera que todavía no existe | serie · _La línea que falta_ | — | **programado** `o3yQPPqXoQA` | Ñerd (Shorts de frontera 2–3 min) | continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07) |
 | sáb 11-07 | 18:00 | lugar | Los olvidaron en una isla 3 años: el rey de Clipperton | serie · _Clipperton_ | — | dirigido · ⚠ plantilla lugar debe pasar revisión v2 | Ñerd (historias humanas con mapa) | primera de lugar: variedad de la hoja de la semana; abre serie Clipperton (sigue el 11-08) |
 | dom 11-08 | 10:00 | **largo** 16:9 | (sin largo esta semana) | evergreen | — | idea · ⚠ no existe plantilla 16:9 todavía: ranura vacía a propósito | - | ruta B (4.000 h) empieza la semana 2 |
-| dom 11-08 | 12:00 | frontera | Chile y Argentina tienen un tramo de frontera que todavía no existe | serie · _La línea que falta_ | — | dirigido | Ñerd (Shorts de frontera 2–3 min) | continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07) |
+| dom 11-08 | 12:00 | ruta | Salió caminando de Punta Arenas y tardó 28 años en llegar a su casa | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull a pie tras 28 años (salió de Punta Arenas en 1998) ([2026-11-02](https://www.itv.com/news/calendar/2026-11-02/adventurer-arrives-back-in-home-city-after-28-year-walk-round-the-world)) | dirigido · ⚠ plantilla ruta debe pasar revisión v2 (hoja de contacto) antes del render | GeoGlobeTales (Bushby, 61 M) | noticia de 5 días que se enfría; tema probado con 61 M; abre la serie y es el largo del 11-15 |
 | dom 11-08 | 18:00 | lugar | Francia ganó una isla mexicana porque lo decidió el rey de Italia | serie · _Clipperton_ | — | investigado | Ñerd (fronteras absurdas) | cierra la serie Clipperton 24 h después de abrirla (razón para volver) |
 
 ## Semana siguiente: lun 2026-11-09 → dom 2026-11-15
@@ -92,7 +92,7 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
       "tipo": "evergreen", "serie": null, "contingencia": null,
       "estado": "dirigido", "guion": "contenido/guiones/2026-11-05-frontera-rivera-livramento.json", "videoId": null,
       "referente": "Ñerd (Shorts de frontera 2–3 min)", "porQue": "audiencia UY/BR; frontera urbana (formato distinto a los anteriores)", "bloqueo": "render en curso (diario --n 2)" },
-    { "fecha": "2026-11-07", "hora": "12:00", "formato": "short", "plantilla": "ruta",
+    { "fecha": "2026-11-08", "hora": "12:00", "formato": "short", "plantilla": "ruta",
       "tema": "Salió caminando de Punta Arenas y tardó 28 años en llegar a su casa",
       "tipo": "contingente", "serie": "Del estrecho al canal",
       "contingencia": { "hecho": "Karl Bushby llega a Hull a pie tras 28 años (salió de Punta Arenas en 1998)", "fecha": "2026-11-02", "url": "https://www.itv.com/news/calendar/2026-11-02/adventurer-arrives-back-in-home-city-after-28-year-walk-round-the-world" },
@@ -108,11 +108,11 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
       "tipo": "evergreen", "serie": null, "contingencia": null,
       "estado": "idea", "guion": null, "videoId": null,
       "referente": "-", "porQue": "ruta B (4.000 h) empieza la semana 2", "bloqueo": "no existe plantilla 16:9 todavía: ranura vacía a propósito" },
-    { "fecha": "2026-11-08", "hora": "12:00", "formato": "short", "plantilla": "frontera",
+    { "fecha": "2026-11-07", "hora": "12:00", "formato": "short", "plantilla": "frontera",
       "tema": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
       "tipo": "serie", "serie": "La línea que falta", "contingencia": null,
-      "estado": "dirigido", "guion": "contenido/backlog/frontera-z-campo-de-hielo.json", "videoId": null,
-      "referente": "Ñerd (Shorts de frontera 2–3 min)", "porQue": "continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07)", "bloqueo": null },
+      "estado": "programado", "guion": "contenido/guiones/2026-11-06-frontera-campo-de-hielo.json", "videoId": "o3yQPPqXoQA",
+      "referente": "Ñerd (Shorts de frontera 2–3 min)", "porQue": "continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07). Adelantado del 11-08: salió del diario del 11-06 y ruta aún no pasó revisión", "bloqueo": null },
     { "fecha": "2026-11-08", "hora": "18:00", "formato": "short", "plantilla": "lugar",
       "tema": "Francia ganó una isla mexicana porque lo decidió el rey de Italia",
       "tipo": "serie", "serie": "Clipperton", "contingencia": null,
