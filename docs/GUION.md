@@ -75,18 +75,20 @@ palabra del subtítulo en caja), `remateEtiquetas` (el remate visualizado sobre 
 cada ~2 s, nada estático > 8 s, máximo 1 tarjeta y 1 foto por escena, `dice` siempre literal en el texto. Molde terminado:
 `contenido/borradores/frontera-triangulo-terrestre.v2.json`. Un guion sin dirección visual no se renderiza.
 
-**Gramática de cámara (obligatoria; el validador rechaza el guion si falla — `docs/DIRECCION-VISUAL.md` §1b).** El
-espectador se pierde cuando la cámara salta sin razón. Compara cada plano con el anterior (Δz = zoom nuevo − (zoom +
+**Gramática de cámara (`docs/DIRECCION-VISUAL.md` §1b).** Regla DURA: **nunca cortar en seco a otro lugar; si el centro
+nuevo no se veía, se vuela (`zoom`) o se desliza (`paneo`)** (R2, R5 y plano < 1 s son errores que rechazan el guion). Las
+reglas de zoom (R1, R3, ráfaga y promedio de R4) son recomendaciones (avisos ⚠): "el zoom orienta, el corte a otro lugar
+desorienta" (Santiago, 2026-11-05). Compara cada plano con el anterior (Δz = zoom nuevo − (zoom +
 deriva) del anterior; deriva por defecto +0,3):
-- **R1** `corte` solo si: (a) mismo encuadre (|Δz| ≤ 0,7 y el centro nuevo se veía), (b) golpe al sujeto (acerca +0,7
+- **R1 (aviso)** `corte` solo si: (a) mismo encuadre (|Δz| ≤ 0,7 y el centro nuevo se veía), (b) golpe al sujeto (acerca +0,7
   a +3 sobre un punto casi centrado) o (c) cambio de escala claro (|Δz| ≥ 3 sobre el mismo eje). **Nunca un corte que
   aleja entre 0,7 y 3 niveles.** Un `paneo` no cambia el zoom más de ±1,5.
-- **R2** Si el centro nuevo NO se veía en el plano anterior → `zoom` (vuelo), o `paneo` si está a ≤ 1,5 cuadros. Un
+- **R2 (ERROR)** Si el centro nuevo NO se veía en el plano anterior → `zoom` (vuelo), o `paneo` si está a ≤ 1,5 cuadros. Un
   corte que aleja ≥ 3 vale solo si el general se centra donde estábamos.
-- **R3** Nada de diente de sierra sobre el mismo lugar: no acercar-alejar-acercar con saltos de 0,5–3 niveles, y un
+- **R3 (aviso)** Nada de diente de sierra sobre el mismo lugar: no acercar-alejar-acercar con saltos de 0,5–3 niveles, y un
   corte que acerca de golpe no va pegado a un alejamiento mediano. Para dar ritmo cambia capas, no el zoom.
-- **R4** Planos ≥ 1 s, nunca dos seguidos < 2 s, promedio ≥ 3,8 s: **máximo ~36 planos en 150 s** (4–5 por escena).
-- **R5** Escena que cambia de lugar: entra con `zoom`. Corte seco entre escenas solo si el lugar es el mismo.
+- **R4** Planos ≥ 1 s (ERROR), nunca dos seguidos < 2 s, promedio ≥ 3,8 s: **máximo ~36 planos en 150 s** (4–5 por escena); ráfaga y promedio son avisos.
+- **R5 (ERROR)** Escena que cambia de lugar: entra con `zoom`. Corte seco entre escenas solo si el lugar es el mismo.
 Revisión: `npx tsx scripts/camara.mts <guion.json>`.
 
 ## 5. Título, descripción, hashtags
@@ -117,7 +119,7 @@ Revisión: `npx tsx scripts/camara.mts <guion.json>`.
 - [ ] Sin palabras prohibidas (§3). Sin opinión en disputas. Sin persona viva en `imagen`.
 - [ ] Título ≤ 70 con contradicción; no repite ninguno de la lista de usados ni los de Ñerd (REFERENTES §6).
 - [ ] Coordenadas plausibles (el centro cae en el lugar; las líneas, dentro del encuadre).
-- [ ] Gramática de cámara (§4b, R1–R5): `npx tsx scripts/camara.mts <guion.json>` sin violaciones.
+- [ ] Gramática de cámara (§4b, R1–R5): `npx tsx scripts/camara.mts <guion.json>` sin errores (los avisos ⚠ se revisan pero no bloquean).
 
 ## 8. Ejemplo completo (plantilla `frontera`; NO copiarlo, es el molde)
 ```json

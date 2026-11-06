@@ -49,7 +49,14 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
 9. **Variar entre videos**: `acento` (amarillo · cian · coral), `mapa.mes` (estación del satélite), iconos y
    pictogramas distintos, índice en fila o vertical.
 
-## 1b. Gramática de cámara (reglas duras; el validador rechaza el guion si no se cumplen)
+## 1b. Gramática de cámara (errores rechazan el guion; avisos son recomendaciones)
+
+**Regla DURA (error): nunca cortar en seco a otro lugar.** Si el centro nuevo no se veía, se vuela (`zoom`) o se desliza
+(`paneo`). Son errores **R2 y R5** (corte o general descentrado = cambio de lugar sin vuelo) y **R4 duración mínima**
+(< 1,0 s es un parpadeo). Las demás reglas (R1 y R3 de zoom, R4 ráfaga y promedio) son **recomendaciones (avisos)**: se
+imprimen con ⚠ pero no rechazan el guion, porque "el zoom orienta, el corte a otro lugar desorienta" (Santiago,
+2026-11-05: "el tema de la cámara no es tanto problema el zoom, porque así uno no se pierde; el tema es cortar en seco en
+lugares a cientos de kilómetros"). En la tabla, cada regla indica su severidad.
 
 **Por qué.** Santiago vio "Laguna del Desierto" (2026-11-05) y dijo que tenía "muchos cambios de cámara bruscos dentro
 del mapa que dejaban perdido"; el triángulo terrestre no. Medición (tiempos reales de la voz): Laguna 43 planos en
@@ -67,11 +74,11 @@ deriva por defecto +0,3). Δz = zoom nuevo − zoom final anterior. El encuadre 
 
 | regla | qué exige | umbral |
 |---|---|---|
-| **R1 · el corte tiene una razón** | Un `corte` solo es válido si es **(a) mismo encuadre**: \|Δz\| ≤ 0,7 y el centro nuevo a la vista; **(b) golpe al sujeto**: acerca entre +0,7 y +3 con el centro nuevo a ≤ 0,6 medio cuadro del centro (en el eje); **(c) cambio de escala claro**: \|Δz\| ≥ 3 (general ↔ detalle, como Ñerd). Un corte que **aleja** entre 0,7 y 3 niveles es diente de sierra: prohibido (usa `zoom`, mantén el zoom o aleja ≥ 3). Un `paneo` no cambia la escala más de ±1,5. | 0,7 · 3 · 0,6 · 1,5 |
-| **R2 · fuera de cuadro se vuela** | Si el centro nuevo **no estaba a la vista**, la entrada es `zoom` (vuelo) o `paneo` si es adyacente (≤ 1,5 cuadros). Nunca `corte`. Única excepción: el corte que aleja ≥ 3 niveles **sobre el mismo lugar** (el general se centra a ≤ 0,85 cuadros del plano anterior). Un general "de reorientación" centrado en OTRO lugar es un cambio de lugar: se vuela. | 0,9 · 1,5 · 0,85 |
-| **R3 · sin diente de sierra** | Sobre el mismo lugar (centro a la vista), no se acerca y aleja en tramos medianos (0,5 ≤ \|Δz\| < 3) seguidos: **(a)** un corte que acerca de golpe no va pegado a un tramo mediano en sentido contrario (antes o después); **(b)** nunca tres tramos medianos alternando (acercar → alejar → acercar). Los vuelos entre lugares distintos (ruta) no cuentan. | 0,5 · 3 |
-| **R4 · duración** | Ningún plano < 1,0 s (parpadeo); nunca dos planos seguidos < 2,0 s (ráfaga); promedio del video ≥ 3,8 s/plano → **máx. 39 planos en 150 s** (con tiempos estimados por palabras, que salen ~7 % largos: ≥ 4,1 s, máx. 36 en 150 s; los mínimos por plano se aplican con 15 % de holgura). El primer y el último plano no cuentan para los mínimos. | 1,0 · 2,0 · 3,8 |
-| **R5 · cambio de escena** | Es R1/R2 aplicado al **primer plano de cada escena**: si la escena cambia de lugar, se entra volando (`zoom`) o se abre con un general centrado donde estábamos y desde ahí se vuela; el corte seco entre escenas solo si el lugar es el mismo. | (los de R1/R2) |
+| **R1 · el corte tiene una razón** (aviso) | Un `corte` solo es válido si es **(a) mismo encuadre**: \|Δz\| ≤ 0,7 y el centro nuevo a la vista; **(b) golpe al sujeto**: acerca entre +0,7 y +3 con el centro nuevo a ≤ 0,6 medio cuadro del centro (en el eje); **(c) cambio de escala claro**: \|Δz\| ≥ 3 (general ↔ detalle, como Ñerd). Un corte que **aleja** entre 0,7 y 3 niveles es diente de sierra: prohibido (usa `zoom`, mantén el zoom o aleja ≥ 3). Un `paneo` no cambia la escala más de ±1,5. | 0,7 · 3 · 0,6 · 1,5 |
+| **R2 · fuera de cuadro se vuela** (ERROR) | Si el centro nuevo **no estaba a la vista**, la entrada es `zoom` (vuelo) o `paneo` si es adyacente (≤ 1,5 cuadros). Nunca `corte`. Única excepción: el corte que aleja ≥ 3 niveles **sobre el mismo lugar** (el general se centra a ≤ 0,85 cuadros del plano anterior). Un general "de reorientación" centrado en OTRO lugar es un cambio de lugar: se vuela. | 0,9 · 1,5 · 0,85 |
+| **R3 · sin diente de sierra** (aviso) | Sobre el mismo lugar (centro a la vista), no se acerca y aleja en tramos medianos (0,5 ≤ \|Δz\| < 3) seguidos: **(a)** un corte que acerca de golpe no va pegado a un tramo mediano en sentido contrario (antes o después); **(b)** nunca tres tramos medianos alternando (acercar → alejar → acercar). Los vuelos entre lugares distintos (ruta) no cuentan. | 0,5 · 3 |
+| **R4 · duración** (< 1,0 s: ERROR; ráfaga y promedio: aviso) | Ningún plano < 1,0 s (parpadeo); nunca dos planos seguidos < 2,0 s (ráfaga); promedio del video ≥ 3,8 s/plano → **máx. 39 planos en 150 s** (con tiempos estimados por palabras, que salen ~7 % largos: ≥ 4,1 s, máx. 36 en 150 s; los mínimos por plano se aplican con 15 % de holgura). El primer y el último plano no cuentan para los mínimos. | 1,0 · 2,0 · 3,8 |
+| **R5 · cambio de escena** (ERROR) | Es R1/R2 aplicado al **primer plano de cada escena**: si la escena cambia de lugar, se entra volando (`zoom`) o se abre con un general centrado donde estábamos y desde ahí se vuela; el corte seco entre escenas solo si el lugar es el mismo. | (los de R1/R2) |
 
 **Recetas.**
 - *Ir a otro lugar:* `{ "entrada": "zoom" }` al lugar nuevo (la plantilla vuela alejándose y acercándose). Si está lejos,
@@ -82,8 +89,8 @@ deriva por defecto +0,3). Δz = zoom nuevo − zoom final anterior. El encuadre 
   `deriva` y los micro-movimientos (§1.7) ya mueven la cámara.
 
 **Verificar.** `npx tsx scripts/camara.mts <guion.json>` imprime la tabla de planos (línea, t0, duración, `en`,
-zoom → zoom final, Δz, distancia, cuadro, entrada) y las violaciones. Con un `salida/trabajo/<id>.props.json` usa los
-tiempos reales de la voz. El `superRefine` de las 3 plantillas (`src/plantillas/comun/camara.ts`) rechaza el guion
+zoom → zoom final, Δz, distancia, cuadro, entrada) y los errores (✗) y avisos (⚠), con resumen "N errores · M avisos"; sale con código 1 solo si hay errores. Con un `salida/trabajo/<id>.props.json` usa los
+tiempos reales de la voz. El `superRefine` de las 3 plantillas (`src/plantillas/comun/camara.ts`) rechaza el guion solo por los errores,
 con mensajes del tipo `gramática de cámara R1 · escenas[3].planos[0]: corte con Δzoom -1,3 (diente de sierra…) → usa
 entrada "zoom", deja el zoom en 11,5 o aleja hasta ≤ 8,5`.
 

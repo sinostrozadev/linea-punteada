@@ -3,7 +3,8 @@
  *   npx tsx scripts/camara.mts <guion.json> [<guion2.json> …] [--props salida/trabajo/<id>.props.json] [--solo-resumen]
  * Imprime la tabla de planos (línea, en, zoom→zoom final, Δzoom, distancia, en cuadro, entrada, duración) y las
  * violaciones R1–R5. Duración: por palabras (estimada) o, con --props, con los tiempos reales de la voz.
- * Sale con código 1 si algún guion tiene violaciones (sirve en la mejora continua y en CI).
+ * Errores (✗: corte seco a otro lugar, parpadeo) rechazan el guion; avisos (⚠: zoom, ritmo) solo se imprimen.
+ * Sale con código 1 solo si algún guion tiene ERRORES (sirve en la mejora continua y en CI).
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -20,6 +21,7 @@ if (!rutas.length) { console.error('uso: npx tsx scripts/camara.mts <guion.json>
 const f = (x: number | null, d = 1) => (x === null ? '—' : x.toFixed(d).replace('.', ','));
 const pad = (s: string, n: number) => (s.length >= n ? s.slice(0, n) : s + ' '.repeat(n - s.length));
 let fallas = 0;
+let totE = 0, totA = 0;
 
 for (const ruta of rutas) {
   const crudo = JSON.parse(fs.readFileSync(path.resolve(ruta), 'utf8'));
@@ -28,10 +30,12 @@ for (const ruta of rutas) {
   const tiempos: Tiempos | undefined = propsRuta && rutas.length === 1 ? JSON.parse(fs.readFileSync(path.resolve(propsRuta), 'utf8')).tiempos : crudo.tiempos;
   const medidos = medirCamara(g, { continua: plantilla === 'frontera', tiempos });
   const v = violacionesCamara(medidos, { estimado: !tiempos });
-  if (v.length) fallas++;
+  const nE = v.filter((x) => x.severidad === 'error').length, nA = v.length - nE;
+  if (nE) fallas++;
+  totE += nE; totA += nA;
   const total = medidos.length ? medidos[medidos.length - 1].t1 - medidos[0].t0 : 0;
   const cortes = medidos.filter((m) => m.p.entrada === 'corte').length;
-  console.log(`\n■ ${path.basename(ruta)} (${plantilla}, tiempos ${tiempos ? 'reales' : 'estimados'}): ${medidos.length} planos en ${f(total)} s → ${f(total / Math.max(1, medidos.length), 2)} s/plano · ${cortes} cortes · ${v.length} violaciones`);
+  console.log(`\n■ ${path.basename(ruta)} (${plantilla}, tiempos ${tiempos ? 'reales' : 'estimados'}): ${medidos.length} planos en ${f(total)} s → ${f(total / Math.max(1, medidos.length), 2)} s/plano · ${cortes} cortes · ${nE} errores · ${nA} avisos`);
   if (!soloResumen) {
     console.log(`  ${pad('línea', 13)}${pad('j', 3)}${pad('t0', 7)}${pad('dur', 6)}${pad('en', 14)}${pad('zoom→fin', 12)}${pad('Δz', 7)}${pad('dist°', 8)}${pad('cuadro', 8)}entrada`);
     for (const m of medidos) {
@@ -41,6 +45,7 @@ for (const ruta of rutas) {
     }
     console.log('  (cuadro = distancia del centro nuevo en medios cuadros del encuadre anterior: ≤ 0,9 = estaba a la vista)');
   }
-  for (const x of v) console.log(`  ✗ ${x.regla} · ${x.donde}: ${x.mensaje}`);
+  for (const x of [...v].sort((a, b) => (a.severidad === b.severidad ? 0 : a.severidad === 'error' ? -1 : 1))) console.log(`  ${x.severidad === 'error' ? '✗' : '⚠'} ${x.regla} · ${x.donde}: ${x.mensaje}`);
 }
+if (rutas.length > 1) console.log(`\nTOTAL: ${totE} errores · ${totA} avisos`);
 process.exit(fallas ? 1 : 0);

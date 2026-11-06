@@ -82,7 +82,9 @@ export type PlanoMedido = {
   previoEnCuadroNuevo: number | null;
 };
 
-export type Violacion = { regla: 'R1' | 'R2' | 'R3' | 'R4' | 'R5'; path: (string | number)[]; donde: string; mensaje: string };
+/** `error` rechaza el guion (corte seco a otro lugar, parpadeo); `aviso` se imprime pero no rechaza (recomendaciones de zoom/ritmo). */
+export type Severidad = 'error' | 'aviso';
+export type Violacion = { regla: 'R1' | 'R2' | 'R3' | 'R4' | 'R5'; severidad: Severidad; path: (string | number)[]; donde: string; mensaje: string };
 
 const nombreLinea = (k: number, n: number) => (k === 0 ? 'gancho' : k === n + 1 ? 'remate' : `escenas[${k - 1}]`);
 const pathLinea = (k: number, n: number): (string | number)[] => (k === 0 ? ['gancho', 'planos'] : k === n + 1 ? ['rematePlanos'] : ['escenas', k - 1, 'planos']);
@@ -174,7 +176,7 @@ export const violacionesCamara = (medidos: PlanoMedido[], opciones: { estimado?:
     // R5 = la misma falta cuando ocurre al empezar una línea de voz (cambio de escena); R2 dentro de la escena.
     const R = m.j === 0 ? 'R5' : 'R2';
     const alEmpezar = m.j === 0 ? ' al empezar la escena' : '';
-    const add = (regla: Violacion['regla'], mensaje: string) => v.push({ regla, path: m.path, donde: donde(m), mensaje });
+    const add = (regla: Violacion['regla'], mensaje: string) => v.push({ regla, severidad: regla === 'R1' ? 'aviso' : 'error', path: m.path, donde: donde(m), mensaje });
     if (m.p.entrada === 'corte') {
       if (adz <= G.corteMismoZoom) {
         if (cuadro > G.margenDentro) add(R, `corte al mismo zoom (Δ ${signo(dz)}) a un lugar que no estaba en cuadro (${f2(m.distGrados!)}° = ${f1(cuadro / 2)} cuadros)${alEmpezar} → usa entrada "paneo" si está a ≤ ${f1(G.paneoAdyacente)} cuadros o "zoom" (vuelo)`);
@@ -200,20 +202,20 @@ export const violacionesCamara = (medidos: PlanoMedido[], opciones: { estimado?:
     const [b, c] = [medidos[i - 1], medidos[i]];
     // (a) ida y vuelta: un corte que acerca de golpe, pegado a un tramo medio en sentido contrario.
     if ((golpe(b) || golpe(c)) && medio(b) && medio(c) && Math.sign(b.dz!) !== Math.sign(c.dz!)) {
-      v.push({ regla: 'R3', path: c.path, donde: donde(c), mensaje: `ida y vuelta de zoom: ${signo(b.dz!)} (${b.p.entrada}) y luego ${signo(c.dz!)} (${c.p.entrada}) entre ${donde(b)} y ${donde(c)} → si acercas de golpe, quédate ahí (|Δ| < ${f1(G.sierraMin)}) o sal con un cambio de escala claro (≥ ${G.corteEscala}); o quita el plano intermedio` });
+      v.push({ regla: 'R3', severidad: 'aviso', path: c.path, donde: donde(c), mensaje: `ida y vuelta de zoom: ${signo(b.dz!)} (${b.p.entrada}) y luego ${signo(c.dz!)} (${c.p.entrada}) entre ${donde(b)} y ${donde(c)} → si acercas de golpe, quédate ahí (|Δ| < ${f1(G.sierraMin)}) o sal con un cambio de escala claro (≥ ${G.corteEscala}); o quita el plano intermedio` });
       continue;
     }
     // (b) tres tramos medios seguidos alternando el sentido (acercar → alejar → acercar).
     const a = medidos[i - 2];
     if (a && medio(a) && medio(b) && medio(c) && Math.sign(a.dz!) === -Math.sign(b.dz!) && Math.sign(b.dz!) === -Math.sign(c.dz!)) {
-      v.push({ regla: 'R3', path: c.path, donde: donde(c), mensaje: `diente de sierra de zoom: ${[a, b, c].map((m) => signo(m.dz!)).join(' → ')} en planos seguidos (${donde(a)}…${donde(c)}) → mantén el zoom (|Δ| < ${f1(G.sierraMin)}), haz un cambio de escala claro (≥ ${G.corteEscala}) o quita un plano` });
+      v.push({ regla: 'R3', severidad: 'aviso', path: c.path, donde: donde(c), mensaje: `diente de sierra de zoom: ${[a, b, c].map((m) => signo(m.dz!)).join(' → ')} en planos seguidos (${donde(a)}…${donde(c)}) → mantén el zoom (|Δ| < ${f1(G.sierraMin)}), haz un cambio de escala claro (≥ ${G.corteEscala}) o quita un plano` });
     }
   }
   // R4: duración (el primero arranca con la tarjeta; el último dura hasta el cierre).
   medidos.forEach((m, i) => {
     if (i === 0 || i === medidos.length - 1) return;
-    if (m.dur < G.durMin * holgura) v.push({ regla: 'R4', path: m.path, donde: donde(m), mensaje: `plano de ${f1(m.dur)} s (mín. ${f1(G.durMin)}; un plano más corto es un parpadeo) → mueve su "en" más tarde, júntalo con el vecino o quítalo` });
-    else if (i + 1 < medidos.length - 1 && m.dur < G.rafaga * holgura && medidos[i + 1].dur < G.rafaga * holgura) v.push({ regla: 'R4', path: m.path, donde: donde(m), mensaje: `ráfaga: dos planos seguidos de menos de ${f1(G.rafaga)} s (${f1(m.dur)} y ${f1(medidos[i + 1].dur)} s) → junta dos en uno o reparte los "en"` });
+    if (m.dur < G.durMin * holgura) v.push({ regla: 'R4', severidad: 'error', path: m.path, donde: donde(m), mensaje: `plano de ${f1(m.dur)} s (mín. ${f1(G.durMin)}; un plano más corto es un parpadeo) → mueve su "en" más tarde, júntalo con el vecino o quítalo` });
+    else if (i + 1 < medidos.length - 1 && m.dur < G.rafaga * holgura && medidos[i + 1].dur < G.rafaga * holgura) v.push({ regla: 'R4', severidad: 'aviso', path: m.path, donde: donde(m), mensaje: `ráfaga: dos planos seguidos de menos de ${f1(G.rafaga)} s (${f1(m.dur)} y ${f1(medidos[i + 1].dur)} s) → junta dos en uno o reparte los "en"` });
   });
   if (medidos.length >= 2) {
     const total = medidos[medidos.length - 1].t1 - medidos[0].t0;
@@ -221,16 +223,20 @@ export const violacionesCamara = (medidos: PlanoMedido[], opciones: { estimado?:
     const minimo = G.promedioMin * (opciones.estimado ? SESGO_ESTIMADO : 1);
     if (prom < minimo) {
       const max = Math.floor(total / minimo);
-      v.push({ regla: 'R4', path: ['escenas'], donde: 'video', mensaje: `${medidos.length} planos en ${Math.round(total)} s (${f1(prom)} s/plano; mín. ${f1(minimo)}${opciones.estimado ? ' con tiempos estimados' : ''}) → quita ${medidos.length - max} plano(s): máx. ${max} para este largo (≈ ${Math.floor(150 / minimo)} en 150 s)` });
+      v.push({ regla: 'R4', severidad: 'aviso', path: ['escenas'], donde: 'video', mensaje: `${medidos.length} planos en ${Math.round(total)} s (${f1(prom)} s/plano; mín. ${f1(minimo)}${opciones.estimado ? ' con tiempos estimados' : ''}) → quita ${medidos.length - max} plano(s): máx. ${max} para este largo (≈ ${Math.floor(150 / minimo)} en 150 s)` });
     }
   }
   return v;
 };
 
-/** Para el `superRefine` de cada plantilla: agrega una issue por violación (solo si el guion usa planos v2). */
+/** Solo los errores (los avisos no rechazan el guion). */
+export const erroresCamara = (v: Violacion[]) => v.filter((x) => x.severidad === 'error');
+export const avisosCamara = (v: Violacion[]) => v.filter((x) => x.severidad === 'aviso');
+
+/** Para el `superRefine` de cada plantilla: agrega una issue por ERROR de cámara (solo si el guion usa planos v2). Los avisos no rechazan. */
 export const validarCamara = (g: GuionCam, ctx: z.RefinementCtx, opciones: { continua: boolean }) => {
   const usa = (g.gancho.planos ?? []).length || g.escenas.some((e) => (e.planos ?? []).length) || (g.rematePlanos ?? []).length;
   if (!usa) return;
   const medidos = medirCamara(g, opciones);
-  for (const x of violacionesCamara(medidos, { estimado: true })) ctx.addIssue({ code: 'custom', path: x.path, message: `gramática de cámara ${x.regla} · ${x.donde}: ${x.mensaje}` });
+  for (const x of erroresCamara(violacionesCamara(medidos, { estimado: true }))) ctx.addIssue({ code: 'custom', path: x.path, message: `gramática de cámara ${x.regla} · ${x.donde}: ${x.mensaje}` });
 };
