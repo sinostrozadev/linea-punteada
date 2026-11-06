@@ -1,5 +1,9 @@
 # Línea Punteada — Estrategia (Claude al mando; actualizado 2026-11-05)
 
+> 🎯 **OBJETIVO: lograr la MONETIZACIÓN y GANAR MUCHO DINERO. Lo MÁS IMPORTANTE, por encima de calidad, volumen,
+> herramientas o cualquier otra meta, es MONETIZAR y HACER GANAR DINERO a Santiago** (orden textual, 2026-11-05).
+> Todo lo demás es instrumento. Skill `estrategia-viva`.
+
 Mandato de Santiago (2026-11-05): "haz que el canal funcione, que se pueda monetizar y me haga ganar dinero; crea
 estrategias, toma decisiones, haz todo. Prepara bien el guion y mejora cada vez más la calidad del producto final."
 Claude decide y ejecuta; Santiago solo da los clics de identidad/consentimiento y pone el dinero si alguna vez hace falta.
