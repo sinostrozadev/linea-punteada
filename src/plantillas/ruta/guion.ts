@@ -9,6 +9,7 @@
  */
 import { z } from 'zod';
 import { CamposBase, Escena, envoltorioDe, validarFormula } from '../comun/guion';
+import { validarCamara } from '../comun/camara';
 import { CamposV2, DireccionMapaV2, validarDireccionV2 } from '../lugar/compartido/direccionMapa';
 
 /** Fecha de un punto: "AAAA", "AAAA-MM" o "AAAA-MM-DD". */
@@ -95,6 +96,8 @@ export const CamposRuta = CamposBase.extend({
 export const GuionRuta = CamposRuta.superRefine((g, ctx) => {
   validarFormula(g, ctx);
   validarDireccionV2(g, ctx);
+  // Gramática de cámara (docs/DIRECCION-VISUAL.md §1b): una línea sin planos vuelve a la cámara automática.
+  validarCamara(g, ctx, { continua: false });
   const n = g.mapa.puntos.length;
   let ultimo = 0;
   g.escenas.forEach((e, i) => {
