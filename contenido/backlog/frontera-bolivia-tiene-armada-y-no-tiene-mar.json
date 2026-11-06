@@ -1,0 +1,989 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-bolivia-tiene-armada-y-no-tiene-mar",
+  "titulo": "Bolivia tiene Armada… y no tiene mar",
+  "descripcion": "Bolivia no tiene un metro de costa, pero sí una Armada que patrulla el lago Titicaca y los ríos de la Amazonía. Perdió su litoral tras la Guerra del Pacífico, y el tratado de 1904 fijó la paz con Chile. Chile dice que eso cerró el asunto; Bolivia, que lo firmó bajo presión. En 2018 la Corte Internacional de Justicia resolvió, por 12 votos contra 3, que Chile no tiene obligación de negociar.\n\nFuentes:\n- Corte Internacional de Justicia, sentencia del 1-10-2018: https://www.icj-cij.org/case/153\n- Constitución de Bolivia (2009), art. 267: https://www.constituteproject.org/constitution/Bolivia_2009\n- Bolivian Naval Force: https://en.wikipedia.org/wiki/Bolivian_Naval_Force\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#bolivia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-bolivia-tiene-armada-y-no-tiene-mar",
+    "cabecera": "BOLIVIA — UNA ARMADA SIN MAR",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿UNA ARMADA SIN MAR?",
+      "clave": "SIN MAR",
+      "paises": [
+        "Bolivia"
+      ],
+      "centro": [
+        -65,
+        -18
+      ],
+      "zoom": 4.6,
+      "icono": "⚓"
+    },
+    "gancho": {
+      "texto": "Mira Bolivia en el mapa: ni un metro de costa. Pero tiene Armada, con almirantes, marinos y barcos. ¿Cómo navega un país sin mar?",
+      "rotulo": "ARMADA SIN MAR",
+      "planos": [
+        {
+          "centro": [
+            -65,
+            -17.5
+          ],
+          "zoom": 5.4,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -67,
+            -17
+          ],
+          "zoom": 6,
+          "entrada": "zoom",
+          "en": "Armada",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Bolivia",
+          "color": "amarillo",
+          "etiqueta": "BOLIVIA",
+          "aparecerEn": "Bolivia"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -75.5,
+          "lat": -20,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "costa"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -66,
+          "lat": -15,
+          "icono": "⚓",
+          "escala": 1.2,
+          "aparecerEn": "Armada"
+        },
+        {
+          "lon": -64,
+          "lat": -18,
+          "icono": "barco",
+          "escala": 1,
+          "aparecerEn": "barcos"
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO NAVEGA?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "costa",
+        "Armada",
+        "almirantes",
+        "barcos"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "La explicación fácil es que esa Armada es un capricho, un adorno de desfile para no olvidar lo perdido. Pero sus lanchas patrullan de verdad, muy lejos de cualquier playa. La verdad es más rara.",
+        "rotulo": {
+          "texto": "UN CAPRICHO",
+          "dice": "capricho"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.5,
+              -17.5
+            ],
+            "zoom": 6.4,
+            "entrada": "paneo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -65.5,
+              -13.5
+            ],
+            "zoom": 7,
+            "entrada": "paneo",
+            "en": "lanchas",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.5,
+              -16
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "La#2",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.2,
+            "lat": -16.6,
+            "icono": "🎖️",
+            "escala": 1.1,
+            "aparecerEn": "desfile",
+            "desaparecerEn": "lanchas"
+          },
+          {
+            "lon": -65.3,
+            "lat": -13,
+            "icono": "barco",
+            "escala": 1,
+            "ruta": [
+              [
+                -65.2,
+                -14
+              ],
+              [
+                -65.35,
+                -12.6
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "lanchas"
+          }
+        ],
+        "foto": {
+          "buscar": "Patrullera fluvial de Bolivia",
+          "archivo": "File:Patrullera fluvial de Bolivia.jpg",
+          "pie": "PATRULLERA FLUVIAL · BOLIVIA",
+          "aparecerEn": "patrullan",
+          "duracionSeg": 2.6
+        },
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad#2"
+        },
+        "clave": [
+          "capricho",
+          "desfile",
+          "lanchas",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una guerra, un tratado y un lago. Y al final, un tribunal que responde la pregunta que Bolivia llevaba un siglo haciendo.",
+        "rotulo": {
+          "texto": "GUERRA, TRATADO, LAGO",
+          "dice": "guerra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67,
+              -17.5
+            ],
+            "zoom": 5.8,
+            "entrada": "paneo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66,
+              -17
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "tribunal",
+            "deriva": 0.2
+          }
+        ],
+        "indice": [
+          {
+            "icono": "guerra",
+            "texto": "GUERRA",
+            "dice": "guerra"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "🌊",
+            "texto": "LAGO",
+            "dice": "lago"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": -66,
+            "lat": -20,
+            "icono": "tribunal",
+            "escala": 1.2,
+            "aparecerEn": "tribunal"
+          }
+        ],
+        "clave": [
+          "guerra",
+          "tratado",
+          "lago",
+          "tribunal"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la guerra. Según la Corte Internacional de Justicia, Bolivia nació en 1825 con más de 400 kilómetros de costa en el Pacífico. En 1879 estalla la Guerra del Pacífico. Chile ocupa Antofagasta, y Bolivia se queda sin litoral.",
+        "fuenteEnVoz": true,
+        "rotulo": {
+          "texto": "400 KM DE COSTA",
+          "dice": "400"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.5,
+              -22
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.5,
+              -23
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "costa",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.4,
+              -23.65
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "Antofagasta",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69,
+              -22.5
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Bolivia#2",
+            "deriva": 0.2
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.06,
+                -21.43
+              ],
+              [
+                -68.6,
+                -21.43
+              ],
+              [
+                -67.8,
+                -22.8
+              ],
+              [
+                -67.2,
+                -24
+              ],
+              [
+                -68.4,
+                -25
+              ],
+              [
+                -70.46,
+                -25
+              ],
+              [
+                -70.5,
+                -23.65
+              ],
+              [
+                -70.2,
+                -22.09
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "LITORAL BOLIVIANO",
+            "etiquetaEn": [
+              -68.9,
+              -23.2
+            ],
+            "aparecerEn": "costa",
+            "desaparecerEn": "litoral"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "400 KM",
+            "sub": "DE COSTA EN 1825",
+            "icono": "🌊",
+            "aparecerEn": "400",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.4,
+            "lat": -23.65,
+            "texto": "ANTOFAGASTA",
+            "tipo": "pin",
+            "aparecerEn": "Antofagasta"
+          }
+        ],
+        "fuente": {
+          "texto": "Corte Internacional de Justicia · sentencia de 2018",
+          "dice": "Según"
+        },
+        "clave": [
+          "1825",
+          "400",
+          "1879",
+          "Antofagasta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el tratado. En 1904, veinte años después de la tregua, los dos países firman la paz. Bolivia reconoce esa costa como chilena. Chile construye el tren de Arica a La Paz y garantiza libre tránsito por sus puertos. Chile dice que eso cerró el asunto. Bolivia dice que lo firmó bajo presión.",
+        "rotulo": {
+          "texto": "1904",
+          "dice": "1904"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -21.5
+            ],
+            "zoom": 6.6,
+            "entrada": "paneo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.2,
+              -17.6
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "tren",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -19
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "asunto",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1904",
+            "sub": "TRATADO DE PAZ Y AMISTAD",
+            "icono": "tratado",
+            "aparecerEn": "1904",
+            "duracionSeg": 3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Chile",
+            "color": "rojo",
+            "etiqueta": "CHILE: ASUNTO CERRADO",
+            "etiquetaEn": [
+              -70.4,
+              -20.6
+            ],
+            "aparecerEn": "asunto"
+          },
+          {
+            "pais": "Bolivia",
+            "color": "verde",
+            "etiqueta": "BOLIVIA: BAJO PRESIÓN",
+            "etiquetaEn": [
+              -67.6,
+              -18.4
+            ],
+            "aparecerEn": "presión"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          },
+          {
+            "lon": -68.15,
+            "lat": -16.5,
+            "texto": "LA PAZ",
+            "tipo": "pin",
+            "aparecerEn": "Paz#2"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "icono": "tren",
+            "escala": 1,
+            "ruta": [
+              [
+                -70.31,
+                -18.48
+              ],
+              [
+                -69.47,
+                -17.6
+              ],
+              [
+                -68.3,
+                -16.65
+              ]
+            ],
+            "duracionSeg": 4,
+            "aparecerEn": "tren",
+            "desaparecerEn": "asunto"
+          }
+        ],
+        "clave": [
+          "1904",
+          "tren",
+          "Arica",
+          "tránsito"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el lago. En 1963 Bolivia crea la Fuerza Fluvial y Lacustre, que más tarde pasa a llamarse Fuerza Naval. Su casa es el Titicaca, a unos 3.800 metros de altura, y los ríos de la Amazonía. En 2008 se le contaban unos 5.000 efectivos. Patrullan agua dulce, y la ola más cercana queda al otro lado de los Andes.",
+        "rotulo": {
+          "texto": "3.800 METROS",
+          "dice": "3.800"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.2,
+              -16.1
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -16.1
+            ],
+            "zoom": 9,
+            "entrada": "corte",
+            "en": "Titicaca",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -65.8,
+              -13
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "ríos",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.8,
+              -17.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "ola",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1963",
+            "sub": "FUERZA FLUVIAL Y LACUSTRE",
+            "icono": "⚓",
+            "aparecerEn": "1963",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.35,
+            "lat": -15.9,
+            "texto": "LAGO TITICACA",
+            "tipo": "mar",
+            "aparecerEn": "Titicaca",
+            "desaparecerEn": "ríos"
+          },
+          {
+            "lon": -68.8,
+            "lat": -18,
+            "texto": "LOS ANDES",
+            "tipo": "region",
+            "aparecerEn": "Andes"
+          },
+          {
+            "lon": -73.5,
+            "lat": -18,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "ola"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.2,
+            "lat": -16.2,
+            "icono": "barco",
+            "escala": 1,
+            "ruta": [
+              [
+                -69.45,
+                -16.1
+              ],
+              [
+                -69,
+                -16.15
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "casa",
+            "desaparecerEn": "ríos"
+          }
+        ],
+        "clave": [
+          "1963",
+          "Titicaca",
+          "3.800",
+          "5.000",
+          "Andes"
+        ],
+        "contexto": {
+          "texto": "AGUA DULCE",
+          "dice": "dulce"
+        }
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: en 2013 Bolivia lleva su reclamo a La Haya. No pide que le devuelvan la costa. Pide algo más fino: que obliguen a Chile a negociar. El 1 de octubre de 2018, la Corte responde por 12 votos contra 3: Chile no tiene esa obligación.",
+        "rotulo": {
+          "texto": "12 A 3",
+          "dice": "12"
+        },
+        "planos": [
+          {
+            "centro": [
+              -25,
+              15
+            ],
+            "zoom": 3,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              4.3,
+              52.1
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "en": "pide",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              4.3,
+              52.1
+            ],
+            "zoom": 6.6,
+            "entrada": "corte",
+            "en": "octubre",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69,
+              -20
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "en": "Chile#2",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "12 A 3",
+            "sub": "VOTOS DE LA CORTE · 2018",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "MAYORÍA",
+                "valor": 12
+              },
+              {
+                "etiqueta": "MINORÍA",
+                "valor": 3
+              }
+            ],
+            "aparecerEn": "12",
+            "duracionSeg": 3.4
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 4.3,
+            "lat": 52.1,
+            "texto": "LA HAYA",
+            "tipo": "pin",
+            "aparecerEn": "Haya",
+            "desaparecerEn": "Chile#2"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Peace Palace The Hague",
+          "pie": "Palacio de la Paz, La Haya (sede de la Corte)",
+          "lado": "derecha",
+          "aparecerEn": "Corte",
+          "duracionSeg": 3
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "2013",
+          "negociar",
+          "2018",
+          "12",
+          "obligación"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la Constitución boliviana sigue llamando irrenunciable su derecho a salir al Pacífico. Chile responde que el tratado de 1904 sigue vigente. Y cada 23 de marzo, Día del Mar, los marinos desfilan en La Paz, a más de 3.600 metros de altura, por una costa que el mapa ya no les muestra.",
+        "rotulo": {
+          "texto": "DÍA DEL MAR",
+          "dice": "Mar"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67,
+              -17
+            ],
+            "zoom": 6,
+            "entrada": "paneo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.8,
+              -21.5
+            ],
+            "zoom": 6.6,
+            "entrada": "paneo",
+            "en": "Chile",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.15,
+              -16.5
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "marzo",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -69.3,
+              -22.8
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "costa",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "23 DE MARZO",
+            "sub": "DÍA DEL MAR",
+            "icono": "🌊",
+            "aparecerEn": "marzo",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.15,
+            "lat": -16.5,
+            "texto": "LA PAZ",
+            "tipo": "pin",
+            "aparecerEn": "Paz",
+            "desaparecerEn": "costa"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.06,
+                -21.43
+              ],
+              [
+                -68.6,
+                -21.43
+              ],
+              [
+                -67.8,
+                -22.8
+              ],
+              [
+                -67.2,
+                -24
+              ],
+              [
+                -68.4,
+                -25
+              ],
+              [
+                -70.46,
+                -25
+              ],
+              [
+                -70.5,
+                -23.65
+              ],
+              [
+                -70.2,
+                -22.09
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "EL LITORAL DE 1879",
+            "etiquetaEn": [
+              -68.9,
+              -23.2
+            ],
+            "aparecerEn": "costa"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.15,
+            "lat": -16.6,
+            "icono": "🎖️",
+            "escala": 1.1,
+            "aparecerEn": "desfilan",
+            "desaparecerEn": "costa"
+          }
+        ],
+        "clave": [
+          "irrenunciable",
+          "1904",
+          "23",
+          "3.600",
+          "costa"
+        ]
+      }
+    ],
+    "remate": "Bolivia se quedó con una Armada sin mar. Chile, con un mar que todavía le reclaman.",
+    "rematePlanos": [
+      {
+        "centro": [
+          -68,
+          -19
+        ],
+        "zoom": 5.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -69.8,
+          -22.5
+        ],
+        "zoom": 6.6,
+        "entrada": "zoom",
+        "en": "Chile",
+        "deriva": 0.25
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -66,
+        "lat": -17,
+        "texto": "UNA ARMADA SIN MAR"
+      },
+      {
+        "lon": -69.9,
+        "lat": -23.6,
+        "texto": "UN MAR RECLAMADO"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Corte Internacional de Justicia: Obligación de negociar un acceso al océano Pacífico (Bolivia c. Chile), sentencia del 1-10-2018",
+        "url": "https://www.icj-cij.org/case/153"
+      },
+      {
+        "texto": "Constitución de Bolivia (2009), artículo 267, en Constitute Project",
+        "url": "https://www.constituteproject.org/constitution/Bolivia_2009"
+      },
+      {
+        "texto": "Wikipedia: Bolivian Naval Force (historia y efectivos)",
+        "url": "https://en.wikipedia.org/wiki/Bolivian_Naval_Force"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -65,
+        -17.5
+      ],
+      "zoomInicial": 5.4,
+      "zoomFinal": 6.4,
+      "paises": [
+        "Bolivia"
+      ],
+      "lineas": [
+        {
+          "id": "frontera-chile",
+          "fronteraEntre": [
+            "Bolivia",
+            "Chile"
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "costa"
+        },
+        {
+          "id": "litoral",
+          "puntos": [
+            [
+              -70.06,
+              -21.43
+            ],
+            [
+              -70.2,
+              -22.09
+            ],
+            [
+              -70.45,
+              -23.1
+            ],
+            [
+              -70.4,
+              -23.65
+            ],
+            [
+              -70.55,
+              -24.3
+            ],
+            [
+              -70.46,
+              -25
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "costa",
+          "etiqueta": "COSTA PERDIDA"
+        },
+        {
+          "id": "tren-arica-la-paz",
+          "puntos": [
+            [
+              -70.31,
+              -18.48
+            ],
+            [
+              -69.47,
+              -17.6
+            ],
+            [
+              -68.3,
+              -16.65
+            ],
+            [
+              -68.15,
+              -16.5
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "tren",
+          "etiqueta": "TREN ARICA-LA PAZ"
+        },
+        {
+          "id": "mamore",
+          "puntos": [
+            [
+              -64.9,
+              -14.83
+            ],
+            [
+              -65.2,
+              -13
+            ],
+            [
+              -65.35,
+              -11.6
+            ],
+            [
+              -65.35,
+              -10.82
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "ríos",
+          "etiqueta": "RÍO MAMORÉ"
+        }
+      ]
+    }
+  }
+}

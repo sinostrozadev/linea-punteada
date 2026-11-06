@@ -12,6 +12,8 @@ Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas
 - El plan semanal (docs/PLAN-SEMANAL.md) existe pero `generar-guiones` todavía no lo lee: los guiones salen de la rotación, no del plan.
 - El modelo de "mejoras" no era visible para Santiago: estaba repartido entre DECISIONES.md, el estado y los commits.
 
+- **Los guiones de `claude -p` salen con hechos de memoria, sin verificar:** el proceso hijo no tiene WebSearch/WebFetch ni Write (lo reportó él mismo al terminar el guion de Uruguay: fechas, cifras de población y 3 URLs de Wikipedia escritas de memoria). El paso "investigación con fuentes primarias" de `guiones-de-video` hoy no ocurre en el generador automático: hay que meterlo antes (ideas ya investigadas en el plan) o después (revisor que verifique cada cifra con el piloto/web) antes de renderizar.
+
 ## Mejorado
 - **Gramática de cámara R1–R5** con severidad (`src/plantillas/comun/camara.ts`, enganchada al `superRefine` de frontera, lugar y ruta): error solo por corte seco a un lugar fuera de pantalla (R2/R5) o plano < 1 s (R4); aviso por diente de sierra (R1), R3 y ráfagas (R4). `scripts/camara.mts <guion|props> --solo-resumen` lo audita. Laguna: 22–24 violaciones; Triángulo: 0. Los 3 guiones del backlog bajaron de 42/42/38 a 32/31/33 planos y se re-renderizaron.
 - `subir-studio.mjs` verifica y cambia el canal antes de subir (`asegurarCanal`, exige `LP_CANAL_ID`) y tolera la categoría ya puesta. Rivera y Campo de Hielo subieron solos; Martín García se terminó a mano por curl al piloto.

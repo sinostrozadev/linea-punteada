@@ -1,0 +1,999 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-ningun-uruguayo-firmo",
+  "titulo": "¿Por qué ningún uruguayo firmó la independencia de Uruguay?",
+  "descripcion": "Uruguay nació en un papel firmado por otros. La Convención Preliminar de Paz, firmada en Río de Janeiro el 27 de agosto de 1828 con mediación británica, terminó tres años de guerra entre Buenos Aires y Brasil y convirtió a la Provincia Cisplatina en un Estado independiente. Firmaron delegados de los dos vecinos. Unos lo explican como un Estado tapón; en Uruguay recuerdan que los orientales ya peleaban desde 1825. Y su fiesta patria es otra fecha.\n\nFuentes:\n- Convención Preliminar de Paz (1828): https://es.wikipedia.org/wiki/Convenci%C3%B3n_Preliminar_de_Paz\n- Guerra del Brasil: https://es.wikipedia.org/wiki/Guerra_del_Brasil\n- Treinta y Tres Orientales: https://es.wikipedia.org/wiki/Treinta_y_Tres_Orientales\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#uruguay"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-ningun-uruguayo-firmo",
+    "cabecera": "URUGUAY — EL PAÍS QUE FIRMARON OTROS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿QUIÉN FIRMÓ LA INDEPENDENCIA DE URUGUAY?",
+      "clave": "URUGUAY",
+      "paises": [
+        "Uruguay"
+      ],
+      "centro": [
+        -56,
+        -32.8
+      ],
+      "zoom": 5,
+      "pines": [
+        {
+          "lon": -56.19,
+          "lat": -34.9,
+          "texto": "MONTEVIDEO"
+        }
+      ],
+      "icono": "✍️"
+    },
+    "gancho": {
+      "texto": "Mira a Uruguay, metido entre los dos gigantes de Sudamérica. El tratado de 1828 que lo hizo país no lleva ni una firma uruguaya. ¿Quién lo firmó, entonces?",
+      "rotulo": "NI UNA FIRMA",
+      "planos": [
+        {
+          "centro": [
+            -56,
+            -32.8
+          ],
+          "zoom": 6.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -57.5,
+            -31
+          ],
+          "zoom": 5.2,
+          "entrada": "zoom",
+          "en": "entre",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -56,
+            -32.8
+          ],
+          "zoom": 6.8,
+          "entrada": "zoom",
+          "en": "tratado",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Uruguay",
+          "color": "amarillo",
+          "etiqueta": "URUGUAY",
+          "aparecerEn": "Uruguay"
+        },
+        {
+          "pais": "Argentina",
+          "color": "azul",
+          "etiqueta": "ARGENTINA",
+          "etiquetaEn": [
+            -62,
+            -33
+          ],
+          "aparecerEn": "gigantes",
+          "desaparecerEn": "tratado"
+        },
+        {
+          "pais": "Brazil",
+          "color": "verde",
+          "etiqueta": "BRASIL",
+          "etiquetaEn": [
+            -52,
+            -25
+          ],
+          "aparecerEn": "gigantes",
+          "desaparecerEn": "tratado"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "1828",
+          "sub": "NI UNA FIRMA URUGUAYA",
+          "icono": "tratado",
+          "aparecerEn": "1828",
+          "duracionSeg": 3
+        }
+      ],
+      "contexto": {
+        "texto": "¿QUIÉN FIRMÓ?",
+        "dice": "Quién"
+      },
+      "clave": [
+        "Uruguay",
+        "gigantes",
+        "1828",
+        "firma",
+        "uruguaya"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que a Uruguay lo inventó un diplomático británico: un tapón para separar a Argentina y Brasil. Muchos libros lo cuentan así. En Uruguay responden que los orientales ya llevaban años peleando por lo suyo. La verdad es más rara.",
+        "rotulo": {
+          "texto": "UN TAPÓN",
+          "dice": "tapón"
+        },
+        "planos": [
+          {
+            "centro": [
+              -56,
+              -32.8
+            ],
+            "zoom": 7.1,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -57,
+              -31.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "tapón",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56,
+              -33
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "en": "Uruguay#2",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Argentina",
+            "color": "azul",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -61,
+              -33
+            ],
+            "aparecerEn": "Argentina",
+            "desaparecerEn": "Uruguay#2"
+          },
+          {
+            "pais": "Brazil",
+            "color": "verde",
+            "etiqueta": "BRASIL",
+            "etiquetaEn": [
+              -52,
+              -27
+            ],
+            "aparecerEn": "Brasil",
+            "desaparecerEn": "Uruguay#2"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -56,
+            "lat": -32.8,
+            "icono": "🧱",
+            "escala": 1.2,
+            "aparecerEn": "tapón",
+            "desaparecerEn": "Uruguay#2"
+          },
+          {
+            "lon": -56,
+            "lat": -33.2,
+            "icono": "guerra",
+            "escala": 1.1,
+            "aparecerEn": "peleando"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -55.2,
+            "lat": -32.3,
+            "texto": "ORIENTALES",
+            "tipo": "region",
+            "aparecerEn": "orientales"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "británico",
+          "tapón",
+          "Argentina",
+          "Brasil",
+          "orientales",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una provincia, una guerra y una firma. Y al final, una fecha patria que nadie lee completa.",
+        "rotulo": {
+          "texto": "TRES COSAS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -56,
+              -33
+            ],
+            "zoom": 7.5,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -56.2,
+              -34.3
+            ],
+            "zoom": 8.2,
+            "entrada": "paneo",
+            "en": "final",
+            "deriva": 0.2
+          }
+        ],
+        "indice": [
+          {
+            "icono": "📍",
+            "texto": "PROVINCIA",
+            "dice": "provincia"
+          },
+          {
+            "icono": "guerra",
+            "texto": "GUERRA",
+            "dice": "guerra"
+          },
+          {
+            "icono": "tratado",
+            "texto": "FIRMA",
+            "dice": "firma"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": -56.2,
+            "lat": -34.2,
+            "icono": "📅",
+            "escala": 1.1,
+            "aparecerEn": "fecha"
+          }
+        ],
+        "clave": [
+          "provincia",
+          "guerra",
+          "firma",
+          "fecha"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la provincia. En 1821 Portugal anexa esta tierra, la Banda Oriental, y la llama Provincia Cisplatina. Un año después Brasil se independiza y se la queda. Pero desde Buenos Aires la siguen reclamando como propia.",
+        "rotulo": {
+          "texto": "CISPLATINA",
+          "dice": "Cisplatina"
+        },
+        "planos": [
+          {
+            "centro": [
+              -56,
+              -33
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.5,
+              -30
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "en": "Brasil",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.38,
+              -34.3
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "en": "Buenos",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Uruguay",
+            "color": "amarillo",
+            "etiqueta": "BANDA ORIENTAL",
+            "aparecerEn": "Banda",
+            "desaparecerEn": "Cisplatina"
+          },
+          {
+            "pais": "Uruguay",
+            "color": "verde",
+            "etiqueta": "CISPLATINA",
+            "aparecerEn": "Cisplatina"
+          },
+          {
+            "pais": "Brazil",
+            "color": "verde",
+            "etiqueta": "BRASIL",
+            "etiquetaEn": [
+              -52,
+              -27
+            ],
+            "aparecerEn": "Brasil",
+            "desaparecerEn": "Buenos"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Buenos"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -57.2,
+            "lat": -33.7,
+            "icono": "bandera",
+            "escala": 1,
+            "aparecerEn": "reclamando"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1821",
+            "sub": "PROVINCIA CISPLATINA",
+            "aparecerEn": "1821",
+            "duracionSeg": 2.8
+          }
+        ],
+        "contexto": {
+          "texto": "LA PROVINCIA",
+          "dice": "provincia"
+        },
+        "clave": [
+          "1821",
+          "Banda",
+          "Cisplatina",
+          "Brasil",
+          "Buenos",
+          "reclamando"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la guerra. En abril de 1825 Juan Antonio Lavalleja cruza el río con treinta y tres hombres y levanta la campaña. Buenos Aires y Brasil terminan en guerra abierta. En febrero de 1827, en Ituzaingó, Buenos Aires gana en tierra. Pero en el mar, la flota brasileña le bloquea el puerto. Tres años, y nadie puede rematar.",
+        "rotulo": {
+          "texto": "EL EMPATE",
+          "dice": "rematar"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.4,
+              -34.1
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.5,
+              -31.5
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "en": "campaña",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.91,
+              -30.25
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "Ituzaingó",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.5,
+              -35
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "mar",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.3,
+              -33
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Tres#2",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Juramento de los Treinta y Tres Orientales",
+          "pie": "El juramento de los Treinta y Tres · Juan Manuel Blanes",
+          "lado": "derecha",
+          "aparecerEn": "treinta",
+          "duracionSeg": 3.2
+        },
+        "etiquetas": [
+          {
+            "lon": -54.91,
+            "lat": -30.25,
+            "texto": "ITUZAINGÓ",
+            "tipo": "pin",
+            "aparecerEn": "Ituzaingó",
+            "desaparecerEn": "mar"
+          },
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "mar"
+          },
+          {
+            "lon": -56.2,
+            "lat": -35.6,
+            "texto": "RÍO DE LA PLATA",
+            "tipo": "mar",
+            "aparecerEn": "mar"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -58.5,
+            "lat": -34.45,
+            "icono": "🛶",
+            "ruta": [
+              [
+                -58.51,
+                -34.47
+              ],
+              [
+                -58.38,
+                -33.8
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 0.9,
+            "aparecerEn": "cruza",
+            "desaparecerEn": "campaña"
+          },
+          {
+            "lon": -56.8,
+            "lat": -35,
+            "icono": "barco",
+            "escala": 1.1,
+            "aparecerEn": "flota",
+            "desaparecerEn": "Tres#2"
+          },
+          {
+            "lon": -55.5,
+            "lat": -33.5,
+            "icono": "⚖️",
+            "escala": 1.2,
+            "aparecerEn": "Tres#2"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3 AÑOS",
+            "sub": "1825–1828",
+            "tipo": "linea-tiempo",
+            "desde": "1825",
+            "hasta": "1828",
+            "aparecerEn": "Tres#2",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "LA GUERRA",
+          "dice": "guerra"
+        },
+        "clave": [
+          "1825",
+          "Lavalleja",
+          "1827",
+          "Ituzaingó",
+          "flota",
+          "rematar"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la firma. Entra Lord Ponsonby, el mediador británico: el bloqueo le estorba el comercio a Londres. El 27 de agosto de 1828, en Río de Janeiro, se firma la Convención Preliminar de Paz. Según su texto, la provincia será un Estado independiente, y su constitución deberá pasar por comisarios de los dos vecinos. Firman delegados de Buenos Aires y de Brasil. De la provincia, nadie.",
+        "rotulo": {
+          "texto": "27 DE AGOSTO",
+          "dice": "agosto"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -53,
+              -29
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -43.2,
+              -22.91
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Río",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -52,
+              -29
+            ],
+            "zoom": 5,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56,
+              -32.9
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "Firman",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "John Ponsonby 1st Viscount Ponsonby",
+          "pie": "Lord Ponsonby, mediador británico",
+          "lado": "izquierda",
+          "aparecerEn": "Ponsonby",
+          "duracionSeg": 3
+        },
+        "etiquetas": [
+          {
+            "lon": -43.2,
+            "lat": -22.91,
+            "texto": "RÍO DE JANEIRO",
+            "tipo": "pin",
+            "aparecerEn": "Río",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Firman"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Uruguay",
+            "color": "amarillo",
+            "etiqueta": "ESTADO INDEPENDIENTE",
+            "aparecerEn": "independiente"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -43.6,
+            "lat": -22.2,
+            "icono": "tratado",
+            "escala": 1.1,
+            "aparecerEn": "Convención",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -56,
+            "lat": -32.9,
+            "icono": "✍️",
+            "escala": 1.3,
+            "tachado": true,
+            "aparecerEn": "nadie"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "27-08-1828",
+            "sub": "CONVENCIÓN PRELIMINAR DE PAZ",
+            "aparecerEn": "agosto",
+            "duracionSeg": 3
+          }
+        ],
+        "fuente": {
+          "texto": "Convención Preliminar de Paz · Río de Janeiro, 1828",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "LA FIRMA",
+          "dice": "firma"
+        },
+        "clave": [
+          "Ponsonby",
+          "1828",
+          "Convención",
+          "independiente",
+          "comisarios",
+          "nadie"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: Uruguay no festeja esa firma. Su día de la independencia es el 25 de agosto, por la declaración de 1825 en Florida. Y ese mismo congreso, ese mismo día, votó unirse a las Provincias Unidas del Río de la Plata: lo que hoy es Argentina.",
+        "rotulo": {
+          "texto": "25 DE AGOSTO",
+          "dice": "25"
+        },
+        "planos": [
+          {
+            "centro": [
+              -56.21,
+              -34.1
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.21,
+              -34.1
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "Florida",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.2,
+              -33.8
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "votó",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.21,
+            "lat": -34.1,
+            "texto": "FLORIDA",
+            "tipo": "pin",
+            "aparecerEn": "Florida"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Argentina",
+            "color": "azul",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -60,
+              -34
+            ],
+            "aparecerEn": "Argentina"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -56.8,
+            "lat": -33.7,
+            "icono": "➡️",
+            "ruta": [
+              [
+                -56.5,
+                -33.8
+              ],
+              [
+                -58.2,
+                -33.8
+              ]
+            ],
+            "duracionSeg": 1.8,
+            "escala": 1,
+            "aparecerEn": "unirse"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "25 DE AGOSTO",
+            "sub": "1825 · CONGRESO DE FLORIDA",
+            "aparecerEn": "25",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "festeja",
+          "25",
+          "Florida",
+          "congreso",
+          "unirse",
+          "Argentina"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Uruguay tiene unos 3,4 millones de habitantes, entre dos vecinos que juntan más de 250 millones. La avenida principal de Montevideo se llama 18 de Julio, por la constitución de 1830. Y el 27 de agosto, el día de la firma, pasa como una fecha cualquiera.",
+        "rotulo": {
+          "texto": "18 DE JULIO",
+          "dice": "18"
+        },
+        "planos": [
+          {
+            "centro": [
+              -56.5,
+              -31
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.19,
+              -34.9
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "en": "avenida",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.175,
+              -34.905
+            ],
+            "zoom": 13,
+            "entrada": "corte",
+            "en": "18",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.19,
+              -34.6
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "27",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3,4 MILLONES",
+            "sub": "HABITANTES",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "URUGUAY",
+                "valor": 3.4
+              },
+              {
+                "etiqueta": "ARGENTINA",
+                "valor": 46
+              },
+              {
+                "etiqueta": "BRASIL",
+                "valor": 213
+              }
+            ],
+            "aparecerEn": "millones",
+            "duracionSeg": 3.4
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.19,
+            "lat": -34.9,
+            "texto": "MONTEVIDEO",
+            "tipo": "pin",
+            "aparecerEn": "Montevideo",
+            "desaparecerEn": "27"
+          },
+          {
+            "lon": -56.175,
+            "lat": -34.905,
+            "texto": "AV. 18 DE JULIO",
+            "tipo": "region",
+            "aparecerEn": "18",
+            "desaparecerEn": "27"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Avenida 18 de Julio Montevideo",
+          "pie": "Avenida 18 de Julio, Montevideo",
+          "lado": "derecha",
+          "aparecerEn": "Julio",
+          "duracionSeg": 2.8
+        },
+        "iconos": [
+          {
+            "lon": -56.19,
+            "lat": -34.5,
+            "icono": "📅",
+            "escala": 1.1,
+            "aparecerEn": "27"
+          }
+        ],
+        "contexto": {
+          "texto": "HOY",
+          "dice": "Hoy"
+        },
+        "clave": [
+          "3,4",
+          "250",
+          "Montevideo",
+          "1830",
+          "27",
+          "cualquiera"
+        ]
+      }
+    ],
+    "remate": "Otros firmaron su independencia. Uruguay eligió su fecha.",
+    "remateEtiquetas": [
+      {
+        "lon": -57.4,
+        "lat": -33.6,
+        "texto": "1828: FIRMARON OTROS"
+      },
+      {
+        "lon": -55.2,
+        "lat": -32.4,
+        "texto": "1825: SU FECHA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -56,
+          -32.9
+        ],
+        "zoom": 7,
+        "entrada": "zoom",
+        "deriva": 0.3
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Convención Preliminar de Paz (27-8-1828)",
+        "url": "https://es.wikipedia.org/wiki/Convenci%C3%B3n_Preliminar_de_Paz"
+      },
+      {
+        "texto": "Guerra del Brasil (1825–1828)",
+        "url": "https://es.wikipedia.org/wiki/Guerra_del_Brasil"
+      },
+      {
+        "texto": "Treinta y Tres Orientales (1825)",
+        "url": "https://es.wikipedia.org/wiki/Treinta_y_Tres_Orientales"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -56,
+        -32.8
+      ],
+      "zoomInicial": 6.6,
+      "zoomFinal": 7.3,
+      "lineas": [
+        {
+          "id": "frontera-brasil",
+          "fronteraEntre": [
+            "Uruguay",
+            "Brazil"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "metido"
+        },
+        {
+          "id": "frontera-argentina",
+          "fronteraEntre": [
+            "Uruguay",
+            "Argentina"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "metido"
+        },
+        {
+          "id": "cruce-1825",
+          "puntos": [
+            [
+              -58.51,
+              -34.47
+            ],
+            [
+              -58.45,
+              -34.15
+            ],
+            [
+              -58.38,
+              -33.8
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "cruza",
+          "etiqueta": "CRUCE DE 1825"
+        },
+        {
+          "id": "bloqueo",
+          "puntos": [
+            [
+              -57.9,
+              -35.25
+            ],
+            [
+              -57.2,
+              -35.05
+            ],
+            [
+              -56.5,
+              -34.95
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "bloquea",
+          "etiqueta": "BLOQUEO"
+        }
+      ]
+    }
+  }
+}
