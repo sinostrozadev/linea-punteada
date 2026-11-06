@@ -26,3 +26,4 @@ salida/revisiones/*
 !salida/revisiones/hojas/
 salida/revisiones/hojas/*
 !salida/revisiones/hojas/*.jpg
+.claude/worktrees/
