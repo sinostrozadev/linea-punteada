@@ -32,6 +32,7 @@ Cada una trae su `ejemplo.json` propio (nunca se importa desde `contenido/`) y s
 | Fotogramas de revisión | `npx tsx scripts/fotogramas.mts <video.mp4>` |
 | Subir por Studio (piloto de Bolita Lab encendido) | `LP_CANAL_ID=UC… node herramientas/navegador/subir-studio.mjs <id> <AAAA-MM-DD> <HH:MM>` |
 | Subir por API / exportar | `npx tsx scripts/subir.mts subir --todos` · `npx tsx scripts/subir.mts exportar` |
+| Métricas del día (capturas + JSON) | `npx tsx scripts/metricas.mts` (`--sin-capturas`, `--fecha`); lo llama `estado.mts` (`--sin-metricas` lo omite) |
 | Compilación | `npx tsx scripts/compilar.mts --n 10` |
 | Solo el satélite / las fotos | `npx tsx scripts/mapas.mts <guion.json>` · `npx tsx scripts/imagenes.mts <guion.json>` |
 
@@ -48,3 +49,11 @@ Variables: `LINEA_MEMORIA_MIN_MB` (1500), `LINEA_CONCURRENCIA` (1), `LINEA_RENDE
 ## Lo que exige a Santiago
 Instalar el cron, el id del canal (`LP_CANAL_ID`), el token OAuth propio del canal (`subir.mts autorizar`, mismo proyecto de
 Google Cloud que Bolita Lab) y los consentimientos de Studio (skill `canal-youtube-automatico`).
+
+## Métricas diarias (`salida/metricas/AAAA-MM-DD/`)
+Skill global `metricas-diarias`. A las 08:15 `estado.mts` llama a `scripts/metricas.mts` (sin línea nueva en el cron): guarda 4 capturas
+de Studio (`1-overview`, `2-monetizacion`, `3-alcance`, `4-contenido` .png + .txt con el texto) y `metricas.json` (subs, vistas por video con
+curl público, progreso al YPP leído de Studio). Es material del video "camino a la monetización": **no se borra nunca** y sí se commitea
+(`fallo-*.png` no). Requiere el piloto en :8777 **con Studio en el canal Línea Punteada**; si Studio está en otro canal de marca las capturas
+quedan como `fallo-*.png` y `capturas` en el JSON lo dice (se siguen guardando los números públicos). Cambiar de canal en Studio es un clic de cuenta
+(avatar → Switch account) y afecta a todo el piloto, por eso el script no lo hace.

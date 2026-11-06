@@ -68,3 +68,11 @@ if (fs.existsSync(lock)) console.log(`\n⚠ ${rel(lock)} presente (pid ${fs.read
 const errores = ultimosErrores(8);
 console.log(`\nÚltimos errores en logs: ${errores.length ? '' : 'ninguno'}`);
 for (const l of errores) console.log(`  ${l.slice(0, 170)}`);
+
+// Métricas del día (capturas de Studio + metricas.json): no debe romper el estado si falla.
+if (!process.argv.includes('--sin-metricas')) {
+  console.log('');
+  const { spawnSync } = await import('node:child_process');
+  const r = spawnSync(process.execPath, [path.join(RAIZ, 'node_modules', 'tsx', 'dist', 'cli.mjs'), path.join(RAIZ, 'scripts', 'metricas.mts')], { stdio: 'inherit', timeout: 600_000 });
+  if (r.status !== 0) console.log('⚠ metricas.mts falló (ver salida arriba); el estado no se ve afectado');
+}

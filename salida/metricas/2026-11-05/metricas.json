@@ -1,0 +1,55 @@
+{
+  "fecha": "2026-11-05",
+  "canalId": "UCp05AZK18-TL8pp74ntbdUw",
+  "generadoEn": "2026-11-06T01:52:43.930Z",
+  "zona": "America/Santiago",
+  "subs": 6,
+  "videosPublicados": 2,
+  "vistasTotales": 2271,
+  "vistas28d": null,
+  "vistas48h": null,
+  "horasTotales": null,
+  "progresoYPP": {
+    "subs": null,
+    "vistasShorts90d": null,
+    "horas12m": null
+  },
+  "fuentes": {
+    "numeros": "públicos (curl a youtube.com)",
+    "studio": "texto de Studio, mejor esfuerzo",
+    "api": "sin token"
+  },
+  "capturas": {
+    "1-overview": "no cargó a tiempo",
+    "2-monetizacion": "canal equivocado (Studio está en otro canal; no se cambia de cuenta)",
+    "3-alcance": "canal equivocado (Studio está en otro canal; no se cambia de cuenta)",
+    "4-contenido": "canal equivocado (Studio está en otro canal; no se cambia de cuenta)"
+  },
+  "videos": [
+    {
+      "id": "8rm7lrivW0Q",
+      "bandeja": "2026-11-05-frontera-laguna-del-desierto",
+      "titulo": "Chile y Argentina pelearon un lago por una frase escrita en 1902",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-05T18:00:00-03:00",
+      "vistas": 998,
+      "publicadoEn": "2026-11-05T13:00:35-08:00",
+      "segundos": 150,
+      "privado": false
+    },
+    {
+      "id": "xl1dVN0KX7Q",
+      "bandeja": "2026-11-05-frontera-triangulo-terrestre",
+      "titulo": "La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": null,
+      "vistas": 1273,
+      "publicadoEn": "2026-11-05T07:00:31-08:00",
+      "segundos": 133,
+      "privado": false
+    }
+  ],
+  "actualizaciones": 1
+}
