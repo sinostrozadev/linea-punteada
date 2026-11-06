@@ -55,5 +55,7 @@ Skill global `metricas-diarias`. A las 08:15 `estado.mts` llama a `scripts/metri
 de Studio (`1-overview`, `2-monetizacion`, `3-alcance`, `4-contenido` .png + .txt con el texto) y `metricas.json` (subs, vistas por video con
 curl público, progreso al YPP leído de Studio). Es material del video "camino a la monetización": **no se borra nunca** y sí se commitea
 (`fallo-*.png` no). Requiere el piloto en :8777 **con Studio en el canal Línea Punteada**; si Studio está en otro canal de marca las capturas
-quedan como `fallo-*.png` y `capturas` en el JSON lo dice (se siguen guardando los números públicos). Cambiar de canal en Studio es un clic de cuenta
-(avatar → Switch account) y afecta a todo el piloto, por eso el script no lo hace.
+quedan como `fallo-*.png` y `capturas` en el JSON lo dice (se siguen guardando los números públicos). Antes de capturar, `metricas.mts` asegura el canal con la misma rutina que `subir-studio.mjs` ("Select a channel" → clic en `LP_CANAL_NOMBRE`,
+por defecto "Línea Punteada"), más "Switch account" cuando sale "Oops, no permission". Es cambio entre canales de la misma cuenta de Google. **Sin probar
+aún contra el piloto**; si el clasificador bloqueara ese clic, habría que dejar la pantalla lista y pedírselo a Santiago. Ojo: el cambio de canal es
+de toda la sesión del piloto, así que quien lo use después debe re-asegurar su canal (subir-studio ya lo hace).

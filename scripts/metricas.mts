@@ -38,6 +38,34 @@ const PANTALLAS = [
   { nombre: '4-contenido', ruta: 'analytics/tab-content/period-default', espera: /Content|Contenido|Views|Visualizaciones/i },
 ];
 
+const NOMBRE = process.env.LP_CANAL_NOMBRE || 'Línea Punteada'; // nombre visible en el selector de canales
+const MALA = /Oops|don't have permission|Select a channel|Elige un canal/i;
+
+/**
+ * Misma rutina que herramientas/navegador/subir-studio.mjs (asegurarCanal): si Studio pide "Select a channel" se hace clic en
+ * el canal por nombre. Extensión: en la página "Oops, you don't have permission" (Studio en otro canal de marca) primero se
+ * pulsa "Switch account" y luego se elige el canal. Es cambio entre canales de la MISMA cuenta de Google (sin consentimiento).
+ * Sin verificar contra el piloto real todavía. Devuelve el texto final; si no se logra, la captura se marca fallida.
+ */
+const asegurarCanal = async (url: string): Promise<string> => {
+  let texto = String(await piloto('/texto', { max: '6000' }));
+  for (let i = 0; i < 3 && MALA.test(texto); i++) {
+    if (/don't have permission|Oops/i.test(texto) && !/Select a channel|Elige un canal/i.test(texto)) {
+      await piloto('/clicktexto', { texto: 'Switch account', exacto: '1' });
+      await dormir(4000);
+    }
+    texto = String(await piloto('/texto', { max: '6000' }));
+    if (/Select a channel|Elige un canal/i.test(texto) || !texto.includes('Oops')) {
+      await piloto('/clicktexto', { texto: NOMBRE, exacto: '1' });
+      await dormir(6000);
+    }
+    await piloto('/ir', { url }); // vuelve a la pantalla pedida ya en el canal elegido
+    await dormir(5000);
+    texto = String(await piloto('/texto', { max: '6000' }));
+  }
+  return texto;
+};
+
 type Resultado = Record<string, string>;
 const capturar = async (): Promise<{ estado: Resultado | string; textos: Record<string, string> }> => {
   const textos: Record<string, string> = {};
@@ -57,13 +85,13 @@ const capturar = async (): Promise<{ estado: Resultado | string; textos: Record<
         await dormir(3000);
         url = (await piloto('/url')).url ?? '';
         texto = String(await piloto('/texto', { max: '6000' }));
-        if (/Oops|don't have permission|Select a channel|Elige un canal/i.test(texto)) break;
+        if (MALA.test(texto)) { texto = await asegurarCanal(`https://studio.youtube.com/channel/${CANAL}/${p.ruta}`); url = (await piloto('/url')).url ?? ''; if (MALA.test(texto)) break; }
         if (p.espera.test(texto) && texto.length > 300) { await dormir(2500); texto = String(await piloto('/texto', { max: '6000' })); break; }
       }
       const png = await piloto('/captura', {}, true);
       const archivo = path.join(dir, `${p.nombre}.png`);
       let veredicto = 'ok';
-      if (/Oops|don't have permission|Select a channel|Elige un canal/i.test(texto)) veredicto = 'canal equivocado (Studio está en otro canal; no se cambia de cuenta)';
+      if (MALA.test(texto)) veredicto = 'canal equivocado (el cambio de canal no funcionó)';
       else if (!url.includes(CANAL)) veredicto = `URL inesperada: ${url.slice(0, 80)}`;
       else if (!p.espera.test(texto)) veredicto = 'no cargó a tiempo';
       if (veredicto === 'ok') {
