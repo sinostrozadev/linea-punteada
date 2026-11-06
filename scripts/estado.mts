@@ -62,6 +62,38 @@ if (!existeSecreto(ARCHIVO_TOKEN_YT)) console.log('  → mientras tanto el diari
   }
 }
 
+// Plan semanal (docs/PLAN-SEMANAL.md, skill plan-semanal): bloque ```json con las ranuras de esta semana y la siguiente.
+{
+  const archivoPlan = path.join(RAIZ, 'docs', 'PLAN-SEMANAL.md');
+  const CON_GUION = ['guion', 'dirigido', 'renderizado', 'programado', 'publicado'];
+  console.log('\nPlan semanal:');
+  try {
+    const bloque = fs.readFileSync(archivoPlan, 'utf8').match(/```json\n([\s\S]*?)\n```/);
+    if (!bloque) throw new Error('sin bloque ```json');
+    const plan = JSON.parse(bloque[1]) as {
+      zona?: string;
+      ranuras: { fecha: string; hora: string; formato: string; plantilla: string; tema: string; estado: string; bloqueo?: string | null }[];
+    };
+    // "Ahora" como texto 'AAAA-MM-DD HH:MM' en la zona del plan: se compara como texto, sin offsets.
+    const enZona = (d: Date) => new Intl.DateTimeFormat('sv-SE', {
+      timeZone: plan.zona ?? zona, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
+    }).format(d).replace('T', ' ');
+    const ahora = enZona(new Date());
+    const en7d = enZona(new Date(Date.now() + 7 * 86_400_000));
+    const futuras = plan.ranuras.filter((r) => `${r.fecha} ${r.hora}` > ahora).sort((a, b) => `${a.fecha} ${a.hora}`.localeCompare(`${b.fecha} ${b.hora}`));
+    const conGuion = futuras.filter((r) => r.formato === 'short' && CON_GUION.includes(r.estado));
+    const shortsFuturos = futuras.filter((r) => r.formato === 'short');
+    console.log(`  ${futuras.length} ranura(s) futura(s); Shorts con guion: ${conGuion.length}/${shortsFuturos.length}`);
+    if (conGuion.length < 3) console.log(`  ⚠ menos de 3 ranuras futuras con guion → ritual de cierre (skill plan-semanal §5) y encargar guiones`);
+    if (!futuras.some((r) => `${r.fecha} ${r.hora}` > en7d)) console.log('  ⚠ ninguna ranura a más de 7 días → falta armar la semana siguiente');
+    for (const r of futuras.slice(0, 4)) {
+      console.log(`  ${r.fecha} ${r.hora}  ${r.plantilla.padEnd(8)} ${r.estado.padEnd(11)} ${r.tema.slice(0, 70)}${r.bloqueo ? `  ⚠ ${r.bloqueo.slice(0, 60)}` : ''}`);
+    }
+  } catch (e) {
+    console.log(`  ✗ ${path.relative(RAIZ, archivoPlan)}: ${(e as Error).message} → armarlo (skill plan-semanal)`);
+  }
+}
+
 // Lock y errores
 const lock = path.join(DIR_SALIDA, 'diario.lock');
 if (fs.existsSync(lock)) console.log(`\n⚠ ${rel(lock)} presente (pid ${fs.readFileSync(lock, 'utf8').trim()}): ¿hay un diario corriendo?`);

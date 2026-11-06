@@ -43,6 +43,15 @@ Variables: `LINEA_MEMORIA_MIN_MB` (1500), `LINEA_CONCURRENCIA` (1), `LINEA_RENDE
 2 Shorts diarios **12:00 y 18:00 America/Santiago**, largo **domingo 10:00**, rotación `frontera → lugar → ruta`
 (el diario intercala las 3 plantillas; si a una no le quedan guiones usa la que tenga), mínimo 4 en bandeja y 8 en backlog.
 
+## Plan semanal (`docs/PLAN-SEMANAL.md`)
+Skill global `plan-semanal`. Siempre hay plan de la **semana en curso y de la siguiente** (lunes→domingo, America/Santiago): una
+ranura por cada hora del calendario (Shorts y largo), con plantilla, tema, tipo (`contingente`/`evergreen`/`serie`), fuente de la
+contingencia (URL + fecha), estado (`idea` → … → `publicado`), referente y por qué entra. **Manda el bloque ```json** del final (lo
+leen `estado.mts` y el panel de Santiago); la tabla se regenera desde él. `estado.mts` avisa si quedan **< 3 Shorts futuros con
+guion** o si no hay ranuras a más de 7 días: entonces toca el ritual de cierre (métricas → duplicar lo que rinde → contingencias de
+los próximos 14 días → llenar la semana siguiente → encargar guiones → `DECISIONES.md`). Pendiente: que `generar-guiones.mts` tome
+los temas de las ranuras `idea`/`investigado` del plan en vez de inventarlos.
+
 ## Cron
 `scripts/cron.txt` (04:45 diario, sábado 05:30 compilación, 08:15 estado): lo instala Santiago (`crontab -e`).
 
