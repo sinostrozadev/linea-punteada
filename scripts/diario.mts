@@ -3,9 +3,11 @@
  * correr a mano.
  *
  *   npx tsx scripts/diario.mts [--solo-render] [--solo-subir] [--sin-generar] [--n K] [--dry-run]
- *                              [--sin-guiones] [--cuantos K] [--sin-subir]
+ *                              [--sin-guiones] [--cuantos K] [--sin-subir] [--guion <texto>]
  *
  * --sin-guiones = --sin-generar y --cuantos K = --n K.
+ * --guion <texto>: solo toma del backlog el guion cuyo archivo o id contenga <texto> (p. ej. para que la
+ * nube y el cron local no rendericen el mismo guion, o para adelantar uno contingente).
  * --sin-subir: no llama a `subir --todos` aunque haya token; igual actualiza PARA-SUBIR-A-MANO.md.
  * Con LINEA_NUBE=1 (producción en la nube, hoy no configurada) los mp4 no se marcan huérfanos; si además
  * hay LINEA_ARTEFACTO, cada entrada nueva de la bandeja lo guarda en `artefacto` (dónde bajar el mp4).
@@ -50,6 +52,8 @@ const { values: opc } = parseArgs({
     cuantos: { type: 'string' },
     /** Tope de renders cuando se rellena la bandeja hasta el mínimo (por defecto = minimoBandeja). */
     'max-renders': { type: 'string' },
+    /** Solo el guion del backlog cuyo nombre de archivo o id contenga este texto. */
+    guion: { type: 'string' },
     'dry-run': { type: 'boolean', default: false },
   },
 });
@@ -224,7 +228,13 @@ const renderizarUno = async (g: Guion & { ruta: string }, log: Log): Promise<boo
 };
 
 const elegirDelBacklog = (log: Log): (Guion & { ruta: string }) | undefined => {
-  const backlog = leerBacklog();
+  let backlog = leerBacklog();
+  if (opc.guion) {
+    const buscado = opc.guion.trim();
+    backlog = backlog.filter((g) => path.basename(g.ruta).includes(buscado) || g.id.includes(buscado));
+    if (backlog.length === 0) log(`  (--guion "${buscado}": ningún guion del backlog coincide)`);
+    else if (backlog.length > 1) log(`  (--guion "${buscado}": ${backlog.length} coinciden; uso el primero)`);
+  }
   if (backlog.length === 0) return undefined;
   const calendario = cargarCalendario();
   const toca = siguientePlantilla(calendario);
@@ -254,6 +264,8 @@ const pasoRender = async (log: Log) => {
     const elegido = elegirDelBacklog(log);
     if (!elegido) {
       log(`(a) Backlog vacío (bandeja: ${listos} listo(s)).${opc['sin-generar'] ? '' : ' Se generarán guiones en (b).'}`);
+      // En la nube, pedir un guion concreto que no está es un error visible (no un run verde sin video).
+      if (opc.guion && renders === 0 && enLaNube()) process.exitCode = 1;
       return;
     }
     log(`(a) Render ${renders + 1}/${tope}${forzados ? ' (--n)' : ''} · bandeja: ${listos} listo(s) · ${elegido.plantilla} ← ${rel(elegido.ruta)}`);
@@ -338,6 +350,7 @@ const main = async () => {
   const log = crearLog(fechaHoyLocal(zona), zona);
   const banderas = ['solo-render', 'solo-subir', 'sin-generar', 'sin-subir', 'dry-run'].filter((k) => opc[k as keyof typeof opc]).map((k) => `--${k}`);
   if (opc.n) banderas.push(`--n ${opc.n}`);
+  if (opc.guion) banderas.push(`--guion ${opc.guion}`);
   log(`══ diario ${banderas.join(' ')} (pid ${process.pid}, RAM disponible ${memoriaDisponibleMb()} MB)`);
   if (!tomarLock(log)) process.exit(3);
   process.on('exit', soltarLock);

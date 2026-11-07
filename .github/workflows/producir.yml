@@ -1,0 +1,141 @@
+# Producción de Shorts de Línea Punteada en la nube (docs/OPERACION.md § "Producción en la nube").
+# Toma guiones YA ESCRITOS del backlog (la generación con `claude -p` no corre aquí), los prepara (voz Edge TTS,
+# satélite NASA GIBS/Sentinel-2, Natural Earth, fotos de Commons: todo sin credenciales), renderiza el mp4,
+# publica los mp4 como artifact "shorts-<fecha>" (14 días) y commitea el estado liviano como bot.
+#
+# Disparadores automáticos (schedule y push) APAGADOS salvo que la variable de repo LINEA_NUBE_AUTO valga 1:
+# mientras el cron local de las 04:45 siga activo, ambos tomarían el mismo guion del backlog. A mano
+# (workflow_dispatch) siempre funciona.
+#
+# Subida a YouTube: APAGADA. Gancho reservado: input `subir` o variable LINEA_SUBIR=1 + secrets
+# YOUTUBE_CLIENT_JSON / YOUTUBE_TOKEN_JSON (de Santiago, tras la auditoría de Google). Hoy solo avisan.
+name: Producir Shorts
+
+on:
+  push:
+    branches: [main]
+    # Solo lo que produce un humano/sesión (guiones nuevos o cambios de calendario). NUNCA salida/:
+    # así el commit del bot no podría disparar este workflow aunque se pusheara con otro token.
+    paths:
+      - 'contenido/backlog/**'
+      - 'contenido/calendario.json'
+  workflow_dispatch:
+    inputs:
+      cuantos:
+        description: 'Cuántos Shorts renderizar'
+        default: '1'
+        type: string
+      guion:
+        description: 'Opcional: solo el guion del backlog cuyo archivo/id contenga este texto'
+        default: ''
+        type: string
+      subir:
+        description: 'Subir a YouTube (gancho reservado: hoy NO sube, solo avisa)'
+        default: false
+        type: boolean
+  schedule:
+    - cron: '45 7 * * *' # 07:45 UTC = 04:45 en Chile (horario de verano, UTC-3). Respaldo diario.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: producir
+  cancel-in-progress: false
+
+jobs:
+  producir:
+    # A mano siempre; automático solo con LINEA_NUBE_AUTO=1. Contra bucles: un push cuyo último commit
+    # es del bot (`bot: …`) no produce.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (vars.LINEA_NUBE_AUTO == '1' &&
+       (github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'bot:')))
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      LINEA_NUBE: '1'
+      LINEA_MEMORIA_MIN_MB: '1500'
+      LINEA_RENDER_MAX_MIN: '150'
+      CUANTOS: ${{ inputs.cuantos || '1' }}
+      GUION: ${{ inputs.guion || '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # siempre el último estado, aunque lo dispare un push anterior
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Máquina, fecha (Chile) y nombre del artifact
+        id: fecha
+        run: |
+          fecha=$(TZ=America/Santiago date +%F)
+          echo "fecha=$fecha" >> "$GITHUB_OUTPUT"
+          echo "LINEA_ARTEFACTO=\`shorts-$fecha\` del run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" >> "$GITHUB_ENV"
+          cpus=$(nproc); mem=$(awk '/MemTotal/ {print int($2/1024)}' /proc/meminfo)
+          # Runner público: 4 vCPU / 16 GB (privado: 2 / 7). Frontera a 60 fps con satélite pide RAM por pestaña.
+          if [ "$cpus" -ge 4 ] && [ "$mem" -ge 12000 ]; then conc=3; else conc=2; fi
+          echo "LINEA_CONCURRENCIA=$conc" >> "$GITHUB_ENV"
+          echo "CPU $cpus · RAM ${mem} MB · concurrency $conc · flock: $(command -v flock)"
+
+      - name: Fuentes del sistema (emoji a color de los íconos)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends fonts-noto-color-emoji > /dev/null
+          fc-list | grep -qi "Noto Color Emoji" && echo "✓ Noto Color Emoji"
+
+      - name: Dependencias
+        run: npm ci --no-audit --no-fund
+
+      - name: Chrome headless de Remotion
+        run: npx remotion browser ensure
+
+      - name: Gancho de subida a YouTube (apagado)
+        if: inputs.subir || vars.LINEA_SUBIR == '1'
+        run: |
+          echo "::warning::La subida por API aún no está habilitada en este workflow (falta la auditoría de Google y los secrets YOUTUBE_CLIENT_JSON/YOUTUBE_TOKEN_JSON). Se renderiza igual con --sin-subir; subir por Studio desde el artifact."
+
+      - name: Producir (render + estado)
+        id: diario
+        run: |
+          banderas=(--sin-generar --sin-subir --n "$CUANTOS")
+          [ -n "$GUION" ] && banderas+=(--guion "$GUION")
+          inicio=$(date +%s)
+          set +e
+          npx tsx scripts/diario.mts "${banderas[@]}"
+          codigo=$?
+          set -e
+          echo "⏱ diario: $(( ($(date +%s) - inicio) / 60 )) min"
+          exit $codigo
+
+      - name: Hojas de contacto
+        if: always() && steps.diario.outcome != 'skipped'
+        run: npx tsx scripts/hojas.mts
+
+      - name: Publicar mp4 como artifact
+        if: always() && steps.diario.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts-${{ steps.fecha.outputs.fecha }}
+          path: salida/bandeja/*.mp4
+          retention-days: 14
+          compression-level: 0 # el mp4 ya viene comprimido
+          if-no-files-found: warn
+
+      - name: Publicar logs
+        if: always() && steps.diario.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ steps.fecha.outputs.fecha }}-${{ github.run_attempt }}
+          path: salida/logs/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Commit del estado
+        if: always() && steps.diario.outcome != 'skipped'
+        run: |
+          .github/scripts/commit-bot.sh "bot: producción ${{ steps.fecha.outputs.fecha }}" \
+            contenido/backlog contenido/guiones salida/bandeja salida/revisiones/hojas
