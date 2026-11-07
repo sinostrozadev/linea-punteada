@@ -55,6 +55,7 @@ lunes (ficha viva en `docs/META-REFERENTE.md`).
   nos corta en el arranque: por eso las mejoras 1 y 2 van primero.
 
 ## Mejorado
+- **Render en la nube funcionando** (04:10): `.github/workflows/producir.yml` (copiado de Bolita; runner de 4 vCPU/16 GB, concurrency 3) renderizó el Short de Uruguay en 61 min (local ≈ 40), dejó el mp4 como artifact de 147 MB y commiteó el estado como bot. Ya descargado a `salida/bandeja/`; hoja de contacto correcta (fuentes, satélite, capas). Automático solo si `LINEA_NUBE_AUTO=1` (decisión de Santiago: nube o cron local, no ambos). Subida por API sigue esperando la auditoría de Google y el token del canal.
 - `docs/GUION.md` §2 (system prompt del generador): **reloj del arranque** (promesa antes del segundo 28; gancho ≤ 30
   palabras hasta la pregunta, mito ≤ 22, mapa de ruta ≤ 25) y variante de actos con el nombre de la pieza ("La sierra. …")
   en 1 de cada 3 guiones, para que la tanda no suene a plantilla. Rige desde el próximo guion que se escriba.
