@@ -48,6 +48,18 @@ Ejemplo completo: `contenido/borradores/frontera-triangulo-terrestre.v2.json`. R
    declarar dos etiquetas a 20 m una de otra.
 9. **Variar entre videos**: `acento` (amarillo · cian · coral), `mapa.mes` (estación del satélite), iconos y
    pictogramas distintos, índice en fila o vertical.
+10. **Piso de ritmo medido: ≥ 8 cambios de imagen por minuto, ≥ 3 en los primeros 10 s** (medido 2026-11-07 sobre
+   los videos ya publicados con el mismo detector de cuadros: `docs/META-REFERENTE.md`). Ñerd: 8,8 / 10,1 / 19,0 por
+   minuto (Arizona, Tehuantepec, Canadá; Canadá hace 7 en los primeros 10 s). Nosotros: triángulo 9,5 y Laguna 16,9,
+   pero **Martín García 5,9 y Rivera 5,2** (los dos guiones reescritos para la gramática de cámara): al quitar los cortes
+   a otro lugar se quitaron también los cortes buenos. La gramática prohíbe el corte seco **a otro lugar**; dentro del
+   mismo lugar el corte es ritmo y se usa: en cada escena al menos un `corte` de golpe al sujeto (+0,7 a +3 niveles
+   sobre un punto casi centrado) o de cambio de escala (≥ 3 niveles sobre el mismo eje), más una `foto`/`polaroid` o
+   `tarjeta` que tape el mapa 2–3 s en 3 de cada 7 escenas. Lo que da ritmo sin marear es cortar **sobre el mismo eje**.
+11. **El gancho no se queda quieto.** En 0–3 s hay mínimo 2 cambios (tarjeta → satélite → acercamiento o máscara):
+   Ñerd Canadá corta a 0,5 / 1,0 / 3,5 s; Rivera no tuvo ningún corte en sus primeros 10 s y Martín García pasó de
+   1,5 a 3 s sobre un mapa continental sin una sola etiqueta (hoja `salida/revisiones/hojas/2026-11-07-ganchos-nerd-vs-lp.jpg`).
+   Antes del segundo 3 debe haber al menos una etiqueta de país o lugar sobre el satélite.
 
 ## 1b. Gramática de cámara (errores rechazan el guion; avisos son recomendaciones)
 
@@ -99,7 +111,7 @@ entrada "zoom", deja el zoom en 11,5 o aleja hasta ≤ 8,5`.
 ```jsonc
 "acento": "amarillo",                       // amarillo | cian | coral: caja del subtítulo, palabra clave del título, tarjetas
 "tarjetaTitulo": {                          // frame 0 a 0,9 s; luego corte al satélite
-  "texto": "¿DE QUIÉN ES ESTA PLAYA?",       // 2–3 líneas cortas, ≤ 52 caracteres
+  "texto": "¿DE QUIÉN ES ESTA PLAYA?",       // 2–3 líneas cortas, ≤ 52 caracteres (ver regla de abajo)
   "clave": "PLAYA",                          // va en el color de acento
   "paises": ["Peru", "Chile"],               // contorno resaltado (nombre Natural Earth en inglés)
   "centro": [-70.9, -18.6], "zoom": 4.9,     // mapa chico (por defecto: el 1.er plano 1,6 niveles más lejos)
@@ -113,6 +125,15 @@ entrada "zoom", deja el zoom en 11,5 o aleja hasta ≤ 8,5`.
 ],
 "rematePlanos": [{ "centro": [-70.3792, -18.3505], "zoom": 16.4, "entrada": "zoom" }, { "centro": [...], "zoom": 17, "entrada": "corte", "en": "Nadie" }]
 ```
+- **`tarjetaTitulo.texto` nombra el lugar o el protagonista y la contradicción** (2026-11-07): Ñerd "¿POR QUÉ ARIZONA NO
+  TOCA EL MAR?", "¿AQUÍ?" con pin sobre Ottawa; nosotros "¿DE QUIÉN ES ESTE LAGO?" / "¿DE QUÉ PAÍS ES ESTA PLAZA?" no
+  dicen dónde ni qué es raro, y el cuadro 0 es lo único que se ve en el feed antes de decidir. Molde: "¿POR QUÉ [LUGAR]
+  [CONTRADICCIÓN]?" en ≤ 40 caracteres ("¿POR QUÉ ESTA ISLA ES ARGENTINA?" de Martín García ya cumple). La `clave` es la
+  palabra de la contradicción, no el sustantivo genérico (MAR, no LAGO). Si hay cifra, la cifra es la clave ("¿POR QUÉ
+  SU CAPITAL ESTÁ A **70 KM** DE EE. UU.?", Canadá 1,47 M). Variante probada por Ñerd desde el 11-02 (Tehuantepec 1,63 M):
+  **afirmación del desenlace** en vez de pregunta ("EE. UU. RECHAZÓ EL PASO **PERPETUO**") sobre satélite con relieve a
+  pantalla completa e iconos grandes (✗, bandera, flecha), y transición de nubes al primer plano. Hoja:
+  `salida/revisiones/hojas/2026-11-07-ganchos-nerd-paso-canada-vs-rivera.jpg`.
 - `mapa.mes` (1–12): Blue Marble mensual (enero = nieve en el norte). Sin `mes`: Blue Marble con relieve sombreado.
 - `mapa.ocultarBordesEn`: polígonos `[[lon, lat], …]` donde no se dibujan los bordes blancos de Natural Earth ni el
   contorno de las áreas de país (ej. el tramo "sin trazar" de Campo de Hielo Sur, que NE dibuja igual y contradice

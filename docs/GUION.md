@@ -21,7 +21,14 @@ chilenismos cerrados), tuteo directo ("Mira…", "Fíjate…"), presente histór
    es peor."
 2. **MAPA DE RUTA** (`mapa-de-ruta`, 1 escena, solo si hay 2–3 causas): "Todo se explica con tres cosas: un río, un tratado
    y una crecida. Y al final, un giro que nadie esperaba." Anuncia el giro sin contarlo: es la promesa que retiene.
-3. **ACTOS** (`acto`, 2–4 escenas): una causa por escena, abriendo con "Primero, …", "Segundo, …", "Tercero, …". Cada acto
+   **Reloj del arranque (medido 2026-11-07, `docs/META-REFERENTE.md`):** la promesa ("Y al final…") tiene que sonar
+   **antes del segundo 28**. Ñerd la dice a los 14–30 s (Canadá 0:14, paso de Tehuantepec 0:28, Arizona 0:30); nuestra
+   tanda 1 la decía a los **35–45 s** y en ese tramo se va el 20 % de la audiencia (82 % sigue a los 30 s). Presupuesto:
+   gancho ≤ 30 palabras hasta el "¿…?", mito ≤ 22 palabras, mapa de ruta ≤ 25 palabras (≈ 77 palabras ≈ 27 s a 170 p/min).
+   Si el gancho ya trae la contradicción completa, el mito puede ser una sola frase ("Dicen que X. La verdad es más rara.").
+3. **ACTOS** (`acto`, 2–4 escenas): una causa por escena, abriendo con "Primero, …", "Segundo, …", "Tercero, …" o, en
+   uno de cada tres guiones, con el nombre de la pieza a secas ("La sierra. …", "El tratado. …": así lo hace Ñerd en su
+   Short de 1,6 M de 2026-11-02; alternar evita que la tanda suene a plantilla). Cada acto
    tiene UN hecho con cifra o fecha y, en al menos uno, **la fuente dicha en voz alta** con institución (y año si se puede):
    "según la Oficina del Historiador del Departamento de Estado", "según el fallo de la Corte Internacional de Justicia de
    2014", "según el texto del Tratado de Petrópolis". Marca esa escena con `fuenteEnVoz: true`. Sin fuente en la voz el

@@ -1,52 +1,104 @@
-# Revisión 2026-11-06 · Línea Punteada (sesión nocturna 2026-11-05 21:00 → 2026-11-06 08:30)
+# Revisión 2026-11-07 · Línea Punteada (cierre de la tanda 1 contra Ñerd y la competencia; 03:20–04:40)
 
 Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas · Agregado · Pendiente.
+Respuesta a "¿cuándo miras los videos de la competencia?": hoy, con los números abajo; desde ahora en cada tanda y cada
+lunes (ficha viva en `docs/META-REFERENTE.md`).
 
 ## Detectado
-- Laguna del Desierto (Short 18:00 del 11-05) desorienta: 43 planos en 150 s, zooms en diente de sierra ±1 nivel y 4 cortes secos a cientos de kilómetros. Santiago lo vio y lo dijo; el zoom no molesta, el corte seco a otro lugar sí.
-- La identidad de Studio en el piloto compartido quedaba en otro canal (Bolita Lab / En Números Rojos): la subida fallaba con "timeout esperando input de archivo" y las capturas de métricas daban "Oops, no permission".
-- Studio recuerda la última categoría del canal (Educación) y el paso "categoría" del subidor esperaba la por defecto (People & Blogs): fallo "locator People & Blogs timeout".
-- Las cifras que el lector de métricas sacaba del texto de Studio eran implausibles (28 d = 15.000 vistas en un canal con 2.645). La captura de monetización mostraba solo la cabecera, sin las barras al YPP.
-- El reinicio de la máquina (21:21) mató el render en curso; el diario no se relanza solo.
-- `claude -p` en el cron de las 04:45 no escribió guiones: los 3 intentos fallaron (código 124 = 10 min sin respuesta y código 1) con el aviso "this sign-in ends between 2026-11-07 and 2026-11-10". Backlog en 0.
-- El plan semanal (docs/PLAN-SEMANAL.md) existe pero `generar-guiones` todavía no lo lee: los guiones salen de la rotación, no del plan.
-- El modelo de "mejoras" no era visible para Santiago: estaba repartido entre DECISIONES.md, el estado y los commits.
-
-- **Los guiones de `claude -p` salen con hechos de memoria, sin verificar:** el proceso hijo no tiene WebSearch/WebFetch ni Write (lo reportó él mismo al terminar el guion de Uruguay: fechas, cifras de población y 3 URLs de Wikipedia escritas de memoria). El paso "investigación con fuentes primarias" de `guiones-de-video` hoy no ocurre en el generador automático: hay que meterlo antes (ideas ya investigadas en el plan) o después (revisor que verifique cada cifra con el piloto/web) antes de renderizar.
+- **Nuestros 4 Shorts publicados (Studio, 11-07 03:25):** triángulo 1.385 vistas · 23 likes · 3 comentarios · +2 subs ·
+  se quedó a ver 75,5 % · duración media 1:24 de 2:13 (63 %) · 79 % sigue a los 30 s · ≈ 38 % llega al final.
+  Laguna 1.869 · 36 likes · 1 comentario · +4 subs · 74,7 % · 1:39 de 2:30 (66 %) · 82 % a los 30 s · ≈ 47 % al final.
+  Martín García 1.005 · 14 likes · 1 comentario · 0 subs · retención "sin datos" (Studio tarda hasta 2 días).
+  Rivera 1.276 · 27 likes · +1 sub · sin datos de retención. Campo de Hielo programado hoy 12:00. Canal: 7 subs.
+  95–97 % de las vistas vienen del feed de Shorts.
+- **Ñerd (canal-meta), medido hoy:** 21,5 k subs, 50 Shorts en 17 días (~3/día), mediana 184 k por video (últimos 10:
+  54 k). Top 3 de los últimos 30 días: Arizona 4,45 M (165 s), paso de Tehuantepec 1,63 M (155 s, 11-02), capital de
+  Canadá 1,47 M (104 s). Video-meta nuevo: **Beagle 261 k** (158 s, 11-01): pregunta a los 0:05, promesa a los 0:20–0:25,
+  184 p/min, 12,2 cambios/min, 5 en los primeros 10 s, y tarjeta de título **ilustrada a pantalla completa** ("3 ISLAS,
+  2 PAÍSES, CASI HAY GUERRA" sobre islas con banderas) con transición de nubes al mapa (hoja
+  `salida/revisiones/hojas/2026-11-07-ganchos-beagle-vs-laguna.jpg`).
+- **Competencia (mismo método):** GeoHitos (8,2 k subs): Corea 2,21 M (85 s, 207 p/min, 6,4 cambios/min), Groenlandia
+  485 k (81 s, 196 p/min, 11,1/min), Chile 439 k (73 s, 194 p/min, 13,2/min); abre en el globo, banderas, personajes 3D y
+  humor; sus últimos 5 bajaron a 27–59 k. **Mapas insólitos** (3,2 k subs): San Andrés 391 k (135 s), pico del Amazonas
+  313 k (118 s), islas Monjes 186 k (124 s), todos de Colombia, **con voz a 140–151 p/min y 1–5 cambios/min (más lentos que
+  nosotros)**; arrancan sin tarjeta, con el satélite del lugar y un círculo en el cuadro 0, "Mira esta isla…", y prometen
+  el final a los 0:15. El nicho se llenó en 15 días: 6 canales nuevos con la misma fórmula (El Mapa lo Explica, El Porqué
+  del Mapa, GeoFronteras, Geograf-IA, Mapas insólitos, GeoHitos).
+- **Lo que hacemos bien (3, medido):**
+  1. A quien nos ve le rendimos igual que Ñerd: likes por vista 1,4–2,2 % (Ñerd 1,6–2,3 %) y 1,26 suscriptores por
+     1.000 vistas (Ñerd ≈ 1,1).
+  2. Retención sobre los umbrales de ESTRATEGIA §1: 74,7–75,5 % se queda a ver (umbral: < 30 % desliza) y 63–66 % de
+     duración media (umbral: > 60 %). Studio califica el arranque de ambos como "kept your viewers watching longer".
+  3. Lenguaje visual a la par: máscaras, cotas, índice con pictogramas, polaroids y además la fuente en pantalla, que Ñerd
+     no muestra. El mejor nuestro (Laguna) es el de base satelital más contrastada (glaciares turquesa).
+- **Las 5 mejoras, por impacto × facilidad (qué se ve / causa / qué cambiar):**
+  1. **La promesa llega tarde.** Se ve: "Y al final…" suena a los 35–45 s; Ñerd a los 14–30 s y Mapas insólitos a los 15 s;
+     nosotros perdemos el 18–21 % de la audiencia antes del segundo 30. Causa: gancho de 27–40 palabras + mito + mapa de ruta
+     largo. Cambiar: presupuesto de palabras del arranque (gancho ≤ 30 hasta la pregunta, mito ≤ 22, mapa ≤ 25).
+  2. **El cuadro 0 no dice dónde ni qué es raro.** Se ve: tarjeta de 0,9 s con "¿DE QUIÉN ES ESTE LAGO?" / "¿DE QUÉ PAÍS ES
+     ESTA PLAZA?"; Ñerd dice "¿POR QUÉ ARIZONA NO TOCA EL MAR?" o afirma el desenlace ("EE. UU. RECHAZÓ EL PASO PERPETUO") y
+     a 0,7 s ya está en el satélite; Mapas insólitos no usa tarjeta: el cuadro 0 es el lugar con un círculo. Causa: molde
+     del doc + `T_TITULO = 0.9`. Cambiar: molde "¿POR QUÉ [LUGAR] [CONTRADICCIÓN]?" (hecho) y, en código, 0,7 s y un lote
+     de prueba sin tarjeta.
+  3. **Los dos últimos videos perdieron ritmo.** Se ve: Martín García 5,9 y Rivera 5,2 cambios/min (Rivera, 0 en 0–10 s;
+     Martín, de 1,5 a 3 s un mapa continental sin etiquetas); Ñerd 8,8–19,0; triángulo 9,5; Laguna 16,9 y es la de más
+     vistas, retención y subs. Causa: al reescribir los planos para la gramática de cámara se quitaron también los cortes
+     sobre el mismo eje. Cambiar: piso ≥ 8/min y ≥ 3 en 0–10 s. Ojo: Mapas insólitos va viral con 1–5/min, así que es
+     mejora de calidad, no la causa del alcance.
+  4. **Temas de países chicos.** Se ve: 2 de 4 giran en torno a Uruguay; los virales medidos son EE. UU./México, Colombia ×3,
+     Corea y Chile–Argentina. Causa: banco de ideas armado desde el sur. Cambiar: en el plan semanal, 1 de cada 2 Shorts con
+     México, Colombia o Argentina de protagonista (sin repetir temas de Ñerd).
+  5. **La voz va lenta frente a Ñerd y GeoHitos.** Se ve: 142–162 p/min contra 176–207. Causa: Edge TTS a +4 %. Cambiar: A/B de
+     un lote a +12 % (`scripts/voz.mts`). Impacto dudoso: Mapas insólitos hace 391 k a 144 p/min.
+- **La brecha que importa es de alcance:** 1.005–1.869 vistas contra 54 k de mediana reciente de Ñerd (×30–140). Como la
+  respuesta por espectador ya empata (likes 1,4–2,2 % en los cuatro canales; subs por 1.000 vistas 1,26 vs ≈ 1,1), el feed
+  nos corta en el arranque: por eso las mejoras 1 y 2 van primero.
 
 ## Mejorado
-- **Gramática de cámara R1–R5** con severidad (`src/plantillas/comun/camara.ts`, enganchada al `superRefine` de frontera, lugar y ruta): error solo por corte seco a un lugar fuera de pantalla (R2/R5) o plano < 1 s (R4); aviso por diente de sierra (R1), R3 y ráfagas (R4). `scripts/camara.mts <guion|props> --solo-resumen` lo audita. Laguna: 22–24 violaciones; Triángulo: 0. Los 3 guiones del backlog bajaron de 42/42/38 a 32/31/33 planos y se re-renderizaron.
-- `subir-studio.mjs` verifica y cambia el canal antes de subir (`asegurarCanal`, exige `LP_CANAL_ID`) y tolera la categoría ya puesta. Rivera y Campo de Hielo subieron solos; Martín García se terminó a mano por curl al piloto.
-- `scripts/metricas.mts`: captura de monetización a página completa; descarta vistas 28 d/48 h si superan las totales; cambia de canal antes de capturar; enganchado al final de `scripts/estado.mts` (`--sin-metricas` para saltarlo).
-- `scripts/subir.mts`: los largos van en categoría 27 (Educación), no 24.
-- Documentación al día: `docs/DIRECCION-VISUAL.md` §1b, `docs/GUION.md` §4b/§7, `docs/DECISIONES.md`, `docs/ESTADO-2026-11-05.md` (cierre 02:40), `docs/ESTRATEGIA.md` con el objetivo en la primera línea.
-- `.wslconfig` con `memory=12GB` y `swap=8GB` (respaldo `.wslconfig.bak-2026-11-05`); vale al reiniciar WSL.
-
-- **Generador de guiones arreglado** (10:00): `claude -p` usa Opus por defecto y escribe de a un guion (414 s cada uno medido); el diario le da 45 min por plantilla; rotación solo `frontera` hasta revisar `lugar`/`ruta`. Primer guion nuevo en el backlog: "La guerra por un petróleo que no estaba" (0 errores de cámara, 3 avisos).
-
-- **Verificación de hechos de los 5 guiones del backlog (11-07 02:40–03:20, 2 agentes Opus con web):** 75 afirmaciones revisadas, 11 corregidas (población de Uruguay por censo final INE; atribución de las 177 ha al NPS; año de los 5.000 efectivos bolivianos; distancia Berlín–RFA "más de 100 km"; hora de apertura 23:30; gancho del Chaco acotado al lado paraguayo; pozo Lapacho reformulado; fuente Cote 2016), Wikipedia reemplazada por fuentes primarias (Wikisource del tratado de 1828, CIJ, CIA Factbook, NPS, Hughes 2005, State Dept 1937). Informes en `contenido/verificaciones/`. Ninguno descartado; zod y cámara en 0 errores.
+- `docs/GUION.md` §2 (system prompt del generador): **reloj del arranque** (promesa antes del segundo 28; gancho ≤ 30
+  palabras hasta la pregunta, mito ≤ 22, mapa de ruta ≤ 25) y variante de actos con el nombre de la pieza ("La sierra. …")
+  en 1 de cada 3 guiones, para que la tanda no suene a plantilla. Rige desde el próximo guion que se escriba.
+- `docs/DIRECCION-VISUAL.md` §1.10 **piso de ritmo** (≥ 8 cambios/min, ≥ 3 en 0–10 s, un corte sobre el mismo eje por
+  escena, foto/tarjeta en 3 de cada 7 escenas) y §1.11 **gancho que se mueve** (2 cambios en 0–3 s, etiqueta de lugar
+  antes del segundo 3); §2 **molde de la tarjeta de título** "¿POR QUÉ [LUGAR] [CONTRADICCIÓN]?".
+- `docs/META-REFERENTE.md` creado: canal-meta Ñerd, **video-meta Beagle (261 k)** en vez de Arizona (outlier), 2 de apoyo,
+  ficha de 20 dimensiones con cifra y fecha, competidores, 7 tareas con dueño y verificación.
+- No se tocó `src/plantillas/` (renders de producción desde las 04:45), ni `contenido/backlog`, ni la bandeja.
 
 ## Herramientas exploradas
-- **Piloto compartido (8777) con cambio de identidad por canal**: `/clicktexto Switch account` → youtube.com/account → clic en el canal. Funciona para subir y para capturar métricas; documentado en `navegador-piloto` e `incidentes-canal`.
-- **Captura de página completa del piloto** (`/captura` con `full=1`) para pantallas largas de Studio (monetización).
-- **GitHub Pages para el panel** (https://sinostrozadev.github.io/panel/): publicación estática desde `scripts/publicar.sh`, sin servidor; el dominio sinodev.cl queda para después (CNAME).
-- **gh api para visibilidad de repos** (`gh api -X PATCH repos/... -f private=false`): el `gh repo edit --visibility` de esta versión no sirve.
-- **flock** como lock de render compartido entre canales (`/tmp/bolita-render.lock`): prueba con `-w 60`, producción con `-w 1800`.
-- Pendiente de probar: `claude setup-token` (token de larga vida para `claude -p` en cron sin depender del inicio de sesión), carátulas por GPT (skill `caratulas-con-gpt`, mecanismo de Entender Chile).
+- **Detector de ritmo en el navegador (adoptado):** recorrer el `<video>` de YouTube cada 0,5 s con `currentTime`, dibujar a
+  48×86 en un `canvas` y medir la diferencia entre cuadros; cuenta cortes/fotos/tarjetas por minuto sin bajar el video
+  (yt-dlp sigue bloqueado). Mide igual lo nuestro y lo ajeno. Calibrado contra el conteo a mano de VISUAL-NERD (5,7 vs ~5
+  eventos por 10 s). ~1–2 min por video con el piloto.
+- **Cuadros del gancho desde el canvas** (0 / 0,7 / 1,5 / 3 / 10 / 30 s) en JPG 270×480, y **grilla lado a lado con un
+  Chromium headless de Playwright** (el ffmpeg de Remotion no trae `hstack`/`tile` ni decodifica JPG).
+- **Studio → Analytics del Short → Overview**: trae "Stayed to watch", duración media, "% a los 0:30" y la curva; el %
+  al final se lee del gráfico (captura con `main#main.scrollTop`). La pestaña Engagement queda en blanco para Shorts.
+- **Carátulas con GPT para el cuadro 0 (propuesta, sin probar):** Ñerd cambió su tarjeta de título a una imagen ilustrada
+  tipo carátula desde el 11-01; la skill `caratulas-con-gpt` ya da imágenes gratis en 1–5 min. Tarea 10 de META-REFERENTE.
+- Búsqueda de YouTube por el piloto para encontrar competidores nuevos de la semana (Mapas insólitos, GeoHitos, El Mapa
+  lo Explica, El Porqué del Mapa, GeoFronteras): el nicho de Shorts de mapas en español se llenó en 15 días.
 
 ## Agregado
-- 7 skills globales nuevas: `crear-canal`, `guiones-de-video`, `superar-virales-del-nicho`, `estrategia-viva`, `metricas-diarias`, `plan-semanal`, `videos-largos`; y 21 contradicciones corregidas entre las 18 skills.
-- Estado compartido `~/.claude/canales/` (canales.json, calendario.json con ventanas y turnos, estado/<slug>.json "trabajando ahora").
-- Panel de canales (repo `sinostrozadev/panel`): podio, tabla, barras al YPP, planes, estrategias, trabajando ahora, calendario; local :8790 y público.
-- `docs/PLAN-SEMANAL.md` con 24 ranuras (11-05 → 11-15) en tabla + JSON.
-- Métricas diarias (4 capturas + JSON) portadas a Bolita Lab y Entender Chile.
-- Repos públicos: bolita-lab, entender-chile, linea-punteada (creado esa noche), panel.
-- Esta carpeta `salida/revisiones/` con el formato fijo que lee el panel.
+- `docs/META-REFERENTE.md` (ficha viva).
+- 4 hojas lado a lado en `salida/revisiones/hojas/2026-11-07-ganchos-*.jpg` (Ñerd Arizona vs Laguna/Martín/triángulo; Ñerd
+  Tehuantepec y Canadá vs Rivera; GeoHitos; Mapas insólitos), cuadros a 0 / 0,7 / 1,5 / 3 s y más.
+- Capturas de retención de Studio y scripts de medición (local): `salida/revisiones/2026-11-07-capturas/`.
+- Una línea por decisión en `docs/DECISIONES.md`.
 
 ## Pendiente
-- `claude auth login` (Santiago) antes del 2026-11-07 y, para el cron, `claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN` en el crontab; sin eso no hay guiones nuevos.
-- Backlog en 0 (mínimo 8): regenerar hoy en cuanto `claude -p` responda.
-- Estrenar `lugar` (Clipperton) y `ruta` (Bushby) tras revisar la hoja de contacto; plantilla 16:9 para el largo del domingo.
-- Revisor independiente de guiones (`scripts/revisar-guion.mts`) y `generar-guiones` leyendo el plan.
-- Lector de cifras de Studio (28 d, 48 h, progreso YPP) y la captura de alcance, que falló por tiempo de carga.
-- Token de YouTube del canal (métricas por API) y CNAME `panel.sinodev.cl`.
+- **Sesión de código (sin renders corriendo):** (0) lote de prueba sin tarjeta de título: `tarjetaTitulo` opcional en
+  `src/plantillas/frontera/Frontera.tsx` (sin ella, el gancho arranca en el satélite con un `resaltes[]` sobre el lugar en
+  0 s); (a) `src/plantillas/frontera/visual.ts` `T_TITULO` 0,9 → 0,7 y el `0.9` fijo de
+  `src/plantillas/comun/camara.ts` (cálculo de `inicio` del gancho); (b) aviso **R6 "ritmo bajo"** en
+  `src/plantillas/comun/camara.ts` (< 8 cortes+fotos+tarjetas por minuto de voz, o < 3 en el gancho) mostrado por
+  `scripts/camara.mts`; (c) validación del reloj del arranque en `scripts/generar-guiones.mts` (palabras hasta el fin de
+  `mapa-de-ruta` ≤ 77).
+- **A/B de voz:** `scripts/voz.mts` `PROSODIA.rate` `+4%` → `+12%` en un lote de 6 (una variable por lote, ESTRATEGIA §5).
+- Tarjeta ilustrada en el cuadro 0: pedido por `caratulas-con-gpt` + campo `tarjetaTitulo.imagen` en
+  `src/plantillas/frontera/TarjetaTitulo.tsx`, lote de prueba de 6 (META-REFERENTE tarea 10).
+- Plan semanal: 1 de cada 2 Shorts con México, Colombia o Argentina de protagonista (META-REFERENTE tarea 9).
+- Re-medir el lunes 11-09: retención de Martín García, Rivera y Campo de Hielo; vistas a 7 días del triángulo y Laguna;
+  ritmo del primer guion escrito con las reglas nuevas.
+- Los guiones del backlog (`contenido/backlog`) se escribieron antes de estas reglas: revisarlos con el detector antes de
+  promoverlos (no se tocaron hoy).
