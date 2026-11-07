@@ -23,6 +23,7 @@ salida/compilaciones/*
 !salida/revisiones/
 salida/revisiones/*
 !salida/revisiones/ULTIMA.md
+!salida/revisiones/*.md
 !salida/revisiones/hojas/
 salida/revisiones/hojas/*
 !salida/revisiones/hojas/*.jpg
