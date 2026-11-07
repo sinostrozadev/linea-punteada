@@ -1,0 +1,968 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-un-frances-firmo-el-tratado",
+  "titulo": "¿Por qué un francés firmó el tratado que partió a Panamá en dos?",
+  "descripcion": "Durante 75 años una franja de unos 16 kilómetros partió a Panamá de mar a mar, con jueces, policía y correo de Estados Unidos. El tratado que la creó se firmó en Washington el 18 de noviembre de 1903, quince días después de la independencia de Panamá, y quien firmó por Panamá fue Philippe Bunau-Varilla, un ingeniero francés. Panamá recibió 10 millones de dólares; la compañía francesa del canal, 40 millones. La Zona se disolvió en 1979 y el canal pasó a Panamá el 31 de diciembre de 1999.\n\nFuentes:\n- Convención del canal Hay–Bunau-Varilla (1903), Avalon Project, Yale: https://avalon.law.yale.edu/20th_century/pan001.asp\n- Office of the Historian, Departamento de Estado: construcción del Canal de Panamá: https://history.state.gov/milestones/1899-1913/panama-canal\n- Office of the Historian: tratados del Canal de Panamá de 1977: https://history.state.gov/milestones/1977-1980/panama-canal\n- Linda Hall Library: Philippe Bunau-Varilla: https://www.lindahall.org/about/news/scientist-of-the-day/philippe-bunau-varilla/\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#panama"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-un-frances-firmo-el-tratado",
+    "cabecera": "PANAMÁ — LA FIRMA DE UN FRANCÉS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ UN FRANCÉS FIRMÓ POR PANAMÁ?",
+      "clave": "FRANCÉS",
+      "paises": [
+        "Panama"
+      ],
+      "centro": [
+        -80,
+        8.7
+      ],
+      "zoom": 6,
+      "pines": [
+        {
+          "lon": -79.7,
+          "lat": 9.13,
+          "texto": "LA FRANJA"
+        }
+      ],
+      "icono": "✍️"
+    },
+    "gancho": {
+      "texto": "Mira esta franja que parte Panamá de mar a mar. Por 75 años tuvo jueces, policía y correo de Estados Unidos. El tratado lo firmó, por Panamá, un francés. ¿Cómo?",
+      "rotulo": "UN FRANCÉS",
+      "planos": [
+        {
+          "centro": [
+            -80,
+            8.7
+          ],
+          "zoom": 7.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -79.75,
+            9.15
+          ],
+          "zoom": 9.6,
+          "entrada": "zoom",
+          "en": "parte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -79.62,
+            9.03
+          ],
+          "zoom": 11.3,
+          "entrada": "corte",
+          "en": "jueces",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -79.75,
+            9.15
+          ],
+          "zoom": 9.4,
+          "entrada": "zoom",
+          "en": "tratado",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Panama",
+          "color": "verde",
+          "etiqueta": "PANAMÁ",
+          "etiquetaEn": [
+            -81,
+            8.3
+          ],
+          "aparecerEn": "Mira",
+          "desaparecerEn": "parte"
+        },
+        {
+          "tipo": "franja",
+          "linea": "canal",
+          "anchoKm": 16,
+          "color": "amarillo",
+          "etiqueta": "LA FRANJA",
+          "etiquetaEn": [
+            -79.86,
+            9.05
+          ],
+          "aparecerEn": "franja",
+          "quedarse": 2
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -80.2,
+          "lat": 10,
+          "texto": "MAR CARIBE",
+          "tipo": "mar",
+          "aparecerEn": "mar"
+        },
+        {
+          "lon": -79.4,
+          "lat": 8.1,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "mar#2",
+          "desaparecerEn": "jueces"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -79.72,
+          "lat": 9.08,
+          "icono": "tribunal",
+          "escala": 0.9,
+          "aparecerEn": "jueces",
+          "desaparecerEn": "tratado"
+        },
+        {
+          "lon": -79.55,
+          "lat": 9.08,
+          "icono": "👮",
+          "escala": 0.9,
+          "aparecerEn": "policía",
+          "desaparecerEn": "tratado"
+        },
+        {
+          "lon": -79.62,
+          "lat": 8.96,
+          "icono": "✉️",
+          "escala": 0.9,
+          "aparecerEn": "correo",
+          "desaparecerEn": "tratado"
+        },
+        {
+          "lon": -79.75,
+          "lat": 9.15,
+          "icono": "tratado",
+          "escala": 1.3,
+          "aparecerEn": "tratado"
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "franja",
+        "75",
+        "jueces",
+        "policía",
+        "correo",
+        "francés"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Panamá le vendió esa franja a Estados Unidos. La verdad es más rara.",
+        "planos": [
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.66,
+              9.08
+            ],
+            "zoom": 11,
+            "entrada": "corte",
+            "en": "verdad",
+            "deriva": 0.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -79.72,
+            "lat": 9.2,
+            "icono": "dinero",
+            "escala": 1.2,
+            "aparecerEn": "vendió",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "vendió",
+          "Estados",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un senado, un ingeniero y una frase. Y al final, una cuenta que no cuadra.",
+        "rotulo": {
+          "texto": "UNA CUENTA",
+          "dice": "cuenta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.85,
+              9.28
+            ],
+            "zoom": 10.6,
+            "entrada": "corte",
+            "en": "ingeniero",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🏛️",
+            "texto": "SENADO",
+            "dice": "senado"
+          },
+          {
+            "icono": "👷",
+            "texto": "INGENIERO",
+            "dice": "ingeniero"
+          },
+          {
+            "icono": "tratado",
+            "texto": "FRASE",
+            "dice": "frase"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": -79.75,
+            "lat": 9.15,
+            "icono": "dinero",
+            "escala": 1.3,
+            "aparecerEn": "cuenta"
+          }
+        ],
+        "clave": [
+          "senado",
+          "ingeniero",
+          "frase",
+          "cuenta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el senado. En 1903 Panamá es un departamento de Colombia, y Estados Unidos quiere cavar ahí su canal. En agosto, el Senado colombiano rechaza el tratado. El 3 de noviembre, Panamá se declara independiente, con un buque de guerra estadounidense frente a Colón.",
+        "rotulo": {
+          "texto": "INDEPENDIENTE",
+          "dice": "independiente"
+        },
+        "planos": [
+          {
+            "centro": [
+              -77,
+              7.4
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.5,
+              5
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "en": "agosto",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -80,
+              8.9
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "noviembre",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.9,
+              9.36
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "en": "buque",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Colombia",
+            "color": "rojo",
+            "etiqueta": "COLOMBIA",
+            "etiquetaEn": [
+              -73.5,
+              4
+            ],
+            "aparecerEn": "Colombia",
+            "desaparecerEn": "noviembre"
+          },
+          {
+            "pais": "Panama",
+            "color": "verde",
+            "etiqueta": "PANAMÁ",
+            "etiquetaEn": [
+              -81,
+              8.2
+            ],
+            "aparecerEn": "independiente",
+            "desaparecerEn": "buque"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -74.08,
+            "lat": 4.71,
+            "texto": "BOGOTÁ",
+            "tipo": "pin",
+            "aparecerEn": "agosto",
+            "desaparecerEn": "noviembre"
+          },
+          {
+            "lon": -79.9,
+            "lat": 9.36,
+            "texto": "COLÓN",
+            "tipo": "pin",
+            "aparecerEn": "Colón"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "AGOSTO 1903",
+            "sub": "COLOMBIA DICE NO AL TRATADO",
+            "aparecerEn": "agosto",
+            "duracionSeg": 2.8
+          },
+          {
+            "texto": "3 NOV 1903",
+            "sub": "PANAMÁ INDEPENDIENTE",
+            "aparecerEn": "noviembre",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -79.95,
+            "lat": 9.55,
+            "icono": "🚢",
+            "ruta": [
+              [
+                -79.98,
+                9.62
+              ],
+              [
+                -79.92,
+                9.43
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 1.1,
+            "aparecerEn": "buque"
+          },
+          {
+            "lon": -79.65,
+            "lat": 9.08,
+            "icono": "🏗️",
+            "escala": 1,
+            "aparecerEn": "canal",
+            "desaparecerEn": "agosto"
+          }
+        ],
+        "clave": [
+          "senado",
+          "1903",
+          "Colombia",
+          "rechaza",
+          "noviembre",
+          "buque"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el ingeniero. Philippe Bunau-Varilla, francés, fue ingeniero jefe del canal francés, el que quebró. El nuevo gobierno lo nombra su representante en Washington. El 18 de noviembre, quince días después de la independencia, firma con John Hay. Por Panamá no firma ningún panameño.",
+        "rotulo": {
+          "texto": "15 DÍAS",
+          "dice": "quince"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.66,
+              9.06
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.5,
+              24
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "en": "nuevo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -77.04,
+              38.9
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "Washington",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -77.04,
+              38.89
+            ],
+            "zoom": 11,
+            "entrada": "corte",
+            "en": "firma",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Philippe Bunau-Varilla portrait",
+          "pie": "Philippe Bunau-Varilla, ingeniero francés",
+          "lado": "derecha",
+          "aparecerEn": "Philippe",
+          "duracionSeg": 4
+        },
+        "etiquetas": [
+          {
+            "lon": -79.65,
+            "lat": 9.05,
+            "texto": "OBRA FRANCESA",
+            "tipo": "region",
+            "aparecerEn": "canal",
+            "desaparecerEn": "nuevo"
+          },
+          {
+            "lon": -77.04,
+            "lat": 38.9,
+            "texto": "WASHINGTON",
+            "tipo": "pin",
+            "aparecerEn": "Washington"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -79.65,
+            "lat": 9.05,
+            "icono": "🏗️",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "quebró",
+            "desaparecerEn": "nuevo"
+          },
+          {
+            "lon": -77.04,
+            "lat": 38.87,
+            "icono": "✍️",
+            "escala": 1.2,
+            "aparecerEn": "firma",
+            "desaparecerEn": "ningún"
+          },
+          {
+            "lon": -77.03,
+            "lat": 38.885,
+            "icono": "🇵🇦",
+            "escala": 1.2,
+            "tachado": true,
+            "aparecerEn": "ningún"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "15 DÍAS",
+            "tipo": "linea-tiempo",
+            "desde": "3 NOV",
+            "hasta": "18 NOV",
+            "sub": "DE LA INDEPENDENCIA A LA FIRMA",
+            "aparecerEn": "quince",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "ingeniero",
+          "Philippe",
+          "francés",
+          "Washington",
+          "quince",
+          "panameño"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la frase. Según el texto del tratado, Panamá entrega a perpetuidad una zona de diez millas de ancho, unos 16 kilómetros. Ahí Estados Unidos tendrá todos los poderes que tendría si fuera el soberano. Panamá recibe diez millones de dólares y 250.000 al año.",
+        "fuenteEnVoz": true,
+        "rotulo": {
+          "texto": "SI FUERA SOBERANO",
+          "dice": "soberano"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.7,
+              9.13
+            ],
+            "zoom": 10.8,
+            "entrada": "corte",
+            "en": "millas",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -79.6,
+              9.02
+            ],
+            "zoom": 12,
+            "entrada": "corte",
+            "en": "poderes",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "recibe",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "tipo": "franja",
+            "linea": "canal",
+            "anchoKm": 16,
+            "color": "amarillo",
+            "etiqueta": "ZONA DEL CANAL",
+            "etiquetaEn": [
+              -79.86,
+              9.05
+            ],
+            "aparecerEn": "zona",
+            "quedarse": 2
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -79.753,
+              9.082
+            ],
+            "hasta": [
+              -79.647,
+              9.178
+            ],
+            "texto": "16 KM",
+            "aparecerEn": "kilómetros",
+            "desaparecerEn": "poderes"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -79.52,
+            "lat": 8.98,
+            "texto": "CIUDAD DE PANAMÁ",
+            "tipo": "pin",
+            "aparecerEn": "recibe"
+          },
+          {
+            "lon": -79.9,
+            "lat": 9.36,
+            "texto": "COLÓN",
+            "tipo": "pin",
+            "aparecerEn": "recibe"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Hay-Bunau-Varilla Treaty 1903",
+          "pie": "Tratado Hay–Bunau-Varilla, 1903",
+          "anio": "1903",
+          "lado": "izquierda",
+          "aparecerEn": "tratado",
+          "duracionSeg": 3
+        },
+        "tarjetas": [
+          {
+            "texto": "US$ 10 M",
+            "sub": "Y 250.000 AL AÑO",
+            "icono": "dinero",
+            "aparecerEn": "millones",
+            "duracionSeg": 3
+          }
+        ],
+        "fuente": {
+          "texto": "Convención del canal, art. II, III y XIV · 18-11-1903",
+          "dice": "Según"
+        },
+        "clave": [
+          "frase",
+          "perpetuidad",
+          "16",
+          "soberano",
+          "millones"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: Panamá recibe diez millones por ceder su territorio. La compañía francesa que heredó aquella obra recibe cuarenta millones por sus máquinas, sus excavaciones y sus derechos. Y entre sus accionistas estaba el hombre que firmó: Bunau-Varilla.",
+        "rotulo": {
+          "texto": "40 MILLONES",
+          "dice": "cuarenta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.65,
+              9.05
+            ],
+            "zoom": 11.5,
+            "entrada": "corte",
+            "en": "compañía",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "accionistas",
+            "deriva": 0.3
+          }
+        ],
+        "foto": {
+          "buscar": "Culebra Cut Panama Canal construction",
+          "pie": "CORTE CULEBRA · LAS OBRAS DEL CANAL",
+          "aparecerEn": "excavaciones",
+          "duracionSeg": 2.6
+        },
+        "polaroid": {
+          "buscar": "Philippe Bunau-Varilla portrait",
+          "pie": "Bunau-Varilla, accionista y firmante",
+          "forma": "circulo",
+          "lado": "derecha",
+          "aparecerEn": "Bunau-Varilla",
+          "duracionSeg": 2.5
+        },
+        "tarjetas": [
+          {
+            "texto": "US$ 40 M",
+            "sub": "LOS FRANCESES COBRAN CUATRO VECES MÁS",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "PANAMÁ",
+                "valor": 10
+              },
+              {
+                "etiqueta": "FRANCESES",
+                "valor": 40
+              }
+            ],
+            "aparecerEn": "cuarenta",
+            "duracionSeg": 3.2
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "diez",
+          "francesa",
+          "cuarenta",
+          "accionistas",
+          "Bunau-Varilla"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy esa línea ya no existe. La Zona se disolvió en 1979, tras los tratados que firmaron Omar Torrijos y Jimmy Carter en 1977. A mediodía del 31 de diciembre de 1999, el canal pasó a Panamá. En el cerro Ancón, donde mandaba el ejército estadounidense, hoy flamea una bandera panameña enorme.",
+        "rotulo": {
+          "texto": "1999",
+          "dice": "1999"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.75,
+              9.15
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.7,
+              9.1
+            ],
+            "zoom": 10.8,
+            "entrada": "corte",
+            "en": "tratados",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -79.6,
+              9
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "en": "mediodía",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -79.549,
+              8.96
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "en": "cerro",
+            "deriva": 0.2
+          }
+        ],
+        "areas": [
+          {
+            "tipo": "franja",
+            "linea": "canal",
+            "anchoKm": 16,
+            "color": "rojo",
+            "etiqueta": "LA ZONA",
+            "etiquetaEn": [
+              -79.86,
+              9.05
+            ],
+            "aparecerEn": "Zona",
+            "desaparecerEn": "tratados"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -79.59,
+            "lat": 8.997,
+            "texto": "MIRAFLORES",
+            "tipo": "pin",
+            "aparecerEn": "canal"
+          },
+          {
+            "lon": -79.549,
+            "lat": 8.96,
+            "texto": "CERRO ANCÓN",
+            "tipo": "pin",
+            "aparecerEn": "cerro"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "31-12-1999",
+            "sub": "EL CANAL PASA A PANAMÁ",
+            "aparecerEn": "1999",
+            "duracionSeg": 2.8
+          }
+        ],
+        "foto": {
+          "buscar": "Miraflores locks Panama Canal",
+          "pie": "ESCLUSAS DE MIRAFLORES · CANAL DE PANAMÁ",
+          "aparecerEn": "canal",
+          "duracionSeg": 2.4
+        },
+        "polaroid": {
+          "buscar": "Cerro Ancon Panama flag",
+          "pie": "Bandera de Panamá en el cerro Ancón",
+          "lado": "derecha",
+          "aparecerEn": "bandera",
+          "duracionSeg": 3
+        },
+        "contexto": {
+          "texto": "LA LÍNEA YA NO EXISTE",
+          "dice": "línea"
+        },
+        "clave": [
+          "1979",
+          "Torrijos",
+          "Carter",
+          "1999",
+          "Ancón",
+          "bandera"
+        ]
+      }
+    ],
+    "remate": "En 1903 firmó por Panamá un francés. En 1977 firmó por Panamá un panameño.",
+    "remateEtiquetas": [
+      {
+        "lon": -79.95,
+        "lat": 9.32,
+        "texto": "1903: UN FRANCÉS"
+      },
+      {
+        "lon": -79.5,
+        "lat": 9,
+        "texto": "1977: UN PANAMEÑO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -79.72,
+          9.13
+        ],
+        "zoom": 10,
+        "entrada": "zoom",
+        "deriva": 0.3
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Convención del canal Hay–Bunau-Varilla (18-11-1903), Avalon Project, Yale Law School",
+        "url": "https://avalon.law.yale.edu/20th_century/pan001.asp"
+      },
+      {
+        "texto": "Office of the Historian, Departamento de Estado de EE. UU.: Building the Panama Canal, 1903–1914",
+        "url": "https://history.state.gov/milestones/1899-1913/panama-canal"
+      },
+      {
+        "texto": "Office of the Historian: The Panama Canal and the Torrijos-Carter Treaties",
+        "url": "https://history.state.gov/milestones/1977-1980/panama-canal"
+      },
+      {
+        "texto": "Linda Hall Library: Philippe Bunau-Varilla (director de las obras francesas; principal accionista de la compañía que cobró 40 millones)",
+        "url": "https://www.lindahall.org/about/news/scientist-of-the-day/philippe-bunau-varilla/"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 2,
+      "centro": [
+        -80,
+        8.7
+      ],
+      "zoomInicial": 7.4,
+      "zoomFinal": 10,
+      "lineas": [
+        {
+          "id": "canal",
+          "puntos": [
+            [
+              -79.915,
+              9.39
+            ],
+            [
+              -79.92,
+              9.27
+            ],
+            [
+              -79.83,
+              9.17
+            ],
+            [
+              -79.69,
+              9.12
+            ],
+            [
+              -79.65,
+              9.05
+            ],
+            [
+              -79.61,
+              9.02
+            ],
+            [
+              -79.59,
+              8.997
+            ],
+            [
+              -79.566,
+              8.94
+            ],
+            [
+              -79.53,
+              8.89
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "franja"
+        }
+      ]
+    }
+  }
+}

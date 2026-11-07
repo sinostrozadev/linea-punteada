@@ -12,7 +12,12 @@
     "#uruguay"
   ],
   "duracionSeg": 150.6,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "`shorts-2026-11-07` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42345448894"
+  "artefacto": "`shorts-2026-11-07` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42345448894",
+  "publicarEn": "2026-11-08T18:00:00-03:00",
+  "videoId": "fKFCTNMk7iQ",
+  "url": "https://youtube.com/shorts/fKFCTNMk7iQ",
+  "programado": "2026-11-08 18:00",
+  "subidoEn": "2026-11-07T11:52:21.402Z"
 }

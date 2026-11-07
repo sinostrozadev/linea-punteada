@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-compilacion",
+  "plantilla": "compilacion",
+  "tipo": "largo",
+  "titulo": "5 fronteras raras, explicadas sobre el mapa | Línea Punteada",
+  "descripcion": "Recopilación de Línea Punteada: 5 historias de geografía seguidas, cada una con su mapa.\n\nCapítulos:\n00:00 La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena\n02:13 Chile y Argentina pelearon un lago por una frase escrita en 1902\n04:42 ¿Por qué hay una isla argentina a solo 3,5 km de Uruguay?\n06:56 ¿Por qué en esta plaza cambias de país sin mostrar un solo papel?\n09:03 Chile y Argentina tienen un tramo de frontera que todavía no existe\n\nLas fuentes de cada historia están en la descripción de su Short.\nMapas propios con datos de Natural Earth, NASA, Wikimedia Commons y geoBoundaries. Voz sintetizada (contenido sintético). Música propia.\nSuscríbete: hay dos historias nuevas cada día.",
+  "hashtags": [
+    "#lineapunteada",
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#fronteras"
+  ],
+  "duracionSeg": 687,
+  "estado": "listo",
+  "videos": [
+    "2026-11-05-frontera-triangulo-terrestre",
+    "2026-11-05-frontera-laguna-del-desierto",
+    "2026-11-05-frontera-martin-garcia",
+    "2026-11-05-frontera-rivera-livramento",
+    "2026-11-06-frontera-campo-de-hielo"
+  ],
+  "capitulos": [
+    {
+      "inicio": 0,
+      "marca": "00:00",
+      "titulo": "La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena",
+      "id": "2026-11-05-frontera-triangulo-terrestre"
+    },
+    {
+      "inicio": 133.3,
+      "marca": "02:13",
+      "titulo": "Chile y Argentina pelearon un lago por una frase escrita en 1902",
+      "id": "2026-11-05-frontera-laguna-del-desierto"
+    },
+    {
+      "inicio": 282.8666666666667,
+      "marca": "04:42",
+      "titulo": "¿Por qué hay una isla argentina a solo 3,5 km de Uruguay?",
+      "id": "2026-11-05-frontera-martin-garcia"
+    },
+    {
+      "inicio": 416.33333333333337,
+      "marca": "06:56",
+      "titulo": "¿Por qué en esta plaza cambias de país sin mostrar un solo papel?",
+      "id": "2026-11-05-frontera-rivera-livramento"
+    },
+    {
+      "inicio": 543.8333333333334,
+      "marca": "09:03",
+      "titulo": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
+      "id": "2026-11-06-frontera-campo-de-hielo"
+    }
+  ]
+}

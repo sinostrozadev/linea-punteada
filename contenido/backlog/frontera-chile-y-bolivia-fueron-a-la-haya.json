@@ -1,0 +1,1074 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-chile-y-bolivia-fueron-a-la-haya",
+  "titulo": "Chile y Bolivia fueron a La Haya por un río… y terminaron de acuerdo",
+  "descripcion": "Un hilo de agua en el altiplano llevó a Chile y Bolivia a la Corte Internacional de Justicia durante más de seis años. Bolivia hablaba de manantiales desviados por canales de 1928; Chile, de un río internacional. Durante el juicio, Bolivia aceptó que el Silala es un curso de agua internacional y Chile aceptó que Bolivia manda sobre los canales de su territorio. En diciembre de 2022, la Corte concluyó que casi todo lo pedido ya no tenía objeto.\n\nFuentes:\n- Corte Internacional de Justicia, Silala (Chile c. Bolivia): https://www.icj-cij.org/case/162\n- CIJ, resumen de la sentencia: https://www.icj-cij.org/node/106285\n- Wikipedia: Silala River: https://en.wikipedia.org/wiki/Silala_River\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile",
+    "#bolivia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-chile-y-bolivia-fueron-a-la-haya",
+    "cabecera": "SILALA — ¿RÍO O CANAL?",
+    "acento": "coral",
+    "tarjetaTitulo": {
+      "texto": "¿ES UN RÍO O NO?",
+      "clave": "RÍO",
+      "centro": [
+        -68.3,
+        -21.9
+      ],
+      "zoom": 6.5,
+      "paises": [
+        "Chile",
+        "Bolivia"
+      ],
+      "pines": [
+        {
+          "lon": -68.029,
+          "lat": -22.013,
+          "texto": "SILALA"
+        }
+      ],
+      "icono": "rio"
+    },
+    "gancho": {
+      "texto": "Mira este hilo de agua en el altiplano. Cruza de Bolivia a Chile. Por él, dos países pasaron seis años en La Haya. ¿Es un río o no?",
+      "rotulo": "¿RÍO O CANAL?",
+      "planos": [
+        {
+          "centro": [
+            -68.02,
+            -22.012
+          ],
+          "zoom": 11.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -68.02,
+            -22.012
+          ],
+          "zoom": 12.2,
+          "entrada": "zoom",
+          "en": "Cruza",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -68.3,
+            -21.9
+          ],
+          "zoom": 8.2,
+          "entrada": "zoom",
+          "en": "Por",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Bolivia",
+          "color": "verde",
+          "etiqueta": "BOLIVIA",
+          "etiquetaEn": [
+            -67.98,
+            -21.97
+          ],
+          "aparecerEn": "Bolivia",
+          "desaparecerEn": "Por"
+        },
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "etiqueta": "CHILE",
+          "etiquetaEn": [
+            -68.07,
+            -22.02
+          ],
+          "aparecerEn": "Chile",
+          "desaparecerEn": "Por"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -68.029,
+          "lat": -22.013,
+          "texto": "SILALA",
+          "tipo": "pin",
+          "aparecerEn": "agua"
+        },
+        {
+          "lon": -67.7,
+          "lat": -21.3,
+          "texto": "ALTIPLANO",
+          "tipo": "region",
+          "aparecerEn": "Por"
+        }
+      ],
+      "contexto": {
+        "texto": "¿RÍO O NO?",
+        "dice": "río"
+      },
+      "clave": [
+        "hilo",
+        "Bolivia",
+        "Chile",
+        "seis",
+        "Haya",
+        "río"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Chile le roba un río a Bolivia, o que Bolivia se inventó un pleito. La verdad es más rara.",
+        "rotulo": {
+          "texto": "¿ROBO O INVENTO?",
+          "dice": "roba"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.3,
+              -21.9
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.55,
+            "lat": -22.15,
+            "icono": "💧",
+            "escala": 1,
+            "aparecerEn": "roba",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -67.65,
+            "lat": -21.75,
+            "icono": "📄",
+            "escala": 1,
+            "aparecerEn": "inventó",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "roba",
+          "inventó",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un tren, una zanja y un juicio. Y al final, un fallo que ningún presidente anunció.",
+        "rotulo": {
+          "texto": "TREN, ZANJA, JUICIO",
+          "dice": "tren"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 10.9,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "juicio",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tren",
+            "texto": "TREN",
+            "dice": "tren"
+          },
+          {
+            "icono": "rio",
+            "texto": "ZANJA",
+            "dice": "zanja"
+          },
+          {
+            "icono": "tribunal",
+            "texto": "JUICIO",
+            "dice": "juicio"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "tren",
+          "zanja",
+          "juicio",
+          "fallo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El tren. En 1908, la prefectura de Potosí entrega una concesión a una compañía británica, el ferrocarril de Antofagasta a Bolivia. Sus locomotoras a vapor cruzan un desierto sin agua. Y el Silala nace a más de 4.000 metros, en los humedales del lado boliviano.",
+        "rotulo": {
+          "texto": "1908",
+          "dice": "1908"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.6,
+              -21
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.6,
+              -22.3
+            ],
+            "zoom": 7.2,
+            "entrada": "paneo",
+            "en": "ferrocarril",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69,
+              -23
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "en": "locomotoras",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "en": "Silala",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68,
+              -21.992
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "en": "humedales",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -65.75,
+            "lat": -19.58,
+            "texto": "POTOSÍ",
+            "tipo": "pin",
+            "aparecerEn": "Potosí",
+            "desaparecerEn": "locomotoras"
+          },
+          {
+            "lon": -70.4,
+            "lat": -23.65,
+            "texto": "ANTOFAGASTA",
+            "tipo": "pin",
+            "aparecerEn": "Antofagasta",
+            "desaparecerEn": "Silala"
+          },
+          {
+            "lon": -69.2,
+            "lat": -23.5,
+            "texto": "DESIERTO DE ATACAMA",
+            "tipo": "region",
+            "aparecerEn": "desierto",
+            "desaparecerEn": "Silala"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.4,
+            "lat": -23.65,
+            "icono": "tren",
+            "ruta": [
+              [
+                -70.4,
+                -23.65
+              ],
+              [
+                -69.84,
+                -23.33
+              ],
+              [
+                -68.93,
+                -22.46
+              ],
+              [
+                -68.25,
+                -21.22
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "locomotoras",
+            "desaparecerEn": "Silala"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -68.026,
+                -22.002
+              ],
+              [
+                -67.996,
+                -22.002
+              ],
+              [
+                -67.996,
+                -22.013
+              ],
+              [
+                -68.026,
+                -22.013
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "HUMEDALES",
+            "aparecerEn": "humedales",
+            "quedarse": 1
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1908",
+            "sub": "LA CONCESIÓN",
+            "icono": "tratado",
+            "aparecerEn": "1908",
+            "duracionSeg": 2.8
+          }
+        ],
+        "polaroid": {
+          "buscar": "Antofagasta Bolivia Railway locomotive",
+          "pie": "Ferrocarril de Antofagasta a Bolivia",
+          "lado": "derecha",
+          "aparecerEn": "locomotoras",
+          "duracionSeg": 2.6
+        },
+        "contexto": {
+          "texto": "AGUA PARA EL VAPOR",
+          "dice": "vapor"
+        },
+        "clave": [
+          "1908",
+          "Potosí",
+          "británica",
+          "vapor",
+          "4.000",
+          "humedales"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La zanja. En 1928 la empresa canaliza esos humedales con zanjas y drenajes de piedra. Aquí empieza la pelea. Bolivia dice que sin esos canales el agua no cruzaría igual: son manantiales desviados. Chile dice que baja sola por la pendiente: es un río internacional. En 1997, Bolivia revoca la concesión.",
+        "rotulo": {
+          "texto": "1928",
+          "dice": "1928"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68,
+              -21.992
+            ],
+            "zoom": 12,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -67.99,
+              -21.992
+            ],
+            "zoom": 11.6,
+            "entrada": "paneo",
+            "en": "Bolivia",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.06,
+              -22.002
+            ],
+            "zoom": 11.6,
+            "entrada": "paneo",
+            "en": "Chile",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "en": "1997",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.0,
+            "lat": -22.0,
+            "texto": "SEGÚN BOLIVIA",
+            "tipo": "region",
+            "aparecerEn": "Bolivia",
+            "desaparecerEn": "Chile"
+          },
+          {
+            "lon": -68.06,
+            "lat": -22.03,
+            "texto": "SEGÚN CHILE",
+            "tipo": "region",
+            "aparecerEn": "Chile",
+            "desaparecerEn": "1997"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1928",
+            "sub": "LOS CANALES DE PIEDRA",
+            "aparecerEn": "1928",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.029,
+            "lat": -22.013,
+            "icono": "💧",
+            "ruta": [
+              [
+                -68.025,
+                -22.009
+              ],
+              [
+                -68.04,
+                -22.027
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 0.8,
+            "aparecerEn": "baja",
+            "desaparecerEn": "1997"
+          }
+        ],
+        "contexto": {
+          "texto": "DOS VERSIONES",
+          "dice": "pelea"
+        },
+        "clave": [
+          "1928",
+          "zanjas",
+          "manantiales",
+          "pendiente",
+          "internacional",
+          "1997"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El juicio. En marzo de 2016 Evo Morales anuncia que irá a La Haya. Chile se adelanta y demanda primero, en junio. Según el expediente de la Corte Internacional de Justicia, los manantiales nacen a menos de tres kilómetros de la línea. Dos años después, Bolivia contrademanda.",
+        "rotulo": {
+          "texto": "A LA HAYA",
+          "dice": "Haya"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.6,
+              -22
+            ],
+            "zoom": 8.6,
+            "entrada": "paneo",
+            "en": "Chile",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.01,
+              -22.002
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "manantiales",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2016",
+            "sub": "CHILE DEMANDA · BOLIVIA CONTRADEMANDA",
+            "icono": "tribunal",
+            "aparecerEn": "2016",
+            "duracionSeg": 3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Peace Palace The Hague",
+          "pie": "Palacio de la Paz, La Haya (sede de la CIJ)",
+          "lado": "derecha",
+          "aparecerEn": "Haya",
+          "duracionSeg": 2.8
+        },
+        "cotas": [
+          {
+            "desde": [
+              -68.002,
+              -22.0085
+            ],
+            "hasta": [
+              -68.029,
+              -22.013
+            ],
+            "texto": "MENOS DE 3 KM",
+            "aparecerEn": "kilómetros"
+          }
+        ],
+        "fuente": {
+          "texto": "Corte Internacional de Justicia · Silala, Chile c. Bolivia",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "DOS DEMANDAS",
+          "dice": "junio"
+        },
+        "clave": [
+          "2016",
+          "Morales",
+          "junio",
+          "Corte",
+          "tres",
+          "contrademanda"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: durante el juicio, los dos fueron cediendo. Bolivia aceptó que el Silala es un curso de agua internacional. Chile aceptó que Bolivia manda sobre sus canales y puede desmontarlos. En diciembre de 2022, la Corte dijo que casi todo lo pedido ya no tenía objeto.",
+        "rotulo": {
+          "texto": "SIN OBJETO",
+          "dice": "objeto"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.1,
+              -21.98
+            ],
+            "zoom": 10.8,
+            "entrada": "paneo",
+            "en": "Bolivia",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68,
+              -21.992
+            ],
+            "zoom": 11.4,
+            "entrada": "paneo",
+            "en": "Chile",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "diciembre",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.11,
+            "lat": -21.95,
+            "texto": "CURSO INTERNACIONAL",
+            "tipo": "region",
+            "aparecerEn": "internacional",
+            "desaparecerEn": "Chile"
+          },
+          {
+            "lon": -68.005,
+            "lat": -22.0,
+            "texto": "CANALES BOLIVIANOS",
+            "tipo": "region",
+            "aparecerEn": "canales",
+            "desaparecerEn": "diciembre"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2022",
+            "sub": "FALLO DE LA CORTE",
+            "icono": "tribunal",
+            "aparecerEn": "2022",
+            "duracionSeg": 3
+          }
+        ],
+        "fuente": {
+          "texto": "CIJ · sentencia del 1 de diciembre de 2022",
+          "dice": "Corte"
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "cediendo",
+          "internacional",
+          "canales",
+          "desmontarlos",
+          "2022",
+          "objeto"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy el agua sigue cruzando la línea, unos 160 litros por segundo, y baja hacia Calama y el desierto de Antofagasta. Los canales de piedra siguen ahí, del lado boliviano. Y los dos gobiernos celebraron el mismo fallo como una victoria.",
+        "rotulo": {
+          "texto": "160 L/S",
+          "dice": "160"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.7,
+              -22.6
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "Calama",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68,
+              -21.992
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "en": "Los",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.02,
+              -22.012
+            ],
+            "zoom": 9.8,
+            "entrada": "zoom",
+            "en": "gobiernos",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "160 L/S",
+            "sub": "PROMEDIO, AL CRUZAR LA FRONTERA",
+            "aparecerEn": "160",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.93,
+            "lat": -22.46,
+            "texto": "CALAMA",
+            "tipo": "pin",
+            "aparecerEn": "Calama",
+            "desaparecerEn": "Los"
+          },
+          {
+            "lon": -70.4,
+            "lat": -23.65,
+            "texto": "ANTOFAGASTA",
+            "tipo": "pin",
+            "aparecerEn": "Antofagasta",
+            "desaparecerEn": "Los"
+          },
+          {
+            "lon": -68.005,
+            "lat": -22.0,
+            "texto": "CANALES DE 1928",
+            "tipo": "region",
+            "aparecerEn": "canales",
+            "desaparecerEn": "gobiernos"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.029,
+            "lat": -22.013,
+            "icono": "💧",
+            "ruta": [
+              [
+                -68.029,
+                -22.013
+              ],
+              [
+                -68.5,
+                -22.3
+              ],
+              [
+                -68.93,
+                -22.46
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 0.8,
+            "aparecerEn": "Calama",
+            "desaparecerEn": "Los"
+          }
+        ],
+        "contexto": {
+          "texto": "DOS VICTORIAS, UN FALLO",
+          "dice": "gobiernos"
+        },
+        "clave": [
+          "160",
+          "Calama",
+          "piedra",
+          "boliviano",
+          "mismo",
+          "victoria"
+        ]
+      }
+    ],
+    "remate": "Chile logró que fuera un río. Bolivia logró que los canales fueran suyos.",
+    "remateEtiquetas": [
+      {
+        "lon": -68.07,
+        "lat": -22.02,
+        "texto": "UN RÍO INTERNACIONAL"
+      },
+      {
+        "lon": -68.005,
+        "lat": -22.0,
+        "texto": "CANALES BOLIVIANOS"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -68.02,
+          -22.012
+        ],
+        "zoom": 10.4,
+        "entrada": "corte",
+        "deriva": 0.3
+      },
+      {
+        "centro": [
+          -68,
+          -21.992
+        ],
+        "zoom": 11.2,
+        "entrada": "corte",
+        "en": "Bolivia",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Corte Internacional de Justicia: Disputa sobre el estatus y uso de las aguas del Silala (Chile c. Bolivia), sentencia del 1-12-2022",
+        "url": "https://www.icj-cij.org/case/162"
+      },
+      {
+        "texto": "CIJ: resumen de la sentencia del 1-12-2022 (Silala)",
+        "url": "https://www.icj-cij.org/node/106285"
+      },
+      {
+        "texto": "Wikipedia: Silala River",
+        "url": "https://en.wikipedia.org/wiki/Silala_River"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [
+        -68.02,
+        -22.012
+      ],
+      "zoomInicial": 11.2,
+      "zoomFinal": 10.4,
+      "lineas": [
+        {
+          "id": "frontera",
+          "puntos": [
+            [
+              -68.0881,
+              -21.744
+            ],
+            [
+              -68.0613,
+              -21.7939
+            ],
+            [
+              -68.0628,
+              -21.8526
+            ],
+            [
+              -68.0713,
+              -21.9825
+            ],
+            [
+              -68.0511,
+              -21.9973
+            ],
+            [
+              -68.0334,
+              -22.0102
+            ],
+            [
+              -68.0147,
+              -22.0241
+            ],
+            [
+              -68.0105,
+              -22.0331
+            ],
+            [
+              -68.0023,
+              -22.0394
+            ],
+            [
+              -67.9825,
+              -22.0481
+            ],
+            [
+              -67.9646,
+              -22.0553
+            ],
+            [
+              -67.9665,
+              -22.0708
+            ],
+            [
+              -67.9479,
+              -22.0898
+            ],
+            [
+              -67.939,
+              -22.1087
+            ],
+            [
+              -67.9539,
+              -22.1498
+            ],
+            [
+              -67.945,
+              -22.283
+            ],
+            [
+              -67.949,
+              -22.333
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "Cruza",
+          "etiqueta": "FRONTERA"
+        },
+        {
+          "id": "silala",
+          "puntos": [
+            [
+              -68.0018,
+              -22.0085
+            ],
+            [
+              -68.0109,
+              -22.0089
+            ],
+            [
+              -68.0161,
+              -22.0055
+            ],
+            [
+              -68.0215,
+              -22.0062
+            ],
+            [
+              -68.0251,
+              -22.0089
+            ],
+            [
+              -68.0285,
+              -22.0129
+            ],
+            [
+              -68.032,
+              -22.019
+            ],
+            [
+              -68.0395,
+              -22.0265
+            ],
+            [
+              -68.0497,
+              -22.0262
+            ],
+            [
+              -68.0599,
+              -22.0263
+            ],
+            [
+              -68.0665,
+              -22.0286
+            ],
+            [
+              -68.0791,
+              -22.0421
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "hilo",
+          "etiqueta": "SILALA"
+        },
+        {
+          "id": "ferrocarril",
+          "puntos": [
+            [
+              -70.4,
+              -23.65
+            ],
+            [
+              -69.84,
+              -23.33
+            ],
+            [
+              -68.93,
+              -22.46
+            ],
+            [
+              -68.25,
+              -21.22
+            ],
+            [
+              -66.83,
+              -20.46
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "ferrocarril",
+          "etiqueta": "FERROCARRIL"
+        },
+        {
+          "id": "canales",
+          "puntos": [
+            [
+              -67.998,
+              -22.0095
+            ],
+            [
+              -68.008,
+              -22.0092
+            ],
+            [
+              -68.016,
+              -22.0055
+            ],
+            [
+              -68.025,
+              -22.0085
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "canaliza",
+          "etiqueta": "CANALES 1928"
+        }
+      ]
+    }
+  }
+}

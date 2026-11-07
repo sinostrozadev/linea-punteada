@@ -1,0 +1,765 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
+  "titulo": "¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?",
+  "descripcion": "Las islas Diómedes están en medio del estrecho de Bering, a unos 3,8 km una de otra, y entre ellas pasa la línea internacional de cambio de fecha. La frontera nació en 1867, con la venta de Alaska: el tratado la trazó por la mitad entre las dos islas. Durante ochenta años las familias inupiat siguieron cruzando. Lo que las separó fue la Guerra Fría, hacia 1948.\n\nFuentes:\n- Office of the Historian, Departamento de Estado de EE. UU.: Purchase of Alaska, 1867: https://history.state.gov/milestones/1866-1898/alaska-purchase\n- National Archives de EE. UU.: Check for the Purchase of Alaska: https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska\n- Wikipedia: Diomede Islands: https://en.wikipedia.org/wiki/Diomede_Islands\n- Wikipedia: Lynne Cox: https://en.wikipedia.org/wiki/Lynne_Cox\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#alaska"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
+    "cabecera": "ESTRECHO DE BERING — HOY Y MAÑANA",
+    "gancho": {
+      "texto": "Mira el estrecho de Bering. Esas dos islas están a menos de cuatro kilómetros, y entre una y otra hay casi un día entero de diferencia. ¿Cómo?",
+      "rotulo": "21 HORAS",
+      "planos": [
+        {
+          "centro": [
+            -168.98,
+            65.77
+          ],
+          "zoom": 7.2,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -168.98,
+            65.77
+          ],
+          "zoom": 11.6,
+          "entrada": "zoom",
+          "en": "islas",
+          "deriva": 0.3
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -171.5,
+          "lat": 66.3,
+          "texto": "RUSIA",
+          "tipo": "pais",
+          "aparecerEn": "estrecho",
+          "desaparecerEn": "islas"
+        },
+        {
+          "lon": -166.3,
+          "lat": 65.3,
+          "texto": "ALASKA",
+          "tipo": "pais",
+          "aparecerEn": "Bering",
+          "desaparecerEn": "islas"
+        },
+        {
+          "lon": -169.06,
+          "lat": 65.78,
+          "texto": "DIÓMEDES MAYOR",
+          "tipo": "pin",
+          "aparecerEn": "dos"
+        },
+        {
+          "lon": -168.92,
+          "lat": 65.75,
+          "texto": "DIÓMEDES MENOR",
+          "tipo": "pin",
+          "aparecerEn": "islas"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -169.015,
+            65.77
+          ],
+          "hasta": [
+            -168.935,
+            65.76
+          ],
+          "texto": "3,8 KM",
+          "aparecerEn": "kilómetros"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "21 HORAS",
+          "sub": "ENTRE UNA ISLA Y LA OTRA",
+          "aparecerEn": "día",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "Bering",
+        "cuatro",
+        "día"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que es un capricho del reloj, una rareza de los husos horarios. La verdad es más rara.",
+        "rotulo": {
+          "texto": "UN CAPRICHO",
+          "dice": "capricho"
+        },
+        "planos": [
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 11.9,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -168.98,
+            "lat": 65.8,
+            "icono": "🕐",
+            "escala": 1.1,
+            "aparecerEn": "reloj",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "reloj",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una venta, una línea y un reloj. Y al final, lo que partió a estas familias no fue ninguna.",
+        "rotulo": {
+          "texto": "VENTA, LÍNEA, RELOJ",
+          "dice": "venta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 9,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -168.91,
+              65.75
+            ],
+            "zoom": 12.2,
+            "entrada": "zoom",
+            "en": "familias",
+            "deriva": 0.25
+          }
+        ],
+        "indice": [
+          {
+            "icono": "dinero",
+            "texto": "VENTA",
+            "dice": "venta"
+          },
+          {
+            "icono": "📏",
+            "texto": "LÍNEA",
+            "dice": "línea"
+          },
+          {
+            "icono": "🕐",
+            "texto": "RELOJ",
+            "dice": "reloj"
+          }
+        ],
+        "clave": [
+          "venta",
+          "línea",
+          "reloj",
+          "familias"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La venta. En 1867, Rusia le vende Alaska a Estados Unidos por 7,2 millones de dólares, unos dos centavos por acre. Para el zar es una colonia lejana y cara de sostener.",
+        "rotulo": {
+          "texto": "7,2 MILLONES",
+          "dice": "millones"
+        },
+        "planos": [
+          {
+            "centro": [
+              -155,
+              64
+            ],
+            "zoom": 3.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -152,
+              64.5
+            ],
+            "zoom": 4.4,
+            "entrada": "paneo",
+            "en": "millones",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -141,
+                69.6
+              ],
+              [
+                -141,
+                60.3
+              ],
+              [
+                -130,
+                55
+              ],
+              [
+                -133,
+                54.8
+              ],
+              [
+                -146,
+                59.5
+              ],
+              [
+                -165,
+                54
+              ],
+              [
+                -168,
+                65.6
+              ],
+              [
+                -157,
+                71.3
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "ALASKA",
+            "aparecerEn": "Alaska"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "US$7,2 M",
+            "sub": "1867 · UNOS 2 CENTAVOS POR ACRE",
+            "icono": "dinero",
+            "aparecerEn": "millones",
+            "duracionSeg": 3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Signing of the Alaska Treaty",
+          "pie": "La firma del tratado de Alaska, 1867",
+          "anio": "1867",
+          "lado": "derecha",
+          "aparecerEn": "zar",
+          "duracionSeg": 3
+        },
+        "clave": [
+          "1867",
+          "Alaska",
+          "millones",
+          "centavos",
+          "zar"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La línea. Según el texto del tratado de 1867, la frontera cruza el estrecho por la mitad entre las dos islas. La Diómedes Mayor queda para Rusia. La Diómedes Menor, para Estados Unidos. Nadie les pregunta a quienes viven ahí.",
+        "rotulo": {
+          "texto": "POR LA MITAD",
+          "dice": "mitad"
+        },
+        "fuenteEnVoz": true,
+        "fuente": {
+          "texto": "Tratado de cesión de Alaska · 1867 · art. I",
+          "dice": "Según"
+        },
+        "planos": [
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "en": "mitad",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -168.92,
+              65.75
+            ],
+            "zoom": 12.8,
+            "entrada": "corte",
+            "en": "Nadie",
+            "deriva": 0.25
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -169.12,
+                65.82
+              ],
+              [
+                -168.99,
+                65.82
+              ],
+              [
+                -168.99,
+                65.74
+              ],
+              [
+                -169.12,
+                65.74
+              ]
+            ],
+            "color": "rojo",
+            "etiqueta": "RUSIA",
+            "aparecerEn": "Mayor",
+            "desaparecerEn": "Nadie"
+          },
+          {
+            "poligono": [
+              [
+                -168.96,
+                65.78
+              ],
+              [
+                -168.87,
+                65.78
+              ],
+              [
+                -168.87,
+                65.72
+              ],
+              [
+                -168.96,
+                65.72
+              ]
+            ],
+            "color": "azul",
+            "etiqueta": "EE. UU.",
+            "aparecerEn": "Menor",
+            "desaparecerEn": "Nadie"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -168.91,
+            "lat": 65.752,
+            "radio": 110,
+            "aparecerEn": "viven"
+          }
+        ],
+        "clave": [
+          "tratado",
+          "mitad",
+          "Mayor",
+          "Menor",
+          "Nadie"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El reloj. Por ese mismo canal pasa la línea internacional de cambio de fecha. Una isla vive en UTC menos 9. La otra, en UTC más 12. Por eso son 21 horas en menos de cuatro kilómetros.",
+        "rotulo": {
+          "texto": "CAMBIO DE FECHA",
+          "dice": "fecha"
+        },
+        "planos": [
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 12.2,
+            "entrada": "corte",
+            "en": "Una",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -169.06,
+            "lat": 65.8,
+            "texto": "UTC +12",
+            "tipo": "region",
+            "aparecerEn": "otra"
+          },
+          {
+            "lon": -168.9,
+            "lat": 65.77,
+            "texto": "UTC −9",
+            "tipo": "region",
+            "aparecerEn": "isla"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "21 HORAS",
+            "sub": "EN MENOS DE 4 KM",
+            "aparecerEn": "21",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "LÍNEA DE CAMBIO DE FECHA",
+          "dice": "cambio"
+        },
+        "clave": [
+          "fecha",
+          "menos",
+          "más",
+          "21"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: durante ochenta años esa línea casi no cambió nada. Las familias inupiat seguían cruzando en botes de piel para visitarse y comerciar. Lo que las partió fue la Guerra Fría. Hacia 1948, la Unión Soviética cierra la frontera y saca a los habitantes de la isla grande al continente.",
+        "rotulo": {
+          "texto": "1948",
+          "dice": "1948"
+        },
+        "planos": [
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -169.06,
+              65.78
+            ],
+            "zoom": 12.2,
+            "entrada": "zoom",
+            "en": "Guerra",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -170.2,
+              66.1
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "en": "saca",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -168.92,
+            "lat": 65.77,
+            "icono": "barco",
+            "ruta": [
+              [
+                -168.92,
+                65.77
+              ],
+              [
+                -169.03,
+                65.79
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "cruzando",
+            "desaparecerEn": "Guerra"
+          },
+          {
+            "lon": -169.06,
+            "lat": 65.78,
+            "icono": "👥",
+            "ruta": [
+              [
+                -169.06,
+                65.78
+              ],
+              [
+                -170.6,
+                66.2
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 1,
+            "aparecerEn": "saca"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -171.2,
+            "lat": 66.5,
+            "texto": "CHUKOTKA",
+            "tipo": "region",
+            "aparecerEn": "continente"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1948",
+            "sub": "SE CIERRA LA FRONTERA",
+            "aparecerEn": "1948",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "ochenta",
+          "inupiat",
+          "Guerra",
+          "1948"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "En 1987, la nadadora Lynne Cox cruzó de una isla a otra en agua helada, y fue noticia en los dos países. Hoy la isla grande es una base rusa, sin pueblo. En la chica viven menos de cien personas. Desde sus casas ven el mañana. En invierno el mar se congela, y el mañana queda a una caminata. Sin permiso, nadie la da.",
+        "rotulo": {
+          "texto": "A UNA CAMINATA",
+          "dice": "caminata"
+        },
+        "planos": [
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -169.06,
+              65.78
+            ],
+            "zoom": 12.6,
+            "entrada": "paneo",
+            "en": "Hoy",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -168.91,
+              65.75
+            ],
+            "zoom": 13.2,
+            "entrada": "paneo",
+            "en": "chica",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -168.98,
+              65.77
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "en": "invierno",
+            "deriva": 0.25
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -168.92,
+            "lat": 65.76,
+            "icono": "🏊",
+            "ruta": [
+              [
+                -168.92,
+                65.76
+              ],
+              [
+                -169.02,
+                65.775
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "cruzó",
+            "desaparecerEn": "Hoy"
+          },
+          {
+            "lon": -168.97,
+            "lat": 65.76,
+            "icono": "🥾",
+            "tachado": true,
+            "escala": 1,
+            "aparecerEn": "permiso"
+          }
+        ],
+        "foto": {
+          "buscar": "Little Diomede Island",
+          "archivo": "File:Little Diomede Island village.jpeg",
+          "pie": "DIÓMEDES MENOR · ALASKA",
+          "aparecerEn": "chica",
+          "duracionSeg": 2.6
+        },
+        "clave": [
+          "1987",
+          "Hoy",
+          "cien",
+          "mañana",
+          "invierno",
+          "permiso"
+        ]
+      }
+    ],
+    "remate": "En la isla chica todavía es hoy. En la isla grande ya es mañana.",
+    "fuentes": [
+      {
+        "texto": "Office of the Historian, Departamento de Estado de EE. UU.: Purchase of Alaska, 1867",
+        "url": "https://history.state.gov/milestones/1866-1898/alaska-purchase"
+      },
+      {
+        "texto": "National Archives de EE. UU.: Check for the Purchase of Alaska",
+        "url": "https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska"
+      },
+      {
+        "texto": "Wikipedia: Diomede Islands",
+        "url": "https://en.wikipedia.org/wiki/Diomede_Islands"
+      },
+      {
+        "texto": "Wikipedia: Lynne Cox",
+        "url": "https://en.wikipedia.org/wiki/Lynne_Cox"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -168.98,
+        65.77
+      ],
+      "zoomInicial": 7.2,
+      "zoomFinal": 11.8,
+      "lineas": [
+        {
+          "id": "linea-1867",
+          "puntos": [
+            [
+              -168.977,
+              65.5
+            ],
+            [
+              -168.977,
+              65.77
+            ],
+            [
+              -168.977,
+              66.05
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "mitad",
+          "etiqueta": "LÍNEA DE 1867"
+        }
+      ]
+    },
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿A QUÉ HORA ESTÁ LA OTRA ISLA?",
+      "clave": "HORA",
+      "centro": [
+        -168.98,
+        65.77
+      ],
+      "zoom": 6,
+      "pines": [
+        {
+          "lon": -168.98,
+          "lat": 65.77,
+          "texto": "ISLAS DIÓMEDES"
+        }
+      ],
+      "icono": "🕐"
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -168.91,
+        "lat": 65.74,
+        "texto": "TODAVÍA ES HOY"
+      },
+      {
+        "lon": -169.07,
+        "lat": 65.8,
+        "texto": "YA ES MAÑANA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -168.98,
+          65.77
+        ],
+        "zoom": 12,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ]
+  }
+}

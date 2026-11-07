@@ -54,7 +54,18 @@ lunes (ficha viva en `docs/META-REFERENTE.md`).
   respuesta por espectador ya empata (likes 1,4–2,2 % en los cuatro canales; subs por 1.000 vistas 1,26 vs ≈ 1,1), el feed
   nos corta en el arranque: por eso las mejoras 1 y 2 van primero.
 
+- **Mañana (08:45–09:00):** el cron de las 04:45 funcionó de punta a punta por primera vez: 3 Shorts renderizados (Bolivia 04:47→05:5x, Berlín, Chaco
+  08:07; 66 min cada uno) + 8 guiones `frontera` nuevos de a uno con Opus (4–6 min por guion, 08:07→08:47); más el de Uruguay de la nube. Métricas 08:15:
+  7 subs · 5.561 vistas (triángulo 1.388, Laguna 1.900, Rivera 1.270, Martín García 1.003); la captura de alcance sigue fallando por tiempo de carga.
+- El cron del sábado 05:30 (`compilar.mts`) dejó `salida/compilaciones/2026-11-07-compilacion.mp4` (11:27, 1920×1080, 390 MB): 5 Shorts verticales
+  seguidos con bandas desenfocadas a los lados. Es contenido reutilizado tal cual (riesgo YPP, skill `videos-largos` §2): **no se sube sin que Santiago lo decida**.
+
 ## Mejorado
+- **4 Shorts subidos y programados por Studio (08:46–08:54, 2 min cada uno, sin fallos):** Bolivia `FM9aJ326bHU` sáb 11-07 18:00 · Chaco `-c96F_ywLkM`
+  dom 11-08 12:00 · Uruguay (render de la nube) `fKFCTNMk7iQ` dom 11-08 18:00 · Berlín `VgecejtBkTo` lun 11-09 12:00 (día del aniversario). Colchón: 5 programados
+  hasta el lunes mediodía. Hojas de contacto en `salida/revisiones/hojas/2026-11-07-*.jpg` (tarjeta, índice, máscaras, cotas y cierre correctos).
+- Piloto compartido sin choques: cadena Línea Punteada → Bolita Lab (09:00–09:30) → Números Rojos (09:35) acordada por mensajes entre sesiones.
+- `docs/PLAN-SEMANAL.md` y `docs/DECISIONES.md` al día (temas de `lugar`/`ruta` desplazados a 11-10, 11-13 y 11-15 hasta revisar esas plantillas).
 - **Render en la nube funcionando** (04:10): `.github/workflows/producir.yml` (copiado de Bolita; runner de 4 vCPU/16 GB, concurrency 3) renderizó el Short de Uruguay en 61 min (local ≈ 40), dejó el mp4 como artifact de 147 MB y commiteó el estado como bot. Ya descargado a `salida/bandeja/`; hoja de contacto correcta (fuentes, satélite, capas). Automático solo si `LINEA_NUBE_AUTO=1` (decisión de Santiago: nube o cron local, no ambos). Subida por API sigue esperando la auditoría de Google y el token del canal.
 - `docs/GUION.md` §2 (system prompt del generador): **reloj del arranque** (promesa antes del segundo 28; gancho ≤ 30
   palabras hasta la pregunta, mito ≤ 22, mapa de ruta ≤ 25) y variante de actos con el nombre de la pieza ("La sierra. …")
@@ -88,6 +99,12 @@ lunes (ficha viva en `docs/META-REFERENTE.md`).
 - Una línea por decisión en `docs/DECISIONES.md`.
 
 ## Pendiente
+- **Santiago decide:** ¿subir la compilación del sábado (11:27) como largo del domingo 11-08 10:00? Recomendación: NO hasta tener plantilla 16:9 nativa
+  (compilación vertical con bandas = "reutilizado"); botón en el panel (aviso `lp-2026-11-07-compilacion`).
+- Backlog listo para el cron del 11-08: los 8 guiones nuevos se verificaron con web entre 08:50 y 09:20 (2 agentes Opus): 150 afirmaciones, 24 correcciones,
+  ninguna tesis falsa; casi todas de mapa (polígono de 7 km² en tierra no disputada en Costa Rica–Nicaragua; Tiwinza dibujada del lado ecuatoriano; tren
+  Arica–La Paz 9–12 km fuera de la vía; caudal del Silala 200 → 160 L/s; "Chile rechaza" → "ni Chile ni Bolivia aceptan", CIJ 2018 §67). Informes en
+  `contenido/verificaciones/`. Regla confirmada: el generador acierta la historia y falla en coordenadas y cifras finas → verificar siempre antes de renderizar.
 - **Sesión de código (sin renders corriendo):** (0) lote de prueba sin tarjeta de título: `tarjetaTitulo` opcional en
   `src/plantillas/frontera/Frontera.tsx` (sin ella, el gancho arranca en el satélite con un `resaltes[]` sobre el lugar en
   0 s); (a) `src/plantillas/frontera/visual.ts` `T_TITULO` 0,9 → 0,7 y el `0.9` fijo de
