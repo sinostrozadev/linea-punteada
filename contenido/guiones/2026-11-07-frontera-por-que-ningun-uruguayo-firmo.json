@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-por-que-ningun-uruguayo-firmo",
+  "id": "2026-11-07-frontera-por-que-ningun-uruguayo-firmo",
   "titulo": "¿Por qué ningún uruguayo firmó la independencia de Uruguay?",
   "descripcion": "Uruguay nació en un papel firmado por otros. La Convención Preliminar de Paz, firmada en Río de Janeiro el 27 de agosto de 1828 con mediación británica, terminó tres años de guerra entre Buenos Aires y Brasil y convirtió a la Provincia Cisplatina en un Estado independiente. Firmaron delegados de los dos vecinos. Unos lo explican como un Estado tapón; en Uruguay recuerdan que los orientales ya peleaban desde 1825. Y su fiesta patria es otra fecha.\n\nFuentes:\n- Convención Preliminar de Paz, texto (Río de Janeiro, 27-8-1828): https://es.wikisource.org/wiki/Convenci%C3%B3n_preliminar_de_paz_entre_el_Gobierno_de_la_Rep%C3%BAblica_de_las_Provincias_Unidas_del_R%C3%ADo_de_la_Plata_y_Su_Majestad_el_Emperador_del_Brasil\n- Convención Preliminar de Paz (1828): contexto y mediación británica: https://es.wikipedia.org/wiki/Convenci%C3%B3n_Preliminar_de_Paz_(1828)\n- Guerra del Brasil (1825–1828): https://es.wikipedia.org/wiki/Guerra_del_Brasil\n- Treinta y Tres Orientales (1825): https://es.wikipedia.org/wiki/Treinta_y_Tres_Orientales\n- INE Uruguay: Censo 2023, resultados finales (3.499.451 hab.): https://www.gub.uy/presidencia/comunicacion/noticias/censo-nacional-2023-contabilizo-3499451-habitantes-uruguay\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#uruguay"
   ],
   "props": {
-    "id": "pendiente-frontera-por-que-ningun-uruguayo-firmo",
+    "id": "2026-11-07-frontera-por-que-ningun-uruguayo-firmo",
     "cabecera": "URUGUAY — EL PAÍS QUE FIRMARON OTROS",
     "acento": "cian",
     "tarjetaTitulo": {
