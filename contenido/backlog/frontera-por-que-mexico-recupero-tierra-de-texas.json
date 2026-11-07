@@ -2,7 +2,7 @@
   "plantilla": "frontera",
   "id": "pendiente-frontera-por-que-mexico-recupero-tierra-de-texas",
   "titulo": "¿Por qué México recuperó tierra de Texas moviendo un río?",
-  "descripcion": "En 1864 una crecida del río Bravo dejó parte de México del lado de El Paso. Siguieron casi cien años de discusión: un tratado de 1884, un arbitraje de 1911 que Estados Unidos rechazó y, por fin, la Convención del Chamizal de 1963. México recibió unas 177 hectáreas, y para que la nueva línea fuera real hubo que cavarle otro cauce al río: unos 7 km forrados en concreto, con miles de vecinos mudados.\n\nFuentes:\n- Office of the Historian, Departamento de Estado de EE. UU.: The Chamizal Dispute: https://history.state.gov/milestones/1961-1968/chamizal\n- Comisión Internacional de Límites y Aguas: Convención del Chamizal (1963): https://www.ibwc.gov/Files/ChamizalConvention1963.pdf\n- National Park Service: Chamizal: https://www.nps.gov/articles/chamizal.htm\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "descripcion": "En 1864 una crecida del río Bravo dejó parte de México del lado de El Paso. Siguieron casi cien años de discusión: un tratado de 1884, un arbitraje de 1911 que Estados Unidos rechazó y, por fin, la Convención del Chamizal de 1963. México recibió, en neto, unas 177 hectáreas, y para que la nueva línea fuera real hubo que cavarle otro cauce al río: unos 7 km forrados en concreto, con miles de vecinos mudados.\n\nFuentes:\n- National Park Service: Un siglo de conflicto (1848, 1864, 1884, arbitraje de 1911): https://www.nps.gov/cham/learn/historyculture/conflict.htm\n- National Park Service: texto de la Convención del Chamizal (29-8-1963): https://www.nps.gov/cham/learn/historyculture/chamizalconvention.htm\n- National Park Service: aplicación de la Convención (630 acres a México, 193 a EE. UU.; casi 5.600 residentes reubicados): https://www.nps.gov/cham/learn/historyculture/implementation.htm\n- National Park Service: folleto del Memorial (canal de concreto de 4,3 millas): https://www.nps.gov/cham/planyourvisit/web-brochure.htm\n- NPR (2014): EE. UU. devolvió 437 acres a México: https://www.npr.org/2014/09/25/350885341/50-years-ago-a-fluid-border-made-the-u-s-1-square-mile-smaller\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
     "#shorts",
     "#geografia",
@@ -258,7 +258,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Primero, la crecida. En 1864 el Bravo se desborda y abre un cauce nuevo más al sur. Cientos de hectáreas de México, el Chamizal, amanecen del lado de El Paso. Nadie movió un hito: se movió el agua.",
+        "texto": "Primero, la crecida. En 1864 el Bravo se desborda y empuja su cauce más al sur. Cientos de hectáreas de México, el Chamizal, quedan del lado de El Paso. Nadie movió un hito: se movió el agua.",
         "rotulo": {
           "texto": "1864",
           "dice": "1864"
@@ -398,7 +398,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Segundo, el fallo. México reclama: si el río saltó de golpe, la frontera se queda donde estaba. Estados Unidos responde que se corrió de a poco, y un tratado de 1884 dice que entonces la línea lo sigue. En 1911 un árbitro canadiense parte el terreno en dos. Estados Unidos rechaza el fallo.",
+        "texto": "Segundo, el fallo. México reclama: si el río saltó de golpe, la frontera se queda donde estaba. Estados Unidos responde que se corrió de a poco, y un tratado de 1884 dice que entonces la línea lo sigue. En 1911, con un árbitro canadiense, una comisión parte el terreno en dos. Estados Unidos rechaza el fallo.",
         "rotulo": {
           "texto": "RECHAZADO",
           "dice": "rechaza"
@@ -495,7 +495,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Tercero, el canal. Medio siglo después, Kennedy y López Mateos retoman el caso. Según la Oficina del Historiador del Departamento de Estado, la Convención de 1963 le devuelve a México unas 177 hectáreas. Pero una línea en el papel no basta: hay que cambiar el río de lugar.",
+        "texto": "Tercero, el canal. Medio siglo después, Kennedy y López Mateos retoman el caso. Según el Servicio de Parques de Estados Unidos, la Convención de 1963 le devuelve a México, en neto, unas 177 hectáreas. Pero una línea en el papel no basta: hay que cambiar el río de lugar.",
         "rotulo": {
           "texto": "177 HECTÁREAS",
           "dice": "177"
@@ -561,14 +561,14 @@
         "tarjetas": [
           {
             "texto": "177 HA",
-            "sub": "VUELVEN A MÉXICO · 1963",
+            "sub": "NETAS PARA MÉXICO · 1963",
             "icono": "tratado",
             "aparecerEn": "177",
             "duracionSeg": 3
           }
         ],
         "fuente": {
-          "texto": "Office of the Historian · Departamento de Estado",
+          "texto": "National Park Service · Chamizal National Memorial",
           "dice": "Según"
         },
         "contexto": {
@@ -840,16 +840,24 @@
     ],
     "fuentes": [
       {
-        "texto": "Office of the Historian, Departamento de Estado de EE. UU.: The Chamizal Dispute",
-        "url": "https://history.state.gov/milestones/1961-1968/chamizal"
+        "texto": "National Park Service: Un siglo de conflicto (1848, 1864, 1884, arbitraje de 1911)",
+        "url": "https://www.nps.gov/cham/learn/historyculture/conflict.htm"
       },
       {
-        "texto": "Comisión Internacional de Límites y Aguas: Convención del Chamizal (1963)",
-        "url": "https://www.ibwc.gov/Files/ChamizalConvention1963.pdf"
+        "texto": "National Park Service: texto de la Convención del Chamizal (29-8-1963)",
+        "url": "https://www.nps.gov/cham/learn/historyculture/chamizalconvention.htm"
       },
       {
-        "texto": "National Park Service: Chamizal",
-        "url": "https://www.nps.gov/articles/chamizal.htm"
+        "texto": "National Park Service: aplicación de la Convención (630 acres a México, 193 a EE. UU.; casi 5.600 residentes reubicados)",
+        "url": "https://www.nps.gov/cham/learn/historyculture/implementation.htm"
+      },
+      {
+        "texto": "National Park Service: folleto del Memorial (canal de concreto de 4,3 millas)",
+        "url": "https://www.nps.gov/cham/planyourvisit/web-brochure.htm"
+      },
+      {
+        "texto": "NPR (2014): EE. UU. devolvió 437 acres a México",
+        "url": "https://www.npr.org/2014/09/25/350885341/50-years-ago-a-fluid-border-made-the-u-s-1-square-mile-smaller"
       }
     ],
     "mapa": {

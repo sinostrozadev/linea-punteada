@@ -24,6 +24,8 @@ Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas
 
 - **Generador de guiones arreglado** (10:00): `claude -p` usa Opus por defecto y escribe de a un guion (414 s cada uno medido); el diario le da 45 min por plantilla; rotación solo `frontera` hasta revisar `lugar`/`ruta`. Primer guion nuevo en el backlog: "La guerra por un petróleo que no estaba" (0 errores de cámara, 3 avisos).
 
+- **Verificación de hechos de los 5 guiones del backlog (11-07 02:40–03:20, 2 agentes Opus con web):** 75 afirmaciones revisadas, 11 corregidas (población de Uruguay por censo final INE; atribución de las 177 ha al NPS; año de los 5.000 efectivos bolivianos; distancia Berlín–RFA "más de 100 km"; hora de apertura 23:30; gancho del Chaco acotado al lado paraguayo; pozo Lapacho reformulado; fuente Cote 2016), Wikipedia reemplazada por fuentes primarias (Wikisource del tratado de 1828, CIJ, CIA Factbook, NPS, Hughes 2005, State Dept 1937). Informes en `contenido/verificaciones/`. Ninguno descartado; zod y cámara en 0 errores.
+
 ## Herramientas exploradas
 - **Piloto compartido (8777) con cambio de identidad por canal**: `/clicktexto Switch account` → youtube.com/account → clic en el canal. Funciona para subir y para capturar métricas; documentado en `navegador-piloto` e `incidentes-canal`.
 - **Captura de página completa del piloto** (`/captura` con `full=1`) para pantallas largas de Studio (monetización).
@@ -42,7 +44,6 @@ Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas
 - Esta carpeta `salida/revisiones/` con el formato fijo que lee el panel.
 
 ## Pendiente
-- **PRIMERO esta noche, antes de las 04:45:** verificar con web (agente Opus) los hechos y las URLs de los 5 guiones de frontera del backlog (generados de memoria por `claude -p`); corregir o descartar. Sin eso, el diario renderiza el primero para el 11-08 12:00.
 - `claude auth login` (Santiago) antes del 2026-11-07 y, para el cron, `claude setup-token` → `CLAUDE_CODE_OAUTH_TOKEN` en el crontab; sin eso no hay guiones nuevos.
 - Backlog en 0 (mínimo 8): regenerar hoy en cuanto `claude -p` responda.
 - Estrenar `lugar` (Clipperton) y `ruta` (Bushby) tras revisar la hoja de contacto; plantilla 16:9 para el largo del domingo.

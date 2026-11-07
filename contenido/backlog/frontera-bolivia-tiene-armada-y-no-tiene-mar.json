@@ -2,7 +2,7 @@
   "plantilla": "frontera",
   "id": "pendiente-frontera-bolivia-tiene-armada-y-no-tiene-mar",
   "titulo": "Bolivia tiene Armada… y no tiene mar",
-  "descripcion": "Bolivia no tiene un metro de costa, pero sí una Armada que patrulla el lago Titicaca y los ríos de la Amazonía. Perdió su litoral tras la Guerra del Pacífico, y el tratado de 1904 fijó la paz con Chile. Chile dice que eso cerró el asunto; Bolivia, que lo firmó bajo presión. En 2018 la Corte Internacional de Justicia resolvió, por 12 votos contra 3, que Chile no tiene obligación de negociar.\n\nFuentes:\n- Corte Internacional de Justicia, sentencia del 1-10-2018: https://www.icj-cij.org/case/153\n- Constitución de Bolivia (2009), art. 267: https://www.constituteproject.org/constitution/Bolivia_2009\n- Bolivian Naval Force: https://en.wikipedia.org/wiki/Bolivian_Naval_Force\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "descripcion": "Bolivia no tiene un metro de costa, pero sí una Armada que patrulla el lago Titicaca y los ríos de la Amazonía. Perdió su litoral tras la Guerra del Pacífico, y el tratado de 1904 fijó la paz con Chile. Chile dice que eso cerró el asunto; Bolivia, que lo firmó bajo presión. En 2018 la Corte Internacional de Justicia resolvió, por 12 votos contra 3, que Chile no tiene obligación de negociar.\n\nFuentes:\n- Corte Internacional de Justicia, sentencia del 1-10-2018: https://www.icj-cij.org/case/153\n- Constitución de Bolivia (2009), art. 267: https://www.constituteproject.org/constitution/Bolivia_2009\n- Corte Internacional de Justicia, resumen de la sentencia: https://www.icj-cij.org/node/105706\n- CIA World Factbook (2021), efectivos militares: https://web.archive.org/web/20221210184449/https://www.cia.gov/the-world-factbook/about/archives/2021/field/military-and-security-service-personnel-strengths\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
     "#shorts",
     "#geografia",
@@ -486,7 +486,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Tercero, el lago. En 1963 Bolivia crea la Fuerza Fluvial y Lacustre, que más tarde pasa a llamarse Fuerza Naval. Su casa es el Titicaca, a unos 3.800 metros de altura, y los ríos de la Amazonía. En 2008 se le contaban unos 5.000 efectivos. Patrullan agua dulce, y la ola más cercana queda al otro lado de los Andes.",
+        "texto": "Tercero, el lago. En 1963 Bolivia crea la Fuerza Fluvial y Lacustre, que más tarde pasa a llamarse Fuerza Naval. Su casa es el Titicaca, a unos 3.800 metros de altura, y los ríos de la Amazonía. En 2018 se le contaban unos 5.000 efectivos. Patrullan agua dulce, y la ola más cercana queda al otro lado de los Andes.",
         "rotulo": {
           "texto": "3.800 METROS",
           "dice": "3.800"
@@ -865,12 +865,16 @@
         "url": "https://www.icj-cij.org/case/153"
       },
       {
+        "texto": "Corte Internacional de Justicia: resumen de la sentencia del 1-10-2018 (costa de más de 400 km en 1825)",
+        "url": "https://www.icj-cij.org/node/105706"
+      },
+      {
         "texto": "Constitución de Bolivia (2009), artículo 267, en Constitute Project",
         "url": "https://www.constituteproject.org/constitution/Bolivia_2009"
       },
       {
-        "texto": "Wikipedia: Bolivian Naval Force (historia y efectivos)",
-        "url": "https://en.wikipedia.org/wiki/Bolivian_Naval_Force"
+        "texto": "CIA World Factbook (2021): efectivos de las fuerzas armadas de Bolivia",
+        "url": "https://web.archive.org/web/20221210184449/https://www.cia.gov/the-world-factbook/about/archives/2021/field/military-and-security-service-personnel-strengths"
       }
     ],
     "mapa": {

@@ -2,7 +2,7 @@
   "plantilla": "frontera",
   "id": "pendiente-frontera-la-frontera-mas-vigilada-de-europa-se",
   "titulo": "La frontera más vigilada de Europa se abrió por un papel mal leído",
-  "descripcion": "El 9 de noviembre de 1989, Günter Schabowski leyó en vivo un reglamento de viajes que no había visto discutir. Le preguntaron desde cuándo regía y contestó: inmediatamente, sin demora. El papel exigía pedir visa y debía regir desde el día siguiente, pero esa noche miles de personas llegaron a los pasos de Berlín. Hacia las 23:30, sin órdenes, el oficial Harald Jäger abrió el de Bornholmer Strasse.\n\nFuentes:\n- Stiftung Berliner Mauer (Fundación del Muro de Berlín): https://www.stiftung-berliner-mauer.de/en\n- Chronik der Mauer (Crónica del Muro): https://www.chronik-der-mauer.de/en/\n- Encyclopaedia Britannica: Berlin Wall: https://www.britannica.com/topic/Berlin-Wall\n\nEl trazado del Muro y de la antigua frontera en el mapa es aproximado.\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "descripcion": "El 9 de noviembre de 1989, Günter Schabowski leyó en vivo un reglamento de viajes que no había visto discutir. Le preguntaron desde cuándo regía y contestó: inmediatamente, sin demora. El papel exigía pedir visa y debía regir desde el día siguiente, pero esa noche miles de personas llegaron a los pasos de Berlín. Hacia las 23:30, sin órdenes, el oficial Harald Jäger abrió el de Bornholmer Strasse.\n\nFuentes:\n- Fundación del Muro de Berlín: víctimas en el Muro, 1961–1989 (al menos 140): https://stiftung-berliner-mauer.de/en/node/235\n- Berlin.de: la Berliner Mauer (unos 155 km): https://www.berlin.de/sehenswuerdigkeiten/3561866-3558930-berliner-mauer.html\n- Gobierno Federal de Alemania: Schabowski, «sofort, unverzüglich» (9-11-1989): https://www.bundesregierung.de/breg-de/mediathek/schabowski-mauerfall-2392976\n- The Irish Times: Harald Jäger abre Bornholmer Strasse hacia las 23:30 sin órdenes: https://www.irishtimes.com/news/world/europe/border-guard-s-snap-decision-ensured-joyful-end-to-wall-1.1992745\n\nEl trazado del Muro y de la antigua frontera en el mapa es aproximado.\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
     "#shorts",
     "#geografia",
@@ -361,7 +361,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Primero, la isla. Berlín Occidental queda a unos 150 kilómetros de Alemania Occidental, en medio de Alemania del Este. En agosto de 1961 la rodean. Según la Fundación del Muro de Berlín, son unos 155 kilómetros de muro, y al menos 140 personas mueren junto a él.",
+        "texto": "Primero, la isla. Berlín Occidental queda a más de cien kilómetros de Alemania Occidental, en medio de Alemania del Este. En agosto de 1961 la rodean con unos 155 kilómetros de muro. Según la Fundación del Muro de Berlín, al menos 140 personas mueren junto a él.",
         "rotulo": {
           "texto": "155 KM",
           "dice": "155"
@@ -408,8 +408,8 @@
               13.1,
               52.5
             ],
-            "texto": "150 KM",
-            "aparecerEn": "150",
+            "texto": "MÁS DE 100 KM",
+            "aparecerEn": "cien",
             "desaparecerEn": "agosto"
           }
         ],
@@ -431,7 +431,7 @@
         },
         "clave": [
           "isla",
-          "150",
+          "cien",
           "1961",
           "155",
           "140"
@@ -690,7 +690,7 @@
         "tarjetas": [
           {
             "texto": "CASI MEDIANOCHE",
-            "sub": "23:30 · LA PRIMERA BARRERA SE ABRE",
+            "sub": "HACIA LAS 23:30 · SE ABRE LA BARRERA",
             "aparecerEn": "Hacia",
             "duracionSeg": 2.8
           }
@@ -798,16 +798,20 @@
     ],
     "fuentes": [
       {
-        "texto": "Stiftung Berliner Mauer (Fundación del Muro de Berlín)",
-        "url": "https://www.stiftung-berliner-mauer.de/en"
+        "texto": "Fundación del Muro de Berlín: víctimas en el Muro, 1961–1989 (al menos 140)",
+        "url": "https://stiftung-berliner-mauer.de/en/node/235"
       },
       {
-        "texto": "Chronik der Mauer (Crónica del Muro)",
-        "url": "https://www.chronik-der-mauer.de/en/"
+        "texto": "Berlin.de: la Berliner Mauer (unos 155 km)",
+        "url": "https://www.berlin.de/sehenswuerdigkeiten/3561866-3558930-berliner-mauer.html"
       },
       {
-        "texto": "Encyclopaedia Britannica: Berlin Wall",
-        "url": "https://www.britannica.com/topic/Berlin-Wall"
+        "texto": "Gobierno Federal de Alemania: Schabowski, «sofort, unverzüglich» (9-11-1989)",
+        "url": "https://www.bundesregierung.de/breg-de/mediathek/schabowski-mauerfall-2392976"
+      },
+      {
+        "texto": "The Irish Times: Harald Jäger abre Bornholmer Strasse hacia las 23:30 sin órdenes",
+        "url": "https://www.irishtimes.com/news/world/europe/border-guard-s-snap-decision-ensured-joyful-end-to-wall-1.1992745"
       }
     ],
     "mapa": {
