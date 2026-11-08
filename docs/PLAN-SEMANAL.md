@@ -14,12 +14,12 @@
 | Ranuras jue 11-12 → mié 11-18 | Ya `programado` | Falta (al 2026-11-08 02:40) | Orden de producción el mié 11-11 |
 |---|---|---|---|
 | 14 Shorts (12:00 y 18:00) | 0 (lo programado llega al 11-09 12:00; el cron 04:45 cubre ~3/día hasta el miércoles) | 8 en el plan (2 `dirigido`, 3 `investigado`, 3 `idea`) + **6 sin ranura aún (11-16 → 11-18)**; lo que el cron no haya renderizado antes del miércoles | 1.º escribir/verificar/dirigir los ~14 guiones (Opus de a uno + revisor) → 2.º render: local en serie (~65 min c/u) + **nube `producir.yml` en paralelo** (la cola local sola no alcanza: 14 × 65 min ≈ 15 h) → 3.º Studio en orden de fecha |
-| 1 largo (dom 11-15 10:00, Bushby) | 0 | plantilla 16:9 + guion en construcción (sesión del 11-08) | render por tramos (`videos-largos` §5) antes del jueves |
+| 1 largo (dom 11-15 19:00, El mar de Bolivia) | 0 (el largo de Bushby sale el dom 11-08 19:00) | guion del largo de Bolivia (plantilla `largo` ya existe) | `preparar-largo.mts` + `render-largo.mts` (tramos ≤ 3 min, ~9 min de render por minuto de video) antes del jueves |
 
 Al cumplirse: anotar aquí "✅ asegurada hasta el mié 11-18 (fecha/hora)" y en `salida/revisiones/<fecha>.md`. El plan debe extenderse
 hasta el 11-18 (hoy termina el 11-15): agregar las ranuras 11-16 → 11-18 en el ritual del miércoles.
 
-Calendario: 2 Shorts/día (12:00 y 18:00) + largo dominical 10:00 (desde el 2026-11-15; el 11-08 no hay plantilla 16:9).
+Calendario: 2 Shorts/día (12:00 y 18:00) + largo dominical a las **19:00** (desde el 2026-11-08; plantilla `largo` 16:9 lista).
 Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguiente: 3 de 14 Shorts + el largo (4 de 15 ranuras, ~27 %).
 
 ## Semana en curso: lun 2026-11-02 → dom 2026-11-08
@@ -32,7 +32,7 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
 | vie 11-06 | 18:00 | frontera | ¿Por qué en esta plaza cambias de país sin mostrar un solo papel? | evergreen | — | publicado ([p-0rgosOKdg](https://youtube.com/shorts/p-0rgosOKdg)) | Ñerd (Shorts de frontera 2–3 min) | audiencia UY/BR; frontera urbana (formato distinto a los anteriores) |
 | sáb 11-07 | 12:00 | frontera | Chile y Argentina tienen un tramo de frontera que todavía no existe | serie · _La línea que falta_ | — | **programado** `o3yQPPqXoQA` | Ñerd (Shorts de frontera 2–3 min) | continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07) |
 | sáb 11-07 | 18:00 | frontera | Bolivia tiene Armada… y no tiene mar | evergreen · _El mar de Bolivia_ | — | **programado** `FM9aJ326bHU` ([ver](https://youtube.com/shorts/FM9aJ326bHU)) | Ñerd (contradicciones de país) | audiencia BO/CL; contradicción en una frase (idea 14); adelantado del 11-15 porque lugar sigue sin revisión v2 |
-| dom 11-08 | 10:00 | **largo** 16:9 | (sin largo esta semana) | evergreen | — | idea · ⚠ no existe plantilla 16:9 todavía: ranura vacía a propósito | - | ruta B (4.000 h) empieza la semana 2 |
+| dom 11-08 | 19:00 | **largo** 16:9 | Caminó 28 años para volver a casa. ¿Qué lo frenó? | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull) ([2026-11-02](https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html)) | listo (render hecho 03:58, 8:44, 6 capítulos; subir 19:00) | GeoGlobeTales (Bushby, 61 M) | primer largo nativo 16:9 (ruta B 4.000 h; mid-rolls ~3:57 y ~6:40) |
 | dom 11-08 | 12:00 | frontera | La guerra por un petróleo que no estaba | evergreen | — | **programado** `-c96F_ywLkM` ([ver](https://youtube.com/shorts/-c96F_ywLkM)) | Ñerd (guerras y límites) | audiencia BO/PY, línea de 1938 dibujable (idea 15); adelantado del 11-13 porque ruta sigue sin revisión v2 |
 | dom 11-08 | 18:00 | frontera | Uruguay nació de un empate | evergreen | — | **programado** `fKFCTNMk7iQ` ([ver](https://youtube.com/shorts/fKFCTNMk7iQ)) | Ñerd (origen de países) | audiencia UY/AR que ya llegó con Martín García y Rivera (idea 18); adelantado del 11-10; guion renderizado en GitHub Actions |
 
@@ -41,10 +41,10 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
 | Día | Hora | Plantilla | Tema (provisional) | Tipo | Contingencia (fuente) | Estado | Referente | Por qué entra |
 |---|---|---|---|---|---|---|---|---|
 | lun 11-09 | 12:00 | frontera | La frontera más vigilada de Europa se abrió por un papel mal leído | contingente | 37 años de la caída del Muro de Berlín (9-11-1989): Schabowski anunció la apertura 'desde ya' ([2026-11-09](https://elordenmundial.com/hoy-en-la-historia/9-noviembre/9-de-noviembre-de-1989-caida-del-muro-de-berlin/)) | **programado** `VgecejtBkTo` ([ver](https://youtube.com/shorts/VgecejtBkTo)) | Ñerd (fronteras absurdas) | efeméride el mismo día; ángulo propio (el error de la conferencia), no 'cayó el muro' |
-| lun 11-09 | 18:00 | ruta | Cruzó de Alaska a Rusia caminando sobre el mar… y lo detuvieron por no pasar por aduana | serie · _Del estrecho al canal_ | — | investigado | GeoGlobeTales (Diómedes, 36 M) | continuación de Bushby mientras la noticia sigue viva (idea 2 verificada) |
-| mar 11-10 | 12:00 | lugar | El desierto más seco del mundo está pegado al océano | evergreen | — | investigado | Ñerd (¿por qué está ahí?) | lugar con imagen fuerte (satélite) y fuente NASA (idea 12) |
-| mar 11-10 | 18:00 | lugar | Francia ganó una isla mexicana porque lo decidió el rey de Italia | serie · _Clipperton_ | — | investigado · ⚠ plantilla lugar debe pasar revisión v2 | Ñerd (fronteras absurdas) | cierra la serie Clipperton (orden intercambiado por plantilla pendiente; si Clipperton 1 sale el 11-15, quedan invertidas: reordenar) |
-| mié 11-11 | 12:00 | ruta | El Canal de Panamá dejó sin barcos a Punta Arenas | serie · _Del estrecho al canal_ | — | investigado | GeoGlobeTales (rutas marítimas) | tercer capítulo de la serie; prepara Panamá del 11-13 (idea 20) |
+| lun 11-09 | 18:00 | frontera | Unos soldados entraron a un país sin ejército | evergreen | — | listo (render en la nube, en bandeja; programar cuando se libere el cupo de subida) | Ñerd (fronteras absurdas) | renderizado en GitHub Actions (40 min); `soldados-entraron-a-un-pais-sin-ejercito` |
+| mar 11-10 | 12:00 | frontera | ¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia? | evergreen | — | renderizando (nube) | Ñerd (¿por qué está ahí?) | cola de la nube de a uno; `por-que-estas-dos-islas-estan-a-3-8-km` |
+| mar 11-10 | 18:00 | frontera | ¿Por qué un francés firmó el tratado que partió a Panamá en dos? | evergreen | — | renderizando (nube) | Ñerd (origen de países) | cola de la nube de a uno; `por-que-un-frances-firmo-el-tratado` |
+| mié 11-11 | 12:00 | frontera | ¿Por qué México recuperó tierra de Texas moviendo un río? | evergreen | — | renderizando (nube) | Ñerd (fronteras absurdas) | cola de la nube de a uno; `por-que-mexico-recupero-tierra-de-texas`; protagonista México |
 | mié 11-11 | 18:00 | lugar | La ciudad más alta del mundo existe por el oro | evergreen | — | investigado | Ñerd (¿por qué está ahí?) | audiencia PE; récord verificable con NASA (idea 16) |
 | jue 11-12 | 12:00 | frontera | Venezuela reclama dos tercios de Guyana por un laudo de 1899 | contingente | La CIJ prepara el fallo Guyana c. Venezuela (audiencias terminadas en mayo de 2026; fallo esperado entre noviembre de 2026 y enero de 2027; consultado 2026-11-05) ([2026-11-05](https://oilnow.gy/featured/guyana-government-expects-world-court-ruling-as-early-as-november-2026-in-essequibo-border-case/)) | idea · ⚠ tema sensible: guion con revisión de neutralidad; si no hay novedad de la CIJ, entra el reemplazo (Bolivia tiene Armada… y no tiene mar) | Ñerd (disputas vivas) | si la CIJ anuncia fecha de lectura, se mueve al día del fallo; solo hechos, dos versiones |
 | jue 11-12 | 18:00 | ruta | La Panamericana va de Alaska a Ushuaia… menos 100 km de selva | evergreen | — | idea · ⚠ verificar largo del Tapón del Darién con 2 fuentes | GeoGlobeTales (rutas imposibles) | ruta continental con contradicción clara; Bushby cruzó ese tramo (cruce con la serie) |
@@ -52,7 +52,7 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
 | vie 11-13 | 18:00 | ruta | Salió caminando de Punta Arenas y tardó 28 años en llegar a su casa | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull a pie tras 28 años (salió de Punta Arenas en 1998) ([2026-11-02](https://www.itv.com/news/calendar/2026-11-02/adventurer-arrives-back-in-home-city-after-28-year-walk-round-the-world)) | dirigido · ⚠ plantilla ruta debe pasar revisión v2 (hoja de contacto) antes del render | GeoGlobeTales (Bushby, 61 M) | contingencia ITV 2026-11-02 (se enfría; desplazado desde el 11-08); tema probado con 61 M; abre la serie y precede al largo del 11-15 |
 | sáb 11-14 | 12:00 | ruta | El náufrago que inspiró a Robinson Crusoe: cómo lo encontraron en 1709 | serie · _Robinson_ | — | idea · ⚠ falta fuente primaria (diario de Woodes Rogers, 1712) | GeoGlobeTales (historias de náufragos) | ruta marítima Juan Fernández; abre mini-serie que cierra el 11-15 (idea 6) |
 | sáb 11-14 | 18:00 | lugar | Dos países se pelean por cuál es la ciudad más austral del mundo | evergreen | — | investigado | Ñerd (récords con trampa) | audiencia CL/AR, la de los 2 primeros videos (idea 17) |
-| dom 11-15 | 10:00 | **largo** 16:9 | 28 años caminando: la vuelta al mundo de Karl Bushby, contada en un mapa | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull) ([2026-11-02](https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html)) | idea · ⚠ plantilla 16:9 por construir (skill videos-largos) | GeoGlobeTales (Bushby, 61 M) | primer largo (ruta B 4.000 h, mid-rolls ≥ 8 min); tema caliente con Short previo como embudo |
+| dom 11-15 | 19:00 | **largo** 16:9 | El mar de Bolivia: 147 años sin costa, explicados en el mapa | serie · _El mar de Bolivia_ | — | idea | Ñerd / GeoGlobeTales | la discusión del Short de Bolivia (11-07) concentra los comentarios; plantilla `largo` ya existe |
 | dom 11-15 | 12:00 | lugar | Los olvidaron en una isla 3 años: el rey de Clipperton | serie · _Clipperton_ | — | dirigido · ⚠ plantilla lugar debe pasar revisión v2 | Ñerd (historias humanas con mapa) | abre la serie Clipperton (desplazado desde el 11-07); orden intercambiado por plantilla pendiente |
 | dom 11-15 | 18:00 | lugar | Selkirk nunca pisó la isla que lleva su nombre | serie · _Robinson_ | — | investigado | Ñerd (nombres con trampa) | cierra la mini-serie Robinson 30 h después (idea 6) |
 
@@ -116,11 +116,12 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
       "tipo": "evergreen", "serie": "El mar de Bolivia", "contingencia": null,
       "estado": "programado", "guion": "contenido/guiones/2026-11-07-frontera-bolivia-tiene-armada-y-no-tiene-mar.json", "videoId": "FM9aJ326bHU",
       "referente": "Ñerd (contradicciones de país)", "porQue": "audiencia BO/CL; contradicción en una frase (idea 14); adelantado del 11-15 porque lugar sigue sin revisión v2", "bloqueo": null },
-    { "fecha": "2026-11-08", "hora": "10:00", "formato": "largo", "plantilla": "largo",
-      "tema": "(sin largo esta semana)",
-      "tipo": "evergreen", "serie": null, "contingencia": null,
-      "estado": "idea", "guion": null, "videoId": null,
-      "referente": "-", "porQue": "ruta B (4.000 h) empieza la semana 2", "bloqueo": "no existe plantilla 16:9 todavía: ranura vacía a propósito" },
+    { "fecha": "2026-11-08", "hora": "19:00", "formato": "largo", "plantilla": "largo",
+      "tema": "Caminó 28 años para volver a casa. ¿Qué lo frenó?",
+      "tipo": "contingente", "serie": "Del estrecho al canal",
+      "contingencia": {"hecho": "Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull)", "fecha": "2026-11-02", "url": "https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html"},
+      "estado": "listo", "guion": "contenido/borradores/largo-bushby.json", "videoId": null,
+      "referente": "GeoGlobeTales (Bushby, 61 M)", "porQue": "primer largo nativo 16:9 (ruta B 4.000 h; mid-rolls ~3:57 y ~6:40); render hecho 03:58, 8:44, 6 capítulos; subir 19:00", "bloqueo": null },
     { "fecha": "2026-11-07", "hora": "12:00", "formato": "short", "plantilla": "frontera",
       "tema": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
       "tipo": "serie", "serie": "La línea que falta", "contingencia": null,
@@ -137,26 +138,26 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
       "tipo": "contingente", "serie": null, "contingencia": {"hecho": "37 años de la caída del Muro de Berlín (9-11-1989): Schabowski anunció la apertura 'desde ya'", "fecha": "2026-11-09", "url": "https://elordenmundial.com/hoy-en-la-historia/9-noviembre/9-de-noviembre-de-1989-caida-del-muro-de-berlin/"},
       "estado": "programado", "guion": "contenido/guiones/2026-11-07-frontera-la-frontera-mas-vigilada-de-europa-se.json", "videoId": "VgecejtBkTo",
       "referente": "Ñerd (fronteras absurdas)", "porQue": "efeméride el mismo día; ángulo propio (el error de la conferencia), no 'cayó el muro'", "bloqueo": null },
-    { "fecha": "2026-11-09", "hora": "18:00", "formato": "short", "plantilla": "ruta",
-      "tema": "Cruzó de Alaska a Rusia caminando sobre el mar… y lo detuvieron por no pasar por aduana",
-      "tipo": "serie", "serie": "Del estrecho al canal", "contingencia": null,
-      "estado": "investigado", "guion": null, "videoId": null,
-      "referente": "GeoGlobeTales (Diómedes, 36 M)", "porQue": "continuación de Bushby mientras la noticia sigue viva (idea 2 verificada)", "bloqueo": null },
-    { "fecha": "2026-11-10", "hora": "12:00", "formato": "short", "plantilla": "lugar",
-      "tema": "El desierto más seco del mundo está pegado al océano",
+    { "fecha": "2026-11-09", "hora": "18:00", "formato": "short", "plantilla": "frontera",
+      "tema": "Unos soldados entraron a un país sin ejército",
       "tipo": "evergreen", "serie": null, "contingencia": null,
-      "estado": "investigado", "guion": null, "videoId": null,
-      "referente": "Ñerd (¿por qué está ahí?)", "porQue": "lugar con imagen fuerte (satélite) y fuente NASA (idea 12)", "bloqueo": null },
-    { "fecha": "2026-11-10", "hora": "18:00", "formato": "short", "plantilla": "lugar",
-      "tema": "Francia ganó una isla mexicana porque lo decidió el rey de Italia",
-      "tipo": "serie", "serie": "Clipperton", "contingencia": null,
-      "estado": "investigado", "guion": null, "videoId": null,
-      "referente": "Ñerd (fronteras absurdas)", "porQue": "cierra la serie Clipperton (orden intercambiado por plantilla pendiente; si Clipperton 1 sale el 11-15, quedan invertidas: reordenar)", "bloqueo": "plantilla lugar debe pasar revisión v2" },
-    { "fecha": "2026-11-11", "hora": "12:00", "formato": "short", "plantilla": "ruta",
-      "tema": "El Canal de Panamá dejó sin barcos a Punta Arenas",
-      "tipo": "serie", "serie": "Del estrecho al canal", "contingencia": null,
-      "estado": "investigado", "guion": null, "videoId": null,
-      "referente": "GeoGlobeTales (rutas marítimas)", "porQue": "tercer capítulo de la serie; prepara Panamá del 11-13 (idea 20)", "bloqueo": null },
+      "estado": "listo", "guion": "contenido/guiones/2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.json", "videoId": null,
+      "referente": "Ñerd (fronteras absurdas)", "porQue": "renderizado en GitHub Actions (40 min), en bandeja; programar cuando se libere el cupo de subida", "bloqueo": null },
+    { "fecha": "2026-11-10", "hora": "12:00", "formato": "short", "plantilla": "frontera",
+      "tema": "¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?",
+      "tipo": "evergreen", "serie": null, "contingencia": null,
+      "estado": "renderizando", "guion": null, "videoId": null,
+      "referente": "Ñerd (¿por qué está ahí?)", "porQue": "cola de la nube de a uno (producir.yml); por-que-estas-dos-islas-estan-a-3-8-km", "bloqueo": null },
+    { "fecha": "2026-11-10", "hora": "18:00", "formato": "short", "plantilla": "frontera",
+      "tema": "¿Por qué un francés firmó el tratado que partió a Panamá en dos?",
+      "tipo": "evergreen", "serie": null, "contingencia": null,
+      "estado": "renderizando", "guion": null, "videoId": null,
+      "referente": "Ñerd (origen de países)", "porQue": "cola de la nube de a uno (producir.yml); por-que-un-frances-firmo-el-tratado", "bloqueo": null },
+    { "fecha": "2026-11-11", "hora": "12:00", "formato": "short", "plantilla": "frontera",
+      "tema": "¿Por qué México recuperó tierra de Texas moviendo un río?",
+      "tipo": "evergreen", "serie": null, "contingencia": null,
+      "estado": "renderizando", "guion": null, "videoId": null,
+      "referente": "Ñerd (fronteras absurdas)", "porQue": "cola de la nube de a uno (producir.yml); por-que-mexico-recupero-tierra-de-texas; protagonista México", "bloqueo": null },
     { "fecha": "2026-11-11", "hora": "18:00", "formato": "short", "plantilla": "lugar",
       "tema": "La ciudad más alta del mundo existe por el oro",
       "tipo": "evergreen", "serie": null, "contingencia": null,
@@ -194,12 +195,11 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
       "tipo": "evergreen", "serie": null, "contingencia": null,
       "estado": "investigado", "guion": null, "videoId": null,
       "referente": "Ñerd (récords con trampa)", "porQue": "audiencia CL/AR, la de los 2 primeros videos (idea 17)", "bloqueo": null },
-    { "fecha": "2026-11-15", "hora": "10:00", "formato": "largo", "plantilla": "largo",
-      "tema": "28 años caminando: la vuelta al mundo de Karl Bushby, contada en un mapa",
-      "tipo": "contingente", "serie": "Del estrecho al canal",
-      "contingencia": { "hecho": "Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull)", "fecha": "2026-11-02", "url": "https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html" },
+    { "fecha": "2026-11-15", "hora": "19:00", "formato": "largo", "plantilla": "largo",
+      "tema": "El mar de Bolivia: 147 años sin costa, explicados en el mapa",
+      "tipo": "serie", "serie": "El mar de Bolivia", "contingencia": null,
       "estado": "idea", "guion": null, "videoId": null,
-      "referente": "GeoGlobeTales (Bushby, 61 M)", "porQue": "primer largo (ruta B 4.000 h, mid-rolls ≥ 8 min); tema caliente con Short previo como embudo", "bloqueo": "plantilla 16:9 por construir (skill videos-largos)" },
+      "referente": "Ñerd / GeoGlobeTales", "porQue": "la discusión del Short de Bolivia (11-07) concentra los comentarios; plantilla largo ya existe", "bloqueo": null },
     { "fecha": "2026-11-15", "hora": "12:00", "formato": "short", "plantilla": "lugar",
       "tema": "Los olvidaron en una isla 3 años: el rey de Clipperton",
       "tipo": "serie", "serie": "Clipperton", "contingencia": null,
