@@ -10,8 +10,7 @@ HOME=/home/santiago
 # baja de 8 (claude -p con docs/GUION.md) y subida por API o PARA-SUBIR-A-MANO.md.
 45 4 * * * cd /home/santiago/projects/yt/linea-punteada && node_modules/.bin/tsx scripts/diario.mts >> salida/logs/cron.log 2>&1
 
-# Compilación semanal, sábados 05:30 (video largo 16:9 con los últimos Shorts; se publica el domingo 10:00).
-30 5 * * 6 cd /home/santiago/projects/yt/linea-punteada && node_modules/.bin/tsx scripts/compilar.mts --n 10 >> salida/logs/cron.log 2>&1 && node_modules/.bin/tsx scripts/subir.mts exportar >> salida/logs/cron.log 2>&1
+# (Sin compilación semanal desde 2026-11-08: el largo dominical es nativo 16:9 y se produce con scripts/render-largo.mts.)
 
 # Estado cada mañana 08:15 (cat salida/logs/estado.log).
 15 8 * * * cd /home/santiago/projects/yt/linea-punteada && node_modules/.bin/tsx scripts/estado.mts > salida/logs/estado.log 2>&1
