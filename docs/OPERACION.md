@@ -53,6 +53,13 @@ guion** o si no hay ranuras a más de 7 días: entonces toca el ritual de cierre
 los próximos 14 días → llenar la semana siguiente → encargar guiones → `DECISIONES.md`). Pendiente: que `generar-guiones.mts` tome
 los temas de las ranuras `idea`/`investigado` del plan en vez de inventarlos.
 
+## Hito del miércoles: semana asegurada (orden de Santiago, 2026-11-08)
+El cupo semanal del Max se renueva los **miércoles**. Cada miércoles en la noche quedan escritos, verificados y dirigidos los guiones de
+TODAS las ranuras **jueves → miércoles siguiente**, arrancan los renders (local en serie con el lock; nube donde exista) y el **jueves**
+todo está `programado` en Studio con su fecha (tope jue 23:59; resto el viernes con ≥ 72 h de colchón). Solo después el cupo sobrante va a
+mejoras o canales nuevos. El bloque "Hito del mié AAAA-MM-DD" arriba de `docs/PLAN-SEMANAL.md` lleva la cuenta; `estado.mts` avisa
+"⚠ hito del miércoles" si quedan ranuras sin programar antes del próximo miércoles. Regla: skill `plan-semanal` §5b y `operacion-diaria` §0.
+
 ## Producción en la nube (GitHub Actions)
 Para no depender del PC de Santiago, el mismo `diario.mts` corre en un runner de GitHub (repo público → minutos gratis):
 `.github/workflows/producir.yml` ("Producir Shorts", <https://github.com/sinostrozadev/linea-punteada/actions>). Copia del

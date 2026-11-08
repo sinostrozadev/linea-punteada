@@ -63,9 +63,12 @@ if (!existeSecreto(ARCHIVO_TOKEN_YT)) console.log('  → mientras tanto el diari
 }
 
 // Plan semanal (docs/PLAN-SEMANAL.md, skill plan-semanal): bloque ```json con las ranuras de esta semana y la siguiente.
+// Hito del miércoles (plan-semanal §5b, orden de Santiago 2026-11-08): todas las ranuras hasta el miércoles siguiente deben
+// estar `programado` el jueves; aquí se avisa cuántas faltan.
 {
   const archivoPlan = path.join(RAIZ, 'docs', 'PLAN-SEMANAL.md');
   const CON_GUION = ['guion', 'dirigido', 'renderizado', 'programado', 'publicado'];
+  const ASEGURADA = ['programado', 'publicado'];
   console.log('\nPlan semanal:');
   try {
     const bloque = fs.readFileSync(archivoPlan, 'utf8').match(/```json\n([\s\S]*?)\n```/);
@@ -80,12 +83,25 @@ if (!existeSecreto(ARCHIVO_TOKEN_YT)) console.log('  → mientras tanto el diari
     }).format(d).replace('T', ' ');
     const ahora = enZona(new Date());
     const en7d = enZona(new Date(Date.now() + 7 * 86_400_000));
+    // Próximo miércoles (si hoy es miércoles, el siguiente: el hito de esta noche cubre hasta allá).
+    const diaSemana = new Date(`${ahora.slice(0, 10)}T12:00:00Z`).getUTCDay();
+    const hastaMie = ((3 - diaSemana + 7) % 7) || 7;
+    const finMie = `${enZona(new Date(Date.now() + hastaMie * 86_400_000)).slice(0, 10)} 23:59`;
     const futuras = plan.ranuras.filter((r) => `${r.fecha} ${r.hora}` > ahora).sort((a, b) => `${a.fecha} ${a.hora}`.localeCompare(`${b.fecha} ${b.hora}`));
     const conGuion = futuras.filter((r) => r.formato === 'short' && CON_GUION.includes(r.estado));
     const shortsFuturos = futuras.filter((r) => r.formato === 'short');
     console.log(`  ${futuras.length} ranura(s) futura(s); Shorts con guion: ${conGuion.length}/${shortsFuturos.length}`);
     if (conGuion.length < 3) console.log(`  ⚠ menos de 3 ranuras futuras con guion → ritual de cierre (skill plan-semanal §5) y encargar guiones`);
     if (!futuras.some((r) => `${r.fecha} ${r.hora}` > en7d)) console.log('  ⚠ ninguna ranura a más de 7 días → falta armar la semana siguiente');
+    const hastaHito = futuras.filter((r) => `${r.fecha} ${r.hora}` <= finMie);
+    const sinProgramar = hastaHito.filter((r) => !ASEGURADA.includes(r.estado));
+    const ultima = plan.ranuras.map((r) => r.fecha).sort().pop() ?? '';
+    if (sinProgramar.length === 0 && ultima >= finMie.slice(0, 10)) {
+      console.log(`  ✓ semana asegurada hasta el mié ${finMie.slice(0, 10)} (${hastaHito.length} ranuras programadas)`);
+    } else {
+      if (sinProgramar.length > 0) console.log(`  ⚠ hito del miércoles: ${sinProgramar.length}/${hastaHito.length} ranura(s) hasta el mié ${finMie.slice(0, 10)} sin programar (${sinProgramar.map((r) => `${r.fecha.slice(5)} ${r.hora} ${r.estado}`).join(', ')})`);
+      if (ultima < finMie.slice(0, 10)) console.log(`  ⚠ hito del miércoles: el plan termina el ${ultima}; faltan las ranuras hasta el mié ${finMie.slice(0, 10)}`);
+    }
     for (const r of futuras.slice(0, 4)) {
       console.log(`  ${r.fecha} ${r.hora}  ${r.plantilla.padEnd(8)} ${r.estado.padEnd(11)} ${r.tema.slice(0, 70)}${r.bloqueo ? `  ⚠ ${r.bloqueo.slice(0, 60)}` : ''}`);
     }

@@ -5,6 +5,20 @@
 > futuras con guion, o termina, se hace el ritual de cierre y se arma la que viene. `scripts/estado.mts` avisa.
 > **Manda el bloque JSON del final** (lo leen `estado.mts` y el panel de Santiago); la tabla es su vista legible.
 
+## 🔒 Hito del mié 2026-11-11 → semana asegurada 2026-11-12 (jue) → 2026-11-18 (mié)
+
+> Orden de Santiago (2026-11-08): el cupo del Max se renueva los **miércoles**. El miércoles en la noche quedan todos los guiones de
+> la semana jue → mié escritos y dirigidos, arrancan los renders y el **jueves** todo está `programado` en Studio. Recién entonces el
+> cupo sobrante va a mejoras. Regla completa: skill `plan-semanal` §5b · `operacion-diaria` §0 · `~/.claude/canales/calendario.json`.
+
+| Ranuras jue 11-12 → mié 11-18 | Ya `programado` | Falta (al 2026-11-08 02:40) | Orden de producción el mié 11-11 |
+|---|---|---|---|
+| 14 Shorts (12:00 y 18:00) | 0 (lo programado llega al 11-09 12:00; el cron 04:45 cubre ~3/día hasta el miércoles) | 8 en el plan (2 `dirigido`, 3 `investigado`, 3 `idea`) + **6 sin ranura aún (11-16 → 11-18)**; lo que el cron no haya renderizado antes del miércoles | 1.º escribir/verificar/dirigir los ~14 guiones (Opus de a uno + revisor) → 2.º render: local en serie (~65 min c/u) + **nube `producir.yml` en paralelo** (la cola local sola no alcanza: 14 × 65 min ≈ 15 h) → 3.º Studio en orden de fecha |
+| 1 largo (dom 11-15 10:00, Bushby) | 0 | plantilla 16:9 + guion en construcción (sesión del 11-08) | render por tramos (`videos-largos` §5) antes del jueves |
+
+Al cumplirse: anotar aquí "✅ asegurada hasta el mié 11-18 (fecha/hora)" y en `salida/revisiones/<fecha>.md`. El plan debe extenderse
+hasta el 11-18 (hoy termina el 11-15): agregar las ranuras 11-16 → 11-18 en el ritual del miércoles.
+
 Calendario: 2 Shorts/día (12:00 y 18:00) + largo dominical 10:00 (desde el 2026-11-15; el 11-08 no hay plantilla 16:9).
 Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguiente: 3 de 14 Shorts + el largo (4 de 15 ranuras, ~27 %).
 
