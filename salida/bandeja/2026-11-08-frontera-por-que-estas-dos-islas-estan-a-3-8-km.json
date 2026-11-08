@@ -12,7 +12,12 @@
     "#alaska"
   ],
   "duracionSeg": 122.7,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450207994"
+  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450207994",
+  "publicarEn": "2026-11-10T12:00:00-03:00",
+  "videoId": "Aa8tOCay-rk",
+  "url": "https://youtube.com/shorts/Aa8tOCay-rk",
+  "programado": "2026-11-10 12:00",
+  "subidoEn": "2026-11-08T12:11:48.230Z"
 }

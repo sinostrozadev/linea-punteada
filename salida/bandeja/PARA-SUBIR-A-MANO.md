@@ -1,6 +1,6 @@
 # Videos listos para subir a mano (YouTube Studio)
 
-Generado: 2026-11-08 04:47 (America/Santiago) · 4 Short(s) + 1 video(s) largo(s), en orden de calendario.
+Generado: 2026-11-08 05:44 (America/Santiago) · 5 Short(s) + 1 video(s) largo(s), en orden de calendario.
 
 Cómo: YouTube Studio → **Crear → Subir videos** → elige el archivo indicado. Copia el título y la
 descripción **tal cual** (la descripción ya trae los hashtags al final). En "Público": **No, no es
@@ -11,10 +11,45 @@ Al terminar, marca cada video como subido para que no vuelva a aparecer: en `sal
 cambia `"estado": "listo"` por `"estado": "subido"` y agrega `"publicarEn": "<fecha ISO>"`
 (así el calendario sabe que esa ranura ya está ocupada). Si no lo haces, solo se volverá a listar.
 
-## 1. ¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?
+## 1. Chile y Bolivia fueron a La Haya por un río… y terminaron de acuerdo
 
-- **Archivo:** `2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450207994
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-08-frontera-chile-y-bolivia-fueron-a-la-haya.mp4`
 - **Programar para:** 2026-11-09 18:00 (America/Santiago)
+- **Id:** `2026-11-08-frontera-chile-y-bolivia-fueron-a-la-haya` · **Plantilla:** frontera · **Duración:** 02:11 · **Categoría:** Entretenimiento
+
+**Título:**
+```
+Chile y Bolivia fueron a La Haya por un río… y terminaron de acuerdo
+```
+
+**Descripción:**
+```
+Un hilo de agua en el altiplano llevó a Chile y Bolivia a la Corte Internacional de Justicia durante más de seis años. Bolivia hablaba de manantiales desviados por canales de 1928; Chile, de un río internacional. Durante el juicio, Bolivia aceptó que el Silala es un curso de agua internacional y Chile aceptó que Bolivia manda sobre los canales de su territorio. En diciembre de 2022, la Corte concluyó que casi todo lo pedido ya no tenía objeto.
+
+Fuentes:
+- Corte Internacional de Justicia, Silala (Chile c. Bolivia): https://www.icj-cij.org/case/162
+- CIJ, resumen de la sentencia: https://www.icj-cij.org/node/106285
+- Wikipedia: Silala River: https://en.wikipedia.org/wiki/Silala_River
+
+Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
+
+#shorts #geografia #mapas #fronteras #chile #bolivia
+```
+
+**Hashtags:**
+```
+#shorts #geografia #mapas #fronteras #chile #bolivia
+```
+
+**Etiquetas** (campo "Etiquetas" de Studio):
+```
+shorts, geografia, mapas, fronteras, chile, bolivia
+```
+
+## 2. ¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?
+
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km.mp4`
+- **Programar para:** 2026-11-10 12:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km` · **Plantilla:** frontera · **Duración:** 02:03 · **Categoría:** Entretenimiento
 
 **Título:**
@@ -47,10 +82,10 @@ Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y N
 shorts, geografia, mapas, fronteras, historia, alaska
 ```
 
-## 2. ¿Por qué México recuperó tierra de Texas moviendo un río?
+## 3. ¿Por qué México recuperó tierra de Texas moviendo un río?
 
-- **Archivo:** `2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42455120762
-- **Programar para:** 2026-11-10 12:00 (America/Santiago)
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas.mp4`
+- **Programar para:** 2026-11-10 18:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas` · **Plantilla:** frontera · **Duración:** 02:17 · **Categoría:** Entretenimiento
 
 **Título:**
@@ -84,10 +119,10 @@ Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y N
 shorts, geografia, mapas, fronteras, historia, mexico
 ```
 
-## 3. ¿Por qué un francés firmó el tratado que partió a Panamá en dos?
+## 4. ¿Por qué un francés firmó el tratado que partió a Panamá en dos?
 
-- **Archivo:** `2026-11-08-frontera-por-que-un-frances-firmo-el-tratado.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42452951795
-- **Programar para:** 2026-11-10 18:00 (America/Santiago)
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-08-frontera-por-que-un-frances-firmo-el-tratado.mp4`
+- **Programar para:** 2026-11-11 12:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-por-que-un-frances-firmo-el-tratado` · **Plantilla:** frontera · **Duración:** 02:15 · **Categoría:** Entretenimiento
 
 **Título:**
@@ -120,10 +155,10 @@ Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y N
 shorts, geografia, mapas, fronteras, historia, panama
 ```
 
-## 4. Soldados entraron a un país sin ejército y culparon a Google Maps
+## 5. Soldados entraron a un país sin ejército y culparon a Google Maps
 
-- **Archivo:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450196589
-- **Programar para:** 2026-11-11 12:00 (America/Santiago)
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.mp4`
+- **Programar para:** 2026-11-11 18:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito` · **Plantilla:** frontera · **Duración:** 02:24 · **Categoría:** Entretenimiento
 
 **Título:**
@@ -159,41 +194,70 @@ shorts, geografia, mapas, fronteras, costarica, nicaragua
 
 # Videos largos (compilaciones)
 
-## 1. 5 fronteras raras, explicadas sobre el mapa | Línea Punteada
+## 1. Caminó 28 años para volver a casa. ¿Qué lo frenó?
 
-- **Archivo:** `2026-11-07-compilacion.mp4` dentro del artifact (sin dato: búscalo en los runs de Actions)
-- **Programar para:** 2026-11-08 10:00 (America/Santiago)
-- **Id:** `2026-11-07-compilacion` · **Plantilla:** compilación (video largo) · **Duración:** 11:27 · **Categoría:** Entretenimiento
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-08-largo-bushby.mp4`
+- **Programar para:** 2026-11-08 19:00 (America/Santiago)
+- **Id:** `2026-11-08-largo-bushby` · **Plantilla:** compilación (video largo) · **Duración:** 08:45 · **Categoría:** Entretenimiento
+- **Miniatura:** `/home/santiago/projects/yt/linea-punteada/salida/caratulas/bushby-serie-2.png`
 
 **Título:**
 ```
-5 fronteras raras, explicadas sobre el mapa | Línea Punteada
+Caminó 28 años para volver a casa. ¿Qué lo frenó?
 ```
 
 **Descripción:**
 ```
-Recopilación de Línea Punteada: 5 historias de geografía seguidas, cada una con su mapa.
+¿Por qué un hombre tardó 28 años en volver caminando de Punta Arenas a su casa en Inglaterra?
+
+Karl Bushby salió de Punta Arenas el 1 de noviembre de 1998 con un carrito y una regla: ningún vehículo podía hacerlo avanzar. Cruzó el Tapón del Darién, caminó sobre el estrecho de Bering congelado y llegó a Rusia en 2006. Ahí empezó lo difícil.
+
+Visas de 90 días, una deportación anulada, un veto de cinco años, una pandemia y dos mares que cruzó a nado: el Caspio y el canal de la Mancha. El 2 de noviembre de 2026 llegó a la casa de su madre en Hull. Unos 50.000 km en 28 años, de los que caminó unos quince.
 
 Capítulos:
-00:00 La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena
-02:13 Chile y Argentina pelearon un lago por una frase escrita en 1902
-04:42 ¿Por qué hay una isla argentina a solo 3,5 km de Uruguay?
-06:56 ¿Por qué en esta plaza cambias de país sin mostrar un solo papel?
-09:03 Chile y Argentina tienen un tramo de frontera que todavía no existe
+0:00 Introducción
+0:17 Por qué empezó en Punta Arenas
+1:34 El Tapón del Darién
+2:47 Bering: el mar congelado
+3:49 Rusia le cerró la puerta
+5:23 Sin salida en Asia central
+6:30 Dos mares a nado hasta Hull
 
-Las fuentes de cada historia están en la descripción de su Short.
-Mapas propios con datos de Natural Earth, NASA, Wikimedia Commons y geoBoundaries. Voz sintetizada (contenido sintético). Música propia.
-Suscríbete: hay dos historias nuevas cada día.
+Fuentes:
+- AP: Karl Bushby vuelve a Hull tras 28 años y 31.000 millas (2026-11-02): https://www.ajc.com/news/2026/11/karl-bushby-returns-home-to-northern-england-after-a-28-year-31000-mile-walk-around-the-world/
+- PA / Irish Examiner: llegada a Hull (2026-11-02): https://www.irishexaminer.com/world/arid-41932203.html
+- AFP / The Standard: el último obstáculo, el canal (2026-09-25): https://www.thestandard.com.hk/world/article/343869/After-50000-km-British-round-the-world-walker-faces-final-hurdle
+- ExplorersWeb: el último tramo de la caminata (2025-04-28): https://explorersweb.com/karl-bushby-begins-home-stretch-of-27-year-round-the-world-walk/
+- ExplorersWeb: el cruce del Caspio a nado (2024-10-19): https://explorersweb.com/karl-bushby-and-angela-maxwell-swim-across-the-caspian-sea/
+- Los Angeles Times: detenidos tras cruzar Bering (2006-04-05): https://www.spokesman.com/stories/2006/apr/05/adventurers-held-by-russians-after-crossing/
+- Seattle Times: el tribunal ruso ordena deportarlos (2006-04-15): https://archive.seattletimes.com/archive/20060415/deport15m/world-trek-threatened-by-russian-court-order
+- Wikipedia: Karl Bushby (cronología, fuente secundaria): https://en.wikipedia.org/wiki/Karl_Bushby
 
-#lineapunteada #geografia #mapas #historia #fronteras
+Mapa: NASA Blue Marble Next Generation · GIBS; Sentinel-2 cloudless – s2maps.eu by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016), CC BY 4.0; vectores de Natural Earth (dominio público). Mapa propio; ruta y distancias aproximadas (grandes círculos entre puntos).
+
+Imágenes: Wikimedia Commons
+- Punta Arenas con vista al estrecho de Magallanes · Nampolitis · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Punta_Arenas_con_vista_al_estrecho_de_Magallanes.jpg
+- Jungle path in the Darién Gap · Päivi & Santeri · Public domain · https://commons.wikimedia.org/wiki/File:Jungle_path_in_the_Dari%C3%A9n_Gap.jpg
+- Spring Ice Chokes the Bering Strait (657) · George Riggs, NASA GSFC · Public domain · https://commons.wikimedia.org/wiki/File:Spring_Ice_Chokes_the_Bering_Strait_(657).jpg
+- Camels in Gobi Desert 01 · Bernard Gagnon · CC0 · https://commons.wikimedia.org/wiki/File:Camels_in_Gobi_Desert_01.jpg
+- Caspian sea-Baku · Saidaa444 · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Caspian_sea-Baku.jpg
+- Shakespeare beach - geograph.org.uk - 5459173 · Tim Glover · CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0) · https://commons.wikimedia.org/wiki/File:Shakespeare_beach_-_geograph.org.uk_-_5459173.jpg
+- Karl Bushby Homecoming House, Kingston upon Hull Nov26 · Hullian111 · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Karl_Bushby_Homecoming_House,_Kingston_upon_Hull_Nov26.jpg
+- Karl Bushby Homecoming The Beast, Kingston upon Hull Nov26 · Hullian111 · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Karl_Bushby_Homecoming_The_Beast,_Kingston_upon_Hull_Nov26.jpg
+- Uelen 1 2013-08-02 · Ansgar Walk · CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) · https://commons.wikimedia.org/wiki/File:Uelen_1_2013-08-02.jpg
+- Hull City Hall Apr23 · Hullian111 · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Hull_City_Hall_Apr23.jpg
+
+Voz sintetizada (contenido sintético). Música y efectos: composición propia.
+
+#geografia #mapas #historia #KarlBushby #PuntaArenas
 ```
 
 **Hashtags:**
 ```
-#lineapunteada #geografia #mapas #historia #fronteras
+#geografia #mapas #historia #KarlBushby #PuntaArenas
 ```
 
 **Etiquetas** (campo "Etiquetas" de Studio):
 ```
-lineapunteada, geografia, mapas, historia, fronteras
+geografia, mapas, historia, KarlBushby, PuntaArenas
 ```

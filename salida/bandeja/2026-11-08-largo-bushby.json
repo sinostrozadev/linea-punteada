@@ -11,7 +11,7 @@
     "#PuntaArenas"
   ],
   "duracionSeg": 524.7,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "largo",
   "capitulos": [
     {
@@ -50,5 +50,11 @@
       "marca": "6:30"
     }
   ],
-  "miniatura": "salida/caratulas/bushby-serie-2.png"
+  "miniatura": "salida/caratulas/bushby-serie-2.png",
+  "publicarEn": "2026-11-08T19:00:00-03:00",
+  "videoId": "RMjYx4IUpjE",
+  "url": "https://www.youtube.com/watch?v=RMjYx4IUpjE",
+  "programado": "2026-11-08 19:00",
+  "subidoEn": "2026-11-08T12:07:59.707Z",
+  "notaMiniatura": "miniatura enviada pero sin vista previa visible: revisarla en Studio"
 }

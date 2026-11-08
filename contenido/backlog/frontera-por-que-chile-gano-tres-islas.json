@@ -1,0 +1,909 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-chile-gano-tres-islas",
+  "titulo": "¿Por qué Chile ganó tres islas y Argentina se quedó con el mar?",
+  "descripcion": "Tres islas al final del canal Beagle, Picton, Lennox y Nueva, casi llevan a Chile y Argentina a la guerra en diciembre de 1978. El tratado de 1881 daba a Chile las islas al sur del Beagle, pero no decía dónde termina el canal. En un arbitraje pedido a la corona británica, un tribunal de cinco jueces de la Corte Internacional de Justicia se las dio a Chile en 1977. Argentina declaró nulo el laudo en 1978. La mediación de Juan Pablo II, con el cardenal Antonio Samoré, terminó en el Tratado de Paz y Amistad de 1984: las islas para Chile y casi todo el mar al este para Argentina.\n\nFuentes:\n- Laudo del Canal Beagle (1977), Reports of International Arbitral Awards, Naciones Unidas: https://legal.un.org/riaa/\n- Conflicto del Beagle: https://es.wikipedia.org/wiki/Conflicto_del_Beagle\n- Tratado de Paz y Amistad de 1984 entre Chile y Argentina: https://es.wikipedia.org/wiki/Tratado_de_Paz_y_Amistad_de_1984_entre_Chile_y_Argentina\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile",
+    "#argentina"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-chile-gano-tres-islas",
+    "cabecera": "CANAL BEAGLE — TRES ISLAS Y UN MAR",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ CHILE GANÓ LAS ISLAS Y NO EL MAR?",
+      "clave": "MAR",
+      "paises": [
+        "Chile",
+        "Argentina"
+      ],
+      "centro": [
+        -68.5,
+        -52.5
+      ],
+      "zoom": 4.6,
+      "pines": [
+        {
+          "lon": -66.9,
+          "lat": -55.15,
+          "texto": "LAS TRES ISLAS"
+        }
+      ],
+      "icono": "🏝️"
+    },
+    "gancho": {
+      "texto": "Mira el canal Beagle, en el fin del mundo. Tres islitas al final del canal casi llevan a Chile y Argentina a la guerra en 1978. ¿Por qué tres islas?",
+      "rotulo": "TRES ISLAS",
+      "planos": [
+        {
+          "centro": [
+            -67.7,
+            -54.9
+          ],
+          "zoom": 7.8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -66.85,
+            -55.15
+          ],
+          "zoom": 9.2,
+          "entrada": "zoom",
+          "en": "islitas",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -68.5,
+            -53.5
+          ],
+          "zoom": 5.8,
+          "entrada": "zoom",
+          "en": "Chile",
+          "deriva": 0.3
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -67.9,
+          "lat": -54.87,
+          "texto": "CANAL BEAGLE",
+          "tipo": "mar",
+          "aparecerEn": "Beagle",
+          "desaparecerEn": "islitas"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "etiqueta": "CHILE",
+          "etiquetaEn": [
+            -71.5,
+            -52.5
+          ],
+          "aparecerEn": "Chile"
+        },
+        {
+          "pais": "Argentina",
+          "color": "verde",
+          "etiqueta": "ARGENTINA",
+          "etiquetaEn": [
+            -68.5,
+            -50.5
+          ],
+          "aparecerEn": "Argentina"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -67.9,
+          "lat": -53.2,
+          "icono": "guerra",
+          "escala": 1.2,
+          "aparecerEn": "guerra"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "1978",
+          "sub": "CASI UNA GUERRA",
+          "aparecerEn": "1978",
+          "duracionSeg": 2.4
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "Beagle",
+        "islitas",
+        "guerra",
+        "1978"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que fue puro orgullo, una pelea por tres islas donde casi no vive nadie. La verdad es más rara.",
+        "rotulo": {
+          "texto": "PURO ORGULLO",
+          "dice": "orgullo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.85,
+              -55.15
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.1,
+              -55.3
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -66.95,
+            "lat": -55.05,
+            "icono": "isla",
+            "escala": 0.8,
+            "aparecerEn": "islas",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -66.85,
+            "lat": -55.3,
+            "icono": "isla",
+            "escala": 0.8,
+            "aparecerEn": "islas",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -66.55,
+            "lat": -55.23,
+            "icono": "isla",
+            "escala": 0.8,
+            "aparecerEn": "islas",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "orgullo",
+          "islas",
+          "nadie",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un canal mal definido, un fallo y un Papa. Y al final, quien ganó las islas perdió otra cosa.",
+        "rotulo": {
+          "texto": "CANAL, FALLO, PAPA",
+          "dice": "Papa"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.1,
+              -55.25
+            ],
+            "zoom": 8.3,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.6,
+              -55.5
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🌊",
+            "texto": "CANAL",
+            "dice": "canal"
+          },
+          {
+            "icono": "tribunal",
+            "texto": "FALLO",
+            "dice": "fallo"
+          },
+          {
+            "icono": "🕊️",
+            "texto": "PAPA",
+            "dice": "Papa"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "canal",
+          "fallo",
+          "Papa",
+          "perdió"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el canal. El tratado de límites de 1881 dice que las islas al sur del Beagle son chilenas. Pero no dice por dónde termina el canal. Chile lo ve seguir derecho al este, al norte de Picton, Lennox y Nueva. Argentina lo ve doblar al sur, y las deja de su lado.",
+        "rotulo": {
+          "texto": "1881",
+          "dice": "1881"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68,
+              -54.9
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67,
+              -55.08
+            ],
+            "zoom": 9.2,
+            "entrada": "paneo",
+            "en": "termina",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.05,
+              -55.2
+            ],
+            "zoom": 9.2,
+            "entrada": "corte",
+            "en": "Argentina",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1881",
+            "sub": "TRATADO DE LÍMITES",
+            "icono": "tratado",
+            "aparecerEn": "1881",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68,
+            "lat": -54.87,
+            "texto": "CANAL BEAGLE",
+            "tipo": "mar",
+            "aparecerEn": "Beagle",
+            "desaparecerEn": "termina"
+          },
+          {
+            "lon": -66.95,
+            "lat": -55.05,
+            "texto": "PICTON",
+            "tipo": "pin",
+            "aparecerEn": "Picton",
+            "quedarse": 3
+          },
+          {
+            "lon": -66.85,
+            "lat": -55.3,
+            "texto": "LENNOX",
+            "tipo": "pin",
+            "aparecerEn": "Lennox",
+            "quedarse": 3
+          },
+          {
+            "lon": -66.55,
+            "lat": -55.23,
+            "texto": "NUEVA",
+            "tipo": "pin",
+            "aparecerEn": "Nueva",
+            "quedarse": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -67.4,
+            "lat": -54.95,
+            "icono": "🔍",
+            "escala": 0.9,
+            "aparecerEn": "termina",
+            "desaparecerEn": "Chile"
+          }
+        ],
+        "contexto": {
+          "texto": "¿DÓNDE TERMINA?",
+          "dice": "termina"
+        },
+        "clave": [
+          "1881",
+          "Beagle",
+          "Chile",
+          "Argentina"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el fallo. En 1971 los dos gobiernos le piden un arbitraje a la corona británica. Lo resuelven cinco jueces de la Corte Internacional de Justicia. Según el laudo de 1977, publicado por Naciones Unidas, las tres islas son chilenas. En enero de 1978, Argentina lo declara nulo.",
+        "rotulo": {
+          "texto": "NULO",
+          "dice": "nulo"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -67,
+              -55.2
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.8,
+              -55.2
+            ],
+            "zoom": 9.2,
+            "entrada": "paneo",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.85,
+              -55.18
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "en": "enero",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "5 JUECES",
+            "sub": "CORTE INTERNACIONAL DE JUSTICIA",
+            "icono": "tribunal",
+            "aparecerEn": "cinco",
+            "duracionSeg": 2.8
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -67.12,
+                -54.98
+              ],
+              [
+                -66.4,
+                -55.1
+              ],
+              [
+                -66.4,
+                -55.42
+              ],
+              [
+                -67,
+                -55.42
+              ],
+              [
+                -67.12,
+                -55.15
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "LAS TRES ISLAS",
+            "etiquetaEn": [
+              -66.75,
+              -55.15
+            ],
+            "aparecerEn": "chilenas"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -66.6,
+            "lat": -55,
+            "icono": "📄",
+            "escala": 1,
+            "aparecerEn": "laudo"
+          },
+          {
+            "lon": -66.6,
+            "lat": -55,
+            "icono": "📄",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "nulo"
+          }
+        ],
+        "fuente": {
+          "texto": "Laudo del Canal Beagle · 1977 · RIAA (ONU)",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "EL LAUDO",
+          "dice": "laudo"
+        },
+        "clave": [
+          "1971",
+          "cinco",
+          "1977",
+          "chilenas",
+          "nulo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el Papa. En diciembre de 1978 hay tropas desplegadas a los dos lados de la frontera. El 22 de diciembre, con una operación militar argentina en marcha, Juan Pablo II ofrece enviar un mediador: el cardenal Antonio Samoré. La operación se detiene ese mismo día.",
+        "rotulo": {
+          "texto": "MEDIADOR",
+          "dice": "mediador"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.5,
+              -52
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68,
+              -53.5
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "operación",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.1,
+              -55.1
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "detiene",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.5,
+            "lat": -52.5,
+            "icono": "guerra",
+            "escala": 1,
+            "aparecerEn": "tropas",
+            "desaparecerEn": "detiene"
+          },
+          {
+            "lon": -67.5,
+            "lat": -53,
+            "icono": "guerra",
+            "escala": 1,
+            "aparecerEn": "tropas",
+            "desaparecerEn": "detiene"
+          },
+          {
+            "lon": -67.5,
+            "lat": -53,
+            "icono": "guerra",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "detiene"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "22 DIC 1978",
+            "sub": "EL PAPA OFRECE MEDIAR",
+            "aparecerEn": "22",
+            "duracionSeg": 2.8
+          }
+        ],
+        "polaroid": {
+          "buscar": "Pope John Paul II 1980",
+          "pie": "Juan Pablo II",
+          "anio": "1978",
+          "lado": "derecha",
+          "aparecerEn": "Juan",
+          "duracionSeg": 3.2
+        },
+        "contexto": {
+          "texto": "A HORAS DE LA GUERRA",
+          "dice": "marcha"
+        },
+        "clave": [
+          "diciembre",
+          "22",
+          "Juan",
+          "Samoré",
+          "detiene"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: la mediación tarda seis años. El Tratado de Paz y Amistad, firmado en el Vaticano en noviembre de 1984, le deja las tres islas a Chile. Pero traza una línea en el mar que le da a Argentina casi todo el océano al este. En una consulta, el 82 % de los argentinos votó que sí.",
+        "rotulo": {
+          "texto": "EL MAR",
+          "dice": "mar"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.9,
+              -55.25
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.6,
+              -56
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "en": "línea",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.2,
+              -56.2
+            ],
+            "zoom": 7.4,
+            "entrada": "paneo",
+            "en": "consulta",
+            "deriva": 0.2
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -66.42,
+                -55.03
+              ],
+              [
+                -64.6,
+                -54.9
+              ],
+              [
+                -64.6,
+                -57.6
+              ],
+              [
+                -67.27,
+                -58.35
+              ],
+              [
+                -66.42,
+                -56.37
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "MAR ARGENTINO",
+            "etiquetaEn": [
+              -65.4,
+              -56.4
+            ],
+            "aparecerEn": "océano",
+            "quedarse": "siempre"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "82 %",
+            "sub": "VOTÓ SÍ EN ARGENTINA · 1984",
+            "aparecerEn": "82",
+            "duracionSeg": 2.8
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "seis",
+          "1984",
+          "Chile",
+          "Argentina",
+          "océano"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Ushuaia y Puerto Williams se miran desde las dos orillas del Beagle. Los cruceros recorren el canal con Argentina en una orilla y Chile en la otra. Y en Picton, Lennox y Nueva casi no vive nadie: tres islas tranquilas que estuvieron a horas de una guerra.",
+        "rotulo": {
+          "texto": "DOS ORILLAS",
+          "dice": "orillas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.95,
+              -54.86
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.4,
+              -54.92
+            ],
+            "zoom": 8.8,
+            "entrada": "paneo",
+            "en": "cruceros",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -66.85,
+              -55.15
+            ],
+            "zoom": 9,
+            "entrada": "paneo",
+            "en": "Picton",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.3,
+            "lat": -54.8,
+            "texto": "USHUAIA",
+            "tipo": "pin",
+            "aparecerEn": "Ushuaia"
+          },
+          {
+            "lon": -67.61,
+            "lat": -54.93,
+            "texto": "PUERTO WILLIAMS",
+            "tipo": "pin",
+            "aparecerEn": "Williams"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.3,
+            "lat": -54.86,
+            "icono": "barco",
+            "ruta": [
+              [
+                -68.3,
+                -54.86
+              ],
+              [
+                -67.9,
+                -54.88
+              ],
+              [
+                -67.4,
+                -54.92
+              ],
+              [
+                -67.1,
+                -54.95
+              ]
+            ],
+            "duracionSeg": 4,
+            "escala": 0.9,
+            "aparecerEn": "cruceros",
+            "desaparecerEn": "Picton"
+          }
+        ],
+        "foto": {
+          "buscar": "Puerto Williams Chile",
+          "pie": "PUERTO WILLIAMS · CANAL BEAGLE",
+          "aparecerEn": "Puerto",
+          "duracionSeg": 2.4
+        },
+        "contexto": {
+          "texto": "A HORAS DE UNA GUERRA",
+          "dice": "horas"
+        },
+        "clave": [
+          "Ushuaia",
+          "Williams",
+          "cruceros",
+          "nadie",
+          "guerra"
+        ]
+      }
+    ],
+    "remate": "Chile se quedó con las islas. Argentina se quedó con el mar.",
+    "remateEtiquetas": [
+      {
+        "lon": -66.9,
+        "lat": -55.15,
+        "texto": "CHILE: LAS ISLAS"
+      },
+      {
+        "lon": -65.4,
+        "lat": -56,
+        "texto": "ARGENTINA: EL MAR"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -66.5,
+          -55.6
+        ],
+        "zoom": 7.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Laudo arbitral del Canal Beagle (18-02-1977), Reports of International Arbitral Awards, vol. XXI (Naciones Unidas)",
+        "url": "https://legal.un.org/riaa/"
+      },
+      {
+        "texto": "Wikipedia: Conflicto del Beagle",
+        "url": "https://es.wikipedia.org/wiki/Conflicto_del_Beagle"
+      },
+      {
+        "texto": "Wikipedia: Tratado de Paz y Amistad de 1984 entre Chile y Argentina",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Paz_y_Amistad_de_1984_entre_Chile_y_Argentina"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -67.2,
+        -55.1
+      ],
+      "zoomInicial": 7.6,
+      "zoomFinal": 8.6,
+      "lineas": [
+        {
+          "id": "segun-chile",
+          "puntos": [
+            [
+              -68.3,
+              -54.87
+            ],
+            [
+              -67.6,
+              -54.9
+            ],
+            [
+              -67.1,
+              -54.93
+            ],
+            [
+              -66.7,
+              -54.97
+            ],
+            [
+              -66.2,
+              -55
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Chile",
+          "etiqueta": "SEGÚN CHILE"
+        },
+        {
+          "id": "segun-argentina",
+          "puntos": [
+            [
+              -68.3,
+              -54.87
+            ],
+            [
+              -67.6,
+              -54.9
+            ],
+            [
+              -67.2,
+              -54.93
+            ],
+            [
+              -67.12,
+              -55.05
+            ],
+            [
+              -67.08,
+              -55.25
+            ],
+            [
+              -67,
+              -55.45
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Argentina",
+          "etiqueta": "SEGÚN ARGENTINA"
+        },
+        {
+          "id": "limite-1984",
+          "puntos": [
+            [
+              -67.05,
+              -54.92
+            ],
+            [
+              -66.42,
+              -55.03
+            ],
+            [
+              -66.42,
+              -56.37
+            ],
+            [
+              -67.27,
+              -58.35
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 5,
+          "dice": "línea",
+          "etiqueta": "LÍMITE DE 1984"
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": -68.3,
+          "lat": -54.8,
+          "etiqueta": "USHUAIA",
+          "aparecerEn": -1
+        },
+        {
+          "lon": -67.61,
+          "lat": -54.93,
+          "etiqueta": "PUERTO WILLIAMS",
+          "aparecerEn": -1
+        }
+      ]
+    }
+  }
+}

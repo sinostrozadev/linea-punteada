@@ -1,0 +1,880 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-paraguay-y-brasil-hundieron",
+  "titulo": "¿Por qué Paraguay y Brasil hundieron la frontera que se disputaban?",
+  "descripcion": "En el río Paraná, donde Paraguay toca a Brasil, había unos saltos gigantes y un pedazo de frontera que cada país leía a su manera. El tratado de límites de 1872 llevaba la línea por el Paraná hasta los Saltos del Guairá y desde ahí por la sierra de Maracayú. Paraguay sostuvo que le correspondía parte de los saltos y Brasil sostuvo que no. En 1966 el Acta de Foz de Iguazú dejó la tierra de lado y repartió la energía del río mitad y mitad. En 1982 el embalse de Itaipú cubrió los saltos, y el artículo VII del Tratado de Itaipú dice que la represa no cambia los límites vigentes.\n\nFuentes:\n- Tratado de Itaipú (1973): https://es.wikipedia.org/wiki/Tratado_de_Itaip%C3%BA\n- Acta de Foz de Iguazú (1966): https://es.wikipedia.org/wiki/Acta_de_Foz_de_Iguaz%C3%BA\n- Saltos del Guairá: https://es.wikipedia.org/wiki/Saltos_del_Guair%C3%A1\n- Itaipu Binacional: https://www.itaipu.gov.br/es\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#paraguay",
+    "#brasil"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-paraguay-y-brasil-hundieron",
+    "cabecera": "GUAIRÁ — LA FRONTERA BAJO EL AGUA",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DÓNDE QUEDÓ ESTA FRONTERA?",
+      "clave": "FRONTERA",
+      "paises": [
+        "Paraguay",
+        "Brazil"
+      ],
+      "centro": [
+        -55.5,
+        -24.5
+      ],
+      "zoom": 5.4,
+      "pines": [
+        {
+          "lon": -54.27,
+          "lat": -24.07,
+          "texto": "SALTOS DEL GUAIRÁ"
+        }
+      ],
+      "icono": "🌊"
+    },
+    "gancho": {
+      "texto": "Mira el río Paraná, donde Paraguay toca a Brasil. Aquí había una frontera en disputa y unos saltos gigantes. Hoy no queda ninguna de las dos cosas. ¿Dónde quedaron?",
+      "rotulo": "NO QUEDA NADA",
+      "planos": [
+        {
+          "centro": [
+            -54.4,
+            -24.8
+          ],
+          "zoom": 7.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -54.27,
+            -24.07
+          ],
+          "zoom": 10.4,
+          "entrada": "zoom",
+          "en": "Aquí",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -54.27,
+            -24.07
+          ],
+          "zoom": 10.8,
+          "entrada": "corte",
+          "en": "Hoy",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Paraguay",
+          "color": "rojo",
+          "etiqueta": "PARAGUAY",
+          "etiquetaEn": [
+            -55.3,
+            -24.6
+          ],
+          "aparecerEn": "Paraguay",
+          "desaparecerEn": "Aquí"
+        },
+        {
+          "pais": "Brazil",
+          "color": "verde",
+          "etiqueta": "BRASIL",
+          "etiquetaEn": [
+            -53.6,
+            -24.9
+          ],
+          "aparecerEn": "Brasil",
+          "desaparecerEn": "Aquí"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -54.42,
+          "lat": -25,
+          "texto": "RÍO PARANÁ",
+          "tipo": "rio",
+          "rotacion": -70,
+          "aparecerEn": "Paraná",
+          "desaparecerEn": "Aquí"
+        },
+        {
+          "lon": -54.27,
+          "lat": -24.07,
+          "texto": "SALTOS DEL GUAIRÁ",
+          "tipo": "pin",
+          "aparecerEn": "saltos",
+          "desaparecerEn": "Hoy"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -54.27,
+          "lat": -24.1,
+          "icono": "🌊",
+          "escala": 1,
+          "aparecerEn": "saltos",
+          "desaparecerEn": "Hoy"
+        },
+        {
+          "lon": -54.27,
+          "lat": -24.1,
+          "icono": "🌊",
+          "escala": 1,
+          "tachado": true,
+          "aparecerEn": "ninguna"
+        }
+      ],
+      "contexto": {
+        "texto": "¿DÓNDE QUEDARON?",
+        "dice": "quedaron"
+      },
+      "clave": [
+        "Paraná",
+        "Paraguay",
+        "Brasil",
+        "frontera",
+        "saltos"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Brasil, el vecino gigante, se quedó con los saltos a la fuerza. La verdad es más rara.",
+        "rotulo": {
+          "texto": "A LA FUERZA",
+          "dice": "fuerza"
+        },
+        "planos": [
+          {
+            "centro": [
+              -54.27,
+              -24.07
+            ],
+            "zoom": 11,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.35,
+              -24.3
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -54.2,
+            "lat": -24.05,
+            "icono": "guerra",
+            "escala": 1,
+            "aparecerEn": "fuerza",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "Brasil",
+          "gigante",
+          "fuerza",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un tratado, un acta y una represa. Y al final, una frase que nadie esperaba.",
+        "rotulo": {
+          "texto": "TRATADO, ACTA, REPRESA",
+          "dice": "represa"
+        },
+        "planos": [
+          {
+            "centro": [
+              -54.4,
+              -24.8
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.4,
+              -24.8
+            ],
+            "zoom": 8.2,
+            "entrada": "corte",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "📝",
+            "texto": "ACTA",
+            "dice": "acta"
+          },
+          {
+            "icono": "⚡",
+            "texto": "REPRESA",
+            "dice": "represa"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "tratado",
+          "acta",
+          "represa",
+          "frase"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el tratado. En 1872, tras la guerra de la Triple Alianza, Paraguay y Brasil fijan sus límites: el río Paraná hasta los Saltos del Guairá, y desde ahí, la sierra de Maracayú. Paraguay dice que esa línea le dejaba parte de los saltos. Brasil dice que no. En 1965 llegan soldados brasileños a la zona.",
+        "rotulo": {
+          "texto": "1872",
+          "dice": "1872"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57.5,
+              -25.5
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.6,
+              -24.5
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "en": "Paraná",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.28,
+              -24.06
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "dice",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.28,
+              -24.06
+            ],
+            "zoom": 11,
+            "entrada": "corte",
+            "en": "1965",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1872",
+            "sub": "TRATADO DE LÍMITES",
+            "icono": "tratado",
+            "aparecerEn": "1872",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.2,
+            "lat": -24,
+            "texto": "PARAGUAY",
+            "tipo": "pais",
+            "aparecerEn": "Paraguay",
+            "desaparecerEn": "Paraná"
+          },
+          {
+            "lon": -52.5,
+            "lat": -23,
+            "texto": "BRASIL",
+            "tipo": "pais",
+            "aparecerEn": "Brasil",
+            "desaparecerEn": "Paraná"
+          },
+          {
+            "lon": -55,
+            "lat": -23.75,
+            "texto": "SIERRA DE MARACAYÚ",
+            "tipo": "region",
+            "aparecerEn": "Maracayú",
+            "desaparecerEn": "dice"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -54.33,
+                -24.02
+              ],
+              [
+                -54.22,
+                -24.02
+              ],
+              [
+                -54.22,
+                -24.1
+              ],
+              [
+                -54.33,
+                -24.1
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "ZONA EN DISPUTA",
+            "aparecerEn": "dice"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -54.24,
+            "lat": -24.04,
+            "icono": "bandera",
+            "escala": 0.9,
+            "aparecerEn": "soldados"
+          }
+        ],
+        "contexto": {
+          "texto": "DOS LECTURAS",
+          "dice": "dice"
+        },
+        "clave": [
+          "1872",
+          "Paraná",
+          "Guairá",
+          "Maracayú",
+          "1965"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el acta. El 22 de junio de 1966 los cancilleres de los dos países firman el Acta de Foz de Iguazú. No dicen de quién es la tierra. Dicen otra cosa: la energía del río, desde los saltos hasta el Iguazú, se va a repartir mitad y mitad.",
+        "rotulo": {
+          "texto": "MITAD Y MITAD",
+          "dice": "mitad"
+        },
+        "planos": [
+          {
+            "centro": [
+              -54.58,
+              -25.54
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.58,
+              -25.54
+            ],
+            "zoom": 10.6,
+            "entrada": "corte",
+            "en": "Foz",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.4,
+              -24.8
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "energía",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -54.58,
+            "lat": -25.54,
+            "texto": "FOZ DE IGUAZÚ",
+            "tipo": "pin",
+            "aparecerEn": "Foz",
+            "desaparecerEn": "energía"
+          },
+          {
+            "lon": -54.27,
+            "lat": -24.07,
+            "texto": "LOS SALTOS",
+            "tipo": "pin",
+            "aparecerEn": "saltos"
+          },
+          {
+            "lon": -54.59,
+            "lat": -25.59,
+            "texto": "RÍO IGUAZÚ",
+            "tipo": "pin",
+            "aparecerEn": "Iguazú#2"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "MITAD Y MITAD",
+            "sub": "LA ENERGÍA DEL RÍO",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "PARAGUAY",
+                "valor": 50
+              },
+              {
+                "etiqueta": "BRASIL",
+                "valor": 50
+              }
+            ],
+            "aparecerEn": "mitad",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "22 DE JUNIO DE 1966",
+          "dice": "1966"
+        },
+        "clave": [
+          "1966",
+          "Acta",
+          "tierra",
+          "energía",
+          "mitad"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la represa. En 1973 Stroessner y Médici firman el Tratado de Itaipú. La represa se cierra en octubre de 1982, y en unas dos semanas el agua sube y cubre los saltos. Uno de los saltos con más agua del planeta desaparece bajo un embalse de unos 170 kilómetros.",
+        "rotulo": {
+          "texto": "1982",
+          "dice": "1982"
+        },
+        "planos": [
+          {
+            "centro": [
+              -54.589,
+              -25.409
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.589,
+              -25.409
+            ],
+            "zoom": 11.6,
+            "entrada": "corte",
+            "en": "octubre",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.27,
+              -24.07
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "cubre",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.42,
+              -24.75
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "embalse",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Itaipu Dam aerial",
+          "pie": "Represa de Itaipú, en el río Paraná",
+          "anio": "1982",
+          "lado": "derecha",
+          "aparecerEn": "Itaipú",
+          "duracionSeg": 3.2
+        },
+        "foto": {
+          "buscar": "Sete Quedas waterfall Guaíra",
+          "pie": "SALTOS DEL GUAIRÁ · ANTES DE 1982",
+          "aparecerEn": "planeta",
+          "duracionSeg": 2.6
+        },
+        "etiquetas": [
+          {
+            "lon": -54.589,
+            "lat": -25.409,
+            "texto": "ITAIPÚ",
+            "tipo": "pin",
+            "aparecerEn": "Itaipú",
+            "quedarse": "siempre"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -54.589,
+              -25.409
+            ],
+            "hasta": [
+              -54.27,
+              -24.07
+            ],
+            "texto": "170 KM",
+            "aparecerEn": "170",
+            "quedarse": 1
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 SEMANAS",
+            "sub": "LO QUE TARDÓ EN LLENARSE",
+            "aparecerEn": "semanas",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "OCTUBRE DE 1982",
+          "dice": "octubre"
+        },
+        "clave": [
+          "1973",
+          "Itaipú",
+          "1982",
+          "saltos",
+          "170"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: según el artículo siete del Tratado de Itaipú, la represa no cambia en nada los límites de los tratados vigentes. Nadie cedió la zona en disputa. Nadie la ganó. Se inundó, y su energía se reparte entre los dos.",
+        "rotulo": {
+          "texto": "SE INUNDÓ",
+          "dice": "inundó"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -54.42,
+              -24.75
+            ],
+            "zoom": 8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.42,
+              -24.75
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "en": "represa",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.28,
+              -24.07
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "Nadie",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.28,
+              -24.07
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "en": "inundó",
+            "deriva": 0.3
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Itaipú (1973) · artículo VII",
+          "dice": "según"
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                -54.33,
+                -24.02
+              ],
+              [
+                -54.22,
+                -24.02
+              ],
+              [
+                -54.22,
+                -24.1
+              ],
+              [
+                -54.33,
+                -24.1
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "ZONA EN DISPUTA",
+            "aparecerEn": "Nadie",
+            "desaparecerEn": "inundó"
+          },
+          {
+            "poligono": [
+              [
+                -54.33,
+                -24.02
+              ],
+              [
+                -54.22,
+                -24.02
+              ],
+              [
+                -54.22,
+                -24.1
+              ],
+              [
+                -54.33,
+                -24.1
+              ]
+            ],
+            "color": "azul",
+            "etiqueta": "BAJO EL AGUA",
+            "aparecerEn": "inundó"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "artículo",
+          "siete",
+          "límites",
+          "cedió",
+          "inundó"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Itaipú reparte su electricidad mitad y mitad, y Paraguay le vende a Brasil la parte que no usa. Río arriba, la ciudad paraguaya de Salto del Guairá lleva el nombre de unos saltos que nadie menor de cuarenta años vio.",
+        "rotulo": {
+          "texto": "SIN SALTO",
+          "dice": "Salto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -54.589,
+              -25.409
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.31,
+              -24.06
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "en": "Río",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -54.31,
+              -24.06
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "en": "nadie",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -54.5,
+            "lat": -25.35,
+            "icono": "⚡",
+            "ruta": [
+              [
+                -54.55,
+                -25.4
+              ],
+              [
+                -54.2,
+                -25.2
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 0.9,
+            "aparecerEn": "vende",
+            "desaparecerEn": "Río"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -54.31,
+            "lat": -24.06,
+            "texto": "SALTO DEL GUAIRÁ",
+            "tipo": "pin",
+            "aparecerEn": "Salto"
+          }
+        ],
+        "contexto": {
+          "texto": "SALTO SIN SALTO",
+          "dice": "nadie"
+        },
+        "clave": [
+          "Itaipú",
+          "mitad",
+          "vende",
+          "Salto",
+          "cuarenta"
+        ]
+      }
+    ],
+    "remate": "No se pusieron de acuerdo en la tierra. Se pusieron de acuerdo en el agua.",
+    "remateEtiquetas": [
+      {
+        "lon": -54.27,
+        "lat": -24.07,
+        "texto": "LA TIERRA: SIN ACUERDO"
+      },
+      {
+        "lon": -54.45,
+        "lat": -24.9,
+        "texto": "EL AGUA: MITAD Y MITAD"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -54.4,
+          -24.75
+        ],
+        "zoom": 7.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Itaipú (26-04-1973), artículo VII",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Itaip%C3%BA"
+      },
+      {
+        "texto": "Acta de Foz de Iguazú (22-06-1966)",
+        "url": "https://es.wikipedia.org/wiki/Acta_de_Foz_de_Iguaz%C3%BA"
+      },
+      {
+        "texto": "Saltos del Guairá (sumergidos en 1982)",
+        "url": "https://es.wikipedia.org/wiki/Saltos_del_Guair%C3%A1"
+      },
+      {
+        "texto": "Itaipu Binacional",
+        "url": "https://www.itaipu.gov.br/es"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [
+        -54.4,
+        -24.8
+      ],
+      "zoomInicial": 7.6,
+      "zoomFinal": 8.4,
+      "paises": [
+        "Paraguay"
+      ],
+      "lineas": [
+        {
+          "id": "limite-1872",
+          "fronteraEntre": [
+            "Brazil",
+            "Paraguay"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "Paraná",
+          "etiqueta": "LÍMITE DE 1872"
+        },
+        {
+          "id": "embalse",
+          "puntos": [
+            [
+              -54.589,
+              -25.409
+            ],
+            [
+              -54.47,
+              -25.1
+            ],
+            [
+              -54.35,
+              -24.75
+            ],
+            [
+              -54.28,
+              -24.45
+            ],
+            [
+              -54.26,
+              -24.08
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "embalse",
+          "etiqueta": "EMBALSE"
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": -54.61,
+          "lat": -25.51,
+          "etiqueta": "CIUDAD DEL ESTE",
+          "aparecerEn": 3
+        }
+      ]
+    }
+  }
+}

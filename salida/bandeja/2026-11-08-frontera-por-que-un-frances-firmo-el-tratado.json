@@ -12,7 +12,12 @@
     "#panama"
   ],
   "duracionSeg": 134.8,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42452951795"
+  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42452951795",
+  "publicarEn": "2026-11-10T18:00:00-03:00",
+  "videoId": "sXHB8kRkrdo",
+  "url": "https://youtube.com/shorts/sXHB8kRkrdo",
+  "programado": "2026-11-10 18:00",
+  "subidoEn": "2026-11-08T12:13:24.088Z"
 }

@@ -12,7 +12,12 @@
     "#nicaragua"
   ],
   "duracionSeg": 143.6,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450196589"
+  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450196589",
+  "publicarEn": "2026-11-09T18:00:00-03:00",
+  "videoId": "N0E7clGqn4E",
+  "url": "https://youtube.com/shorts/N0E7clGqn4E",
+  "programado": "2026-11-09 18:00",
+  "subidoEn": "2026-11-08T12:10:12.267Z"
 }

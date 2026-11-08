@@ -12,7 +12,12 @@
     "#mexico"
   ],
   "duracionSeg": 136.6,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42455120762"
+  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42455120762",
+  "publicarEn": "2026-11-11T12:00:00-03:00",
+  "videoId": "yCkE5KOg-Ho",
+  "url": "https://youtube.com/shorts/yCkE5KOg-Ho",
+  "programado": "2026-11-11 12:00",
+  "subidoEn": "2026-11-08T12:15:03.095Z"
 }

@@ -32,7 +32,7 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
 | vie 11-06 | 18:00 | frontera | ¿Por qué en esta plaza cambias de país sin mostrar un solo papel? | evergreen | — | publicado ([p-0rgosOKdg](https://youtube.com/shorts/p-0rgosOKdg)) | Ñerd (Shorts de frontera 2–3 min) | audiencia UY/BR; frontera urbana (formato distinto a los anteriores) |
 | sáb 11-07 | 12:00 | frontera | Chile y Argentina tienen un tramo de frontera que todavía no existe | serie · _La línea que falta_ | — | **programado** `o3yQPPqXoQA` | Ñerd (Shorts de frontera 2–3 min) | continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07) |
 | sáb 11-07 | 18:00 | frontera | Bolivia tiene Armada… y no tiene mar | evergreen · _El mar de Bolivia_ | — | **programado** `FM9aJ326bHU` ([ver](https://youtube.com/shorts/FM9aJ326bHU)) | Ñerd (contradicciones de país) | audiencia BO/CL; contradicción en una frase (idea 14); adelantado del 11-15 porque lugar sigue sin revisión v2 |
-| dom 11-08 | 19:00 | **largo** 16:9 | Caminó 28 años para volver a casa. ¿Qué lo frenó? | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull) ([2026-11-02](https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html)) | listo (render hecho 03:58, 8:44, 6 capítulos; subir 19:00) | GeoGlobeTales (Bushby, 61 M) | primer largo nativo 16:9 (ruta B 4.000 h; mid-rolls ~3:57 y ~6:40) |
+| dom 11-08 | 19:00 | **largo** 16:9 | Caminó 28 años para volver a casa. ¿Qué lo frenó? | contingente · _Del estrecho al canal_ | Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull) ([2026-11-02](https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html)) | programado `RMjYx4IUpjE` | GeoGlobeTales (Bushby, 61 M) | primer largo nativo 16:9 (ruta B 4.000 h; mid-rolls ~3:57 y ~6:40) |
 | dom 11-08 | 12:00 | frontera | La guerra por un petróleo que no estaba | evergreen | — | **programado** `-c96F_ywLkM` ([ver](https://youtube.com/shorts/-c96F_ywLkM)) | Ñerd (guerras y límites) | audiencia BO/PY, línea de 1938 dibujable (idea 15); adelantado del 11-13 porque ruta sigue sin revisión v2 |
 | dom 11-08 | 18:00 | frontera | Uruguay nació de un empate | evergreen | — | **programado** `fKFCTNMk7iQ` ([ver](https://youtube.com/shorts/fKFCTNMk7iQ)) | Ñerd (origen de países) | audiencia UY/AR que ya llegó con Martín García y Rivera (idea 18); adelantado del 11-10; guion renderizado en GitHub Actions |
 
@@ -42,9 +42,9 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
 |---|---|---|---|---|---|---|---|---|
 | lun 11-09 | 12:00 | frontera | La frontera más vigilada de Europa se abrió por un papel mal leído | contingente | 37 años de la caída del Muro de Berlín (9-11-1989): Schabowski anunció la apertura 'desde ya' ([2026-11-09](https://elordenmundial.com/hoy-en-la-historia/9-noviembre/9-de-noviembre-de-1989-caida-del-muro-de-berlin/)) | **programado** `VgecejtBkTo` ([ver](https://youtube.com/shorts/VgecejtBkTo)) | Ñerd (fronteras absurdas) | efeméride el mismo día; ángulo propio (el error de la conferencia), no 'cayó el muro' |
 | lun 11-09 | 18:00 | frontera | Unos soldados entraron a un país sin ejército | evergreen | — | listo (render en la nube, en bandeja; programar cuando se libere el cupo de subida) | Ñerd (fronteras absurdas) | renderizado en GitHub Actions (40 min); `soldados-entraron-a-un-pais-sin-ejercito` |
-| mar 11-10 | 12:00 | frontera | ¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia? | evergreen | — | renderizando (nube) | Ñerd (¿por qué está ahí?) | cola de la nube de a uno; `por-que-estas-dos-islas-estan-a-3-8-km` |
-| mar 11-10 | 18:00 | frontera | ¿Por qué un francés firmó el tratado que partió a Panamá en dos? | evergreen | — | renderizando (nube) | Ñerd (origen de países) | cola de la nube de a uno; `por-que-un-frances-firmo-el-tratado` |
-| mié 11-11 | 12:00 | frontera | ¿Por qué México recuperó tierra de Texas moviendo un río? | evergreen | — | renderizando (nube) | Ñerd (fronteras absurdas) | cola de la nube de a uno; `por-que-mexico-recupero-tierra-de-texas`; protagonista México |
+| mar 11-10 | 12:00 | frontera | ¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia? | evergreen | — | programado `Aa8tOCay-rk` | Ñerd (¿por qué está ahí?) | cola de la nube de a uno; `por-que-estas-dos-islas-estan-a-3-8-km` |
+| mar 11-10 | 18:00 | frontera | ¿Por qué un francés firmó el tratado que partió a Panamá en dos? | evergreen | — | programado `sXHB8kRkrdo` | Ñerd (origen de países) | cola de la nube de a uno; `por-que-un-frances-firmo-el-tratado` |
+| mié 11-11 | 12:00 | frontera | ¿Por qué México recuperó tierra de Texas moviendo un río? | evergreen | — | programado `yCkE5KOg-Ho` | Ñerd (fronteras absurdas) | cola de la nube de a uno; `por-que-mexico-recupero-tierra-de-texas`; protagonista México |
 | mié 11-11 | 18:00 | lugar | La ciudad más alta del mundo existe por el oro | evergreen | — | investigado | Ñerd (¿por qué está ahí?) | audiencia PE; récord verificable con NASA (idea 16) |
 | jue 11-12 | 12:00 | frontera | Venezuela reclama dos tercios de Guyana por un laudo de 1899 | contingente | La CIJ prepara el fallo Guyana c. Venezuela (audiencias terminadas en mayo de 2026; fallo esperado entre noviembre de 2026 y enero de 2027; consultado 2026-11-05) ([2026-11-05](https://oilnow.gy/featured/guyana-government-expects-world-court-ruling-as-early-as-november-2026-in-essequibo-border-case/)) | idea · ⚠ tema sensible: guion con revisión de neutralidad; si no hay novedad de la CIJ, entra el reemplazo (Bolivia tiene Armada… y no tiene mar) | Ñerd (disputas vivas) | si la CIJ anuncia fecha de lectura, se mueve al día del fallo; solo hechos, dos versiones |
 | jue 11-12 | 18:00 | ruta | La Panamericana va de Alaska a Ushuaia… menos 100 km de selva | evergreen | — | idea · ⚠ verificar largo del Tapón del Darién con 2 fuentes | GeoGlobeTales (rutas imposibles) | ruta continental con contradicción clara; Bushby cruzó ese tramo (cruce con la serie) |
@@ -141,22 +141,22 @@ Rotación `frontera → lugar → ruta`. Cuota contingente de la semana siguient
     { "fecha": "2026-11-09", "hora": "18:00", "formato": "short", "plantilla": "frontera",
       "tema": "Unos soldados entraron a un país sin ejército",
       "tipo": "evergreen", "serie": null, "contingencia": null,
-      "estado": "listo", "guion": "contenido/guiones/2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.json", "videoId": null,
+      "estado": "programado", "guion": "contenido/guiones/2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.json", "videoId": null,
       "referente": "Ñerd (fronteras absurdas)", "porQue": "renderizado en GitHub Actions (40 min), en bandeja; programar cuando se libere el cupo de subida", "bloqueo": null },
     { "fecha": "2026-11-10", "hora": "12:00", "formato": "short", "plantilla": "frontera",
       "tema": "¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?",
       "tipo": "evergreen", "serie": null, "contingencia": null,
-      "estado": "renderizando", "guion": null, "videoId": null,
+      "estado": "programado", "guion": null, "videoId": null,
       "referente": "Ñerd (¿por qué está ahí?)", "porQue": "cola de la nube de a uno (producir.yml); por-que-estas-dos-islas-estan-a-3-8-km", "bloqueo": null },
     { "fecha": "2026-11-10", "hora": "18:00", "formato": "short", "plantilla": "frontera",
       "tema": "¿Por qué un francés firmó el tratado que partió a Panamá en dos?",
       "tipo": "evergreen", "serie": null, "contingencia": null,
-      "estado": "renderizando", "guion": null, "videoId": null,
+      "estado": "programado", "guion": null, "videoId": null,
       "referente": "Ñerd (origen de países)", "porQue": "cola de la nube de a uno (producir.yml); por-que-un-frances-firmo-el-tratado", "bloqueo": null },
     { "fecha": "2026-11-11", "hora": "12:00", "formato": "short", "plantilla": "frontera",
       "tema": "¿Por qué México recuperó tierra de Texas moviendo un río?",
       "tipo": "evergreen", "serie": null, "contingencia": null,
-      "estado": "renderizando", "guion": null, "videoId": null,
+      "estado": "programado", "guion": null, "videoId": null,
       "referente": "Ñerd (fronteras absurdas)", "porQue": "cola de la nube de a uno (producir.yml); por-que-mexico-recupero-tierra-de-texas; protagonista México", "bloqueo": null },
     { "fecha": "2026-11-11", "hora": "18:00", "formato": "short", "plantilla": "lugar",
       "tema": "La ciudad más alta del mundo existe por el oro",

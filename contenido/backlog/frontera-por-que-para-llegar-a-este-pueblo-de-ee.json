@@ -1,0 +1,1113 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-para-llegar-a-este-pueblo-de-ee",
+  "titulo": "¿Por qué para llegar a este pueblo de EE. UU. hay que cruzar Canadá?",
+  "descripcion": "Point Roberts es Estados Unidos, pero por tierra solo se llega pasando por Canadá. No fue un capricho ni la búsqueda de un puerto. Fue una regla aplicada sin excepciones. En 1818 Estados Unidos y Gran Bretaña fijaron el paralelo 49 como frontera hasta las Montañas Rocosas. En 1846 el Tratado de Oregón lo llevó hasta el mar, y la punta de una península que baja desde Canadá quedó del lado estadounidense: unos 12 km² sin camino propio hacia su país. En 2020, con la frontera cerrada por la pandemia, el pueblo quedó casi aislado.\n\nFuentes:\n- Tratado de Oregón (1846), Avalon Project, Yale Law School: https://avalon.law.yale.edu/19th_century/br-1846.asp\n- Convención de 1818, Avalon Project, Yale Law School: https://avalon.law.yale.edu/19th_century/conv1818.asp\n- Office of the Historian, Departamento de Estado de EE. UU.: The Oregon Territory, 1846: https://history.state.gov/milestones/1830-1860/oregon-territory\n- Point Roberts, Washington: https://en.wikipedia.org/wiki/Point_Roberts,_Washington\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#estadosunidos"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-para-llegar-a-este-pueblo-de-ee",
+    "cabecera": "POINT ROBERTS — LA PUNTA DEL PARALELO 49",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ HAY QUE CRUZAR CANADÁ?",
+      "clave": "CANADÁ",
+      "centro": [
+        -123,
+        49.1
+      ],
+      "zoom": 7.5,
+      "paises": [
+        "Canada",
+        "United States of America"
+      ],
+      "pines": [
+        {
+          "lon": -123.06,
+          "lat": 48.985,
+          "texto": "POINT ROBERTS"
+        }
+      ],
+      "icono": "🚗"
+    },
+    "gancho": {
+      "texto": "Mira la punta de esta península, al sur de Vancouver. Es Estados Unidos, pero para llegar por tierra desde Estados Unidos tienes que cruzar Canadá. ¿Por qué?",
+      "rotulo": "ATRAPADO EN CANADÁ",
+      "planos": [
+        {
+          "centro": [
+            -123.05,
+            49.12
+          ],
+          "zoom": 9.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -123.06,
+            48.985
+          ],
+          "zoom": 11.6,
+          "entrada": "zoom",
+          "en": "Estados",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -122.92,
+            49
+          ],
+          "zoom": 10.2,
+          "entrada": "zoom",
+          "en": "tierra",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -123.093,
+              49
+            ],
+            [
+              -123.03,
+              49
+            ],
+            [
+              -123.015,
+              48.985
+            ],
+            [
+              -123.022,
+              48.971
+            ],
+            [
+              -123.05,
+              48.972
+            ],
+            [
+              -123.083,
+              48.974
+            ],
+            [
+              -123.095,
+              48.985
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "EE. UU.",
+          "aparecerEn": "Estados"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -123.12,
+          "lat": 49.28,
+          "texto": "VANCOUVER",
+          "tipo": "pin",
+          "aparecerEn": "Vancouver"
+        },
+        {
+          "lon": -122.95,
+          "lat": 49.12,
+          "texto": "CANADÁ",
+          "tipo": "pais",
+          "aparecerEn": "Canadá"
+        },
+        {
+          "lon": -122.75,
+          "lat": 48.995,
+          "texto": "BLAINE",
+          "tipo": "pin",
+          "aparecerEn": "cruzar"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -123.06,
+          "lat": 48.99,
+          "icono": "🚗",
+          "ruta": [
+            [
+              -123.06,
+              48.99
+            ],
+            [
+              -123.07,
+              49.02
+            ],
+            [
+              -123,
+              49.05
+            ],
+            [
+              -122.85,
+              49.06
+            ],
+            [
+              -122.76,
+              49.01
+            ],
+            [
+              -122.75,
+              48.995
+            ]
+          ],
+          "duracionSeg": 2.5,
+          "escala": 0.9,
+          "aparecerEn": "cruzar"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "península",
+        "Vancouver",
+        "Estados",
+        "tierra",
+        "Canadá"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Estados Unidos se quedó esa punta a propósito, para tener un puerto frente a Vancouver. La verdad es más simple.",
+        "rotulo": {
+          "texto": "A PROPÓSITO",
+          "dice": "propósito"
+        },
+        "planos": [
+          {
+            "centro": [
+              -123.06,
+              48.99
+            ],
+            "zoom": 11.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.1,
+              49.1
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "en": "puerto",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.06,
+              48.99
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -123.12,
+            "lat": 49.28,
+            "texto": "VANCOUVER",
+            "tipo": "pin",
+            "aparecerEn": "Vancouver"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -123.07,
+            "lat": 48.98,
+            "icono": "⚓",
+            "escala": 1,
+            "aparecerEn": "puerto",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -123.07,
+            "lat": 48.98,
+            "icono": "⚓",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS SIMPLE",
+          "dice": "verdad"
+        },
+        "clave": [
+          "propósito",
+          "puerto",
+          "Vancouver",
+          "simple"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un paralelo, un tratado y una península. Y al final, el año en que el pueblo quedó encerrado.",
+        "rotulo": {
+          "texto": "TRES COSAS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -123.06,
+              49
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.06,
+              48.985
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "📏",
+            "texto": "PARALELO",
+            "dice": "paralelo"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "🏝️",
+            "texto": "PENÍNSULA",
+            "dice": "península"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": -123.06,
+            "lat": 48.985,
+            "icono": "🔒",
+            "escala": 1.1,
+            "aparecerEn": "encerrado"
+          }
+        ],
+        "clave": [
+          "paralelo",
+          "tratado",
+          "península",
+          "encerrado"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El paralelo. En 1818, Estados Unidos y Gran Bretaña acuerdan que, desde el lago de los Bosques hasta las Montañas Rocosas, la frontera sea una sola línea recta: el paralelo 49. Al oeste de las Rocosas no se ponen de acuerdo y deciden compartir el territorio.",
+        "rotulo": {
+          "texto": "PARALELO 49",
+          "dice": "recta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -104,
+              48.5
+            ],
+            "zoom": 3.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -100,
+              49
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "en": "frontera",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -120,
+              46.5
+            ],
+            "zoom": 4.8,
+            "entrada": "zoom",
+            "en": "oeste",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -118,
+              47
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "acuerdo",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1818",
+            "sub": "UNA LÍNEA RECTA",
+            "icono": "tratado",
+            "aparecerEn": "1818",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -94.9,
+            "lat": 49.3,
+            "texto": "LAGO DE LOS BOSQUES",
+            "tipo": "pin",
+            "aparecerEn": "Bosques"
+          },
+          {
+            "lon": -114,
+            "lat": 47,
+            "texto": "MONTAÑAS ROCOSAS",
+            "tipo": "region",
+            "aparecerEn": "Montañas"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -124.5,
+                42
+              ],
+              [
+                -111,
+                42
+              ],
+              [
+                -114,
+                49
+              ],
+              [
+                -116,
+                52
+              ],
+              [
+                -121,
+                54.67
+              ],
+              [
+                -133,
+                54.67
+              ],
+              [
+                -124.5,
+                48.4
+              ]
+            ],
+            "color": "violeta",
+            "etiqueta": "TERRITORIO DE OREGÓN",
+            "aparecerEn": "territorio"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -120,
+            "lat": 47.5,
+            "icono": "🤝",
+            "escala": 1.1,
+            "aparecerEn": "compartir"
+          }
+        ],
+        "contexto": {
+          "texto": "UNA SOLA LÍNEA",
+          "dice": "sola"
+        },
+        "clave": [
+          "1818",
+          "Bosques",
+          "Rocosas",
+          "recta",
+          "compartir"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El tratado. En 1846 se reparten ese territorio. Según el texto del Tratado de Oregón, que publica la Universidad de Yale, la línea sigue el paralelo 49 hasta el medio del canal que separa el continente de la isla de Vancouver. La isla queda entera para los británicos.",
+        "rotulo": {
+          "texto": "1846",
+          "dice": "1846"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -120,
+              47
+            ],
+            "zoom": 4.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -121,
+              49
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.3,
+              48.75
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "canal",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -124.8,
+              49.5
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "isla#2",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1846",
+            "sub": "TRATADO DE OREGÓN",
+            "icono": "tratado",
+            "aparecerEn": "1846",
+            "duracionSeg": 2.6
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -124.5,
+                42
+              ],
+              [
+                -111,
+                42
+              ],
+              [
+                -114,
+                49
+              ],
+              [
+                -116,
+                52
+              ],
+              [
+                -121,
+                54.67
+              ],
+              [
+                -133,
+                54.67
+              ],
+              [
+                -124.5,
+                48.4
+              ]
+            ],
+            "color": "violeta",
+            "etiqueta": "TERRITORIO DE OREGÓN",
+            "aparecerEn": "territorio",
+            "desaparecerEn": "Según"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -120,
+            "lat": 46,
+            "texto": "ESTADOS UNIDOS",
+            "tipo": "region",
+            "aparecerEn": "reparten"
+          },
+          {
+            "lon": -122,
+            "lat": 52,
+            "texto": "BRITÁNICOS",
+            "tipo": "region",
+            "aparecerEn": "reparten"
+          },
+          {
+            "lon": -125.5,
+            "lat": 49.6,
+            "texto": "ISLA DE VANCOUVER",
+            "tipo": "region",
+            "aparecerEn": "Vancouver"
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Oregón, 15-06-1846 · Avalon Project (Yale)",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "HASTA EL MEDIO DEL CANAL",
+          "dice": "medio"
+        },
+        "clave": [
+          "1846",
+          "Oregón",
+          "paralelo",
+          "canal",
+          "británicos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La península. Justo antes del agua, una punta de tierra baja desde Canadá y cruza el paralelo por unos tres kilómetros. El tratado no hace excepciones. Unos 12 kilómetros cuadrados quedan del lado de Estados Unidos, sin ningún camino propio hacia su país: Point Roberts.",
+        "rotulo": {
+          "texto": "12 KM²",
+          "dice": "12"
+        },
+        "planos": [
+          {
+            "centro": [
+              -123.06,
+              49
+            ],
+            "zoom": 9.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.06,
+              48.985
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "punta",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.06,
+              48.99
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "en": "tratado",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -122.95,
+              49
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "camino",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -123.093,
+                49
+              ],
+              [
+                -123.03,
+                49
+              ],
+              [
+                -123.015,
+                48.985
+              ],
+              [
+                -123.022,
+                48.971
+              ],
+              [
+                -123.05,
+                48.972
+              ],
+              [
+                -123.083,
+                48.974
+              ],
+              [
+                -123.095,
+                48.985
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "12 KM²",
+            "aparecerEn": "cuadrados"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -123.065,
+              49
+            ],
+            "hasta": [
+              -123.065,
+              48.973
+            ],
+            "texto": "3 KM",
+            "aparecerEn": "tres",
+            "desaparecerEn": "cuadrados"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -123.06,
+            "lat": 48.98,
+            "texto": "POINT ROBERTS",
+            "tipo": "pin",
+            "aparecerEn": "Point"
+          },
+          {
+            "lon": -123,
+            "lat": 49.04,
+            "texto": "CANADÁ",
+            "tipo": "pais",
+            "aparecerEn": "Canadá"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -122.98,
+            "lat": 48.99,
+            "icono": "🛣️",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "camino"
+          }
+        ],
+        "contexto": {
+          "texto": "SIN EXCEPCIONES",
+          "dice": "excepciones"
+        },
+        "clave": [
+          "punta",
+          "paralelo",
+          "excepciones",
+          "camino",
+          "Roberts"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: en marzo de 2020, por la pandemia, Estados Unidos y Canadá cierran la frontera a los viajes no esenciales. Point Roberts, un pueblo de algo más de mil personas, queda casi aislado: para ir por tierra a su propio país necesita un motivo esencial y cruzar Canadá.",
+        "rotulo": {
+          "texto": "CASI AISLADO",
+          "dice": "aislado"
+        },
+        "planos": [
+          {
+            "centro": [
+              -123,
+              49.02
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.06,
+              48.985
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "Point",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -122.9,
+              49.02
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "tierra",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2020",
+            "sub": "FRONTERA CERRADA",
+            "aparecerEn": "2020",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -123.06,
+            "lat": 49.003,
+            "icono": "🚧",
+            "escala": 1.1,
+            "aparecerEn": "cierran"
+          },
+          {
+            "lon": -123.06,
+            "lat": 48.99,
+            "icono": "🚗",
+            "ruta": [
+              [
+                -123.06,
+                48.99
+              ],
+              [
+                -123.07,
+                49.02
+              ],
+              [
+                -123,
+                49.05
+              ],
+              [
+                -122.85,
+                49.06
+              ],
+              [
+                -122.76,
+                49.01
+              ],
+              [
+                -122.75,
+                48.995
+              ]
+            ],
+            "duracionSeg": 2.5,
+            "escala": 0.9,
+            "aparecerEn": "cruzar"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -122.75,
+            "lat": 48.995,
+            "texto": "BLAINE",
+            "tipo": "pin",
+            "aparecerEn": "país"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "2020",
+          "pandemia",
+          "cierran",
+          "aislado",
+          "Canadá"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Point Roberts tiene una escuela solo para los más chicos. Los mayores van en bus a Blaine, en el estado de Washington: unos 40 kilómetros por Canadá y cuatro cruces de frontera al día. Y la calle Roosevelt Way corre pegada a la línea: de un lado, casas de Estados Unidos; del otro, de Canadá.",
+        "rotulo": {
+          "texto": "4 CRUCES",
+          "dice": "cuatro"
+        },
+        "imagen": {
+          "buscar": "Point Roberts Washington border"
+        },
+        "planos": [
+          {
+            "centro": [
+              -122.92,
+              49.02
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -122.75,
+              48.995
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "en": "Blaine",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -122.9,
+              49.02
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "cuatro",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -123.06,
+              49
+            ],
+            "zoom": 13.5,
+            "entrada": "zoom",
+            "en": "Roosevelt",
+            "deriva": 0.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -123.06,
+            "lat": 48.98,
+            "icono": "🏫",
+            "escala": 1,
+            "aparecerEn": "escuela",
+            "desaparecerEn": "Blaine"
+          },
+          {
+            "lon": -123.06,
+            "lat": 48.99,
+            "icono": "🚌",
+            "ruta": [
+              [
+                -123.06,
+                48.99
+              ],
+              [
+                -123.07,
+                49.02
+              ],
+              [
+                -123,
+                49.05
+              ],
+              [
+                -122.85,
+                49.06
+              ],
+              [
+                -122.76,
+                49.01
+              ],
+              [
+                -122.75,
+                48.995
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "bus",
+            "desaparecerEn": "Roosevelt"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -122.75,
+            "lat": 48.995,
+            "texto": "BLAINE",
+            "tipo": "pin",
+            "aparecerEn": "Blaine",
+            "desaparecerEn": "Roosevelt"
+          },
+          {
+            "lon": -123.06,
+            "lat": 48.995,
+            "texto": "ESTADOS UNIDOS",
+            "tipo": "region",
+            "aparecerEn": "lado"
+          },
+          {
+            "lon": -123.06,
+            "lat": 49.005,
+            "texto": "CANADÁ",
+            "tipo": "region",
+            "aparecerEn": "otro"
+          }
+        ],
+        "contexto": {
+          "texto": "UNA CALLE, DOS PAÍSES",
+          "dice": "calle"
+        },
+        "clave": [
+          "escuela",
+          "Blaine",
+          "cuatro",
+          "Roosevelt",
+          "línea"
+        ]
+      }
+    ],
+    "remate": "Una línea recta hizo la frontera. Una punta de tierra hizo la excepción.",
+    "remateEtiquetas": [
+      {
+        "lon": -123.06,
+        "lat": 49.008,
+        "texto": "LA LÍNEA RECTA"
+      },
+      {
+        "lon": -123.06,
+        "lat": 48.978,
+        "texto": "LA EXCEPCIÓN"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -123.06,
+          48.99
+        ],
+        "zoom": 11.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Oregón (15-06-1846), texto en el Avalon Project, Yale Law School",
+        "url": "https://avalon.law.yale.edu/19th_century/br-1846.asp"
+      },
+      {
+        "texto": "Convención de 1818 entre EE. UU. y Gran Bretaña, Avalon Project, Yale Law School",
+        "url": "https://avalon.law.yale.edu/19th_century/conv1818.asp"
+      },
+      {
+        "texto": "Office of the Historian, Departamento de Estado de EE. UU.: The Oregon Territory, 1846",
+        "url": "https://history.state.gov/milestones/1830-1860/oregon-territory"
+      },
+      {
+        "texto": "Point Roberts, Washington (población y geografía)",
+        "url": "https://en.wikipedia.org/wiki/Point_Roberts,_Washington"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -123.05,
+        49
+      ],
+      "zoomInicial": 9.4,
+      "zoomFinal": 11,
+      "paises": [
+        "Canada"
+      ],
+      "lineas": [
+        {
+          "id": "paralelo-1818",
+          "puntos": [
+            [
+              -95.15,
+              49
+            ],
+            [
+              -114.06,
+              49
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "recta",
+          "etiqueta": "PARALELO 49"
+        },
+        {
+          "id": "paralelo-1846",
+          "puntos": [
+            [
+              -114.06,
+              49
+            ],
+            [
+              -123.32,
+              49
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "paralelo",
+          "etiqueta": "1846"
+        },
+        {
+          "id": "canal",
+          "puntos": [
+            [
+              -123.32,
+              49
+            ],
+            [
+              -123.22,
+              48.78
+            ],
+            [
+              -123.25,
+              48.6
+            ],
+            [
+              -123.18,
+              48.42
+            ],
+            [
+              -124,
+              48.28
+            ],
+            [
+              -124.73,
+              48.49
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "canal",
+          "etiqueta": "POR EL CANAL"
+        },
+        {
+          "id": "frontera-point-roberts",
+          "puntos": [
+            [
+              -123.093,
+              49
+            ],
+            [
+              -123.03,
+              49
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "paralelo",
+          "etiqueta": "PARALELO 49"
+        }
+      ]
+    }
+  }
+}
