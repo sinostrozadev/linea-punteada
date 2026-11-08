@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
+  "id": "2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
   "titulo": "¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?",
   "descripcion": "Las islas Diómedes están en medio del estrecho de Bering, a unos 3,8 km una de otra, y entre ellas pasa la línea internacional de cambio de fecha. La frontera nació en 1867, con la venta de Alaska: el tratado la trazó por la mitad entre las dos islas. Durante ochenta años las familias inupiat siguieron cruzando. Lo que las separó fue la Guerra Fría, hacia 1948.\n\nFuentes:\n- Office of the Historian, Departamento de Estado de EE. UU.: Purchase of Alaska, 1867: https://history.state.gov/milestones/1866-1898/alaska-purchase\n- National Archives de EE. UU.: Check for the Purchase of Alaska: https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska\n- Wikipedia: Diomede Islands: https://en.wikipedia.org/wiki/Diomede_Islands\n- Wikipedia: Lynne Cox: https://en.wikipedia.org/wiki/Lynne_Cox\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#alaska"
   ],
   "props": {
-    "id": "pendiente-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
+    "id": "2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
     "cabecera": "ESTRECHO DE BERING — HOY Y MAÑANA",
     "gancho": {
       "texto": "Mira el estrecho de Bering. Esas dos islas están a menos de cuatro kilómetros, y entre una y otra hay casi un día entero de diferencia. ¿Cómo?",

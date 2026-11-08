@@ -1,6 +1,6 @@
 # Videos listos para subir a mano (YouTube Studio)
 
-Generado: 2026-11-08 02:59 (America/Santiago) · 1 Short(s) + 1 video(s) largo(s), en orden de calendario.
+Generado: 2026-11-08 03:29 (America/Santiago) · 2 Short(s) + 1 video(s) largo(s), en orden de calendario.
 
 Cómo: YouTube Studio → **Crear → Subir videos** → elige el archivo indicado. Copia el título y la
 descripción **tal cual** (la descripción ya trae los hashtags al final). En "Público": **No, no es
@@ -11,10 +11,46 @@ Al terminar, marca cada video como subido para que no vuelva a aparecer: en `sal
 cambia `"estado": "listo"` por `"estado": "subido"` y agrega `"publicarEn": "<fecha ISO>"`
 (así el calendario sabe que esa ranura ya está ocupada). Si no lo haces, solo se volverá a listar.
 
-## 1. Soldados entraron a un país sin ejército y culparon a Google Maps
+## 1. ¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?
+
+- **Archivo:** `2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450207994
+- **Programar para:** 2026-11-09 18:00 (America/Santiago)
+- **Id:** `2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km` · **Plantilla:** frontera · **Duración:** 02:03 · **Categoría:** Entretenimiento
+
+**Título:**
+```
+¿Por qué estas dos islas están a 3,8 km… y a 21 horas de distancia?
+```
+
+**Descripción:**
+```
+Las islas Diómedes están en medio del estrecho de Bering, a unos 3,8 km una de otra, y entre ellas pasa la línea internacional de cambio de fecha. La frontera nació en 1867, con la venta de Alaska: el tratado la trazó por la mitad entre las dos islas. Durante ochenta años las familias inupiat siguieron cruzando. Lo que las separó fue la Guerra Fría, hacia 1948.
+
+Fuentes:
+- Office of the Historian, Departamento de Estado de EE. UU.: Purchase of Alaska, 1867: https://history.state.gov/milestones/1866-1898/alaska-purchase
+- National Archives de EE. UU.: Check for the Purchase of Alaska: https://www.archives.gov/milestone-documents/check-for-the-purchase-of-alaska
+- Wikipedia: Diomede Islands: https://en.wikipedia.org/wiki/Diomede_Islands
+- Wikipedia: Lynne Cox: https://en.wikipedia.org/wiki/Lynne_Cox
+
+Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
+
+#shorts #geografia #mapas #fronteras #historia #alaska
+```
+
+**Hashtags:**
+```
+#shorts #geografia #mapas #fronteras #historia #alaska
+```
+
+**Etiquetas** (campo "Etiquetas" de Studio):
+```
+shorts, geografia, mapas, fronteras, historia, alaska
+```
+
+## 2. Soldados entraron a un país sin ejército y culparon a Google Maps
 
 - **Archivo:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450196589
-- **Programar para:** 2026-11-09 18:00 (America/Santiago)
+- **Programar para:** 2026-11-10 12:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito` · **Plantilla:** frontera · **Duración:** 02:24 · **Categoría:** Entretenimiento
 
 **Título:**
