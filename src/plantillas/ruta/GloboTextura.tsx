@@ -15,6 +15,8 @@ import type { Camara } from './camara';
 export type Textura = { src: string; bbox: [number, number, number, number]; gradosPx?: number };
 type Pixeles = { w: number; h: number; data: Uint8ClampedArray };
 
+/** Borde difuminado de cada recorte regional, en fracción de su lado. */
+const BORDE = 0.07;
 /** Caché por pestaña: decodificar 4096×2048 en cada cuadro sería imposible. */
 const cache = new Map<string, Pixeles>();
 const pendientes = new Map<string, Promise<Pixeles | null>>();
@@ -118,9 +120,10 @@ export const GloboTextura: React.FC<{ texturas: Textura[]; cam: Camara; ancho: n
         const lat = Math.asin(Math.max(-1, Math.min(1, z * sf0 + y * cf0))) / RAD;
         let lon = (l0 + Math.atan2(x, z * cf0 - y * sf0)) / RAD;
         lon = ((((lon + 180) % 360) + 360) % 360) - 180;
-        // La textura más fina que cubre el punto (con un margen de 1 texel).
-        let r = 0, g = 0, b = 0, hay = false;
-        for (let n = 0; n < tex.length; n++) {
+        // De la textura más fina a la más gruesa, compuestas de adelante hacia atrás: cada recorte regional se
+        // difumina en el 7 % junto a su borde (si no, en mar oscuro se ve su rectángulo de otro tono).
+        let r = 0, g = 0, b = 0, resto = 1;
+        for (let n = 0; n < tex.length && resto > 0.002; n++) {
           const { t, px } = tex[n];
           const [w, s, e, nn] = t.bbox;
           if (lon < w || lon > e || lat < s || lat > nn) continue;
@@ -131,13 +134,18 @@ export const GloboTextura: React.FC<{ texturas: Textura[]; cam: Camara; ancho: n
           const p00 = (iy * px.w + ix) * 4, p10 = (iy * px.w + ix1) * 4, p01 = (iy1 * px.w + ix) * 4, p11 = (iy1 * px.w + ix1) * 4;
           const d = px.data;
           const w00 = (1 - ax) * (1 - ay), w10 = ax * (1 - ay), w01 = (1 - ax) * ay, w11 = ax * ay;
-          r = d[p00] * w00 + d[p10] * w10 + d[p01] * w01 + d[p11] * w11;
-          g = d[p00 + 1] * w00 + d[p10 + 1] * w10 + d[p01 + 1] * w01 + d[p11 + 1] * w11;
-          b = d[p00 + 2] * w00 + d[p10 + 2] * w10 + d[p01 + 2] * w01 + d[p11 + 2] * w11;
-          hay = true;
-          break;
+          let peso = 1;
+          if (n < tex.length - 1) {
+            const u = Math.min(1, Math.min((lon - w) / (e - w), (e - lon) / (e - w), (lat - s) / (nn - s), (nn - lat) / (nn - s)) / BORDE);
+            peso = u * u * (3 - 2 * u);
+          }
+          const m = peso * resto;
+          r += (d[p00] * w00 + d[p10] * w10 + d[p01] * w01 + d[p11] * w11) * m;
+          g += (d[p00 + 1] * w00 + d[p10 + 1] * w10 + d[p01 + 1] * w01 + d[p11 + 1] * w11) * m;
+          b += (d[p00 + 2] * w00 + d[p10 + 2] * w10 + d[p01 + 2] * w01 + d[p11 + 2] * w11) * m;
+          resto -= m;
         }
-        if (!hay) { r = OR; g = OG; b = OB; }
+        if (resto > 0) { r += OR * resto; g += OG * resto; b += OB * resto; }
         // Océano (azul dominante) → azul marino del canal; la tierra y el hielo quedan.
         const azul = Math.min(1, Math.max(0, (b - r * 1.2 - 8) / 40)) * Math.min(1, Math.max(0, (b - g) / 20 + 0.5));
         if (azul > 0) {

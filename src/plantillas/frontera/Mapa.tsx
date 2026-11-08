@@ -7,6 +7,7 @@ import type { LineString, MultiLineString, MultiPolygon } from 'geojson';
 import paises50 from 'world-atlas/countries-50m.json';
 import { COLORES_GUION, COLORES_MASCARA, FORMATO, MAPA, PALETA, TIPO } from '../../marca/tokens';
 import { Icono } from '../comun/Icono';
+import { mascaraRecorte, opacidadPorCobertura } from '../comun/recorte';
 import type { FondoResuelto, GeoRecortado, MapaFrontera, Poligonos } from './guion';
 import { DURACION_TRAZO_SEG, escalaDeZoom, proyeccion, tipoProyeccion, type LonLat } from './mapa';
 import { camaraAsentada, opacidadVentana, type EstadoCamara, type Visual } from './visual';
@@ -95,6 +96,13 @@ export const Pin: React.FC<{ x: number; y: number; texto?: string | null; e: num
 );
 
 /**
+ * Piso de tono del mar: el océano de Blue Marble es casi negro (≈ rgb 2,15,17) y el de Sentinel-2 cloudless, azul
+ * marino plano (≈ rgb 25,45,77). Un 'lighten' de este color SOLO sobre el mar (máscara de Natural Earth) sube ambos
+ * al mismo azul: al cruzar de un recorte a otro el mar no cambia de tono. La tierra no se toca.
+ */
+const PISO_MAR = 'rgb(14,36,80)';
+
+/**
  * Mapa de frontera v2. Capas, de abajo arriba: recortes satelitales (se funden por zoom, bordes difuminados),
  * océano oscurecido + brillo de costa (Natural Earth 1:10 M), fronteras blancas finas, máscaras rayadas,
  * líneas que se dibujan (la protagonista con brillo), cotas, resaltes; encima en HTML: etiquetas, pines e iconos.
@@ -102,6 +110,7 @@ export const Pin: React.FC<{ x: number; y: number; texto?: string | null; e: num
  */
 export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acento, ancho, alto, soloBase, paisesContorno, reservas = [], children }) => {
   const hayRaster = fondos.length > 0;
+  const idPiso = `pisoMar${React.useId().replace(/[^a-zA-Z0-9]/g, '')}`;
   const tipo = hayRaster ? 'equirectangular' : tipoProyeccion(mapa, false);
   const proy: GeoProjection = proyeccion(tipo, cam, ancho, alto);
   const camino = geoPath(proy);
@@ -132,8 +141,10 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
   const mascaraBordes = sinBordes.length ? 'url(#sinBordes)' : undefined; // las rayas de las máscaras se deslizan despacio: nada queda quieto
 
   // Capas raster que de verdad se ven. Se recorren de la más fina a la más gruesa: cuando una capa opaca cubre todo
-  // el cuadro (descontando el 7 % de borde difuminado), las de debajo no se dibujan. Sin esto, a zoom 17 se
-  // componían decenas de recortes escalados ×100 con filtro y máscara: el render caía a 0,4 cuadros/s.
+  // el cuadro, las de debajo no se dibujan. Sin esto, a zoom 17 se componían decenas de recortes escalados ×100 con
+  // filtro y máscara: el render caía a 0,4 cuadros/s.
+  // Un recorte fino (todos menos la base) SOLO se ve si cubre el cuadro entero (comun/recorte.ts): su borde nunca
+  // entra a la pantalla como rectángulo de otro tono (Diómedes, 2026-11-08).
   const capasVisibles = useMemo(() => {
     const out: { f: Fondo; i: number; a: [number, number]; b: [number, number]; o: number }[] = [];
     for (let i = fondos.length - 1; i >= 0; i--) {
@@ -141,14 +152,13 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
       const a = proy([f.bbox[0], f.bbox[3]]) as [number, number] | null;
       const b = proy([f.bbox[2], f.bbox[1]]) as [number, number] | null;
       if (!a || !b || b[0] < 0 || a[0] > ancho || b[1] < 0 || a[1] > alto) continue;
-      const o = i === 0 || f.zoom === undefined ? 1 : clamp01((cam.zoom - (f.zoom - 1.4)) / 0.8);
+      const o = i === 0 ? 1 : opacidadPorCobertura(a, b, ancho, alto);
       if (o <= 0) continue;
       out.unshift({ f, i, a, b, o });
-      const mx = (b[0] - a[0]) * (i > 0 ? 0.07 : 0), my = (b[1] - a[1]) * (i > 0 ? 0.07 : 0);
-      if (o >= 1 && a[0] + mx <= 0 && a[1] + my <= 0 && b[0] - mx >= ancho && b[1] - my >= alto) break;
+      if (o >= 1) break;
     }
     return out;
-  }, [fondos, proy, cam.zoom, ancho, alto]);
+  }, [fondos, proy, ancho, alto]);
 
   const geometriaArea = (a: Visual['areas'][number]['d']): { d: string; ancho?: number } => {
     if (a.tipo === 'franja' && a.linea) {
@@ -281,16 +291,20 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
     <div style={{ position: 'absolute', left: 0, top: 0, width: ancho, height: alto, background: MAPA.oceano, overflow: 'hidden' }}>
       {capasVisibles.map(({ f, i, a, b, o }) => {
         const detalle = /s2cloudless|Landsat/.test(f.capa);
-        const borde = 'linear-gradient(to right, transparent 0, #000 7%, #000 93%, transparent 100%)';
-        const bordeV = 'linear-gradient(to bottom, transparent 0, #000 7%, #000 93%, transparent 100%)';
         return (
           <Img key={f.src} src={staticFile(f.src)} style={{
             position: 'absolute', left: a[0], top: a[1], width: b[0] - a[0], height: b[1] - a[1], opacity: o,
             filter: detalle ? 'saturate(1.3) contrast(1.14) brightness(0.97)' : 'saturate(1.45) contrast(1.16) brightness(1.04)',
-            ...(i > 0 ? { WebkitMaskImage: `${borde}, ${bordeV}`, WebkitMaskComposite: 'source-in', maskImage: `${borde}, ${bordeV}`, maskComposite: 'intersect' } : {}),
+            ...(i > 0 ? mascaraRecorte : {}),
           } as React.CSSProperties} />
         );
       })}
+      {hayRaster && dTierra && (
+        <svg width={ancho} height={alto} style={{ position: 'absolute', inset: 0, mixBlendMode: 'lighten' }}>
+          <defs><mask id={idPiso}><rect width={ancho} height={alto} fill="#fff" /><path d={dTierra} fill="#000" /></mask></defs>
+          <rect width={ancho} height={alto} fill={PISO_MAR} opacity={oCosta} mask={`url(#${idPiso})`} />
+        </svg>
+      )}
       <svg width={ancho} height={alto} style={{ position: 'absolute', inset: 0 }}>
         <defs>
           {Object.entries(COLORES_MASCARA).map(([n, c]) => (

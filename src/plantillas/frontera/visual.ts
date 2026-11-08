@@ -252,7 +252,7 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
  * micro-movimiento cada `cada` s: paneo lento de `paneo`·ancho (hacia el centro del plano siguiente si está cerca,
  * o de ida y vuelta) alternado con un zoom de ±10 % (`zoom` niveles), con easing largo. Un `corte` a un encuadre
  * casi idéntico (salto de pocos px que se lee como error) se convierte en un paneo suave. Todo determinista; los
- * desplazamientos se alternan para no salir de los recortes satelitales (margen 1,4×).
+ * desplazamientos se alternan para no salir de los recortes satelitales (margen ×2, scripts/lib/satelite.mts).
  */
 export const MICRO = { maxQuieto: 8, cada: 5, paneo: 0.15, zoom: Math.log2(1.1), anchoPx: 1080 } as const;
 

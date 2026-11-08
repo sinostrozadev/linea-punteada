@@ -14,7 +14,14 @@ import { gradosPorPx, type LonLat } from '../../src/plantillas/frontera/mapa';
 
 const GIBS = 'https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi';
 const EOX = 'https://tiles.maps.eox.at/wms';
-const LADO_MAX = 2048;
+// Margen de cada recorte sobre el encuadre de su plano (a su zoom más abierto): ×2 deja medio cuadro de sobra por
+// lado, así el borde del recorte (aunque difuminado, se nota en mar oscuro como un rectángulo de otro tono) queda fuera
+// de pantalla en paneos, micro-movimientos y al alejarse; la plantilla además solo lo dibuja si cubre todo el cuadro
+// (frontera/Mapa.tsx, opacidadPorCobertura). Antes ×1,4: en Diómedes (2026-11-08) se veía el rectángulo.
+const MARGEN = 2;
+// Lado máximo del JPEG: con margen ×2 un 9:16 pide 2160×3840 px de encuadre; 2880 mantiene ~1,3 px de pantalla por
+// texel en el plano más abierto (lo mismo que tenía ×1,4 con 2048).
+const LADO_MAX = 2880;
 const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: sinostrozadev@gmail.com)';
 
 type Capa = { id: string; url: (bbox: number[], w: number, h: number) => string; credito: string };
@@ -51,7 +58,7 @@ export const planificarFondos = (vistas: Vista[], ancho: number, alto: number, m
     const lejos = v.zoomMax < 9;
     const capa = lejos ? (mes ? CAPAS.mensual(mes) : CAPAS.relieve) : CAPAS.sentinel;
     const necesario = gradosPorPx(v.zoomMax);
-    const bbox = extension(v, ancho, alto, 1.4);
+    const bbox = extension(v, ancho, alto, MARGEN);
     const sirve = pedidos.find((p) => p.capa.id === capa.id && contiene(p.bbox, bbox) && p.gradosPx <= necesario * 1.7);
     if (sirve) { sirve.zoom = Math.min(sirve.zoom, v.zoomMin); continue; }
     const w = bbox[2] - bbox[0], h = bbox[3] - bbox[1];

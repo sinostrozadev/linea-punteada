@@ -9,6 +9,7 @@ import tierra50 from 'world-atlas/land-50m.json';
 import { MAPA, PALETA, TIPO, fondoAlfa } from '../../marca/tokens';
 import { escalaDeZoom } from '../frontera/mapa';
 import { Pin } from '../frontera/Mapa';
+import { mascaraRecorte, opacidadPorCobertura } from '../comun/recorte';
 import type { FondoNivel, MapaLugar as TMapaLugar } from './guion';
 import { proyeccionLugar } from './camara';
 
@@ -78,7 +79,9 @@ export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoo
   // Niveles a dibujar: el más lejano siempre (base) y los que ya tienen resolución útil a este zoom.
   // Se recorren del más fino al más grueso: cuando uno ya tiene resolución útil y cubre todo el lienzo, los de debajo
   // no se dibujan (con recortes por plano hay decenas; componerlos todos hundía el render, igual que en frontera).
-  const niveles: FondoNivel[] = [];
+  // Los recortes finos solo se ven si cubren todo el lienzo (opacidad por cobertura + borde difuminado,
+  // comun/recorte.ts): su rectángulo nunca se nota sobre el mar.
+  const niveles: { f: FondoNivel; o: number; fino: boolean }[] = [];
   if (hayRaster) {
     for (let i = fondos.length - 1; i >= 0; i--) {
       const f = fondos[i];
@@ -89,8 +92,10 @@ export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoo
       // px: Chrome se cae ("Page crashed"). Se omite salvo que sea lo único que hay.
       const texel = f.gradosPx ? (b[0] - a[0]) / ((f.bbox[2] - f.bbox[0]) / f.gradosPx) : 1;
       if (texel > 10 && (niveles.length || i > 0)) continue;
-      niveles.unshift(f);
-      if (a[0] <= 0 && a[1] <= 0 && b[0] >= ancho && b[1] >= alto) break;
+      const o = i === 0 ? 1 : opacidadPorCobertura(a as [number, number], b as [number, number], ancho, alto);
+      if (o <= 0) continue;
+      niveles.unshift({ f, o, fino: i > 0 });
+      if (o >= 1) break;
     }
   }
   const atenuar = (y: number) => (franjaRotulo && y > franjaRotulo[0] && y < franjaRotulo[1] ? 0.22 : 1);
@@ -102,10 +107,10 @@ export const MapaLugarVista: React.FC<Props> = ({ mapa, fondos, ancho, alto, zoo
   const brillo = 0.8 + 0.2 * Math.cos((frame / 70) * Math.PI * 2);
   return (
     <div style={{ position: 'absolute', inset: 0, width: ancho, height: alto, background: PALETA.fondo, overflow: 'hidden' }}>
-      {niveles.map((f) => {
+      {niveles.map(({ f, o, fino }) => {
         const [x0, y0] = libre([f.bbox[0], f.bbox[3]]) ?? [0, 0];
         const [x1, y1] = libre([f.bbox[2], f.bbox[1]]) ?? [0, 0];
-        return <Img key={f.src} src={staticFile(f.src)} style={{ position: 'absolute', left: x0, top: y0, width: x1 - x0, height: y1 - y0, filter: 'saturate(1.3) contrast(1.15) brightness(1.08)' }} />;
+        return <Img key={f.src} src={staticFile(f.src)} style={{ position: 'absolute', left: x0, top: y0, width: x1 - x0, height: y1 - y0, opacity: o, filter: 'saturate(1.3) contrast(1.15) brightness(1.08)', ...(fino ? mascaraRecorte : {}) }} />;
       })}
       {/* El océano de Blue Marble es casi negro: 'lighten' lo lleva al azul de marca sin tocar la tierra (más clara). */}
       {hayRaster && <div style={{ position: 'absolute', inset: 0, background: PALETA.fondo2, mixBlendMode: 'lighten' }} />}
