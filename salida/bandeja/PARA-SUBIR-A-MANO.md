@@ -1,6 +1,6 @@
 # Videos listos para subir a mano (YouTube Studio)
 
-Generado: 2026-11-08 03:29 (America/Santiago) · 2 Short(s) + 1 video(s) largo(s), en orden de calendario.
+Generado: 2026-11-08 04:18 (America/Santiago) · 3 Short(s) + 1 video(s) largo(s), en orden de calendario.
 
 Cómo: YouTube Studio → **Crear → Subir videos** → elige el archivo indicado. Copia el título y la
 descripción **tal cual** (la descripción ya trae los hashtags al final). En "Público": **No, no es
@@ -47,10 +47,46 @@ Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y N
 shorts, geografia, mapas, fronteras, historia, alaska
 ```
 
-## 2. Soldados entraron a un país sin ejército y culparon a Google Maps
+## 2. ¿Por qué un francés firmó el tratado que partió a Panamá en dos?
+
+- **Archivo:** `2026-11-08-frontera-por-que-un-frances-firmo-el-tratado.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42452951795
+- **Programar para:** 2026-11-10 12:00 (America/Santiago)
+- **Id:** `2026-11-08-frontera-por-que-un-frances-firmo-el-tratado` · **Plantilla:** frontera · **Duración:** 02:15 · **Categoría:** Entretenimiento
+
+**Título:**
+```
+¿Por qué un francés firmó el tratado que partió a Panamá en dos?
+```
+
+**Descripción:**
+```
+Durante 75 años una franja de unos 16 kilómetros partió a Panamá de mar a mar, con jueces, policía y correo de Estados Unidos. El tratado que la creó se firmó en Washington el 18 de noviembre de 1903, quince días después de la independencia de Panamá, y quien firmó por Panamá fue Philippe Bunau-Varilla, un ingeniero francés. Panamá recibió 10 millones de dólares; la compañía francesa del canal, 40 millones. La Zona se disolvió en 1979 y el canal pasó a Panamá el 31 de diciembre de 1999.
+
+Fuentes:
+- Convención del canal Hay–Bunau-Varilla (1903), Avalon Project, Yale: https://avalon.law.yale.edu/20th_century/pan001.asp
+- Office of the Historian, Departamento de Estado: construcción del Canal de Panamá: https://history.state.gov/milestones/1899-1913/panama-canal
+- Office of the Historian: tratados del Canal de Panamá de 1977: https://history.state.gov/milestones/1977-1980/panama-canal
+- Linda Hall Library: Philippe Bunau-Varilla: https://www.lindahall.org/about/news/scientist-of-the-day/philippe-bunau-varilla/
+
+Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
+
+#shorts #geografia #mapas #fronteras #historia #panama
+```
+
+**Hashtags:**
+```
+#shorts #geografia #mapas #fronteras #historia #panama
+```
+
+**Etiquetas** (campo "Etiquetas" de Studio):
+```
+shorts, geografia, mapas, fronteras, historia, panama
+```
+
+## 3. Soldados entraron a un país sin ejército y culparon a Google Maps
 
 - **Archivo:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450196589
-- **Programar para:** 2026-11-10 12:00 (America/Santiago)
+- **Programar para:** 2026-11-10 18:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito` · **Plantilla:** frontera · **Duración:** 02:24 · **Categoría:** Entretenimiento
 
 **Título:**
