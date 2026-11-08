@@ -57,6 +57,8 @@ type Props = {
   acento: string;
   ancho: number;
   alto: number;
+  /** Opcional (`largo`): cajas de las etiquetas de hitos del mapa base. Los rótulos las esquivan (o se ocultan si son fijos) y los iconos quietos se corren en diagonal con una guía. */
+  cajasExtra?: Caja[];
   /** px por km en el centro (para franjas). */
   pxKm: number;
   /** Proyección con la cámara ASENTADA del plano vigente (estabilidad de las colisiones); por defecto `xy`. */
@@ -67,7 +69,18 @@ type Props = {
 
 type Rotulo = EtiquetaColision & { punto: [number, number] };
 
-export const CapasMapa: React.FC<Props> = ({ vis, t, xy, camino, acento, ancho, alto, pxKm, xyRef, reservas = [] }) => {
+/** Corre un icono en diagonal (4 diagonales, 4 anillos) hasta que no pise ninguna caja; null = no hace falta o no hay lugar. */
+const correrIcono = (q: [number, number], r: number, cajas: Caja[]): [number, number] | null => {
+  const pisa = (x: number, y: number) => cajas.some((c) => x - r < c.x1 + 8 && x + r > c.x0 - 8 && y - r < c.y1 + 8 && y + r > c.y0 - 8);
+  if (!cajas.length || !pisa(q[0], q[1])) return null;
+  for (const paso of [1.5, 2.6, 3.8, 5.2]) for (const [dx, dy] of [[1, -1], [-1, -1], [1, 1], [-1, 1]]) {
+    const x = q[0] + dx * r * paso, y = q[1] + dy * r * paso;
+    if (!pisa(x, y)) return [x, y];
+  }
+  return null;
+};
+
+export const CapasMapa: React.FC<Props> = ({ vis, t, xy, camino, acento, ancho, alto, pxKm, xyRef, reservas = [], cajasExtra = [] }) => {
   const desfase = (t * 14) % 26;
   const areas = useMemo(() => vis.areas.map((v) => {
     const a = v.d;
@@ -148,7 +161,8 @@ export const CapasMapa: React.FC<Props> = ({ vis, t, xy, camino, acento, ancho, 
       const q = xyF([v.d.lon, v.d.lat]);
       if (!q) return;
       const r = (96 * (v.d.escala ?? 1)) / 2;
-      obst.push({ x0: q[0] - r, y0: q[1] - r, x1: q[0] + r, y1: q[1] + r });
+      const c = correrIcono(q, r, cajasExtra) ?? q;
+      obst.push({ x0: c[0] - r, y0: c[1] - r, x1: c[0] + r, y1: c[1] + r });
     });
     return { rot, obst };
   };
@@ -157,8 +171,8 @@ export const CapasMapa: React.FC<Props> = ({ vis, t, xy, camino, acento, ancho, 
   const vivos = new Set(actual.rot.map((r) => r.id));
   const banda: Caja = { x0: 0, y0: SUB_DESDE, x1: ancho, y1: SUB_HASTA };
   const zonaEt: Caja = { x0: 16, y0: 200, x1: ancho - 16, y1: alto - 300 };
-  const preferidas = resolverColisiones(ref.rot.filter((r) => vivos.has(r.id)), [...ref.obst, ...reservas, banda], zonaEt);
-  const colocacion = resolverColisiones(actual.rot, [...actual.obst, ...reservas, banda], zonaEt, preferidas);
+  const preferidas = resolverColisiones(ref.rot.filter((r) => vivos.has(r.id)), [...ref.obst, ...reservas, ...cajasExtra, banda], zonaEt);
+  const colocacion = resolverColisiones(actual.rot, [...actual.obst, ...reservas, ...cajasExtra, banda], zonaEt, preferidas);
   const porId = new Map(actual.rot.map((r) => [r.id, r]));
   const ubicar = (id: string): [number, number] | null => {
     const r = porId.get(id);
@@ -316,13 +330,23 @@ export const CapasMapa: React.FC<Props> = ({ vis, t, xy, camino, acento, ancho, 
           const w = f * (ruta.length - 1) - seg;
           pos = [ruta[seg][0] + (ruta[seg + 1][0] - ruta[seg][0]) * w, ruta[seg][1] + (ruta[seg + 1][1] - ruta[seg][1]) * w];
         }
-        const p = xy(pos);
-        if (!p) return null;
-        const e = resorte(t, v.desde, { damping: 10, stiffness: 200 });
+        const q0 = xy(pos);
+        if (!q0) return null;
         const lado = 96 * (v.d.escala ?? 1);
+        const corrido = v.d.ruta ? null : correrIcono(q0, lado / 2, cajasExtra);
+        const p = corrido ?? q0;
+        const e = resorte(t, v.desde, { damping: 10, stiffness: 200 });
         const bob = Math.sin((t - v.desde) * 3.2) * 5;
         return (
-          <div key={v.id} style={{ position: 'absolute', left: p[0] - lado / 2, top: p[1] - lado / 2 + bob, width: lado, height: lado, opacity: o, transform: `scale(${e})` }}>
+          <React.Fragment key={v.id}>
+          {corrido && (
+            <svg width={ancho} height={alto} style={{ position: 'absolute', inset: 0, opacity: o }}>
+              <line x1={q0[0]} y1={q0[1]} x2={p[0] - Math.sign(p[0] - q0[0]) * lado * 0.36} y2={p[1] - Math.sign(p[1] - q0[1]) * lado * 0.36} stroke="rgba(0,0,0,0.55)" strokeWidth={4.5} strokeLinecap="round" />
+              <line x1={q0[0]} y1={q0[1]} x2={p[0] - Math.sign(p[0] - q0[0]) * lado * 0.36} y2={p[1] - Math.sign(p[1] - q0[1]) * lado * 0.36} stroke="#fff" strokeWidth={2} strokeLinecap="round" />
+              <circle cx={q0[0]} cy={q0[1]} r={4} fill="#fff" stroke="rgba(0,0,0,0.55)" strokeWidth={1.5} />
+            </svg>
+          )}
+          <div style={{ position: 'absolute', left: p[0] - lado / 2, top: p[1] - lado / 2 + bob, width: lado, height: lado, opacity: o, transform: `scale(${e})` }}>
             <Icono nombre={v.d.icono} tamano={lado} acento={acento} />
             {v.d.tachado && (
               <svg width={lado * 1.3} height={lado * 1.3} viewBox="0 0 100 100" style={{ position: 'absolute', left: -lado * 0.15, top: -lado * 0.15 }}>
@@ -331,6 +355,7 @@ export const CapasMapa: React.FC<Props> = ({ vis, t, xy, camino, acento, ancho, 
               </svg>
             )}
           </div>
+          </React.Fragment>
         );
       })}
       {vis.remateEtiquetas.map((r, i) => {

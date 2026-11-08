@@ -256,7 +256,7 @@ const pasoRender = async (log: Log) => {
   const tope = forzados ?? Math.max(1, parseInt(opc['max-renders'] ?? String(calendario.minimoBandeja), 10) || calendario.minimoBandeja);
   let renders = 0;
   while (renders < tope) {
-    const listos = leerBandeja().filter((e) => e.estado === 'listo' && e.mp4Existe).length;
+    const listos = leerBandeja().filter((e) => e.estado === 'listo' && e.mp4Existe && (e.tipo ?? 'short') === 'short').length; // los largos (render-largo) no cuentan para el colchón de Shorts
     if (forzados === undefined && listos >= calendario.minimoBandeja) {
       log(`(a) Bandeja con ${listos} listo(s) ≥ ${calendario.minimoBandeja}: no hace falta renderizar.`);
       return;
@@ -314,7 +314,7 @@ const pasoGenerar = async (log: Log) => {
 
 // ---------------------------------------------------------------- (c) subir
 const pasoSubir = async (log: Log) => {
-  const listos = leerBandeja().filter((e) => e.estado === 'listo' && e.mp4Existe).length;
+  const listos = leerBandeja().filter((e) => e.estado === 'listo' && e.mp4Existe && (e.tipo ?? 'short') === 'short').length; // los largos (render-largo) no cuentan para el colchón de Shorts
   const subir = path.join(RAIZ, 'scripts', 'subir.mts');
   if (opc['sin-subir']) {
     log(`(c) --sin-subir: no se sube; exportar → salida/bandeja/PARA-SUBIR-A-MANO.md (${listos} listo(s)).`);

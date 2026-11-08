@@ -1,0 +1,438 @@
+{
+  "plantilla": "largo",
+  "id": "prueba-largo-bushby",
+  "titulo": "Prueba de la plantilla largo (Bushby, 1 minuto)",
+  "descripcion": "Guion de prueba de la plantilla largo 16:9. No se publica.",
+  "hashtags": [
+    "#geografia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "prueba-largo-bushby",
+    "acento": "cian",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "amarillo",
+      "escala": 1.1,
+      "kmReales": 49890,
+      "puntos": [
+        {
+          "lon": -70.91,
+          "lat": -53.16,
+          "etiqueta": "PUNTA ARENAS",
+          "fecha": "1998-11-01"
+        },
+        {
+          "lon": -70.65,
+          "lat": -33.45,
+          "etiqueta": "SANTIAGO"
+        },
+        {
+          "lon": -77.04,
+          "lat": -12.05,
+          "etiqueta": "LIMA"
+        },
+        {
+          "lon": -78.47,
+          "lat": -0.18,
+          "etiqueta": "QUITO"
+        },
+        {
+          "lon": -74.07,
+          "lat": 4.71,
+          "etiqueta": "BOGOTÁ"
+        },
+        {
+          "lon": -77.7,
+          "lat": 7.9,
+          "etiqueta": "DARIÉN",
+          "fecha": "2001-02"
+        },
+        {
+          "lon": -79.52,
+          "lat": 8.98
+        },
+        {
+          "lon": -99.13,
+          "lat": 19.43,
+          "etiqueta": "MÉXICO"
+        },
+        {
+          "lon": -110.94,
+          "lat": 31.34,
+          "etiqueta": "NOGALES",
+          "fecha": "2002-04-29"
+        },
+        {
+          "lon": -111.9,
+          "lat": 48.6,
+          "fecha": "2003-01-01"
+        },
+        {
+          "lon": -135.05,
+          "lat": 60.72
+        },
+        {
+          "lon": -147.72,
+          "lat": 64.84,
+          "etiqueta": "ALASKA"
+        },
+        {
+          "lon": -168.09,
+          "lat": 65.61,
+          "etiqueta": "BERING",
+          "fecha": "2006-03-17"
+        },
+        {
+          "lon": -169.81,
+          "lat": 66.16,
+          "etiqueta": "CHUKOTKA",
+          "fecha": "2006-03-31"
+        },
+        {
+          "lon": 153.7,
+          "lat": 67.45,
+          "etiqueta": "SREDNEKOLYMSK",
+          "fecha": "2011-04-25"
+        },
+        {
+          "lon": 129.73,
+          "lat": 62.03,
+          "etiqueta": "YAKUTSK"
+        },
+        {
+          "lon": 107.6,
+          "lat": 51.83
+        },
+        {
+          "lon": 106.92,
+          "lat": 47.92,
+          "etiqueta": "ULÁN BATOR",
+          "fecha": "2017-08-08"
+        },
+        {
+          "lon": 87.62,
+          "lat": 43.83,
+          "etiqueta": "CHINA",
+          "fecha": "2018"
+        },
+        {
+          "lon": 76.9,
+          "lat": 43.24
+        },
+        {
+          "lon": 69.24,
+          "lat": 41.3,
+          "etiqueta": "UZBEKISTÁN",
+          "fecha": "2019-06"
+        },
+        {
+          "lon": 51.2,
+          "lat": 43.65,
+          "etiqueta": "AKTAU",
+          "fecha": "2024-08"
+        },
+        {
+          "lon": 49.87,
+          "lat": 40.41,
+          "etiqueta": "BAKÚ",
+          "fecha": "2024-09"
+        },
+        {
+          "lon": 44.79,
+          "lat": 41.72,
+          "etiqueta": "GEORGIA"
+        },
+        {
+          "lon": 28.98,
+          "lat": 41.01,
+          "etiqueta": "ESTAMBUL",
+          "fecha": "2025"
+        },
+        {
+          "lon": 19.04,
+          "lat": 47.5,
+          "etiqueta": "BUDAPEST",
+          "fecha": "2025-11-15"
+        },
+        {
+          "lon": 3.39,
+          "lat": 50.6,
+          "fecha": "2026-09-18"
+        },
+        {
+          "lon": 1.58,
+          "lat": 50.87,
+          "etiqueta": "CALAIS"
+        },
+        {
+          "lon": 1.31,
+          "lat": 51.1,
+          "etiqueta": "DOVER",
+          "fecha": "2026-10-05"
+        },
+        {
+          "lon": -0.33,
+          "lat": 53.74,
+          "etiqueta": "HULL",
+          "fecha": "2026-11-02"
+        }
+      ],
+      "mes": 3
+    },
+    "apertura": {
+      "texto": "Mira esta línea. Sale de Punta Arenas y termina en una casa de Inglaterra. Un hombre la recorrió a pie. Tardó veintiocho años. ¿Por qué tanto?",
+      "planos": [
+        {
+          "centro": [
+            -70,
+            -25
+          ],
+          "zoom": 3.5,
+          "entrada": "corte",
+          "deriva": 0.15
+        },
+        {
+          "centro": [
+            -0.5,
+            53
+          ],
+          "zoom": 5.0,
+          "entrada": "zoom",
+          "en": "Inglaterra",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            40,
+            40
+          ],
+          "zoom": 3.3,
+          "entrada": "zoom",
+          "en": "Tardó",
+          "deriva": 0.1
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "28 AÑOS",
+          "sub": "A PIE",
+          "tipo": "linea-tiempo",
+          "desde": "1998",
+          "hasta": "2026",
+          "aparecerEn": "veintiocho",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ TANTO?",
+        "dice": "Por"
+      },
+      "clave": [
+        "Punta",
+        "Arenas",
+        "Inglaterra",
+        "veintiocho"
+      ]
+    },
+    "tarjetaTitulo": {
+      "texto": "¿Por qué tardó 28 años a pie?",
+      "clave": "28 AÑOS"
+    },
+    "capitulos": [
+      {
+        "titulo": "La selva sin caminos",
+        "bloques": [
+          {
+            "texto": "Karl Bushby salió de Punta Arenas en noviembre de mil novecientos noventa y ocho. Subió por Chile, Perú y Ecuador sin grandes problemas.",
+            "tramo": [
+              0,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -72,
+                  -40
+                ],
+                "zoom": 4.4,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -76,
+                  -8
+                ],
+                "zoom": 4.3,
+                "entrada": "paneo",
+                "en": "Perú",
+                "deriva": 0.15
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -71,
+                "lat": -30,
+                "texto": "CHILE",
+                "tipo": "pais",
+                "aparecerEn": "Chile"
+              }
+            ]
+          },
+          {
+            "texto": "Hasta que llegó al Darién: una selva entre Colombia y Panamá donde la carretera simplemente se corta.",
+            "tramo": [
+              4,
+              6
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.6,
+                  8.2
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.25
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -77.3,
+                  7.6
+                ],
+                "hasta": [
+                  -78.1,
+                  8.7
+                ],
+                "texto": "SIN CAMINO",
+                "aparecerEn": "carretera"
+              }
+            ],
+            "fuente": {
+              "texto": "ExplorersWeb · cronología de la caminata",
+              "dice": "Darién"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "La selva fue difícil. Pero lo peor estaba al norte, en un mar que se congela.",
+          "tramo": [
+            6,
+            8
+          ],
+          "planos": [
+            {
+              "centro": [
+                -102,
+                36
+              ],
+              "zoom": 3.8,
+              "entrada": "zoom",
+              "deriva": 0.12
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "El mar congelado",
+        "bloques": [
+          {
+            "texto": "En marzo de dos mil seis cruzó el estrecho de Bering caminando sobre el hielo, de Alaska a Rusia, en unas dos semanas.",
+            "tramo": [
+              8,
+              13
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -150,
+                  62
+                ],
+                "zoom": 4.5,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -170.6,
+                  66.2
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "en": "Bering",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2 SEMANAS",
+                "sub": "SOBRE EL HIELO",
+                "aparecerEn": "hielo",
+                "duracionSeg": 3
+              }
+            ]
+          },
+          {
+            "texto": "Lo que lo detuvo de verdad no fue el frío. Fueron los papeles: Rusia le negó la visa durante años.",
+            "tramo": [
+              13,
+              14
+            ],
+            "planos": [
+              {
+                "centro": [
+                  165,
+                  66
+                ],
+                "zoom": 4.6,
+                "entrada": "zoom",
+                "deriva": 0.15
+              }
+            ],
+            "contexto": {
+              "texto": "LOS PAPELES",
+              "dice": "papeles"
+            }
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "El hielo lo dejó pasar en dos semanas. Los papeles, en diez años.",
+      "planos": [
+        {
+          "centro": [
+            115,
+            60
+          ],
+          "zoom": 3.4,
+          "entrada": "zoom",
+          "deriva": 0.1
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -170,
+          "lat": 66,
+          "texto": "2 SEMANAS"
+        },
+        {
+          "lon": 110,
+          "lat": 60,
+          "texto": "10 AÑOS"
+        }
+      ],
+      "segundosFinales": 8
+    },
+    "fuentes": [
+      {
+        "texto": "ExplorersWeb: el último tramo de la caminata",
+        "url": "https://explorersweb.com/karl-bushby-begins-home-stretch-of-27-year-round-the-world-walk/"
+      }
+    ]
+  }
+}

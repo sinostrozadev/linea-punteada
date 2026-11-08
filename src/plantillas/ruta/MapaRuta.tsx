@@ -42,7 +42,15 @@ type Props = {
   /** v2: texturas Blue Marble para el globo (si faltan, continentes con relleno + degradado de luz). */
   texturas?: Textura[];
   /** v2: estilo frontera (etiquetas condensadas, año en acento, brillo de costa) y capas pegadas al mapa. */
-  v2?: { acento: string; capas?: (xy: (p: [number, number]) => [number, number] | null, camino: (g: object) => string | null, pxKm: number) => React.ReactNode };
+  v2?: { acento: string; capas?: (xy: (p: [number, number]) => [number, number] | null, camino: (g: object) => string | null, pxKm: number, cajasHitos: { x0: number; y0: number; x1: number; y1: number }[]) => React.ReactNode };
+  /**
+   * Opcionales para otros encuadres (plantilla `largo` 16:9). Por defecto, los del Short 1080×1920:
+   * `anchoRef` = ancho de referencia de la escala del globo (puntitos y trazo fino); `zonaEtiquetas` = franja vertical
+   * [y0, y1] donde se rotulan los hitos; `franjaSub` = franja del subtítulo en bloques que las etiquetas evitan (null = ninguna).
+   */
+  anchoRef?: number;
+  zonaEtiquetas?: [number, number];
+  franjaSub?: [number, number] | null;
 };
 
 /**
@@ -50,7 +58,7 @@ type Props = {
  * puntitos ya recorridos (a distancia geográfica fija), cabeza brillante, marcadores coral de los hitos y
  * etiquetas solo de los dos últimos hitos alcanzados (las demás quedan como punto: el mapa no se ensucia).
  */
-export const MapaRuta: React.FC<Props> = ({ mapa, tr, rec, cam, cabeza, frame, fondo, fantasma, franjaRotulo, texturas, v2 }) => {
+export const MapaRuta: React.FC<Props> = ({ mapa, tr, rec, cam, cabeza, frame, fondo, fantasma, franjaRotulo, texturas, v2, anchoRef, zonaEtiquetas, franjaSub }) => {
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps;
   const globo = mapa.proyeccion === 'globo';
@@ -69,7 +77,7 @@ export const MapaRuta: React.FC<Props> = ({ mapa, tr, rec, cam, cabeza, frame, f
   const enPantalla = (x: number, y: number, m = 20) => x > -m && x < width + m && y > -m && y < height + m;
 
   // Puntitos: radio según la escala (al alejarse se afinan y no se funden).
-  const kRef = globo ? width * (mapa.escala ?? 1.1) : cam.k;
+  const kRef = globo ? (anchoRef ?? width) * (mapa.escala ?? 1.1) : cam.k;
   const radio = Math.max(2.6, Math.min(7, 7 * (cam.k / kRef)));
   const recorridos: React.ReactNode[] = [];
   const fantasmas: React.ReactNode[] = [];
@@ -120,8 +128,10 @@ export const MapaRuta: React.FC<Props> = ({ mapa, tr, rec, cam, cabeza, frame, f
     const p = mapa.puntos[i];
     const q = proy([p.lon, p.lat]);
     if (!q || opacidad <= 0.01) return;
-    if (q[1] < 600 || q[1] > height - FORMATO.seguro.abajo - 20) return; // fuera de la zona útil del mapa
-    if (v2 && q[1] > 1040 && q[1] < 1340) return; // v2: la franja del subtítulo en bloques es de él
+    const [zy0, zy1] = zonaEtiquetas ?? [600, height - FORMATO.seguro.abajo - 20];
+    if (q[1] < zy0 || q[1] > zy1) return; // fuera de la zona útil del mapa
+    const sub = franjaSub === undefined ? [1040, 1340] : franjaSub;
+    if (v2 && sub && q[1] > sub[0] && q[1] < sub[1]) return; // v2: la franja del subtítulo en bloques es de él
     const texto = p.etiqueta ?? '';
     const anio = p.fecha ? p.fecha.slice(0, 4) : '';
     if (!texto && !anio) return;
@@ -217,7 +227,7 @@ export const MapaRuta: React.FC<Props> = ({ mapa, tr, rec, cam, cabeza, frame, f
   const xyV2 = (p: [number, number]) => (visible(p) > 0.5 ? (proy(p) as [number, number] | null) : null);
   return (
     <div style={{ position: 'absolute', inset: 0, background: PALETA.fondo, overflow: 'hidden' }}>
-      {conTextura && <GloboTextura texturas={texturas!} cam={cam} ancho={width} alto={height} />}
+      {conTextura && <GloboTextura texturas={texturas!} cam={cam} ancho={width} alto={height} soloCubren={!!anchoRef} />}
       {raster && <Img src={staticFile(raster.src)} style={{ position: 'absolute', left: x0, top: y0, width: x1 - x0, height: y1 - y0, filter: 'saturate(1.3) contrast(1.15)' }} />}
       {raster && <div style={{ position: 'absolute', inset: 0, background: 'rgba(11,29,46,0.4)' }} />}
       <svg width={width} height={height} style={{ position: 'absolute', inset: 0 }}>
@@ -264,7 +274,7 @@ export const MapaRuta: React.FC<Props> = ({ mapa, tr, rec, cam, cabeza, frame, f
         )}
       </svg>
       {etiquetas}
-      {v2?.capas?.(xyV2, (g) => camino(g as never), cam.k / 6371)}
+      {v2?.capas?.(xyV2, (g) => camino(g as never), cam.k / 6371, cajas.map(([x0, y0, x1, y1]) => ({ x0, y0, x1, y1 })))}
     </div>
   );
 };

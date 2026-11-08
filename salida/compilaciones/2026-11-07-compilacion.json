@@ -12,7 +12,7 @@
     "#fronteras"
   ],
   "duracionSeg": 687,
-  "estado": "listo",
+  "estado": "descartada",
   "videos": [
     "2026-11-05-frontera-triangulo-terrestre",
     "2026-11-05-frontera-laguna-del-desierto",
@@ -51,5 +51,7 @@
       "titulo": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
       "id": "2026-11-06-frontera-campo-de-hielo"
     }
-  ]
+  ],
+  "descartadaEn": "2026-11-08T02:20:00-03:00",
+  "motivo": "Santiago (2026-11-08): no subir compilaciones verticales; el largo del domingo será nativo 16:9"
 }

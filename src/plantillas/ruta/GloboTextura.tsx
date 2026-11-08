@@ -48,7 +48,11 @@ const RAD = Math.PI / 180;
 // Océano del canal (MAPA.oceano #0A2A4A).
 const OR = 10, OG = 42, OB = 74;
 
-export const GloboTextura: React.FC<{ texturas: Textura[]; cam: Camara; ancho: number; alto: number; resolucion?: number }> = ({ texturas, cam, ancho, alto, resolucion = 0.6 }) => {
+/**
+ * `soloCubren` (opcional, lo usa `largo` 16:9): un recorte regional solo se usa si cubre TODO lo visible del globo en
+ * este cuadro (si no, se veía su rectángulo de otro tono dentro de un plano más abierto). Por defecto false (Shorts igual).
+ */
+export const GloboTextura: React.FC<{ texturas: Textura[]; cam: Camara; ancho: number; alto: number; resolucion?: number; soloCubren?: boolean }> = ({ texturas, cam, ancho, alto, resolucion = 0.6, soloCubren = false }) => {
   const ref = useRef<HTMLCanvasElement>(null);
   const [listas, setListas] = useState(() => texturas.every((t) => cache.has(t.src)));
   const [handle] = useState(() => (texturas.every((t) => cache.has(t.src)) ? null : delayRender('textura del globo')));
@@ -82,6 +86,24 @@ export const GloboTextura: React.FC<{ texturas: Textura[]; cam: Camara; ancho: n
     const l0 = cam.centro[0] * RAD, f0 = cam.centro[1] * RAD;
     const sf0 = Math.sin(f0), cf0 = Math.cos(f0);
     const k = cam.k * resolucion, cx = (ancho / 2) * resolucion, cy = cam.y * resolucion;
+    if (soloCubren && tex.length > 1) {
+      // Muestras de lo visible (rejilla 9×6 de la pantalla recortada al disco del globo) → lon/lat.
+      const muestras: [number, number][] = [];
+      for (let a = 0; a <= 8; a++) for (let c = 0; c <= 5; c++) {
+        const x = ((a / 8) * W - cx) / k, y = (cy - (c / 5) * H) / k;
+        const r2 = x * x + y * y;
+        const [xx, yy] = r2 >= 1 ? [x / Math.sqrt(r2) * 0.999, y / Math.sqrt(r2) * 0.999] : [x, y];
+        const z = Math.sqrt(Math.max(0, 1 - xx * xx - yy * yy));
+        const la = Math.asin(Math.max(-1, Math.min(1, z * sf0 + yy * cf0))) / RAD;
+        let lo = (l0 + Math.atan2(xx, z * cf0 - yy * sf0)) / RAD;
+        lo = ((((lo + 180) % 360) + 360) % 360) - 180;
+        muestras.push([lo, la]);
+      }
+      const cubre = (b: [number, number, number, number]) => muestras.every(([lo, la]) => lo >= b[0] && lo <= b[2] && la >= b[1] && la <= b[3]);
+      const gruesa = tex[tex.length - 1];
+      for (let n = tex.length - 2; n >= 0; n--) if (!cubre(tex[n].t.bbox)) tex.splice(n, 1);
+      if (!tex.includes(gruesa)) tex.push(gruesa);
+    }
     // Luz arriba a la izquierda, algo de frente.
     const Lx = -0.42, Ly = 0.5, Lz = 0.76;
     const y0 = Math.max(0, Math.floor(cy - k)), y1 = Math.min(H, Math.ceil(cy + k));
@@ -131,7 +153,7 @@ export const GloboTextura: React.FC<{ texturas: Textura[]; cam: Camara; ancho: n
       }
     }
     ctx.putImageData(salida, 0, 0);
-  }, [listas, texturas, cam.centro[0], cam.centro[1], cam.k, cam.y, ancho, alto, resolucion]);
+  }, [listas, texturas, cam.centro[0], cam.centro[1], cam.k, cam.y, ancho, alto, resolucion, soloCubren]);
 
   return (
     <canvas ref={ref} style={{ position: 'absolute', left: 0, top: 0, width: ancho, height: alto, filter: 'saturate(1.35) contrast(1.12) brightness(1.05)' }} />

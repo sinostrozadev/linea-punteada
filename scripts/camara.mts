@@ -4,12 +4,14 @@
  * Imprime la tabla de planos (línea, en, zoom→zoom final, Δzoom, distancia, en cuadro, entrada, duración) y las
  * violaciones R1–R5. Duración: por palabras (estimada) o, con --props, con los tiempos reales de la voz.
  * Errores (✗: corte seco a otro lugar, parpadeo) rechazan el guion; avisos (⚠: zoom, ritmo) solo se imprimen.
+ * Acepta guiones `largo` (se aplanan: escena k = k-ésimo bloque contando `siguiente`; con --props usa los tiempos con pausas).
  * Sale con código 1 solo si algún guion tiene ERRORES (sirve en la mejora continua y en CI).
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { medirCamara, violacionesCamara, type GuionCam } from '../src/plantillas/comun/camara';
 import type { Tiempos } from '../src/plantillas/comun/plan';
+import { aplanar, type GuionLargo } from '../src/plantillas/largo/guion';
 
 const args = process.argv.slice(2);
 const iProps = args.indexOf('--props');
@@ -25,8 +27,10 @@ let totE = 0, totA = 0;
 
 for (const ruta of rutas) {
   const crudo = JSON.parse(fs.readFileSync(path.resolve(ruta), 'utf8'));
-  const plantilla: string = crudo.plantilla ?? (crudo.mapa?.punto ? 'lugar' : crudo.mapa?.lineas ? 'frontera' : 'ruta');
-  const g: GuionCam = crudo.props ?? crudo;
+  const props = crudo.props ?? crudo;
+  const plantilla: string = crudo.plantilla ?? (props.apertura && props.capitulos ? 'largo' : props.mapa?.punto ? 'lugar' : props.mapa?.lineas ? 'frontera' : 'ruta');
+  // `largo`: apertura/capítulos/cierre se aplanan a gancho/escenas/remate (líneas: 0 = apertura, 1..n = bloques en orden, n+1 = cierre).
+  const g: GuionCam = plantilla === 'largo' ? (aplanar(props as GuionLargo) as unknown as GuionCam) : props;
   const tiempos: Tiempos | undefined = propsRuta && rutas.length === 1 ? JSON.parse(fs.readFileSync(path.resolve(propsRuta), 'utf8')).tiempos : crudo.tiempos;
   const medidos = medirCamara(g, { continua: plantilla === 'frontera', tiempos });
   const v = violacionesCamara(medidos, { estimado: !tiempos });

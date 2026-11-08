@@ -1,0 +1,2425 @@
+{
+  "plantilla": "largo",
+  "id": "2026-11-08-largo-bushby",
+  "titulo": "Caminó 28 años para volver a casa. ¿Qué lo frenó?",
+  "descripcion": "¿Por qué un hombre tardó 28 años en volver caminando de Punta Arenas a su casa en Inglaterra?\n\nKarl Bushby salió de Punta Arenas el 1 de noviembre de 1998 con un carrito y una regla: ningún vehículo podía hacerlo avanzar. Cruzó el Tapón del Darién, caminó sobre el estrecho de Bering congelado y llegó a Rusia en 2006. Ahí empezó lo difícil.\n\nVisas de 90 días, una deportación anulada, un veto de cinco años, una pandemia y dos mares que cruzó a nado: el Caspio y el canal de la Mancha. El 2 de noviembre de 2026 llegó a la casa de su madre en Hull. Unos 50.000 km en 28 años, de los que caminó unos quince.",
+  "hashtags": [
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#KarlBushby",
+    "#PuntaArenas"
+  ],
+  "miniatura": "salida/caratulas/bushby-serie-2.png",
+  "props": {
+    "id": "2026-11-08-largo-bushby",
+    "acento": "amarillo",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "amarillo",
+      "escala": 1.1,
+      "kmReales": 50000,
+      "puntos": [
+        {
+          "lon": -70.91,
+          "lat": -53.16,
+          "etiqueta": "PUNTA ARENAS",
+          "fecha": "1998-11-01"
+        },
+        {
+          "lon": -71.5,
+          "lat": -41.5
+        },
+        {
+          "lon": -70.6,
+          "lat": -33.4
+        },
+        {
+          "lon": -70.3,
+          "lat": -18.5
+        },
+        {
+          "lon": -77.0,
+          "lat": -12.0
+        },
+        {
+          "lon": -78.5,
+          "lat": -0.2
+        },
+        {
+          "lon": -75.6,
+          "lat": 6.25
+        },
+        {
+          "lon": -77.4,
+          "lat": 7.6,
+          "etiqueta": "DARIÉN"
+        },
+        {
+          "lon": -77.97,
+          "lat": 8.5,
+          "etiqueta": "PANAMÁ",
+          "fecha": "2001-02"
+        },
+        {
+          "lon": -79.5,
+          "lat": 9.0
+        },
+        {
+          "lon": -86.2,
+          "lat": 12.1
+        },
+        {
+          "lon": -90.5,
+          "lat": 14.6
+        },
+        {
+          "lon": -99.1,
+          "lat": 19.4
+        },
+        {
+          "lon": -110.94,
+          "lat": 31.34,
+          "etiqueta": "NOGALES",
+          "fecha": "2002-04-29"
+        },
+        {
+          "lon": -112.0,
+          "lat": 40.7
+        },
+        {
+          "lon": -111.9,
+          "lat": 48.6,
+          "etiqueta": "MONTANA",
+          "fecha": "2003-01-01"
+        },
+        {
+          "lon": -114.0,
+          "lat": 51.0
+        },
+        {
+          "lon": -135.05,
+          "lat": 60.72
+        },
+        {
+          "lon": -147.72,
+          "lat": 64.84
+        },
+        {
+          "lon": -160.79,
+          "lat": 63.87,
+          "etiqueta": "ALASKA",
+          "fecha": "2005"
+        },
+        {
+          "lon": -168.09,
+          "lat": 65.61,
+          "etiqueta": "WALES",
+          "fecha": "2006-03-17"
+        },
+        {
+          "lon": -168.9,
+          "lat": 66.4
+        },
+        {
+          "lon": -169.6,
+          "lat": 66.3
+        },
+        {
+          "lon": -169.81,
+          "lat": 66.16,
+          "etiqueta": "UELEN",
+          "fecha": "2006-04-01"
+        },
+        {
+          "lon": 175.0,
+          "lat": 66.5
+        },
+        {
+          "lon": 160.0,
+          "lat": 68.0
+        },
+        {
+          "lon": 153.7,
+          "lat": 67.45,
+          "etiqueta": "SREDNEKOLYMSK",
+          "fecha": "2011-04-25"
+        },
+        {
+          "lon": 140.0,
+          "lat": 64.0
+        },
+        {
+          "lon": 129.73,
+          "lat": 62.03,
+          "etiqueta": "YAKUTSK"
+        },
+        {
+          "lon": 115.0,
+          "lat": 57.0
+        },
+        {
+          "lon": 107.6,
+          "lat": 51.83
+        },
+        {
+          "lon": 106.92,
+          "lat": 47.92,
+          "etiqueta": "ULÁN BATOR",
+          "fecha": "2017-08-08"
+        },
+        {
+          "lon": 103.0,
+          "lat": 43.5,
+          "etiqueta": "GOBI"
+        },
+        {
+          "lon": 95.0,
+          "lat": 41.0
+        },
+        {
+          "lon": 87.62,
+          "lat": 43.83,
+          "etiqueta": "CHINA",
+          "fecha": "2018"
+        },
+        {
+          "lon": 76.9,
+          "lat": 43.24,
+          "etiqueta": "KAZAJISTÁN"
+        },
+        {
+          "lon": 69.24,
+          "lat": 41.3,
+          "etiqueta": "UZBEKISTÁN",
+          "fecha": "2019-06"
+        },
+        {
+          "lon": 64.42,
+          "lat": 39.77
+        },
+        {
+          "lon": 58.38,
+          "lat": 37.95,
+          "etiqueta": "TURKMENISTÁN",
+          "fecha": "2020"
+        },
+        {
+          "lon": 64.42,
+          "lat": 39.77,
+          "etiqueta": "BUJARÁ",
+          "fecha": "2024"
+        },
+        {
+          "lon": 60.0,
+          "lat": 42.5
+        },
+        {
+          "lon": 55.0,
+          "lat": 43.5
+        },
+        {
+          "lon": 51.2,
+          "lat": 43.65,
+          "etiqueta": "AKTAU",
+          "fecha": "2024-08"
+        },
+        {
+          "lon": 49.87,
+          "lat": 40.41,
+          "etiqueta": "BAKÚ",
+          "fecha": "2024-09"
+        },
+        {
+          "lon": 45.0,
+          "lat": 41.0
+        },
+        {
+          "lon": 39.7,
+          "lat": 40.0
+        },
+        {
+          "lon": 28.98,
+          "lat": 41.01,
+          "etiqueta": "ESTAMBUL",
+          "fecha": "2025"
+        },
+        {
+          "lon": 25.0,
+          "lat": 42.5
+        },
+        {
+          "lon": 19.04,
+          "lat": 47.5,
+          "etiqueta": "BUDAPEST",
+          "fecha": "2025-11-15"
+        },
+        {
+          "lon": 11.5,
+          "lat": 49.5
+        },
+        {
+          "lon": 3.39,
+          "lat": 50.6,
+          "etiqueta": "TOURNAI",
+          "fecha": "2026-09-18"
+        },
+        {
+          "lon": 1.85,
+          "lat": 50.95,
+          "etiqueta": "CALAIS"
+        },
+        {
+          "lon": 1.29,
+          "lat": 51.11,
+          "etiqueta": "DOVER",
+          "fecha": "2026-10-05"
+        },
+        {
+          "lon": 0.1,
+          "lat": 51.6
+        },
+        {
+          "lon": -0.5,
+          "lat": 52.6
+        },
+        {
+          "lon": -0.33,
+          "lat": 53.74,
+          "etiqueta": "HULL",
+          "fecha": "2026-11-02"
+        }
+      ],
+      "mes": 3
+    },
+    "apertura": {
+      "texto": "Mira esta línea punteada. Sale de Punta Arenas, sube por toda América, cruza un mar congelado, atraviesa Asia y termina en la puerta de una casa en Inglaterra. Un hombre la hizo a pie. Iba a tardar doce años. Tardó veintiocho. ¿Qué lo frenó?",
+      "planos": [
+        {
+          "centro": [
+            -70,
+            -30
+          ],
+          "zoom": 3.3,
+          "entrada": "corte",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            -105,
+            45
+          ],
+          "zoom": 3.3,
+          "entrada": "paneo",
+          "en": "América",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            150,
+            62
+          ],
+          "zoom": 3.3,
+          "entrada": "zoom",
+          "en": "congelado",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            -0.4,
+            53.6
+          ],
+          "zoom": 6.2,
+          "entrada": "zoom",
+          "en": "Inglaterra",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            40,
+            45
+          ],
+          "zoom": 3.2,
+          "entrada": "zoom",
+          "en": "doce",
+          "deriva": 0.05
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "28 AÑOS",
+          "sub": "EL PLAN ERAN 12",
+          "tipo": "linea-tiempo",
+          "desde": "1998",
+          "hasta": "2026",
+          "aparecerEn": "veintiocho",
+          "duracionSeg": 3
+        }
+      ],
+      "contexto": {
+        "texto": "¿QUÉ LO FRENÓ?",
+        "dice": "frenó"
+      },
+      "clave": [
+        "Punta",
+        "Arenas",
+        "congelado",
+        "Inglaterra",
+        "veintiocho"
+      ]
+    },
+    "tarjetaTitulo": {
+      "texto": "¿Por qué tardó 28 años en volver a pie?",
+      "clave": "28 AÑOS"
+    },
+    "capitulos": [
+      {
+        "titulo": "Por qué empezó en Punta Arenas",
+        "bloques": [
+          {
+            "texto": "Todo empieza con una tarjeta de cumpleaños. A mediados de los noventa, Keith Bushby, veterano del ejército británico, le escribe a su hijo Karl sobre una discusión. ¿Se podría ir caminando de Londres a Nueva York, cruzando por el estrecho de Bering?",
+            "planos": [
+              {
+                "centro": [
+                  -40,
+                  50
+                ],
+                "zoom": 3.4,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -168.9,
+                  65.9
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "en": "caminando",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -0.13,
+                "lat": 51.5,
+                "texto": "LONDRES",
+                "tipo": "pin",
+                "aparecerEn": "Londres"
+              },
+              {
+                "lon": -74.0,
+                "lat": 40.7,
+                "texto": "NUEVA YORK",
+                "tipo": "pin",
+                "aparecerEn": "Nueva"
+              }
+            ],
+            "contexto": {
+              "texto": "LA APUESTA",
+              "dice": "discusión"
+            },
+            "clave": [
+              "tarjeta",
+              "Londres",
+              "Nueva",
+              "York",
+              "Bering"
+            ],
+            "iconos": [
+              {
+                "lon": -0.33,
+                "lat": 53.74,
+                "icono": "🎂",
+                "aparecerEn": "cumpleaños",
+                "escala": 1.0
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "AÑOS 90",
+                "sub": "LA TARJETA DE SU PADRE",
+                "tipo": "cifra",
+                "aparecerEn": "noventa",
+                "duracionSeg": 3
+              }
+            ],
+            "tramo": [
+              0,
+              0
+            ]
+          },
+          {
+            "texto": "Karl es paracaidista. Y decide hacerlo de verdad, pero desde el otro extremo del mapa. Mira por qué empieza en Punta Arenas. Desde ahí hasta su casa, en Hull, casi todo es tierra firme. El hueco grande está arriba: Bering. Y en invierno, ese hueco se congela.",
+            "planos": [
+              {
+                "centro": [
+                  -70.9,
+                  -53.2
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -20,
+                  20
+                ],
+                "zoom": 2.8,
+                "entrada": "zoom",
+                "en": "casa",
+                "deriva": 0.05
+              },
+              {
+                "centro": [
+                  -168.9,
+                  65.9
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "en": "Bering",
+                "deriva": 0.25
+              }
+            ],
+            "foto": {
+              "buscar": "Punta Arenas Strait of Magellan",
+              "archivo": "File:Punta Arenas con vista al estrecho de Magallanes.jpg",
+              "pie": "PUNTA ARENAS · EL ESTRECHO DE MAGALLANES",
+              "aparecerEn": "Punta",
+              "duracionSeg": 3
+            },
+            "resaltes": [
+              {
+                "lon": -168.9,
+                "lat": 65.9,
+                "radio": 120,
+                "aparecerEn": "hueco"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -168.9,
+                "lat": 65.9,
+                "texto": "ESTRECHO DE BERING",
+                "tipo": "mar",
+                "aparecerEn": "Bering"
+              }
+            ],
+            "clave": [
+              "paracaidista",
+              "Punta",
+              "Hull",
+              "Bering",
+              "congela"
+            ],
+            "tramo": [
+              0,
+              0
+            ]
+          },
+          {
+            "texto": "Se pone dos reglas. Ningún vehículo puede hacerlo avanzar un solo metro. Y no vuelve a casa hasta llegar caminando. Si tiene que irse, por dinero o por papeles, puede tomar un avión. Pero después vuelve al punto exacto donde se detuvo.",
+            "planos": [
+              {
+                "centro": [
+                  -70.9,
+                  -53.2
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "deriva": 0.15
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.0,
+                "lat": -50.0,
+                "icono": "carretera",
+                "tachado": true,
+                "aparecerEn": "vehículo",
+                "escala": 1.2
+              },
+              {
+                "lon": -66.0,
+                "lat": -50.0,
+                "icono": "✈️",
+                "aparecerEn": "avión",
+                "escala": 1.0
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2 REGLAS",
+                "sub": "NADA DE RUEDAS · A CASA SOLO A PIE",
+                "tipo": "cifra",
+                "aparecerEn": "reglas",
+                "duracionSeg": 4
+              }
+            ],
+            "clave": [
+              "reglas",
+              "vehículo",
+              "caminando",
+              "exacto"
+            ],
+            "tramo": [
+              0,
+              0
+            ]
+          },
+          {
+            "texto": "El primero de noviembre de mil novecientos noventa y ocho sale de Punta Arenas. Tiene veintinueve años y empuja un carrito con todo lo que tiene. Lo llama la Bestia. El plan: unos cincuenta y ocho mil kilómetros en doce años.",
+            "tramo": [
+              0,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.9,
+                  -53.2
+                ],
+                "zoom": 6.4,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -72,
+                  -40
+                ],
+                "zoom": 4.2,
+                "entrada": "zoom",
+                "en": "Bestia",
+                "deriva": 0.15
+              }
+            ],
+            "polaroid": {
+              "buscar": "Karl Bushby The Beast handcart",
+              "archivo": "File:Karl Bushby Homecoming The Beast, Kingston upon Hull Nov26.jpg",
+              "pie": "La Bestia, el carrito de Bushby (Hull, 2026)",
+              "lado": "derecha",
+              "aparecerEn": "Bestia",
+              "duracionSeg": 4
+            },
+            "tarjetas": [
+              {
+                "texto": "58.000 KM",
+                "sub": "EN 12 AÑOS: EL PLAN",
+                "tipo": "cifra",
+                "aparecerEn": "cincuenta",
+                "duracionSeg": 3
+              }
+            ],
+            "clave": [
+              "noviembre",
+              "veintinueve",
+              "Bestia",
+              "doce"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Tarda más de dos años en subir por Sudamérica. Y entonces, el camino se acaba.",
+          "tramo": [
+            1,
+            3
+          ],
+          "planos": [
+            {
+              "centro": [
+                -71,
+                -36
+              ],
+              "zoom": 4.8,
+              "entrada": "zoom",
+              "deriva": 0.2
+            }
+          ],
+          "contexto": {
+            "texto": "EL CAMINO SE ACABA",
+            "dice": "acaba"
+          },
+          "etiquetas": [
+            {
+              "lon": -71.0,
+              "lat": -30.0,
+              "texto": "CHILE",
+              "tipo": "pais",
+              "aparecerEn": "Sudamérica"
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "El Tapón del Darién",
+        "bloques": [
+          {
+            "texto": "La carretera Panamericana une Alaska con la Patagonia. Tiene un solo corte: el Tapón del Darién, la selva entre Colombia y Panamá. Ahí no hay camino. Nunca lo hubo.",
+            "tramo": [
+              3,
+              7
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -90,
+                  10
+                ],
+                "zoom": 2.9,
+                "entrada": "zoom",
+                "deriva": 0.05
+              },
+              {
+                "centro": [
+                  -77.6,
+                  8.0
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "Darién",
+                "deriva": 0.25
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -78.4,
+                    8.9
+                  ],
+                  [
+                    -77.2,
+                    8.6
+                  ],
+                  [
+                    -76.9,
+                    7.4
+                  ],
+                  [
+                    -77.9,
+                    7.2
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "rayas",
+                "etiqueta": "TAPÓN DEL DARIÉN",
+                "aparecerEn": "Darién"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -75.5,
+                "lat": 6.5,
+                "texto": "COLOMBIA",
+                "tipo": "pais",
+                "aparecerEn": "Colombia"
+              },
+              {
+                "lon": -80.0,
+                "lat": 8.6,
+                "texto": "PANAMÁ",
+                "tipo": "pais",
+                "aparecerEn": "Panamá"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.6,
+                "lat": 8.0,
+                "icono": "carretera",
+                "tachado": true,
+                "aparecerEn": "camino"
+              }
+            ],
+            "clave": [
+              "Panamericana",
+              "corte",
+              "Darién",
+              "camino"
+            ]
+          },
+          {
+            "texto": "Según ExplorersWeb, Bushby cruza unos trescientos kilómetros de selva en casi dos meses, a comienzos de dos mil uno. Esquiva las zonas del conflicto armado colombiano. Y sale al otro lado.",
+            "tramo": [
+              7,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.6,
+                  8.0
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "foto": {
+              "buscar": "Jungle path Darien Gap",
+              "archivo": "File:Jungle path in the Darién Gap.jpg",
+              "pie": "UN SENDERO EN EL DARIÉN · COLOMBIA",
+              "aparecerEn": "selva",
+              "duracionSeg": 3.5
+            },
+            "tarjetas": [
+              {
+                "texto": "2 MESES",
+                "sub": "UNOS 300 KM DE SELVA",
+                "tipo": "cifra",
+                "aparecerEn": "meses",
+                "duracionSeg": 3
+              }
+            ],
+            "fuente": {
+              "texto": "ExplorersWeb · abril de 2025",
+              "dice": "ExplorersWeb"
+            },
+            "clave": [
+              "trescientos",
+              "dos",
+              "meses",
+              "conflicto"
+            ]
+          },
+          {
+            "texto": "En Panamá lo espera la policía. Entró por una zona fronteriza restringida. Pasa dieciocho días preso. Es el primer aviso de algo que va a repetirse: lo que más lo frena no es el terreno.",
+            "planos": [
+              {
+                "centro": [
+                  -77.97,
+                  8.5
+                ],
+                "zoom": 7.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.97,
+                "lat": 8.5,
+                "texto": "METETÍ",
+                "tipo": "pin",
+                "aparecerEn": "policía"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "18 DÍAS",
+                "sub": "PRESO EN PANAMÁ",
+                "tipo": "cifra",
+                "icono": "🔒",
+                "aparecerEn": "dieciocho",
+                "duracionSeg": 3
+              }
+            ],
+            "contexto": {
+              "texto": "PRIMER AVISO",
+              "dice": "aviso"
+            },
+            "clave": [
+              "policía",
+              "dieciocho",
+              "terreno"
+            ]
+          },
+          {
+            "texto": "Sigue por Centroamérica y México. El veintinueve de abril de dos mil dos entra a Estados Unidos por Nogales, Arizona. El primer día de dos mil tres, en Montana, le roban la Bestia. La encuentran en una cantera, y él sigue empujando.",
+            "tramo": [
+              8,
+              15
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -95,
+                  20
+                ],
+                "zoom": 4.2,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -110.9,
+                  31.3
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "en": "Nogales",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -111.9,
+                  48.6
+                ],
+                "zoom": 5.6,
+                "entrada": "paneo",
+                "en": "Montana",
+                "deriva": 0.15
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -100.0,
+                "lat": 23.0,
+                "texto": "MÉXICO",
+                "tipo": "pais",
+                "aparecerEn": "México"
+              },
+              {
+                "lon": -104.0,
+                "lat": 38.0,
+                "texto": "ESTADOS UNIDOS",
+                "tipo": "pais",
+                "aparecerEn": "Estados"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -111.9,
+                "lat": 48.6,
+                "icono": "🛒",
+                "aparecerEn": "roban",
+                "tachado": true
+              }
+            ],
+            "clave": [
+              "Nogales",
+              "Montana",
+              "Bestia",
+              "cantera"
+            ]
+          },
+          {
+            "texto": "Canadá, el Yukón, Alaska. En dos mil cinco llega a la costa del mar de Bering. En siete años ha cruzado un continente entero, de punta a punta.",
+            "tramo": [
+              15,
+              19
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -135,
+                  60
+                ],
+                "zoom": 4.2,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -100,
+                  10
+                ],
+                "zoom": 2.6,
+                "entrada": "zoom",
+                "en": "siete",
+                "deriva": 0.05
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -115.0,
+                "lat": 56.0,
+                "texto": "CANADÁ",
+                "tipo": "pais",
+                "aparecerEn": "Canadá"
+              },
+              {
+                "lon": -152.0,
+                "lat": 64.5,
+                "texto": "ALASKA",
+                "tipo": "region",
+                "aparecerEn": "Alaska"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "7 AÑOS",
+                "sub": "UN CONTINENTE ENTERO",
+                "tipo": "linea-tiempo",
+                "desde": "1998",
+                "hasta": "2005",
+                "aparecerEn": "siete",
+                "duracionSeg": 3
+              }
+            ],
+            "clave": [
+              "Yukón",
+              "Alaska",
+              "Bering",
+              "continente"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Delante tiene menos de cien kilómetros de mar. Solo hay que esperar a que se congele.",
+          "planos": [
+            {
+              "centro": [
+                -168.9,
+                65.9
+              ],
+              "zoom": 6.2,
+              "entrada": "zoom",
+              "deriva": 0.25
+            }
+          ],
+          "cotas": [
+            {
+              "desde": [
+                -168.0,
+                65.6
+              ],
+              "hasta": [
+                -169.9,
+                66.1
+              ],
+              "texto": "< 100 KM",
+              "aparecerEn": "cien"
+            }
+          ],
+          "clave": [
+            "cien",
+            "congele"
+          ]
+        }
+      },
+      {
+        "titulo": "Bering: el mar congelado",
+        "bloques": [
+          {
+            "texto": "Según Los Angeles Times, el diecisiete de marzo de dos mil seis sale de Wales, el pueblo más al oeste de Alaska. Va con Dimitri Kieffer, un aventurero franco-estadounidense.",
+            "tramo": [
+              19,
+              20
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -168.1,
+                  65.6
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -168.09,
+                "lat": 65.61,
+                "texto": "WALES",
+                "tipo": "pin",
+                "aparecerEn": "Wales"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "17 MARZO 2006",
+                "sub": "SALEN SOBRE EL HIELO",
+                "tipo": "cifra",
+                "aparecerEn": "diecisiete",
+                "duracionSeg": 3
+              }
+            ],
+            "fuente": {
+              "texto": "Los Angeles Times, 2006",
+              "dice": "Angeles"
+            },
+            "clave": [
+              "marzo",
+              "Wales",
+              "Kieffer"
+            ]
+          },
+          {
+            "texto": "El estrecho mide menos de cien kilómetros. Pero el hielo no se queda quieto: las corrientes arrastran los bloques, y hay que caminar sobre el hielo que hay, no sobre el que uno quisiera.",
+            "planos": [
+              {
+                "centro": [
+                  -168.9,
+                  65.9
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.15
+              }
+            ],
+            "foto": {
+              "buscar": "Spring Ice Bering Strait",
+              "archivo": "File:Spring Ice Chokes the Bering Strait (657).jpg",
+              "pie": "HIELO EN EL ESTRECHO DE BERING · NASA",
+              "aparecerEn": "hielo",
+              "duracionSeg": 3.5
+            },
+            "cotas": [
+              {
+                "desde": [
+                  -168.0,
+                  65.6
+                ],
+                "hasta": [
+                  -169.9,
+                  66.1
+                ],
+                "texto": "~90 KM",
+                "aparecerEn": "estrecho"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -168.6,
+                "lat": 66.4,
+                "icono": "🧊",
+                "ruta": [
+                  [
+                    -168.6,
+                    66.4
+                  ],
+                  [
+                    -168.3,
+                    67.0
+                  ]
+                ],
+                "duracionSeg": 4,
+                "aparecerEn": "corrientes"
+              }
+            ],
+            "clave": [
+              "cien",
+              "quieto",
+              "corrientes"
+            ]
+          },
+          {
+            "texto": "Por eso la ruta se estira a unos doscientos cuarenta kilómetros. Arrastran un trineo sobre placas que crujen. Donde el hielo se abre, se meten al agua con trajes secos y nadan hasta el bloque siguiente.",
+            "tramo": [
+              20,
+              22
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -168.9,
+                  66.1
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "deriva": 0.25
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "240 KM",
+                "sub": "PARA CRUZAR UNOS 90",
+                "tipo": "barras",
+                "barras": [
+                  {
+                    "etiqueta": "ESTRECHO",
+                    "valor": 90
+                  },
+                  {
+                    "etiqueta": "RUTA",
+                    "valor": 240
+                  }
+                ],
+                "aparecerEn": "doscientos",
+                "duracionSeg": 3.5
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -169.2,
+                "lat": 66.3,
+                "icono": "hielo",
+                "aparecerEn": "trineo"
+              },
+              {
+                "lon": -169.4,
+                "lat": 66.2,
+                "icono": "🏊",
+                "aparecerEn": "nadan"
+              }
+            ],
+            "clave": [
+              "doscientos",
+              "trineo",
+              "nadan"
+            ]
+          },
+          {
+            "texto": "Catorce días después pisan Chukotka, el extremo oriental de Rusia, cerca del pueblo de Uelen. Al llegar a Rusia, Bushby lleva unos veintisiete mil kilómetros caminados. Más de la mitad del viaje.",
+            "tramo": [
+              22,
+              23
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -169.8,
+                  66.16
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -100,
+                  20
+                ],
+                "zoom": 2.4,
+                "entrada": "zoom",
+                "en": "veintisiete",
+                "deriva": 0.05
+              }
+            ],
+            "polaroid": {
+              "buscar": "Uelen village Chukotka",
+              "archivo": "File:Uelen 1 2013-08-02.jpg",
+              "pie": "Uelen, Chukotka (verano)",
+              "forma": "marco",
+              "lado": "izquierda",
+              "aparecerEn": "Uelen",
+              "duracionSeg": 4
+            },
+            "tarjetas": [
+              {
+                "texto": "14 DÍAS",
+                "sub": "DE ALASKA A RUSIA A PIE",
+                "tipo": "cifra",
+                "aparecerEn": "Catorce",
+                "duracionSeg": 3
+              }
+            ],
+            "clave": [
+              "Catorce",
+              "Chukotka",
+              "Uelen",
+              "mitad"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Acaba de cruzar a pie de América a Asia, por la frontera entre Estados Unidos y Rusia. Por un lugar donde no hay ningún puesto fronterizo. Y en la orilla, alguien lo está esperando.",
+          "planos": [
+            {
+              "centro": [
+                -169.8,
+                66.16
+              ],
+              "zoom": 7.4,
+              "entrada": "zoom",
+              "deriva": 0.3
+            }
+          ],
+          "iconos": [
+            {
+              "lon": -169.6,
+              "lat": 66.05,
+              "icono": "🚨",
+              "aparecerEn": "esperando"
+            },
+            {
+              "lon": -169.0,
+              "lat": 65.9,
+              "icono": "bandera",
+              "tachado": true,
+              "aparecerEn": "puesto"
+            }
+          ],
+          "contexto": {
+            "texto": "ALGUIEN LO ESPERA",
+            "dice": "esperando"
+          },
+          "clave": [
+            "frontera",
+            "puesto",
+            "esperando"
+          ],
+          "etiquetas": [
+            {
+              "lon": -160.0,
+              "lat": 64.5,
+              "texto": "AMÉRICA",
+              "tipo": "region",
+              "aparecerEn": "América"
+            },
+            {
+              "lon": 175.0,
+              "lat": 67.0,
+              "texto": "ASIA",
+              "tipo": "region",
+              "aparecerEn": "Asia"
+            },
+            {
+              "lon": -166.5,
+              "lat": 65.2,
+              "texto": "ESTADOS UNIDOS",
+              "tipo": "pais",
+              "aparecerEn": "Estados"
+            },
+            {
+              "lon": -172.5,
+              "lat": 66.6,
+              "texto": "RUSIA",
+              "tipo": "pais",
+              "aparecerEn": "Rusia"
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "Rusia le cerró la puerta",
+        "bloques": [
+          {
+            "texto": "Son guardias de frontera. El primero de abril detienen a Bushby y a Kieffer por entrar a Rusia sin pasar por un control. Un tribunal de Chukotka les pone una multa de setenta y dos dólares y ordena deportarlos.",
+            "planos": [
+              {
+                "centro": [
+                  -171.0,
+                  65.6
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.15
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -171.0,
+                "lat": 65.58,
+                "texto": "LAVRENTIYA",
+                "tipo": "pin",
+                "aparecerEn": "tribunal"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "US$ 72",
+                "sub": "MULTA Y ORDEN DE DEPORTACIÓN",
+                "tipo": "cifra",
+                "icono": "tribunal",
+                "aparecerEn": "setenta",
+                "duracionSeg": 3
+              }
+            ],
+            "contexto": {
+              "texto": "DETENIDOS",
+              "dice": "detienen"
+            },
+            "clave": [
+              "detienen",
+              "control",
+              "multa",
+              "deportarlos"
+            ]
+          },
+          {
+            "texto": "Deportado, no podría volver en cinco años. En mayo, la apelación anula la expulsión y la caminata sigue. Parece el final del problema. Es el principio.",
+            "planos": [
+              {
+                "centro": [
+                  -171.0,
+                  65.6
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "deriva": -0.2
+              }
+            ],
+            "fuente": {
+              "texto": "Seattle Times · 15 de abril de 2006",
+              "dice": "Deportado"
+            },
+            "contexto": {
+              "texto": "ES EL PRINCIPIO",
+              "dice": "principio"
+            },
+            "clave": [
+              "cinco",
+              "apelación",
+              "principio"
+            ]
+          },
+          {
+            "texto": "Rusia da visas de turista de noventa días cada ciento ochenta. Bushby camina por tramos: tres meses en Siberia, tres meses afuera, y de vuelta al punto exacto.",
+            "tramo": [
+              23,
+              25
+            ],
+            "planos": [
+              {
+                "centro": [
+                  170,
+                  66
+                ],
+                "zoom": 4.6,
+                "entrada": "zoom",
+                "deriva": 0.15
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "90 / 180",
+                "sub": "DÍAS DE VISA DE TURISTA",
+                "tipo": "cifra",
+                "aparecerEn": "noventa",
+                "duracionSeg": 3.5
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 135.0,
+                "lat": 64.0,
+                "texto": "SIBERIA",
+                "tipo": "region",
+                "aparecerEn": "Siberia"
+              }
+            ],
+            "clave": [
+              "noventa",
+              "tramos",
+              "exacto"
+            ]
+          },
+          {
+            "texto": "En dos mil ocho estalla la crisis financiera y se van los patrocinadores. Pasa dos años esperando en México. En dos mil once vuelve y avanza unos mil cien kilómetros, hasta Srednekolymsk.",
+            "tramo": [
+              25,
+              26
+            ],
+            "planos": [
+              {
+                "centro": [
+                  160,
+                  67
+                ],
+                "zoom": 4.8,
+                "entrada": "paneo",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  153.7,
+                  67.45
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "en": "Srednekolymsk",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2008 – 2010",
+                "sub": "ESPERANDO EN MÉXICO",
+                "tipo": "linea-tiempo",
+                "desde": "2008",
+                "hasta": "2010",
+                "aparecerEn": "México",
+                "duracionSeg": 3
+              }
+            ],
+            "iconos": [
+              {
+                "lon": 163.0,
+                "lat": 67.8,
+                "icono": "dinero",
+                "tachado": true,
+                "aparecerEn": "patrocinadores"
+              }
+            ],
+            "clave": [
+              "crisis",
+              "México",
+              "once",
+              "Srednekolymsk"
+            ]
+          },
+          {
+            "texto": "Y aquí está el giro: en abril de dos mil doce, Rusia le niega la visa. Al año siguiente le prohíbe entrar durante cinco años. El hombre que cruzó el mar congelado a pie queda trabado por un sello en el pasaporte.",
+            "planos": [
+              {
+                "centro": [
+                  140,
+                  64
+                ],
+                "zoom": 3.6,
+                "entrada": "zoom",
+                "deriva": 0.05
+              }
+            ],
+            "areas": [
+              {
+                "pais": "Russia",
+                "color": "rojo",
+                "trama": "rayas",
+                "etiqueta": "PROHIBIDO ENTRAR",
+                "aparecerEn": "prohíbe"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "5 AÑOS",
+                "sub": "SIN ENTRAR A RUSIA",
+                "tipo": "cifra",
+                "aparecerEn": "cinco",
+                "duracionSeg": 3
+              }
+            ],
+            "contexto": {
+              "texto": "EL GIRO",
+              "dice": "giro"
+            },
+            "clave": [
+              "niega",
+              "prohíbe",
+              "cinco",
+              "sello"
+            ]
+          },
+          {
+            "texto": "Su respuesta es la única que conoce: caminar. Recorre unos cuatro mil ochocientos kilómetros, de Los Ángeles a la embajada rusa en Washington, para pedir que lo dejen volver.",
+            "planos": [
+              {
+                "centro": [
+                  -97,
+                  37
+                ],
+                "zoom": 4.0,
+                "entrada": "zoom",
+                "deriva": 0.1
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -118.24,
+                "lat": 34.05,
+                "icono": "🚶",
+                "ruta": [
+                  [
+                    -118.24,
+                    34.05
+                  ],
+                  [
+                    -106.6,
+                    35.1
+                  ],
+                  [
+                    -97.5,
+                    35.5
+                  ],
+                  [
+                    -86.8,
+                    36.2
+                  ],
+                  [
+                    -77.04,
+                    38.9
+                  ]
+                ],
+                "duracionSeg": 8,
+                "aparecerEn": "Recorre"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -118.24,
+                "lat": 34.05,
+                "texto": "LOS ÁNGELES",
+                "tipo": "pin",
+                "aparecerEn": "Ángeles"
+              },
+              {
+                "lon": -77.04,
+                "lat": 38.9,
+                "texto": "WASHINGTON",
+                "tipo": "pin",
+                "aparecerEn": "Washington"
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -118.24,
+                  34.05
+                ],
+                "hasta": [
+                  -77.04,
+                  38.9
+                ],
+                "texto": "4.800 KM",
+                "aparecerEn": "cuatro"
+              }
+            ],
+            "clave": [
+              "caminar",
+              "embajada",
+              "Washington"
+            ]
+          },
+          {
+            "texto": "En dos mil catorce levantan la prohibición. Vuelve a Siberia y la cruza por años, hasta Mongolia. El ocho de agosto de dos mil diecisiete llega a Ulán Bator.",
+            "tramo": [
+              26,
+              31
+            ],
+            "planos": [
+              {
+                "centro": [
+                  140,
+                  62
+                ],
+                "zoom": 4.2,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  107,
+                  48
+                ],
+                "zoom": 5.4,
+                "entrada": "paneo",
+                "en": "Mongolia",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 104.0,
+                "lat": 46.5,
+                "texto": "MONGOLIA",
+                "tipo": "pais",
+                "aparecerEn": "Mongolia"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "8 AGOSTO 2017",
+                "sub": "ULÁN BATOR",
+                "tipo": "cifra",
+                "aparecerEn": "agosto",
+                "duracionSeg": 3
+              }
+            ],
+            "clave": [
+              "catorce",
+              "Siberia",
+              "Mongolia",
+              "Ulán"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Once años después de pisar Rusia, por fin la deja atrás. Ahora le toca Asia central. Y ahí las fronteras son peores.",
+          "planos": [
+            {
+              "centro": [
+                80,
+                43
+              ],
+              "zoom": 4.0,
+              "entrada": "zoom",
+              "deriva": 0.1
+            }
+          ],
+          "contexto": {
+            "texto": "ASIA CENTRAL",
+            "dice": "central"
+          },
+          "clave": [
+            "Once",
+            "Asia",
+            "peores"
+          ]
+        }
+      },
+      {
+        "titulo": "Sin salida en Asia central",
+        "bloques": [
+          {
+            "texto": "Primero, el desierto de Gobi: unos mil ciento treinta kilómetros con camellos, junto a la caminante estadounidense Angela Maxwell.",
+            "tramo": [
+              31,
+              32
+            ],
+            "planos": [
+              {
+                "centro": [
+                  103,
+                  44
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "foto": {
+              "buscar": "Camels in Gobi Desert",
+              "archivo": "File:Camels in Gobi Desert 01.jpg",
+              "pie": "CAMELLOS EN EL DESIERTO DE GOBI",
+              "aparecerEn": "camellos",
+              "duracionSeg": 3.5
+            },
+            "etiquetas": [
+              {
+                "lon": 103.0,
+                "lat": 43.5,
+                "texto": "GOBI",
+                "tipo": "region",
+                "aparecerEn": "Gobi"
+              }
+            ],
+            "clave": [
+              "Gobi",
+              "camellos",
+              "Maxwell"
+            ]
+          },
+          {
+            "texto": "En dos mil dieciocho entra a China. Las autoridades locales lo frenan, hasta que interviene la embajada británica. Después, Kazajistán. En junio de dos mil diecinueve, Uzbekistán. Luego, Turkmenistán. Y en la frontera con Irán, se detiene.",
+            "tramo": [
+              32,
+              38
+            ],
+            "planos": [
+              {
+                "centro": [
+                  88,
+                  43
+                ],
+                "zoom": 4.8,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  66,
+                  40
+                ],
+                "zoom": 5.0,
+                "entrada": "paneo",
+                "en": "Kazajistán",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  58.4,
+                  38.0
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "en": "Irán",
+                "deriva": 0.25
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 85.0,
+                "lat": 41.0,
+                "texto": "CHINA",
+                "tipo": "pais",
+                "aparecerEn": "China"
+              },
+              {
+                "lon": 67.0,
+                "lat": 48.0,
+                "texto": "KAZAJISTÁN",
+                "tipo": "pais",
+                "aparecerEn": "Kazajistán"
+              },
+              {
+                "lon": 64.0,
+                "lat": 41.5,
+                "texto": "UZBEKISTÁN",
+                "tipo": "pais",
+                "aparecerEn": "Uzbekistán"
+              },
+              {
+                "lon": 59.0,
+                "lat": 39.5,
+                "texto": "TURKMENISTÁN",
+                "tipo": "pais",
+                "aparecerEn": "Turkmenistán"
+              },
+              {
+                "lon": 56.0,
+                "lat": 34.0,
+                "texto": "IRÁN",
+                "tipo": "pais",
+                "aparecerEn": "Irán"
+              }
+            ],
+            "clave": [
+              "China",
+              "embajada",
+              "Turkmenistán",
+              "Irán"
+            ]
+          },
+          {
+            "texto": "Irán no le da la visa. Mira el mapa: al norte queda Rusia, al sur, Irán. Para seguir hacia Europa sin pasar por ninguno de los dos, hay que cruzar el mar Caspio.",
+            "planos": [
+              {
+                "centro": [
+                  52,
+                  42
+                ],
+                "zoom": 4.4,
+                "entrada": "zoom",
+                "deriva": 0.1
+              }
+            ],
+            "areas": [
+              {
+                "pais": "Iran",
+                "color": "rojo",
+                "trama": "rayas",
+                "etiqueta": "SIN VISA",
+                "aparecerEn": "Irán"
+              },
+              {
+                "pais": "Russia",
+                "color": "rojo",
+                "trama": "rayas",
+                "etiqueta": "RUSIA",
+                "aparecerEn": "norte"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 51.0,
+                "lat": 42.0,
+                "texto": "MAR CASPIO",
+                "tipo": "mar",
+                "aparecerEn": "Caspio"
+              }
+            ],
+            "resaltes": [
+              {
+                "lon": 51.0,
+                "lat": 42.0,
+                "radio": 160,
+                "aparecerEn": "Caspio"
+              }
+            ],
+            "clave": [
+              "visa",
+              "norte",
+              "sur",
+              "Caspio"
+            ]
+          },
+          {
+            "texto": "Y entonces llega la pandemia. Las fronteras del mundo se cierran. Bushby vuelve a México a esperar, otra vez.",
+            "planos": [
+              {
+                "centro": [
+                  52,
+                  42
+                ],
+                "zoom": 3.0,
+                "entrada": "zoom",
+                "deriva": -0.1
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2020",
+                "sub": "PANDEMIA: TODO SE CIERRA",
+                "tipo": "cifra",
+                "icono": "🦠",
+                "aparecerEn": "pandemia",
+                "duracionSeg": 3
+              }
+            ],
+            "clave": [
+              "pandemia",
+              "cierran",
+              "México"
+            ]
+          },
+          {
+            "texto": "Haz la cuenta. Los primeros veintisiete mil kilómetros, con selva y hielo, le tomaron siete años. Ya van más de veinte, y todavía está en Asia.",
+            "planos": [
+              {
+                "centro": [
+                  0,
+                  30
+                ],
+                "zoom": 2.2,
+                "entrada": "zoom",
+                "deriva": 0.05
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "7 vs 20+",
+                "sub": "AÑOS: LA MITAD DIFÍCIL VS LA FÁCIL",
+                "tipo": "barras",
+                "barras": [
+                  {
+                    "etiqueta": "SELVA Y HIELO",
+                    "valor": 7
+                  },
+                  {
+                    "etiqueta": "PAPELES",
+                    "valor": 21
+                  }
+                ],
+                "aparecerEn": "siete",
+                "duracionSeg": 4
+              }
+            ],
+            "contexto": {
+              "texto": "HAZ LA CUENTA",
+              "dice": "cuenta"
+            },
+            "clave": [
+              "veintisiete",
+              "siete",
+              "veinte",
+              "Asia"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Para cruzar el Caspio hace falta un barco. Y su regla dice que ningún vehículo puede hacerlo avanzar ni un metro.",
+          "planos": [
+            {
+              "centro": [
+                51,
+                42
+              ],
+              "zoom": 5.0,
+              "entrada": "zoom",
+              "deriva": 0.2
+            }
+          ],
+          "iconos": [
+            {
+              "lon": 51.0,
+              "lat": 42.0,
+              "icono": "barco",
+              "tachado": true,
+              "aparecerEn": "barco"
+            }
+          ],
+          "clave": [
+            "barco",
+            "regla",
+            "metro"
+          ]
+        }
+      },
+      {
+        "titulo": "Dos mares a nado hasta Hull",
+        "bloques": [
+          {
+            "texto": "Y aquí está el segundo giro: si no puede cruzar el mar en barco, lo cruza nadando. El plan B nace en dos mil veintidós y tarda dos años en armarse.",
+            "planos": [
+              {
+                "centro": [
+                  51,
+                  42
+                ],
+                "zoom": 5.0,
+                "entrada": "corte",
+                "deriva": 0.15
+              }
+            ],
+            "contexto": {
+              "texto": "EL SEGUNDO GIRO",
+              "dice": "giro"
+            },
+            "clave": [
+              "nadando",
+              "plan",
+              "dos"
+            ]
+          },
+          {
+            "texto": "Primero vuelve a Uzbekistán y camina el desierto de Kyzylkum, desde Bujará hasta la costa. En dos mil veinticuatro se mete al agua cerca de Aktau, en Kazajistán.",
+            "tramo": [
+              38,
+              42
+            ],
+            "planos": [
+              {
+                "centro": [
+                  64.4,
+                  39.8
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  51.2,
+                  43.6
+                ],
+                "zoom": 6.2,
+                "entrada": "paneo",
+                "en": "Aktau",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 62.0,
+                "lat": 42.0,
+                "texto": "KYZYLKUM",
+                "tipo": "region",
+                "aparecerEn": "Kyzylkum"
+              }
+            ],
+            "clave": [
+              "Kyzylkum",
+              "Bujará",
+              "Aktau"
+            ]
+          },
+          {
+            "texto": "Son doscientos ochenta y ocho kilómetros hasta Bakú, en Azerbaiyán. Nada dos turnos de tres horas al día, con Angela Maxwell y dos nadadores azerbaiyanos. De noche duermen en los barcos de apoyo. Tarda alrededor de un mes.",
+            "tramo": [
+              42,
+              43
+            ],
+            "planos": [
+              {
+                "centro": [
+                  50.5,
+                  42.0
+                ],
+                "zoom": 6.0,
+                "entrada": "corte",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  49.9,
+                  40.4
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "en": "noche",
+                "deriva": 0.2
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  51.2,
+                  43.65
+                ],
+                "hasta": [
+                  49.87,
+                  40.41
+                ],
+                "texto": "288 KM",
+                "aparecerEn": "doscientos"
+              }
+            ],
+            "foto": {
+              "buscar": "Caspian sea Baku",
+              "archivo": "File:Caspian sea-Baku.jpg",
+              "pie": "EL MAR CASPIO EN BAKÚ · AZERBAIYÁN",
+              "aparecerEn": "Bakú",
+              "duracionSeg": 3
+            },
+            "tarjetas": [
+              {
+                "texto": "288 KM",
+                "sub": "UN MES NADANDO",
+                "tipo": "cifra",
+                "icono": "🏊",
+                "aparecerEn": "turnos",
+                "duracionSeg": 3.5
+              }
+            ],
+            "clave": [
+              "doscientos",
+              "Bakú",
+              "turnos",
+              "mes"
+            ]
+          },
+          {
+            "texto": "Desde Bakú camina hasta Turquía, y en dos mil veinticinco cruza el Bósforo: entra a Europa. Bulgaria, Rumania, Hungría, Bélgica, Francia.",
+            "tramo": [
+              43,
+              50
+            ],
+            "planos": [
+              {
+                "centro": [
+                  40,
+                  41
+                ],
+                "zoom": 4.6,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  29.0,
+                  41.1
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "Bósforo",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  12,
+                  48
+                ],
+                "zoom": 4.6,
+                "entrada": "zoom",
+                "en": "Bulgaria",
+                "deriva": 0.15
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 29.0,
+                "lat": 41.1,
+                "texto": "BÓSFORO",
+                "tipo": "mar",
+                "aparecerEn": "Bósforo"
+              },
+              {
+                "lon": 15.0,
+                "lat": 51.5,
+                "texto": "EUROPA",
+                "tipo": "region",
+                "aparecerEn": "Europa"
+              }
+            ],
+            "clave": [
+              "Turquía",
+              "Bósforo",
+              "Europa"
+            ]
+          },
+          {
+            "texto": "En Calais queda el último mar. Pide cruzar por el túnel bajo el canal, a pie. Se lo niegan. Así que hace lo mismo que en el Caspio: el cinco de octubre de dos mil veintiséis sale del agua en una playa de Dover. En la arena lo esperan su padre y sus hermanos.",
+            "tramo": [
+              50,
+              52
+            ],
+            "planos": [
+              {
+                "centro": [
+                  1.6,
+                  51.0
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  1.29,
+                  51.1
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "en": "Dover",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": 2.9,
+                "lat": 51.9,
+                "icono": "tren",
+                "tachado": true,
+                "aparecerEn": "túnel"
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  1.55,
+                  50.68
+                ],
+                "hasta": [
+                  1.0,
+                  50.84
+                ],
+                "texto": "CANAL",
+                "aparecerEn": "Caspio"
+              }
+            ],
+            "foto": {
+              "buscar": "Shakespeare beach Dover",
+              "archivo": "File:Shakespeare beach - geograph.org.uk - 5459173.jpg",
+              "pie": "SHAKESPEARE BEACH · DOVER",
+              "aparecerEn": "playa",
+              "duracionSeg": 3
+            },
+            "tarjetas": [
+              {
+                "texto": "5 OCTUBRE 2026",
+                "sub": "LLEGA A NADO A INGLATERRA",
+                "tipo": "cifra",
+                "aparecerEn": "octubre",
+                "duracionSeg": 3
+              }
+            ],
+            "clave": [
+              "Calais",
+              "túnel",
+              "niegan",
+              "Dover",
+              "padre"
+            ]
+          },
+          {
+            "texto": "Le quedan unos cuatrocientos kilómetros. El dos de noviembre llega a Hull. Según la agencia AP, cientos de personas lo esperan frente al ayuntamiento. La alcaldesa le dice que la ciudad lo esperó diez mil doscientos veintinueve días.",
+            "tramo": [
+              52,
+              55
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -0.3,
+                  52.4
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -0.34,
+                  53.74
+                ],
+                "zoom": 10.5,
+                "entrada": "zoom",
+                "en": "Hull",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Hull City Hall",
+              "archivo": "File:Hull City Hall Apr23.jpg",
+              "pie": "El ayuntamiento de Hull",
+              "anio": "2026",
+              "lado": "derecha",
+              "aparecerEn": "ayuntamiento",
+              "duracionSeg": 4
+            },
+            "tarjetas": [
+              {
+                "texto": "10.229 DÍAS",
+                "sub": "LA ESPERA DE HULL",
+                "tipo": "cifra",
+                "aparecerEn": "diez",
+                "duracionSeg": 3.5
+              }
+            ],
+            "fuente": {
+              "texto": "AP · 2 de noviembre de 2026",
+              "dice": "AP"
+            },
+            "clave": [
+              "noviembre",
+              "Hull",
+              "ayuntamiento",
+              "diez"
+            ]
+          },
+          {
+            "texto": "Camina los últimos cinco kilómetros hasta la casa de su madre. Su madre, Angela, lo abraza en la puerta y le pregunta: ¿Dónde estabas? Lo espera su hijo Adam, que tenía ocho años cuando él partió. Hoy tiene treinta y seis. Y una nieta de doce que nunca había visto.",
+            "planos": [
+              {
+                "centro": [
+                  -0.36,
+                  53.77
+                ],
+                "zoom": 11.5,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "foto": {
+              "buscar": "Karl Bushby Homecoming House Hull",
+              "archivo": "File:Karl Bushby Homecoming House, Kingston upon Hull Nov26.jpg",
+              "pie": "LA CASA DE SU MADRE · HULL, 2 NOV 2026",
+              "aparecerEn": "casa",
+              "duracionSeg": 3.5
+            },
+            "contexto": {
+              "texto": "¿DÓNDE ESTABAS?",
+              "dice": "Dónde"
+            },
+            "clave": [
+              "madre",
+              "Dónde",
+              "estabas",
+              "ocho",
+              "treinta"
+            ],
+            "tarjetas": [
+              {
+                "texto": "8 → 36",
+                "sub": "LA EDAD DE SU HIJO, ADAM",
+                "tipo": "linea-tiempo",
+                "desde": "1998",
+                "hasta": "2026",
+                "aparecerEn": "ocho",
+                "duracionSeg": 3.5
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -0.33,
+                "lat": 53.76,
+                "icono": "👧",
+                "aparecerEn": "nieta",
+                "escala": 0.9
+              }
+            ]
+          },
+          {
+            "texto": "Cincuenta mil kilómetros, cuatro continentes, unos treinta países. ¿Qué lo frenó? No fue la selva ni el hielo. De sus veintiocho años de viaje, caminó unos quince. El resto fue esperar.",
+            "planos": [
+              {
+                "centro": [
+                  20,
+                  35
+                ],
+                "zoom": 2.2,
+                "entrada": "zoom",
+                "deriva": 0.05
+              },
+              {
+                "centro": [
+                  20,
+                  35
+                ],
+                "zoom": 2.6,
+                "entrada": "corte",
+                "en": "quince",
+                "deriva": 0.05
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "50.000 KM",
+                "sub": "4 CONTINENTES · 30 PAÍSES",
+                "tipo": "cifra",
+                "aparecerEn": "Cincuenta",
+                "duracionSeg": 3.5
+              },
+              {
+                "texto": "15 + 13",
+                "sub": "AÑOS CAMINANDO + AÑOS ESPERANDO",
+                "tipo": "barras",
+                "barras": [
+                  {
+                    "etiqueta": "CAMINANDO",
+                    "valor": 15
+                  },
+                  {
+                    "etiqueta": "ESPERANDO",
+                    "valor": 13
+                  }
+                ],
+                "aparecerEn": "quince",
+                "duracionSeg": 4
+              }
+            ],
+            "contexto": {
+              "texto": "¿QUÉ LO FRENÓ?",
+              "dice": "frenó"
+            },
+            "clave": [
+              "Cincuenta",
+              "frenó",
+              "quince",
+              "esperar"
+            ]
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "Caminó quince años. Esperó trece. En el próximo de Del estrecho al canal: los catorce días sobre el hielo de Bering.",
+      "planos": [
+        {
+          "centro": [
+            10,
+            40
+          ],
+          "zoom": 2.2,
+          "entrada": "corte",
+          "deriva": 0.05
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -90,
+          "lat": 10,
+          "texto": "15 AÑOS CAMINANDO"
+        },
+        {
+          "lon": 90,
+          "lat": 50,
+          "texto": "13 AÑOS ESPERANDO"
+        }
+      ],
+      "pie": "La próxima: catorce días caminando sobre el hielo de Bering",
+      "segundosFinales": 12,
+      "serie": "Del estrecho al canal"
+    },
+    "fuentes": [
+      {
+        "texto": "AP: Karl Bushby vuelve a Hull tras 28 años y 31.000 millas (2026-11-02)",
+        "url": "https://www.ajc.com/news/2026/11/karl-bushby-returns-home-to-northern-england-after-a-28-year-31000-mile-walk-around-the-world/"
+      },
+      {
+        "texto": "PA / Irish Examiner: llegada a Hull (2026-11-02)",
+        "url": "https://www.irishexaminer.com/world/arid-41932203.html"
+      },
+      {
+        "texto": "AFP / The Standard: el último obstáculo, el canal (2026-09-25)",
+        "url": "https://www.thestandard.com.hk/world/article/343869/After-50000-km-British-round-the-world-walker-faces-final-hurdle"
+      },
+      {
+        "texto": "ExplorersWeb: el último tramo de la caminata (2025-04-28)",
+        "url": "https://explorersweb.com/karl-bushby-begins-home-stretch-of-27-year-round-the-world-walk/"
+      },
+      {
+        "texto": "ExplorersWeb: el cruce del Caspio a nado (2024-10-19)",
+        "url": "https://explorersweb.com/karl-bushby-and-angela-maxwell-swim-across-the-caspian-sea/"
+      },
+      {
+        "texto": "Los Angeles Times: detenidos tras cruzar Bering (2006-04-05)",
+        "url": "https://www.spokesman.com/stories/2006/apr/05/adventurers-held-by-russians-after-crossing/"
+      },
+      {
+        "texto": "Seattle Times: el tribunal ruso ordena deportarlos (2006-04-15)",
+        "url": "https://archive.seattletimes.com/archive/20060415/deport15m/world-trek-threatened-by-russian-court-order"
+      },
+      {
+        "texto": "Wikipedia: Karl Bushby (cronología, fuente secundaria)",
+        "url": "https://en.wikipedia.org/wiki/Karl_Bushby"
+      }
+    ]
+  }
+}
