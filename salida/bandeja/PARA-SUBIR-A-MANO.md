@@ -1,6 +1,6 @@
 # Videos listos para subir a mano (YouTube Studio)
 
-Generado: 2026-11-08 04:18 (America/Santiago) · 3 Short(s) + 1 video(s) largo(s), en orden de calendario.
+Generado: 2026-11-08 04:47 (America/Santiago) · 4 Short(s) + 1 video(s) largo(s), en orden de calendario.
 
 Cómo: YouTube Studio → **Crear → Subir videos** → elige el archivo indicado. Copia el título y la
 descripción **tal cual** (la descripción ya trae los hashtags al final). En "Público": **No, no es
@@ -47,10 +47,47 @@ Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y N
 shorts, geografia, mapas, fronteras, historia, alaska
 ```
 
-## 2. ¿Por qué un francés firmó el tratado que partió a Panamá en dos?
+## 2. ¿Por qué México recuperó tierra de Texas moviendo un río?
+
+- **Archivo:** `2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42455120762
+- **Programar para:** 2026-11-10 12:00 (America/Santiago)
+- **Id:** `2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas` · **Plantilla:** frontera · **Duración:** 02:17 · **Categoría:** Entretenimiento
+
+**Título:**
+```
+¿Por qué México recuperó tierra de Texas moviendo un río?
+```
+
+**Descripción:**
+```
+En 1864 una crecida del río Bravo dejó parte de México del lado de El Paso. Siguieron casi cien años de discusión: un tratado de 1884, un arbitraje de 1911 que Estados Unidos rechazó y, por fin, la Convención del Chamizal de 1963. México recibió, en neto, unas 177 hectáreas, y para que la nueva línea fuera real hubo que cavarle otro cauce al río: unos 7 km forrados en concreto, con miles de vecinos mudados.
+
+Fuentes:
+- National Park Service: Un siglo de conflicto (1848, 1864, 1884, arbitraje de 1911): https://www.nps.gov/cham/learn/historyculture/conflict.htm
+- National Park Service: texto de la Convención del Chamizal (29-8-1963): https://www.nps.gov/cham/learn/historyculture/chamizalconvention.htm
+- National Park Service: aplicación de la Convención (630 acres a México, 193 a EE. UU.; casi 5.600 residentes reubicados): https://www.nps.gov/cham/learn/historyculture/implementation.htm
+- National Park Service: folleto del Memorial (canal de concreto de 4,3 millas): https://www.nps.gov/cham/planyourvisit/web-brochure.htm
+- NPR (2014): EE. UU. devolvió 437 acres a México: https://www.npr.org/2014/09/25/350885341/50-years-ago-a-fluid-border-made-the-u-s-1-square-mile-smaller
+
+Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
+
+#shorts #geografia #mapas #fronteras #historia #mexico
+```
+
+**Hashtags:**
+```
+#shorts #geografia #mapas #fronteras #historia #mexico
+```
+
+**Etiquetas** (campo "Etiquetas" de Studio):
+```
+shorts, geografia, mapas, fronteras, historia, mexico
+```
+
+## 3. ¿Por qué un francés firmó el tratado que partió a Panamá en dos?
 
 - **Archivo:** `2026-11-08-frontera-por-que-un-frances-firmo-el-tratado.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42452951795
-- **Programar para:** 2026-11-10 12:00 (America/Santiago)
+- **Programar para:** 2026-11-10 18:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-por-que-un-frances-firmo-el-tratado` · **Plantilla:** frontera · **Duración:** 02:15 · **Categoría:** Entretenimiento
 
 **Título:**
@@ -83,10 +120,10 @@ Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y N
 shorts, geografia, mapas, fronteras, historia, panama
 ```
 
-## 3. Soldados entraron a un país sin ejército y culparon a Google Maps
+## 4. Soldados entraron a un país sin ejército y culparon a Google Maps
 
 - **Archivo:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito.mp4` dentro del artifact `shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42450196589
-- **Programar para:** 2026-11-10 18:00 (America/Santiago)
+- **Programar para:** 2026-11-11 12:00 (America/Santiago)
 - **Id:** `2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito` · **Plantilla:** frontera · **Duración:** 02:24 · **Categoría:** Entretenimiento
 
 **Título:**

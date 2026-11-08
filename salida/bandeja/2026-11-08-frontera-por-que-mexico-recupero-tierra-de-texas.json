@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas",
+  "plantilla": "frontera",
+  "titulo": "¿Por qué México recuperó tierra de Texas moviendo un río?",
+  "descripcion": "En 1864 una crecida del río Bravo dejó parte de México del lado de El Paso. Siguieron casi cien años de discusión: un tratado de 1884, un arbitraje de 1911 que Estados Unidos rechazó y, por fin, la Convención del Chamizal de 1963. México recibió, en neto, unas 177 hectáreas, y para que la nueva línea fuera real hubo que cavarle otro cauce al río: unos 7 km forrados en concreto, con miles de vecinos mudados.\n\nFuentes:\n- National Park Service: Un siglo de conflicto (1848, 1864, 1884, arbitraje de 1911): https://www.nps.gov/cham/learn/historyculture/conflict.htm\n- National Park Service: texto de la Convención del Chamizal (29-8-1963): https://www.nps.gov/cham/learn/historyculture/chamizalconvention.htm\n- National Park Service: aplicación de la Convención (630 acres a México, 193 a EE. UU.; casi 5.600 residentes reubicados): https://www.nps.gov/cham/learn/historyculture/implementation.htm\n- National Park Service: folleto del Memorial (canal de concreto de 4,3 millas): https://www.nps.gov/cham/planyourvisit/web-brochure.htm\n- NPR (2014): EE. UU. devolvió 437 acres a México: https://www.npr.org/2014/09/25/350885341/50-years-ago-a-fluid-border-made-the-u-s-1-square-mile-smaller\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#mexico"
+  ],
+  "duracionSeg": 136.6,
+  "estado": "listo",
+  "tipo": "short",
+  "artefacto": "`shorts-2026-11-08` del run https://github.com/sinostrozadev/linea-punteada/actions/runs/42455120762"
+}
