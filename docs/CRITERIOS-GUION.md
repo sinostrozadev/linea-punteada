@@ -13,8 +13,9 @@
 | B7 | Título ≤ 70 con contradicción, no repetido ni de Ñerd (REFERENTES §6) | parcial |
 
 ### Bloqueantes extra del largo (`largo` 16:9)
-| B8 | Duración real ≥ 8:00 y 1.100–1.400 palabras; 4–6 capítulos de 90–150 s, cada uno con su giro | parcial: zod de `src/plantillas/largo/guion.ts` + ffprobe |
+| # | Criterio | ¿Lo comprueba una máquina? |
 |---|---|---|
+| B8 | Duración real ≥ 8:00 y 1.100–1.400 palabras; 4–6 capítulos de 90–150 s, cada uno con su giro | parcial: zod de `src/plantillas/largo/guion.ts` + ffprobe |
 | B9 | Re-enganche 10–15 s antes de cada mid-roll; el primer corte no antes de ~2:30 | no: revisor |
 | B10 | Validador del largo sin errores: nada estático > 8 s, ≥ 1 s cada 3 palabras, R1–R5 | sí: `preparar-largo.mts` (modelo.ts) |
 | B11 | Texto 100 % nuevo (no compilación, orden de Santiago 11-08) | no: revisor |
