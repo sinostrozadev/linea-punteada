@@ -637,7 +637,7 @@
                 ],
                 "zoom": 7.6,
                 "entrada": "zoom",
-                "en": "selva",
+                "en": "carretera",
                 "deriva": 0.2
               }
             ],
@@ -2163,7 +2163,7 @@
                 "texto": "+500.000",
                 "sub": "CRUCES EN 2023",
                 "tipo": "barras",
-                "aparecerEn": "medio",
+                "aparecerEn": "veintitrés",
                 "duracionSeg": 3.6,
                 "barras": [
                   {
