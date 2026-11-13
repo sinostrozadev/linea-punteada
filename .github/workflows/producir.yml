@@ -25,8 +25,8 @@ on:
         default: ''
         type: string
       fragmentos:
-        description: 'En cuántos runners paralelos se reparte el render (1 = uno solo; 6 por defecto; máx. 16)'
-        default: '6'
+        description: 'En cuántos runners paralelos se reparte el render (1 = uno solo; 10 por defecto; máx. 16)'
+        default: '10'
         type: string
       commit:
         description: 'Commitear el estado (guion movido, json de bandeja, hoja) como bot. A mano por defecto NO: solo artifact. Schedule/push siempre commitean'
@@ -132,8 +132,8 @@ jobs:
           cat /tmp/comps.txt
           frames=$(awk -v c="$comp" '$1==c {print $4}' /tmp/comps.txt | head -1)
           [ -n "$frames" ] || { echo "::error::No pude leer la duración de la composición $comp"; exit 1; }
-          n="${{ inputs.fragmentos || '6' }}"
-          [ "$n" -ge 1 ] 2>/dev/null || n=6; [ "$n" -le 16 ] || n=16
+          n="${{ inputs.fragmentos || '10' }}"
+          [ "$n" -ge 1 ] 2>/dev/null || n=10; [ "$n" -le 16 ] || n=16
           # nunca fragmentos de menos de 120 frames
           while [ "$n" -gt 1 ] && [ $(( frames / n )) -lt 120 ]; do n=$(( n - 1 )); done
           indices=$(seq -s, 0 $(( n - 1 )) | sed 's/^/[/; s/$/]/')
@@ -278,13 +278,16 @@ jobs:
           set -e
           mkdir -p salida/bandeja
           ls -la fragmentos
+          # ffmpeg de Remotion (el runner no trae ffmpeg en el PATH)
+          FF="$PWD/node_modules/@remotion/compositor-linux-x64-gnu/ffmpeg"
+          export LD_LIBRARY_PATH="$(dirname "$FF")${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
           for f in $(ls fragmentos/frag-*.mp4 | sort); do echo "file '$PWD/$f'"; done > lista.txt
-          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
+          "$FF" -hide_banner -loglevel error -y -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
           inicio=$(date +%s)
           npx remotion render src/index.ts "$COMP" audio.aac --props="salida/trabajo/$ID.props.json" \
             --codec=aac --timeout=180000 --log=error $GLFLAG
           echo "⏱ audio: $(( $(date +%s) - inicio )) s"
-          ffmpeg -hide_banner -loglevel error -y -i video-mudo.mp4 -i audio.aac -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart "salida/bandeja/$ID.mp4"
+          "$FF" -hide_banner -loglevel error -y -i video-mudo.mp4 -i audio.aac -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart "salida/bandeja/$ID.mp4"
           ls -la "salida/bandeja/$ID.mp4"
 
       - name: Registrar en la bandeja (json) y nombre del artifact
@@ -294,7 +297,7 @@ jobs:
         run: |
           echo "fecha=$FECHA" >> "$GITHUB_OUTPUT"
           export LINEA_ARTEFACTO="\`shorts-$FECHA-${GITHUB_RUN_ID}\` del run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          NUBE_FASE=final LINEA_PLANTILLAS_MANUALES=1 npx tsx scripts/diario.mts --sin-generar --sin-subir --solo-render
+          NUBE_FASE=final npx tsx scripts/diario.mts --sin-generar --sin-subir --solo-render
 
       - name: Hojas de contacto
         if: always()
