@@ -1,0 +1,721 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-canada-y-dinamarca-se-pelearon",
+  "titulo": "¿Por qué Canadá y Dinamarca se pelearon 49 años con botellas?",
+  "descripcion": "Una roca de poco más de un kilómetro en medio del canal Kennedy, entre Canadá y Groenlandia, quedó sin dueño cuando los dos países trazaron su límite marítimo en 1973. Durante décadas la disputa se jugó con banderas y botellas: en 1984 soldados canadienses dejaron whisky, y ese mismo año el ministro danés para Groenlandia dejó licor danés con una nota. En junio de 2022 firmaron en Ottawa un acuerdo que parte la isla Hans siguiendo una grieta natural y que le da a Canadá su segunda frontera terrestre.\n\nFuentes:\n- Gobierno de Canadá, comunicado del 14-06-2022: https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html\n- Hans Island (resumen y cronología): https://en.wikipedia.org/wiki/Hans_Island\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#canada",
+    "#groenlandia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-canada-y-dinamarca-se-pelearon",
+    "cabecera": "ISLA HANS — LA GUERRA DE LAS BOTELLAS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ES ESTA ROCA?",
+      "clave": "ROCA",
+      "paises": [
+        "Canada",
+        "Greenland"
+      ],
+      "centro": [
+        -62,
+        76
+      ],
+      "zoom": 3.6,
+      "pines": [
+        {
+          "lon": -66.46,
+          "lat": 80.828,
+          "texto": "ISLA HANS"
+        }
+      ],
+      "icono": "🍾"
+    },
+    "gancho": {
+      "texto": "Mira el estrecho entre Canadá y Groenlandia. En el medio hay una roca pelada de poco más de un kilómetro, y dos países la defendieron con botellas de alcohol. ¿Por qué?",
+      "rotulo": "¿CON BOTELLAS?",
+      "planos": [
+        {
+          "centro": [
+            -62,
+            76
+          ],
+          "zoom": 3.8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -66.6,
+            80.7
+          ],
+          "zoom": 7,
+          "entrada": "zoom",
+          "en": "medio",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -66.46,
+            80.828
+          ],
+          "zoom": 11.4,
+          "entrada": "zoom",
+          "en": "kilómetro",
+          "deriva": 0.25
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Canada",
+          "color": "rojo",
+          "etiqueta": "CANADÁ",
+          "etiquetaEn": [
+            -80,
+            76
+          ],
+          "aparecerEn": "Canadá",
+          "desaparecerEn": "medio"
+        },
+        {
+          "pais": "Greenland",
+          "color": "verde",
+          "etiqueta": "GROENLANDIA",
+          "etiquetaEn": [
+            -42,
+            74
+          ],
+          "aparecerEn": "Groenlandia",
+          "desaparecerEn": "medio"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -66.46,
+          "lat": 80.828,
+          "texto": "ISLA HANS",
+          "tipo": "pin",
+          "aparecerEn": "roca"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -66.52,
+          "lat": 80.826,
+          "icono": "🥃",
+          "escala": 0.9,
+          "aparecerEn": "botellas"
+        },
+        {
+          "lon": -66.4,
+          "lat": 80.83,
+          "icono": "🍾",
+          "escala": 0.9,
+          "aparecerEn": "alcohol"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "Canadá",
+        "Groenlandia",
+        "roca",
+        "botellas"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que fue una broma de diplomáticos aburridos, sin nada en juego. La verdad es más rara.",
+        "rotulo": {
+          "texto": "UNA BROMA",
+          "dice": "broma"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.5,
+              80.78
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -66.46,
+            "lat": 80.85,
+            "icono": "😄",
+            "escala": 1,
+            "aparecerEn": "broma",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "broma",
+          "diplomáticos",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un tratado, una bandera y una botella. Y al final, la roca le dio a Canadá un vecino nuevo.",
+        "rotulo": {
+          "texto": "TRES COSAS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.6,
+              80.7
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "📜",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "🚩",
+            "texto": "BANDERA",
+            "dice": "bandera"
+          },
+          {
+            "icono": "🍾",
+            "texto": "BOTELLA",
+            "dice": "botella"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "tratado",
+          "bandera",
+          "botella",
+          "vecino"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el tratado. En 1973 Canadá y Dinamarca trazan su límite por el mar que separa la isla de Ellesmere de Groenlandia. Al llegar a la isla Hans no se ponen de acuerdo. La línea se corta en la orilla sur y sigue en la orilla norte. La roca queda en blanco.",
+        "rotulo": {
+          "texto": "1973",
+          "dice": "1973"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.8,
+              80.5
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.5,
+              80.8
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "Hans",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 11.2,
+            "entrada": "zoom",
+            "en": "corta",
+            "deriva": 0.25
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -72,
+            "lat": 80.4,
+            "texto": "ISLA DE ELLESMERE",
+            "tipo": "region",
+            "aparecerEn": "Ellesmere",
+            "desaparecerEn": "Hans"
+          },
+          {
+            "lon": -60,
+            "lat": 80.2,
+            "texto": "GROENLANDIA",
+            "tipo": "region",
+            "aparecerEn": "Groenlandia",
+            "desaparecerEn": "Hans"
+          },
+          {
+            "lon": -66.9,
+            "lat": 80.65,
+            "texto": "CANAL KENNEDY",
+            "tipo": "mar",
+            "aparecerEn": "mar",
+            "desaparecerEn": "corta"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1973",
+            "sub": "TRATADO DE LÍMITES",
+            "icono": "tratado",
+            "aparecerEn": "1973",
+            "duracionSeg": 2.6
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -66.46,
+            "lat": 80.828,
+            "radio": 120,
+            "aparecerEn": "blanco"
+          }
+        ],
+        "contexto": {
+          "texto": "EN BLANCO",
+          "dice": "blanco"
+        },
+        "clave": [
+          "1973",
+          "Ellesmere",
+          "Hans",
+          "sur",
+          "norte",
+          "blanco"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la bandera. En 1984 soldados canadienses clavan una bandera y dejan una botella de whisky. Ese mismo año llega el ministro danés para Groenlandia, cambia la bandera y deja licor danés con una nota: bienvenidos a la isla danesa. Durante años, las visitas se turnan la bandera.",
+        "rotulo": {
+          "texto": "1984",
+          "dice": "1984"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 12,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -66.46,
+              80.826
+            ],
+            "zoom": 12.3,
+            "entrada": "corte",
+            "en": "ministro",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "Durante",
+            "deriva": 0.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -66.47,
+            "lat": 80.829,
+            "icono": "🇨🇦",
+            "escala": 1.1,
+            "aparecerEn": "soldados",
+            "desaparecerEn": "cambia"
+          },
+          {
+            "lon": -66.45,
+            "lat": 80.827,
+            "icono": "🥃",
+            "escala": 0.9,
+            "aparecerEn": "whisky",
+            "desaparecerEn": "Durante"
+          },
+          {
+            "lon": -66.47,
+            "lat": 80.829,
+            "icono": "🇩🇰",
+            "escala": 1.1,
+            "aparecerEn": "cambia"
+          },
+          {
+            "lon": -66.44,
+            "lat": 80.831,
+            "icono": "🍾",
+            "escala": 0.9,
+            "aparecerEn": "licor",
+            "desaparecerEn": "Durante"
+          },
+          {
+            "lon": -66.48,
+            "lat": 80.832,
+            "icono": "✉️",
+            "escala": 0.8,
+            "aparecerEn": "nota",
+            "desaparecerEn": "Durante"
+          }
+        ],
+        "contexto": {
+          "texto": "BIENVENIDOS",
+          "dice": "bienvenidos"
+        },
+        "clave": [
+          "1984",
+          "whisky",
+          "ministro",
+          "licor",
+          "danesa"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la botella. Habían pasado 49 años desde el tratado. En junio de 2022 los cancilleres de los dos países firman en Ottawa y se intercambian botellas. Según el Gobierno de Canadá, el acuerdo parte la isla en dos siguiendo una grieta natural que la cruza de lado a lado.",
+        "rotulo": {
+          "texto": "2022",
+          "dice": "2022"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "en": "grieta",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2022",
+            "sub": "ACUERDO EN OTTAWA · 49 AÑOS DESPUÉS",
+            "icono": "tratado",
+            "aparecerEn": "junio",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -66.47,
+            "lat": 80.83,
+            "icono": "🥃",
+            "escala": 0.9,
+            "aparecerEn": "intercambian",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -66.45,
+            "lat": 80.826,
+            "icono": "🍾",
+            "escala": 0.9,
+            "aparecerEn": "intercambian",
+            "desaparecerEn": "Según"
+          }
+        ],
+        "fuente": {
+          "texto": "Gobierno de Canadá · comunicado del 14-06-2022",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "UNA GRIETA",
+          "dice": "grieta"
+        },
+        "clave": [
+          "49",
+          "2022",
+          "Ottawa",
+          "botellas",
+          "grieta"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: esa grieta es una frontera terrestre. Canadá, que solo limitaba por tierra con Estados Unidos, ahora tiene un segundo vecino: el Reino de Dinamarca. Y el mismo acuerdo cerró la frontera marítima más larga del mundo: casi 4.000 kilómetros.",
+        "rotulo": {
+          "texto": "4.000 KM",
+          "dice": "4.000"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 12.2,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -80,
+              60
+            ],
+            "zoom": 3,
+            "entrada": "zoom",
+            "en": "Estados",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -62,
+              72
+            ],
+            "zoom": 3.6,
+            "entrada": "zoom",
+            "en": "acuerdo",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "United States of America",
+            "color": "azul",
+            "etiqueta": "EE. UU.",
+            "etiquetaEn": [
+              -100,
+              40
+            ],
+            "aparecerEn": "Estados",
+            "desaparecerEn": "acuerdo"
+          },
+          {
+            "pais": "Greenland",
+            "color": "verde",
+            "etiqueta": "REINO DE DINAMARCA",
+            "etiquetaEn": [
+              -42,
+              74
+            ],
+            "aparecerEn": "Dinamarca"
+          }
+        ],
+        "contexto": {
+          "texto": "UN VECINO NUEVO",
+          "dice": "vecino"
+        },
+        "clave": [
+          "giro",
+          "terrestre",
+          "segundo",
+          "Dinamarca",
+          "4.000"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy en la isla Hans no vive nadie. Es una roca de hielo y piedra en medio del canal Kennedy, a medio camino entre las dos costas. Y por su grieta pasa una línea que nadie vigila: al oeste, Canadá; al este, Groenlandia.",
+        "rotulo": {
+          "texto": "NADIE",
+          "dice": "nadie"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.6,
+              80.7
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.46,
+              80.828
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "en": "grieta",
+            "deriva": 0.25
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -66.9,
+            "lat": 80.65,
+            "texto": "CANAL KENNEDY",
+            "tipo": "mar",
+            "aparecerEn": "Kennedy",
+            "desaparecerEn": "grieta"
+          },
+          {
+            "lon": -66.485,
+            "lat": 80.825,
+            "texto": "CANADÁ",
+            "tipo": "region",
+            "aparecerEn": "oeste"
+          },
+          {
+            "lon": -66.435,
+            "lat": 80.832,
+            "texto": "GROENLANDIA",
+            "tipo": "region",
+            "aparecerEn": "este"
+          }
+        ],
+        "contexto": {
+          "texto": "SIN GUARDIAS",
+          "dice": "vigila"
+        },
+        "clave": [
+          "nadie",
+          "Kennedy",
+          "grieta",
+          "oeste",
+          "este"
+        ]
+      }
+    ],
+    "remate": "Los dos dejaron una botella. Los dos se llevaron un pedazo de roca.",
+    "remateEtiquetas": [
+      {
+        "lon": -66.485,
+        "lat": 80.825,
+        "texto": "UNA BOTELLA"
+      },
+      {
+        "lon": -66.435,
+        "lat": 80.832,
+        "texto": "UN PEDAZO DE ROCA"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Gobierno de Canadá (Global Affairs Canada): acuerdo con el Reino de Dinamarca y Groenlandia, 14-06-2022",
+        "url": "https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html"
+      },
+      {
+        "texto": "Wikipedia: Hans Island",
+        "url": "https://en.wikipedia.org/wiki/Hans_Island"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -66.6,
+        80.7
+      ],
+      "zoomInicial": 7,
+      "zoomFinal": 8,
+      "lineas": [
+        {
+          "id": "limite-1973-sur",
+          "puntos": [
+            [
+              -68.2,
+              80.25
+            ],
+            [
+              -67.3,
+              80.6
+            ],
+            [
+              -66.47,
+              80.82
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "sur",
+          "etiqueta": "LÍMITE 1973"
+        },
+        {
+          "id": "limite-1973-norte",
+          "puntos": [
+            [
+              -66.45,
+              80.836
+            ],
+            [
+              -65.6,
+              81.05
+            ],
+            [
+              -64.4,
+              81.3
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "norte"
+        },
+        {
+          "id": "grieta-2022",
+          "puntos": [
+            [
+              -66.475,
+              80.821
+            ],
+            [
+              -66.462,
+              80.827
+            ],
+            [
+              -66.448,
+              80.834
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "grieta",
+          "etiqueta": "FRONTERA 2022"
+        }
+      ]
+    }
+  }
+}
