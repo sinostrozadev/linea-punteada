@@ -1,0 +1,911 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-brasil-le-regalo-a-uruguay",
+  "titulo": "¿Por qué Brasil le regaló a Uruguay la mitad de una laguna?",
+  "descripcion": "Durante casi sesenta años, toda el agua de la laguna Merín y del río Yaguarón fue brasileña, hasta la orilla uruguaya. En 1851, con Uruguay recién salido de la Guerra Grande y endeudado con Brasil, los tratados de límites le dieron a Brasil la navegación exclusiva. En 1909, sin guerra ni fallo de por medio, el barón de Río Branco firmó un tratado que llevó la frontera al medio de la laguna y del río. Seis años antes, el mismo barón había cerrado la compra de Acre a Bolivia. Hoy, frente a Jaguarão, la ciudad uruguaya del otro lado del río lleva su nombre.\n\nFuentes:\n- Laguna Merín: https://es.wikipedia.org/wiki/Laguna_Mer%C3%ADn\n- Río Branco (Uruguay): https://es.wikipedia.org/wiki/R%C3%ADo_Branco_(Uruguay)\n- José Maria da Silva Paranhos Júnior, barón de Rio Branco: https://pt.wikipedia.org/wiki/Jos%C3%A9_Maria_da_Silva_Paranhos_J%C3%BAnior\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#uruguay",
+    "#brasil"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-brasil-le-regalo-a-uruguay",
+    "cabecera": "LAGUNA MERÍN — EL AGUA QUE SE REGALÓ",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ BRASIL REGALÓ MEDIA LAGUNA?",
+      "clave": "LAGUNA",
+      "paises": [
+        "Uruguay",
+        "Brazil"
+      ],
+      "centro": [
+        -54.5,
+        -32.6
+      ],
+      "zoom": 6.2,
+      "pines": [
+        {
+          "lon": -53.25,
+          "lat": -32.95,
+          "texto": "LAGUNA MERÍN"
+        }
+      ],
+      "icono": "🎁"
+    },
+    "gancho": {
+      "texto": "Mira la laguna Merín, entre Uruguay y Brasil. Durante casi sesenta años toda el agua fue brasileña, hasta la orilla uruguaya. Un día Brasil regaló la mitad. ¿Por qué?",
+      "rotulo": "LA REGALÓ",
+      "planos": [
+        {
+          "centro": [
+            -53.25,
+            -32.95
+          ],
+          "zoom": 8.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -53.45,
+            -33
+          ],
+          "zoom": 9.6,
+          "entrada": "zoom",
+          "en": "agua",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -53.25,
+            -32.95
+          ],
+          "zoom": 8.8,
+          "entrada": "zoom",
+          "en": "regaló",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Uruguay",
+          "color": "azul",
+          "etiqueta": "URUGUAY",
+          "etiquetaEn": [
+            -54,
+            -33.2
+          ],
+          "aparecerEn": "Uruguay",
+          "desaparecerEn": "Durante"
+        },
+        {
+          "pais": "Brazil",
+          "color": "verde",
+          "etiqueta": "BRASIL",
+          "etiquetaEn": [
+            -52.9,
+            -32
+          ],
+          "aparecerEn": "Brasil",
+          "desaparecerEn": "Durante"
+        },
+        {
+          "poligono": [
+            [
+              -52.97,
+              -32.3
+            ],
+            [
+              -53.2,
+              -32.63
+            ],
+            [
+              -53.4,
+              -32.95
+            ],
+            [
+              -53.6,
+              -33.3
+            ],
+            [
+              -53.72,
+              -33.6
+            ],
+            [
+              -53.58,
+              -33.65
+            ],
+            [
+              -53.32,
+              -33.28
+            ],
+            [
+              -53.1,
+              -32.93
+            ],
+            [
+              -52.93,
+              -32.6
+            ],
+            [
+              -52.75,
+              -32.25
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "AGUA BRASILEÑA",
+          "aparecerEn": "agua",
+          "desaparecerEn": "regaló"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -53.25,
+          "lat": -32.95,
+          "texto": "LAGUNA MERÍN",
+          "tipo": "mar",
+          "aparecerEn": "Merín",
+          "desaparecerEn": "agua"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "Merín",
+        "sesenta",
+        "brasileña",
+        "uruguaya",
+        "regaló",
+        "mitad"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Uruguay la ganó en una guerra, o apretando a su vecino gigante. La verdad es más rara.",
+        "rotulo": {
+          "texto": "UNA GUERRA",
+          "dice": "guerra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -55.6,
+              -32.6
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.25,
+              -32.95
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -55.6,
+            "lat": -32.2,
+            "icono": "guerra",
+            "escala": 1.1,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -53.6,
+            "lat": -31.4,
+            "icono": "💪",
+            "escala": 1,
+            "aparecerEn": "apretando",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -55.6,
+            "lat": -32.2,
+            "icono": "guerra",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "rara"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "guerra",
+          "gigante",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos cosas: una deuda y un barón. Y al final, ese mismo barón aparece a casi tres mil kilómetros de aquí.",
+        "rotulo": {
+          "texto": "DEUDA Y BARÓN",
+          "dice": "deuda"
+        },
+        "planos": [
+          {
+            "centro": [
+              -53.25,
+              -32.95
+            ],
+            "zoom": 8.9,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -60,
+              -21.5
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.2
+          }
+        ],
+        "indice": [
+          {
+            "icono": "dinero",
+            "texto": "DEUDA",
+            "dice": "deuda"
+          },
+          {
+            "icono": "🎩",
+            "texto": "BARÓN",
+            "dice": "barón"
+          }
+        ],
+        "indicePosicion": "fila",
+        "cotas": [
+          {
+            "desde": [
+              -53.25,
+              -32.95
+            ],
+            "hasta": [
+              -67.81,
+              -9.97
+            ],
+            "texto": "2.900 KM",
+            "aparecerEn": "kilómetros"
+          }
+        ],
+        "clave": [
+          "deuda",
+          "barón",
+          "tres",
+          "mil"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la deuda. Uruguay sale en 1851 de la Guerra Grande, doce años de guerra civil, con préstamos de Brasil. Ese mismo año firma un tratado de límites que le da a Brasil la navegación exclusiva de la laguna y del río Yaguarón. La frontera corre pegada a la orilla uruguaya. El agua, entera, es brasileña.",
+        "rotulo": {
+          "texto": "1851",
+          "dice": "1851"
+        },
+        "planos": [
+          {
+            "centro": [
+              -55.8,
+              -33
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.25,
+              -32.95
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "tratado",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.4,
+              -32.62
+            ],
+            "zoom": 9.6,
+            "entrada": "paneo",
+            "en": "navegación",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.45,
+              -33.05
+            ],
+            "zoom": 9.8,
+            "entrada": "paneo",
+            "en": "frontera",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1851",
+            "sub": "GUERRA GRANDE · PRÉSTAMOS DE BRASIL",
+            "icono": "dinero",
+            "aparecerEn": "1851",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.2,
+            "lat": -34.9,
+            "texto": "MONTEVIDEO",
+            "tipo": "pin",
+            "aparecerEn": "Guerra",
+            "desaparecerEn": "tratado"
+          },
+          {
+            "lon": -53.25,
+            "lat": -32.95,
+            "texto": "LAGUNA MERÍN",
+            "tipo": "mar",
+            "aparecerEn": "laguna",
+            "desaparecerEn": "Yaguarón"
+          },
+          {
+            "lon": -53.55,
+            "lat": -32.5,
+            "texto": "RÍO YAGUARÓN",
+            "tipo": "rio",
+            "rotacion": -25,
+            "aparecerEn": "Yaguarón",
+            "desaparecerEn": "frontera"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -53.1,
+            "lat": -32.75,
+            "icono": "barco",
+            "escala": 0.9,
+            "ruta": [
+              [
+                -53,
+                -32.5
+              ],
+              [
+                -53.3,
+                -33.1
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "navegación",
+            "desaparecerEn": "frontera"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -52.97,
+                -32.3
+              ],
+              [
+                -53.2,
+                -32.63
+              ],
+              [
+                -53.4,
+                -32.95
+              ],
+              [
+                -53.6,
+                -33.3
+              ],
+              [
+                -53.72,
+                -33.6
+              ],
+              [
+                -53.58,
+                -33.65
+              ],
+              [
+                -53.32,
+                -33.28
+              ],
+              [
+                -53.1,
+                -32.93
+              ],
+              [
+                -52.93,
+                -32.6
+              ],
+              [
+                -52.75,
+                -32.25
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "AGUA BRASILEÑA",
+            "etiquetaEn": [
+              -53.25,
+              -32.95
+            ],
+            "aparecerEn": "agua"
+          }
+        ],
+        "contexto": {
+          "texto": "LÍMITE EN LA ORILLA",
+          "dice": "orilla"
+        },
+        "clave": [
+          "1851",
+          "Guerra",
+          "préstamos",
+          "exclusiva",
+          "orilla",
+          "brasileña"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el barón. José Maria da Silva Paranhos, el barón de Río Branco, es canciller de Brasil desde 1902. Nadie lo obliga: no hay guerra ni fallo. Según el texto del tratado firmado el 30 de octubre de 1909, Brasil cede a Uruguay la mitad de las aguas. La línea se muda al medio de la laguna y del río.",
+        "rotulo": {
+          "texto": "1909",
+          "dice": "1909"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -53.25,
+              -32.95
+            ],
+            "zoom": 8.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.3,
+              -33
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.2,
+              -32.8
+            ],
+            "zoom": 9.8,
+            "entrada": "paneo",
+            "en": "línea",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Baron of Rio Branco portrait",
+          "pie": "José Maria da Silva Paranhos Júnior, barón de Río Branco",
+          "lado": "derecha",
+          "aparecerEn": "Paranhos",
+          "duracionSeg": 4
+        },
+        "iconos": [
+          {
+            "lon": -53.9,
+            "lat": -32.4,
+            "icono": "guerra",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -52.7,
+            "lat": -33.3,
+            "icono": "tribunal",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "fallo",
+            "desaparecerEn": "Según"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1909",
+            "sub": "30 DE OCTUBRE · LA MITAD DEL AGUA",
+            "icono": "tratado",
+            "aparecerEn": "1909",
+            "duracionSeg": 3
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de límites Uruguay-Brasil · 30-10-1909",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "NADIE LO OBLIGA",
+          "dice": "Nadie"
+        },
+        "clave": [
+          "Paranhos",
+          "1902",
+          "1909",
+          "mitad",
+          "medio"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: seis años antes, ese mismo barón había cerrado la compra de Acre, a casi tres mil kilómetros de aquí. Allá Brasil le pagó a Bolivia dos millones de libras por un pedazo de selva. Acá regaló agua sin cobrar nada. Y la capital de Acre lleva su nombre: Rio Branco.",
+        "rotulo": {
+          "texto": "ACRE",
+          "dice": "Acre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60,
+              -21.5
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69,
+              -9.5
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "Allá",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.81,
+              -9.97
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "capital",
+            "deriva": 0.3
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -53.25,
+              -32.95
+            ],
+            "hasta": [
+              -67.81,
+              -9.97
+            ],
+            "texto": "2.900 KM",
+            "aparecerEn": "kilómetros",
+            "desaparecerEn": "Allá"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.5,
+            "lat": -9,
+            "texto": "ACRE",
+            "tipo": "region",
+            "aparecerEn": "Acre"
+          },
+          {
+            "lon": -65.5,
+            "lat": -14,
+            "texto": "BOLIVIA",
+            "tipo": "pais",
+            "aparecerEn": "Bolivia"
+          },
+          {
+            "lon": -53.25,
+            "lat": -32.95,
+            "texto": "LAGUNA MERÍN",
+            "tipo": "pin",
+            "aparecerEn": "giro",
+            "desaparecerEn": "Allá"
+          },
+          {
+            "lon": -67.81,
+            "lat": -9.97,
+            "texto": "RIO BRANCO",
+            "tipo": "pin",
+            "aparecerEn": "capital"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.6,
+            "lat": -10.6,
+            "icono": "dinero",
+            "escala": 1.1,
+            "aparecerEn": "pagó",
+            "desaparecerEn": "capital"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "£2 MILLONES",
+            "sub": "ACRE · 1903",
+            "tipo": "cifra",
+            "aparecerEn": "millones",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "Acre",
+          "millones",
+          "selva",
+          "regaló",
+          "Rio",
+          "Branco"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy hay otro Río Branco, y es uruguayo. Es la ciudad que mira a Jaguarão desde la otra orilla del río, y Uruguay le puso ese nombre en honor al barón. Las une el puente Barón de Mauá, de 1930. Y los botes uruguayos navegan su propia mitad del agua.",
+        "rotulo": {
+          "texto": "OTRO RÍO BRANCO",
+          "dice": "otro"
+        },
+        "planos": [
+          {
+            "centro": [
+              -53.25,
+              -32.95
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.38,
+              -32.58
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "Jaguarão",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -53.38,
+              -32.578
+            ],
+            "zoom": 12.8,
+            "entrada": "corte",
+            "en": "puente",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -53.3,
+              -32.62
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "botes",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -53.38,
+            "lat": -32.574,
+            "texto": "RÍO YAGUARÓN",
+            "tipo": "rio",
+            "rotacion": -10,
+            "aparecerEn": "orilla"
+          },
+          {
+            "lon": -53.45,
+            "lat": -32.62,
+            "texto": "URUGUAY",
+            "tipo": "region",
+            "aparecerEn": "Uruguay"
+          },
+          {
+            "lon": -53.33,
+            "lat": -32.54,
+            "texto": "BRASIL",
+            "tipo": "region",
+            "aparecerEn": "Uruguay"
+          }
+        ],
+        "foto": {
+          "buscar": "Ponte Internacional Barão de Mauá",
+          "pie": "PUENTE BARÓN DE MAUÁ · JAGUARÃO–RÍO BRANCO",
+          "aparecerEn": "puente",
+          "duracionSeg": 2.6
+        },
+        "iconos": [
+          {
+            "lon": -53.2,
+            "lat": -32.66,
+            "icono": "barco",
+            "escala": 0.9,
+            "ruta": [
+              [
+                -53.3,
+                -32.62
+              ],
+              [
+                -53.18,
+                -32.66
+              ]
+            ],
+            "duracionSeg": 2.5,
+            "aparecerEn": "botes"
+          }
+        ],
+        "contexto": {
+          "texto": "EN HONOR AL BARÓN",
+          "dice": "honor"
+        },
+        "clave": [
+          "Río",
+          "Jaguarão",
+          "honor",
+          "Mauá",
+          "1930",
+          "mitad"
+        ]
+      }
+    ],
+    "remate": "En Acre el barón pagó por la tierra. En la Merín regaló el agua.",
+    "remateEtiquetas": [
+      {
+        "lon": -67.81,
+        "lat": -9.97,
+        "texto": "ACRE: PAGÓ LA TIERRA"
+      },
+      {
+        "lon": -53.25,
+        "lat": -32.95,
+        "texto": "MERÍN: REGALÓ EL AGUA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -60,
+          -21.5
+        ],
+        "zoom": 4.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Laguna Merín (tratados de 1851 y 1909)",
+        "url": "https://es.wikipedia.org/wiki/Laguna_Mer%C3%ADn"
+      },
+      {
+        "texto": "Wikipedia: Río Branco (Uruguay)",
+        "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Branco_(Uruguay)"
+      },
+      {
+        "texto": "Wikipedia: José Maria da Silva Paranhos Júnior, barón de Rio Branco",
+        "url": "https://pt.wikipedia.org/wiki/Jos%C3%A9_Maria_da_Silva_Paranhos_J%C3%BAnior"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -53.25,
+        -32.95
+      ],
+      "zoomInicial": 8.4,
+      "zoomFinal": 9.2,
+      "lineas": [
+        {
+          "id": "limite-1851",
+          "puntos": [
+            [
+              -52.97,
+              -32.3
+            ],
+            [
+              -53.2,
+              -32.63
+            ],
+            [
+              -53.4,
+              -32.95
+            ],
+            [
+              -53.6,
+              -33.3
+            ],
+            [
+              -53.72,
+              -33.6
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "orilla",
+          "etiqueta": "LÍMITE DE 1851"
+        },
+        {
+          "id": "limite-1909",
+          "puntos": [
+            [
+              -52.85,
+              -32.27
+            ],
+            [
+              -53.07,
+              -32.63
+            ],
+            [
+              -53.25,
+              -32.95
+            ],
+            [
+              -53.45,
+              -33.3
+            ],
+            [
+              -53.65,
+              -33.63
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "medio",
+          "etiqueta": "LÍMITE DE 1909"
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": -53.376,
+          "lat": -32.566,
+          "etiqueta": "JAGUARÃO",
+          "aparecerEn": 5
+        },
+        {
+          "lon": -53.383,
+          "lat": -32.597,
+          "etiqueta": "RÍO BRANCO",
+          "aparecerEn": 5
+        }
+      ]
+    }
+  }
+}
