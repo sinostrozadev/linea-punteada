@@ -1,0 +1,2621 @@
+{
+  "plantilla": "largo",
+  "id": "largo-panamericana-darien",
+  "titulo": "30.000 km de carretera y le faltan 100. ¿Por qué?",
+  "descripcion": "¿Por qué la carretera más larga del continente se corta en unos cien kilómetros de selva entre Panamá y Colombia?\n\nLa Panamericana nació como idea en Santiago de Chile en 1923 y une unos 30.000 km de Alaska a Ushuaia. En Yaviza, Panamá, el asfalto se acaba: empieza el Tapón del Darién, con el pantano del Atrato del lado colombiano. En los años 70 Estados Unidos financió el tramo que faltaba y un juez lo frenó en 1975; una de las razones fue la fiebre aftosa. Después llegaron los parques nacionales, los pueblos guna, emberá y wounaan, y medio millón de migrantes a pie en 2023.\n\nSerie Del estrecho al canal: continúa el largo de Karl Bushby. Las distancias del mapa son aproximadas (la longitud del hueco varía entre 87 y 130 km según dónde se mida). Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#Panamericana",
+    "#Darien"
+  ],
+  "props": {
+    "id": "largo-panamericana-darien",
+    "acento": "cian",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "amarillo",
+      "escala": 1.1,
+      "kmReales": 30000,
+      "puntos": [
+        {
+          "lon": -148.34,
+          "lat": 70.25,
+          "etiqueta": "PRUDHOE BAY"
+        },
+        {
+          "lon": -147.72,
+          "lat": 64.84
+        },
+        {
+          "lon": -135.05,
+          "lat": 60.72
+        },
+        {
+          "lon": -120.24,
+          "lat": 55.76
+        },
+        {
+          "lon": -113.49,
+          "lat": 53.55
+        },
+        {
+          "lon": -99.51,
+          "lat": 27.51,
+          "etiqueta": "LAREDO"
+        },
+        {
+          "lon": -99.13,
+          "lat": 19.43,
+          "etiqueta": "CIUDAD DE MÉXICO"
+        },
+        {
+          "lon": -90.51,
+          "lat": 14.63
+        },
+        {
+          "lon": -89.19,
+          "lat": 13.69
+        },
+        {
+          "lon": -87.19,
+          "lat": 13.3
+        },
+        {
+          "lon": -86.25,
+          "lat": 12.13
+        },
+        {
+          "lon": -84.09,
+          "lat": 9.93
+        },
+        {
+          "lon": -82.43,
+          "lat": 8.43
+        },
+        {
+          "lon": -79.52,
+          "lat": 8.98,
+          "etiqueta": "CIUDAD DE PANAMÁ"
+        },
+        {
+          "lon": -77.69,
+          "lat": 8.16,
+          "etiqueta": "YAVIZA"
+        },
+        {
+          "lon": -77.3,
+          "lat": 7.85
+        },
+        {
+          "lon": -76.95,
+          "lat": 7.63,
+          "etiqueta": "LOMAS AISLADAS"
+        },
+        {
+          "lon": -75.57,
+          "lat": 6.25
+        },
+        {
+          "lon": -76.53,
+          "lat": 3.45
+        },
+        {
+          "lon": -78.47,
+          "lat": -0.18,
+          "etiqueta": "QUITO"
+        },
+        {
+          "lon": -79.03,
+          "lat": -8.11
+        },
+        {
+          "lon": -77.04,
+          "lat": -12.05,
+          "etiqueta": "LIMA"
+        },
+        {
+          "lon": -74.94,
+          "lat": -14.84
+        },
+        {
+          "lon": -70.31,
+          "lat": -18.48
+        },
+        {
+          "lon": -70.65,
+          "lat": -33.45,
+          "etiqueta": "SANTIAGO"
+        },
+        {
+          "lon": -68.84,
+          "lat": -32.89
+        },
+        {
+          "lon": -58.38,
+          "lat": -34.6,
+          "etiqueta": "BUENOS AIRES"
+        },
+        {
+          "lon": -62.27,
+          "lat": -38.72
+        },
+        {
+          "lon": -67.5,
+          "lat": -45.86
+        },
+        {
+          "lon": -69.22,
+          "lat": -51.62
+        },
+        {
+          "lon": -68.3,
+          "lat": -54.8,
+          "etiqueta": "USHUAIA"
+        }
+      ],
+      "mes": 3
+    },
+    "apertura": {
+      "texto": "Esta carretera mide unos treinta mil kilómetros. Sale de Alaska, cruza catorce países y termina en Ushuaia. Pero en un punto se corta: unos cien kilómetros de selva entre Panamá y Colombia, sin un solo camino. ¿Por qué nunca la terminaron?",
+      "planos": [
+        {
+          "centro": [
+            -100,
+            40
+          ],
+          "zoom": 3.0,
+          "entrada": "corte",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            -148,
+            68
+          ],
+          "zoom": 4.2,
+          "entrada": "zoom",
+          "en": "Alaska",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -72,
+            -25
+          ],
+          "zoom": 3.0,
+          "entrada": "zoom",
+          "en": "catorce",
+          "deriva": 0.1
+        },
+        {
+          "centro": [
+            -68.3,
+            -54.8
+          ],
+          "zoom": 6.0,
+          "entrada": "zoom",
+          "en": "Ushuaia",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -77.3,
+            8.0
+          ],
+          "zoom": 6.5,
+          "entrada": "zoom",
+          "en": "corta",
+          "deriva": 0.3
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "30.000 KM",
+          "sub": "DE ALASKA A USHUAIA",
+          "tipo": "cifra",
+          "aparecerEn": "treinta",
+          "duracionSeg": 3.2
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -77.95,
+              8.55
+            ],
+            [
+              -77.25,
+              8.75
+            ],
+            [
+              -76.8,
+              8.15
+            ],
+            [
+              -76.85,
+              7.35
+            ],
+            [
+              -77.55,
+              7.35
+            ],
+            [
+              -78.05,
+              7.9
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "rayas",
+          "etiqueta": "¿100 KM?",
+          "aparecerEn": "cien"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "terminaron"
+      },
+      "clave": [
+        "treinta",
+        "Alaska",
+        "Ushuaia",
+        "cien",
+        "selva"
+      ]
+    },
+    "tarjetaTitulo": {
+      "texto": "¿Por qué le faltan 100 km a la Panamericana?",
+      "clave": "100 km"
+    },
+    "capitulos": [
+      {
+        "titulo": "Una idea nacida en Santiago",
+        "bloques": [
+          {
+            "texto": "La idea nace en Santiago de Chile, en mil novecientos veintitrés. En la Quinta Conferencia Internacional Americana, los países del continente cambian un sueño viejo, un tren de punta a punta, por algo más nuevo: una carretera.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.65,
+                  -33.45
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75,
+                  -10
+                ],
+                "zoom": 3.4,
+                "entrada": "zoom",
+                "en": "tren",
+                "deriva": 0.1
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "texto": "SANTIAGO",
+                "tipo": "pin",
+                "aparecerEn": "Santiago"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1923",
+                "sub": "V CONFERENCIA AMERICANA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "veintitrés",
+                "duracionSeg": 3.2,
+                "desde": "1923",
+                "hasta": "2026"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -75,
+                "lat": -10,
+                "icono": "tren",
+                "tachado": true,
+                "aparecerEn": "tren"
+              },
+              {
+                "lon": -72,
+                "lat": -20,
+                "icono": "carretera",
+                "aparecerEn": "carretera"
+              }
+            ],
+            "clave": [
+              "Santiago",
+              "veintitrés",
+              "tren",
+              "carretera"
+            ]
+          },
+          {
+            "texto": "Dos años después, en Buenos Aires, se reúne el primer congreso de la carretera panamericana. Y en mil novecientos treinta y siete, catorce gobiernos firman una convención para construirla lo antes posible.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -58.38,
+                  -34.6
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -90,
+                  15
+                ],
+                "zoom": 2.6,
+                "entrada": "zoom",
+                "en": "catorce",
+                "deriva": 0.05
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -58.38,
+                "lat": -34.6,
+                "texto": "BUENOS AIRES",
+                "tipo": "pin",
+                "aparecerEn": "Buenos"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "14 GOBIERNOS",
+                "sub": "FIRMAN EN 1937",
+                "tipo": "cifra",
+                "aparecerEn": "catorce",
+                "duracionSeg": 3.5,
+                "pictos": {
+                  "icono": "bandera",
+                  "n": 7
+                }
+              }
+            ],
+            "contexto": {
+              "texto": "LA CONVENCIÓN",
+              "dice": "convención"
+            },
+            "clave": [
+              "Buenos",
+              "Aires",
+              "treinta",
+              "siete",
+              "catorce"
+            ]
+          },
+          {
+            "texto": "Mira cómo se arma. Arranca en Prudhoe Bay, en el norte de Alaska, junto al océano Ártico. Baja por Canadá y Estados Unidos. Cruza México.",
+            "tramo": [
+              0,
+              6
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -148.34,
+                  70.25
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "en": "Mira",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -125,
+                  55
+                ],
+                "zoom": 4.2,
+                "entrada": "zoom",
+                "en": "Canadá",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -100,
+                  28
+                ],
+                "zoom": 4.2,
+                "entrada": "paneo",
+                "en": "México",
+                "deriva": 0.15
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -150,
+                "lat": 73,
+                "texto": "OCÉANO ÁRTICO",
+                "tipo": "mar",
+                "aparecerEn": "océano"
+              },
+              {
+                "lon": -115,
+                "lat": 58,
+                "texto": "CANADÁ",
+                "tipo": "pais",
+                "aparecerEn": "Canadá"
+              },
+              {
+                "lon": -100,
+                "lat": 40,
+                "texto": "ESTADOS UNIDOS",
+                "tipo": "pais",
+                "aparecerEn": "Estados"
+              },
+              {
+                "lon": -102,
+                "lat": 24,
+                "texto": "MÉXICO",
+                "tipo": "pais",
+                "aparecerEn": "México"
+              }
+            ],
+            "foto": {
+              "buscar": "Dalton Highway sign",
+              "archivo": "File:Dalton Highway sign.jpg",
+              "pie": "DALTON HIGHWAY · ALASKA",
+              "aparecerEn": "Prudhoe",
+              "duracionSeg": 3
+            },
+            "clave": [
+              "Prudhoe",
+              "Bay",
+              "Ártico",
+              "México"
+            ]
+          },
+          {
+            "texto": "Después, Centroamérica entera: Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica. Y entra a Panamá por el oeste.",
+            "tramo": [
+              6,
+              12
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -88,
+                  13.5
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -82.4,
+                  8.6
+                ],
+                "zoom": 6.4,
+                "entrada": "paneo",
+                "en": "Panamá",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -90.4,
+                "lat": 15.4,
+                "texto": "GUATEMALA",
+                "tipo": "pais",
+                "aparecerEn": "Guatemala"
+              },
+              {
+                "lon": -88.9,
+                "lat": 13.3,
+                "texto": "EL SALVADOR",
+                "tipo": "region",
+                "aparecerEn": "Salvador"
+              },
+              {
+                "lon": -86.6,
+                "lat": 14.6,
+                "texto": "HONDURAS",
+                "tipo": "pais",
+                "aparecerEn": "Honduras"
+              },
+              {
+                "lon": -85.2,
+                "lat": 12.6,
+                "texto": "NICARAGUA",
+                "tipo": "pais",
+                "aparecerEn": "Nicaragua"
+              },
+              {
+                "lon": -84.2,
+                "lat": 10.0,
+                "texto": "COSTA RICA",
+                "tipo": "region",
+                "aparecerEn": "Costa"
+              },
+              {
+                "lon": -80.5,
+                "lat": 8.4,
+                "texto": "PANAMÁ",
+                "tipo": "pais",
+                "aparecerEn": "Panamá"
+              }
+            ],
+            "clave": [
+              "Centroamérica",
+              "Panamá"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Sigue hasta la capital, pasa el canal y se mete hacia el este. Hasta que llega a un pueblo a orillas de un río. Y ahí, se acaba.",
+          "tramo": [
+            12,
+            14
+          ],
+          "planos": [
+            {
+              "centro": [
+                -79.5,
+                9.0
+              ],
+              "zoom": 7.4,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -77.69,
+                8.16
+              ],
+              "zoom": 8.6,
+              "entrada": "zoom",
+              "en": "pueblo",
+              "deriva": 0.3
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -79.75,
+              "lat": 9.25,
+              "texto": "CANAL",
+              "tipo": "pin",
+              "aparecerEn": "canal"
+            }
+          ],
+          "contexto": {
+            "texto": "SE ACABA",
+            "dice": "acaba"
+          },
+          "clave": [
+            "capital",
+            "canal",
+            "río",
+            "acaba"
+          ]
+        }
+      },
+      {
+        "titulo": "Yaviza: donde se acaba",
+        "bloques": [
+          {
+            "texto": "El pueblo se llama Yaviza. El asfalto termina frente al río Chucunaque. Del otro lado no hay carretera, ni un camino de tierra. Solo selva.",
+            "tramo": [
+              14,
+              14
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.69,
+                  8.16
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.3
+              },
+              {
+                "centro": [
+                  -77.4,
+                  8.0
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "en": "selva",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.8,
+                "lat": 8.35,
+                "texto": "RÍO CHUCUNAQUE",
+                "tipo": "rio",
+                "aparecerEn": "Chucunaque",
+                "rotacion": -35
+              }
+            ],
+            "foto": {
+              "buscar": "End of the road Pan-American highway Darien",
+              "archivo": "File:End of the road, Rio Chicanaque , end of Panamerica highway. 106 km to Columbia on foot or by boat through Darien Gap (42019936165).jpg",
+              "pie": "EL FIN DEL ASFALTO · YAVIZA, PANAMÁ",
+              "aparecerEn": "asfalto",
+              "duracionSeg": 3.5
+            },
+            "iconos": [
+              {
+                "lon": -77.3,
+                "lat": 7.95,
+                "icono": "carretera",
+                "tachado": true,
+                "aparecerEn": "tierra"
+              }
+            ],
+            "clave": [
+              "Yaviza",
+              "asfalto",
+              "Chucunaque",
+              "selva"
+            ]
+          },
+          {
+            "texto": "La carretera reaparece en Colombia, cerca del golfo de Urabá. ¿Cuánto falta en medio? La cifra más citada es ciento seis kilómetros. Pero depende de dónde midas: las fuentes van de ochenta y siete a ciento treinta.",
+            "tramo": [
+              14,
+              14
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.0,
+                  7.9
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "en": "Depende",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -76.95,
+                "lat": 7.63,
+                "texto": "LOMAS AISLADAS",
+                "tipo": "pin",
+                "aparecerEn": "reaparece"
+              },
+              {
+                "lon": -76.75,
+                "lat": 8.35,
+                "texto": "GOLFO DE URABÁ",
+                "tipo": "mar",
+                "aparecerEn": "Urabá"
+              },
+              {
+                "lon": -76.2,
+                "lat": 7.2,
+                "texto": "COLOMBIA",
+                "tipo": "pais",
+                "aparecerEn": "Colombia"
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -77.69,
+                  8.16
+                ],
+                "hasta": [
+                  -76.95,
+                  7.63
+                ],
+                "texto": "87–130 KM",
+                "aparecerEn": "ochenta"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "106 KM",
+                "sub": "LA CIFRA MÁS CITADA",
+                "tipo": "cifra",
+                "aparecerEn": "citada",
+                "duracionSeg": 3.4
+              }
+            ],
+            "clave": [
+              "Colombia",
+              "Urabá",
+              "ochenta",
+              "ciento",
+              "seis"
+            ]
+          },
+          {
+            "texto": "Y no son cien kilómetros cualquiera. Del lado colombiano está el delta del río Atrato: un pantano plano de por lo menos ochenta kilómetros de ancho. Del lado panameño, serranías cubiertas de selva y ríos que crecen de golpe.",
+            "tramo": [
+              14,
+              14
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -76.95,
+                  7.6
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.7,
+                  8.0
+                ],
+                "zoom": 7.8,
+                "entrada": "paneo",
+                "en": "panameño",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -77.15,
+                    8.1
+                  ],
+                  [
+                    -76.8,
+                    8.05
+                  ],
+                  [
+                    -76.72,
+                    7.2
+                  ],
+                  [
+                    -77.05,
+                    7.1
+                  ]
+                ],
+                "color": "azul",
+                "trama": "rayas",
+                "etiqueta": "PANTANO DEL ATRATO",
+                "aparecerEn": "pantano"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -76.9,
+                "lat": 7.0,
+                "texto": "RÍO ATRATO",
+                "tipo": "rio",
+                "aparecerEn": "Atrato",
+                "rotacion": 80
+              }
+            ],
+            "foto": {
+              "buscar": "Rio Atrato",
+              "archivo": "File:Rio Atrato.JPG",
+              "pie": "RÍO ATRATO · CHOCÓ, COLOMBIA",
+              "aparecerEn": "delta",
+              "duracionSeg": 3
+            },
+            "iconos": [
+              {
+                "lon": -77.9,
+                "lat": 8.0,
+                "icono": "montana",
+                "aparecerEn": "serranías"
+              },
+              {
+                "lon": -77.5,
+                "lat": 7.7,
+                "icono": "rio",
+                "aparecerEn": "crecen"
+              }
+            ],
+            "clave": [
+              "Atrato",
+              "pantano",
+              "ochenta",
+              "serranías"
+            ]
+          },
+          {
+            "texto": "Construir ahí sería carísimo. Pero el dinero nunca fue el único problema. Por eso, cien años después de Santiago, el hueco sigue ahí.",
+            "tramo": [
+              14,
+              14
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -75,
+                  -5
+                ],
+                "zoom": 3.0,
+                "entrada": "zoom",
+                "en": "Santiago",
+                "deriva": 0.05
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.3,
+                "lat": 7.9,
+                "icono": "dinero",
+                "aparecerEn": "carísimo"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "103 AÑOS",
+                "sub": "EL HUECO SIGUE AHÍ",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "cien",
+                "duracionSeg": 3.4,
+                "desde": "1923",
+                "hasta": "2026"
+              }
+            ],
+            "contexto": {
+              "texto": "NO ES SOLO PLATA",
+              "dice": "dinero"
+            },
+            "clave": [
+              "carísimo",
+              "dinero",
+              "cien",
+              "hueco"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Sin carretera, cruzar el tapón se volvió una prueba. Y algunos la intentaron con lo que nadie llevaría a una selva: autos.",
+          "planos": [
+            {
+              "centro": [
+                -77.3,
+                7.9
+              ],
+              "zoom": 7.2,
+              "entrada": "zoom",
+              "deriva": 0.25
+            }
+          ],
+          "areas": [
+            {
+              "poligono": [
+                [
+                  -77.95,
+                  8.55
+                ],
+                [
+                  -77.25,
+                  8.75
+                ],
+                [
+                  -76.8,
+                  8.15
+                ],
+                [
+                  -76.85,
+                  7.35
+                ],
+                [
+                  -77.55,
+                  7.35
+                ],
+                [
+                  -78.05,
+                  7.9
+                ]
+              ],
+              "color": "amarillo",
+              "trama": "rayas",
+              "etiqueta": "TAPÓN DEL DARIÉN",
+              "aparecerEn": "tapón"
+            }
+          ],
+          "contexto": {
+            "texto": "¿EN AUTO?",
+            "dice": "autos"
+          },
+          "clave": [
+            "tapón",
+            "prueba",
+            "autos"
+          ]
+        }
+      },
+      {
+        "titulo": "Los que cruzaron igual",
+        "bloques": [
+          {
+            "texto": "En mil novecientos setenta y dos, una expedición del ejército británico baja de Alaska a la Tierra del Fuego en dos Range Rover. El Darién le toma más de tres meses, abriendo la selva a mano.",
+            "tramo": [
+              14,
+              15
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -95,
+                  25
+                ],
+                "zoom": 2.8,
+                "entrada": "zoom",
+                "deriva": 0.05
+              },
+              {
+                "centro": [
+                  -77.4,
+                  8.0
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "en": "Darién",
+                "deriva": 0.25
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "+3 MESES",
+                "sub": "EN DOS RANGE ROVER · 1972",
+                "tipo": "cifra",
+                "aparecerEn": "tres",
+                "duracionSeg": 3.5
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.5,
+                "lat": 8.05,
+                "icono": "🚙",
+                "aparecerEn": "Range"
+              }
+            ],
+            "foto": {
+              "buscar": "Abandoned car Darien Gap",
+              "archivo": "File:Abandoned car testifies failure of one of the few attempts to cross the Darien Gap by transport.jpg",
+              "pie": "UN AUTO ABANDONADO EN LA SELVA · DARIÉN",
+              "aparecerEn": "selva",
+              "duracionSeg": 3
+            },
+            "clave": [
+              "setenta",
+              "británico",
+              "Range",
+              "tres",
+              "meses"
+            ]
+          },
+          {
+            "texto": "Doce años después lo intenta un estadounidense, Loren Upton, con un Jeep de mil novecientos sesenta y seis. Su compañera, Patty, se le une en Panamá. Tardan setecientos cuarenta y un días en cruzar el Darién. El libro Guinness lo registra como el primer cruce solo por tierra en un vehículo.",
+            "tramo": [
+              15,
+              15
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.85
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.85
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "setecientos",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "741 DÍAS",
+                "sub": "UN JEEP CJ-5 DE 1966",
+                "tipo": "cifra",
+                "aparecerEn": "setecientos",
+                "duracionSeg": 4.0
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.3,
+                "lat": 7.85,
+                "icono": "🚙",
+                "ruta": [
+                  [
+                    -77.6,
+                    8.1
+                  ],
+                  [
+                    -77.3,
+                    7.85
+                  ],
+                  [
+                    -77.0,
+                    7.65
+                  ]
+                ],
+                "duracionSeg": 6,
+                "aparecerEn": "Jeep"
+              }
+            ],
+            "contexto": {
+              "texto": "PRIMER CRUCE POR TIERRA",
+              "dice": "Guinness"
+            },
+            "clave": [
+              "Loren",
+              "Upton",
+              "setecientos",
+              "cuarenta",
+              "Guinness"
+            ]
+          },
+          {
+            "texto": "Y en dos mil uno lo cruza a pie Karl Bushby, el británico que caminó de Punta Arenas a su casa en Hull. Unos dos meses de selva. Al salir, la policía panameña lo detiene dieciocho días. Había entrado por una zona fronteriza restringida.",
+            "tramo": [
+              15,
+              16
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.2,
+                  7.8
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.97,
+                  8.5
+                ],
+                "zoom": 8.0,
+                "entrada": "paneo",
+                "en": "policía",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Karl Bushby The Beast Hull",
+              "archivo": "File:Karl Bushby Homecoming The Beast, Kingston upon Hull Nov26.jpg",
+              "pie": "La Bestia, el carrito de Bushby (Hull, 2026)",
+              "lado": "derecha",
+              "aparecerEn": "Bushby",
+              "duracionSeg": 4
+            },
+            "tarjetas": [
+              {
+                "texto": "18 DÍAS",
+                "sub": "DETENIDO EN PANAMÁ",
+                "tipo": "cifra",
+                "aparecerEn": "dieciocho",
+                "duracionSeg": 3.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.97,
+                "lat": 8.5,
+                "texto": "METETÍ",
+                "tipo": "pin",
+                "aparecerEn": "policía"
+              }
+            ],
+            "clave": [
+              "Karl",
+              "Bushby",
+              "dos",
+              "meses",
+              "dieciocho"
+            ]
+          },
+          {
+            "texto": "Del otro lado, el asfalto vuelve. Baja por Colombia, Ecuador y Perú, llega a Chile y a Santiago, cruza los Andes hacia Buenos Aires y sigue hasta Ushuaia. Treinta mil kilómetros con un solo corte.",
+            "tramo": [
+              16,
+              30
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -76.5,
+                  4
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -73,
+                  -20
+                ],
+                "zoom": 3.6,
+                "entrada": "paneo",
+                "en": "Chile",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -64,
+                  -45
+                ],
+                "zoom": 3.8,
+                "entrada": "paneo",
+                "en": "Ushuaia",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -78.5,
+                "lat": -1.5,
+                "texto": "ECUADOR",
+                "tipo": "pais",
+                "aparecerEn": "Ecuador"
+              },
+              {
+                "lon": -75,
+                "lat": -9,
+                "texto": "PERÚ",
+                "tipo": "pais",
+                "aparecerEn": "Perú"
+              },
+              {
+                "lon": -69.8,
+                "lat": -31,
+                "texto": "ANDES",
+                "tipo": "region",
+                "aparecerEn": "Andes"
+              }
+            ],
+            "foto": {
+              "buscar": "Ushuaia fin del mundo sign",
+              "archivo": "File:UshuaiaFinDelMundo.jpg",
+              "pie": "USHUAIA · TIERRA DEL FUEGO",
+              "aparecerEn": "Ushuaia",
+              "duracionSeg": 2.5
+            },
+            "clave": [
+              "Colombia",
+              "Santiago",
+              "Andes",
+              "Ushuaia"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Si un Jeep pudo, ¿por qué no una carretera? En los años setenta, Estados Unidos puso la plata para hacerla. Y la frenó algo que nadie esperaba.",
+          "planos": [
+            {
+              "centro": [
+                -90,
+                10
+              ],
+              "zoom": 3.0,
+              "entrada": "zoom",
+              "deriva": 0.05
+            },
+            {
+              "centro": [
+                -77.3,
+                7.9
+              ],
+              "zoom": 6.8,
+              "entrada": "zoom",
+              "en": "frenó",
+              "deriva": 0.25
+            }
+          ],
+          "iconos": [
+            {
+              "lon": -95,
+              "lat": 38,
+              "icono": "dinero",
+              "aparecerEn": "plata"
+            }
+          ],
+          "contexto": {
+            "texto": "¿QUÉ LA FRENÓ?",
+            "dice": "frenó"
+          },
+          "clave": [
+            "Jeep",
+            "setenta",
+            "plata",
+            "frenó"
+          ]
+        }
+      },
+      {
+        "titulo": "La frenó una enfermedad de vacas",
+        "bloques": [
+          {
+            "texto": "La planificación arranca en mil novecientos setenta y uno, con fondos de Estados Unidos. El objetivo: cerrar el hueco y unir los dos continentes por tierra.",
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "en": "objetivo",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -85,
+                  5
+                ],
+                "zoom": 3.4,
+                "entrada": "zoom",
+                "en": "continentes",
+                "deriva": 0.1
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -76.6,
+                "lat": 8.6,
+                "icono": "dinero",
+                "aparecerEn": "fondos"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1971",
+                "sub": "EMPIEZA EL PLAN · FONDOS DE EE. UU.",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "setenta",
+                "duracionSeg": 3.5,
+                "desde": "1971",
+                "hasta": "1974"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -77.95,
+                    8.55
+                  ],
+                  [
+                    -77.25,
+                    8.75
+                  ],
+                  [
+                    -76.8,
+                    8.15
+                  ],
+                  [
+                    -76.85,
+                    7.35
+                  ],
+                  [
+                    -77.55,
+                    7.35
+                  ],
+                  [
+                    -78.05,
+                    7.9
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "solida",
+                "etiqueta": "EL HUECO",
+                "aparecerEn": "hueco"
+              }
+            ],
+            "clave": [
+              "setenta",
+              "uno",
+              "Estados",
+              "Unidos",
+              "hueco"
+            ]
+          },
+          {
+            "texto": "En mil novecientos setenta y cinco, organizaciones ambientalistas encabezadas por el Sierra Club demandan al gobierno estadounidense. Según el fallo del tribunal federal de Washington, el estudio ambiental de la obra no alcanzaba. Y el juez la detiene. Un año después, otro fallo lo confirma: el estudio seguía sin explicar cómo controlar una enfermedad.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  38.9
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.03,
+                  38.9
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "en": "juez",
+                "deriva": 0.1
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": 38.9,
+                "texto": "WASHINGTON",
+                "tipo": "pin",
+                "aparecerEn": "Washington"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.03,
+                "lat": 38.2,
+                "icono": "tribunal",
+                "aparecerEn": "fallo"
+              }
+            ],
+            "fuente": {
+              "texto": "Tribunal federal del distrito de Columbia · 1975",
+              "dice": "fallo"
+            },
+            "contexto": {
+              "texto": "1976: SE CONFIRMA",
+              "dice": "confirma"
+            },
+            "tarjetas": [
+              {
+                "texto": "1975",
+                "sub": "UN JUEZ DETIENE LA OBRA",
+                "tipo": "cifra",
+                "aparecerEn": "cinco",
+                "duracionSeg": 3.4
+              }
+            ],
+            "clave": [
+              "Sierra",
+              "Club",
+              "Washington",
+              "juez"
+            ]
+          },
+          {
+            "texto": "Una de las fallas que señala el juez tiene nombre: la fiebre aftosa. Es un virus que ataca al ganado y se contagia rápido. En Sudamérica circulaba. Norteamérica y Centroamérica estaban libres.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  38.9
+                ],
+                "zoom": 5.0,
+                "entrada": "corte",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -80,
+                  5
+                ],
+                "zoom": 2.8,
+                "entrada": "zoom",
+                "en": "Sudamérica",
+                "deriva": 0.05
+              }
+            ],
+            "contexto": {
+              "texto": "FIEBRE AFTOSA",
+              "dice": "aftosa"
+            },
+            "iconos": [
+              {
+                "lon": -62,
+                "lat": -15,
+                "icono": "🐄",
+                "aparecerEn": "ganado"
+              },
+              {
+                "lon": -100,
+                "lat": 30,
+                "icono": "🐄",
+                "aparecerEn": "libres"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -62,
+                "lat": -12,
+                "texto": "SUDAMÉRICA: CON AFTOSA",
+                "tipo": "region",
+                "aparecerEn": "Sudamérica"
+              },
+              {
+                "lon": -98,
+                "lat": 26,
+                "texto": "LIBRES DE AFTOSA",
+                "tipo": "region",
+                "aparecerEn": "Norteamérica"
+              }
+            ],
+            "clave": [
+              "aftosa",
+              "virus",
+              "ganado",
+              "libres"
+            ]
+          },
+          {
+            "texto": "Y aquí está la idea que lo cambia todo: la selva funciona como una barrera sanitaria. Un camino abierto sería un pasillo para el ganado, y para el virus.",
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.9,
+                "entrada": "corte",
+                "en": "selva",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.6,
+                "entrada": "corte",
+                "en": "pasillo",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -77.95,
+                    8.55
+                  ],
+                  [
+                    -77.25,
+                    8.75
+                  ],
+                  [
+                    -76.8,
+                    8.15
+                  ],
+                  [
+                    -76.85,
+                    7.35
+                  ],
+                  [
+                    -77.55,
+                    7.35
+                  ],
+                  [
+                    -78.05,
+                    7.9
+                  ]
+                ],
+                "color": "verde",
+                "trama": "solida",
+                "etiqueta": "BARRERA SANITARIA",
+                "aparecerEn": "barrera"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.0,
+                "lat": 7.6,
+                "icono": "🐄",
+                "ruta": [
+                  [
+                    -76.8,
+                    7.4
+                  ],
+                  [
+                    -77.7,
+                    8.2
+                  ]
+                ],
+                "duracionSeg": 4,
+                "aparecerEn": "pasillo"
+              }
+            ],
+            "contexto": {
+              "texto": "EL GIRO",
+              "dice": "cambia"
+            },
+            "clave": [
+              "barrera",
+              "sanitaria",
+              "pasillo",
+              "virus"
+            ]
+          },
+          {
+            "texto": "En mil novecientos setenta y ocho, un tribunal de apelaciones levanta el bloqueo. Pero ese mismo año, el Departamento de Agricultura de Estados Unidos le quita su apoyo, justamente por la aftosa. Sin ese apoyo, la plata se corta. La obra no se retoma.",
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -77.03,
+                  38.9
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "en": "Agricultura",
+                "deriva": 0.1
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1978",
+                "sub": "AGRICULTURA RETIRA SU APOYO",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "Agricultura",
+                "duracionSeg": 3.5,
+                "desde": "1971",
+                "hasta": "1978"
+              }
+            ],
+            "contexto": {
+              "texto": "SE LEVANTA EL BLOQUEO",
+              "dice": "apelaciones"
+            },
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": 38.9,
+                "texto": "WASHINGTON",
+                "tipo": "pin",
+                "aparecerEn": "tribunal"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.03,
+                "lat": 38.2,
+                "icono": "carretera",
+                "tachado": true,
+                "aparecerEn": "retoma"
+              }
+            ],
+            "clave": [
+              "setenta",
+              "ocho",
+              "Agricultura",
+              "aftosa"
+            ]
+          },
+          {
+            "texto": "En los noventa hay otro intento. En mil novecientos noventa y cuatro, un informe de una agencia de Naciones Unidas advierte que la carretera, y todo lo que traería detrás, causaría un daño ambiental extenso.",
+            "planos": [
+              {
+                "centro": [
+                  -80,
+                  20
+                ],
+                "zoom": 3.0,
+                "entrada": "zoom",
+                "deriva": 0.05
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "daño",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1994",
+                "sub": "INFORME DE LA ONU",
+                "tipo": "cifra",
+                "aparecerEn": "noventa#2",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "DAÑO EXTENSO",
+              "dice": "extenso"
+            },
+            "clave": [
+              "noventa",
+              "cuatro",
+              "Naciones",
+              "Unidas",
+              "daño"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Pero el ganado no es lo único que defiende el tapón. La selva tiene dueños.",
+          "planos": [
+            {
+              "centro": [
+                -77.5,
+                7.9
+              ],
+              "zoom": 7.6,
+              "entrada": "zoom",
+              "deriva": 0.3
+            }
+          ],
+          "contexto": {
+            "texto": "LA SELVA TIENE DUEÑOS",
+            "dice": "dueños"
+          },
+          "clave": [
+            "tapón",
+            "dueños"
+          ]
+        }
+      },
+      {
+        "titulo": "La selva tiene dueños",
+        "bloques": [
+          {
+            "texto": "Del lado panameño está el Parque Nacional Darién, creado en mil novecientos ochenta: unos cinco mil ochocientos kilómetros cuadrados. Un año después, la Unesco lo declara Patrimonio de la Humanidad. Es el parque nacional más grande de Centroamérica.",
+            "planos": [
+              {
+                "centro": [
+                  -77.8,
+                  7.8
+                ],
+                "zoom": 7.8,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.8,
+                  7.8
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "Unesco",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -78.3,
+                    7.55
+                  ],
+                  [
+                    -77.9,
+                    7.2
+                  ],
+                  [
+                    -77.25,
+                    7.6
+                  ],
+                  [
+                    -77.4,
+                    8.15
+                  ],
+                  [
+                    -77.85,
+                    8.25
+                  ]
+                ],
+                "color": "verde",
+                "trama": "rayas",
+                "etiqueta": "PARQUE NACIONAL DARIÉN",
+                "aparecerEn": "Parque"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "5.790 KM²",
+                "sub": "PARQUE NACIONAL DARIÉN",
+                "tipo": "cifra",
+                "aparecerEn": "cinco",
+                "duracionSeg": 3.5
+              }
+            ],
+            "polaroid": {
+              "buscar": "Yellow-throated Toucan Darien Panama",
+              "archivo": "File:Yellow-throated Toucan - Darién - Panama (48439746627).jpg",
+              "pie": "Tucán en el Darién, Panamá",
+              "anio": "1981",
+              "lado": "izquierda",
+              "aparecerEn": "Unesco",
+              "duracionSeg": 4
+            },
+            "clave": [
+              "Parque",
+              "Darién",
+              "cinco",
+              "Unesco"
+            ]
+          },
+          {
+            "texto": "Pegado a él, del lado colombiano, está el Parque Nacional Natural Los Katíos, también Patrimonio Mundial. Juntos forman un solo bloque de selva protegida a ambos lados de la frontera.",
+            "planos": [
+              {
+                "centro": [
+                  -77.4,
+                  7.8
+                ],
+                "zoom": 7.6,
+                "entrada": "paneo",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.5,
+                  7.8
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "Juntos",
+                "deriva": 0.15
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -77.28,
+                    7.98
+                  ],
+                  [
+                    -76.98,
+                    7.98
+                  ],
+                  [
+                    -76.98,
+                    7.65
+                  ],
+                  [
+                    -77.22,
+                    7.6
+                  ]
+                ],
+                "color": "verde",
+                "trama": "solida",
+                "etiqueta": "LOS KATÍOS",
+                "aparecerEn": "Katíos"
+              }
+            ],
+            "foto": {
+              "buscar": "Parque Nacional Natural Los Katios",
+              "archivo": "File:Parque Nacional Natural Los Katíos.jpg",
+              "pie": "LOS KATÍOS · CHOCÓ, COLOMBIA",
+              "aparecerEn": "Patrimonio",
+              "duracionSeg": 3
+            },
+            "resaltes": [
+              {
+                "lon": -77.5,
+                "lat": 7.8,
+                "radio": 220,
+                "aparecerEn": "bloque"
+              }
+            ],
+            "clave": [
+              "Katíos",
+              "Patrimonio",
+              "bloque",
+              "frontera"
+            ]
+          },
+          {
+            "texto": "Y hay gente que vive ahí desde mucho antes que los parques. Guna, Emberá y Wounaan tienen comarcas propias en el Darién. Cinco pueblos, unas ocho mil personas, han advertido que una carretera destruiría sus fuentes de comida, y con ellas, su cultura.",
+            "planos": [
+              {
+                "centro": [
+                  -78.2,
+                  8.4
+                ],
+                "zoom": 6.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.8,
+                  7.9
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "en": "ocho",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -78.6,
+                "lat": 9.3,
+                "texto": "GUNA YALA",
+                "tipo": "region",
+                "aparecerEn": "Guna"
+              },
+              {
+                "lon": -77.9,
+                "lat": 8.2,
+                "texto": "EMBERÁ-WOUNAAN",
+                "tipo": "region",
+                "aparecerEn": "Emberá"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "8.000",
+                "sub": "PERSONAS DE CINCO PUEBLOS",
+                "tipo": "cifra",
+                "aparecerEn": "ocho",
+                "duracionSeg": 3.5,
+                "pictos": {
+                  "icono": "👤",
+                  "n": 8
+                }
+              }
+            ],
+            "foto": {
+              "buscar": "Playa Muerto Darien Panama",
+              "archivo": "File:Playa Muerto, Darien, Panama 01.jpg",
+              "pie": "PLAYA MUERTO · COMUNIDAD EMBERÁ, DARIÉN",
+              "aparecerEn": "comarcas",
+              "duracionSeg": 3
+            },
+            "clave": [
+              "Guna",
+              "Emberá",
+              "Wounaan",
+              "ocho",
+              "cultura"
+            ]
+          },
+          {
+            "texto": "La otra versión también existe. Para quienes promueven la obra, la carretera uniría mercados y abarataría el transporte. Colombia lanzó en dos mil ocho un proyecto para llevar su tramo hasta la frontera, en Palo de Letras.",
+            "planos": [
+              {
+                "centro": [
+                  -76.5,
+                  7.5
+                ],
+                "zoom": 7.6,
+                "entrada": "paneo",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.35,
+                  7.95
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "en": "Palo",
+                "deriva": 0.2
+              }
+            ],
+            "contexto": {
+              "texto": "LA OTRA VERSIÓN",
+              "dice": "versión"
+            },
+            "iconos": [
+              {
+                "lon": -76.0,
+                "lat": 7.3,
+                "icono": "🚚",
+                "aparecerEn": "transporte"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.35,
+                "lat": 7.95,
+                "texto": "PALO DE LETRAS",
+                "tipo": "pin",
+                "aparecerEn": "Palo"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2008",
+                "sub": "TRANSVERSAL DE LAS AMÉRICAS",
+                "tipo": "cifra",
+                "aparecerEn": "ocho",
+                "duracionSeg": 3.4
+              }
+            ],
+            "clave": [
+              "mercados",
+              "transporte",
+              "dos",
+              "mil",
+              "ocho"
+            ]
+          },
+          {
+            "texto": "Ese tramo no está terminado, y hoy no hay ningún plan activo para cruzar la selva. Además, en los noventa el conflicto armado colombiano llegó hasta aquí, y grupos armados se quedaron con el control de buena parte del lado colombiano.",
+            "planos": [
+              {
+                "centro": [
+                  -77.35,
+                  7.95
+                ],
+                "zoom": 8.4,
+                "entrada": "corte",
+                "deriva": 0.0
+              },
+              {
+                "centro": [
+                  -76.9,
+                  7.5
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "en": "conflicto",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.35,
+                "lat": 7.95,
+                "icono": "carretera",
+                "tachado": true,
+                "aparecerEn": "plan"
+              },
+              {
+                "lon": -76.9,
+                "lat": 7.4,
+                "icono": "⚠️",
+                "aparecerEn": "armados"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -77.15,
+                    8.1
+                  ],
+                  [
+                    -76.8,
+                    8.05
+                  ],
+                  [
+                    -76.72,
+                    7.2
+                  ],
+                  [
+                    -77.05,
+                    7.1
+                  ]
+                ],
+                "color": "rojo",
+                "trama": "rayas",
+                "etiqueta": "GRUPOS ARMADOS",
+                "aparecerEn": "armados#2"
+              }
+            ],
+            "clave": [
+              "ningún",
+              "plan",
+              "conflicto",
+              "armados"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Y entonces pasó algo que nadie planificó. La selva sin camino se convirtió en una de las rutas migratorias más transitadas del mundo.",
+          "planos": [
+            {
+              "centro": [
+                -77.3,
+                7.9
+              ],
+              "zoom": 7.0,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -85,
+                15
+              ],
+              "zoom": 3.4,
+              "entrada": "zoom",
+              "en": "mundo",
+              "deriva": 0.05
+            }
+          ],
+          "contexto": {
+            "texto": "NADIE LO PLANIFICÓ",
+            "dice": "planificó"
+          },
+          "clave": [
+            "nadie",
+            "planificó",
+            "migratorias",
+            "mundo"
+          ]
+        }
+      },
+      {
+        "titulo": "Medio millón a pie",
+        "bloques": [
+          {
+            "texto": "Según las cifras oficiales de Panamá, en dos mil diecinueve la cruzaron unas veinticuatro mil personas. En dos mil veintidós, doscientas cincuenta mil. Y en dos mil veintitrés, más de medio millón.",
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.8,
+                "entrada": "corte",
+                "en": "veinticuatro",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.2,
+                "entrada": "corte",
+                "en": "medio",
+                "deriva": 0.1
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.0,
+                "lat": 7.6,
+                "icono": "👣",
+                "aparecerEn": "doscientas"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "+500.000",
+                "sub": "CRUCES EN 2023",
+                "tipo": "barras",
+                "aparecerEn": "medio",
+                "duracionSeg": 3.6,
+                "barras": [
+                  {
+                    "etiqueta": "2019",
+                    "valor": 24
+                  },
+                  {
+                    "etiqueta": "2022",
+                    "valor": 250
+                  },
+                  {
+                    "etiqueta": "2023",
+                    "valor": 520
+                  }
+                ]
+              }
+            ],
+            "fuente": {
+              "texto": "Servicio Nacional de Migración de Panamá",
+              "dice": "oficiales"
+            },
+            "clave": [
+              "veinticuatro",
+              "doscientas",
+              "medio",
+              "millón"
+            ]
+          },
+          {
+            "texto": "La mayoría venía de Venezuela, y también de Haití, Ecuador, China y otros países, rumbo a la frontera de Estados Unidos. Lo que a Bushby le tomó dos meses, ellos lo hacían en dos o tres días, por rutas organizadas.",
+            "planos": [
+              {
+                "centro": [
+                  -80,
+                  15
+                ],
+                "zoom": 3.0,
+                "entrada": "zoom",
+                "deriva": 0.05
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "Bushby",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -66,
+                "lat": 7.5,
+                "texto": "VENEZUELA",
+                "tipo": "pais",
+                "aparecerEn": "Venezuela"
+              },
+              {
+                "lon": -72.5,
+                "lat": 19,
+                "texto": "HAITÍ",
+                "tipo": "region",
+                "aparecerEn": "Haití"
+              },
+              {
+                "lon": -106,
+                "lat": 31.5,
+                "texto": "FRONTERA CON EE. UU.",
+                "tipo": "pin",
+                "aparecerEn": "frontera"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2–3 DÍAS",
+                "sub": "CONTRA 2 MESES DE BUSHBY",
+                "tipo": "cifra",
+                "aparecerEn": "tres",
+                "duracionSeg": 3.4
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.0,
+                "lat": 7.6,
+                "icono": "👣",
+                "ruta": [
+                  [
+                    -76.9,
+                    7.6
+                  ],
+                  [
+                    -77.7,
+                    8.2
+                  ]
+                ],
+                "duracionSeg": 3,
+                "aparecerEn": "rutas"
+              }
+            ],
+            "clave": [
+              "Venezuela",
+              "Haití",
+              "Bushby",
+              "tres",
+              "días"
+            ]
+          },
+          {
+            "texto": "Es una ruta peligrosa: ríos que crecen, robos y agresiones. En dos mil veinticuatro hubo al menos cincuenta y cinco muertes conocidas.",
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "en": "cincuenta",
+                "deriva": 0.1
+              }
+            ],
+            "foto": {
+              "buscar": "Ceiba tree Darien Jungle",
+              "archivo": "File:Ceiba tree in the Darien Jungle.jpg",
+              "pie": "LA SELVA DEL DARIÉN · PANAMÁ",
+              "aparecerEn": "peligrosa",
+              "duracionSeg": 3
+            },
+            "tarjetas": [
+              {
+                "texto": "55",
+                "sub": "MUERTES CONOCIDAS EN 2024",
+                "tipo": "cifra",
+                "aparecerEn": "cincuenta",
+                "duracionSeg": 3.4
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.5,
+                "lat": 8.0,
+                "icono": "rio",
+                "aparecerEn": "ríos"
+              }
+            ],
+            "clave": [
+              "peligrosa",
+              "ríos",
+              "cincuenta",
+              "cinco"
+            ]
+          },
+          {
+            "texto": "Después, el flujo se desplomó. En dos mil veinticuatro pasaron unas trescientas mil personas. En dos mil veinticinco, apenas unas tres mil, tras los cambios en la política migratoria de Estados Unidos y el cierre de pasos en Panamá.",
+            "planos": [
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.15
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "en": "trescientas",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -77.3,
+                  7.9
+                ],
+                "zoom": 7.6,
+                "entrada": "corte",
+                "en": "cierre",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -100,
+                "lat": 38,
+                "texto": "EE. UU.",
+                "tipo": "pais",
+                "aparecerEn": "política"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "–99 %",
+                "sub": "DE 300.000 A UNAS 3.000",
+                "tipo": "barras",
+                "aparecerEn": "tres#2",
+                "duracionSeg": 3.8,
+                "barras": [
+                  {
+                    "etiqueta": "2024",
+                    "valor": 300
+                  },
+                  {
+                    "etiqueta": "2025",
+                    "valor": 3
+                  }
+                ]
+              }
+            ],
+            "contexto": {
+              "texto": "SE DESPLOMÓ",
+              "dice": "desplomó"
+            },
+            "iconos": [
+              {
+                "lon": -77.69,
+                "lat": 8.16,
+                "icono": "⛔",
+                "aparecerEn": "cierre"
+              }
+            ],
+            "clave": [
+              "desplomó",
+              "trescientas",
+              "tres",
+              "mil"
+            ]
+          },
+          {
+            "texto": "En dos mil veintiséis, hasta agosto, el registro oficial contaba unos trescientos cruces. Ahora muchos hacen el viaje al revés, de norte a sur, y bordean la selva por mar.",
+            "planos": [
+              {
+                "centro": [
+                  -78.5,
+                  8.8
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "~300",
+                "sub": "CRUCES EN 2026, HASTA AGOSTO",
+                "tipo": "cifra",
+                "aparecerEn": "trescientos",
+                "duracionSeg": 3.4
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -79.0,
+                "lat": 9.4,
+                "icono": "barco",
+                "ruta": [
+                  [
+                    -79.4,
+                    9.45
+                  ],
+                  [
+                    -78.2,
+                    9.3
+                  ],
+                  [
+                    -77.2,
+                    8.7
+                  ]
+                ],
+                "duracionSeg": 4,
+                "aparecerEn": "mar"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -78.6,
+                "lat": 9.8,
+                "texto": "MAR CARIBE",
+                "tipo": "mar",
+                "aparecerEn": "revés"
+              }
+            ],
+            "clave": [
+              "veintiséis",
+              "trescientos",
+              "revés",
+              "mar"
+            ]
+          },
+          {
+            "texto": "Y la carretera sigue cortada en Yaviza. Hubo ferris entre Panamá y Colombia, y cerraron porque no eran rentables. Para cruzar con un auto, hoy hay que mandarlo en barco. El tapón que frenó a la carretera nunca frenó del todo a la gente.",
+            "planos": [
+              {
+                "centro": [
+                  -77.69,
+                  8.16
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78,
+                  8.8
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "en": "ferris",
+                "deriva": 0.15
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.69,
+                "lat": 8.16,
+                "texto": "YAVIZA",
+                "tipo": "pin",
+                "aparecerEn": "Yaviza"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -78.5,
+                "lat": 9.3,
+                "icono": "barco",
+                "tachado": true,
+                "aparecerEn": "cerraron"
+              },
+              {
+                "lon": -77.4,
+                "lat": 9.0,
+                "icono": "🚗",
+                "aparecerEn": "auto"
+              }
+            ],
+            "contexto": {
+              "texto": "EN BARCO",
+              "dice": "barco"
+            },
+            "resaltes": [
+              {
+                "lon": -77.3,
+                "lat": 7.9,
+                "radio": 200,
+                "aparecerEn": "gente"
+              }
+            ],
+            "clave": [
+              "Yaviza",
+              "ferris",
+              "rentables",
+              "barco"
+            ]
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "Catorce países unidos por el asfalto. Dos continentes separados por cien kilómetros de selva.",
+      "planos": [
+        {
+          "centro": [
+            -80,
+            10
+          ],
+          "zoom": 2.4,
+          "entrada": "zoom",
+          "deriva": 0.05
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -100,
+          "lat": 35,
+          "texto": "30.000 KM DE ASFALTO"
+        },
+        {
+          "lon": -62,
+          "lat": 0,
+          "texto": "100 KM DE SELVA"
+        }
+      ],
+      "serie": "Del estrecho al canal",
+      "pie": "La próxima: el canal que partió el continente en dos",
+      "segundosFinales": 12
+    },
+    "fuentes": [
+      {
+        "texto": "Wikipedia (en): Pan-American Highway (longitud, 1923, 1925, convención de 1937, Darién 106 km)",
+        "url": "https://en.wikipedia.org/wiki/Pan-American_Highway"
+      },
+      {
+        "texto": "Wikipedia (en): Darién Gap (Yaviza, Atrato, intentos 1971–1994, aftosa, cruces, migración)",
+        "url": "https://en.wikipedia.org/wiki/Dari%C3%A9n_Gap"
+      },
+      {
+        "texto": "Wikipedia (es): Carretera Panamericana (tramo faltante 87–130 km, Transversal de las Américas 2008)",
+        "url": "https://es.wikipedia.org/wiki/Carretera_Panamericana"
+      },
+      {
+        "texto": "Wikipedia (es): Tapón del Darién (Lomas Aisladas, Yaviza, comarcas)",
+        "url": "https://es.wikipedia.org/wiki/Tap%C3%B3n_del_Dari%C3%A9n"
+      },
+      {
+        "texto": "Sierra Club v. Coleman, 405 F. Supp. 53 (D.D.C. 1975) – resumen UNEP LEAP",
+        "url": "https://leap.unep.org/en/countries/us/national-case-law/sierra-club-et-al-plaintiffs-v-william-t-coleman-et-al-defendants"
+      },
+      {
+        "texto": "Sierra Club v. Coleman, 421 F. Supp. 63 (D.D.C. 1976)",
+        "url": "https://law.justia.com/cases/federal/district-courts/FSupp/421/63/1769598/"
+      },
+      {
+        "texto": "Sierra Club v. Adams, 578 F.2d 389 (D.C. Cir. 1978)",
+        "url": "https://law.resource.org/pub/us/case/reporter/F2/578/578.F2d.389.76-2158.html"
+      },
+      {
+        "texto": "UNESCO: Parque Nacional Darién (inscrito en 1981)",
+        "url": "https://whc.unesco.org/en/list/159/"
+      },
+      {
+        "texto": "GearJunkie: Loren y Patty Upton, 741 días en el Darién",
+        "url": "https://gearjunkie.com/motors/first-around-the-world-drive-jeep-complete-sand-ship-discovery"
+      },
+      {
+        "texto": "EFE / Infobae: el paso por el Darién cayó 99 % en 2025 (3.091 cruces)",
+        "url": "https://www.infobae.com/america/agencias/2026/01/01/el-paso-de-migrantes-por-la-selva-del-darien-se-redujo-un-99-en-2025-con-3091-cruces/"
+      },
+      {
+        "texto": "Infobae (ago. 2026): reducción histórica de la migración por el Darién",
+        "url": "https://www.infobae.com/colombia/2026/08/02/reduccion-historica-de-la-migracion-irregular-en-el-darien-colombia-mantiene-protagonismo-en-la-ruta/"
+      },
+      {
+        "texto": "ExplorersWeb / AP: el cruce de Karl Bushby (2001) y su detención en Panamá",
+        "url": "https://www.ajc.com/news/2026/11/karl-bushby-returns-home-to-northern-england-after-a-28-year-31000-mile-walk-around-the-world/"
+      }
+    ]
+  }
+}
