@@ -10,7 +10,8 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { DIR_SALIDA, RAIZ, cargarCalendario, escribirJson, leerBandeja, existeSecreto, ARCHIVO_TOKEN_YT } from './lib/operacion.mjs';
+import { google } from 'googleapis';
+import { DIR_SALIDA, RAIZ, cargarCalendario, escribirJson, leerJson, leerBandeja, existeSecreto, ARCHIVO_TOKEN_YT, ARCHIVO_CLIENTE_YT } from './lib/operacion.mjs';
 
 const CANAL = process.env.LP_CANAL_ID ?? 'UCp05AZK18-TL8pp74ntbdUw';
 const PILOTO = process.env.PILOTO_URL ?? 'http://127.0.0.1:8777';
@@ -123,9 +124,11 @@ const numero = (s?: string) => {
   if (!s) return null;
   const m = s.match(/([\d.,]+)\s*(K|M|mil|mill)?/i);
   if (!m) return null;
-  let n = parseFloat(m[1].replace(/\./g, '').replace(',', '.'));
-  if (/k|mil$/i.test(m[2] ?? '')) n *= 1e3; else if (/m|mill/i.test(m[2] ?? '')) n *= 1e6;
-  return Math.round(n);
+  const suf = m[2] ?? '', t = m[1];
+  // Con sufijo (1.5K, 1,5 mil) el separador es decimal; sin sufijo, "1.234"/"1,234,567" son miles y "7.0"/"343,9" decimales.
+  let n = suf ? parseFloat(t.replace(',', '.')) : /^\d{1,3}([.,]\d{3})+$/.test(t) ? parseFloat(t.replace(/[.,]/g, '')) : parseFloat(t.replace(',', '.'));
+  if (/^k|^mil$/i.test(suf)) n *= 1e3; else if (/^m/i.test(suf)) n *= 1e6;
+  return Math.round(n * 10) / 10;
 };
 
 const canalPublico = async () => {
@@ -158,9 +161,47 @@ const deStudio = (textos: Record<string, string>) => {
   return {
     vistas28d: tras(t, /(?:Views|Visualizaciones)\s*\n?\s*([\d.,]+\s*[KM]?)/i),
     horas28d: tras(t, /(?:Watch time \(hours\)|Tiempo de reproducción \(horas\))\s*\n?\s*([\d.,]+)/i),
-    vistas48h: tras(t, /([\d.,]+)\s*\n?\s*(?:Views|Visualizaciones)\s*·?\s*(?:Last 48 hours|Últimas 48 horas)/i),
+    vistas48h: tras(t, /(?:48 hour views|Visualizaciones en 48 horas|Visualizaciones de las últimas 48 horas)\s*\n?\s*([\d.,]+\s*[KM]?)/i),
     ypp: m ? { subs: tras(m, /([\d.,]+)\s*\/\s*1[.,]?000/), vistasShorts90d: tras(m, /([\d.,]+\s*[KM]?)\s*\/\s*10\s*M/i), horas12m: tras(m, /([\d.,]+)\s*\/\s*4[.,]?000/) } : null,
   };
+};
+
+// ------------------------------------------------------------ API de YouTube (token propio de Línea Punteada)
+interface ApiDatos { subs: number | null; vistasCanal: number | null; videosCanal: number | null; horas28d: number | null; vistas28d: number | null; vistas48h: number | null; vistasVideo: Record<string, number>; notas: string[] }
+const porApi = async (ids: string[]): Promise<ApiDatos | null> => {
+  const d: ApiDatos = { subs: null, vistasCanal: null, videosCanal: null, horas28d: null, vistas28d: null, vistas48h: null, vistasVideo: {}, notas: [] };
+  try {
+    if (!existeSecreto(ARCHIVO_TOKEN_YT) || !existeSecreto(ARCHIVO_CLIENTE_YT)) return null;
+    const cj = leerJson<{ installed?: { client_id: string; client_secret: string }; web?: { client_id: string; client_secret: string } }>(ARCHIVO_CLIENTE_YT);
+    const c = cj.installed ?? cj.web!;
+    const cliente = new google.auth.OAuth2(c.client_id, c.client_secret);
+    const tokens = leerJson<Record<string, unknown>>(ARCHIVO_TOKEN_YT);
+    cliente.setCredentials(tokens as never);
+    // Si Google refresca el access token, se conserva (mismo criterio que subir.mts: sin pisar emitido_en ni el refresh).
+    cliente.on('tokens', (n) => escribirJson(ARCHIVO_TOKEN_YT, { ...leerJson<Record<string, unknown>>(ARCHIVO_TOKEN_YT), ...n }, 0o600));
+    const yt = google.youtube({ version: 'v3', auth: cliente });
+    const ch = await yt.channels.list({ part: ['statistics'], mine: true });
+    const it = ch.data.items?.[0];
+    if (it?.id && it.id !== CANAL) { d.notas.push(`el token es de otro canal (${it.id})`); return d; }
+    const s = it?.statistics;
+    d.subs = s?.subscriberCount != null ? Number(s.subscriberCount) : null; // la API redondea a 3 cifras significativas
+    d.vistasCanal = s?.viewCount != null ? Number(s.viewCount) : null;
+    d.videosCanal = s?.videoCount != null ? Number(s.videoCount) : null;
+    for (let i = 0; i < ids.length; i += 50) {
+      const r = await yt.videos.list({ part: ['statistics'], id: ids.slice(i, i + 50) });
+      for (const v of r.data.items ?? []) d.vistasVideo[v.id ?? ''] = Number(v.statistics?.viewCount ?? 0);
+    }
+    try {
+      const ya = google.youtubeAnalytics({ version: 'v2', auth: cliente });
+      const dia = (off: number) => new Intl.DateTimeFormat('en-CA', { timeZone: zona }).format(new Date(Date.now() - off * 864e5));
+      const q = async (desde: number) => (await ya.reports.query({ ids: 'channel==MINE', startDate: dia(desde), endDate: dia(0), metrics: 'views,estimatedMinutesWatched' })).data.rows?.[0] as number[] | undefined;
+      const r28 = await q(28), r2 = await q(2);
+      d.vistas28d = r28?.[0] ?? 0; d.horas28d = Math.round(((r28?.[1] ?? 0) / 60) * 10) / 10; d.vistas48h = r2?.[0] ?? 0;
+    } catch (e) {
+      d.notas.push(`Analytics no disponible: ${String((e as Error).message).slice(0, 120)} (¿scope yt-analytics.readonly? ver revisar.mts)`);
+    }
+    return d;
+  } catch (e) { d.notas.push(`API falló: ${String((e as Error).message).slice(0, 150)}`); return d.subs != null ? d : null; }
 };
 
 const main = async () => {
@@ -168,25 +209,27 @@ const main = async () => {
   const cap = sinCapturas ? { estado: 'omitidas (--sin-capturas)' as Resultado | string, textos: {} } : await capturar();
   const canal = await canalPublico();
   const subidos = leerBandeja(true).filter((e) => e.estado === 'subido' && e.videoId);
+  const api = await porApi(subidos.map((e) => e.videoId!));
+  if (api && api.subs != null) { canal.subs = api.subs; canal.videosPublicados = api.videosCanal; }
   const videos = [];
   for (const e of subidos) {
     const v = await videoPublico(e.videoId!);
-    videos.push({ id: e.videoId, bandeja: e.id, titulo: v.titulo ?? e.titulo, plantilla: e.plantilla, tipo: e.tipo, publicarEn: e.publicarEn ?? null, ...v });
+    if (api?.vistasVideo[e.videoId!] != null) v.vistas = api.vistasVideo[e.videoId!];
+    // `...v` va primero: si fuera al final, su `titulo` (vacío o null mientras el video está programado y la página
+    // pública no lo muestra) pisaría el fallback al título de la bandeja.
+    videos.push({ ...v, id: e.videoId, bandeja: e.id, titulo: ('titulo' in v && v.titulo) || e.titulo, plantilla: e.plantilla, tipo: e.tipo, publicarEn: e.publicarEn ?? null });
   }
   const previo = path.join(dir, 'metricas.json');
   const anterior = fs.existsSync(previo) ? JSON.parse(fs.readFileSync(previo, 'utf8')) : null;
-  const vistasTotales = videos.reduce((s, v) => s + (v.vistas ?? 0), 0);
+  const vistasTotales = api?.vistasCanal ?? videos.reduce((s, v) => s + (v.vistas ?? 0), 0);
   const studio = deStudio(cap.textos);
   const datos = {
     fecha, canalId: CANAL, generadoEn: new Date().toISOString(), zona,
     subs: canal.subs, videosPublicados: canal.videosPublicados ?? subidos.length,
     vistasTotales, // suma pública de los videos subidos (equivale a las vistas del canal salvo videos borrados)
-    // Regex de Studio aún sin afinar (2026-11-06 leyó 15.000 en un canal con 2.645 vistas): se descarta lo implausible.
-    vistas28d: studio.vistas28d != null && studio.vistas28d <= vistasTotales ? studio.vistas28d : null,
-    vistas48h: studio.vistas48h != null && studio.vistas48h <= vistasTotales ? studio.vistas48h : null,
-    horasTotales: studio.horas28d,
+    vistas28d: api?.vistas28d ?? studio.vistas28d, vistas48h: api?.vistas48h ?? studio.vistas48h, horasTotales: api?.horas28d ?? studio.horas28d,
     progresoYPP: studio.ypp,
-    fuentes: { numeros: 'públicos (curl a youtube.com)', studio: 'texto de Studio, mejor esfuerzo', api: existeSecreto(ARCHIVO_TOKEN_YT) ? 'token presente (aún no usado)' : 'sin token' },
+    fuentes: { numeros: api?.subs != null ? 'API de YouTube (Data)' : 'públicos (curl a youtube.com)', studio: 'texto de Studio, mejor esfuerzo', api: api ? (api.vistas28d != null ? 'Data + Analytics' : 'Data (sin Analytics)') : 'sin token / falló', ...(api?.notas.length ? { notas: api.notas } : {}) },
     capturas: cap.estado,
     videos,
     ...(anterior && typeof anterior.capturas === 'object' && typeof cap.estado === 'object' ? { actualizaciones: (anterior.actualizaciones ?? 0) + 1 } : {}),
