@@ -1,0 +1,898 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-bolivia-le-cedio-a-argentina",
+  "titulo": "¿Por qué Bolivia le cedió a Argentina una tierra que tenía Chile?",
+  "descripcion": "La Puna de Atacama cambió de dueño tres veces sin que nadie la conquistara. Tras la Guerra del Pacífico, el pacto de tregua de 1884 dejó a Chile administrando la costa boliviana y la Puna. En 1889 Bolivia se la cedió a Argentina a cambio de que Argentina dejara de reclamar Tarija. Chile no lo aceptó. En 1899, en Buenos Aires, una comisión de tres votó la línea tramo por tramo: un argentino, un chileno y el ministro de Estados Unidos, William Buchanan, que desempataba. Argentina se quedó con unos 64.000 km² y Chile con unos 11.000.\n\nFuentes:\n- Puna de Atacama dispute: https://en.wikipedia.org/wiki/Puna_de_Atacama_dispute\n- Litigio de la Puna de Atacama: https://es.wikipedia.org/wiki/Litigio_de_la_Puna_de_Atacama\n- Gobernación de Los Andes (1900-1943): https://es.wikipedia.org/wiki/Gobernaci%C3%B3n_de_Los_Andes\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile",
+    "#argentina",
+    "#bolivia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-bolivia-le-cedio-a-argentina",
+    "cabecera": "PUNA DE ATACAMA — LA TIERRA CEDIDA",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿QUIÉN REGALÓ ESTA TIERRA?",
+      "clave": "TIERRA",
+      "paises": [
+        "Chile",
+        "Argentina",
+        "Bolivia"
+      ],
+      "centro": [
+        -66,
+        -24
+      ],
+      "zoom": 4.4,
+      "pines": [
+        {
+          "lon": -67.4,
+          "lat": -24.6,
+          "texto": "PUNA DE ATACAMA"
+        }
+      ],
+      "icono": "🎁"
+    },
+    "gancho": {
+      "texto": "Mira este altiplano entre Chile y Argentina. En 1889 Bolivia se lo cedió a Argentina. Pero en ese momento lo ocupaba Chile. ¿Cómo se regala lo que no tienes?",
+      "rotulo": "¿REGALAR LO AJENO?",
+      "planos": [
+        {
+          "centro": [
+            -67.4,
+            -24.4
+          ],
+          "zoom": 5.8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -67.4,
+            -24.6
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "en": "Bolivia",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -68.2,
+            -24
+          ],
+          "zoom": 6.6,
+          "entrada": "paneo",
+          "en": "ocupaba",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -68.5,
+              -22.9
+            ],
+            [
+              -66.3,
+              -22.9
+            ],
+            [
+              -66.2,
+              -24.2
+            ],
+            [
+              -66.6,
+              -25.6
+            ],
+            [
+              -67.6,
+              -26.6
+            ],
+            [
+              -68.6,
+              -26.2
+            ],
+            [
+              -68.6,
+              -24.5
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "PUNA DE ATACAMA",
+          "aparecerEn": "altiplano"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -69.6,
+          "lat": -24,
+          "texto": "CHILE",
+          "tipo": "pais",
+          "aparecerEn": "Chile"
+        },
+        {
+          "lon": -65.3,
+          "lat": -25.8,
+          "texto": "ARGENTINA",
+          "tipo": "pais",
+          "aparecerEn": "Argentina"
+        },
+        {
+          "lon": -65.5,
+          "lat": -20.5,
+          "texto": "BOLIVIA",
+          "tipo": "pais",
+          "aparecerEn": "Bolivia"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "1889",
+          "sub": "BOLIVIA CEDE LA PUNA",
+          "icono": "tratado",
+          "aparecerEn": "1889",
+          "duracionSeg": 2.6
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "altiplano",
+        "1889",
+        "cedió",
+        "ocupaba",
+        "regala"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que la Puna de Atacama la ganó Chile con la guerra, como el resto del desierto. La verdad es más rara.",
+        "rotulo": {
+          "texto": "LA GUERRA",
+          "dice": "guerra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.5,
+              -23.5
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.4,
+              -24.6
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.6,
+            "lat": -23.5,
+            "texto": "DESIERTO DE ATACAMA",
+            "tipo": "region",
+            "aparecerEn": "desierto",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.8,
+            "lat": -22.5,
+            "icono": "⚔️",
+            "escala": 1.1,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -67.4,
+            "lat": -24.6,
+            "icono": "⚔️",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "Puna",
+          "Chile",
+          "guerra",
+          "desierto",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una tregua, un trueque y un desempate. Y al final, un territorio que desapareció.",
+        "rotulo": {
+          "texto": "TREGUA, TRUEQUE, DESEMPATE",
+          "dice": "tregua"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.4,
+              -24.6
+            ],
+            "zoom": 6.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66,
+              -24
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "en": "trueque",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -64,
+              -28
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "en": "desempate",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.4,
+              -24.6
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🤝",
+            "texto": "TREGUA",
+            "dice": "tregua"
+          },
+          {
+            "icono": "🔁",
+            "texto": "TRUEQUE",
+            "dice": "trueque"
+          },
+          {
+            "icono": "⚖️",
+            "texto": "DESEMPATE",
+            "dice": "desempate"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "tregua",
+          "trueque",
+          "desempate",
+          "desapareció"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la tregua. En 1884, tras la Guerra del Pacífico, Chile y Bolivia firman un pacto de tregua. Chile queda administrando la costa boliviana y, con ella, la Puna de Atacama: unos 75.000 kilómetros cuadrados de salares y volcanes, a más de 3.500 metros de altura.",
+        "rotulo": {
+          "texto": "1884",
+          "dice": "1884"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69,
+              -22.5
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.5,
+              -23.2
+            ],
+            "zoom": 5.8,
+            "entrada": "corte",
+            "en": "Chile#2",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.4,
+              -24.6
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Puna",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -72.5,
+            "lat": -23,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "Pacífico",
+            "desaparecerEn": "Puna"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -68.5,
+                -22.9
+              ],
+              [
+                -66.3,
+                -22.9
+              ],
+              [
+                -66.2,
+                -24.2
+              ],
+              [
+                -66.6,
+                -25.6
+              ],
+              [
+                -67.6,
+                -26.6
+              ],
+              [
+                -68.6,
+                -26.2
+              ],
+              [
+                -68.6,
+                -24.5
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "PUNA DE ATACAMA",
+            "aparecerEn": "Puna"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1884",
+            "sub": "PACTO DE TREGUA",
+            "icono": "tratado",
+            "aparecerEn": "1884",
+            "duracionSeg": 2.6
+          }
+        ],
+        "imagen": {
+          "buscar": "Salar de Arizaro"
+        },
+        "clave": [
+          "1884",
+          "tregua",
+          "Chile",
+          "Puna",
+          "75.000"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el trueque. En 1889 Bolivia firma un tratado con Argentina. Argentina renuncia a reclamar Tarija, en el sur boliviano. A cambio, Bolivia le cede la Puna. Una tierra que Bolivia ya no controlaba. Chile, que sí la ocupaba, no lo acepta.",
+        "rotulo": {
+          "texto": "TARIJA",
+          "dice": "Tarija"
+        },
+        "planos": [
+          {
+            "centro": [
+              -65.5,
+              -23
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -64.73,
+              -21.6
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "Tarija",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.4,
+              -24.6
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "cambio",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.4,
+              -24.2
+            ],
+            "zoom": 6.6,
+            "entrada": "paneo",
+            "en": "Chile",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Bolivia",
+            "color": "violeta",
+            "etiqueta": "BOLIVIA",
+            "aparecerEn": "Bolivia",
+            "desaparecerEn": "cambio"
+          },
+          {
+            "poligono": [
+              [
+                -68.5,
+                -22.9
+              ],
+              [
+                -66.3,
+                -22.9
+              ],
+              [
+                -66.2,
+                -24.2
+              ],
+              [
+                -66.6,
+                -25.6
+              ],
+              [
+                -67.6,
+                -26.6
+              ],
+              [
+                -68.6,
+                -26.2
+              ],
+              [
+                -68.6,
+                -24.5
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "LA PUNA",
+            "aparecerEn": "cede"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -64.73,
+            "lat": -21.53,
+            "texto": "TARIJA",
+            "tipo": "pin",
+            "aparecerEn": "Tarija",
+            "desaparecerEn": "cambio"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1889",
+            "sub": "TRATADO BOLIVIA-ARGENTINA",
+            "icono": "tratado",
+            "aparecerEn": "1889",
+            "duracionSeg": 2.6
+          }
+        ],
+        "clave": [
+          "1889",
+          "Tarija",
+          "cede",
+          "controlaba",
+          "acepta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el desempate. En 1899 los dos países arman en Buenos Aires una comisión de tres: un argentino, un chileno y el ministro de Estados Unidos, William Buchanan. Votan la línea tramo por tramo, y Buchanan desempata. Según el acta de la conferencia, Argentina se queda con unos 64.000 kilómetros cuadrados. Chile, con unos 11.000.",
+        "rotulo": {
+          "texto": "64.000 KM²",
+          "dice": "64.000"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -58.4,
+              -34.6
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.5,
+              -24.6
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "Votan",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.6,
+              -24.6
+            ],
+            "zoom": 7,
+            "entrada": "corte",
+            "en": "Según",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Aires",
+            "desaparecerEn": "Votan"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Argentina",
+            "color": "verde",
+            "etiqueta": "64.000 KM²",
+            "etiquetaEn": [
+              -66.9,
+              -24.8
+            ],
+            "aparecerEn": "Argentina"
+          },
+          {
+            "pais": "Chile",
+            "color": "rojo",
+            "etiqueta": "11.000 KM²",
+            "etiquetaEn": [
+              -68.9,
+              -24.6
+            ],
+            "aparecerEn": "Chile"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1899",
+            "sub": "CONFERENCIA DE BUENOS AIRES",
+            "icono": "tribunal",
+            "aparecerEn": "1899",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "Acta de la conferencia de Buenos Aires, 1899",
+          "dice": "Según"
+        },
+        "imagen": {
+          "buscar": "William Insco Buchanan"
+        },
+        "clave": [
+          "1899",
+          "comisión",
+          "Buchanan",
+          "desempata",
+          "64.000",
+          "11.000"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: para gobernar su premio, Argentina inventa un territorio nuevo, la Gobernación de Los Andes, manejada directo desde Buenos Aires. Dura poco más de cuarenta años. En 1943 la borran del mapa y la reparten entre Jujuy, Salta y Catamarca.",
+        "rotulo": {
+          "texto": "BORRADA",
+          "dice": "borran"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.8,
+              -24.6
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.2,
+              -25.2
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "1943",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -68.3,
+                -23
+              ],
+              [
+                -66.4,
+                -22.9
+              ],
+              [
+                -66.2,
+                -24.3
+              ],
+              [
+                -66.7,
+                -25.6
+              ],
+              [
+                -67.6,
+                -26.4
+              ],
+              [
+                -68.4,
+                -25.4
+              ],
+              [
+                -68.3,
+                -24
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "LOS ANDES",
+            "aparecerEn": "Gobernación",
+            "desaparecerEn": "borran"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -65.8,
+            "lat": -23.2,
+            "texto": "JUJUY",
+            "tipo": "region",
+            "aparecerEn": "Jujuy"
+          },
+          {
+            "lon": -65.4,
+            "lat": -24.8,
+            "texto": "SALTA",
+            "tipo": "region",
+            "aparecerEn": "Salta"
+          },
+          {
+            "lon": -66.8,
+            "lat": -27.2,
+            "texto": "CATAMARCA",
+            "tipo": "region",
+            "aparecerEn": "Catamarca"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1943",
+            "sub": "LOS ANDES SE REPARTE",
+            "aparecerEn": "1943",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "giro",
+          "Gobernación",
+          "Andes",
+          "1943",
+          "borran"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la Gobernación de Los Andes no aparece en ningún mapa. Pero la línea de 1899 sigue ahí: la cruzas en el Paso de Jama, a más de 4.000 metros, en la ruta que une San Pedro de Atacama con Jujuy. Atrás queda Chile. Adelante, tres provincias que se repartieron un territorio.",
+        "rotulo": {
+          "texto": "PASO DE JAMA",
+          "dice": "Jama"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.03,
+              -23.24
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.6,
+              -23.3
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "Atrás",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -67.03,
+            "lat": -23.24,
+            "texto": "PASO DE JAMA",
+            "tipo": "pin",
+            "aparecerEn": "Jama"
+          },
+          {
+            "lon": -68.2,
+            "lat": -22.91,
+            "texto": "SAN PEDRO DE ATACAMA",
+            "tipo": "pin",
+            "aparecerEn": "Pedro"
+          },
+          {
+            "lon": -69,
+            "lat": -23,
+            "texto": "CHILE",
+            "tipo": "pais",
+            "aparecerEn": "Chile"
+          },
+          {
+            "lon": -66,
+            "lat": -23.3,
+            "texto": "JUJUY",
+            "tipo": "region",
+            "aparecerEn": "Jujuy"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.2,
+            "lat": -22.91,
+            "icono": "🚗",
+            "ruta": [
+              [
+                -68.2,
+                -22.91
+              ],
+              [
+                -67.6,
+                -23.05
+              ],
+              [
+                -67.03,
+                -23.24
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "ruta"
+          }
+        ],
+        "imagen": {
+          "buscar": "Paso de Jama"
+        },
+        "contexto": {
+          "texto": "LA LÍNEA DE 1899",
+          "dice": "línea"
+        },
+        "clave": [
+          "1899",
+          "Jama",
+          "4.000",
+          "Chile",
+          "provincias"
+        ]
+      }
+    ],
+    "remate": "Bolivia regaló lo que no tenía. Argentina borró lo que ganó.",
+    "remateEtiquetas": [
+      {
+        "lon": -66.8,
+        "lat": -21.5,
+        "texto": "BOLIVIA: LO QUE NO TENÍA"
+      },
+      {
+        "lon": -66.5,
+        "lat": -25.6,
+        "texto": "ARGENTINA: LO QUE BORRÓ"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -67.4,
+          -24.4
+        ],
+        "zoom": 6,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Puna de Atacama dispute",
+        "url": "https://en.wikipedia.org/wiki/Puna_de_Atacama_dispute"
+      },
+      {
+        "texto": "Wikipedia: Litigio de la Puna de Atacama",
+        "url": "https://es.wikipedia.org/wiki/Litigio_de_la_Puna_de_Atacama"
+      },
+      {
+        "texto": "Wikipedia: Gobernación de Los Andes (1900-1943)",
+        "url": "https://es.wikipedia.org/wiki/Gobernaci%C3%B3n_de_Los_Andes"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [
+        -67.3,
+        -24.3
+      ],
+      "zoomInicial": 5.6,
+      "zoomFinal": 6.4,
+      "lineas": [
+        {
+          "id": "frontera-bolivia",
+          "fronteraEntre": [
+            "Argentina",
+            "Bolivia"
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "Tarija"
+        },
+        {
+          "id": "frontera-1899",
+          "fronteraEntre": [
+            "Chile",
+            "Argentina"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "desempata",
+          "etiqueta": "LÍNEA DE 1899"
+        }
+      ]
+    }
+  }
+}
