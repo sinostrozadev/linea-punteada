@@ -1,0 +1,992 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-este-templo-es-de-camboya-si-su",
+  "titulo": "¿Por qué este templo es de Camboya si su escalera sube de Tailandia?",
+  "descripcion": "Preah Vihear es un templo jemer al borde de un acantilado en la sierra de Dangrek. Su gran escalera sube desde el lado tailandés, pero el templo es de Camboya. El tratado de 1904 entre Francia y Siam puso la frontera en la divisoria de aguas. El mapa francés de 1907 dejó el templo del lado camboyano. En 1962 la Corte Internacional de Justicia falló 9 votos contra 3 a favor de Camboya: Siam había recibido el mapa y no lo objetó durante medio siglo. En 2013 la Corte lo confirmó por unanimidad para todo el promontorio.\n\nFuentes:\n- Corte Internacional de Justicia, Templo de Preah Vihear (Camboya c. Tailandia), sentencia del 15-06-1962: https://www.icj-cij.org/case/45\n- Corte Internacional de Justicia, solicitud de interpretación, sentencia del 11-11-2013: https://www.icj-cij.org/case/151\n- UNESCO, Templo de Preah Vihear (Patrimonio Mundial, 2008): https://whc.unesco.org/en/list/1224/\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#camboya",
+    "#tailandia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-este-templo-es-de-camboya-si-su",
+    "cabecera": "PREAH VIHEAR — EL TEMPLO DEL SILENCIO",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ ESTE TEMPLO ES DE CAMBOYA?",
+      "clave": "CAMBOYA",
+      "paises": [
+        "Thailand",
+        "Cambodia"
+      ],
+      "centro": [
+        103.5,
+        13.5
+      ],
+      "zoom": 5,
+      "pines": [
+        {
+          "lon": 104.68,
+          "lat": 14.388,
+          "texto": "PREAH VIHEAR"
+        }
+      ],
+      "icono": "🛕"
+    },
+    "gancho": {
+      "texto": "Mira este templo de piedra, al borde de un acantilado entre Tailandia y Camboya. Su gran escalera sube desde el lado tailandés, pero el templo es camboyano. ¿Por qué?",
+      "rotulo": "¿DE QUIÉN ES?",
+      "planos": [
+        {
+          "centro": [
+            103.5,
+            13.6
+          ],
+          "zoom": 6.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            104.68,
+            14.39
+          ],
+          "zoom": 10.5,
+          "entrada": "zoom",
+          "en": "acantilado",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            104.68,
+            14.392
+          ],
+          "zoom": 13,
+          "entrada": "zoom",
+          "en": "escalera",
+          "deriva": 0.25
+        },
+        {
+          "centro": [
+            104.68,
+            14.38
+          ],
+          "zoom": 11.8,
+          "entrada": "zoom",
+          "en": "pero",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Thailand",
+          "color": "verde",
+          "etiqueta": "TAILANDIA",
+          "etiquetaEn": [
+            102.5,
+            15.6
+          ],
+          "aparecerEn": "Tailandia",
+          "desaparecerEn": "escalera"
+        },
+        {
+          "pais": "Cambodia",
+          "color": "rojo",
+          "etiqueta": "CAMBOYA",
+          "etiquetaEn": [
+            104.8,
+            12.8
+          ],
+          "aparecerEn": "Camboya",
+          "desaparecerEn": "escalera"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 104.68,
+          "lat": 14.388,
+          "texto": "PREAH VIHEAR",
+          "tipo": "pin",
+          "aparecerEn": "acantilado",
+          "desaparecerEn": "escalera"
+        },
+        {
+          "lon": 104.68,
+          "lat": 14.402,
+          "texto": "LADO TAILANDÉS",
+          "tipo": "region",
+          "aparecerEn": "tailandés"
+        },
+        {
+          "lon": 104.68,
+          "lat": 14.372,
+          "texto": "CAMBOYA",
+          "tipo": "region",
+          "aparecerEn": "camboyano"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": 104.68,
+          "lat": 14.399,
+          "icono": "🥾",
+          "ruta": [
+            [
+              104.68,
+              14.399
+            ],
+            [
+              104.68,
+              14.39
+            ]
+          ],
+          "duracionSeg": 2.4,
+          "escala": 0.9,
+          "aparecerEn": "sube",
+          "desaparecerEn": "pero"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "acantilado",
+        "Tailandia",
+        "Camboya",
+        "escalera",
+        "camboyano"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que es de Camboya porque lo levantaron los jemeres, hace casi mil años. La verdad es más rara.",
+        "rotulo": {
+          "texto": "MIL AÑOS",
+          "dice": "mil"
+        },
+        "planos": [
+          {
+            "centro": [
+              104.2,
+              13.8
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 103.867,
+            "lat": 13.412,
+            "texto": "ANGKOR",
+            "tipo": "pin",
+            "aparecerEn": "jemeres",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": 104.68,
+            "lat": 14.388,
+            "texto": "PREAH VIHEAR",
+            "tipo": "pin",
+            "aparecerEn": "jemeres",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "SIGLO XI",
+            "sub": "TEMPLO JEMER DEDICADO A SHIVA",
+            "aparecerEn": "mil",
+            "duracionSeg": 2.4
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "Camboya",
+          "jemeres",
+          "mil",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un tratado, un mapa y un silencio. Y al final, una visita que pesó más que una montaña.",
+        "rotulo": {
+          "texto": "TRES COSAS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 11.3,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 12.3,
+            "entrada": "zoom",
+            "en": "silencio",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.392
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "en": "visita",
+            "deriva": 0.2
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "🗺️",
+            "texto": "MAPA",
+            "dice": "mapa"
+          },
+          {
+            "icono": "🤫",
+            "texto": "SILENCIO",
+            "dice": "silencio"
+          }
+        ],
+        "indicePosicion": "fila",
+        "contexto": {
+          "texto": "Y AL FINAL…",
+          "dice": "final"
+        },
+        "clave": [
+          "tratado",
+          "mapa",
+          "silencio",
+          "visita"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el tratado. En 1904 Francia, que gobernaba Camboya, firma con el reino de Siam, la actual Tailandia. En la sierra de Dangrek, la frontera seguirá la divisoria de aguas. Lo que escurre al norte es de Siam. Lo que escurre al sur, de Camboya.",
+        "rotulo": {
+          "texto": "1904",
+          "dice": "1904"
+        },
+        "planos": [
+          {
+            "centro": [
+              103,
+              13.9
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104,
+              14.35
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "Dangrek",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.68,
+              14.42
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Lo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.32
+            ],
+            "zoom": 9.5,
+            "entrada": "paneo",
+            "en": "Lo#2",
+            "deriva": 0.2
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Thailand",
+            "color": "verde",
+            "etiqueta": "SIAM",
+            "etiquetaEn": [
+              102.8,
+              15.4
+            ],
+            "aparecerEn": "Siam",
+            "desaparecerEn": "Dangrek"
+          },
+          {
+            "pais": "Cambodia",
+            "color": "rojo",
+            "etiqueta": "CAMBOYA (FRANCIA)",
+            "etiquetaEn": [
+              104.5,
+              12.9
+            ],
+            "aparecerEn": "Francia",
+            "desaparecerEn": "Dangrek"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 104,
+            "lat": 14.45,
+            "texto": "SIERRA DE DANGREK",
+            "tipo": "region",
+            "aparecerEn": "Dangrek",
+            "desaparecerEn": "norte"
+          },
+          {
+            "lon": 104.68,
+            "lat": 14.55,
+            "texto": "SIAM",
+            "tipo": "region",
+            "aparecerEn": "norte"
+          },
+          {
+            "lon": 104.68,
+            "lat": 14.22,
+            "texto": "CAMBOYA",
+            "tipo": "region",
+            "aparecerEn": "sur"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 104.68,
+            "lat": 14.4,
+            "icono": "💧",
+            "ruta": [
+              [
+                104.68,
+                14.4
+              ],
+              [
+                104.68,
+                14.56
+              ]
+            ],
+            "duracionSeg": 1.8,
+            "escala": 0.8,
+            "aparecerEn": "norte",
+            "desaparecerEn": "sur"
+          },
+          {
+            "lon": 104.68,
+            "lat": 14.38,
+            "icono": "💧",
+            "ruta": [
+              [
+                104.68,
+                14.38
+              ],
+              [
+                104.68,
+                14.24
+              ]
+            ],
+            "duracionSeg": 1.8,
+            "escala": 0.8,
+            "aparecerEn": "sur"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1904",
+            "sub": "TRATADO FRANCIA–SIAM",
+            "icono": "tratado",
+            "aparecerEn": "1904",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "LA DIVISORIA DE AGUAS",
+          "dice": "divisoria"
+        },
+        "clave": [
+          "1904",
+          "Francia",
+          "Siam",
+          "Dangrek",
+          "divisoria",
+          "aguas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el mapa. Siam pide a oficiales franceses que dibujen la línea, y en 1907 el mapa está listo. En ese papel, el templo queda del lado camboyano. Tailandia dice que la divisoria real lo deja en su lado. Camboya dice que manda el mapa.",
+        "rotulo": {
+          "texto": "1907",
+          "dice": "1907"
+        },
+        "planos": [
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 11.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.68,
+              14.393
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "en": "papel",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.387
+            ],
+            "zoom": 13.2,
+            "entrada": "paneo",
+            "en": "Tailandia",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.392
+            ],
+            "zoom": 12.6,
+            "entrada": "paneo",
+            "en": "Camboya",
+            "deriva": 0.2
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 104.68,
+            "lat": 14.388,
+            "radio": 100,
+            "aparecerEn": "templo"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 104.68,
+            "lat": 14.406,
+            "texto": "TAILANDIA",
+            "tipo": "region",
+            "aparecerEn": "Tailandia"
+          },
+          {
+            "lon": 104.68,
+            "lat": 14.374,
+            "texto": "CAMBOYA",
+            "tipo": "region",
+            "aparecerEn": "Camboya"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1907",
+            "sub": "MAPA DE OFICIALES FRANCESES",
+            "icono": "🗺️",
+            "aparecerEn": "1907",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "DOS LECTURAS",
+          "dice": "real"
+        },
+        "clave": [
+          "1907",
+          "papel",
+          "camboyano",
+          "divisoria",
+          "mapa"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el silencio. En 1954 Tailandia pone guardias en el templo, y en 1959 Camboya la demanda. Según el fallo de la Corte Internacional de Justicia de 1962, Siam recibió ese mapa, pidió copias y durante medio siglo no lo objetó. Nueve votos contra tres: el templo es de Camboya.",
+        "rotulo": {
+          "texto": "9 CONTRA 3",
+          "dice": "Nueve"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 12.6,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.38
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "en": "Nueve",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 104.68,
+            "lat": 14.392,
+            "icono": "💂",
+            "escala": 0.9,
+            "aparecerEn": "guardias",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": 104.7,
+            "lat": 14.38,
+            "icono": "tribunal",
+            "escala": 1.1,
+            "aparecerEn": "demanda",
+            "desaparecerEn": "Nueve"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Cambodia",
+            "color": "rojo",
+            "etiqueta": "CAMBOYA",
+            "etiquetaEn": [
+              104.68,
+              14.365
+            ],
+            "aparecerEn": "Camboya#2"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Peace Palace The Hague",
+          "pie": "Palacio de la Paz, La Haya (sede de la CIJ)",
+          "anio": "1962",
+          "lado": "derecha",
+          "aparecerEn": "Corte",
+          "duracionSeg": 3.2
+        },
+        "fuente": {
+          "texto": "Corte Internacional de Justicia · sentencia 15-06-1962",
+          "dice": "Según"
+        },
+        "tarjetas": [
+          {
+            "texto": "9 CONTRA 3",
+            "sub": "CIJ · 15 DE JUNIO DE 1962",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "A FAVOR",
+                "valor": 9
+              },
+              {
+                "etiqueta": "EN CONTRA",
+                "valor": 3
+              }
+            ],
+            "aparecerEn": "Nueve",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "MEDIO SIGLO SIN OBJETAR",
+          "dice": "siglo"
+        },
+        "clave": [
+          "1954",
+          "1959",
+          "Corte",
+          "1962",
+          "siglo",
+          "Nueve"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: la Corte nunca dijo por dónde corre el agua. En 1930 el príncipe siamés Damrong visitó el templo. Lo recibió un funcionario francés, con la bandera de Francia izada, y Siam no reclamó. Para los jueces, ese silencio fue un sí.",
+        "rotulo": {
+          "texto": "1930",
+          "dice": "1930"
+        },
+        "planos": [
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 12,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.681,
+              14.391
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "1930",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "jueces",
+            "deriva": 0.3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Prince Damrong Rajanubhab",
+          "pie": "Príncipe Damrong Rajanubhab, de Siam",
+          "anio": "1930",
+          "lado": "derecha",
+          "aparecerEn": "Damrong",
+          "duracionSeg": 3.4,
+          "encuadre": "arriba"
+        },
+        "iconos": [
+          {
+            "lon": 104.68,
+            "lat": 14.39,
+            "icono": "bandera",
+            "escala": 1.2,
+            "aparecerEn": "bandera",
+            "desaparecerEn": "jueces"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 104.68,
+            "lat": 14.388,
+            "radio": 110,
+            "aparecerEn": "templo"
+          }
+        ],
+        "contexto": {
+          "texto": "EL SILENCIO FUE UN SÍ",
+          "dice": "silencio"
+        },
+        "clave": [
+          "giro",
+          "1930",
+          "Damrong",
+          "francés",
+          "bandera",
+          "silencio"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Desde 2008 el templo es Patrimonio Mundial de la UNESCO. Ese año empezaron choques armados en la zona, que siguieron hasta 2011. En 2013 la Corte lo repitió por unanimidad: todo el promontorio es camboyano. Y su gran escalera de piedra sigue bajando hacia Tailandia.",
+        "rotulo": {
+          "texto": "UNESCO",
+          "dice": "UNESCO"
+        },
+        "planos": [
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 11.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.62,
+              14.36
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "choques",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              104.68,
+              14.39
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "en": "promontorio",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              104.68,
+              14.394
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "escalera",
+            "deriva": 0.2
+          }
+        ],
+        "foto": {
+          "buscar": "Preah Vihear Temple",
+          "pie": "PREAH VIHEAR · PATRIMONIO DE LA UNESCO",
+          "aparecerEn": "UNESCO",
+          "duracionSeg": 2.6
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                104.665,
+                14.382
+              ],
+              [
+                104.695,
+                14.382
+              ],
+              [
+                104.695,
+                14.402
+              ],
+              [
+                104.665,
+                14.402
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "EL PROMONTORIO",
+            "aparecerEn": "promontorio",
+            "desaparecerEn": "escalera"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 104.68,
+            "lat": 14.399,
+            "icono": "🥾",
+            "ruta": [
+              [
+                104.68,
+                14.39
+              ],
+              [
+                104.68,
+                14.4
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 0.9,
+            "aparecerEn": "escalera"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 104.68,
+            "lat": 14.404,
+            "texto": "TAILANDIA",
+            "tipo": "region",
+            "aparecerEn": "Tailandia"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2013",
+            "sub": "LA CORTE, POR UNANIMIDAD",
+            "icono": "tribunal",
+            "aparecerEn": "2013",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "TODO ES CAMBOYANO",
+          "dice": "camboyano"
+        },
+        "clave": [
+          "2008",
+          "UNESCO",
+          "2013",
+          "promontorio",
+          "escalera"
+        ]
+      }
+    ],
+    "remate": "El tratado trazó la frontera por el agua. El silencio la trazó por el mapa.",
+    "remateEtiquetas": [
+      {
+        "lon": 104.68,
+        "lat": 14.404,
+        "texto": "EL TRATADO: EL AGUA"
+      },
+      {
+        "lon": 104.68,
+        "lat": 14.374,
+        "texto": "EL SILENCIO: EL MAPA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          104.68,
+          14.39
+        ],
+        "zoom": 12.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Corte Internacional de Justicia: Templo de Preah Vihear (Camboya c. Tailandia), sentencia del 15-06-1962",
+        "url": "https://www.icj-cij.org/case/45"
+      },
+      {
+        "texto": "Corte Internacional de Justicia: solicitud de interpretación de la sentencia de 1962, fallo del 11-11-2013",
+        "url": "https://www.icj-cij.org/case/151"
+      },
+      {
+        "texto": "UNESCO: Temple of Preah Vihear (Patrimonio Mundial, 2008)",
+        "url": "https://whc.unesco.org/en/list/1224/"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        104.68,
+        14.39
+      ],
+      "zoomInicial": 6.2,
+      "zoomFinal": 12,
+      "lineas": [
+        {
+          "id": "frontera-hoy",
+          "fronteraEntre": [
+            "Thailand",
+            "Cambodia"
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "frontera",
+          "etiqueta": "FRONTERA"
+        },
+        {
+          "id": "mapa-1907",
+          "puntos": [
+            [
+              104.66,
+              14.386
+            ],
+            [
+              104.67,
+              14.394
+            ],
+            [
+              104.68,
+              14.4
+            ],
+            [
+              104.69,
+              14.395
+            ],
+            [
+              104.7,
+              14.387
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "1907",
+          "etiqueta": "MAPA DE 1907"
+        },
+        {
+          "id": "divisoria",
+          "puntos": [
+            [
+              104.66,
+              14.384
+            ],
+            [
+              104.67,
+              14.383
+            ],
+            [
+              104.68,
+              14.382
+            ],
+            [
+              104.69,
+              14.383
+            ],
+            [
+              104.7,
+              14.385
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "divisoria",
+          "etiqueta": "DIVISORIA"
+        }
+      ]
+    }
+  }
+}
