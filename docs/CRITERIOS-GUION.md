@@ -1,5 +1,5 @@
-# Criterios de guion — Línea Punteada (BORRADOR INCOMPLETO, 2026-11-13)
-> Quedó a medias porque se alcanzó el límite de uso. Base: `docs/GUION.md` §2–§7 y `docs/DIRECCION-VISUAL.md`. Falta la parte del largo (`largo`, ≥ 8 min, mid-rolls; skill `videos-largos`).
+# Criterios de guion — Línea Punteada (borrador para aprobación de Santiago, 2026-11-13)
+> Base: `docs/GUION.md` §2–§7, `docs/DIRECCION-VISUAL.md` y la skill `videos-largos`. Formato común: `yt/_propuestas/plantilla-criterios-guion.md`.
 
 ## 1. Bloqueantes
 | # | Criterio | ¿Lo comprueba una máquina? |
@@ -11,6 +11,13 @@
 | B5 | Promesa ("Y al final…") antes del segundo 28 (≈ 77 palabras) | no todavía (pendiente en el generador) |
 | B6 | Disputas con las dos versiones, sin opinión; sin persona viva en imagen | no: revisor |
 | B7 | Título ≤ 70 con contradicción, no repetido ni de Ñerd (REFERENTES §6) | parcial |
+
+### Bloqueantes extra del largo (`largo` 16:9)
+| B8 | Duración real ≥ 8:00 y 1.100–1.400 palabras; 4–6 capítulos de 90–150 s, cada uno con su giro | parcial: zod de `src/plantillas/largo/guion.ts` + ffprobe |
+|---|---|---|
+| B9 | Re-enganche 10–15 s antes de cada mid-roll; el primer corte no antes de ~2:30 | no: revisor |
+| B10 | Validador del largo sin errores: nada estático > 8 s, ≥ 1 s cada 3 palabras, R1–R5 | sí: `preparar-largo.mts` (modelo.ts) |
+| B11 | Texto 100 % nuevo (no compilación, orden de Santiago 11-08) | no: revisor |
 
 ## 2. Rúbrica 1–5
 | Criterio | 1 | 3 | 5 |
@@ -27,7 +34,7 @@
 Todos los bloqueantes, promedio ≥ 4 y ninguno < 3. Una reescritura; si vuelve a fallar, el guion va a `contenido/reserva/`.
 
 ## 4. Veredicto
-Mismo JSON que la plantilla común (`/home/santiago/projects/yt/_propuestas/revisor-de-guiones.md`), con `"canal":"linea-punteada"`.
+Mismo JSON que la plantilla común (`/home/santiago/projects/yt/_propuestas/plantilla-criterios-guion.md` §4), con `"canal":"linea-punteada"`.
 
 ## 5. Ejemplos
 - **Aprobaría:** `contenido/guiones/2026-11-09-frontera-por-que-chile-y-peru-prometieron-votar.json`: 351 palabras, 28 planos, 0 errores y 0 avisos de cámara, verificación con 3 correcciones aplicadas, dos versiones de la disputa.
