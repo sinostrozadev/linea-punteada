@@ -1,0 +1,1093 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-namibia-tiene-un-brazo-de-450-km",
+  "titulo": "¿Por qué Namibia tiene un brazo de 450 km que apunta a una cascada?",
+  "descripcion": "La franja de Caprivi es un brazo de unos 450 km que sale de Namibia y se mete entre Angola, Zambia y Botsuana. No es un trazo al azar. Alemania la pidió en el tratado anglo-alemán del 1 de julio de 1890, el mismo en que recibió la isla de Heligoland y aceptó que Zanzíbar fuera protectorado británico. El plan era llegar al río Zambeze y bajar por él hasta el océano Índico. Pero río abajo están las cataratas Victoria, con más de 100 metros de caída, y por ahí no pasa ningún barco. Desde 2013 la franja se llama región de Zambeze.\n\nFuentes:\n- Tratado de Heligoland-Zanzíbar (1890): https://en.wikipedia.org/wiki/Heligoland%E2%80%93Zanzibar_Treaty\n- UNESCO, Mosi-oa-Tunya / Victoria Falls: https://whc.unesco.org/en/list/509/\n- Caprivi Strip: https://en.wikipedia.org/wiki/Caprivi_Strip\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#namibia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-namibia-tiene-un-brazo-de-450-km",
+    "cabecera": "CAPRIVI — EL BRAZO QUE APUNTA AL RÍO",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿PARA QUÉ SIRVE ESTE BRAZO?",
+      "clave": "BRAZO",
+      "paises": [
+        "Namibia"
+      ],
+      "centro": [
+        20,
+        -20
+      ],
+      "zoom": 4.4,
+      "pines": [
+        {
+          "lon": 24.27,
+          "lat": -17.5,
+          "texto": "FRANJA DE CAPRIVI"
+        }
+      ],
+      "icono": "📏"
+    },
+    "gancho": {
+      "texto": "Mira el mapa de Namibia. De su esquina sale un brazo de casi 450 kilómetros que se mete entre tres países. Alguien lo dibujó a propósito. ¿Para qué?",
+      "rotulo": "UN BRAZO RARO",
+      "planos": [
+        {
+          "centro": [
+            19.5,
+            -21
+          ],
+          "zoom": 5.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            23.1,
+            -17.8
+          ],
+          "zoom": 7,
+          "entrada": "zoom",
+          "en": "esquina",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            23.1,
+            -17.75
+          ],
+          "zoom": 7.4,
+          "entrada": "corte",
+          "en": "Alguien",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Namibia",
+          "color": "verde",
+          "etiqueta": "NAMIBIA",
+          "etiquetaEn": [
+            17.5,
+            -22
+          ],
+          "aparecerEn": "Namibia",
+          "desaparecerEn": "esquina"
+        },
+        {
+          "poligono": [
+            [
+              21,
+              -17.4
+            ],
+            [
+              23.4,
+              -17.4
+            ],
+            [
+              24.27,
+              -17.49
+            ],
+            [
+              25.26,
+              -17.79
+            ],
+            [
+              24.3,
+              -17.98
+            ],
+            [
+              23.3,
+              -18
+            ],
+            [
+              21,
+              -18
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "EL BRAZO",
+          "aparecerEn": "brazo"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 20.5,
+          "lat": -15.6,
+          "texto": "ANGOLA",
+          "tipo": "pais",
+          "aparecerEn": "tres"
+        },
+        {
+          "lon": 25.6,
+          "lat": -16.2,
+          "texto": "ZAMBIA",
+          "tipo": "pais",
+          "aparecerEn": "tres"
+        },
+        {
+          "lon": 23.3,
+          "lat": -19.6,
+          "texto": "BOTSUANA",
+          "tipo": "pais",
+          "aparecerEn": "tres"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            21,
+            -18.15
+          ],
+          "hasta": [
+            25.26,
+            -18.15
+          ],
+          "texto": "≈ 450 KM",
+          "aparecerEn": "450"
+        }
+      ],
+      "contexto": {
+        "texto": "¿PARA QUÉ?",
+        "dice": "Para"
+      },
+      "clave": [
+        "Namibia",
+        "brazo",
+        "450",
+        "propósito"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que es un trazo al azar, una línea con regla de algún colonizador aburrido. La verdad es más rara.",
+        "rotulo": {
+          "texto": "AL AZAR",
+          "dice": "azar"
+        },
+        "planos": [
+          {
+            "centro": [
+              23.1,
+              -17.75
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              22.6,
+              -18.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 22.2,
+            "lat": -17.7,
+            "icono": "📏",
+            "ruta": [
+              [
+                21.2,
+                -17.7
+              ],
+              [
+                24.5,
+                -17.7
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 1.1,
+            "aparecerEn": "regla",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "azar",
+          "regla",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una isla, un canciller y un río. Y al final, lo que había río abajo.",
+        "rotulo": {
+          "texto": "ISLA, CANCILLER, RÍO",
+          "dice": "canciller"
+        },
+        "planos": [
+          {
+            "centro": [
+              23,
+              -17.8
+            ],
+            "zoom": 6.9,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              25.3,
+              -17.85
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "isla",
+            "texto": "ISLA",
+            "dice": "isla"
+          },
+          {
+            "icono": "🎩",
+            "texto": "CANCILLER",
+            "dice": "canciller"
+          },
+          {
+            "icono": "rio",
+            "texto": "RÍO",
+            "dice": "río"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": 25.4,
+            "lat": -17.88,
+            "icono": "⬇️",
+            "ruta": [
+              [
+                25.1,
+                -17.8
+              ],
+              [
+                25.7,
+                -17.9
+              ]
+            ],
+            "duracionSeg": 1.6,
+            "escala": 1,
+            "aparecerEn": "abajo"
+          }
+        ],
+        "clave": [
+          "isla",
+          "canciller",
+          "río"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la isla. Heligoland es un peñón rojo de apenas un kilómetro cuadrado en el mar del Norte, frente a la costa alemana. Pero es británico desde 1814. Y Alemania lo quiere: está construyendo un canal para su flota y no quiere cañones ajenos en la puerta.",
+        "rotulo": {
+          "texto": "HELIGOLAND",
+          "dice": "Heligoland"
+        },
+        "imagen": {
+          "buscar": "Heligoland aerial view"
+        },
+        "planos": [
+          {
+            "centro": [
+              15,
+              20
+            ],
+            "zoom": 3,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              7.88,
+              54.18
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "Heligoland",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.88,
+              54.18
+            ],
+            "zoom": 10.6,
+            "entrada": "corte",
+            "en": "británico",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              8.9,
+              54.1
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "en": "canal",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 7.88,
+            "lat": 54.18,
+            "texto": "HELIGOLAND",
+            "tipo": "pin",
+            "aparecerEn": "Heligoland"
+          },
+          {
+            "lon": 6.6,
+            "lat": 54.6,
+            "texto": "MAR DEL NORTE",
+            "tipo": "mar",
+            "aparecerEn": "Norte"
+          },
+          {
+            "lon": 9.6,
+            "lat": 54.25,
+            "texto": "CANAL DE KIEL",
+            "tipo": "pin",
+            "aparecerEn": "canal"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1814",
+            "sub": "BRITÁNICO DESDE ENTONCES",
+            "icono": "bandera",
+            "aparecerEn": "1814",
+            "duracionSeg": 2.4
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 8.2,
+            "lat": 54.05,
+            "icono": "barco",
+            "escala": 0.9,
+            "aparecerEn": "flota"
+          }
+        ],
+        "contexto": {
+          "texto": "LA ISLA",
+          "dice": "isla"
+        },
+        "clave": [
+          "Heligoland",
+          "Norte",
+          "1814",
+          "canal"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el canciller. El 1 de julio de 1890, Leo von Caprivi firma un acuerdo con Londres. Alemania se queda con Heligoland y acepta que Zanzíbar sea protectorado británico. Y según el texto del tratado, recibe además una franja de al menos 20 millas de ancho que llega hasta el río Zambeze. La franja lleva su apellido: Caprivi.",
+        "rotulo": {
+          "texto": "1890",
+          "dice": "1890"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              6.5,
+              52.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              39.2,
+              -6.16
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "Zanzíbar",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              23.1,
+              -17.75
+            ],
+            "zoom": 6.9,
+            "entrada": "zoom",
+            "en": "según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              23.1,
+              -17.75
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "en": "lleva",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 13.4,
+            "lat": 52.52,
+            "texto": "BERLÍN",
+            "tipo": "pin",
+            "aparecerEn": "Caprivi",
+            "desaparecerEn": "Zanzíbar"
+          },
+          {
+            "lon": -0.13,
+            "lat": 51.51,
+            "texto": "LONDRES",
+            "tipo": "pin",
+            "aparecerEn": "Londres",
+            "desaparecerEn": "Zanzíbar"
+          },
+          {
+            "lon": 39.2,
+            "lat": -6.16,
+            "texto": "ZANZÍBAR",
+            "tipo": "pin",
+            "aparecerEn": "Zanzíbar",
+            "desaparecerEn": "según"
+          },
+          {
+            "lon": 25.4,
+            "lat": -16.9,
+            "texto": "RÍO ZAMBEZE",
+            "tipo": "rio",
+            "rotacion": -18,
+            "aparecerEn": "Zambeze"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1 JUL 1890",
+            "sub": "TRATADO ANGLO-ALEMÁN",
+            "icono": "tratado",
+            "aparecerEn": "1890",
+            "duracionSeg": 2.8
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                21,
+                -17.4
+              ],
+              [
+                23.4,
+                -17.4
+              ],
+              [
+                24.27,
+                -17.49
+              ],
+              [
+                25.26,
+                -17.79
+              ],
+              [
+                24.3,
+                -17.98
+              ],
+              [
+                23.3,
+                -18
+              ],
+              [
+                21,
+                -18
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "FRANJA DE CAPRIVI",
+            "aparecerEn": "franja",
+            "quedarse": 1
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado anglo-alemán · 1 de julio de 1890",
+          "dice": "según"
+        },
+        "contexto": {
+          "texto": "AL MENOS 20 MILLAS",
+          "dice": "millas"
+        },
+        "clave": [
+          "1890",
+          "Caprivi",
+          "Heligoland",
+          "Zanzíbar",
+          "20",
+          "Zambeze"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el río. El Zambeze cruza el sur de África y desemboca en el océano Índico. Desde Berlín, el plan parece limpio: entrar al río desde la colonia alemana del suroeste, bajar en barco hasta el mar y acercarse a la otra colonia, la del este de África.",
+        "rotulo": {
+          "texto": "AL ÍNDICO",
+          "dice": "Índico"
+        },
+        "planos": [
+          {
+            "centro": [
+              24.3,
+              -17.6
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              30.5,
+              -17
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "en": "Índico",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              27,
+              -14
+            ],
+            "zoom": 4.3,
+            "entrada": "zoom",
+            "en": "colonia",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 41,
+            "lat": -20,
+            "texto": "OCÉANO ÍNDICO",
+            "tipo": "mar",
+            "aparecerEn": "Índico"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Namibia",
+            "color": "verde",
+            "etiqueta": "SUDOESTE ALEMÁN",
+            "etiquetaEn": [
+              17.5,
+              -22
+            ],
+            "aparecerEn": "suroeste"
+          },
+          {
+            "pais": "Tanzania",
+            "color": "verde",
+            "etiqueta": "ÁFRICA ORIENTAL ALEMANA",
+            "aparecerEn": "este"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 24.27,
+            "lat": -17.5,
+            "icono": "⛵",
+            "ruta": [
+              [
+                24.27,
+                -17.5
+              ],
+              [
+                25.26,
+                -17.79
+              ],
+              [
+                25.857,
+                -17.925
+              ],
+              [
+                28.76,
+                -16.52
+              ],
+              [
+                30.4,
+                -15.62
+              ],
+              [
+                32.7,
+                -15.6
+              ],
+              [
+                33.59,
+                -16.16
+              ],
+              [
+                35.3,
+                -17.6
+              ],
+              [
+                36.3,
+                -18.8
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "barco"
+          }
+        ],
+        "contexto": {
+          "texto": "EL PLAN",
+          "dice": "plan"
+        },
+        "clave": [
+          "Zambeze",
+          "Índico",
+          "suroeste",
+          "barco",
+          "este"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: a menos de cien kilómetros río abajo de la punta de la franja, el Zambeze cae por las cataratas Victoria. Según la UNESCO, más de 100 metros de caída en un frente de casi dos kilómetros. Ningún barco pasa por ahí. Y no era secreto: Livingstone las había visto en 1855.",
+        "rotulo": {
+          "texto": "LAS CATARATAS",
+          "dice": "cataratas"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              25.5,
+              -17.85
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              25.857,
+              -17.925
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "en": "cataratas",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              25.857,
+              -17.925
+            ],
+            "zoom": 12,
+            "entrada": "corte",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              25.6,
+              -17.85
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "Livingstone",
+            "deriva": 0.3
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              25.26,
+              -17.79
+            ],
+            "hasta": [
+              25.857,
+              -17.925
+            ],
+            "texto": "< 100 KM",
+            "aparecerEn": "kilómetros",
+            "desaparecerEn": "cataratas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 25.857,
+            "lat": -17.925,
+            "texto": "CATARATAS VICTORIA",
+            "tipo": "pin",
+            "aparecerEn": "Victoria"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "108 M",
+            "sub": "DE CAÍDA · UNESCO",
+            "icono": "rio",
+            "aparecerEn": "caída",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 25.85,
+            "lat": -17.92,
+            "icono": "barco",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "Ningún"
+          }
+        ],
+        "foto": {
+          "buscar": "Victoria Falls aerial view",
+          "pie": "CATARATAS VICTORIA · ZAMBIA Y ZIMBABUE",
+          "aparecerEn": "frente",
+          "duracionSeg": 2.6
+        },
+        "fuente": {
+          "texto": "UNESCO · Mosi-oa-Tunya / Victoria Falls",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "cataratas",
+          "UNESCO",
+          "100",
+          "Ningún",
+          "Livingstone",
+          "1855"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la franja se llama región de Zambeze, desde 2013. En su punta, Namibia, Botsuana, Zambia y Zimbabue casi se tocan. Desde 2021, un puente de casi un kilómetro cruza el río en Kazungula, entre Zambia y Botsuana. Por ahí pasan camiones, no barcos. El camino al mar terminó siendo una carretera.",
+        "rotulo": {
+          "texto": "CAMIONES",
+          "dice": "camiones"
+        },
+        "planos": [
+          {
+            "centro": [
+              24,
+              -17.7
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              25.26,
+              -17.79
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "en": "punta",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              25.265,
+              -17.785
+            ],
+            "zoom": 12,
+            "entrada": "corte",
+            "en": "puente",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              24.2,
+              -17.7
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "en": "camino",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2013",
+            "sub": "REGIÓN DE ZAMBEZE",
+            "aparecerEn": "2013",
+            "duracionSeg": 2.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 25.18,
+            "lat": -17.75,
+            "texto": "NAMIBIA",
+            "tipo": "region",
+            "aparecerEn": "Namibia",
+            "desaparecerEn": "camino"
+          },
+          {
+            "lon": 25.2,
+            "lat": -17.86,
+            "texto": "BOTSUANA",
+            "tipo": "region",
+            "aparecerEn": "Botsuana",
+            "desaparecerEn": "camino"
+          },
+          {
+            "lon": 25.3,
+            "lat": -17.73,
+            "texto": "ZAMBIA",
+            "tipo": "region",
+            "aparecerEn": "Zambia",
+            "desaparecerEn": "camino"
+          },
+          {
+            "lon": 25.36,
+            "lat": -17.84,
+            "texto": "ZIMBABUE",
+            "tipo": "region",
+            "aparecerEn": "Zimbabue",
+            "desaparecerEn": "camino"
+          },
+          {
+            "lon": 25.265,
+            "lat": -17.785,
+            "texto": "PUENTE DE KAZUNGULA",
+            "tipo": "pin",
+            "aparecerEn": "Kazungula",
+            "desaparecerEn": "camino"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 25.27,
+            "lat": -17.77,
+            "icono": "🚚",
+            "ruta": [
+              [
+                25.27,
+                -17.77
+              ],
+              [
+                25.262,
+                -17.8
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 0.9,
+            "aparecerEn": "camiones"
+          },
+          {
+            "lon": 25.29,
+            "lat": -17.79,
+            "icono": "barco",
+            "escala": 0.8,
+            "tachado": true,
+            "aparecerEn": "barcos"
+          }
+        ],
+        "contexto": {
+          "texto": "CASI SE TOCAN",
+          "dice": "tocan"
+        },
+        "clave": [
+          "2013",
+          "Zambeze",
+          "2021",
+          "Kazungula",
+          "camiones",
+          "carretera"
+        ]
+      }
+    ],
+    "remate": "Alemania pidió un río para navegar. Le dieron un río para mirar.",
+    "remateEtiquetas": [
+      {
+        "lon": 23.1,
+        "lat": -17.7,
+        "texto": "UN RÍO PARA NAVEGAR"
+      },
+      {
+        "lon": 25.857,
+        "lat": -17.925,
+        "texto": "UN RÍO PARA MIRAR"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          24.4,
+          -17.75
+        ],
+        "zoom": 7.6,
+        "entrada": "corte",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Heligoland-Zanzíbar (1 de julio de 1890)",
+        "url": "https://en.wikipedia.org/wiki/Heligoland%E2%80%93Zanzibar_Treaty"
+      },
+      {
+        "texto": "UNESCO World Heritage: Mosi-oa-Tunya / Victoria Falls",
+        "url": "https://whc.unesco.org/en/list/509/"
+      },
+      {
+        "texto": "Caprivi Strip (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Caprivi_Strip"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 4,
+      "centro": [
+        22.5,
+        -18.5
+      ],
+      "zoomInicial": 5.4,
+      "zoomFinal": 7.4,
+      "paises": [
+        "Namibia"
+      ],
+      "lineas": [
+        {
+          "id": "frontera-botsuana",
+          "fronteraEntre": [
+            "Namibia",
+            "Botswana"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "brazo"
+        },
+        {
+          "id": "frontera-angola",
+          "fronteraEntre": [
+            "Namibia",
+            "Angola"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "brazo"
+        },
+        {
+          "id": "frontera-zambia",
+          "fronteraEntre": [
+            "Namibia",
+            "Zambia"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "Zambeze"
+        },
+        {
+          "id": "zambeze",
+          "puntos": [
+            [
+              23.25,
+              -16.9
+            ],
+            [
+              24,
+              -17.45
+            ],
+            [
+              24.27,
+              -17.49
+            ],
+            [
+              25.26,
+              -17.79
+            ],
+            [
+              25.857,
+              -17.925
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "Zambeze",
+          "etiqueta": "ZAMBEZE"
+        },
+        {
+          "id": "zambeze-al-mar",
+          "puntos": [
+            [
+              25.857,
+              -17.925
+            ],
+            [
+              28.76,
+              -16.52
+            ],
+            [
+              30.4,
+              -15.62
+            ],
+            [
+              32.7,
+              -15.6
+            ],
+            [
+              33.59,
+              -16.16
+            ],
+            [
+              35.3,
+              -17.6
+            ],
+            [
+              36.3,
+              -18.8
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 4,
+          "dice": "Índico",
+          "etiqueta": "AL ÍNDICO"
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": 24.27,
+          "lat": -17.5,
+          "etiqueta": "KATIMA MULILO",
+          "aparecerEn": 6
+        }
+      ]
+    }
+  }
+}

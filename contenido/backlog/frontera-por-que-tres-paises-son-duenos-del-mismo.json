@@ -1,0 +1,748 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-tres-paises-son-duenos-del-mismo",
+  "titulo": "¿Por qué tres países son dueños del mismo mar a la vez?",
+  "descripcion": "El golfo de Fonseca, en el Pacífico de Centroamérica, lo tocan El Salvador, Honduras y Nicaragua, y sus aguas no están repartidas entre ellos: son de los tres a la vez. La idea viene de 1917. Ese año la Corte de Justicia Centroamericana falló contra el Tratado Bryan-Chamorro, que le daba a Estados Unidos el derecho a una base naval en el golfo. Nicaragua y Estados Unidos no acataron el fallo, y la corte se disolvió al año siguiente. En 1992 la Corte Internacional de Justicia confirmó el condominio. La base nunca se construyó.\n\nFuentes:\n- Corte Internacional de Justicia: Controversia sobre la frontera terrestre, insular y marítima (El Salvador/Honduras; Nicaragua interviniente), fallo del 11-09-1992: https://www.icj-cij.org/case/75\n- Bryan–Chamorro Treaty (1914): https://en.wikipedia.org/wiki/Bryan%E2%80%93Chamorro_Treaty\n- Gulf of Fonseca: https://en.wikipedia.org/wiki/Gulf_of_Fonseca\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#honduras",
+    "#elsalvador"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-tres-paises-son-duenos-del-mismo",
+    "cabecera": "GOLFO DE FONSECA — UN MAR CON TRES DUEÑOS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ES ESTE GOLFO?",
+      "clave": "GOLFO",
+      "paises": [
+        "El Salvador",
+        "Honduras",
+        "Nicaragua"
+      ],
+      "centro": [
+        -87.6,
+        13.4
+      ],
+      "zoom": 6.5,
+      "pines": [
+        {
+          "lon": -87.65,
+          "lat": 13.2,
+          "texto": "GOLFO DE FONSECA"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "gancho": {
+      "texto": "Mira este golfo en el Pacífico de Centroamérica. Lo tocan El Salvador, Honduras y Nicaragua. Y su agua no está repartida: es de los tres a la vez. ¿Cómo?",
+      "rotulo": "TRES DUEÑOS",
+      "planos": [
+        {
+          "centro": [
+            -87.65,
+            13.15
+          ],
+          "zoom": 8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -87.62,
+            13.18
+          ],
+          "zoom": 9,
+          "entrada": "zoom",
+          "en": "agua",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "El Salvador",
+          "color": "verde",
+          "etiqueta": "EL SALVADOR",
+          "etiquetaEn": [
+            -88.05,
+            13.45
+          ],
+          "aparecerEn": "Salvador",
+          "desaparecerEn": "agua"
+        },
+        {
+          "pais": "Honduras",
+          "color": "azul",
+          "etiqueta": "HONDURAS",
+          "etiquetaEn": [
+            -87.35,
+            13.55
+          ],
+          "aparecerEn": "Honduras",
+          "desaparecerEn": "agua"
+        },
+        {
+          "pais": "Nicaragua",
+          "color": "violeta",
+          "etiqueta": "NICARAGUA",
+          "etiquetaEn": [
+            -87.25,
+            12.95
+          ],
+          "aparecerEn": "Nicaragua",
+          "desaparecerEn": "agua"
+        },
+        {
+          "poligono": [
+            [
+              -87.9,
+              13.16
+            ],
+            [
+              -87.82,
+              13.36
+            ],
+            [
+              -87.6,
+              13.45
+            ],
+            [
+              -87.4,
+              13.4
+            ],
+            [
+              -87.35,
+              13.1
+            ],
+            [
+              -87.55,
+              13
+            ],
+            [
+              -87.68,
+              12.93
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "DE LOS TRES",
+          "aparecerEn": "agua"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -87.95,
+          "lat": 12.75,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "golfo"
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "golfo",
+        "Salvador",
+        "Honduras",
+        "Nicaragua",
+        "tres"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que es un pacto de buenos vecinos para pescar en paz. La verdad es más rara.",
+        "rotulo": {
+          "texto": "BUENOS VECINOS",
+          "dice": "vecinos"
+        },
+        "imagen": {
+          "buscar": "Gulf of Fonseca"
+        },
+        "planos": [
+          {
+            "centro": [
+              -87.62,
+              13.18
+            ],
+            "zoom": 9.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -87.6,
+            "lat": 13.2,
+            "icono": "🎣",
+            "escala": 1,
+            "aparecerEn": "pescar",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "vecinos",
+          "pescar",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos cosas: una base naval y dos tribunales. Y al final, una corte que nadie obedeció termina teniendo razón.",
+        "rotulo": {
+          "texto": "DOS TRIBUNALES",
+          "dice": "tribunales"
+        },
+        "planos": [
+          {
+            "centro": [
+              -87.62,
+              13.18
+            ],
+            "zoom": 9,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.65,
+              13.15
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "⚓",
+            "texto": "BASE NAVAL",
+            "dice": "base"
+          },
+          {
+            "icono": "tribunal",
+            "texto": "DOS TRIBUNALES",
+            "dice": "tribunales"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "base",
+          "tribunales",
+          "obedeció",
+          "razón"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la base. En 1914 Nicaragua firma con Estados Unidos el Tratado Bryan-Chamorro. Por tres millones de dólares le cede la ruta de un canal y el derecho a levantar una base naval aquí, en el golfo. El Salvador y Honduras miran el mapa: esa base quedaría en su puerta.",
+        "rotulo": {
+          "texto": "BASE NAVAL",
+          "dice": "naval"
+        },
+        "planos": [
+          {
+            "centro": [
+              -88,
+              22
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.62,
+              13.2
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "aquí",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.75,
+              13.3
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "Salvador",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1914",
+            "sub": "TRATADO BRYAN-CHAMORRO",
+            "icono": "tratado",
+            "aparecerEn": "1914",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -98,
+            "lat": 38,
+            "texto": "ESTADOS UNIDOS",
+            "tipo": "pais",
+            "aparecerEn": "Estados",
+            "desaparecerEn": "aquí"
+          },
+          {
+            "lon": -85.2,
+            "lat": 12.8,
+            "texto": "NICARAGUA",
+            "tipo": "pais",
+            "aparecerEn": "Nicaragua",
+            "desaparecerEn": "aquí"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -87.6,
+            "lat": 13.15,
+            "icono": "⚓",
+            "escala": 1.2,
+            "aparecerEn": "naval"
+          }
+        ],
+        "clave": [
+          "1914",
+          "Bryan-Chamorro",
+          "canal",
+          "naval",
+          "puerta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el primer tribunal. El Salvador demanda a Nicaragua ante la Corte de Justicia Centroamericana. En 1917 la corte responde: el golfo es un condominio de los tres países, y ninguno puede entregarlo por su cuenta. Nicaragua y Estados Unidos no acatan. Al año siguiente, la corte se disuelve.",
+        "rotulo": {
+          "texto": "CONDOMINIO",
+          "dice": "condominio"
+        },
+        "planos": [
+          {
+            "centro": [
+              -87.65,
+              13.15
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.62,
+              13.17
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "condominio",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1917",
+            "sub": "CORTE DE JUSTICIA CENTROAMERICANA",
+            "icono": "tribunal",
+            "aparecerEn": "1917",
+            "duracionSeg": 2.8
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -87.9,
+                13.16
+              ],
+              [
+                -87.82,
+                13.36
+              ],
+              [
+                -87.6,
+                13.45
+              ],
+              [
+                -87.4,
+                13.4
+              ],
+              [
+                -87.35,
+                13.1
+              ],
+              [
+                -87.55,
+                13
+              ],
+              [
+                -87.68,
+                12.93
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "CONDOMINIO",
+            "aparecerEn": "condominio"
+          }
+        ],
+        "contexto": {
+          "texto": "EL PRIMER TRIBUNAL",
+          "dice": "tribunal"
+        },
+        "clave": [
+          "1917",
+          "condominio",
+          "tres",
+          "acatan",
+          "disuelve"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el segundo tribunal. El Salvador y Honduras llevan su frontera a La Haya. Según el fallo de la Corte Internacional de Justicia de 1992, el agua del golfo sigue siendo de los tres, salvo una franja de unos cinco kilómetros junto a cada costa. La isla del Tigre queda para Honduras; Meanguera, para El Salvador.",
+        "rotulo": {
+          "texto": "1992",
+          "dice": "1992"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -87.65,
+              13.18
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.8,
+              13.28
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "en": "franja",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.67,
+              13.24
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "Tigre",
+            "deriva": 0.3
+          }
+        ],
+        "fuente": {
+          "texto": "CIJ · Fallo del 11-09-1992",
+          "dice": "Según"
+        },
+        "etiquetas": [
+          {
+            "lon": -87.64,
+            "lat": 13.27,
+            "texto": "ISLA DEL TIGRE",
+            "tipo": "pin",
+            "aparecerEn": "Tigre"
+          },
+          {
+            "lon": -87.71,
+            "lat": 13.19,
+            "texto": "MEANGUERA",
+            "tipo": "pin",
+            "aparecerEn": "Meanguera"
+          }
+        ],
+        "contexto": {
+          "texto": "EL SEGUNDO TRIBUNAL",
+          "dice": "tribunal"
+        },
+        "clave": [
+          "Según",
+          "1992",
+          "tres",
+          "franja",
+          "Tigre",
+          "Meanguera"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: la idea del condominio nació en una corte que murió desobedecida. Setenta y cinco años después, La Haya la recogió y la hizo suya. Y la base naval nunca se construyó: el Tratado Bryan-Chamorro se anuló en 1970.",
+        "rotulo": {
+          "texto": "NUNCA SE CONSTRUYÓ",
+          "dice": "construyó"
+        },
+        "planos": [
+          {
+            "centro": [
+              -87.62,
+              13.15
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.6,
+              13.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "base",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1917 → 1992",
+            "sub": "75 AÑOS DESPUÉS",
+            "aparecerEn": "Setenta",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -87.6,
+            "lat": 13.15,
+            "icono": "⚓",
+            "escala": 1.2,
+            "tachado": true,
+            "aparecerEn": "construyó"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "giro",
+          "desobedecida",
+          "Setenta",
+          "construyó",
+          "1970"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy, desde Amapala, en la isla del Tigre, se ven las costas de los tres países. Pescadores salvadoreños, hondureños y nicaragüenses echan la red en la misma agua. Y Honduras, gracias a ese condominio, tiene salida propia al océano abierto.",
+        "rotulo": {
+          "texto": "LA MISMA AGUA",
+          "dice": "misma"
+        },
+        "imagen": {
+          "buscar": "Amapala Honduras"
+        },
+        "planos": [
+          {
+            "centro": [
+              -87.654,
+              13.292
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.65,
+              13.17
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "Pescadores",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -87.7,
+              12.98
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "océano",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -87.654,
+            "lat": 13.292,
+            "texto": "AMAPALA",
+            "tipo": "pin",
+            "aparecerEn": "Amapala"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -87.78,
+            "lat": 13.22,
+            "icono": "🎣",
+            "escala": 0.9,
+            "aparecerEn": "salvadoreños",
+            "desaparecerEn": "océano"
+          },
+          {
+            "lon": -87.55,
+            "lat": 13.3,
+            "icono": "🎣",
+            "escala": 0.9,
+            "aparecerEn": "hondureños",
+            "desaparecerEn": "océano"
+          },
+          {
+            "lon": -87.6,
+            "lat": 13.05,
+            "icono": "🎣",
+            "escala": 0.9,
+            "aparecerEn": "nicaragüenses",
+            "desaparecerEn": "océano"
+          }
+        ],
+        "contexto": {
+          "texto": "SALIDA AL PACÍFICO",
+          "dice": "salida"
+        },
+        "clave": [
+          "Amapala",
+          "tres",
+          "misma",
+          "Honduras",
+          "océano"
+        ]
+      }
+    ],
+    "remate": "Una corte murió por decirlo. Otra vivió para repetirlo.",
+    "remateEtiquetas": [
+      {
+        "lon": -87.85,
+        "lat": 13.3,
+        "texto": "1917: LO DIJO"
+      },
+      {
+        "lon": -87.55,
+        "lat": 13.08,
+        "texto": "1992: LO REPITIÓ"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -87.65,
+          13.15
+        ],
+        "zoom": 8.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Corte Internacional de Justicia: Land, Island and Maritime Frontier Dispute (El Salvador/Honduras: Nicaragua intervening), fallo del 11-09-1992",
+        "url": "https://www.icj-cij.org/case/75"
+      },
+      {
+        "texto": "Bryan–Chamorro Treaty (1914) y fallo de la Corte de Justicia Centroamericana (1917)",
+        "url": "https://en.wikipedia.org/wiki/Bryan%E2%80%93Chamorro_Treaty"
+      },
+      {
+        "texto": "Gulf of Fonseca",
+        "url": "https://en.wikipedia.org/wiki/Gulf_of_Fonseca"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -87.65,
+        13.15
+      ],
+      "zoomInicial": 8,
+      "zoomFinal": 9,
+      "paises": [
+        "El Salvador",
+        "Honduras",
+        "Nicaragua"
+      ],
+      "lineas": [
+        {
+          "id": "frontera-sv-hn",
+          "fronteraEntre": [
+            "El Salvador",
+            "Honduras"
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1
+        },
+        {
+          "id": "frontera-hn-ni",
+          "fronteraEntre": [
+            "Honduras",
+            "Nicaragua"
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1
+        },
+        {
+          "id": "linea-de-cierre",
+          "puntos": [
+            [
+              -87.9,
+              13.16
+            ],
+            [
+              -87.68,
+              12.93
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "golfo",
+          "etiqueta": "BOCA DEL GOLFO"
+        },
+        {
+          "id": "salida-honduras",
+          "puntos": [
+            [
+              -87.64,
+              13.22
+            ],
+            [
+              -87.72,
+              13.05
+            ],
+            [
+              -87.8,
+              12.85
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 6,
+          "dice": "salida",
+          "etiqueta": "SALIDA AL PACÍFICO"
+        }
+      ]
+    }
+  }
+}

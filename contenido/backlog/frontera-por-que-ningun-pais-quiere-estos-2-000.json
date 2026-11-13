@@ -1,0 +1,899 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-ningun-pais-quiere-estos-2-000",
+  "titulo": "¿Por qué ningún país quiere estos 2.000 km² de desierto?",
+  "descripcion": "Entre Egipto y Sudán hay un pedazo de desierto que ninguno de los dos reclama: Bir Tawil, unos 2.000 km². No es por falta de mapas, sino por tener dos. El Acuerdo de Condominio Anglo-Egipcio de 1899 puso la frontera en el paralelo 22; la línea administrativa británica de 1902 le dio Bir Tawil a Egipto y el triángulo de Halaib, junto al mar Rojo y unas diez veces más grande, a Sudán. Egipto defiende la línea de 1899 y Sudán la de 1902: con cualquiera de las dos, Bir Tawil queda del lado del otro.\n\nFuentes:\n- Bir Tawil: https://en.wikipedia.org/wiki/Bir_Tawil\n- Hala'ib Triangle: https://en.wikipedia.org/wiki/Hala%27ib_Triangle\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#africa"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-ningun-pais-quiere-estos-2-000",
+    "cabecera": "BIR TAWIL — LA TIERRA QUE NADIE PIDE",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ NADIE QUIERE ESTE DESIERTO?",
+      "clave": "NADIE",
+      "paises": [
+        "Egypt",
+        "Sudan"
+      ],
+      "centro": [
+        33.5,
+        22.5
+      ],
+      "zoom": 4.6,
+      "pines": [
+        {
+          "lon": 33.65,
+          "lat": 21.88,
+          "texto": "BIR TAWIL"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "gancho": {
+      "texto": "Mira la frontera entre Egipto y Sudán. Tiene un pedazo de desierto que ninguno de los dos quiere. Ninguno. Y no es por falta de mapas. ¿Por qué?",
+      "rotulo": "NADIE LO QUIERE",
+      "planos": [
+        {
+          "centro": [
+            33,
+            23
+          ],
+          "zoom": 5.6,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            33.65,
+            21.88
+          ],
+          "zoom": 8.6,
+          "entrada": "zoom",
+          "en": "pedazo",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            34.6,
+            22.3
+          ],
+          "zoom": 7.2,
+          "entrada": "zoom",
+          "en": "mapas",
+          "deriva": 0.3
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 31,
+          "lat": 24.6,
+          "texto": "EGIPTO",
+          "tipo": "pais",
+          "aparecerEn": "Egipto",
+          "desaparecerEn": "pedazo"
+        },
+        {
+          "lon": 31.6,
+          "lat": 20.4,
+          "texto": "SUDÁN",
+          "tipo": "pais",
+          "aparecerEn": "Sudán",
+          "desaparecerEn": "pedazo"
+        },
+        {
+          "lon": 32.9,
+          "lat": 23.2,
+          "texto": "NILO",
+          "tipo": "rio",
+          "rotacion": -60,
+          "aparecerEn": "frontera",
+          "desaparecerEn": "pedazo"
+        },
+        {
+          "lon": 37.2,
+          "lat": 22.9,
+          "texto": "MAR ROJO",
+          "tipo": "mar",
+          "aparecerEn": "mapas"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              33.18,
+              22
+            ],
+            [
+              34.08,
+              22
+            ],
+            [
+              33.85,
+              21.75
+            ],
+            [
+              33.6,
+              21.72
+            ],
+            [
+              33.35,
+              21.82
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "BIR TAWIL",
+          "aparecerEn": "pedazo",
+          "quedarse": "siempre"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": 33.65,
+          "lat": 21.88,
+          "icono": "🚩",
+          "escala": 1,
+          "tachado": true,
+          "aparecerEn": "Ninguno",
+          "desaparecerEn": "mapas"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por#2"
+      },
+      "clave": [
+        "Egipto",
+        "Sudán",
+        "desierto",
+        "ninguno",
+        "mapas"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que nadie lo reclama porque no vale nada: arena, piedra y cero agua. La verdad es más rara.",
+        "rotulo": {
+          "texto": "NO VALE NADA",
+          "dice": "nada"
+        },
+        "planos": [
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              33.9,
+              22
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 33.45,
+            "lat": 21.95,
+            "icono": "🏜️",
+            "escala": 1,
+            "aparecerEn": "arena",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": 33.85,
+            "lat": 21.82,
+            "icono": "💧",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "agua",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "nada",
+          "arena",
+          "piedra",
+          "agua",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con dos líneas: una de 1899 y otra de 1902. Y al final, alguien llegó a reclamarlo con una bandera.",
+        "rotulo": {
+          "texto": "DOS LÍNEAS",
+          "dice": "líneas"
+        },
+        "planos": [
+          {
+            "centro": [
+              34.6,
+              22.3
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              34.8,
+              22.4
+            ],
+            "zoom": 7.4,
+            "entrada": "paneo",
+            "en": "1902",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "📏",
+            "texto": "1899",
+            "dice": "1899"
+          },
+          {
+            "icono": "tratado",
+            "texto": "1902",
+            "dice": "1902"
+          },
+          {
+            "icono": "bandera",
+            "texto": "LA BANDERA",
+            "dice": "bandera"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "1899",
+          "1902",
+          "bandera"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, 1899. Británicos y egipcios se reparten el gobierno de Sudán. Según el texto del Acuerdo de Condominio Anglo-Egipcio, firmado en enero de ese año, la frontera es una regla: el paralelo 22 norte. Recta, de punta a punta del desierto, del Nilo al mar Rojo.",
+        "rotulo": {
+          "texto": "PARALELO 22",
+          "dice": "paralelo"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              34,
+              22.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              34.2,
+              22
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "en": "frontera",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              35,
+              22
+            ],
+            "zoom": 6.9,
+            "entrada": "paneo",
+            "en": "Recta",
+            "deriva": 0.3
+          }
+        ],
+        "fuente": {
+          "texto": "Acuerdo de Condominio Anglo-Egipcio · 19-1-1899",
+          "dice": "Según"
+        },
+        "tarjetas": [
+          {
+            "texto": "1899",
+            "sub": "LA FRONTERA ES UNA REGLA",
+            "icono": "tratado",
+            "aparecerEn": "enero",
+            "duracionSeg": 2.8
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 31,
+            "lat": 24.6,
+            "texto": "EGIPTO",
+            "tipo": "pais",
+            "aparecerEn": "egipcios",
+            "desaparecerEn": "Recta"
+          },
+          {
+            "lon": 31.6,
+            "lat": 20.4,
+            "texto": "SUDÁN",
+            "tipo": "pais",
+            "aparecerEn": "Sudán",
+            "desaparecerEn": "Recta"
+          },
+          {
+            "lon": 31.6,
+            "lat": 22.3,
+            "texto": "NILO",
+            "tipo": "pin",
+            "aparecerEn": "Nilo"
+          },
+          {
+            "lon": 37.2,
+            "lat": 22.9,
+            "texto": "MAR ROJO",
+            "tipo": "mar",
+            "aparecerEn": "Rojo"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              31.4,
+              21.8
+            ],
+            "hasta": [
+              36.88,
+              21.8
+            ],
+            "texto": "22° NORTE",
+            "aparecerEn": "Recta"
+          }
+        ],
+        "contexto": {
+          "texto": "UNA LÍNEA RECTA",
+          "dice": "regla"
+        },
+        "clave": [
+          "1899",
+          "Sudán",
+          "Acuerdo",
+          "paralelo",
+          "Recta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, 1902. Los británicos trazan una línea administrativa nueva, pensando en los pastores y no en la regla. Unos pozos al sur del paralelo, Bir Tawil, los usaban tribus de Egipto: ese pedazo pasa a Egipto. Y el triángulo de Halaib, junto al mar Rojo, lo usaban tribus de Sudán: pasa a Sudán.",
+        "rotulo": {
+          "texto": "1902",
+          "dice": "1902"
+        },
+        "planos": [
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "Tawil",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              35.9,
+              22.5
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "Halaib",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              35,
+              22.4
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "en": "usaban#2",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                34.08,
+                22
+              ],
+              [
+                36.88,
+                22
+              ],
+              [
+                36.64,
+                22.22
+              ],
+              [
+                36.1,
+                22.7
+              ],
+              [
+                35.62,
+                23.12
+              ]
+            ],
+            "color": "violeta",
+            "etiqueta": "HALAIB",
+            "etiquetaEn": [
+              35.7,
+              22.35
+            ],
+            "aparecerEn": "triángulo",
+            "quedarse": "siempre"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 33.45,
+            "lat": 21.92,
+            "icono": "🐪",
+            "escala": 1,
+            "aparecerEn": "pastores",
+            "desaparecerEn": "Halaib"
+          },
+          {
+            "lon": 35.9,
+            "lat": 22.35,
+            "icono": "🐪",
+            "escala": 1,
+            "aparecerEn": "tribus#2"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1902",
+            "sub": "LÍNEA ADMINISTRATIVA BRITÁNICA",
+            "aparecerEn": "administrativa",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "OTRA LÍNEA",
+          "dice": "nueva"
+        },
+        "clave": [
+          "1902",
+          "pastores",
+          "Tawil",
+          "Egipto",
+          "Halaib",
+          "Sudán"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La trampa. Halaib tiene unos 20.000 kilómetros cuadrados y costa: diez veces Bir Tawil. Egipto dice que vale la línea de 1899, y así Halaib es egipcio. Sudán dice que vale la de 1902, y así Halaib es sudanés. Con cualquiera de las dos, Bir Tawil le toca al otro.",
+        "rotulo": {
+          "texto": "DIEZ VECES",
+          "dice": "diez"
+        },
+        "planos": [
+          {
+            "centro": [
+              35,
+              22.4
+            ],
+            "zoom": 7.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              35.9,
+              22.5
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "Egipto",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "cualquiera",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              34.8,
+              22.4
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "Tawil#2",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "10 VECES",
+            "sub": "KM² · HALAIB VS. BIR TAWIL",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "HALAIB",
+                "valor": 20580
+              },
+              {
+                "etiqueta": "BIR TAWIL",
+                "valor": 2060
+              }
+            ],
+            "aparecerEn": "diez",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 35.2,
+            "lat": 23.4,
+            "texto": "SEGÚN EGIPTO: 1899",
+            "tipo": "region",
+            "aparecerEn": "Egipto",
+            "desaparecerEn": "Sudán"
+          },
+          {
+            "lon": 35.2,
+            "lat": 21.6,
+            "texto": "SEGÚN SUDÁN: 1902",
+            "tipo": "region",
+            "aparecerEn": "Sudán",
+            "desaparecerEn": "cualquiera"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 33.65,
+            "lat": 21.88,
+            "radio": 120,
+            "aparecerEn": "otro"
+          }
+        ],
+        "contexto": {
+          "texto": "LA TRAMPA",
+          "dice": "trampa"
+        },
+        "clave": [
+          "trampa",
+          "20.000",
+          "costa",
+          "1899",
+          "1902",
+          "otro"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: pedir Bir Tawil sería aceptar la otra línea, y la otra línea entrega Halaib. Por eso ninguno lo pide. En 2014 un estadounidense viajó hasta ahí y clavó una bandera para nombrar princesa a su hija. Lo llamó Reino de Sudán del Norte. Ningún país lo reconoció.",
+        "rotulo": {
+          "texto": "UNA BANDERA",
+          "dice": "bandera"
+        },
+        "planos": [
+          {
+            "centro": [
+              34.8,
+              22.4
+            ],
+            "zoom": 7.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 9.2,
+            "entrada": "zoom",
+            "en": "2014",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              33.7,
+              21.9
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "llamó",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 33.65,
+            "lat": 21.88,
+            "icono": "bandera",
+            "escala": 1.2,
+            "aparecerEn": "bandera"
+          },
+          {
+            "lon": 33.65,
+            "lat": 21.88,
+            "icono": "👑",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "reconoció"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2014",
+            "sub": "UNA BANDERA EN EL DESIERTO",
+            "aparecerEn": "2014",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "giro",
+          "Halaib",
+          "ninguno",
+          "2014",
+          "bandera"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Bir Tawil no tiene gobierno, ni caminos, ni habitantes fijos: solo pastores de paso. Halaib, en cambio, lo administra Egipto desde los años noventa, con pueblos y escuelas. Y Sudán lo sigue reclamando ante Naciones Unidas.",
+        "rotulo": {
+          "texto": "SIN GOBIERNO",
+          "dice": "gobierno"
+        },
+        "planos": [
+          {
+            "centro": [
+              33.65,
+              21.88
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              36.2,
+              22.4
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "en": "Halaib",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              34.8,
+              22.4
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "Sudán",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 33.85,
+            "lat": 21.82,
+            "icono": "carretera",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "caminos",
+            "desaparecerEn": "Halaib"
+          },
+          {
+            "lon": 33.45,
+            "lat": 21.92,
+            "icono": "🐪",
+            "escala": 0.9,
+            "ruta": [
+              [
+                33.3,
+                21.95
+              ],
+              [
+                33.9,
+                21.85
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "pastores",
+            "desaparecerEn": "Halaib"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 36.63,
+            "lat": 22.22,
+            "texto": "HALAIB",
+            "tipo": "pin",
+            "aparecerEn": "Halaib"
+          }
+        ],
+        "contexto": {
+          "texto": "NADIE MANDA AQUÍ",
+          "dice": "gobierno"
+        },
+        "clave": [
+          "gobierno",
+          "pastores",
+          "Halaib",
+          "Egipto",
+          "Sudán"
+        ]
+      }
+    ],
+    "remate": "Egipto lo rechaza para quedarse con Halaib. Sudán lo rechaza para recuperarlo.",
+    "remateEtiquetas": [
+      {
+        "lon": 35.8,
+        "lat": 22.5,
+        "texto": "EGIPTO: SE QUEDA"
+      },
+      {
+        "lon": 33.65,
+        "lat": 21.6,
+        "texto": "SUDÁN: LO RECLAMA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          34.8,
+          22.4
+        ],
+        "zoom": 7.3,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Bir Tawil (acuerdo de 1899, línea administrativa de 1902, superficie)",
+        "url": "https://en.wikipedia.org/wiki/Bir_Tawil"
+      },
+      {
+        "texto": "Wikipedia: Hala'ib Triangle (superficie, administración egipcia, reclamo sudanés)",
+        "url": "https://en.wikipedia.org/wiki/Hala%27ib_Triangle"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [
+        34,
+        22.6
+      ],
+      "zoomInicial": 5.6,
+      "zoomFinal": 7.2,
+      "lineas": [
+        {
+          "id": "linea-1899",
+          "puntos": [
+            [
+              31.4,
+              22
+            ],
+            [
+              36.88,
+              22
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "paralelo",
+          "etiqueta": "LÍNEA DE 1899"
+        },
+        {
+          "id": "linea-1902",
+          "puntos": [
+            [
+              33.18,
+              22
+            ],
+            [
+              33.35,
+              21.82
+            ],
+            [
+              33.6,
+              21.72
+            ],
+            [
+              33.85,
+              21.75
+            ],
+            [
+              34.08,
+              22
+            ],
+            [
+              34.9,
+              22.6
+            ],
+            [
+              35.62,
+              23.12
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "administrativa",
+          "etiqueta": "LÍNEA DE 1902"
+        }
+      ],
+      "marcadores": [
+        {
+          "lon": 31.35,
+          "lat": 21.8,
+          "etiqueta": "WADI HALFA",
+          "aparecerEn": 2
+        },
+        {
+          "lon": 32.9,
+          "lat": 24.09,
+          "etiqueta": "ASUÁN",
+          "aparecerEn": 2
+        }
+      ]
+    }
+  }
+}

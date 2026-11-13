@@ -1,0 +1,587 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-este-campo-era-india-dentro",
+  "titulo": "¿Por qué este campo era India dentro de Bangladesh dentro de India?",
+  "descripcion": "Durante casi 70 años, la frontera entre India y Bangladesh tuvo 162 agujeros: aldeas de un país rodeadas por el otro. La más extrema, Dahala Khagrabari, era un campo de menos de una hectárea: India dentro de Bangladesh dentro de India dentro de Bangladesh, el único enclave de tercer orden del mundo.\n\nEl origen no fue una partida de ajedrez entre reyes, como dice la leyenda, sino la paz de 1713 entre el reino de Cooch Behar y el Imperio mogol, y la partición de 1947. El canje se acordó en 1974 y se cumplió recién la medianoche del 31 de julio de 2015.\n\nFuentes:\n- Ministerio de Asuntos Exteriores de India: Acuerdo de Límites Terrestres (1974) y Protocolo (2011): https://www.mea.gov.in/Uploads/PublicationDocs/24529_LBA_MEA_Booklet_final.pdf\n- India–Bangladesh enclaves: https://en.wikipedia.org/wiki/India%E2%80%93Bangladesh_enclaves\n- Dahala Khagrabari: https://en.wikipedia.org/wiki/Dahala_Khagrabari\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#india"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-este-campo-era-india-dentro",
+    "cabecera": "COOCH BEHAR — PAÍS DENTRO DE PAÍS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUÉ PAÍS ES ESTE CAMPO?",
+      "clave": "CAMPO",
+      "paises": [
+        "India",
+        "Bangladesh"
+      ],
+      "centro": [
+        89,
+        25
+      ],
+      "zoom": 5.2,
+      "pines": [
+        {
+          "lon": 88.74,
+          "lat": 26.22,
+          "texto": "DAHALA KHAGRABARI"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "gancho": {
+      "texto": "Mira este campo de yute en el norte de Bangladesh. Era India, dentro de un pedazo de Bangladesh, dentro de India, dentro de Bangladesh. ¿Cómo se llega a eso?",
+      "rotulo": "TRES CAPAS",
+      "planos": [
+        {
+          "centro": [
+            89.2,
+            25.2
+          ],
+          "zoom": 6.2,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            88.9,
+            26.15
+          ],
+          "zoom": 8.6,
+          "entrada": "zoom",
+          "en": "norte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            88.74,
+            26.22
+          ],
+          "zoom": 12,
+          "entrada": "zoom",
+          "en": "dentro#2",
+          "deriva": 0.4
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Bangladesh",
+          "color": "verde",
+          "etiqueta": "BANGLADESH",
+          "etiquetaEn": [
+            90.3,
+            24.2
+          ],
+          "aparecerEn": "Bangladesh",
+          "desaparecerEn": "Cómo"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 88.74,
+          "lat": 26.22,
+          "texto": "DAHALA KHAGRABARI",
+          "tipo": "pin",
+          "aparecerEn": "India"
+        }
+      ],
+      "resaltes": [
+        {
+          "lon": 88.74,
+          "lat": 26.22,
+          "radio": 120,
+          "aparecerEn": "dentro#3"
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "yute",
+        "India",
+        "Bangladesh"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que dos reyes se jugaron estas tierras al ajedrez, aldea por aldea. La verdad es más rara.",
+        "rotulo": {
+          "texto": "AL AJEDREZ",
+          "dice": "ajedrez"
+        },
+        "planos": [
+          {
+            "centro": [
+              88.9,
+              26.2
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 88.9,
+            "lat": 26.25,
+            "icono": "♟️",
+            "escala": 1.3,
+            "aparecerEn": "ajedrez",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "reyes",
+          "ajedrez",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un tratado, una partición y una firma que esperó 41 años. Y al final, una elección que nadie esperaba.",
+        "rotulo": {
+          "texto": "TRES COSAS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              88.95,
+              26.15
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              88.74,
+              26.22
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "✂️",
+            "texto": "PARTICIÓN",
+            "dice": "partición"
+          },
+          {
+            "icono": "✍️",
+            "texto": "FIRMA",
+            "dice": "firma"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "tratado",
+          "partición",
+          "firma",
+          "41"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el tratado. En 1713 el reino de Cooch Behar firma la paz con el Imperio mogol. Según el estudio del geógrafo Brendan Whyte, de la Universidad de Melbourne, los nobles de cada lado conservaron sus aldeas sueltas en tierra del otro. Eran cobros de impuestos, no fronteras.",
+        "rotulo": {
+          "texto": "1713",
+          "dice": "1713"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              89.2,
+              26.1
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              89,
+              26.15
+            ],
+            "zoom": 9.2,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 89.45,
+            "lat": 26.32,
+            "texto": "COOCH BEHAR",
+            "tipo": "pin",
+            "aparecerEn": "Cooch"
+          },
+          {
+            "lon": 89.25,
+            "lat": 25.75,
+            "texto": "RANGPUR",
+            "tipo": "pin",
+            "aparecerEn": "mogol"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1713",
+            "sub": "PAZ CON EL IMPERIO MOGOL",
+            "icono": "tratado",
+            "aparecerEn": "1713",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "B. Whyte · Universidad de Melbourne (2002)",
+          "dice": "Según"
+        },
+        "clave": [
+          "1713",
+          "Cooch",
+          "mogol",
+          "Whyte",
+          "impuestos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la partición. En 1947 Rangpur queda en Pakistán Oriental, hoy Bangladesh, y en 1949 Cooch Behar se une a la India. Las aldeas sueltas se vuelven enclaves: 111 de India en Bangladesh y 51 de Bangladesh en India. En total, 162 islas de un país dentro del otro, sin policía ni escuela propia.",
+        "rotulo": {
+          "texto": "162 ENCLAVES",
+          "dice": "162"
+        },
+        "planos": [
+          {
+            "centro": [
+              89,
+              26.1
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              88.85,
+              26.2
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "en": "enclaves",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "India",
+            "color": "amarillo",
+            "etiqueta": "INDIA",
+            "etiquetaEn": [
+              88.6,
+              26.6
+            ],
+            "aparecerEn": "India",
+            "desaparecerEn": "enclaves"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "162",
+            "sub": "ENCLAVES",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "DE INDIA",
+                "valor": 111
+              },
+              {
+                "etiqueta": "DE BANGLADESH",
+                "valor": 51
+              }
+            ],
+            "aparecerEn": "111",
+            "duracionSeg": 3.2
+          }
+        ],
+        "clave": [
+          "1947",
+          "1949",
+          "111",
+          "51",
+          "162"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la firma. En 1974 Indira Gandhi y Sheikh Mujibur Rahman acuerdan canjear los enclaves. Bangladesh lo ratifica ese mismo año. India tarda 41 años: lo aprueba recién en 2015, con una reforma a su Constitución.",
+        "rotulo": {
+          "texto": "41 AÑOS",
+          "dice": "41"
+        },
+        "planos": [
+          {
+            "centro": [
+              85.5,
+              25
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              88.9,
+              26.1
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "India",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 77.21,
+            "lat": 28.61,
+            "texto": "NUEVA DELHI",
+            "tipo": "pin",
+            "aparecerEn": "Indira",
+            "desaparecerEn": "India"
+          },
+          {
+            "lon": 90.41,
+            "lat": 23.81,
+            "texto": "DACA",
+            "tipo": "pin",
+            "aparecerEn": "Mujibur",
+            "desaparecerEn": "India"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "41 AÑOS",
+            "tipo": "linea-tiempo",
+            "desde": "1974",
+            "hasta": "2015",
+            "aparecerEn": "tarda",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1974",
+          "Indira",
+          "Mujibur",
+          "41",
+          "2015"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: a la medianoche del 31 de julio de 2015, unas 51.000 personas cambiaron de país sin moverse de su casa. Muchos habían vivido sin documentos de ningún país. Cada una pudo elegir nacionalidad. Solo unas mil cruzaron hacia la India. Del otro lado, casi nadie se fue.",
+        "rotulo": {
+          "texto": "SIN MOVERSE",
+          "dice": "moverse"
+        },
+        "planos": [
+          {
+            "centro": [
+              88.85,
+              26.2
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              88.8,
+              26.2
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "elegir",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "51.000",
+            "sub": "CAMBIARON DE PAÍS SIN MOVERSE",
+            "tipo": "cifra",
+            "aparecerEn": "personas",
+            "duracionSeg": 2.8
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 88.9,
+            "lat": 26.15,
+            "icono": "🏠",
+            "escala": 1.1,
+            "aparecerEn": "casa",
+            "desaparecerEn": "elegir"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "medianoche",
+          "51.000",
+          "elegir",
+          "mil",
+          "nadie"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Dahala Khagrabari, menos de una hectárea de yute, es simplemente Bangladesh. El único enclave de tercer orden del mundo ya no existe. La frontera entre India y Bangladesh perdió 162 agujeros y quedó, por fin, de una sola pieza.",
+        "rotulo": {
+          "texto": "UNA PIEZA",
+          "dice": "pieza"
+        },
+        "planos": [
+          {
+            "centro": [
+              88.74,
+              26.22
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              88.9,
+              26.15
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "en": "frontera",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 88.74,
+            "lat": 26.22,
+            "texto": "DAHALA KHAGRABARI",
+            "tipo": "pin",
+            "aparecerEn": "Dahala"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 88.74,
+            "lat": 26.22,
+            "radio": 100,
+            "aparecerEn": "hectárea"
+          }
+        ],
+        "contexto": {
+          "texto": "DE UNA SOLA PIEZA",
+          "dice": "pieza"
+        },
+        "clave": [
+          "hectárea",
+          "yute",
+          "tercer",
+          "162",
+          "pieza"
+        ]
+      }
+    ],
+    "remate": "En 1713 las aldeas eligieron dueño. En 2015 la gente eligió país.",
+    "remateEtiquetas": [
+      {
+        "lon": 89.1,
+        "lat": 26.35,
+        "texto": "1713: ALDEAS"
+      },
+      {
+        "lon": 88.8,
+        "lat": 26,
+        "texto": "2015: PERSONAS"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          88.9,
+          26.15
+        ],
+        "zoom": 9,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Ministerio de Asuntos Exteriores de India: Acuerdo de Límites Terrestres (1974) y Protocolo (2011)",
+        "url": "https://www.mea.gov.in/Uploads/PublicationDocs/24529_LBA_MEA_Booklet_final.pdf"
+      },
+      {
+        "texto": "Wikipedia: India–Bangladesh enclaves",
+        "url": "https://en.wikipedia.org/wiki/India%E2%80%93Bangladesh_enclaves"
+      },
+      {
+        "texto": "Wikipedia: Dahala Khagrabari",
+        "url": "https://en.wikipedia.org/wiki/Dahala_Khagrabari"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        89,
+        26.1
+      ],
+      "zoomInicial": 8.2,
+      "zoomFinal": 9.2,
+      "paises": [
+        "India",
+        "Bangladesh"
+      ],
+      "lineas": [
+        {
+          "id": "frontera-india-bangladesh",
+          "fronteraEntre": [
+            "India",
+            "Bangladesh"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "partición",
+          "etiqueta": "FRONTERA"
+        }
+      ]
+    }
+  }
+}

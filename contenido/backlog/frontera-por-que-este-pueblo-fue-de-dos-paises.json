@@ -1,0 +1,1026 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-este-pueblo-fue-de-dos-paises",
+  "titulo": "¿Por qué este pueblo fue de dos países y de ninguno durante 104 años?",
+  "descripcion": "Entre 1816 y 1920, un triángulo de unos 3,4 km² junto a Aquisgrán no perteneció a ningún país: era el Moresnet Neutral. Países Bajos y Prusia no se pusieron de acuerdo sobre la mina de zinc de Altenberg, así que el Tratado de Límites de Aquisgrán de 1816 lo dejó neutral y administrado por los dos. La mina se agotó hacia 1885, en 1908 hubo un proyecto para convertirlo en un Estado de esperanto llamado Amikejo, y el artículo 32 del Tratado de Versalles lo entregó a Bélgica.\n\nFuentes:\n- Tratado de Versalles (1919), Avalon Project de Yale: https://avalon.law.yale.edu/subject_menus/versailles_menu.asp\n- Neutral Moresnet: https://en.wikipedia.org/wiki/Neutral_Moresnet\n- Municipio de Kelmis: https://www.kelmis.be\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#belgica"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-este-pueblo-fue-de-dos-paises",
+    "cabecera": "MORESNET — EL PUEBLO SIN DUEÑO",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ERA ESTE PUEBLO?",
+      "clave": "PUEBLO",
+      "paises": [
+        "Belgium",
+        "Germany",
+        "Netherlands"
+      ],
+      "centro": [
+        6,
+        50.8
+      ],
+      "zoom": 7,
+      "pines": [
+        {
+          "lon": 6.008,
+          "lat": 50.717,
+          "texto": "KELMIS"
+        }
+      ],
+      "icono": "⛏️"
+    },
+    "gancho": {
+      "texto": "Mira este triángulo, donde hoy se tocan Bélgica, Alemania y Países Bajos. Durante 104 años no fue de ningún país. Tenía alcalde y vecinos, pero ningún dueño. ¿Cómo?",
+      "rotulo": "DE NADIE",
+      "planos": [
+        {
+          "centro": [
+            6.05,
+            50.75
+          ],
+          "zoom": 8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            6.012,
+            50.733
+          ],
+          "zoom": 13.4,
+          "entrada": "zoom",
+          "en": "Durante",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            6.008,
+            50.717
+          ],
+          "zoom": 14.2,
+          "entrada": "corte",
+          "en": "alcalde",
+          "deriva": 0.2
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Belgium",
+          "color": "verde",
+          "etiqueta": "BÉLGICA",
+          "etiquetaEn": [
+            5.6,
+            50.6
+          ],
+          "aparecerEn": "Bélgica",
+          "desaparecerEn": "Durante"
+        },
+        {
+          "pais": "Germany",
+          "color": "rojo",
+          "etiqueta": "ALEMANIA",
+          "etiquetaEn": [
+            6.5,
+            50.8
+          ],
+          "aparecerEn": "Alemania",
+          "desaparecerEn": "Durante"
+        },
+        {
+          "pais": "Netherlands",
+          "color": "azul",
+          "etiqueta": "PAÍSES BAJOS",
+          "etiquetaEn": [
+            5.85,
+            51
+          ],
+          "aparecerEn": "Países",
+          "desaparecerEn": "Durante"
+        },
+        {
+          "poligono": [
+            [
+              6.0208,
+              50.7548
+            ],
+            [
+              6,
+              50.713
+            ],
+            [
+              6.02,
+              50.711
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "¿DE QUIÉN?",
+          "etiquetaEn": [
+            6.013,
+            50.728
+          ],
+          "aparecerEn": "ningún"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 6.008,
+          "lat": 50.717,
+          "texto": "KELMIS",
+          "tipo": "pin",
+          "aparecerEn": "alcalde"
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "triángulo",
+        "104",
+        "ningún",
+        "dueño"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que quedó así porque nadie lo quería: un rincón de bosque sin valor entre dos reinos. La verdad es más rara.",
+        "rotulo": {
+          "texto": "SIN VALOR",
+          "dice": "valor"
+        },
+        "planos": [
+          {
+            "centro": [
+              6.05,
+              50.75
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Netherlands",
+            "color": "azul",
+            "etiqueta": "PAÍSES BAJOS",
+            "etiquetaEn": [
+              5.85,
+              50.95
+            ],
+            "aparecerEn": "reinos",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "pais": "Germany",
+            "color": "rojo",
+            "etiqueta": "PRUSIA",
+            "etiquetaEn": [
+              6.35,
+              50.8
+            ],
+            "aparecerEn": "reinos",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 6.012,
+            "lat": 50.735,
+            "icono": "🌲",
+            "escala": 1,
+            "aparecerEn": "bosque",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": 6.1,
+            "lat": 50.7,
+            "icono": "dinero",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "valor",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "nadie",
+          "bosque",
+          "valor",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una mina, un tratado y un pueblo sin ejército. Y al final, un idioma inventado quiso quedarse con él.",
+        "rotulo": {
+          "texto": "MINA, TRATADO, PUEBLO",
+          "dice": "mina"
+        },
+        "planos": [
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.008,
+              50.717
+            ],
+            "zoom": 14,
+            "entrada": "corte",
+            "en": "pueblo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "idioma",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "⛏️",
+            "texto": "MINA",
+            "dice": "mina"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "🏘️",
+            "texto": "PUEBLO",
+            "dice": "pueblo"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": 6.012,
+            "lat": 50.74,
+            "icono": "💬",
+            "escala": 1.1,
+            "aparecerEn": "idioma"
+          }
+        ],
+        "clave": [
+          "mina",
+          "tratado",
+          "pueblo",
+          "idioma"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la mina. En Kelmis estaba Altenberg, en francés Vieille Montagne, una de las minas de zinc más ricas de Europa. En 1815, tras la caída de Napoleón, el Congreso de Viena reparte esta zona entre Países Bajos y Prusia. Y los dos quieren la mina.",
+        "rotulo": {
+          "texto": "ZINC",
+          "dice": "zinc"
+        },
+        "imagen": {
+          "buscar": "Vieille Montagne Kelmis"
+        },
+        "planos": [
+          {
+            "centro": [
+              6.006,
+              50.716
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              8,
+              50
+            ],
+            "zoom": 5.5,
+            "entrada": "zoom",
+            "en": "1815",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.05,
+              50.75
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "reparte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "Prusia",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 6.008,
+            "lat": 50.717,
+            "texto": "KELMIS",
+            "tipo": "pin",
+            "aparecerEn": "Kelmis",
+            "desaparecerEn": "1815"
+          },
+          {
+            "lon": 16.37,
+            "lat": 48.21,
+            "texto": "VIENA",
+            "tipo": "pin",
+            "aparecerEn": "Viena",
+            "desaparecerEn": "reparte"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 6.006,
+            "lat": 50.716,
+            "icono": "⛏️",
+            "escala": 1,
+            "aparecerEn": "zinc",
+            "desaparecerEn": "1815"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Netherlands",
+            "color": "azul",
+            "etiqueta": "PAÍSES BAJOS",
+            "etiquetaEn": [
+              5.85,
+              50.95
+            ],
+            "aparecerEn": "Bajos",
+            "desaparecerEn": "quieren"
+          },
+          {
+            "pais": "Germany",
+            "color": "rojo",
+            "etiqueta": "PRUSIA",
+            "etiquetaEn": [
+              6.35,
+              50.8
+            ],
+            "aparecerEn": "Prusia",
+            "desaparecerEn": "quieren"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1815",
+            "sub": "CONGRESO DE VIENA",
+            "aparecerEn": "1815",
+            "duracionSeg": 2.6
+          }
+        ],
+        "clave": [
+          "Kelmis",
+          "zinc",
+          "1815",
+          "Viena"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el tratado. Según el Tratado de Límites de Aquisgrán, firmado en 1816, ninguno cede. Trazan dos líneas en vez de una. El triángulo del medio, de unos 3,4 kilómetros cuadrados, queda neutral, gobernado por los dos a la vez.",
+        "rotulo": {
+          "texto": "1816",
+          "dice": "1816"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.011,
+              50.73
+            ],
+            "zoom": 13.9,
+            "entrada": "corte",
+            "en": "triángulo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              6.02,
+              50.735
+            ],
+            "zoom": 12.8,
+            "entrada": "zoom",
+            "en": "gobernado",
+            "deriva": 0.3
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Límites de Aquisgrán · 26-06-1816",
+          "dice": "Según"
+        },
+        "etiquetas": [
+          {
+            "lon": 6.045,
+            "lat": 50.735,
+            "texto": "PRUSIA",
+            "tipo": "region",
+            "aparecerEn": "cede"
+          },
+          {
+            "lon": 5.98,
+            "lat": 50.735,
+            "texto": "PAÍSES BAJOS",
+            "tipo": "region",
+            "aparecerEn": "cede"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                6.0208,
+                50.7548
+              ],
+              [
+                6,
+                50.713
+              ],
+              [
+                6.02,
+                50.711
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "NEUTRAL",
+            "etiquetaEn": [
+              6.013,
+              50.728
+            ],
+            "aparecerEn": "neutral",
+            "quedarse": 2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3,4 KM²",
+            "sub": "TERRITORIO NEUTRAL",
+            "tipo": "cifra",
+            "aparecerEn": "kilómetros",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "DOS LÍNEAS",
+          "dice": "líneas"
+        },
+        "clave": [
+          "Aquisgrán",
+          "1816",
+          "líneas",
+          "neutral"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, el pueblo sin ejército. Nadie hace servicio militar y los impuestos son bajos. Llegan obreros de toda la región: de unos 250 vecinos en 1816 pasan a más de 4.000 antes de la Primera Guerra Mundial.",
+        "rotulo": {
+          "texto": "SIN SOLDADOS",
+          "dice": "militar"
+        },
+        "planos": [
+          {
+            "centro": [
+              6.008,
+              50.717
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              5.85,
+              50.7
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "en": "Llegan",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.008,
+              50.717
+            ],
+            "zoom": 13.6,
+            "entrada": "zoom",
+            "en": "4.000",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 6,
+            "lat": 50.725,
+            "icono": "🪖",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "militar",
+            "desaparecerEn": "Llegan"
+          },
+          {
+            "lon": 5.57,
+            "lat": 50.63,
+            "icono": "👷",
+            "ruta": [
+              [
+                5.57,
+                50.63
+              ],
+              [
+                6.008,
+                50.717
+              ]
+            ],
+            "duracionSeg": 2.2,
+            "escala": 0.9,
+            "aparecerEn": "obreros",
+            "desaparecerEn": "4.000"
+          },
+          {
+            "lon": 6.08,
+            "lat": 50.776,
+            "icono": "👷",
+            "ruta": [
+              [
+                6.08,
+                50.776
+              ],
+              [
+                6.008,
+                50.717
+              ]
+            ],
+            "duracionSeg": 2.2,
+            "escala": 0.9,
+            "aparecerEn": "región",
+            "desaparecerEn": "4.000"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 5.57,
+            "lat": 50.63,
+            "texto": "LIEJA",
+            "tipo": "pin",
+            "aparecerEn": "obreros",
+            "desaparecerEn": "4.000"
+          },
+          {
+            "lon": 6.08,
+            "lat": 50.776,
+            "texto": "AQUISGRÁN",
+            "tipo": "pin",
+            "aparecerEn": "región",
+            "desaparecerEn": "4.000"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "250 → 4.000",
+            "sub": "VECINOS · 1816 → 1914",
+            "aparecerEn": "4.000",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "militar",
+          "impuestos",
+          "250",
+          "4.000"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: en 1885 se acaba el zinc. La razón de la neutralidad desaparece, pero el territorio sigue ahí, como si nada. Y en 1908 el médico de la mina, Wilhelm Molly, propone convertirlo en el primer Estado del esperanto. Hasta le ponen nombre: Amikejo, lugar de amistad.",
+        "rotulo": {
+          "texto": "AMIKEJO",
+          "dice": "Amikejo"
+        },
+        "imagen": {
+          "buscar": "Neutral Moresnet Esperanto"
+        },
+        "planos": [
+          {
+            "centro": [
+              6.006,
+              50.716
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "en": "territorio",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.008,
+              50.722
+            ],
+            "zoom": 14,
+            "entrada": "corte",
+            "en": "Molly",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              6.012,
+              50.733
+            ],
+            "zoom": 13,
+            "entrada": "zoom",
+            "en": "Hasta",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 6.006,
+            "lat": 50.716,
+            "icono": "⛏️",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "acaba",
+            "desaparecerEn": "territorio"
+          },
+          {
+            "lon": 6.012,
+            "lat": 50.735,
+            "icono": "⭐",
+            "escala": 1.2,
+            "aparecerEn": "esperanto"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                6.0208,
+                50.7548
+              ],
+              [
+                6,
+                50.713
+              ],
+              [
+                6.02,
+                50.711
+              ]
+            ],
+            "color": "verde",
+            "etiqueta": "AMIKEJO",
+            "etiquetaEn": [
+              6.013,
+              50.728
+            ],
+            "aparecerEn": "Amikejo"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1885",
+            "sub": "SE ACABA EL ZINC",
+            "aparecerEn": "1885",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "1885",
+          "zinc",
+          "1908",
+          "Molly",
+          "esperanto",
+          "Amikejo"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy no queda nada neutral. Alemania lo ocupa en la Primera Guerra, y según el artículo 32 del Tratado de Versalles, en 1920 pasa a Bélgica. El pueblo se llama Kelmis, o La Calamine. Y en el bosque todavía asoman los mojones que marcaban el triángulo. En el Vaalserberg, al norte, se tocaban cuatro territorios. Hoy son tres.",
+        "rotulo": {
+          "texto": "BÉLGICA",
+          "dice": "Bélgica"
+        },
+        "fuenteEnVoz": true,
+        "imagen": {
+          "buscar": "Vaalserberg three-country point"
+        },
+        "planos": [
+          {
+            "centro": [
+              6.3,
+              50.8
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.03,
+              50.73
+            ],
+            "zoom": 10.5,
+            "entrada": "zoom",
+            "en": "Bélgica",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              6.008,
+              50.717
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "en": "Kelmis",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              6.014,
+              50.735
+            ],
+            "zoom": 13.8,
+            "entrada": "paneo",
+            "en": "bosque",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              6.0208,
+              50.7548
+            ],
+            "zoom": 14.4,
+            "entrada": "paneo",
+            "en": "Vaalserberg",
+            "deriva": 0.2
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Versalles (1919) · artículo 32",
+          "dice": "según"
+        },
+        "areas": [
+          {
+            "pais": "Germany",
+            "color": "rojo",
+            "etiqueta": "ALEMANIA",
+            "etiquetaEn": [
+              6.6,
+              50.9
+            ],
+            "aparecerEn": "Alemania",
+            "desaparecerEn": "Bélgica"
+          },
+          {
+            "pais": "Belgium",
+            "color": "verde",
+            "etiqueta": "BÉLGICA",
+            "etiquetaEn": [
+              5.8,
+              50.6
+            ],
+            "aparecerEn": "Bélgica",
+            "desaparecerEn": "Kelmis"
+          },
+          {
+            "poligono": [
+              [
+                6.0208,
+                50.7548
+              ],
+              [
+                6,
+                50.713
+              ],
+              [
+                6.02,
+                50.711
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "EL TRIÁNGULO",
+            "etiquetaEn": [
+              6.013,
+              50.728
+            ],
+            "aparecerEn": "triángulo"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 6.008,
+            "lat": 50.717,
+            "texto": "KELMIS · LA CALAMINE",
+            "tipo": "pin",
+            "aparecerEn": "Kelmis"
+          },
+          {
+            "lon": 6.0208,
+            "lat": 50.7548,
+            "texto": "VAALSERBERG",
+            "tipo": "pin",
+            "aparecerEn": "Vaalserberg"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 6.004,
+            "lat": 50.73,
+            "icono": "🪨",
+            "escala": 0.8,
+            "aparecerEn": "mojones"
+          },
+          {
+            "lon": 6.017,
+            "lat": 50.738,
+            "icono": "🪨",
+            "escala": 0.8,
+            "aparecerEn": "mojones"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 6.0208,
+            "lat": 50.7548,
+            "radio": 110,
+            "aparecerEn": "cuatro"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1920",
+            "sub": "PASA A BÉLGICA",
+            "aparecerEn": "1920",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "DE CUATRO A TRES",
+          "dice": "tres"
+        },
+        "clave": [
+          "Versalles",
+          "1920",
+          "Kelmis",
+          "mojones",
+          "Vaalserberg"
+        ]
+      }
+    ],
+    "remate": "El zinc creó el territorio. El territorio sobrevivió al zinc.",
+    "remateEtiquetas": [
+      {
+        "lon": 6.006,
+        "lat": 50.716,
+        "texto": "1816: EL ZINC LO CREA"
+      },
+      {
+        "lon": 6.0208,
+        "lat": 50.7548,
+        "texto": "1885: SOBREVIVE SIN ZINC"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          6.012,
+          50.733
+        ],
+        "zoom": 13.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Versalles (1919), art. 32 sobre Moresnet, Avalon Project (Yale Law School)",
+        "url": "https://avalon.law.yale.edu/subject_menus/versailles_menu.asp"
+      },
+      {
+        "texto": "Wikipedia: Neutral Moresnet",
+        "url": "https://en.wikipedia.org/wiki/Neutral_Moresnet"
+      },
+      {
+        "texto": "Municipio de Kelmis (La Calamine)",
+        "url": "https://www.kelmis.be"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 6,
+      "centro": [
+        6.05,
+        50.75
+      ],
+      "zoomInicial": 8,
+      "zoomFinal": 13.4,
+      "lineas": [
+        {
+          "id": "linea-holandesa",
+          "puntos": [
+            [
+              6.0208,
+              50.7548
+            ],
+            [
+              6,
+              50.713
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "Trazan",
+          "etiqueta": "LÍNEA HOLANDESA"
+        },
+        {
+          "id": "linea-prusiana",
+          "puntos": [
+            [
+              6.0208,
+              50.7548
+            ],
+            [
+              6.02,
+              50.711
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "líneas",
+          "etiqueta": "LÍNEA PRUSIANA"
+        }
+      ]
+    }
+  }
+}
