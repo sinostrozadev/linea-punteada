@@ -2,8 +2,8 @@
 # Un video por run. Toma un guion YA ESCRITO del backlog, y lo produce en tres etapas:
 #   preparar  (1 job)  : voz Edge TTS, satélite NASA GIBS/Sentinel-2, Natural Earth, fotos de Commons (todo sin credenciales),
 #                        props y duración; deja todo en un artifact interno.
-#   fragmento (N jobs) : cada uno renderiza (en paralelo) un tramo de frames sin audio, en su propio runner de 4 vCPU.
-#   final     (1 job)  : une los tramos, renderiza el audio completo, los mezcla, deja el json de bandeja, la hoja de contacto
+#   fragmento (N jobs) : cada uno renderiza (en paralelo) un tramo de frames con su tramo de audio (mkv, PCM sin pérdida), en su propio runner de 4 vCPU.
+#   final     (1 job)  : une los tramos (copia) y codifica el audio a AAC una sola vez, deja el json de bandeja, la hoja de contacto
 #                        y publica el artifact "shorts-<fecha>-<run>" (mp4 + json + hoja + guion, 14 días).
 # `fragmentos` = 1 equivale al render en un solo runner (más lento). Subida a YouTube: APAGADA (gancho reservado).
 # Disparadores automáticos (schedule y push) APAGADOS salvo que la variable de repo LINEA_NUBE_AUTO valga 1:
@@ -202,7 +202,7 @@ jobs:
           name: preparado
           path: .
 
-      - name: Renderizar el fragmento ${{ matrix.i }} (sin audio)
+      - name: Renderizar el fragmento ${{ matrix.i }} (video + su tramo de audio)
         env:
           ID: ${{ needs.preparar.outputs.id }}
           COMP: ${{ needs.preparar.outputs.composicion }}
@@ -214,11 +214,11 @@ jobs:
           a=$(( I * FRAMES / N )); b=$(( (I + 1) * FRAMES / N - 1 ))
           cpus=$(nproc); conc=$cpus; [ "$conc" -gt 4 ] && conc=4
           mkdir -p fragmentos
-          out="fragmentos/frag-$(printf %03d "$I").mp4"
+          out="fragmentos/frag-$(printf %03d "$I").mkv"
           echo "Fragmento $I/$N: frames $a-$b de $FRAMES · concurrency $conc · $COMP $GLFLAG"
           inicio=$(date +%s)
           npx remotion render src/index.ts "$COMP" "$out" --props="salida/trabajo/$ID.props.json" \
-            --frames="$a-$b" --muted --codec=h264 --crf=18 --x264-preset=veryfast \
+            --frames="$a-$b" --codec=h264-mkv --audio-codec=pcm-16 --crf=18 --x264-preset=veryfast \
             --concurrency="$conc" --timeout=180000 --log=error $GLFLAG
           echo "⏱ fragmento $I: $(( $(date +%s) - inicio )) s"
           ls -la fragmentos
@@ -249,15 +249,6 @@ jobs:
       - name: Dependencias
         run: npm ci --no-audit --no-fund
 
-      - name: Caché del Chrome de Remotion
-        uses: actions/cache@v4
-        with:
-          path: node_modules/.remotion
-          key: chrome-remotion-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
-
-      - name: Chrome headless de Remotion
-        run: npx remotion browser ensure
-
       - uses: actions/download-artifact@v4
         with:
           name: preparado
@@ -269,11 +260,9 @@ jobs:
           path: fragmentos
           merge-multiple: true
 
-      - name: Unir fragmentos, renderizar el audio y mezclar
+      - name: Unir fragmentos y codificar el mp4 final
         env:
           ID: ${{ needs.preparar.outputs.id }}
-          COMP: ${{ needs.preparar.outputs.composicion }}
-          GLFLAG: ${{ needs.preparar.outputs.glflag }}
         run: |
           set -e
           mkdir -p salida/bandeja
@@ -281,13 +270,9 @@ jobs:
           # ffmpeg de Remotion (el runner no trae ffmpeg en el PATH)
           FF="$PWD/node_modules/@remotion/compositor-linux-x64-gnu/ffmpeg"
           export LD_LIBRARY_PATH="$(dirname "$FF")${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-          for f in $(ls fragmentos/frag-*.mp4 | sort); do echo "file '$PWD/$f'"; done > lista.txt
-          "$FF" -hide_banner -loglevel error -y -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
-          inicio=$(date +%s)
-          npx remotion render src/index.ts "$COMP" audio.aac --props="salida/trabajo/$ID.props.json" \
-            --codec=aac --timeout=180000 --log=error $GLFLAG
-          echo "⏱ audio: $(( $(date +%s) - inicio )) s"
-          "$FF" -hide_banner -loglevel error -y -i video-mudo.mp4 -i audio.aac -map 0:v:0 -map 1:a:0 -c copy -movflags +faststart "salida/bandeja/$ID.mp4"
+          for f in $(ls fragmentos/frag-*.mkv | sort); do echo "file '$PWD/$f'"; done > lista.txt
+          "$FF" -hide_banner -loglevel error -y -f concat -safe 0 -i lista.txt -c copy unido.mkv
+          "$FF" -hide_banner -loglevel error -y -i unido.mkv -map 0:v:0 -map 0:a:0 -c:v copy -c:a aac -b:a 192k -movflags +faststart "salida/bandeja/$ID.mp4"
           ls -la "salida/bandeja/$ID.mp4"
 
       - name: Registrar en la bandeja (json) y nombre del artifact
