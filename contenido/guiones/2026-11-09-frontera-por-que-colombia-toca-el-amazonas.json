@@ -1,0 +1,1190 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-09-frontera-por-que-colombia-toca-el-amazonas",
+  "titulo": "¿Por qué Colombia toca el Amazonas con una punta de solo 116 km?",
+  "descripcion": "Colombia llega al río Amazonas por una punta de selva con forma de trapecio. No la ganó en una guerra: la recibió en un canje firmado en 1922. Diez años después, un grupo armado de peruanos entró a Leticia y estalló el conflicto. La salida fue rara: durante un año, una comisión de la Sociedad de Naciones administró la ciudad. Hoy la discusión sigue en el agua, con la isla Santa Rosa: Perú y Colombia la leen de manera distinta.\n\nFuentes:\n- Tratado Salomón-Lozano (1922): https://es.wikipedia.org/wiki/Tratado_Salom%C3%B3n-Lozano\n- Guerra colombo-peruana (1932-1933): https://es.wikipedia.org/wiki/Guerra_colombo-peruana\n- Leticia (Colombia): https://es.wikipedia.org/wiki/Leticia_(Colombia)\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#colombia"
+  ],
+  "props": {
+    "id": "2026-11-09-frontera-por-que-colombia-toca-el-amazonas",
+    "cabecera": "LETICIA — LA PUNTA QUE TOCA EL AMAZONAS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿QUIÉN DIBUJÓ ESTA PUNTA?",
+      "clave": "PUNTA",
+      "paises": [
+        "Colombia"
+      ],
+      "centro": [
+        -72,
+        -1
+      ],
+      "zoom": 4.6,
+      "pines": [
+        {
+          "lon": -69.94,
+          "lat": -4.21,
+          "texto": "LETICIA"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "gancho": {
+      "texto": "Mira el mapa de Colombia. Abajo le sale una punta, metida entre Perú y Brasil, que toca el Amazonas apenas unos 116 kilómetros. ¿Quién dibujó eso?",
+      "rotulo": "¿QUIÉN LA DIBUJÓ?",
+      "planos": [
+        {
+          "centro": [
+            -72,
+            0
+          ],
+          "zoom": 5.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -70.2,
+            -3.2
+          ],
+          "zoom": 7.2,
+          "entrada": "zoom",
+          "en": "punta",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -70.3,
+            -3.95
+          ],
+          "zoom": 8.6,
+          "entrada": "zoom",
+          "en": "toca",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Colombia",
+          "color": "verde",
+          "etiqueta": "COLOMBIA",
+          "etiquetaEn": [
+            -73,
+            2
+          ],
+          "aparecerEn": "Colombia",
+          "desaparecerEn": "punta"
+        },
+        {
+          "poligono": [
+            [
+              -70.73,
+              -3.78
+            ],
+            [
+              -70.07,
+              -2.73
+            ],
+            [
+              -69.74,
+              -2.87
+            ],
+            [
+              -69.95,
+              -4.22
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "EL TRAPECIO",
+          "aparecerEn": "punta",
+          "quedarse": 2
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -74,
+          "lat": -6,
+          "texto": "PERÚ",
+          "tipo": "pais",
+          "aparecerEn": "Perú"
+        },
+        {
+          "lon": -66,
+          "lat": -5,
+          "texto": "BRASIL",
+          "tipo": "pais",
+          "aparecerEn": "Brasil"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -70.73,
+            -3.78
+          ],
+          "hasta": [
+            -69.95,
+            -4.2
+          ],
+          "texto": "116 KM",
+          "aparecerEn": "116"
+        }
+      ],
+      "contexto": {
+        "texto": "¿QUIÉN DIBUJÓ ESO?",
+        "dice": "Quién"
+      },
+      "clave": [
+        "Colombia",
+        "punta",
+        "Amazonas",
+        "116"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que esa punta la ganó Colombia en una guerra. La verdad es más rara.",
+        "rotulo": {
+          "texto": "GANADA EN GUERRA",
+          "dice": "guerra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -3.3
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3,
+              -3.3
+            ],
+            "zoom": 8,
+            "entrada": "corte",
+            "en": "verdad",
+            "deriva": 0.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.3,
+            "lat": -3.3,
+            "icono": "guerra",
+            "escala": 1.2,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "verdad"
+          },
+          {
+            "lon": -70.3,
+            "lat": -3.3,
+            "icono": "guerra",
+            "escala": 1.2,
+            "tachado": true,
+            "aparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "guerra",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un canje, una toma y una flota. Y al final, un año sin gobierno de ninguno de los dos.",
+        "rotulo": {
+          "texto": "CANJE, TOMA, FLOTA",
+          "dice": "canje"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -3.4
+            ],
+            "zoom": 8.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.1
+            ],
+            "zoom": 9.4,
+            "entrada": "corte",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tratado",
+            "texto": "CANJE",
+            "dice": "canje"
+          },
+          {
+            "icono": "🚩",
+            "texto": "TOMA",
+            "dice": "toma"
+          },
+          {
+            "icono": "barco",
+            "texto": "FLOTA",
+            "dice": "flota"
+          }
+        ],
+        "indicePosicion": "fila",
+        "etiquetas": [
+          {
+            "lon": -69.94,
+            "lat": -4.21,
+            "texto": "LETICIA",
+            "tipo": "pin",
+            "aparecerEn": "final"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -69.94,
+            "lat": -4.21,
+            "radio": 110,
+            "aparecerEn": "año"
+          }
+        ],
+        "contexto": {
+          "texto": "UN AÑO SIN GOBIERNO",
+          "dice": "año"
+        },
+        "clave": [
+          "canje",
+          "toma",
+          "flota",
+          "año"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el canje. En 1922, en Lima, Perú y Colombia firman el Tratado Salomón-Lozano. Según su texto, el río Putumayo pasa a ser casi toda la frontera, y Perú le entrega a Colombia ese trapecio de selva con su orilla en el Amazonas. Colombia entrega lo que reclamaba al sur del Putumayo. En 1930, Leticia cambia de bandera.",
+        "rotulo": {
+          "texto": "1922",
+          "dice": "1922"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -74,
+              -3
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.5,
+              -1.8
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3,
+              -3.4
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "trapecio",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -73.5,
+              -1.6
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "en": "entrega#2",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.21
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "en": "1930",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.04,
+            "lat": -12.05,
+            "texto": "LIMA",
+            "tipo": "pin",
+            "aparecerEn": "Lima",
+            "desaparecerEn": "Según"
+          },
+          {
+            "lon": -69.94,
+            "lat": -4.21,
+            "texto": "LETICIA",
+            "tipo": "pin",
+            "aparecerEn": "Leticia"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.73,
+                -3.78
+              ],
+              [
+                -70.07,
+                -2.73
+              ],
+              [
+                -69.74,
+                -2.87
+              ],
+              [
+                -69.95,
+                -4.22
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "EL TRAPECIO",
+            "aparecerEn": "trapecio",
+            "desaparecerEn": "entrega#2"
+          },
+          {
+            "poligono": [
+              [
+                -75.2,
+                -0.12
+              ],
+              [
+                -73.2,
+                -1.75
+              ],
+              [
+                -73.6,
+                -2.6
+              ],
+              [
+                -75.4,
+                -1
+              ]
+            ],
+            "color": "rojo",
+            "etiqueta": "AL SUR DEL PUTUMAYO",
+            "aparecerEn": "Putumayo#2",
+            "desaparecerEn": "1930"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1930",
+            "sub": "LETICIA CAMBIA DE BANDERA",
+            "icono": "bandera",
+            "aparecerEn": "1930",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado Salomón-Lozano · Lima, 24-3-1922",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "EL CANJE",
+          "dice": "canje"
+        },
+        "clave": [
+          "1922",
+          "Lima",
+          "Putumayo",
+          "trapecio",
+          "1930"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, la toma. En Loreto, la región peruana de la selva, mucha gente nunca aceptó el tratado. El 1 de septiembre de 1932, un grupo armado de peruanos entra a Leticia y saca a las autoridades colombianas. Perú dice que fue un levantamiento de loretanos contra un tratado impuesto. Colombia dice que fue la ocupación de territorio suyo.",
+        "rotulo": {
+          "texto": "1932",
+          "dice": "1932"
+        },
+        "planos": [
+          {
+            "centro": [
+              -73.3,
+              -4
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.21
+            ],
+            "zoom": 9.5,
+            "entrada": "zoom",
+            "en": "septiembre",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.21
+            ],
+            "zoom": 11,
+            "entrada": "corte",
+            "en": "Perú",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.21
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "Colombia",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -74.5,
+            "lat": -4.8,
+            "texto": "LORETO",
+            "tipo": "region",
+            "aparecerEn": "Loreto",
+            "desaparecerEn": "septiembre"
+          },
+          {
+            "lon": -73.25,
+            "lat": -3.75,
+            "texto": "IQUITOS",
+            "tipo": "pin",
+            "aparecerEn": "selva",
+            "desaparecerEn": "septiembre"
+          },
+          {
+            "lon": -69.94,
+            "lat": -4.21,
+            "texto": "LETICIA",
+            "tipo": "pin",
+            "aparecerEn": "Leticia"
+          },
+          {
+            "lon": -70.08,
+            "lat": -4.32,
+            "texto": "PERÚ: LEVANTAMIENTO",
+            "tipo": "region",
+            "aparecerEn": "levantamiento"
+          },
+          {
+            "lon": -69.82,
+            "lat": -4.02,
+            "texto": "COLOMBIA: OCUPACIÓN",
+            "tipo": "region",
+            "aparecerEn": "ocupación"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.98,
+            "lat": -4.16,
+            "icono": "🚩",
+            "escala": 1,
+            "aparecerEn": "Leticia",
+            "desaparecerEn": "Perú"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1932",
+            "sub": "1 DE SEPTIEMBRE · LETICIA",
+            "aparecerEn": "septiembre",
+            "duracionSeg": 3
+          }
+        ],
+        "contexto": {
+          "texto": "DOS VERSIONES",
+          "dice": "Perú"
+        },
+        "clave": [
+          "Loreto",
+          "1932",
+          "Leticia",
+          "Perú",
+          "Colombia"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la flota. Colombia no tiene camino por tierra hasta Leticia. Entonces el general Alfredo Vásquez Cobo compra barcos en Europa, cruza el Atlántico y sube el Amazonas unos 3.000 kilómetros por aguas de Brasil. En febrero de 1933 hay combates en Tarapacá, sobre el Putumayo.",
+        "rotulo": {
+          "texto": "3.000 KM",
+          "dice": "3.000"
+        },
+        "planos": [
+          {
+            "centro": [
+              -72,
+              0
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58,
+              -2.5
+            ],
+            "zoom": 4.8,
+            "entrada": "paneo",
+            "en": "Vásquez",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66,
+              -3
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "kilómetros",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.74,
+              -2.87
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "Tarapacá",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -74.07,
+            "lat": 4.71,
+            "texto": "BOGOTÁ",
+            "tipo": "pin",
+            "aparecerEn": "Colombia",
+            "desaparecerEn": "Vásquez"
+          },
+          {
+            "lon": -42,
+            "lat": -1,
+            "texto": "OCÉANO ATLÁNTICO",
+            "tipo": "mar",
+            "aparecerEn": "Atlántico",
+            "desaparecerEn": "kilómetros"
+          },
+          {
+            "lon": -69.74,
+            "lat": -2.87,
+            "texto": "TARAPACÁ",
+            "tipo": "pin",
+            "aparecerEn": "Tarapacá"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72,
+            "lat": -1.5,
+            "icono": "carretera",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "camino",
+            "desaparecerEn": "Vásquez"
+          },
+          {
+            "lon": -48.5,
+            "lat": -1.2,
+            "icono": "barco",
+            "ruta": [
+              [
+                -48.5,
+                -1.2
+              ],
+              [
+                -52.6,
+                -1.6
+              ],
+              [
+                -55.5,
+                -2
+              ],
+              [
+                -60,
+                -3.15
+              ],
+              [
+                -63.1,
+                -4.1
+              ],
+              [
+                -64.7,
+                -3.35
+              ],
+              [
+                -66,
+                -2.55
+              ],
+              [
+                -67.93,
+                -3.1
+              ],
+              [
+                -69.74,
+                -2.87
+              ]
+            ],
+            "duracionSeg": 5,
+            "escala": 1,
+            "aparecerEn": "Amazonas",
+            "desaparecerEn": "Tarapacá"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Alfredo Vásquez Cobo",
+          "pie": "Alfredo Vásquez Cobo, general colombiano",
+          "lado": "derecha",
+          "aparecerEn": "Vásquez",
+          "duracionSeg": 2.8
+        },
+        "tarjetas": [
+          {
+            "texto": "3.000 KM",
+            "sub": "SUBIENDO EL AMAZONAS",
+            "icono": "barco",
+            "aparecerEn": "3.000",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "SIN CAMINO POR TIERRA",
+          "dice": "camino"
+        },
+        "clave": [
+          "camino",
+          "Vásquez",
+          "Europa",
+          "3.000",
+          "Tarapacá"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: en mayo de 1933, en Ginebra, los dos países aceptan una salida rara. Durante un año, Leticia no la gobierna ninguno de los dos: la administra una comisión de la Sociedad de Naciones, con un estadounidense, un brasileño y un español. En 1934, el Protocolo de Río confirma el tratado de 1922, y la punta sigue siendo colombiana.",
+        "rotulo": {
+          "texto": "UN AÑO",
+          "dice": "año"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -69.94,
+              -4.21
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.21
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "en": "Leticia",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3,
+              -3.4
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "1934",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1 AÑO",
+            "sub": "LETICIA BAJO LA SOCIEDAD DE NACIONES",
+            "tipo": "linea-tiempo",
+            "desde": "1933",
+            "hasta": "1934",
+            "aparecerEn": "año",
+            "duracionSeg": 3.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.94,
+            "lat": -4.28,
+            "icono": "tribunal",
+            "escala": 1.1,
+            "aparecerEn": "comisión",
+            "desaparecerEn": "1934"
+          },
+          {
+            "lon": -70.05,
+            "lat": -4.12,
+            "icono": "🇺🇸",
+            "escala": 0.8,
+            "aparecerEn": "estadounidense",
+            "desaparecerEn": "1934"
+          },
+          {
+            "lon": -69.94,
+            "lat": -4.12,
+            "icono": "🇧🇷",
+            "escala": 0.8,
+            "aparecerEn": "brasileño",
+            "desaparecerEn": "1934"
+          },
+          {
+            "lon": -69.83,
+            "lat": -4.12,
+            "icono": "🇪🇸",
+            "escala": 0.8,
+            "aparecerEn": "español",
+            "desaparecerEn": "1934"
+          }
+        ],
+        "polaroid": {
+          "buscar": "League of Nations Commission Leticia",
+          "pie": "Comisión de la Sociedad de Naciones en Leticia",
+          "anio": "1933",
+          "lado": "izquierda",
+          "aparecerEn": "comisión",
+          "duracionSeg": 3
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.73,
+                -3.78
+              ],
+              [
+                -70.07,
+                -2.73
+              ],
+              [
+                -69.74,
+                -2.87
+              ],
+              [
+                -69.95,
+                -4.22
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "SIGUE COLOMBIANA",
+            "aparecerEn": "punta"
+          }
+        ],
+        "fuente": {
+          "texto": "Protocolo de Río de Janeiro · 24-5-1934",
+          "dice": "Protocolo"
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "Ginebra",
+          "año",
+          "comisión",
+          "1934",
+          "Protocolo"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Leticia y Tabatinga, en Brasil, son casi una sola ciudad: cruzas una avenida y cambiaste de país. Pero el río sigue moviendo el mapa. En 2025, Perú creó un distrito en la isla Santa Rosa, justo al frente. Perú dice que le pertenece por el tratado y la demarcación de 1929. Colombia dice que esa isla apareció después y nunca se asignó.",
+        "rotulo": {
+          "texto": "2025",
+          "dice": "2025"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.94,
+              -4.23
+            ],
+            "zoom": 11.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.94,
+              -4.23
+            ],
+            "zoom": 13,
+            "entrada": "corte",
+            "en": "avenida",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.96,
+              -4.24
+            ],
+            "zoom": 11.5,
+            "entrada": "zoom",
+            "en": "río",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.97,
+              -4.25
+            ],
+            "zoom": 12.5,
+            "entrada": "corte",
+            "en": "Santa",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.97,
+              -4.25
+            ],
+            "zoom": 11.8,
+            "entrada": "zoom",
+            "en": "Colombia",
+            "deriva": 0.2
+          }
+        ],
+        "foto": {
+          "buscar": "Leticia Amazonas Colombia",
+          "pie": "LETICIA · AMAZONAS, COLOMBIA",
+          "aparecerEn": "ciudad",
+          "duracionSeg": 2.4
+        },
+        "etiquetas": [
+          {
+            "lon": -69.94,
+            "lat": -4.21,
+            "texto": "LETICIA",
+            "tipo": "pin",
+            "aparecerEn": "Leticia"
+          },
+          {
+            "lon": -69.938,
+            "lat": -4.253,
+            "texto": "TABATINGA",
+            "tipo": "pin",
+            "aparecerEn": "Tabatinga"
+          },
+          {
+            "lon": -70.03,
+            "lat": -4.3,
+            "texto": "PERÚ: POR EL TRATADO",
+            "tipo": "region",
+            "aparecerEn": "pertenece"
+          },
+          {
+            "lon": -70.03,
+            "lat": -4.19,
+            "texto": "COLOMBIA: NO ASIGNADA",
+            "tipo": "region",
+            "aparecerEn": "asignó"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -69.99,
+                -4.22
+              ],
+              [
+                -69.95,
+                -4.23
+              ],
+              [
+                -69.94,
+                -4.26
+              ],
+              [
+                -69.98,
+                -4.27
+              ]
+            ],
+            "color": "violeta",
+            "etiqueta": "ISLA SANTA ROSA",
+            "aparecerEn": "isla"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2025",
+            "sub": "UN DISTRITO EN LA ISLA",
+            "aparecerEn": "2025",
+            "duracionSeg": 2.4
+          }
+        ],
+        "contexto": {
+          "texto": "¿DE QUIÉN ES LA ISLA?",
+          "dice": "isla"
+        },
+        "clave": [
+          "Tabatinga",
+          "avenida",
+          "2025",
+          "Santa",
+          "1929"
+        ]
+      }
+    ],
+    "remate": "Un papel le dio a Colombia el río. El río no ha leído el papel.",
+    "remateEtiquetas": [
+      {
+        "lon": -69.92,
+        "lat": -4.18,
+        "texto": "1922: EL PAPEL"
+      },
+      {
+        "lon": -69.99,
+        "lat": -4.27,
+        "texto": "HOY: EL RÍO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -69.96,
+          -4.24
+        ],
+        "zoom": 10.6,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Tratado Salomón-Lozano (1922)",
+        "url": "https://es.wikipedia.org/wiki/Tratado_Salom%C3%B3n-Lozano"
+      },
+      {
+        "texto": "Wikipedia: Guerra colombo-peruana (1932-1933)",
+        "url": "https://es.wikipedia.org/wiki/Guerra_colombo-peruana"
+      },
+      {
+        "texto": "Wikipedia: Leticia (Colombia)",
+        "url": "https://es.wikipedia.org/wiki/Leticia_(Colombia)"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 8,
+      "centro": [
+        -72,
+        0
+      ],
+      "zoomInicial": 5.2,
+      "zoomFinal": 10.6,
+      "paises": [
+        "Colombia"
+      ],
+      "lineas": [
+        {
+          "id": "orilla-amazonas",
+          "puntos": [
+            [
+              -70.72,
+              -3.78
+            ],
+            [
+              -70.5,
+              -3.84
+            ],
+            [
+              -70.3,
+              -3.88
+            ],
+            [
+              -70.12,
+              -4.02
+            ],
+            [
+              -69.95,
+              -4.2
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "toca",
+          "etiqueta": "116 KM DE RÍO"
+        },
+        {
+          "id": "putumayo",
+          "puntos": [
+            [
+              -75.2,
+              -0.12
+            ],
+            [
+              -74.77,
+              -0.25
+            ],
+            [
+              -73.3,
+              -1.8
+            ],
+            [
+              -72.4,
+              -2.43
+            ],
+            [
+              -71.5,
+              -2.28
+            ],
+            [
+              -70.95,
+              -2.21
+            ],
+            [
+              -70.42,
+              -2.49
+            ],
+            [
+              -70.07,
+              -2.73
+            ],
+            [
+              -69.74,
+              -2.87
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "Putumayo",
+          "etiqueta": "PUTUMAYO"
+        },
+        {
+          "id": "trapecio-oeste",
+          "puntos": [
+            [
+              -70.73,
+              -3.78
+            ],
+            [
+              -70.07,
+              -2.73
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "trapecio"
+        },
+        {
+          "id": "trapecio-este",
+          "puntos": [
+            [
+              -69.95,
+              -4.22
+            ],
+            [
+              -69.74,
+              -2.87
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "trapecio"
+        },
+        {
+          "id": "ruta-flota",
+          "puntos": [
+            [
+              -48.5,
+              -1.2
+            ],
+            [
+              -52.6,
+              -1.6
+            ],
+            [
+              -55.5,
+              -2
+            ],
+            [
+              -60,
+              -3.15
+            ],
+            [
+              -63.1,
+              -4.1
+            ],
+            [
+              -64.7,
+              -3.35
+            ],
+            [
+              -66,
+              -2.55
+            ],
+            [
+              -67.93,
+              -3.1
+            ],
+            [
+              -69.74,
+              -2.87
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 4,
+          "dice": "Amazonas",
+          "etiqueta": "RUTA DE LA FLOTA"
+        }
+      ]
+    }
+  }
+}

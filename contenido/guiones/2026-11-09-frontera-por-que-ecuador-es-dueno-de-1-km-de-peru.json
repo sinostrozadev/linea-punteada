@@ -1,0 +1,991 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-09-frontera-por-que-ecuador-es-dueno-de-1-km-de-peru",
+  "titulo": "¿Por qué Ecuador es dueño de 1 km² de Perú… y ahí no manda?",
+  "descripcion": "En plena selva, dentro de Perú, hay un kilómetro cuadrado cuyo dueño es el Estado ecuatoriano. No es un enclave ni un botín: es propiedad privada, sin soberanía. Para llegar ahí hicieron falta el Protocolo de Río de 1942, un río que las fotos aéreas revelaron después, 78 kilómetros de frontera sin hitos, la guerra del Cenepa de 1995 y el Acta de Brasilia de 1998.\n\nFuentes:\n- Protocolo de Río de Janeiro (1942): https://en.wikipedia.org/wiki/Rio_Protocol\n- Guerra del Cenepa y Acta de Brasilia (1998): https://en.wikipedia.org/wiki/Cenepa_War\n- Disputa territorial Ecuador-Perú: https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#ecuador",
+    "#peru"
+  ],
+  "props": {
+    "id": "2026-11-09-frontera-por-que-ecuador-es-dueno-de-1-km-de-peru",
+    "cabecera": "TIWINZA — EL KILÓMETRO CON ESCRITURA",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ES ESTE KILÓMETRO?",
+      "clave": "KILÓMETRO",
+      "centro": [
+        -78.5,
+        -3.2
+      ],
+      "zoom": 5.4,
+      "paises": [
+        "Ecuador",
+        "Peru"
+      ],
+      "pines": [
+        {
+          "lon": -78.2522,
+          "lat": -3.4723,
+          "texto": "TIWINZA"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "gancho": {
+      "texto": "Mira este punto en la selva, dentro de Perú. Es un kilómetro cuadrado y su dueño es Ecuador. Pero ahí Ecuador no manda. ¿Cómo?",
+      "rotulo": "DUEÑO SIN MANDO",
+      "planos": [
+        {
+          "centro": [
+            -78.2522,
+            -3.4723
+          ],
+          "zoom": 7.6,
+          "entrada": "corte",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -78.2522,
+            -3.4723
+          ],
+          "zoom": 10.4,
+          "entrada": "zoom",
+          "en": "kilómetro",
+          "deriva": 0.4
+        },
+        {
+          "centro": [
+            -78.2722,
+            -3.4523
+          ],
+          "zoom": 9,
+          "entrada": "zoom",
+          "en": "Pero",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "rojo",
+          "etiqueta": "PERÚ",
+          "etiquetaEn": [
+            -77.9,
+            -3.9
+          ],
+          "aparecerEn": "Perú",
+          "desaparecerEn": "kilómetro"
+        },
+        {
+          "pais": "Ecuador",
+          "color": "verde",
+          "etiqueta": "ECUADOR",
+          "etiquetaEn": [
+            -78.7,
+            -3
+          ],
+          "aparecerEn": "Pero"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -78.2522,
+          "lat": -3.4723,
+          "texto": "TIWINZA",
+          "tipo": "pin",
+          "aparecerEn": "punto",
+          "quedarse": "siempre"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "1 KM²",
+          "sub": "SU DUEÑO ES ECUADOR",
+          "aparecerEn": "cuadrado",
+          "duracionSeg": 2.4
+        }
+      ],
+      "contexto": {
+        "texto": "¿CÓMO?",
+        "dice": "Cómo"
+      },
+      "clave": [
+        "punto",
+        "Perú",
+        "kilómetro",
+        "dueño",
+        "manda"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que es un trofeo de la guerra de 1995. La verdad es más rara.",
+        "rotulo": {
+          "texto": "TROFEO",
+          "dice": "trofeo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.2722,
+              -3.4523
+            ],
+            "zoom": 9.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.23,
+            "lat": -3.5,
+            "icono": "🏆",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "trofeo",
+          "1995",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un tratado, un río y una guerra. Y al final, una escritura que el mapa no muestra.",
+        "rotulo": {
+          "texto": "TRATADO, RÍO, GUERRA",
+          "dice": "tratado"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.2,
+              -3.6
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2,
+              -3.8
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "en": "río",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "rio",
+            "texto": "RÍO",
+            "dice": "río"
+          },
+          {
+            "icono": "guerra",
+            "texto": "GUERRA",
+            "dice": "guerra"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.23,
+            "lat": -3.5,
+            "icono": "📄",
+            "escala": 1,
+            "aparecerEn": "escritura"
+          }
+        ],
+        "clave": [
+          "tratado",
+          "río",
+          "guerra",
+          "escritura"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El tratado. En enero de 1942, tras una guerra corta, Perú y Ecuador firman el Protocolo de Río, con cuatro países garantes: Argentina, Brasil, Chile y Estados Unidos. Según su texto, en esta sierra la frontera sigue la divisoria de aguas entre dos ríos: el Zamora y el Santiago.",
+        "rotulo": {
+          "texto": "1942",
+          "dice": "1942"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -76.5,
+              -3.5
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68,
+              -14
+            ],
+            "zoom": 3.8,
+            "entrada": "zoom",
+            "en": "garantes",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -78.3,
+              -3.5
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.65,
+              -3.6
+            ],
+            "zoom": 8.6,
+            "entrada": "paneo",
+            "en": "Zamora",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -77.95,
+              -3.5
+            ],
+            "zoom": 8.6,
+            "entrada": "paneo",
+            "en": "Santiago",
+            "deriva": 0.2
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Peru",
+            "color": "rojo",
+            "etiqueta": "PERÚ",
+            "aparecerEn": "Perú",
+            "desaparecerEn": "garantes"
+          },
+          {
+            "pais": "Ecuador",
+            "color": "verde",
+            "etiqueta": "ECUADOR",
+            "aparecerEn": "Ecuador",
+            "desaparecerEn": "garantes"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "4 GARANTES",
+            "sub": "ARGENTINA · BRASIL · CHILE · EE. UU.",
+            "aparecerEn": "garantes",
+            "duracionSeg": 3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -78.7,
+            "lat": -3.75,
+            "texto": "RÍO ZAMORA",
+            "tipo": "rio",
+            "rotacion": -65,
+            "aparecerEn": "Zamora"
+          },
+          {
+            "lon": -77.9,
+            "lat": -3.55,
+            "texto": "RÍO SANTIAGO",
+            "tipo": "rio",
+            "rotacion": 80,
+            "aparecerEn": "Santiago"
+          }
+        ],
+        "fuente": {
+          "texto": "Protocolo de Río de Janeiro · 29-1-1942",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "LA DIVISORIA DE AGUAS",
+          "dice": "divisoria"
+        },
+        "clave": [
+          "1942",
+          "Protocolo",
+          "Chile",
+          "divisoria",
+          "Zamora",
+          "Santiago"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El río. En los años cuarenta, aviones de Estados Unidos fotografían la zona y aparece el Cenepa, un río largo metido entre los otros dos. Ecuador dice: esa divisoria única no existe y el protocolo no se puede aplicar. Perú dice: un árbitro brasileño ya lo resolvió en 1945. Y así, unos 78 kilómetros de frontera se quedan sin hitos.",
+        "rotulo": {
+          "texto": "78 KM",
+          "dice": "78"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.2,
+              -3.9
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2,
+              -4.05
+            ],
+            "zoom": 8.8,
+            "entrada": "corte",
+            "en": "Cenepa",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.55,
+              -3.5
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "en": "Ecuador",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -77.95,
+              -4
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "en": "Perú",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -78.12,
+              -3.22
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "78",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.45,
+            "lat": -3.7,
+            "icono": "✈️",
+            "ruta": [
+              [
+                -78.9,
+                -3.5
+              ],
+              [
+                -77.8,
+                -4.1
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 0.9,
+            "aparecerEn": "aviones",
+            "desaparecerEn": "Cenepa"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -78.14,
+            "lat": -4.05,
+            "texto": "RÍO CENEPA",
+            "tipo": "rio",
+            "rotacion": 85,
+            "aparecerEn": "Cenepa",
+            "desaparecerEn": "Ecuador"
+          },
+          {
+            "lon": -78.75,
+            "lat": -3.4,
+            "texto": "ASÍ LO LEE ECUADOR",
+            "tipo": "region",
+            "aparecerEn": "Ecuador",
+            "desaparecerEn": "Perú"
+          },
+          {
+            "lon": -77.85,
+            "lat": -4.15,
+            "texto": "ASÍ LO LEE PERÚ",
+            "tipo": "region",
+            "aparecerEn": "Perú",
+            "desaparecerEn": "78"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -78.241,
+              -3.473
+            ],
+            "hasta": [
+              -77.86,
+              -2.982
+            ],
+            "texto": "78 KM",
+            "aparecerEn": "78"
+          }
+        ],
+        "contexto": {
+          "texto": "SIN HITOS",
+          "dice": "hitos"
+        },
+        "clave": [
+          "aviones",
+          "Cenepa",
+          "Ecuador",
+          "Perú",
+          "1945",
+          "78"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La guerra. En 1960, Ecuador declara nulo el protocolo. Perú responde que sigue vigente. Hay choques en 1981, y en enero de 1995 los combates estallan en el alto Cenepa, alrededor de un puesto llamado Tiwinza. Cada país dice que ese puesto es suyo y que nunca lo perdió. En febrero firman el cese del fuego.",
+        "rotulo": {
+          "texto": "ENERO DE 1995",
+          "dice": "1995"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.12,
+              -3.25
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "en": "1995",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "en": "Tiwinza",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2,
+              -3.5
+            ],
+            "zoom": 9.2,
+            "entrada": "zoom",
+            "en": "febrero",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1995",
+            "sub": "ALTO CENEPA",
+            "tipo": "cifra",
+            "icono": "guerra",
+            "aparecerEn": "1995",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.35,
+            "lat": -3.37,
+            "icono": "bandera",
+            "escala": 0.9,
+            "aparecerEn": "Cada",
+            "desaparecerEn": "febrero"
+          },
+          {
+            "lon": -78.17,
+            "lat": -3.52,
+            "icono": "bandera",
+            "escala": 0.9,
+            "aparecerEn": "suyo",
+            "desaparecerEn": "febrero"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -78.2522,
+            "lat": -3.4723,
+            "radio": 120,
+            "aparecerEn": "Tiwinza"
+          }
+        ],
+        "contexto": {
+          "texto": "LAS DOS VERSIONES",
+          "dice": "Cada"
+        },
+        "clave": [
+          "1960",
+          "1981",
+          "1995",
+          "Tiwinza",
+          "febrero"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: en octubre de 1998, en Brasilia, los garantes dejan la frontera en la cumbre de la sierra, y Tiwinza queda del lado de Perú. Pero Perú le entrega a Ecuador ese kilómetro cuadrado como propiedad privada. Sin soberanía y sin soldados. Un país con escritura, como cualquier vecino.",
+        "rotulo": {
+          "texto": "PROPIEDAD PRIVADA",
+          "dice": "propiedad"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63,
+              -9
+            ],
+            "zoom": 4,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -78.2722,
+              -3.4523
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "en": "cumbre",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "en": "Tiwinza",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "en": "kilómetro",
+            "deriva": 0.25
+          }
+        ],
+        "polaroid": {
+          "buscar": "Palacio do Planalto Brasilia",
+          "pie": "Brasilia, donde se firma el acta de 1998",
+          "anio": "1998",
+          "lado": "derecha",
+          "aparecerEn": "Brasilia",
+          "duracionSeg": 2.6
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                -78.2567,
+                -3.4678
+              ],
+              [
+                -78.2477,
+                -3.4678
+              ],
+              [
+                -78.2477,
+                -3.4768
+              ],
+              [
+                -78.2567,
+                -3.4768
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "1 KM² · ECUADOR, DUEÑO",
+            "aparecerEn": "kilómetro",
+            "quedarse": "siempre"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.2507,
+            "lat": -3.4783,
+            "icono": "🪖",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "soldados"
+          },
+          {
+            "lon": -78.2537,
+            "lat": -3.4658,
+            "icono": "📄",
+            "escala": 1,
+            "aparecerEn": "escritura"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "1998",
+          "Brasilia",
+          "Tiwinza",
+          "propiedad",
+          "soberanía",
+          "escritura"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la línea ya está completa: el último hito se puso en mayo de 1999. A cada lado hay una zona de protección ecológica. Y en medio de la selva sigue ese cuadrado, donde la ley es peruana y el dueño es Ecuador. En el mapa político no aparece.",
+        "rotulo": {
+          "texto": "MAYO DE 1999",
+          "dice": "1999"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.2,
+              -3.3
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.16,
+              -3.25
+            ],
+            "zoom": 9.4,
+            "entrada": "corte",
+            "en": "zona",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.2522,
+              -3.4723
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "en": "cuadrado",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -78.5,
+              -4.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "mapa",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -78.04,
+            "lat": -3.18,
+            "texto": "ZONA ECOLÓGICA",
+            "tipo": "region",
+            "aparecerEn": "zona",
+            "desaparecerEn": "cuadrado"
+          }
+        ],
+        "foto": {
+          "buscar": "Cordillera del Condor Ecuador",
+          "pie": "CORDILLERA DEL CÓNDOR",
+          "aparecerEn": "selva",
+          "duracionSeg": 2.4
+        },
+        "iconos": [
+          {
+            "lon": -78.14,
+            "lat": -3.28,
+            "icono": "📍",
+            "escala": 0.9,
+            "aparecerEn": "hito",
+            "desaparecerEn": "zona"
+          }
+        ],
+        "contexto": {
+          "texto": "NO SALE EN EL MAPA",
+          "dice": "aparece"
+        },
+        "clave": [
+          "1999",
+          "ecológica",
+          "selva",
+          "peruana",
+          "Ecuador"
+        ]
+      }
+    ],
+    "remate": "Perú tiene la soberanía. Ecuador tiene la escritura.",
+    "remateEtiquetas": [
+      {
+        "lon": -78.23,
+        "lat": -3,
+        "texto": "PERÚ: LA SOBERANÍA"
+      },
+      {
+        "lon": -78.23,
+        "lat": -4,
+        "texto": "ECUADOR: LA ESCRITURA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -78.2522,
+          -3.4723
+        ],
+        "zoom": 8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Protocolo de Río de Janeiro (29-1-1942)",
+        "url": "https://en.wikipedia.org/wiki/Rio_Protocol"
+      },
+      {
+        "texto": "Guerra del Cenepa (1995) y Acta de Brasilia (26-10-1998)",
+        "url": "https://en.wikipedia.org/wiki/Cenepa_War"
+      },
+      {
+        "texto": "Disputa territorial Ecuador-Perú",
+        "url": "https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "centro": [
+        -78.2522,
+        -3.4723
+      ],
+      "zoomInicial": 7.6,
+      "zoomFinal": 8.6,
+      "paises": [
+        "Ecuador",
+        "Peru"
+      ],
+      "lineas": [
+        {
+          "id": "frontera",
+          "fronteraEntre": [
+            "Ecuador",
+            "Peru"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "Perú"
+        },
+        {
+          "id": "rio-zamora",
+          "puntos": [
+            [
+              -78.95,
+              -4.07
+            ],
+            [
+              -78.76,
+              -3.83
+            ],
+            [
+              -78.6,
+              -3.5
+            ],
+            [
+              -78.55,
+              -3.1
+            ],
+            [
+              -78.22,
+              -2.98
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "Zamora"
+        },
+        {
+          "id": "rio-santiago",
+          "puntos": [
+            [
+              -78.22,
+              -2.98
+            ],
+            [
+              -77.95,
+              -3.03
+            ],
+            [
+              -77.85,
+              -3.4
+            ],
+            [
+              -77.75,
+              -4
+            ],
+            [
+              -77.75,
+              -4.42
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "Santiago"
+        },
+        {
+          "id": "rio-cenepa",
+          "puntos": [
+            [
+              -78.25,
+              -3.47
+            ],
+            [
+              -78.2,
+              -3.8
+            ],
+            [
+              -78.25,
+              -4.2
+            ],
+            [
+              -78.2,
+              -4.6
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "Cenepa",
+          "etiqueta": "CENEPA"
+        },
+        {
+          "id": "tramo-sin-hitos",
+          "puntos": [
+            [
+              -78.241,
+              -3.473
+            ],
+            [
+              -78.227,
+              -3.489
+            ],
+            [
+              -78.195,
+              -3.485
+            ],
+            [
+              -78.159,
+              -3.464
+            ],
+            [
+              -78.162,
+              -3.431
+            ],
+            [
+              -78.195,
+              -3.381
+            ],
+            [
+              -78.13,
+              -3.284
+            ],
+            [
+              -78.069,
+              -3.208
+            ],
+            [
+              -77.939,
+              -3.048
+            ],
+            [
+              -77.86,
+              -2.982
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "78",
+          "etiqueta": "SIN HITOS"
+        }
+      ]
+    }
+  }
+}

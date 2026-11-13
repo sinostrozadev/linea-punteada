@@ -1,0 +1,1091 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-12-frontera-por-que-esta-isla-es-de-espana-6-meses",
+  "titulo": "¿Por qué esta isla es de España 6 meses y de Francia los otros 6?",
+  "descripcion": "En el río Bidasoa, entre Irun y Hendaya, hay una isla de unos 200 metros que cambia de mando cada seis meses y en la que no vive nadie. Ahí se firmó en 1659 la Paz de los Pirineos, ahí se encontraron Felipe IV y Luis XIV en 1660, y el Tratado de Bayona de 1856 la dejó para los dos países. Del 1 de febrero al 31 de julio manda España; del 1 de agosto al 31 de enero, Francia.\n\nFuentes:\n- Wikipedia: Isla de los Faisanes: https://es.wikipedia.org/wiki/Isla_de_los_Faisanes\n- Wikipedia: Pheasant Island: https://en.wikipedia.org/wiki/Pheasant_Island\n- Wikipedia: Paz de los Pirineos: https://es.wikipedia.org/wiki/Paz_de_los_Pirineos\n- Wikipedia: Diego Velázquez: https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#espana"
+  ],
+  "props": {
+    "id": "2026-11-12-frontera-por-que-esta-isla-es-de-espana-6-meses",
+    "cabecera": "BIDASOA — LA ISLA QUE SE TURNAN",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿DE QUIÉN ES ESTA ISLA HOY?",
+      "clave": "ISLA",
+      "paises": [
+        "Spain",
+        "France"
+      ],
+      "centro": [
+        -1.77,
+        43.34
+      ],
+      "zoom": 5,
+      "pines": [
+        {
+          "lon": -1.7655,
+          "lat": 43.3428,
+          "texto": "ISLA DE LOS FAISANES"
+        }
+      ],
+      "icono": "isla"
+    },
+    "gancho": {
+      "texto": "Mira este punto en el río Bidasoa, entre España y Francia. Seis meses es español, seis meses es francés, y ahí no vive nadie. ¿Por qué?",
+      "rotulo": "SE LA TURNAN",
+      "planos": [
+        {
+          "centro": [
+            -1.77,
+            43.34
+          ],
+          "zoom": 6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -1.77,
+            43.345
+          ],
+          "zoom": 12.2,
+          "entrada": "zoom",
+          "en": "Bidasoa",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -1.7653,
+            43.3425
+          ],
+          "zoom": 15.2,
+          "entrada": "zoom",
+          "en": "Seis",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Spain",
+          "color": "rojo",
+          "etiqueta": "ESPAÑA",
+          "etiquetaEn": [
+            -1.79,
+            43.325
+          ],
+          "aparecerEn": "España",
+          "desaparecerEn": "Seis"
+        },
+        {
+          "pais": "France",
+          "color": "azul",
+          "etiqueta": "FRANCIA",
+          "etiquetaEn": [
+            -1.75,
+            43.36
+          ],
+          "aparecerEn": "Francia",
+          "desaparecerEn": "Seis"
+        },
+        {
+          "poligono": [
+            [
+              -1.76683,
+              43.3426
+            ],
+            [
+              -1.76635,
+              43.34249
+            ],
+            [
+              -1.76537,
+              43.34263
+            ],
+            [
+              -1.76441,
+              43.34298
+            ],
+            [
+              -1.76422,
+              43.34312
+            ],
+            [
+              -1.7645,
+              43.34318
+            ],
+            [
+              -1.76536,
+              43.34304
+            ],
+            [
+              -1.76657,
+              43.34268
+            ]
+          ],
+          "color": "amarillo",
+          "etiqueta": "6 MESES + 6 MESES",
+          "etiquetaEn": [
+            -1.7655,
+            43.3437
+          ],
+          "aparecerEn": "Seis"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -1.7655,
+          "lat": 43.3428,
+          "texto": "ISLA DE LOS FAISANES",
+          "tipo": "pin",
+          "aparecerEn": "punto",
+          "desaparecerEn": "Seis"
+        },
+        {
+          "lon": -1.78,
+          "lat": 43.3475,
+          "texto": "RÍO BIDASOA",
+          "tipo": "rio",
+          "rotacion": -15,
+          "aparecerEn": "Bidasoa",
+          "desaparecerEn": "Seis"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "Por"
+      },
+      "clave": [
+        "Bidasoa",
+        "Seis",
+        "español",
+        "francés",
+        "nadie"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que es un error de cartógrafos que nadie corrigió. La verdad es más rara.",
+        "planos": [
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.5,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 13.4,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "rotulo": {
+          "texto": "¿UN ERROR?",
+          "dice": "error"
+        },
+        "iconos": [
+          {
+            "lon": -1.7638,
+            "lat": 43.3436,
+            "icono": "🗺️",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "cartógrafos",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "error",
+          "cartógrafos",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una paz, una boda y un tratado. Y al final, un cargo que parece broma.",
+        "planos": [
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 13.8,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "cargo",
+            "deriva": 0.2
+          }
+        ],
+        "rotulo": {
+          "texto": "PAZ, BODA, TRATADO",
+          "dice": "tratado"
+        },
+        "indice": [
+          {
+            "icono": "🕊️",
+            "texto": "PAZ",
+            "dice": "paz"
+          },
+          {
+            "icono": "💍",
+            "texto": "BODA",
+            "dice": "boda"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": -1.7655,
+            "lat": 43.3434,
+            "icono": "❓",
+            "escala": 1.1,
+            "aparecerEn": "cargo"
+          }
+        ],
+        "clave": [
+          "paz",
+          "boda",
+          "tratado",
+          "cargo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La paz. España y Francia llevan 24 años en guerra, y este río es la línea entre las dos. En 1659 ninguno quiere negociar en la orilla del otro. Así que Luis de Haro y el cardenal Mazarino se citan en el medio, sobre esta isla. Ahí firman la Paz de los Pirineos.",
+        "planos": [
+          {
+            "centro": [
+              -1.5,
+              43.5
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.77,
+              43.345
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "en": "1659",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 14.6,
+            "entrada": "zoom",
+            "en": "citan",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.2,
+            "entrada": "corte",
+            "en": "firman",
+            "deriva": 0.2
+          }
+        ],
+        "rotulo": {
+          "texto": "1659",
+          "dice": "1659"
+        },
+        "areas": [
+          {
+            "pais": "Spain",
+            "color": "rojo",
+            "etiqueta": "ESPAÑA",
+            "etiquetaEn": [
+              -3.7,
+              40.4
+            ],
+            "aparecerEn": "España",
+            "desaparecerEn": "1659"
+          },
+          {
+            "pais": "France",
+            "color": "azul",
+            "etiqueta": "FRANCIA",
+            "etiquetaEn": [
+              2.2,
+              46.6
+            ],
+            "aparecerEn": "Francia",
+            "desaparecerEn": "1659"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -1.7655,
+            "lat": 43.3428,
+            "texto": "AQUÍ",
+            "tipo": "pin",
+            "aparecerEn": "isla"
+          },
+          {
+            "lon": -1.81,
+            "lat": 43.33,
+            "texto": "LUIS DE HARO",
+            "tipo": "region",
+            "aparecerEn": "Haro",
+            "desaparecerEn": "citan"
+          },
+          {
+            "lon": -1.74,
+            "lat": 43.36,
+            "texto": "MAZARINO",
+            "tipo": "region",
+            "aparecerEn": "Mazarino",
+            "desaparecerEn": "citan"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "24 AÑOS",
+            "sub": "ESPAÑA Y FRANCIA EN GUERRA",
+            "tipo": "linea-tiempo",
+            "desde": "1635",
+            "hasta": "1659",
+            "icono": "guerra",
+            "aparecerEn": "años",
+            "duracionSeg": 3.2
+          }
+        ],
+        "polaroid": {
+          "buscar": "Treaty of the Pyrenees 1659 painting",
+          "pie": "La Paz de los Pirineos, 1659",
+          "anio": "1659",
+          "lado": "derecha",
+          "aparecerEn": "firman",
+          "duracionSeg": 3
+        },
+        "clave": [
+          "24",
+          "1659",
+          "Haro",
+          "Mazarino",
+          "Pirineos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La boda. La paz se sella con un matrimonio: Luis XIV de Francia y María Teresa, hija de Felipe IV. En junio de 1660 los dos reyes se encuentran en la isla. El pabellón español lo prepara un funcionario de palacio llamado Diego Velázquez, el pintor. Vuelve a Madrid y muere dos meses después.",
+        "planos": [
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.3,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "en": "junio",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15,
+            "entrada": "corte",
+            "en": "pabellón",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -2.7,
+              41.9
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "en": "Madrid",
+            "deriva": 0.2
+          }
+        ],
+        "rotulo": {
+          "texto": "VELÁZQUEZ",
+          "dice": "Velázquez"
+        },
+        "foto": {
+          "buscar": "Meeting of Philip IV and Louis XIV Pheasant Island",
+          "pie": "ISLA DE LOS FAISANES · LOS DOS REYES, 1660",
+          "aparecerEn": "reyes",
+          "duracionSeg": 2.6
+        },
+        "polaroid": {
+          "buscar": "Velazquez self portrait",
+          "pie": "Diego Velázquez, autorretrato",
+          "lado": "izquierda",
+          "aparecerEn": "Velázquez",
+          "duracionSeg": 3
+        },
+        "etiquetas": [
+          {
+            "lon": -3.7,
+            "lat": 40.42,
+            "texto": "MADRID",
+            "tipo": "pin",
+            "aparecerEn": "Madrid"
+          },
+          {
+            "lon": -1.7655,
+            "lat": 43.3428,
+            "texto": "LA ISLA",
+            "tipo": "pin",
+            "aparecerEn": "Madrid"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -1.7655,
+            "lat": 43.3428,
+            "icono": "🎨",
+            "ruta": [
+              [
+                -1.7653,
+                43.3425
+              ],
+              [
+                -3.7,
+                40.42
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 0.9,
+            "aparecerEn": "Madrid"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 MESES",
+            "sub": "AGOSTO DE 1660",
+            "aparecerEn": "muere",
+            "duracionSeg": 2.4
+          }
+        ],
+        "clave": [
+          "matrimonio",
+          "1660",
+          "Velázquez",
+          "Madrid",
+          "muere"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El tratado. Pasan casi 200 años y hay que fijar la frontera del río. Según el Tratado de Bayona de 1856, la isla no queda para uno: queda para los dos. Y un convenio de 1901 reparte el mando por turnos. Del 1 de febrero al 31 de julio, España. Del 1 de agosto al 31 de enero, Francia.",
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -1.775,
+              43.35
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "en": "isla",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "convenio",
+            "deriva": 0.2
+          }
+        ],
+        "rotulo": {
+          "texto": "1856",
+          "dice": "1856"
+        },
+        "areas": [
+          {
+            "poligono": [
+              [
+                -1.76683,
+                43.3426
+              ],
+              [
+                -1.76635,
+                43.34249
+              ],
+              [
+                -1.76537,
+                43.34263
+              ],
+              [
+                -1.76441,
+                43.34298
+              ],
+              [
+                -1.76422,
+                43.34312
+              ],
+              [
+                -1.7645,
+                43.34318
+              ],
+              [
+                -1.76536,
+                43.34304
+              ],
+              [
+                -1.76657,
+                43.34268
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "PARA LOS DOS",
+            "etiquetaEn": [
+              -1.7655,
+              43.3437
+            ],
+            "aparecerEn": "isla",
+            "desaparecerEn": "febrero"
+          },
+          {
+            "poligono": [
+              [
+                -1.76683,
+                43.3426
+              ],
+              [
+                -1.76635,
+                43.34249
+              ],
+              [
+                -1.76537,
+                43.34263
+              ],
+              [
+                -1.76441,
+                43.34298
+              ],
+              [
+                -1.76422,
+                43.34312
+              ],
+              [
+                -1.7645,
+                43.34318
+              ],
+              [
+                -1.76536,
+                43.34304
+              ],
+              [
+                -1.76657,
+                43.34268
+              ]
+            ],
+            "color": "rojo",
+            "etiqueta": "ESPAÑA",
+            "etiquetaEn": [
+              -1.7655,
+              43.3437
+            ],
+            "aparecerEn": "febrero",
+            "desaparecerEn": "agosto"
+          },
+          {
+            "poligono": [
+              [
+                -1.76683,
+                43.3426
+              ],
+              [
+                -1.76635,
+                43.34249
+              ],
+              [
+                -1.76537,
+                43.34263
+              ],
+              [
+                -1.76441,
+                43.34298
+              ],
+              [
+                -1.76422,
+                43.34312
+              ],
+              [
+                -1.7645,
+                43.34318
+              ],
+              [
+                -1.76536,
+                43.34304
+              ],
+              [
+                -1.76657,
+                43.34268
+              ]
+            ],
+            "color": "azul",
+            "etiqueta": "FRANCIA",
+            "etiquetaEn": [
+              -1.7655,
+              43.3437
+            ],
+            "aparecerEn": "agosto"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "6 + 6 MESES",
+            "sub": "UN TURNO PARA CADA PAÍS",
+            "icono": "tratado",
+            "aparecerEn": "turnos",
+            "duracionSeg": 2.6
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de límites de Bayona, 1856",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "MANDO POR TURNOS",
+          "dice": "mando"
+        },
+        "clave": [
+          "Bayona",
+          "1856",
+          "1901",
+          "febrero",
+          "agosto"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: esta isla tiene virreyes. Dos. El comandante naval de San Sebastián y el de Bayona, que se pasan el cargo cada seis meses. Virreyes de un terreno de unos 200 metros de largo, sin un solo habitante.",
+        "planos": [
+          {
+            "centro": [
+              -1.72,
+              43.4
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "Virreyes#2",
+            "deriva": 0.2
+          }
+        ],
+        "rotulo": {
+          "texto": "2 VIRREYES",
+          "dice": "virreyes"
+        },
+        "etiquetas": [
+          {
+            "lon": -1.98,
+            "lat": 43.32,
+            "texto": "SAN SEBASTIÁN",
+            "tipo": "pin",
+            "aparecerEn": "Sebastián",
+            "desaparecerEn": "Virreyes#2"
+          },
+          {
+            "lon": -1.47,
+            "lat": 43.49,
+            "texto": "BAYONA",
+            "tipo": "pin",
+            "aparecerEn": "Bayona",
+            "desaparecerEn": "Virreyes#2"
+          },
+          {
+            "lon": -1.7655,
+            "lat": 43.3428,
+            "texto": "LA ISLA",
+            "tipo": "pin",
+            "aparecerEn": "virreyes",
+            "desaparecerEn": "Virreyes#2"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -1.98,
+            "lat": 43.35,
+            "icono": "👑",
+            "escala": 1,
+            "aparecerEn": "Sebastián",
+            "desaparecerEn": "Virreyes#2"
+          },
+          {
+            "lon": -1.47,
+            "lat": 43.52,
+            "icono": "👑",
+            "escala": 1,
+            "aparecerEn": "Bayona",
+            "desaparecerEn": "Virreyes#2"
+          },
+          {
+            "lon": -1.7655,
+            "lat": 43.3438,
+            "icono": "👥",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "habitante"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -1.76683,
+              43.34245
+            ],
+            "hasta": [
+              -1.76422,
+              43.343
+            ],
+            "texto": "200 M",
+            "aparecerEn": "metros"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "virreyes",
+          "Sebastián",
+          "Bayona",
+          "200",
+          "habitante"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la isla tiene un monolito, mucho pasto y ningún vecino. Casi nunca se puede pisar. El río le ha ido comiendo los bordes. Y cuando crece el pasto, no llega un rey: llegan los jardineros municipales de Irun o de Hendaya.",
+        "planos": [
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.4,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -1.7653,
+              43.3425
+            ],
+            "zoom": 15.6,
+            "entrada": "corte",
+            "en": "río",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -1.775,
+              43.35
+            ],
+            "zoom": 12.9,
+            "entrada": "zoom",
+            "en": "jardineros",
+            "deriva": 0.3
+          }
+        ],
+        "rotulo": {
+          "texto": "CORTAR EL PASTO",
+          "dice": "pasto"
+        },
+        "foto": {
+          "buscar": "Pheasant Island Bidasoa",
+          "pie": "ISLA DE LOS FAISANES · RÍO BIDASOA",
+          "aparecerEn": "monolito",
+          "duracionSeg": 2.6
+        },
+        "etiquetas": [
+          {
+            "lon": -1.789,
+            "lat": 43.339,
+            "texto": "IRUN",
+            "tipo": "pin",
+            "aparecerEn": "Irun"
+          },
+          {
+            "lon": -1.774,
+            "lat": 43.358,
+            "texto": "HENDAYA",
+            "tipo": "pin",
+            "aparecerEn": "Hendaya"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -1.7655,
+            "lat": 43.3435,
+            "icono": "🌿",
+            "escala": 1,
+            "aparecerEn": "pasto#2",
+            "desaparecerEn": "jardineros"
+          },
+          {
+            "lon": -1.7655,
+            "lat": 43.3438,
+            "icono": "👑",
+            "escala": 0.9,
+            "tachado": true,
+            "aparecerEn": "rey",
+            "desaparecerEn": "jardineros"
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": -1.7655,
+            "lat": 43.3428,
+            "radio": 120,
+            "aparecerEn": "bordes"
+          }
+        ],
+        "contexto": {
+          "texto": "SOLO LOS JARDINEROS",
+          "dice": "jardineros"
+        },
+        "clave": [
+          "monolito",
+          "vecino",
+          "bordes",
+          "Irun",
+          "Hendaya"
+        ]
+      }
+    ],
+    "remate": "Seis meses manda España. Seis meses manda Francia.",
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Isla de los Faisanes",
+        "url": "https://es.wikipedia.org/wiki/Isla_de_los_Faisanes"
+      },
+      {
+        "texto": "Wikipedia: Pheasant Island",
+        "url": "https://en.wikipedia.org/wiki/Pheasant_Island"
+      },
+      {
+        "texto": "Wikipedia: Paz de los Pirineos",
+        "url": "https://es.wikipedia.org/wiki/Paz_de_los_Pirineos"
+      },
+      {
+        "texto": "Wikipedia: Diego Velázquez",
+        "url": "https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -1.77,
+        43.34
+      ],
+      "zoomInicial": 6,
+      "zoomFinal": 15,
+      "lineas": [
+        {
+          "id": "frontera-bidasoa",
+          "puntos": [
+            [
+              -1.7411,
+              43.3316
+            ],
+            [
+              -1.7468,
+              43.3312
+            ],
+            [
+              -1.752,
+              43.3327
+            ],
+            [
+              -1.7529,
+              43.3343
+            ],
+            [
+              -1.7515,
+              43.3364
+            ],
+            [
+              -1.7531,
+              43.341
+            ],
+            [
+              -1.7553,
+              43.3427
+            ],
+            [
+              -1.7586,
+              43.3441
+            ],
+            [
+              -1.7621,
+              43.3442
+            ],
+            [
+              -1.7638,
+              43.3434
+            ],
+            [
+              -1.7655,
+              43.3428
+            ],
+            [
+              -1.7686,
+              43.3422
+            ],
+            [
+              -1.7725,
+              43.3427
+            ],
+            [
+              -1.7762,
+              43.3443
+            ],
+            [
+              -1.777,
+              43.3471
+            ],
+            [
+              -1.7802,
+              43.3481
+            ],
+            [
+              -1.7847,
+              43.3495
+            ],
+            [
+              -1.7901,
+              43.3533
+            ],
+            [
+              -1.7828,
+              43.3598
+            ],
+            [
+              -1.7816,
+              43.3631
+            ],
+            [
+              -1.7864,
+              43.3667
+            ],
+            [
+              -1.791,
+              43.3729
+            ],
+            [
+              -1.7879,
+              43.3792
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": -1,
+          "dice": "Bidasoa",
+          "etiqueta": "FRONTERA"
+        }
+      ]
+    },
+    "remateEtiquetas": [
+      {
+        "lon": -1.775,
+        "lat": 43.3395,
+        "texto": "6 MESES: ESPAÑA"
+      },
+      {
+        "lon": -1.755,
+        "lat": 43.347,
+        "texto": "6 MESES: FRANCIA"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -1.7653,
+          43.3425
+        ],
+        "zoom": 13.6,
+        "entrada": "zoom",
+        "deriva": 0.2
+      },
+      {
+        "centro": [
+          -1.7653,
+          43.3425
+        ],
+        "zoom": 14,
+        "entrada": "corte",
+        "en": "Seis#2",
+        "deriva": 0.2
+      }
+    ]
+  }
+}

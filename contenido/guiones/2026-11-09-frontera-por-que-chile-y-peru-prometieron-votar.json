@@ -1,0 +1,1112 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-09-frontera-por-que-chile-y-peru-prometieron-votar",
+  "titulo": "¿Por qué Chile y Perú prometieron votar en 1894… y nadie votó nunca?",
+  "descripcion": "La frontera entre Chile y Perú debía salir de un plebiscito que nunca se hizo. El Tratado de Ancón de 1883 lo prometió a diez años; Estados Unidos intentó organizarlo en 1925 y la comisión lo declaró impracticable en 1926. El Tratado de Lima de 1929 repartió el territorio: Tacna para Perú, Arica para Chile. Y su protocolo complementario hizo que el corredor ofrecido a Bolivia en 1975 pasara también por Perú.\n\nFuentes:\n- Tratado de Lima (1929): https://derechos.org/nizkor/peru/doc/tratadolima.html\n- Tratado de Ancón (1883): https://es.wikipedia.org/wiki/Tratado_de_Anc%C3%B3n\n- Laudo Tacna-Arica de 1925, Reports of International Arbitral Awards, vol. II (Naciones Unidas): https://legal.un.org/riaa/cases/vol_II/921-958.pdf\n- Corte Internacional de Justicia, Bolivia c. Chile (2018): https://www.icj-cij.org/node/105707\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile",
+    "#peru"
+  ],
+  "props": {
+    "id": "2026-11-09-frontera-por-que-chile-y-peru-prometieron-votar",
+    "cabecera": "TACNA Y ARICA — LA VOTACIÓN QUE NO FUE",
+    "acento": "amarillo",
+    "tarjetaTitulo": {
+      "texto": "¿QUIÉN TRAZÓ ESTA LÍNEA?",
+      "clave": "LÍNEA",
+      "paises": [
+        "Chile",
+        "Peru"
+      ],
+      "centro": [
+        -70,
+        -18.2
+      ],
+      "zoom": 5.6,
+      "pines": [
+        {
+          "lon": -70.25,
+          "lat": -18.01,
+          "texto": "TACNA"
+        },
+        {
+          "lon": -70.31,
+          "lat": -18.48,
+          "texto": "ARICA"
+        }
+      ],
+      "icono": "🗳️"
+    },
+    "gancho": {
+      "texto": "Mira la frontera entre Chile y Perú. Esta línea debía salir de una votación en 1894. Esa votación nunca se hizo. ¿Quién la trazó entonces?",
+      "rotulo": "NADIE VOTÓ",
+      "planos": [
+        {
+          "centro": [
+            -70,
+            -18
+          ],
+          "zoom": 7.2,
+          "entrada": "corte"
+        },
+        {
+          "centro": [
+            -70,
+            -18
+          ],
+          "zoom": 8.4,
+          "entrada": "zoom",
+          "en": "línea"
+        },
+        {
+          "centro": [
+            -70.1,
+            -18.05
+          ],
+          "zoom": 8.8,
+          "entrada": "corte",
+          "en": "nunca"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.9,
+          "lat": -17.3,
+          "texto": "PERÚ",
+          "tipo": "pais",
+          "aparecerEn": "Perú"
+        },
+        {
+          "lon": -69.7,
+          "lat": -18.8,
+          "texto": "CHILE",
+          "tipo": "pais",
+          "aparecerEn": "Chile"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -69.9,
+          "lat": -18.05,
+          "icono": "🗳️",
+          "escala": 1.2,
+          "aparecerEn": "votación",
+          "desaparecerEn": "nunca"
+        },
+        {
+          "lon": -69.9,
+          "lat": -18.05,
+          "icono": "🗳️",
+          "escala": 1.2,
+          "tachado": true,
+          "aparecerEn": "nunca"
+        }
+      ],
+      "contexto": {
+        "texto": "¿QUIÉN LA TRAZÓ?",
+        "dice": "Quién"
+      },
+      "clave": [
+        "frontera",
+        "1894",
+        "nunca",
+        "trazó"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que la trazó el que ganó la guerra, y punto. La verdad es más rara.",
+        "rotulo": {
+          "texto": "EL QUE GANÓ",
+          "dice": "ganó"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70,
+              -18.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom"
+          },
+          {
+            "centro": [
+              -70,
+              -18
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "verdad"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.6,
+            "lat": -19.8,
+            "icono": "guerra",
+            "escala": 1.3,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "guerra",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una promesa, un general y una línea. Y al final, una letra chica que todavía amarra a Arica.",
+        "rotulo": {
+          "texto": "LETRA CHICA",
+          "dice": "letra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70,
+              -18
+            ],
+            "zoom": 8.1,
+            "entrada": "corte"
+          },
+          {
+            "centro": [
+              -70.31,
+              -18.48
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "letra"
+          }
+        ],
+        "indice": [
+          {
+            "icono": "tratado",
+            "texto": "PROMESA",
+            "dice": "promesa"
+          },
+          {
+            "icono": "🎖️",
+            "texto": "GENERAL",
+            "dice": "general"
+          },
+          {
+            "icono": "📍",
+            "texto": "LÍNEA",
+            "dice": "línea"
+          }
+        ],
+        "indicePosicion": "fila",
+        "etiquetas": [
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.05,
+            "lat": -18.42,
+            "icono": "🔍",
+            "escala": 1,
+            "aparecerEn": "letra"
+          }
+        ],
+        "clave": [
+          "promesa",
+          "general",
+          "línea",
+          "letra",
+          "Arica"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La promesa. En octubre de 1883 Perú pierde la guerra y firma el Tratado de Ancón. Según su artículo tercero, Chile administra Tacna y Arica durante diez años. Después, un plebiscito: quien gane se queda con ambas y le paga al otro diez millones de pesos.",
+        "rotulo": {
+          "texto": "10 AÑOS",
+          "dice": "diez"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -74,
+              -15
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom"
+          },
+          {
+            "centro": [
+              -70.2,
+              -18.2
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "Tacna"
+          },
+          {
+            "centro": [
+              -70.2,
+              -18.2
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "en": "plebiscito"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.17,
+            "lat": -11.77,
+            "texto": "ANCÓN",
+            "tipo": "pin",
+            "aparecerEn": "Ancón",
+            "desaparecerEn": "Tacna"
+          },
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Tacna"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.33,
+                -18.48
+              ],
+              [
+                -70.38,
+                -18.35
+              ],
+              [
+                -70.84,
+                -18.12
+              ],
+              [
+                -70.35,
+                -17.6
+              ],
+              [
+                -69.5,
+                -17.3
+              ],
+              [
+                -69.1,
+                -18
+              ],
+              [
+                -69.3,
+                -19
+              ],
+              [
+                -70.27,
+                -19.19
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "TACNA Y ARICA",
+            "etiquetaEn": [
+              -69.6,
+              -18.6
+            ],
+            "aparecerEn": "Tacna",
+            "quedarse": 1
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "10 AÑOS",
+            "sub": "Y DESPUÉS, PLEBISCITO",
+            "tipo": "linea-tiempo",
+            "desde": "1883",
+            "hasta": "1894",
+            "aparecerEn": "diez",
+            "duracionSeg": 3
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Ancón · 1883 · artículo 3",
+          "dice": "Según"
+        },
+        "iconos": [
+          {
+            "lon": -69.75,
+            "lat": -18.1,
+            "icono": "🗳️",
+            "escala": 1.1,
+            "aparecerEn": "plebiscito"
+          },
+          {
+            "lon": -70.8,
+            "lat": -18.7,
+            "icono": "dinero",
+            "escala": 1.1,
+            "aparecerEn": "millones"
+          }
+        ],
+        "contexto": {
+          "texto": "EL QUE GANE PAGA",
+          "dice": "gane"
+        },
+        "clave": [
+          "1883",
+          "Ancón",
+          "Tacna",
+          "Arica",
+          "plebiscito",
+          "millones"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El general. 1894 pasa y nadie vota: no hay acuerdo sobre quién puede hacerlo. En 1925, el presidente Coolidge arbitra y Estados Unidos manda a John Pershing, su general de la Primera Guerra Mundial, a organizar la votación. Perú denuncia presión sobre sus votantes. Chile responde que el plebiscito es posible. En 1926, la comisión lo declara impracticable.",
+        "rotulo": {
+          "texto": "IMPRACTICABLE",
+          "dice": "impracticable"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.2,
+              -18.2
+            ],
+            "zoom": 8.7,
+            "entrada": "corte"
+          },
+          {
+            "centro": [
+              -70.31,
+              -18.48
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Pershing"
+          },
+          {
+            "centro": [
+              -70.25,
+              -18.01
+            ],
+            "zoom": 9.3,
+            "entrada": "paneo",
+            "en": "Perú"
+          },
+          {
+            "centro": [
+              -70.2,
+              -18.2
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "en": "comisión"
+          }
+        ],
+        "polaroid": {
+          "buscar": "John J. Pershing portrait",
+          "encuadre": "arriba",
+          "pie": "John J. Pershing, jefe de la comisión plebiscitaria",
+          "anio": "1925",
+          "lado": "derecha",
+          "aparecerEn": "Pershing",
+          "duracionSeg": 3.4
+        },
+        "tarjetas": [
+          {
+            "texto": "1926",
+            "sub": "NO HABRÁ VOTACIÓN",
+            "icono": "tribunal",
+            "aparecerEn": "impracticable",
+            "duracionSeg": 2.4
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Perú"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Pershing"
+          },
+          {
+            "texto": "DOS VERSIONES",
+            "tipo": "contexto",
+            "aparecerEn": "denuncia",
+            "desaparecerEn": "comisión"
+          }
+        ],
+        "clave": [
+          "1894",
+          "1925",
+          "Pershing",
+          "presión",
+          "posible",
+          "impracticable"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La línea. Sin votos, solo queda negociar. En 1929, con una fórmula del presidente Hoover, firman el Tratado de Lima: Tacna vuelve a Perú, Arica queda en Chile, y Chile paga seis millones de dólares. La frontera parte de la costa, diez kilómetros al norte del puente del río Lluta, y sigue a diez kilómetros del tren de Arica a La Paz.",
+        "rotulo": {
+          "texto": "1929",
+          "dice": "1929"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.2,
+              -18.2
+            ],
+            "zoom": 8.7,
+            "entrada": "corte"
+          },
+          {
+            "centro": [
+              -70.25,
+              -18.01
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Tacna"
+          },
+          {
+            "centro": [
+              -70.31,
+              -18.48
+            ],
+            "zoom": 9.4,
+            "entrada": "paneo",
+            "en": "Arica"
+          },
+          {
+            "centro": [
+              -70.36,
+              -18.38
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "en": "costa",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.95,
+              -18
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "en": "tren"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Tacna"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          },
+          {
+            "lon": -70.375,
+            "lat": -18.351,
+            "texto": "CONCORDIA",
+            "tipo": "pin",
+            "aparecerEn": "costa"
+          },
+          {
+            "lon": -70.2,
+            "lat": -18.41,
+            "texto": "RÍO LLUTA",
+            "tipo": "rio",
+            "rotacion": -5,
+            "aparecerEn": "Lluta"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "46 AÑOS",
+            "sub": "DE LA PROMESA AL TRATADO",
+            "tipo": "linea-tiempo",
+            "desde": "1883",
+            "hasta": "1929",
+            "aparecerEn": "1929",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.8,
+            "lat": -18.55,
+            "icono": "dinero",
+            "escala": 1,
+            "aparecerEn": "millones",
+            "desaparecerEn": "costa"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "icono": "tren",
+            "ruta": [
+              [
+                -70.31,
+                -18.475
+              ],
+              [
+                -70.3,
+                -18.4
+              ],
+              [
+                -70.05,
+                -18.44
+              ],
+              [
+                -69.85,
+                -18.285
+              ],
+              [
+                -69.7,
+                -18.105
+              ],
+              [
+                -69.65,
+                -17.95
+              ],
+              [
+                -69.7,
+                -17.75
+              ],
+              [
+                -69.473,
+                -17.596
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "tren"
+          }
+        ],
+        "clave": [
+          "Hoover",
+          "Lima",
+          "Tacna",
+          "Arica",
+          "millones",
+          "tren"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: el tratado trae un protocolo. Ninguno puede ceder esos territorios a un tercero sin acuerdo del otro. En 1975 Chile le ofrece a Bolivia un corredor al norte de Arica. Según el fallo de la Corte Internacional de Justicia de 2018, consulta a Perú, y Perú propone soberanía compartida. Ni Chile ni Bolivia la aceptan. En 1978 Bolivia rompe relaciones.",
+        "rotulo": {
+          "texto": "SIN ACUERDO",
+          "dice": "acuerdo"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              -69.95,
+              -18
+            ],
+            "zoom": 8.5,
+            "entrada": "corte"
+          },
+          {
+            "centro": [
+              -69.9,
+              -18
+            ],
+            "zoom": 8.9,
+            "entrada": "corte",
+            "en": "1975"
+          },
+          {
+            "centro": [
+              -69.9,
+              -18.1
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "en": "Según"
+          },
+          {
+            "centro": [
+              -69.2,
+              -17.8
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "en": "aceptan"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.379,
+                -18.34
+              ],
+              [
+                -70.282,
+                -18.325
+              ],
+              [
+                -70.185,
+                -18.325
+              ],
+              [
+                -70.059,
+                -18.283
+              ],
+              [
+                -69.925,
+                -18.207
+              ],
+              [
+                -69.839,
+                -18.094
+              ],
+              [
+                -69.803,
+                -17.99
+              ],
+              [
+                -69.803,
+                -17.899
+              ],
+              [
+                -69.842,
+                -17.785
+              ],
+              [
+                -69.853,
+                -17.703
+              ],
+              [
+                -69.806,
+                -17.665
+              ],
+              [
+                -69.684,
+                -17.649
+              ],
+              [
+                -69.587,
+                -17.573
+              ],
+              [
+                -69.511,
+                -17.505
+              ],
+              [
+                -69.473,
+                -17.596
+              ],
+              [
+                -69.55,
+                -17.623
+              ],
+              [
+                -69.65,
+                -17.66
+              ],
+              [
+                -69.7,
+                -17.75
+              ],
+              [
+                -69.7,
+                -17.85
+              ],
+              [
+                -69.65,
+                -17.95
+              ],
+              [
+                -69.7,
+                -18.105
+              ],
+              [
+                -69.75,
+                -18.18
+              ],
+              [
+                -69.8,
+                -18.245
+              ],
+              [
+                -69.85,
+                -18.285
+              ],
+              [
+                -69.9,
+                -18.34
+              ],
+              [
+                -70,
+                -18.363
+              ],
+              [
+                -70.05,
+                -18.44
+              ],
+              [
+                -70.1,
+                -18.43
+              ],
+              [
+                -70.2,
+                -18.412
+              ],
+              [
+                -70.3,
+                -18.4
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "CORREDOR DE 1975",
+            "etiquetaEn": [
+              -69.95,
+              -18.25
+            ],
+            "aparecerEn": "corredor",
+            "desaparecerEn": "1978"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.5,
+            "lat": -17.7,
+            "texto": "BOLIVIA",
+            "tipo": "pais",
+            "aparecerEn": "Bolivia"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          },
+          {
+            "lon": -70.5,
+            "lat": -17.5,
+            "texto": "PERÚ",
+            "tipo": "pais",
+            "aparecerEn": "Perú"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1975",
+            "sub": "EL CORREDOR",
+            "aparecerEn": "1975",
+            "duracionSeg": 2.4
+          }
+        ],
+        "fuente": {
+          "texto": "Corte Internacional de Justicia · fallo de 2018",
+          "dice": "Según"
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "protocolo",
+          "tercero",
+          "1975",
+          "corredor",
+          "compartida",
+          "1978"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy, cada 28 de agosto, Tacna pasea por sus calles una bandera peruana enorme, por el día de 1929 en que volvió. En Arica, Chile construyó un muelle para Perú, como pedía el tratado. Las últimas cláusulas se cerraron recién en 1999. Y el protocolo sigue vigente.",
+        "rotulo": {
+          "texto": "28 DE AGOSTO",
+          "dice": "agosto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.25,
+              -18.01
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom"
+          },
+          {
+            "centro": [
+              -70.32,
+              -18.47
+            ],
+            "zoom": 9.4,
+            "entrada": "paneo",
+            "en": "Arica"
+          },
+          {
+            "centro": [
+              -70.32,
+              -18.47
+            ],
+            "zoom": 9.9,
+            "entrada": "corte",
+            "en": "últimas"
+          },
+          {
+            "centro": [
+              -70,
+              -18
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "Y"
+          }
+        ],
+        "foto": {
+          "buscar": "Arco Parabólico Tacna",
+          "pie": "ARCO PARABÓLICO · TACNA, PERÚ",
+          "aparecerEn": "Tacna",
+          "duracionSeg": 2.4
+        },
+        "polaroid": {
+          "buscar": "Morro de Arica",
+          "pie": "Morro de Arica, Chile",
+          "lado": "izquierda",
+          "aparecerEn": "muelle",
+          "duracionSeg": 2.8
+        },
+        "tarjetas": [
+          {
+            "texto": "1999",
+            "sub": "70 AÑOS DESPUÉS",
+            "aparecerEn": "1999",
+            "duracionSeg": 2.4
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Tacna"
+          },
+          {
+            "lon": -70.32,
+            "lat": -18.47,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.42,
+            "lat": -18.47,
+            "icono": "barco",
+            "escala": 0.9,
+            "aparecerEn": "muelle",
+            "desaparecerEn": "protocolo"
+          }
+        ],
+        "contexto": {
+          "texto": "SIGUE VIGENTE",
+          "dice": "vigente"
+        },
+        "clave": [
+          "agosto",
+          "Tacna",
+          "muelle",
+          "1999",
+          "protocolo",
+          "vigente"
+        ]
+      }
+    ],
+    "remate": "Nadie votó esa frontera. Nadie puede cambiarla solo.",
+    "remateEtiquetas": [
+      {
+        "lon": -70.7,
+        "lat": -17.75,
+        "texto": "NADIE VOTÓ"
+      },
+      {
+        "lon": -69.5,
+        "lat": -18.45,
+        "texto": "NADIE LA CAMBIA SOLO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -70,
+          -18
+        ],
+        "zoom": 8.2,
+        "entrada": "corte",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Lima y Protocolo Complementario (3-6-1929), texto",
+        "url": "https://derechos.org/nizkor/peru/doc/tratadolima.html"
+      },
+      {
+        "texto": "Tratado de Ancón (20-10-1883), artículo 3",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Anc%C3%B3n"
+      },
+      {
+        "texto": "Laudo Tacna-Arica (4-3-1925), Reports of International Arbitral Awards, vol. II, Naciones Unidas",
+        "url": "https://legal.un.org/riaa/cases/vol_II/921-958.pdf"
+      },
+      {
+        "texto": "Corte Internacional de Justicia: Obligation to Negotiate Access to the Pacific Ocean (Bolivia v. Chile), 1-10-2018",
+        "url": "https://www.icj-cij.org/node/105707"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -70,
+        -18
+      ],
+      "zoomInicial": 7.2,
+      "zoomFinal": 8.2,
+      "lineas": [
+        {
+          "id": "frontera-1929",
+          "fronteraEntre": [
+            "Chile",
+            "Peru"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "línea"
+        },
+        {
+          "id": "tren-arica-la-paz",
+          "puntos": [
+            [
+              -70.31,
+              -18.475
+            ],
+            [
+              -70.3,
+              -18.4
+            ],
+            [
+              -70.2,
+              -18.412
+            ],
+            [
+              -70.1,
+              -18.43
+            ],
+            [
+              -70.05,
+              -18.44
+            ],
+            [
+              -70,
+              -18.363
+            ],
+            [
+              -69.9,
+              -18.34
+            ],
+            [
+              -69.85,
+              -18.285
+            ],
+            [
+              -69.8,
+              -18.245
+            ],
+            [
+              -69.75,
+              -18.18
+            ],
+            [
+              -69.7,
+              -18.105
+            ],
+            [
+              -69.65,
+              -17.95
+            ],
+            [
+              -69.7,
+              -17.85
+            ],
+            [
+              -69.7,
+              -17.75
+            ],
+            [
+              -69.65,
+              -17.66
+            ],
+            [
+              -69.55,
+              -17.623
+            ],
+            [
+              -69.473,
+              -17.596
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "tren",
+          "etiqueta": "TREN ARICA-LA PAZ"
+        }
+      ]
+    }
+  }
+}
