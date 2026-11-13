@@ -306,7 +306,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Primero, la mina. En Kelmis estaba Altenberg, en francés Vieille Montagne, una de las minas de zinc más ricas de Europa. En 1815, tras la caída de Napoleón, el Congreso de Viena reparte esta zona entre Países Bajos y Prusia. Y los dos quieren la mina.",
+        "texto": "Primero, la mina. En Kelmis estaba Altenberg, en francés Vieille Montagne, una mina de zinc muy valiosa. En 1815, tras la caída de Napoleón, el Congreso de Viena reparte esta zona entre Países Bajos y Prusia. Y los dos quieren la mina.",
         "rotulo": {
           "texto": "ZINC",
           "dice": "zinc"
@@ -529,7 +529,7 @@
       },
       {
         "tipo": "acto",
-        "texto": "Tercero, el pueblo sin ejército. Nadie hace servicio militar y los impuestos son bajos. Llegan obreros de toda la región: de unos 250 vecinos en 1816 pasan a más de 4.000 antes de la Primera Guerra Mundial.",
+        "texto": "Tercero, el pueblo sin ejército. Casi nadie hace servicio militar y los impuestos son bajos. Llegan obreros de toda la región: de unos 250 vecinos en 1816 pasan a más de 4.000 antes de la Primera Guerra Mundial.",
         "rotulo": {
           "texto": "SIN SOLDADOS",
           "dice": "militar"

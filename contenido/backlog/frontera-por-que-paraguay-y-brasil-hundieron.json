@@ -577,7 +577,7 @@
       },
       {
         "tipo": "giro",
-        "texto": "Y aquí está el giro: según el artículo siete del Tratado de Itaipú, la represa no cambia en nada los límites de los tratados vigentes. Nadie cedió la zona en disputa. Nadie la ganó. Se inundó, y su energía se reparte entre los dos.",
+        "texto": "Y aquí está el giro: según el artículo seis del Tratado de Itaipú, la represa no cambia en nada los límites de los tratados vigentes. Nadie cedió la zona en disputa. Nadie la ganó. Se inundó, y su energía se reparte entre los dos.",
         "rotulo": {
           "texto": "SE INUNDÓ",
           "dice": "inundó"
@@ -625,7 +625,7 @@
           }
         ],
         "fuente": {
-          "texto": "Tratado de Itaipú (1973) · artículo VII",
+          "texto": "Tratado de Itaipú (1973) · artículo VI",
           "dice": "según"
         },
         "areas": [
@@ -683,7 +683,7 @@
         },
         "clave": [
           "artículo",
-          "siete",
+          "seis",
           "límites",
           "cedió",
           "inundó"
@@ -796,7 +796,7 @@
     ],
     "fuentes": [
       {
-        "texto": "Tratado de Itaipú (26-04-1973), artículo VII",
+        "texto": "Tratado de Itaipú (26-04-1973), artículo VI",
         "url": "https://es.wikipedia.org/wiki/Tratado_de_Itaip%C3%BA"
       },
       {
