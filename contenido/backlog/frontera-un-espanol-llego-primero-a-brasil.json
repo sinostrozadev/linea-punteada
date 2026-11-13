@@ -1,0 +1,789 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-un-espanol-llego-primero-a-brasil",
+  "titulo": "Un español llegó primero a Brasil. ¿Por qué Brasil habla portugués?",
+  "descripcion": "Brasil habla portugués por una raya trazada sobre el océano antes de que nadie supiera que ahí había un continente. En 1493 una bula del papa Alejandro VI repartió el Atlántico; en 1494 el Tratado de Tordesillas corrió esa raya a 370 leguas de Cabo Verde. En enero de 1500 el español Vicente Yáñez Pinzón tocó la costa del nordeste, tres meses antes que Pedro Álvares Cabral, pero esa costa ya caía del lado portugués. El Tratado de Madrid de 1750 reemplazó la raya por lo que cada uno ocupaba.\n\nFuentes:\n- Tratado de Tordesillas (1494): https://es.wikipedia.org/wiki/Tratado_de_Tordesillas\n- Bulas alejandrinas (1493): https://es.wikipedia.org/wiki/Bulas_alejandrinas\n- Pedro Álvares Cabral: https://es.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral\n- Vicente Yáñez Pinzón: https://es.wikipedia.org/wiki/Vicente_Y%C3%A1%C3%B1ez_Pinz%C3%B3n\n- Tratado de Madrid (1750): https://es.wikipedia.org/wiki/Tratado_de_Madrid_(1750)\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#brasil"
+  ],
+  "props": {
+    "id": "pendiente-frontera-un-espanol-llego-primero-a-brasil",
+    "cabecera": "TORDESILLAS — LA RAYA QUE HIZO A BRASIL",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ BRASIL HABLA PORTUGUÉS?",
+      "clave": "PORTUGUÉS",
+      "paises": [
+        "Brazil"
+      ],
+      "centro": [
+        -55,
+        -15
+      ],
+      "zoom": 2.8,
+      "icono": "📜"
+    },
+    "gancho": {
+      "texto": "Mira la costa de Sudamérica. Casi todo el continente habla español, pero esta mitad habla portugués. Y un español pisó esta costa antes que los portugueses. ¿Por qué no es de España?",
+      "rotulo": "¿POR QUÉ PORTUGUÉS?",
+      "planos": [
+        {
+          "centro": [
+            -58,
+            -18
+          ],
+          "zoom": 3.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -50,
+            -10
+          ],
+          "zoom": 4.2,
+          "entrada": "zoom",
+          "en": "mitad",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -37,
+            -7
+          ],
+          "zoom": 5.4,
+          "entrada": "zoom",
+          "en": "pisó",
+          "deriva": 0.3
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -62,
+          "lat": -22,
+          "texto": "SUDAMÉRICA",
+          "tipo": "region",
+          "aparecerEn": "Sudamérica",
+          "desaparecerEn": "mitad"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Brazil",
+          "color": "verde",
+          "etiqueta": "BRASIL",
+          "aparecerEn": "mitad",
+          "desaparecerEn": "pisó"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -35.5,
+          "lat": -6,
+          "icono": "⛵",
+          "escala": 1,
+          "aparecerEn": "español#2"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ NO ES DE ESPAÑA?",
+        "dice": "España"
+      },
+      "clave": [
+        "español",
+        "portugués",
+        "pisó",
+        "España"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Brasil es portugués porque Pedro Álvares Cabral llegó primero, en 1500. La verdad es más rara.",
+        "rotulo": {
+          "texto": "CABRAL",
+          "dice": "Cabral"
+        },
+        "planos": [
+          {
+            "centro": [
+              -39.4,
+              -16.9
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -42,
+              -14
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -39.42,
+            "lat": -16.89,
+            "texto": "MONTE PASCOAL",
+            "tipo": "pin",
+            "aparecerEn": "Cabral"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "Cabral",
+          "1500",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una bula, un tratado y una flota desviada. Y al final, un español que llegó primero a una tierra ajena.",
+        "rotulo": {
+          "texto": "BULA, TRATADO, FLOTA",
+          "dice": "bula"
+        },
+        "planos": [
+          {
+            "centro": [
+              -28,
+              8
+            ],
+            "zoom": 3.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -36,
+              -6
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "📜",
+            "texto": "BULA",
+            "dice": "bula"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATADO",
+            "dice": "tratado"
+          },
+          {
+            "icono": "⛵",
+            "texto": "FLOTA",
+            "dice": "flota"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "bula",
+          "tratado",
+          "flota",
+          "ajena"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la bula. En 1493 el papa Alejandro VI parte el océano con una línea a cien leguas al oeste de las islas de Cabo Verde. Todo lo que quede al oeste será de Castilla. El rey Juan II de Portugal protesta: necesita ese mar para su ruta a la India.",
+        "rotulo": {
+          "texto": "1493",
+          "dice": "1493"
+        },
+        "imagen": {
+          "buscar": "Pope Alexander VI portrait"
+        },
+        "planos": [
+          {
+            "centro": [
+              -20,
+              25
+            ],
+            "zoom": 3.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -25,
+              15.5
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "Cabo",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -15,
+              15
+            ],
+            "zoom": 3.6,
+            "entrada": "zoom",
+            "en": "protesta",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -23.6,
+            "lat": 15.1,
+            "texto": "CABO VERDE",
+            "tipo": "pin",
+            "aparecerEn": "Cabo",
+            "quedarse": 1
+          },
+          {
+            "lon": -9.14,
+            "lat": 38.72,
+            "texto": "LISBOA",
+            "tipo": "pin",
+            "aparecerEn": "Portugal"
+          },
+          {
+            "lon": -40,
+            "lat": 28,
+            "texto": "PARA CASTILLA",
+            "tipo": "region",
+            "aparecerEn": "Castilla",
+            "desaparecerEn": "protesta"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -10,
+            "lat": 37,
+            "icono": "⛵",
+            "ruta": [
+              [
+                -10,
+                37
+              ],
+              [
+                -20,
+                15
+              ],
+              [
+                -12,
+                -10
+              ],
+              [
+                15,
+                -35
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "India"
+          }
+        ],
+        "contexto": {
+          "texto": "CIEN LEGUAS",
+          "dice": "leguas"
+        },
+        "clave": [
+          "1493",
+          "Alejandro",
+          "Cabo",
+          "Castilla",
+          "India"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el tratado. El 7 de junio de 1494 Castilla y Portugal firman en Tordesillas. Según el texto, que hoy guarda el Archivo General de Indias de Sevilla, la raya se corre a 370 leguas de Cabo Verde. Lo que quede al este será portugués. Nadie sabe aún que ahí hay un continente.",
+        "rotulo": {
+          "texto": "370 LEGUAS",
+          "dice": "370"
+        },
+        "fuenteEnVoz": true,
+        "imagen": {
+          "buscar": "Treaty of Tordesillas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -5,
+              41.5
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -30,
+              8
+            ],
+            "zoom": 3.6,
+            "entrada": "zoom",
+            "en": "370",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -42,
+              -10
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "en": "Nadie",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1494",
+            "sub": "TORDESILLAS · 7 DE JUNIO",
+            "icono": "tratado",
+            "aparecerEn": "1494",
+            "duracionSeg": 2.8
+          }
+        ],
+        "fuente": {
+          "texto": "Tratado de Tordesillas · Archivo General de Indias",
+          "dice": "Según"
+        },
+        "etiquetas": [
+          {
+            "lon": -5,
+            "lat": 41.5,
+            "texto": "TORDESILLAS",
+            "tipo": "pin",
+            "aparecerEn": "Tordesillas"
+          },
+          {
+            "lon": -5.99,
+            "lat": 37.39,
+            "texto": "SEVILLA",
+            "tipo": "pin",
+            "aparecerEn": "Sevilla"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -48.6,
+                -0.8
+              ],
+              [
+                -35,
+                -5
+              ],
+              [
+                -39,
+                -17
+              ],
+              [
+                -48.6,
+                -28.5
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "PARA PORTUGAL",
+            "aparecerEn": "este",
+            "quedarse": 1
+          }
+        ],
+        "clave": [
+          "1494",
+          "Tordesillas",
+          "Sevilla",
+          "370",
+          "continente"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la flota. El 9 de marzo de 1500 Pedro Álvares Cabral sale de Lisboa hacia la India con trece barcos. Se abre tanto al oeste que el 22 de abril ve un monte en el horizonte. Lo llama Monte Pascoal y reclama esa tierra para Portugal.",
+        "rotulo": {
+          "texto": "22 DE ABRIL",
+          "dice": "abril"
+        },
+        "imagen": {
+          "buscar": "Pedro Alvares Cabral portrait"
+        },
+        "planos": [
+          {
+            "centro": [
+              -18,
+              15
+            ],
+            "zoom": 3.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -39.4,
+              -16.9
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "monte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -41,
+              -14
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "reclama",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -9.14,
+            "lat": 38.72,
+            "texto": "LISBOA",
+            "tipo": "pin",
+            "aparecerEn": "Lisboa"
+          },
+          {
+            "lon": -39.42,
+            "lat": -16.89,
+            "texto": "MONTE PASCOAL",
+            "tipo": "pin",
+            "aparecerEn": "Pascoal"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -9.1,
+            "lat": 38.7,
+            "icono": "⛵",
+            "ruta": [
+              [
+                -9.1,
+                38.7
+              ],
+              [
+                -16,
+                28
+              ],
+              [
+                -24,
+                15
+              ],
+              [
+                -31,
+                0
+              ],
+              [
+                -38.8,
+                -16.9
+              ]
+            ],
+            "duracionSeg": 4,
+            "escala": 1,
+            "aparecerEn": "Lisboa",
+            "desaparecerEn": "reclama"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "13",
+            "sub": "BARCOS RUMBO A LA INDIA",
+            "icono": "⛵",
+            "aparecerEn": "trece",
+            "duracionSeg": 2.4
+          }
+        ],
+        "clave": [
+          "Cabral",
+          "Lisboa",
+          "trece",
+          "abril",
+          "Pascoal"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: Cabral no fue el primero. En enero de 1500, tres meses antes, el español Vicente Yáñez Pinzón, capitán de La Niña en el viaje de Colón, ya había tocado la costa del nordeste. Pero esa costa caía al este de la raya. Pinzón pisó primero una tierra que el tratado ya le daba a Portugal.",
+        "rotulo": {
+          "texto": "ENERO DE 1500",
+          "dice": "enero"
+        },
+        "planos": [
+          {
+            "centro": [
+              -37,
+              -7
+            ],
+            "zoom": 5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -36,
+              -7
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "en": "nordeste",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -42,
+              -8
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "en": "raya",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -38.5,
+            "lat": -6.5,
+            "texto": "NORDESTE",
+            "tipo": "region",
+            "aparecerEn": "nordeste"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -33,
+            "lat": -4,
+            "icono": "⛵",
+            "ruta": [
+              [
+                -30,
+                2
+              ],
+              [
+                -35,
+                -7.5
+              ]
+            ],
+            "duracionSeg": 2.4,
+            "escala": 1,
+            "aparecerEn": "Pinzón"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "Pinzón",
+          "enero",
+          "Niña",
+          "nordeste",
+          "Portugal"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy la raya no aparece en ningún mapa oficial. Pasaba cerca de Belém, en la boca del Amazonas, y de Laguna, en Santa Catarina. Pero Brasil creció mucho más allá: sus exploradores empujaron al oeste, y el Tratado de Madrid de 1750 les reconoció lo que ya ocupaban. Por eso el portugués llega hasta Perú y Bolivia.",
+        "rotulo": {
+          "texto": "1750",
+          "dice": "1750"
+        },
+        "planos": [
+          {
+            "centro": [
+              -48.5,
+              -1.5
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -48.8,
+              -28.5
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "en": "Laguna",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55,
+              -12
+            ],
+            "zoom": 3.8,
+            "entrada": "zoom",
+            "en": "oeste",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -48.49,
+            "lat": -1.46,
+            "texto": "BELÉM",
+            "tipo": "pin",
+            "aparecerEn": "Belém"
+          },
+          {
+            "lon": -48.78,
+            "lat": -28.48,
+            "texto": "LAGUNA",
+            "tipo": "pin",
+            "aparecerEn": "Laguna"
+          },
+          {
+            "lon": -75,
+            "lat": -10,
+            "texto": "PERÚ",
+            "tipo": "pais",
+            "aparecerEn": "Perú"
+          },
+          {
+            "lon": -64.5,
+            "lat": -17,
+            "texto": "BOLIVIA",
+            "tipo": "pais",
+            "aparecerEn": "Bolivia"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Brazil",
+            "color": "verde",
+            "etiqueta": "BRASIL HOY",
+            "aparecerEn": "oeste",
+            "quedarse": "siempre"
+          }
+        ],
+        "contexto": {
+          "texto": "LO QUE OCUPABAN",
+          "dice": "ocupaban"
+        },
+        "clave": [
+          "Belém",
+          "Laguna",
+          "1750",
+          "Perú",
+          "Bolivia"
+        ]
+      }
+    ],
+    "remate": "España llegó primero a la costa. Portugal llegó primero al papel.",
+    "remateEtiquetas": [
+      {
+        "lon": -37,
+        "lat": -6,
+        "texto": "ESPAÑA: LA COSTA"
+      },
+      {
+        "lon": -47,
+        "lat": -20,
+        "texto": "PORTUGAL: EL PAPEL"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          -45,
+          -12
+        ],
+        "zoom": 4.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Tordesillas (7-6-1494), Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Tordesillas"
+      },
+      {
+        "texto": "Bulas alejandrinas (1493), Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Bulas_alejandrinas"
+      },
+      {
+        "texto": "Pedro Álvares Cabral, Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral"
+      },
+      {
+        "texto": "Vicente Yáñez Pinzón, Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Vicente_Y%C3%A1%C3%B1ez_Pinz%C3%B3n"
+      },
+      {
+        "texto": "Tratado de Madrid (1750), Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Madrid_(1750)"
+      }
+    ],
+    "mapa": {
+      "fondo": "relieve",
+      "centro": [
+        -45,
+        -12
+      ],
+      "zoomInicial": 3.4,
+      "zoomFinal": 4.2,
+      "paises": [
+        "Brazil"
+      ],
+      "lineas": [
+        {
+          "id": "bula-1493",
+          "puntos": [
+            [
+              -31,
+              45
+            ],
+            [
+              -31,
+              -35
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "línea",
+          "etiqueta": "LÍNEA DE 1493"
+        },
+        {
+          "id": "tordesillas",
+          "puntos": [
+            [
+              -48.6,
+              12
+            ],
+            [
+              -48.6,
+              -35
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "370",
+          "etiqueta": "TORDESILLAS 1494"
+        }
+      ]
+    }
+  }
+}
