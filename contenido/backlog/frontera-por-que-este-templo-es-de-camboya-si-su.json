@@ -577,7 +577,7 @@
               104.68,
               14.38
             ],
-            "zoom": 10.8,
+            "zoom": 12.4,
             "entrada": "zoom",
             "en": "Nueve",
             "deriva": 0.3
@@ -737,7 +737,7 @@
       },
       {
         "tipo": "hoy",
-        "texto": "Desde 2008 el templo es Patrimonio Mundial de la UNESCO. Ese año empezaron choques armados en la zona, que siguieron hasta 2011. En 2013 la Corte lo repitió por unanimidad: todo el promontorio es camboyano. Y su gran escalera de piedra sigue bajando hacia Tailandia.",
+        "texto": "Desde 2008 el templo es Patrimonio Mundial de la UNESCO. Ese año empezaron choques armados que duraron hasta 2011, y en 2025 volvieron los combates junto al templo, con cada país culpando al otro. En 2013 la Corte lo repitió por unanimidad: todo el promontorio es camboyano. Y su gran escalera sigue bajando hacia Tailandia.",
         "rotulo": {
           "texto": "UNESCO",
           "dice": "UNESCO"
