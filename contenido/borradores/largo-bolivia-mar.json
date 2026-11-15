@@ -1,0 +1,3616 @@
+{
+  "plantilla": "largo",
+  "id": "largo-bolivia-mar",
+  "titulo": "A Bolivia le ofrecieron el mar 5 veces. ¿Qué falló?",
+  "descripcion": "¿Por qué Bolivia, que nació con unos 400 km de costa, lleva 147 años sin una salida soberana al mar?\n\nEn 1879 Chile ocupó Antofagasta y Bolivia perdió el Litoral. Después hubo intentos concretos de devolverle una salida: el tratado de transferencia de 1895, el acta de 1920, la propuesta Kellogg de 1926, las notas de 1950 y el corredor de Charaña (1975), que se frenó en el protocolo de 1929 entre Chile y Perú. En 2018 la Corte Internacional de Justicia falló 12 a 3 que Chile no está obligado a negociar, pero dejó abierta la puerta al diálogo. Contamos la versión boliviana y la chilena en cada paso.\n\nSerie El mar de Bolivia. Los polígonos del Litoral, de Tacna y Arica y del corredor son aproximados. Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#Bolivia",
+    "#Chile",
+    "#fronteras"
+  ],
+  "props": {
+    "id": "largo-bolivia-mar",
+    "acento": "coral",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "amarillo",
+      "escala": 1.1,
+      "kmReales": 400,
+      "mes": 3,
+      "puntos": [
+        {
+          "lon": -70.06,
+          "lat": -21.43,
+          "etiqueta": "RÍO LOA",
+          "fecha": "1825"
+        },
+        {
+          "lon": -70.15,
+          "lat": -21.8
+        },
+        {
+          "lon": -70.2,
+          "lat": -22.09,
+          "etiqueta": "TOCOPILLA"
+        },
+        {
+          "lon": -70.25,
+          "lat": -22.55,
+          "etiqueta": "COBIJA"
+        },
+        {
+          "lon": -70.3,
+          "lat": -22.9
+        },
+        {
+          "lon": -70.45,
+          "lat": -23.1,
+          "etiqueta": "MEJILLONES"
+        },
+        {
+          "lon": -70.5,
+          "lat": -23.4
+        },
+        {
+          "lon": -70.4,
+          "lat": -23.65,
+          "etiqueta": "ANTOFAGASTA"
+        },
+        {
+          "lon": -70.52,
+          "lat": -24.0,
+          "etiqueta": "PARALELO 24",
+          "fecha": "1874"
+        }
+      ]
+    },
+    "apertura": {
+      "texto": "Esta franja de desierto fue la costa de Bolivia: unos cuatrocientos kilómetros frente al Pacífico. La perdió en mil ochocientos setenta y nueve. Desde entonces, le ofrecieron una salida al mar cinco veces. ¿Por qué nunca pasó?",
+      "planos": [
+        {
+          "centro": [
+            -69.0,
+            -22.7
+          ],
+          "zoom": 6.6,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -70.3,
+            -22.7
+          ],
+          "zoom": 7.6,
+          "entrada": "zoom",
+          "en": "cuatrocientos",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -70.3,
+            -22.7
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "en": "perdió",
+          "deriva": -0.2
+        },
+        {
+          "centro": [
+            -68.5,
+            -20.0
+          ],
+          "zoom": 5.6,
+          "entrada": "zoom",
+          "en": "cinco",
+          "deriva": 0.2
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -70.06,
+              -21.43
+            ],
+            [
+              -68.95,
+              -21.3
+            ],
+            [
+              -68.2,
+              -21.6
+            ],
+            [
+              -67.7,
+              -22.4
+            ],
+            [
+              -67.35,
+              -23.2
+            ],
+            [
+              -67.3,
+              -24.0
+            ],
+            [
+              -70.52,
+              -24.0
+            ],
+            [
+              -70.6,
+              -23.4
+            ],
+            [
+              -70.45,
+              -22.9
+            ],
+            [
+              -70.25,
+              -22.3
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "rayas",
+          "etiqueta": "LITORAL BOLIVIANO",
+          "aparecerEn": "franja"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -66.0,
+          "lat": -17.5,
+          "texto": "BOLIVIA",
+          "tipo": "pais",
+          "aparecerEn": "Bolivia"
+        },
+        {
+          "lon": -72.6,
+          "lat": -22.5,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "Pacífico"
+        },
+        {
+          "lon": -70.0,
+          "lat": -27.0,
+          "texto": "CHILE",
+          "tipo": "pais",
+          "aparecerEn": "perdió"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "400 KM",
+          "sub": "DE COSTA BOLIVIANA",
+          "tipo": "cifra",
+          "aparecerEn": "cuatrocientos",
+          "duracionSeg": 3.2
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ NUNCA PASÓ?",
+        "dice": "nunca"
+      },
+      "clave": [
+        "Bolivia",
+        "cuatrocientos",
+        "Pacífico",
+        "cinco"
+      ]
+    },
+    "tarjetaTitulo": {
+      "texto": "¿Por qué Bolivia lleva 147 años sin mar?",
+      "clave": "147 años"
+    },
+    "capitulos": [
+      {
+        "titulo": "La costa que tenía",
+        "bloques": [
+          {
+            "texto": "Según la Corte Internacional de Justicia, Bolivia nace en mil ochocientos veinticinco con más de cuatrocientos kilómetros de costa. Su puerto principal es Cobija, una caleta en pleno desierto de Atacama.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -68.5,
+                  -20.0
+                ],
+                "zoom": 5.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -22.55
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "en": "Cobija",
+                "deriva": 0.3
+              }
+            ],
+            "fuente": {
+              "texto": "Corte Internacional de Justicia · sentencia del 1-10-2018",
+              "dice": "Según"
+            },
+            "tarjetas": [
+              {
+                "texto": "1825",
+                "sub": "NACE BOLIVIA, CON COSTA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "veinticinco",
+                "duracionSeg": 3.2,
+                "desde": "1825",
+                "hasta": "2026"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.25,
+                "lat": -22.55,
+                "texto": "COBIJA",
+                "tipo": "pin",
+                "aparecerEn": "Cobija"
+              },
+              {
+                "lon": -69.2,
+                "lat": -23.2,
+                "texto": "DESIERTO DE ATACAMA",
+                "tipo": "region",
+                "aparecerEn": "Atacama"
+              }
+            ],
+            "foto": {
+              "buscar": "Ruinas de Cobija Bolivia",
+              "archivo": "File:Ruinas de Cobija, ex Departamento de Litoral, Bolivia, hoy Provincia de Tocopilla, Chile.jpeg",
+              "pie": "RUINAS DE COBIJA · EL PUERTO DE BOLIVIA",
+              "aparecerEn": "caleta",
+              "duracionSeg": 3.0
+            },
+            "clave": [
+              "Corte",
+              "veinticinco",
+              "Cobija",
+              "Atacama"
+            ]
+          },
+          {
+            "texto": "Mira la línea. La costa boliviana empieza en la desembocadura del río Loa, la frontera con Perú, y baja por Tocopilla, Cobija y Mejillones hasta Antofagasta.",
+            "tramo": [
+              0,
+              7
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.06,
+                  -21.43
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -22.6
+                ],
+                "zoom": 8.2,
+                "entrada": "paneo",
+                "en": "Tocopilla",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -23.65
+                ],
+                "zoom": 8.6,
+                "entrada": "paneo",
+                "en": "Antofagasta",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.81,
+                "lat": -21.43,
+                "texto": "RÍO LOA",
+                "tipo": "rio",
+                "aparecerEn": "Loa",
+                "rotacion": -20
+              },
+              {
+                "lon": -69.6,
+                "lat": -20.6,
+                "texto": "PERÚ EN 1879",
+                "tipo": "region",
+                "aparecerEn": "Perú"
+              },
+              {
+                "lon": -70.2,
+                "lat": -22.09,
+                "texto": "TOCOPILLA",
+                "tipo": "pin",
+                "aparecerEn": "Tocopilla"
+              },
+              {
+                "lon": -70.45,
+                "lat": -23.1,
+                "texto": "MEJILLONES",
+                "tipo": "pin",
+                "aparecerEn": "Mejillones"
+              },
+              {
+                "lon": -70.4,
+                "lat": -23.65,
+                "texto": "ANTOFAGASTA",
+                "tipo": "pin",
+                "aparecerEn": "Antofagasta"
+              }
+            ],
+            "clave": [
+              "Loa",
+              "Perú",
+              "Mejillones",
+              "Antofagasta"
+            ]
+          },
+          {
+            "texto": "El límite sur con Chile se discute por años. En mil ochocientos sesenta y seis lo fijan en el paralelo veinticuatro. En mil ochocientos setenta y cuatro, otro tratado lo confirma.",
+            "tramo": [
+              7,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.0,
+                  -23.6
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -69.5,
+                  -24.0
+                ],
+                "zoom": 7.6,
+                "entrada": "paneo",
+                "en": "paralelo",
+                "deriva": 0.1
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -70.52,
+                  -24.0
+                ],
+                "hasta": [
+                  -67.3,
+                  -24.0
+                ],
+                "texto": "PARALELO 24",
+                "aparecerEn": "paralelo"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.0,
+                "lat": -24.6,
+                "icono": "tratado",
+                "aparecerEn": "tratado"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1866",
+                "sub": "PRIMER TRATADO DE LÍMITES",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "seis",
+                "duracionSeg": 3.2,
+                "desde": "1866",
+                "hasta": "1874"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.0,
+                "lat": -25.6,
+                "texto": "CHILE",
+                "tipo": "pais",
+                "aparecerEn": "Chile"
+              }
+            ],
+            "clave": [
+              "paralelo",
+              "veinticuatro",
+              "tratado"
+            ]
+          },
+          {
+            "texto": "Primero se pelearon por el guano de Mejillones. Después apareció el salitre, un abono que el mundo pagaba caro. Y en Antofagasta, quien lo sacaba era una compañía chilena.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.6,
+                  -23.4
+                ],
+                "zoom": 7.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -23.65
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "en": "Antofagasta",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.5,
+                "lat": -23.0,
+                "icono": "⛏️",
+                "aparecerEn": "guano"
+              },
+              {
+                "lon": -69.3,
+                "lat": -23.2,
+                "icono": "⛏️",
+                "aparecerEn": "salitre"
+              },
+              {
+                "lon": -68.6,
+                "lat": -23.0,
+                "icono": "dinero",
+                "aparecerEn": "caro"
+              }
+            ],
+            "foto": {
+              "buscar": "Antofagasta 1876 muelle salitreras",
+              "archivo": "File:Vista del muelle ferroviario y salitreras en Antofagasta 1876.jpg",
+              "pie": "ANTOFAGASTA EN 1876 · MUELLE DEL SALITRE",
+              "aparecerEn": "compañía",
+              "duracionSeg": 3.0
+            },
+            "contexto": {
+              "texto": "EL SALITRE",
+              "dice": "salitre"
+            },
+            "clave": [
+              "guano",
+              "salitre",
+              "abono",
+              "Antofagasta"
+            ]
+          },
+          {
+            "texto": "El tratado de mil ochocientos setenta y cuatro tenía una condición: durante veinticinco años, Bolivia no subiría los impuestos a las empresas chilenas de la zona. En mil ochocientos setenta y ocho, Bolivia cobra diez centavos por cada quintal de salitre exportado.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.4,
+                  -23.65
+                ],
+                "zoom": 9.8,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -23.65
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "en": "ocho",
+                "deriva": 0.1
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "25 AÑOS",
+                "sub": "SIN SUBIR IMPUESTOS (1874)",
+                "tipo": "cifra",
+                "aparecerEn": "veinticinco",
+                "duracionSeg": 3.2
+              },
+              {
+                "texto": "10 CENTAVOS",
+                "sub": "POR QUINTAL DE SALITRE · 1878",
+                "tipo": "cifra",
+                "aparecerEn": "centavos",
+                "duracionSeg": 3.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.9,
+                "lat": -23.4,
+                "icono": "dinero",
+                "aparecerEn": "impuestos",
+                "tachado": true
+              }
+            ],
+            "clave": [
+              "veinticinco",
+              "impuestos",
+              "diez",
+              "centavos"
+            ]
+          },
+          {
+            "texto": "Aquí las versiones se separan. Para Chile, era romper el tratado. Para Bolivia, era un asunto interno, de sus propios tribunales. La compañía se niega a pagar, y Bolivia ordena rematar sus bienes.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.3,
+                  -23.0
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.3,
+                  -23.0
+                ],
+                "zoom": 7.7,
+                "entrada": "corte",
+                "en": "Bolivia",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.2,
+                "lat": -25.0,
+                "texto": "SEGÚN CHILE",
+                "tipo": "region",
+                "aparecerEn": "Chile"
+              },
+              {
+                "lon": -67.8,
+                "lat": -21.6,
+                "texto": "SEGÚN BOLIVIA",
+                "tipo": "region",
+                "aparecerEn": "Bolivia"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -68.5,
+                "lat": -22.4,
+                "icono": "tribunal",
+                "aparecerEn": "tribunales"
+              }
+            ],
+            "contexto": {
+              "texto": "DOS VERSIONES",
+              "dice": "versiones"
+            },
+            "clave": [
+              "Chile",
+              "Bolivia",
+              "rematar"
+            ]
+          },
+          {
+            "texto": "El día del remate, el catorce de febrero de mil ochocientos setenta y nueve, tropas chilenas desembarcan en Antofagasta. La ciudad era boliviana, pero la mayoría de sus habitantes eran chilenos.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.4,
+                  -23.65
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.3
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -23.65
+                ],
+                "zoom": 9.6,
+                "entrada": "corte",
+                "en": "ciudad",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -71.2,
+                "lat": -23.65,
+                "icono": "🚢",
+                "aparecerEn": "desembarcan",
+                "ruta": [
+                  [
+                    -71.4,
+                    -23.7
+                  ],
+                  [
+                    -70.45,
+                    -23.65
+                  ]
+                ],
+                "duracionSeg": 2.5
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "14-2-1879",
+                "sub": "CHILE OCUPA ANTOFAGASTA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "catorce",
+                "duracionSeg": 3.2,
+                "desde": "1825",
+                "hasta": "1879"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.4,
+                "lat": -23.65,
+                "texto": "ANTOFAGASTA",
+                "tipo": "pin",
+                "aparecerEn": "Antofagasta"
+              }
+            ],
+            "clave": [
+              "catorce",
+              "febrero",
+              "Antofagasta",
+              "chilenos"
+            ]
+          },
+          {
+            "texto": "Un mes después, en Calama, un grupo de civiles bolivianos defiende un puente sobre el río Loa. Ahí muere Eduardo Abaroa. Era el veintitrés de marzo, y esa fecha es hoy el Día del Mar en Bolivia.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.6,
+                  -22.8
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -68.93,
+                  -22.46
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "en": "puente",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -68.93,
+                "lat": -22.46,
+                "texto": "CALAMA",
+                "tipo": "pin",
+                "aparecerEn": "Calama"
+              },
+              {
+                "lon": -68.78,
+                "lat": -22.36,
+                "texto": "RÍO LOA",
+                "tipo": "rio",
+                "aparecerEn": "Loa",
+                "rotacion": -30
+              }
+            ],
+            "polaroid": {
+              "buscar": "Monumento a Abaroa en Tiquina",
+              "archivo": "File:Monumento a Abaroa en Tiquina, al lado del lago Titicaca.jpg",
+              "pie": "Monumento a Eduardo Abaroa, Tiquina (Bolivia)",
+              "aparecerEn": "Abaroa",
+              "lado": "derecha",
+              "forma": "marco",
+              "duracionSeg": 4.0,
+              "anio": "1879"
+            },
+            "tarjetas": [
+              {
+                "texto": "23 DE MARZO",
+                "sub": "DÍA DEL MAR EN BOLIVIA",
+                "tipo": "cifra",
+                "aparecerEn": "veintitrés",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "Calama",
+              "Abaroa",
+              "veintitrés",
+              "Mar"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "En abril, la guerra ya es abierta: Chile contra Bolivia y Perú. Y cuando Bolivia deja de pelear, no firma la paz. Firma algo más raro, que va a durar veinte años: una tregua.",
+          "tramo": [
+            8,
+            8
+          ],
+          "planos": [
+            {
+              "centro": [
+                -68.93,
+                -22.46
+              ],
+              "zoom": 6.4,
+              "entrada": "corte",
+              "deriva": -0.2
+            },
+            {
+              "centro": [
+                -71.5,
+                -24.0
+              ],
+              "zoom": 5.0,
+              "entrada": "zoom",
+              "en": "Bolivia#2",
+              "deriva": 0.1
+            }
+          ],
+          "areas": [
+            {
+              "pais": "Peru",
+              "color": "rojo",
+              "etiqueta": "PERÚ",
+              "aparecerEn": "Perú"
+            }
+          ],
+          "iconos": [
+            {
+              "lon": -69.5,
+              "lat": -21.0,
+              "icono": "guerra",
+              "aparecerEn": "guerra"
+            }
+          ],
+          "contexto": {
+            "texto": "UNA TREGUA",
+            "dice": "tregua"
+          },
+          "clave": [
+            "abril",
+            "Perú",
+            "tregua"
+          ]
+        }
+      },
+      {
+        "titulo": "Veinte años de tregua",
+        "bloques": [
+          {
+            "texto": "En mil ochocientos ochenta y cuatro, en Valparaíso, Bolivia y Chile firman una tregua. Se acaban los combates, pero nadie decide de quién es la costa: Chile la sigue gobernando.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.62,
+                  -33.05
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -26.5
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "en": "costa",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -71.62,
+                "lat": -33.05,
+                "texto": "VALPARAÍSO",
+                "tipo": "pin",
+                "aparecerEn": "Valparaíso"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.06,
+                    -21.43
+                  ],
+                  [
+                    -68.95,
+                    -21.3
+                  ],
+                  [
+                    -68.2,
+                    -21.6
+                  ],
+                  [
+                    -67.7,
+                    -22.4
+                  ],
+                  [
+                    -67.35,
+                    -23.2
+                  ],
+                  [
+                    -67.3,
+                    -24.0
+                  ],
+                  [
+                    -70.52,
+                    -24.0
+                  ],
+                  [
+                    -70.6,
+                    -23.4
+                  ],
+                  [
+                    -70.45,
+                    -22.9
+                  ],
+                  [
+                    -70.25,
+                    -22.3
+                  ]
+                ],
+                "color": "violeta",
+                "etiqueta": "BAJO GOBIERNO CHILENO",
+                "aparecerEn": "gobernando"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1884",
+                "sub": "PACTO DE TREGUA · 4 DE ABRIL",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "cuatro",
+                "duracionSeg": 3.2,
+                "desde": "1879",
+                "hasta": "1904"
+              }
+            ],
+            "clave": [
+              "Valparaíso",
+              "tregua",
+              "costa",
+              "gobernando"
+            ]
+          },
+          {
+            "texto": "Perú ya había firmado su paz en Ancón: Chile se queda con Tarapacá, y Tacna y Arica quedan en sus manos hasta un plebiscito.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.0,
+                  -19.5
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -18.4
+                ],
+                "zoom": 7.8,
+                "entrada": "zoom",
+                "en": "Tacna",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.5,
+                "lat": -20.3,
+                "texto": "TARAPACÁ",
+                "tipo": "region",
+                "aparecerEn": "Tarapacá"
+              },
+              {
+                "lon": -70.25,
+                "lat": -18.01,
+                "texto": "TACNA",
+                "tipo": "pin",
+                "aparecerEn": "Tacna"
+              },
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.27,
+                    -19.19
+                  ],
+                  [
+                    -70.33,
+                    -18.8
+                  ],
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -71.0,
+                    -17.75
+                  ],
+                  [
+                    -70.6,
+                    -17.25
+                  ],
+                  [
+                    -70.0,
+                    -16.95
+                  ],
+                  [
+                    -69.8,
+                    -17.25
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ],
+                  [
+                    -69.1,
+                    -18.1
+                  ],
+                  [
+                    -69.2,
+                    -19.0
+                  ]
+                ],
+                "color": "amarillo",
+                "etiqueta": "TACNA Y ARICA",
+                "aparecerEn": "plebiscito"
+              }
+            ],
+            "contexto": {
+              "texto": "¿UN PLEBISCITO?",
+              "dice": "plebiscito"
+            },
+            "clave": [
+              "Ancón",
+              "Tarapacá",
+              "Tacna",
+              "Arica"
+            ]
+          },
+          {
+            "texto": "En mil ochocientos noventa y cinco aparece la primera salida. Un tratado de transferencia: si Chile se quedaba con Tacna y Arica, se los entregaría a Bolivia.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.0,
+                  -18.4
+                ],
+                "zoom": 7.4,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.2,
+                  -17.6
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "en": "transferencia",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.5,
+                "lat": -17.9,
+                "icono": "tratado",
+                "aparecerEn": "tratado"
+              },
+              {
+                "lon": -68.6,
+                "lat": -17.2,
+                "icono": "bandera",
+                "aparecerEn": "Bolivia"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1 DE 5",
+                "sub": "OFERTA · 1895",
+                "tipo": "cifra",
+                "aparecerEn": "salida",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "noventa",
+              "transferencia",
+              "Tacna",
+              "Arica"
+            ]
+          },
+          {
+            "texto": "Y si no, la caleta Vítor hasta la quebrada de Camarones, u otra parecida. Una salida al mar escrita y firmada, que nunca entró en vigor: faltó una aprobación que no llegó.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -19.0
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -19.0
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "en": "escrita",
+                "deriva": 0.1
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.34,
+                "lat": -18.76,
+                "texto": "CALETA VÍTOR",
+                "tipo": "pin",
+                "aparecerEn": "Vítor"
+              },
+              {
+                "lon": -70.27,
+                "lat": -19.19,
+                "texto": "QUEBRADA DE CAMARONES",
+                "tipo": "pin",
+                "aparecerEn": "Camarones"
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -70.34,
+                  -18.76
+                ],
+                "hasta": [
+                  -70.27,
+                  -19.19
+                ],
+                "texto": "LA OTRA COSTA",
+                "aparecerEn": "Camarones"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.9,
+                "lat": -19.0,
+                "icono": "tratado",
+                "aparecerEn": "vigor",
+                "tachado": true
+              }
+            ],
+            "contexto": {
+              "texto": "NUNCA ENTRÓ EN VIGOR",
+              "dice": "vigor"
+            },
+            "clave": [
+              "Vítor",
+              "Camarones",
+              "firmada",
+              "vigor"
+            ]
+          },
+          {
+            "texto": "Veinte años después, en Santiago, firman el Tratado de Paz y Amistad de mil novecientos cuatro. Bolivia reconoce como chilenos, para siempre, los territorios ocupados.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.65,
+                  -33.45
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.5,
+                  -23.0
+                ],
+                "zoom": 6.8,
+                "entrada": "zoom",
+                "en": "reconoce",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "texto": "SANTIAGO",
+                "tipo": "pin",
+                "aparecerEn": "Santiago"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.06,
+                    -21.43
+                  ],
+                  [
+                    -68.95,
+                    -21.3
+                  ],
+                  [
+                    -68.2,
+                    -21.6
+                  ],
+                  [
+                    -67.7,
+                    -22.4
+                  ],
+                  [
+                    -67.35,
+                    -23.2
+                  ],
+                  [
+                    -67.3,
+                    -24.0
+                  ],
+                  [
+                    -70.52,
+                    -24.0
+                  ],
+                  [
+                    -70.6,
+                    -23.4
+                  ],
+                  [
+                    -70.45,
+                    -22.9
+                  ],
+                  [
+                    -70.25,
+                    -22.3
+                  ]
+                ],
+                "color": "rojo",
+                "etiqueta": "CHILENO DESDE 1904",
+                "aparecerEn": "territorios"
+              }
+            ],
+            "fuente": {
+              "texto": "Tratado de Paz y Amistad · 1904",
+              "dice": "Tratado"
+            },
+            "tarjetas": [
+              {
+                "texto": "1904",
+                "sub": "TRATADO DE PAZ Y AMISTAD",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "cuatro",
+                "duracionSeg": 3.2,
+                "desde": "1884",
+                "hasta": "1904"
+              }
+            ],
+            "clave": [
+              "Santiago",
+              "Paz",
+              "cuatro",
+              "siempre"
+            ]
+          },
+          {
+            "texto": "A cambio, Chile se compromete a tres cosas: un ferrocarril de Arica a La Paz, a su costo; trescientas mil libras esterlinas; y, a perpetuidad, el más amplio y libre tránsito comercial por su territorio y sus puertos.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.2,
+                  -17.5
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.2,
+                  -17.5
+                ],
+                "zoom": 7.3,
+                "entrada": "corte",
+                "en": "trescientas",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.6,
+                  -18.4
+                ],
+                "zoom": 7.4,
+                "entrada": "paneo",
+                "en": "perpetuidad",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.2,
+                "lat": -17.6,
+                "icono": "tren",
+                "aparecerEn": "ferrocarril",
+                "ruta": [
+                  [
+                    -70.31,
+                    -18.48
+                  ],
+                  [
+                    -69.45,
+                    -17.59
+                  ],
+                  [
+                    -68.3,
+                    -16.65
+                  ]
+                ],
+                "duracionSeg": 3
+              },
+              {
+                "lon": -68.4,
+                "lat": -18.4,
+                "icono": "dinero",
+                "aparecerEn": "libras"
+              },
+              {
+                "lon": -70.9,
+                "lat": -18.5,
+                "icono": "barco",
+                "aparecerEn": "puertos"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              },
+              {
+                "lon": -68.13,
+                "lat": -16.5,
+                "texto": "LA PAZ",
+                "tipo": "pin",
+                "aparecerEn": "Paz"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "£300.000",
+                "sub": "EN EFECTIVO · ARTÍCULO IV",
+                "tipo": "cifra",
+                "aparecerEn": "trescientas",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "ferrocarril",
+              "trescientas",
+              "libras",
+              "tránsito"
+            ]
+          },
+          {
+            "texto": "El tren se inaugura en mil novecientos trece: unos cuatrocientos cuarenta kilómetros que suben del mar al altiplano, por encima de los cuatro mil metros. Quince años después, su tramo boliviano pasa a Bolivia.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.4,
+                  -17.6
+                ],
+                "zoom": 7.8,
+                "entrada": "paneo",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.4,
+                  -17.6
+                ],
+                "zoom": 8.2,
+                "entrada": "corte",
+                "en": "Quince",
+                "deriva": 0.2
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -70.31,
+                  -18.48
+                ],
+                "hasta": [
+                  -68.3,
+                  -16.65
+                ],
+                "texto": "440 KM",
+                "aparecerEn": "cuarenta"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.5,
+                "lat": -17.95,
+                "texto": "ALTIPLANO",
+                "tipo": "region",
+                "aparecerEn": "altiplano"
+              },
+              {
+                "lon": -69.45,
+                "lat": -17.59,
+                "texto": "CHARAÑA",
+                "tipo": "pin",
+                "aparecerEn": "boliviano"
+              }
+            ],
+            "foto": {
+              "buscar": "Ferrocarril Arica La Paz",
+              "archivo": "File:Puente del ferrocarril Arica-La Paz sobre el río Lluta.png",
+              "pie": "FERROCARRIL ARICA–LA PAZ · VALLE DE LLUTA",
+              "aparecerEn": "tren",
+              "duracionSeg": 3.0
+            },
+            "tarjetas": [
+              {
+                "texto": "4.257 M",
+                "sub": "GENERAL LAGOS · PUNTO MÁS ALTO",
+                "tipo": "cifra",
+                "aparecerEn": "cuatro",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "trece",
+              "cuarenta",
+              "altiplano",
+              "Quince"
+            ]
+          },
+          {
+            "texto": "Las dos lecturas no se han movido en un siglo. Para Chile, el tratado fijó la frontera para siempre y lo firmó Bolivia. Para Bolivia, se firmó con la costa ocupada.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.3,
+                  -21.0
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.3,
+                  -21.0
+                ],
+                "zoom": 6.8,
+                "entrada": "corte",
+                "en": "Bolivia#2",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.4,
+                "lat": -25.5,
+                "texto": "SEGÚN CHILE",
+                "tipo": "region",
+                "aparecerEn": "Chile"
+              },
+              {
+                "lon": -66.5,
+                "lat": -18.5,
+                "texto": "SEGÚN BOLIVIA",
+                "tipo": "region",
+                "aparecerEn": "Bolivia#2"
+              }
+            ],
+            "contexto": {
+              "texto": "DOS LECTURAS",
+              "dice": "lecturas"
+            },
+            "clave": [
+              "Chile",
+              "siempre",
+              "ocupada"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Pero quedaba un cabo suelto: Arica todavía no era chilena del todo. Y ese detalle pesaría en cada intento que vino después.",
+          "tramo": [
+            8,
+            8
+          ],
+          "planos": [
+            {
+              "centro": [
+                -69.8,
+                -19.0
+              ],
+              "zoom": 7.0,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -70.31,
+                -18.48
+              ],
+              "zoom": 8.8,
+              "entrada": "zoom",
+              "en": "Arica",
+              "deriva": 0.2
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -70.31,
+              "lat": -18.48,
+              "texto": "ARICA",
+              "tipo": "pin",
+              "aparecerEn": "Arica"
+            }
+          ],
+          "contexto": {
+            "texto": "UN CABO SUELTO",
+            "dice": "suelto"
+          },
+          "clave": [
+            "cabo",
+            "Arica",
+            "intento"
+          ]
+        }
+      },
+      {
+        "titulo": "El candado de Arica",
+        "bloques": [
+          {
+            "texto": "En mil novecientos veinte, en La Paz, un diplomático chileno deja por escrito que Chile está dispuesto a buscarle a Bolivia un acceso propio al mar, cediendo parte de la zona al norte de Arica.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -68.13,
+                  -16.5
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -18.1
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "en": "norte",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -68.13,
+                "lat": -16.5,
+                "texto": "LA PAZ",
+                "tipo": "pin",
+                "aparecerEn": "Paz"
+              },
+              {
+                "lon": -69.8,
+                "lat": -17.9,
+                "texto": "NORTE DE ARICA",
+                "tipo": "region",
+                "aparecerEn": "norte"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2 DE 5",
+                "sub": "OFERTA · 1920",
+                "tipo": "cifra",
+                "aparecerEn": "acceso",
+                "duracionSeg": 3.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -68.6,
+                "lat": -16.9,
+                "icono": "tratado",
+                "aparecerEn": "escrito"
+              }
+            ],
+            "clave": [
+              "veinte",
+              "Paz",
+              "acceso",
+              "Arica"
+            ]
+          },
+          {
+            "texto": "Un siglo después, la Corte de La Haya dirá que esa acta no creaba obligaciones. En mil novecientos veintiséis llega una idea más audaz, desde Washington.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.0,
+                  -18.1
+                ],
+                "zoom": 8.3,
+                "entrada": "corte",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -75.0,
+                  10.0
+                ],
+                "zoom": 3.6,
+                "entrada": "zoom",
+                "en": "Washington",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.04,
+                "lat": 38.9,
+                "texto": "WASHINGTON",
+                "tipo": "pin",
+                "aparecerEn": "Washington"
+              }
+            ],
+            "contexto": {
+              "texto": "SIN OBLIGACIONES",
+              "dice": "obligaciones"
+            },
+            "clave": [
+              "Corte",
+              "obligaciones",
+              "Washington"
+            ]
+          },
+          {
+            "texto": "El secretario de Estado de Estados Unidos, Frank Kellogg, propone que Chile y Perú le cedan Tacna y Arica a Bolivia. Bolivia acepta en dos días. Chile responde que lo estudiará. Perú dice que no.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.0,
+                  10.0
+                ],
+                "zoom": 3.8,
+                "entrada": "corte",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -18.0
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "en": "Tacna",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Frank B. Kellogg",
+              "archivo": "File:Frank Billings Kellogg, half-length portrait, facing front LCCN90709247.jpg",
+              "pie": "Frank B. Kellogg, secretario de Estado de EE. UU.",
+              "aparecerEn": "Kellogg",
+              "lado": "izquierda",
+              "forma": "marco",
+              "duracionSeg": 4.0,
+              "anio": "1926"
+            },
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ],
+                  [
+                    -69.1,
+                    -18.1
+                  ],
+                  [
+                    -69.2,
+                    -19.0
+                  ],
+                  [
+                    -70.27,
+                    -19.19
+                  ],
+                  [
+                    -70.33,
+                    -18.8
+                  ]
+                ],
+                "color": "violeta",
+                "etiqueta": "ARICA",
+                "aparecerEn": "Arica"
+              },
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -71.0,
+                    -17.75
+                  ],
+                  [
+                    -70.6,
+                    -17.25
+                  ],
+                  [
+                    -70.0,
+                    -16.95
+                  ],
+                  [
+                    -69.8,
+                    -17.25
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ]
+                ],
+                "color": "violeta",
+                "etiqueta": "TACNA",
+                "aparecerEn": "Tacna"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -71.2,
+                "lat": -17.8,
+                "icono": "bandera",
+                "aparecerEn": "acepta"
+              },
+              {
+                "lon": -71.0,
+                "lat": -16.8,
+                "icono": "tratado",
+                "aparecerEn": "Perú#2",
+                "tachado": true
+              }
+            ],
+            "clave": [
+              "Kellogg",
+              "Tacna",
+              "Arica",
+              "dos"
+            ],
+            "tarjetas": [
+              {
+                "texto": "3 DE 5",
+                "sub": "OFERTA · 1926",
+                "tipo": "cifra",
+                "aparecerEn": "cedan",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "En mil novecientos veintinueve, Chile y Perú arreglan su disputa sin plebiscito. Por el Tratado de Lima, Tacna vuelve a Perú y Arica queda en Chile, separadas por la Línea de la Concordia.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.04,
+                  -12.05
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -18.0
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "en": "Tacna",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.375,
+                  -18.35
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "en": "Concordia",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.04,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Lima"
+              },
+              {
+                "lon": -70.375,
+                "lat": -18.35,
+                "texto": "LÍNEA DE LA CONCORDIA",
+                "tipo": "pin",
+                "aparecerEn": "Concordia"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -71.0,
+                    -17.75
+                  ],
+                  [
+                    -70.6,
+                    -17.25
+                  ],
+                  [
+                    -70.0,
+                    -16.95
+                  ],
+                  [
+                    -69.8,
+                    -17.25
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ]
+                ],
+                "color": "verde",
+                "etiqueta": "TACNA → PERÚ",
+                "aparecerEn": "vuelve"
+              },
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ],
+                  [
+                    -69.1,
+                    -18.1
+                  ],
+                  [
+                    -69.2,
+                    -19.0
+                  ],
+                  [
+                    -70.27,
+                    -19.19
+                  ],
+                  [
+                    -70.33,
+                    -18.8
+                  ]
+                ],
+                "color": "rojo",
+                "etiqueta": "ARICA → CHILE",
+                "aparecerEn": "queda"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1929",
+                "sub": "TRATADO DE LIMA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "veintinueve",
+                "duracionSeg": 3.2,
+                "desde": "1904",
+                "hasta": "1929"
+              }
+            ],
+            "clave": [
+              "Lima",
+              "Tacna",
+              "Arica",
+              "Concordia"
+            ]
+          },
+          {
+            "texto": "Junto al tratado va un protocolo complementario. Su primer artículo: ninguno de los dos podrá ceder esos territorios a una tercera potencia sin acuerdo previo del otro.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.0,
+                  -18.0
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -18.0
+                ],
+                "zoom": 8.4,
+                "entrada": "corte",
+                "en": "tercera",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.4,
+                "lat": -18.4,
+                "icono": "🔒",
+                "aparecerEn": "protocolo"
+              },
+              {
+                "lon": -68.7,
+                "lat": -17.4,
+                "icono": "bandera",
+                "aparecerEn": "tercera"
+              }
+            ],
+            "fuente": {
+              "texto": "Protocolo Complementario · Lima, 1929",
+              "dice": "artículo"
+            },
+            "contexto": {
+              "texto": "PROTOCOLO DE 1929",
+              "dice": "protocolo"
+            },
+            "clave": [
+              "protocolo",
+              "tercera",
+              "previo"
+            ]
+          },
+          {
+            "texto": "Traducido al mapa: cualquier salida de Bolivia por Arica necesita el sí de Chile y también el de Perú. Un candado con dos llaves.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.9,
+                  -18.1
+                ],
+                "zoom": 8.5,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.9,
+                  -18.1
+                ],
+                "zoom": 5.6,
+                "entrada": "corte",
+                "en": "candado",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ],
+                  [
+                    -69.1,
+                    -18.1
+                  ],
+                  [
+                    -69.2,
+                    -19.0
+                  ],
+                  [
+                    -70.27,
+                    -19.19
+                  ],
+                  [
+                    -70.33,
+                    -18.8
+                  ]
+                ],
+                "color": "amarillo",
+                "etiqueta": "ARICA",
+                "aparecerEn": "Arica"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.8,
+                "lat": -18.6,
+                "icono": "🔒",
+                "aparecerEn": "candado",
+                "escala": 1.4
+              },
+              {
+                "lon": -70.9,
+                "lat": -18.9,
+                "icono": "🔑",
+                "aparecerEn": "llaves"
+              },
+              {
+                "lon": -71.1,
+                "lat": -17.4,
+                "icono": "🔑",
+                "aparecerEn": "llaves"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.4,
+                "lat": -20.3,
+                "texto": "CHILE",
+                "tipo": "pais",
+                "aparecerEn": "Chile"
+              },
+              {
+                "lon": -70.9,
+                "lat": -17.0,
+                "texto": "PERÚ",
+                "tipo": "pais",
+                "aparecerEn": "Perú"
+              }
+            ],
+            "contexto": {
+              "texto": "DOS LLAVES",
+              "dice": "llaves"
+            },
+            "clave": [
+              "Arica",
+              "Chile",
+              "Perú",
+              "candado"
+            ]
+          },
+          {
+            "texto": "Bolivia responde ese año con un memorando: no renuncia a recuperar su salida al mar. En mil novecientos cincuenta lo intenta otra vez, con un intercambio de notas.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -68.4,
+                  -17.3
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -68.13,
+                  -16.5
+                ],
+                "zoom": 6.9,
+                "entrada": "zoom",
+                "en": "cincuenta",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -68.6,
+                "lat": -17.0,
+                "icono": "tratado",
+                "aparecerEn": "notas",
+                "ruta": [
+                  [
+                    -68.13,
+                    -16.5
+                  ],
+                  [
+                    -70.65,
+                    -33.45
+                  ]
+                ],
+                "duracionSeg": 2.5
+              }
+            ],
+            "clave": [
+              "memorando",
+              "renuncia",
+              "cincuenta"
+            ]
+          },
+          {
+            "texto": "Bolivia propone negociar una salida propia y soberana al Pacífico. Chile se dice dispuesto, a cambio de compensaciones no territoriales. No pasa de las notas.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.0,
+                  -22.0
+                ],
+                "zoom": 5.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.0,
+                  -22.0
+                ],
+                "zoom": 6.1,
+                "entrada": "corte",
+                "en": "Chile",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -72.5,
+                "lat": -19.5,
+                "texto": "OCÉANO PACÍFICO",
+                "tipo": "mar",
+                "aparecerEn": "Pacífico"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.4,
+                "lat": -28.0,
+                "icono": "tratado",
+                "aparecerEn": "dispuesto",
+                "ruta": [
+                  [
+                    -70.65,
+                    -33.45
+                  ],
+                  [
+                    -68.13,
+                    -16.5
+                  ]
+                ],
+                "duracionSeg": 2.5
+              }
+            ],
+            "contexto": {
+              "texto": "SOLO NOTAS",
+              "dice": "notas"
+            },
+            "clave": [
+              "soberana",
+              "Pacífico",
+              "compensaciones",
+              "notas"
+            ],
+            "tarjetas": [
+              {
+                "texto": "4 DE 5",
+                "sub": "OFERTA · 1950",
+                "tipo": "cifra",
+                "aparecerEn": "dispuesto",
+                "duracionSeg": 3.2
+              }
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Veinticinco años más tarde, dos generales se abrazan en una estación de tren del altiplano. Y esta vez el corredor llega a tener límites.",
+          "tramo": [
+            8,
+            8
+          ],
+          "planos": [
+            {
+              "centro": [
+                -69.4,
+                -18.5
+              ],
+              "zoom": 6.8,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -69.45,
+                -17.59
+              ],
+              "zoom": 9.0,
+              "entrada": "zoom",
+              "en": "estación",
+              "deriva": 0.2
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -69.45,
+              "lat": -17.59,
+              "texto": "CHARAÑA",
+              "tipo": "pin",
+              "aparecerEn": "estación"
+            }
+          ],
+          "contexto": {
+            "texto": "UN ABRAZO",
+            "dice": "abrazan"
+          },
+          "clave": [
+            "abrazan",
+            "estación",
+            "corredor"
+          ]
+        }
+      },
+      {
+        "titulo": "El corredor de Charaña",
+        "bloques": [
+          {
+            "texto": "Charaña es una estación boliviana del tren de Arica a La Paz, a pasos de Chile. El ocho de febrero de mil novecientos setenta y cinco, ahí se reúnen los gobernantes de los dos países.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.45,
+                  -17.59
+                ],
+                "zoom": 9.4,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.45,
+                  -17.59
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "en": "ocho",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.45,
+                "lat": -17.59,
+                "texto": "CHARAÑA",
+                "tipo": "pin",
+                "aparecerEn": "Charaña"
+              },
+              {
+                "lon": -69.5,
+                "lat": -17.650000000000002,
+                "texto": "VISVIRI (CHILE)",
+                "tipo": "pin",
+                "aparecerEn": "Chile"
+              }
+            ],
+            "foto": {
+              "buscar": "Visviri train line",
+              "archivo": "File:Línea del Tren Visviri.jpg",
+              "pie": "LA VÍA DEL TREN EN VISVIRI · JUNTO A CHARAÑA",
+              "aparecerEn": "tren",
+              "duracionSeg": 3.0
+            },
+            "tarjetas": [
+              {
+                "texto": "8-2-1975",
+                "sub": "EL ABRAZO DE CHARAÑA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "ocho",
+                "duracionSeg": 3.2,
+                "desde": "1904",
+                "hasta": "1975"
+              }
+            ],
+            "clave": [
+              "Charaña",
+              "tren",
+              "ocho",
+              "febrero"
+            ]
+          },
+          {
+            "texto": "No tenían embajadores desde mil novecientos sesenta y dos. En Charaña acuerdan reponerlos y buscar una salida al encierro de Bolivia.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.45,
+                  -17.59
+                ],
+                "zoom": 10.8,
+                "entrada": "corte",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -69.45,
+                  -17.59
+                ],
+                "zoom": 7.4,
+                "entrada": "corte",
+                "en": "Charaña",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "13 AÑOS",
+                "sub": "SIN EMBAJADORES (1962–1975)",
+                "tipo": "cifra",
+                "aparecerEn": "sesenta",
+                "duracionSeg": 3.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -68.9,
+                "lat": -17.2,
+                "icono": "bandera",
+                "aparecerEn": "reponerlos"
+              }
+            ],
+            "contexto": {
+              "texto": "VUELVEN LOS EMBAJADORES",
+              "dice": "reponerlos"
+            },
+            "clave": [
+              "embajadores",
+              "sesenta",
+              "encierro"
+            ]
+          },
+          {
+            "texto": "En diciembre llega la propuesta chilena: una franja pegada a la frontera con Perú, desde Bolivia hasta el mar, al norte de Arica. Con su mar territorial.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.9,
+                  -18.0
+                ],
+                "zoom": 7.7,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.95,
+                  -18.0
+                ],
+                "zoom": 8.6,
+                "entrada": "corte",
+                "en": "franja",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -69.95,
+                    -17.95
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ],
+                  [
+                    -69.43,
+                    -17.62
+                  ],
+                  [
+                    -69.9,
+                    -18.08
+                  ],
+                  [
+                    -70.33,
+                    -18.44
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "rayas",
+                "etiqueta": "EL CORREDOR",
+                "aparecerEn": "franja",
+                "quedarse": 3
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.2,
+                "lat": -17.6,
+                "texto": "PERÚ",
+                "tipo": "pais",
+                "aparecerEn": "Perú"
+              },
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              },
+              {
+                "lon": -71.1,
+                "lat": -18.3,
+                "texto": "MAR TERRITORIAL",
+                "tipo": "mar",
+                "aparecerEn": "territorial"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "5 DE 5",
+                "sub": "OFERTA · 1975",
+                "tipo": "cifra",
+                "aparecerEn": "franja",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "franja",
+              "Perú",
+              "Arica",
+              "mar"
+            ]
+          },
+          {
+            "texto": "Con una condición: un canje. Bolivia entregaría a cambio una superficie por lo menos equivalente a la tierra y el mar que recibía. En Bolivia, eso fue criticado.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.95,
+                  -18.0
+                ],
+                "zoom": 8.8,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.95,
+                  -18.0
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "en": "Bolivia",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.3,
+                "lat": -18.6,
+                "icono": "🔁",
+                "aparecerEn": "canje",
+                "escala": 1.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -68.9,
+                    -19.2
+                  ],
+                  [
+                    -68.5,
+                    -19.4
+                  ],
+                  [
+                    -68.6,
+                    -19.9
+                  ],
+                  [
+                    -69.0,
+                    -19.7
+                  ]
+                ],
+                "color": "violeta",
+                "etiqueta": "¿A CAMBIO?",
+                "aparecerEn": "cambio"
+              }
+            ],
+            "contexto": {
+              "texto": "UN CANJE",
+              "dice": "canje"
+            },
+            "clave": [
+              "canje",
+              "equivalente",
+              "criticado"
+            ]
+          },
+          {
+            "texto": "Y aquí entra el candado. Como esa tierra había sido peruana, el diecinueve de diciembre Chile le pregunta a Perú si está de acuerdo.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.95,
+                  -18.0
+                ],
+                "zoom": 7.9,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.8,
+                  -15.5
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "en": "pregunta",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.8,
+                "lat": -18.3,
+                "icono": "🔒",
+                "aparecerEn": "candado",
+                "escala": 1.3
+              },
+              {
+                "lon": -71.0,
+                "lat": -16.0,
+                "icono": "tratado",
+                "aparecerEn": "pregunta",
+                "ruta": [
+                  [
+                    -70.65,
+                    -33.45
+                  ],
+                  [
+                    -77.04,
+                    -12.05
+                  ]
+                ],
+                "duracionSeg": 2.5
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.04,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Perú#2"
+              }
+            ],
+            "contexto": {
+              "texto": "EL CANDADO DE 1929",
+              "dice": "candado"
+            },
+            "clave": [
+              "candado",
+              "peruana",
+              "diecinueve"
+            ]
+          },
+          {
+            "texto": "Perú contesta en noviembre de mil novecientos setenta y seis. Acepta un corredor, pero con una condición propia: que la franja junto al mar quede bajo soberanía compartida de los tres países.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.8,
+                  -15.5
+                ],
+                "zoom": 6.7,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.35
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "en": "franja",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -70.2,
+                    -18.2
+                  ],
+                  [
+                    -70.1,
+                    -18.3
+                  ],
+                  [
+                    -70.32,
+                    -18.47
+                  ]
+                ],
+                "color": "azul",
+                "etiqueta": "SOBERANÍA DE TRES",
+                "aparecerEn": "compartida"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "3 PAÍSES",
+                "sub": "PROPUESTA DE PERÚ · NOV. 1976",
+                "tipo": "cifra",
+                "aparecerEn": "propia",
+                "duracionSeg": 3.2,
+                "pictos": {
+                  "icono": "bandera",
+                  "n": 3
+                }
+              }
+            ],
+            "contexto": {
+              "texto": "LA CONTRAPROPUESTA",
+              "dice": "condición"
+            },
+            "clave": [
+              "noviembre",
+              "corredor",
+              "compartida",
+              "tres"
+            ]
+          },
+          {
+            "texto": "Ni Chile ni Bolivia la aceptan. En Perú, además, se discutía otro punto: el nuevo mar boliviano quedaría pegado al suyo.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -18.35
+                ],
+                "zoom": 9.5,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.6,
+                  -18.4
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "en": "mar",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.0,
+                "lat": -18.1,
+                "icono": "tratado",
+                "aparecerEn": "aceptan",
+                "tachado": true
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.4,
+                "lat": -20.0,
+                "texto": "EL DEBATE EN PERÚ",
+                "tipo": "region",
+                "aparecerEn": "Perú"
+              }
+            ],
+            "clave": [
+              "Chile",
+              "Bolivia",
+              "Perú",
+              "mar"
+            ]
+          },
+          {
+            "texto": "El diecisiete de marzo de mil novecientos setenta y ocho, Bolivia vuelve a romper relaciones. El corredor que llegó a tener límites se frenó en un protocolo de mil novecientos veintinueve.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.6,
+                  -18.4
+                ],
+                "zoom": 8.5,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.95,
+                  -18.0
+                ],
+                "zoom": 7.8,
+                "entrada": "zoom",
+                "en": "corredor",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1978",
+                "sub": "BOLIVIA ROMPE RELACIONES",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "diecisiete",
+                "duracionSeg": 3.2,
+                "desde": "1975",
+                "hasta": "1978"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.375,
+                    -18.35
+                  ],
+                  [
+                    -69.95,
+                    -17.95
+                  ],
+                  [
+                    -69.47,
+                    -17.5
+                  ],
+                  [
+                    -69.43,
+                    -17.62
+                  ],
+                  [
+                    -69.9,
+                    -18.08
+                  ],
+                  [
+                    -70.33,
+                    -18.44
+                  ]
+                ],
+                "color": "amarillo",
+                "etiqueta": "EL CORREDOR",
+                "aparecerEn": "corredor"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.4,
+                "lat": -18.4,
+                "icono": "bandera",
+                "aparecerEn": "romper",
+                "tachado": true
+              }
+            ],
+            "clave": [
+              "diecisiete",
+              "romper",
+              "protocolo"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Hubo un último intento en Montevideo, en mil novecientos ochenta y siete, y Chile lo rechazó. Así que Bolivia cambió de táctica: dejó la mesa y se fue a un tribunal.",
+          "tramo": [
+            8,
+            8
+          ],
+          "planos": [
+            {
+              "centro": [
+                -62.0,
+                -26.0
+              ],
+              "zoom": 4.6,
+              "entrada": "zoom",
+              "deriva": 0.1
+            },
+            {
+              "centro": [
+                -56.16,
+                -34.9
+              ],
+              "zoom": 7.2,
+              "entrada": "zoom",
+              "en": "Montevideo",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -45.0,
+                5.0
+              ],
+              "zoom": 3.2,
+              "entrada": "zoom",
+              "en": "táctica",
+              "deriva": 0.1
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -56.16,
+              "lat": -34.9,
+              "texto": "MONTEVIDEO",
+              "tipo": "pin",
+              "aparecerEn": "Montevideo"
+            }
+          ],
+          "iconos": [
+            {
+              "lon": -57.0,
+              "lat": -33.8,
+              "icono": "tribunal",
+              "aparecerEn": "tribunal"
+            }
+          ],
+          "contexto": {
+            "texto": "A UN TRIBUNAL",
+            "dice": "tribunal"
+          },
+          "clave": [
+            "Montevideo",
+            "ochenta",
+            "tribunal"
+          ]
+        }
+      },
+      {
+        "titulo": "La Haya y lo que queda",
+        "bloques": [
+          {
+            "texto": "El veinticuatro de abril de dos mil trece, Bolivia demanda a Chile ante la Corte Internacional de Justicia, en La Haya. No pide la costa: pide que obliguen a Chile a negociar una salida soberana.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -20.0,
+                  20.0
+                ],
+                "zoom": 2.6,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "en": "Haya",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 4.3,
+                "lat": 52.08,
+                "texto": "LA HAYA",
+                "tipo": "pin",
+                "aparecerEn": "Haya"
+              }
+            ],
+            "polaroid": {
+              "buscar": "Peace Palace The Hague",
+              "archivo": "File:Peace Palace The Hague.jpg",
+              "pie": "Palacio de la Paz, La Haya (sede de la CIJ)",
+              "aparecerEn": "Corte",
+              "lado": "derecha",
+              "forma": "marco",
+              "duracionSeg": 4.0,
+              "anio": "2013"
+            },
+            "contexto": {
+              "texto": "NO PIDE LA COSTA",
+              "dice": "costa"
+            },
+            "clave": [
+              "veinticuatro",
+              "Corte",
+              "Haya",
+              "negociar"
+            ]
+          },
+          {
+            "texto": "Según Bolivia, un siglo de actas, notas y promesas había creado una obligación. Según Chile, el tratado de mil novecientos cuatro lo resolvió todo, y conversar no es comprometerse.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 8.2,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 9.0,
+                "entrada": "corte",
+                "en": "Chile",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": 4.0,
+                "lat": 52.23,
+                "texto": "SEGÚN BOLIVIA",
+                "tipo": "region",
+                "aparecerEn": "Bolivia"
+              },
+              {
+                "lon": 4.6,
+                "lat": 51.93,
+                "texto": "SEGÚN CHILE",
+                "tipo": "region",
+                "aparecerEn": "Chile"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": 4.5,
+                "lat": 52.18,
+                "icono": "tratado",
+                "aparecerEn": "notas"
+              }
+            ],
+            "contexto": {
+              "texto": "DOS VERSIONES",
+              "dice": "Según"
+            },
+            "clave": [
+              "obligación",
+              "cuatro",
+              "comprometerse"
+            ]
+          },
+          {
+            "texto": "En dos mil quince, la Corte se declara competente. El primero de octubre de dos mil dieciocho falla: por doce votos contra tres, Chile no está obligado a negociar.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 9.3,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 9.6,
+                "entrada": "corte",
+                "en": "doce",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": 4.3,
+                "lat": 52.0,
+                "icono": "tribunal",
+                "aparecerEn": "Corte",
+                "escala": 1.3
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "12 A 3",
+                "sub": "FALLO DEL 1-10-2018",
+                "tipo": "barras",
+                "aparecerEn": "doce",
+                "duracionSeg": 3.2,
+                "barras": [
+                  {
+                    "etiqueta": "A FAVOR",
+                    "valor": 12
+                  },
+                  {
+                    "etiqueta": "EN CONTRA",
+                    "valor": 3
+                  }
+                ]
+              }
+            ],
+            "fuente": {
+              "texto": "Corte Internacional de Justicia · 2018",
+              "dice": "falla"
+            },
+            "clave": [
+              "quince",
+              "doce",
+              "tres",
+              "obligado"
+            ]
+          },
+          {
+            "texto": "Pero el fallo trae una frase más: eso no impide que los dos países sigan dialogando, y con voluntad se pueden hacer negociaciones con sentido.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 9.9,
+                "entrada": "corte",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  4.3,
+                  52.08
+                ],
+                "zoom": 6.4,
+                "entrada": "corte",
+                "en": "voluntad",
+                "deriva": 0.2
+              }
+            ],
+            "contexto": {
+              "texto": "PÁRRAFO 176",
+              "dice": "frase"
+            },
+            "iconos": [
+              {
+                "lon": 4.8,
+                "lat": 52.08,
+                "icono": "💬",
+                "aparecerEn": "dialogando"
+              }
+            ],
+            "clave": [
+              "frase",
+              "dialogando",
+              "voluntad"
+            ]
+          },
+          {
+            "texto": "¿Y qué tiene Bolivia hoy junto al mar? El tránsito libre del tratado: su carga sale sobre todo por Arica, con una agencia boliviana en el puerto. Solo por Arica pasó más de un millón de toneladas en dos mil veinticuatro.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -30.0,
+                  -10.0
+                ],
+                "zoom": 2.6,
+                "entrada": "zoom",
+                "deriva": 0.1
+              },
+              {
+                "centro": [
+                  -69.6,
+                  -20.8
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "en": "tránsito",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.31,
+                  -18.48
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "en": "Solo",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.9,
+                "lat": -18.6,
+                "icono": "🚢",
+                "aparecerEn": "carga"
+              },
+              {
+                "lon": -69.0,
+                "lat": -17.6,
+                "icono": "🚚",
+                "aparecerEn": "sale",
+                "ruta": [
+                  [
+                    -70.31,
+                    -18.48
+                  ],
+                  [
+                    -68.13,
+                    -16.5
+                  ]
+                ],
+                "duracionSeg": 3
+              }
+            ],
+            "foto": {
+              "buscar": "Morro de Arica",
+              "archivo": "File:Morro de Arica desde la playa.JPG",
+              "pie": "MORRO DE ARICA · PUERTO DE LA CARGA BOLIVIANA",
+              "aparecerEn": "puerto",
+              "duracionSeg": 3.0
+            },
+            "tarjetas": [
+              {
+                "texto": "1,2 MILLONES",
+                "sub": "TONELADAS POR ARICA · ASP-B 2024",
+                "tipo": "cifra",
+                "aparecerEn": "millón",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "tránsito",
+              "Arica",
+              "millón"
+            ]
+          },
+          {
+            "texto": "Una playa en Perú, Bolivia Mar, al sur de Ilo: cinco kilómetros de costa cedidos en mil novecientos noventa y dos por noventa y nueve años, sin soberanía. Casi no se usa.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.9,
+                  -18.1
+                ],
+                "zoom": 9.2,
+                "entrada": "paneo",
+                "deriva": 0.3
+              },
+              {
+                "centro": [
+                  -71.27,
+                  -17.79
+                ],
+                "zoom": 10.0,
+                "entrada": "zoom",
+                "en": "cinco",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -71.34,
+                "lat": -17.64,
+                "texto": "ILO (PERÚ)",
+                "tipo": "pin",
+                "aparecerEn": "Ilo"
+              },
+              {
+                "lon": -71.27,
+                "lat": -17.79,
+                "texto": "BOLIVIA MAR",
+                "tipo": "pin",
+                "aparecerEn": "Mar"
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -71.25,
+                  -17.77
+                ],
+                "hasta": [
+                  -71.28999999999999,
+                  -17.81
+                ],
+                "texto": "5 KM",
+                "aparecerEn": "kilómetros"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "99 AÑOS",
+                "sub": "CONVENIOS DE ILO · 1992",
+                "tipo": "cifra",
+                "aparecerEn": "noventa#2",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "SIN SOBERANÍA",
+              "dice": "soberanía"
+            },
+            "clave": [
+              "Ilo",
+              "cinco",
+              "noventa",
+              "soberanía"
+            ]
+          },
+          {
+            "texto": "Y una Armada: miles de marinos en el lago Titicaca y los ríos de la Amazonía. Cada veintitrés de marzo, en el Día del Mar, el país recuerda la costa.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.2,
+                  -16.0
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -68.85,
+                  -16.22
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "en": "Titicaca",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.4,
+                "lat": -15.8,
+                "texto": "LAGO TITICACA",
+                "tipo": "mar",
+                "aparecerEn": "lago"
+              },
+              {
+                "lon": -68.85,
+                "lat": -16.22,
+                "texto": "TIQUINA",
+                "tipo": "pin",
+                "aparecerEn": "Titicaca"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.1,
+                "lat": -15.95,
+                "icono": "barco",
+                "aparecerEn": "ríos"
+              }
+            ],
+            "foto": {
+              "buscar": "Estrecho de Tiquina lago Titicaca",
+              "archivo": "File:Estrecho de Tiquina - Lago Titicaca - Bolivia.jpg",
+              "pie": "ESTRECHO DE TIQUINA · LAGO TITICACA",
+              "aparecerEn": "efectivos",
+              "duracionSeg": 3.0
+            },
+            "tarjetas": [
+              {
+                "texto": "ARMADA BOLIVIANA",
+                "sub": "LAGO TITICACA Y RÍOS",
+                "tipo": "cifra",
+                "aparecerEn": "Armada",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "Armada",
+              "Titicaca",
+              "veintitrés",
+              "Mar"
+            ]
+          },
+          {
+            "texto": "En octubre de dos mil veintiséis, el presidente de Chile viaja a La Paz. Acuerdan avanzar hacia reponer embajadores, ausentes desde mil novecientos setenta y ocho.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -68.85,
+                  -16.22
+                ],
+                "zoom": 6.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -68.13,
+                  -16.5
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "en": "Paz",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -68.13,
+                "lat": -16.5,
+                "texto": "LA PAZ",
+                "tipo": "pin",
+                "aparecerEn": "Paz"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.6,
+                "lat": -21.0,
+                "icono": "✈️",
+                "aparecerEn": "viaja",
+                "ruta": [
+                  [
+                    -70.65,
+                    -33.45
+                  ],
+                  [
+                    -68.13,
+                    -16.5
+                  ]
+                ],
+                "duracionSeg": 3
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "OCT. 2026",
+                "sub": "VISITA OFICIAL A LA PAZ",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "octubre",
+                "duracionSeg": 3.2,
+                "desde": "1978",
+                "hasta": "2026"
+              }
+            ],
+            "clave": [
+              "octubre",
+              "Paz",
+              "embajadores",
+              "setenta"
+            ]
+          },
+          {
+            "texto": "Bolivia repite que el mar es un objetivo permanente e irrenunciable, como manda su Constitución. Chile reafirma el libre tránsito de los tratados vigentes.",
+            "tramo": [
+              8,
+              8
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -68.13,
+                  -16.5
+                ],
+                "zoom": 9.0,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -69.3,
+                  -20.0
+                ],
+                "zoom": 6.0,
+                "entrada": "corte",
+                "en": "Chile",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -66.5,
+                "lat": -17.0,
+                "texto": "SEGÚN BOLIVIA",
+                "tipo": "region",
+                "aparecerEn": "Bolivia"
+              },
+              {
+                "lon": -70.0,
+                "lat": -23.5,
+                "texto": "SEGÚN CHILE",
+                "tipo": "region",
+                "aparecerEn": "Chile"
+              }
+            ],
+            "contexto": {
+              "texto": "LAS DOS VERSIONES, HOY",
+              "dice": "repite"
+            },
+            "clave": [
+              "irrenunciable",
+              "Constitución",
+              "tránsito"
+            ]
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "Perdió la costa en una guerra. Lleva ciento cuarenta y siete años buscándola en una mesa.",
+      "planos": [
+        {
+          "centro": [
+            -69.3,
+            -20.5
+          ],
+          "zoom": 6.2,
+          "entrada": "zoom",
+          "deriva": -0.2
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.9,
+          "lat": -22.8,
+          "texto": "LA COSTA DE 1879"
+        },
+        {
+          "lon": -66.5,
+          "lat": -17.0,
+          "texto": "147 AÑOS DE MESA"
+        }
+      ],
+      "serie": "El mar de Bolivia",
+      "pie": "La próxima: Tacna y Arica, el plebiscito que nunca se votó",
+      "segundosFinales": 14
+    },
+    "fuentes": [
+      {
+        "texto": "CIJ: Obligación de negociar un acceso al océano Pacífico (Bolivia c. Chile), resumen de la sentencia del 1-10-2018",
+        "url": "https://www.icj-cij.org/node/105706"
+      },
+      {
+        "texto": "CIJ: ficha del caso 153 (demanda del 24-4-2013, excepción preliminar 2015, sentencia 2018)",
+        "url": "https://www.icj-cij.org/case/153"
+      },
+      {
+        "texto": "Tratado de Paz y Amistad entre Chile y Bolivia (1904), texto completo (BCN vía Cooperativa)",
+        "url": "https://cooperativa.cl/noticias/pais/relaciones-exteriores/bolivia/texto-completo-del-tratado-de-paz-y-amistad-de-1/2004-10-20/100031.html"
+      },
+      {
+        "texto": "Tratado de Lima y Protocolo Complementario (1929), Congreso del Perú",
+        "url": "https://www.congreso.gob.pe/Docs/comisiones2008/sub-comision-seguimiento-demanda-an/files/tratadodelimayprotocolocomplementario1929.pdf"
+      },
+      {
+        "texto": "Wikipedia (es): Acuerdo de Charaña",
+        "url": "https://es.wikipedia.org/wiki/Acuerdo_de_Chara%C3%B1a"
+      },
+      {
+        "texto": "Wikipedia (es): Guerra del Pacífico (impuesto de 1878, ocupación de Antofagasta, Calama)",
+        "url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico"
+      },
+      {
+        "texto": "Wikipedia (es): Ferrocarril Arica-La Paz",
+        "url": "https://es.wikipedia.org/wiki/Ferrocarril_Arica-La_Paz"
+      },
+      {
+        "texto": "Infobae/EFE (17-10-2026): visita del presidente de Chile a La Paz",
+        "url": "https://www.infobae.com/america/agencias/2026/10/17/bolivia-y-chile-hablan-de-un-futuro-conjunto-en-historica-visita-de-kast-a-la-paz/"
+      },
+      {
+        "texto": "ASP-B: carga boliviana por puerto, 2024",
+        "url": "https://aspb.gob.bo/wp-content/uploads/2025/07/Presentacion-RPDC-Final-2024-.pdf"
+      },
+      {
+        "texto": "Constitución de Bolivia (2009), art. 267",
+        "url": "https://www.constituteproject.org/constitution/Bolivia_2009"
+      }
+    ]
+  }
+}
