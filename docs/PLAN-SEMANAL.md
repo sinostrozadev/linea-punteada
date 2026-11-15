@@ -94,7 +94,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
 | 11-21 | 18:00 | short frontera | ¿Por qué tres países son dueños del mismo mar a la vez? | guion | contenido/backlog/frontera-por-que-tres-paises-son-duenos-del-mismo.json |
 | 11-22 | 12:00 | short frontera | Un español llegó primero a Brasil. ¿Por qué Brasil habla portugués? | guion | contenido/backlog/frontera-un-espanol-llego-primero-a-brasil.json |
 | 11-22 | 18:00 | short frontera | (vacío) | idea | — |
-| 11-22 | 19:00 | largo largo | 30.000 km de carretera y le faltan 100. ¿Por qué? (Panamericana / Tapón del Darién) | guion | contenido/borradores/largo-panamericana-darien.json |
+| 11-22 | 19:00 | largo largo | A Bolivia le ofrecieron el mar 5 veces. ¿Qué falló? (El mar de Bolivia) | **programado** `OA5sbBsUMHU` (private, publishAt 2026-11-22T19:00-03:00; sin carátula GPT: pendiente) | contenido/borradores/largo-bolivia-mar.json |
 
 ## Plan (JSON)
 
