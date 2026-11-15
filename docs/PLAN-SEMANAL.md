@@ -1,5 +1,7 @@
 # Línea Punteada — Plan semanal (rodante)
 
+> **2026-11-15 (agente de producción):** semana 16→22 producida y programada; ids verificados en YouTube/Studio según la tabla JSON. Revisor independiente aplicado a cada guion (veredictos en `salida/revisiones/guiones/`).
+
 > Actualizado **2026-11-07 09:00** (America/Santiago) por Claude. Método: skill global `plan-semanal`.
 > Regla: siempre hay plan de la semana en curso **y** de la siguiente. Cuando a la semana en curso le quedan < 3 ranuras
 > futuras con guion, o termina, se hace el ritual de cierre y se arma la que viene. `scripts/estado.mts` avisa.
@@ -103,7 +105,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
   "version": 1,
   "canal": "linea-punteada",
   "zona": "America/Santiago",
-  "actualizado": "2026-11-13T04:00:00-03:00",
+  "actualizado": "2026-11-15T08:20:44.559Z",
   "semanas": [
     {
       "inicio": "2026-11-02",
@@ -187,19 +189,19 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "bloqueo": null
     },
     {
-      "fecha": "2026-11-08",
+      "fecha": "2026-11-07",
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "La guerra por un petróleo que no estaba",
-      "tipo": "evergreen",
-      "serie": null,
+      "tema": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
+      "tipo": "serie",
+      "serie": "La línea que falta",
       "contingencia": null,
       "estado": "programado",
-      "guion": "contenido/guiones/2026-11-07-frontera-la-guerra-por-un-petroleo-que-no-estaba.json",
-      "videoId": "-c96F_ywLkM",
-      "referente": "Ñerd (guerras y límites)",
-      "porQue": "audiencia BO/PY, línea de 1938 dibujable (idea 15); adelantado del 11-13 porque ruta sigue sin revisión v2",
+      "guion": "contenido/guiones/2026-11-06-frontera-campo-de-hielo.json",
+      "videoId": "o3yQPPqXoQA",
+      "referente": "Ñerd (Shorts de frontera 2–3 min)",
+      "porQue": "continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07). Adelantado del 11-08: salió del diario del 11-06 y ruta aún no pasó revisión",
       "bloqueo": null
     },
     {
@@ -220,38 +222,18 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
     },
     {
       "fecha": "2026-11-08",
-      "hora": "19:00",
-      "formato": "largo",
-      "plantilla": "largo",
-      "tema": "Caminó 28 años para volver a casa. ¿Qué lo frenó?",
-      "tipo": "contingente",
-      "serie": "Del estrecho al canal",
-      "contingencia": {
-        "hecho": "Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull)",
-        "fecha": "2026-11-02",
-        "url": "https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html"
-      },
-      "estado": "listo",
-      "guion": "contenido/borradores/largo-bushby.json",
-      "videoId": null,
-      "referente": "GeoGlobeTales (Bushby, 61 M)",
-      "porQue": "primer largo nativo 16:9 (ruta B 4.000 h; mid-rolls ~3:57 y ~6:40); render hecho 03:58, 8:44, 6 capítulos; subir 19:00",
-      "bloqueo": null
-    },
-    {
-      "fecha": "2026-11-07",
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
-      "tipo": "serie",
-      "serie": "La línea que falta",
+      "tema": "La guerra por un petróleo que no estaba",
+      "tipo": "evergreen",
+      "serie": null,
       "contingencia": null,
       "estado": "programado",
-      "guion": "contenido/guiones/2026-11-06-frontera-campo-de-hielo.json",
-      "videoId": "o3yQPPqXoQA",
-      "referente": "Ñerd (Shorts de frontera 2–3 min)",
-      "porQue": "continúa Laguna del Desierto (mismo laudo 1902); demarcación sigue pendiente (T13, 2026-09-07). Adelantado del 11-08: salió del diario del 11-06 y ruta aún no pasó revisión",
+      "guion": "contenido/guiones/2026-11-07-frontera-la-guerra-por-un-petroleo-que-no-estaba.json",
+      "videoId": "-c96F_ywLkM",
+      "referente": "Ñerd (guerras y límites)",
+      "porQue": "audiencia BO/PY, línea de 1938 dibujable (idea 15); adelantado del 11-13 porque ruta sigue sin revisión v2",
       "bloqueo": null
     },
     {
@@ -268,6 +250,26 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "videoId": "fKFCTNMk7iQ",
       "referente": "Ñerd (origen de países)",
       "porQue": "audiencia UY/AR que ya llegó con Martín García y Rivera (idea 18); adelantado del 11-10; guion renderizado en GitHub Actions",
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-08",
+      "hora": "19:00",
+      "formato": "largo",
+      "plantilla": "largo",
+      "tema": "Caminó 28 años para volver a casa. ¿Qué lo frenó?",
+      "tipo": "contingente",
+      "serie": "Del estrecho al canal",
+      "contingencia": {
+        "hecho": "Karl Bushby llega a Hull (fin de la caminata Punta Arenas → Hull)",
+        "fecha": "2026-11-02",
+        "url": "https://www.emol.com/noticias/Tendencias/2026/11/02/1215855/karl-bushby-llega-ciudad-natal.html"
+      },
+      "estado": "listo",
+      "guion": "contenido/borradores/largo-bushby.json",
+      "videoId": null,
+      "referente": "GeoGlobeTales (Bushby, 61 M)",
+      "porQue": "primer largo nativo 16:9 (ruta B 4.000 h; mid-rolls ~3:57 y ~6:40); render hecho 03:58, 8:44, 6 capítulos; subir 19:00",
       "bloqueo": null
     },
     {
@@ -480,22 +482,6 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
     },
     {
       "fecha": "2026-11-15",
-      "hora": "19:00",
-      "formato": "largo",
-      "plantilla": "largo",
-      "tema": "El mar de Bolivia: 147 años sin costa, explicados en el mapa",
-      "tipo": "serie",
-      "serie": "El mar de Bolivia",
-      "contingencia": null,
-      "estado": "idea",
-      "guion": null,
-      "videoId": null,
-      "referente": "Ñerd / GeoGlobeTales",
-      "porQue": "la discusión del Short de Bolivia (11-07) concentra los comentarios; plantilla largo ya existe",
-      "bloqueo": null
-    },
-    {
-      "fecha": "2026-11-15",
       "hora": "12:00",
       "formato": "short",
       "plantilla": "lugar",
@@ -527,6 +513,22 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "bloqueo": null
     },
     {
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "formato": "largo",
+      "plantilla": "largo",
+      "tema": "El mar de Bolivia: 147 años sin costa, explicados en el mapa",
+      "tipo": "serie",
+      "serie": "El mar de Bolivia",
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": "Ñerd / GeoGlobeTales",
+      "porQue": "la discusión del Short de Bolivia (11-07) concentra los comentarios; plantilla largo ya existe",
+      "bloqueo": null
+    },
+    {
       "fecha": "2026-11-16",
       "hora": "12:00",
       "formato": "short",
@@ -535,9 +537,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-bolivia-le-cedio-a-argentina.json",
-      "videoId": null,
+      "videoId": "3h3TrcAovjo",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -551,9 +553,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-brasil-le-regalo-a-uruguay.json",
-      "videoId": null,
+      "videoId": "O_KDr4jde5I",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -567,9 +569,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-canada-y-dinamarca-se-pelearon.json",
-      "videoId": null,
+      "videoId": "BeCwdH7LNTE",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -583,9 +585,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-este-campo-era-india-dentro.json",
-      "videoId": null,
+      "videoId": "MEF86DU9LJU",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -595,13 +597,13 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "¿Por qué este pueblo es de España si está rodeado de Francia?",
+      "tema": "¿Por qué el aeropuerto de Basilea, en Suiza, está en Francia? (reemplaza a Llívia, rechazado por el revisor)",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
-      "guion": "contenido/backlog/frontera-por-que-este-pueblo-es-de-espana-si-esta.json",
-      "videoId": null,
+      "estado": "programado",
+      "guion": "contenido/backlog/frontera-por-que-el-aeropuerto-de-basilea.json",
+      "videoId": "ZKqxq-MNFOQ",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -615,9 +617,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-este-pueblo-fue-de-dos-paises.json",
-      "videoId": null,
+      "videoId": "H_GCB9B5Uc0",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -631,9 +633,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-este-templo-es-de-camboya-si-su.json",
-      "videoId": null,
+      "videoId": "dNIhjwrpjQM",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -647,9 +649,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-namibia-tiene-un-brazo-de-450-km.json",
-      "videoId": null,
+      "videoId": "OA10Y6KsnxM",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -663,9 +665,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-ningun-pais-quiere-estos-2-000.json",
-      "videoId": null,
+      "videoId": "3mOOPlFK1Og",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -679,9 +681,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-para-llegar-a-este-pueblo-de-ee.json",
-      "videoId": null,
+      "videoId": "q0yKd9tZOfs",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -695,9 +697,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-paraguay-y-brasil-hundieron.json",
-      "videoId": null,
+      "videoId": "PMZlRn8sJzU",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -711,9 +713,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-por-que-tres-paises-son-duenos-del-mismo.json",
-      "videoId": null,
+      "videoId": "D3-DI5qFfzs",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -727,9 +729,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "guion",
+      "estado": "programado",
       "guion": "contenido/backlog/frontera-un-espanol-llego-primero-a-brasil.json",
-      "videoId": null,
+      "videoId": "2GG8WgFkypA",
       "referente": "Ñerd (Shorts de frontera 2–3 min)",
       "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
       "bloqueo": null
@@ -739,16 +741,16 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(vacío)",
+      "tema": "¿Por qué Finlandia y Suecia torcieron su frontera por un faro?",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
-      "videoId": null,
+      "estado": "programado",
+      "guion": "contenido/backlog/frontera-por-que-finlandia-y-suecia-torcieron-su.json",
+      "videoId": "iOL6dJBGA7U",
       "referente": "Ñerd",
       "porQue": "falta guion",
-      "bloqueo": "falta guion (generar-guiones frontera)"
+      "bloqueo": null
     },
     {
       "fecha": "2026-11-22",
