@@ -1,0 +1,787 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-finlandia-y-suecia-torcieron-su",
+  "titulo": "¿Por qué Finlandia y Suecia torcieron su frontera por un faro?",
+  "descripcion": "Märket es una roca de unas 3,3 hectáreas en el mar de Åland, y la frontera entre Suecia y Finlandia la cruza dibujando una S. En 1809, cuando Suecia perdió Finlandia frente al Imperio ruso, la línea partió la isla en dos. En 1885 se levantó un faro, pero quedó del lado sueco. El acuerdo de límites que entró en vigor en 1985 redibujó la línea: el faro pasó a Finlandia y cada país conservó la misma superficie y el mismo largo de costa.\n\nFuentes:\n- Sociedad Finlandesa de Faros (Suomen Majakkaseura): https://www.majakkaseura.fi/\n- Wikipedia: Märket: https://en.wikipedia.org/wiki/M%C3%A4rket\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#finlandia",
+    "#suecia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-finlandia-y-suecia-torcieron-su",
+    "cabecera": "MÄRKET — LA FRONTERA QUE ESQUIVA UN FARO",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ ESTA FRONTERA DIBUJA UNA S?",
+      "clave": "UNA S",
+      "centro": [
+        19.6,
+        60.4
+      ],
+      "zoom": 6,
+      "paises": [
+        "Sweden",
+        "Finland"
+      ],
+      "pines": [
+        {
+          "lon": 19.131,
+          "lat": 60.301,
+          "texto": "MÄRKET"
+        }
+      ],
+      "icono": "🔍"
+    },
+    "gancho": {
+      "texto": "Mira esta roca del Báltico, entre Suecia y Finlandia. Mide lo que cinco canchas de fútbol, y la frontera la cruza dibujando una S. ¿Por qué no va recta?",
+      "rotulo": "UNA FRONTERA EN S",
+      "planos": [
+        {
+          "centro": [
+            19.131,
+            60.301
+          ],
+          "zoom": 14.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            19.6,
+            60.25
+          ],
+          "zoom": 7.6,
+          "entrada": "zoom",
+          "en": "Báltico",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            19.131,
+            60.301
+          ],
+          "zoom": 15.6,
+          "entrada": "zoom",
+          "en": "Mide",
+          "deriva": 0.3
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 19.131,
+          "lat": 60.3035,
+          "texto": "MÄRKET",
+          "tipo": "pin",
+          "aparecerEn": "roca",
+          "desaparecerEn": "Báltico"
+        },
+        {
+          "lon": 18,
+          "lat": 60.4,
+          "texto": "SUECIA",
+          "tipo": "pais",
+          "aparecerEn": "Suecia",
+          "desaparecerEn": "Mide"
+        },
+        {
+          "lon": 19.95,
+          "lat": 60.25,
+          "texto": "ÅLAND",
+          "tipo": "region",
+          "aparecerEn": "Suecia",
+          "desaparecerEn": "Mide"
+        },
+        {
+          "lon": 22.6,
+          "lat": 60.7,
+          "texto": "FINLANDIA",
+          "tipo": "pais",
+          "aparecerEn": "Finlandia",
+          "desaparecerEn": "Mide"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "3,3 HA",
+          "sub": "≈ CINCO CANCHAS DE FÚTBOL",
+          "tipo": "cifra",
+          "pictos": {
+            "icono": "⚽",
+            "n": 5
+          },
+          "aparecerEn": "cinco",
+          "duracionSeg": 2.8
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ NO VA RECTA?",
+        "dice": "recta"
+      },
+      "clave": [
+        "Báltico",
+        "Suecia",
+        "Finlandia",
+        "cinco",
+        "S"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que algún cartógrafo trazó mal la línea y nadie se molestó en corregirla. La verdad es más rara.",
+        "rotulo": {
+          "texto": "¿UN ERROR?",
+          "dice": "cartógrafo"
+        },
+        "planos": [
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 16,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 14.8,
+            "entrada": "zoom",
+            "en": "verdad",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 19.1335,
+            "lat": 60.3025,
+            "icono": "✏️",
+            "escala": 1,
+            "aparecerEn": "cartógrafo",
+            "desaparecerEn": "verdad"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "cartógrafo",
+          "mal",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: una guerra, un faro y una regla. Y al final, un trueque en el que nadie pierde ni un metro.",
+        "rotulo": {
+          "texto": "GUERRA, FARO, REGLA",
+          "dice": "guerra"
+        },
+        "planos": [
+          {
+            "centro": [
+              20.5,
+              60.6
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 15.4,
+            "entrada": "zoom",
+            "en": "final",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "⚔️",
+            "texto": "GUERRA",
+            "dice": "guerra"
+          },
+          {
+            "icono": "💡",
+            "texto": "FARO",
+            "dice": "faro"
+          },
+          {
+            "icono": "📏",
+            "texto": "REGLA",
+            "dice": "regla"
+          }
+        ],
+        "indicePosicion": "fila",
+        "iconos": [
+          {
+            "lon": 19.131,
+            "lat": 60.3025,
+            "icono": "🤝",
+            "escala": 1,
+            "aparecerEn": "trueque"
+          }
+        ],
+        "clave": [
+          "guerra",
+          "faro",
+          "regla",
+          "trueque"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, la guerra. En 1809 Suecia pierde Finlandia frente al Imperio ruso. La nueva frontera cruza el mar de Åland y pasa justo por esta roca pelada, sin árboles ni casas. Mitad para Suecia, mitad para Rusia. A nadie le importa: ahí no vive nadie, ni hay agua dulce.",
+        "rotulo": {
+          "texto": "1809",
+          "dice": "1809"
+        },
+        "planos": [
+          {
+            "centro": [
+              21.5,
+              61.5
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.5,
+              60.25
+            ],
+            "zoom": 8,
+            "entrada": "zoom",
+            "en": "frontera",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 15.8,
+            "entrada": "zoom",
+            "en": "roca",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Sweden",
+            "color": "azul",
+            "etiqueta": "SUECIA",
+            "etiquetaEn": [
+              16.5,
+              62.5
+            ],
+            "aparecerEn": "Suecia",
+            "desaparecerEn": "roca"
+          },
+          {
+            "pais": "Finland",
+            "color": "verde",
+            "etiqueta": "IMPERIO RUSO",
+            "etiquetaEn": [
+              26,
+              63
+            ],
+            "aparecerEn": "ruso",
+            "desaparecerEn": "roca"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1809",
+            "sub": "TRATADO DE FREDRIKSHAMN",
+            "icono": "tratado",
+            "aparecerEn": "1809",
+            "duracionSeg": 2.6
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 19.6,
+            "lat": 60,
+            "texto": "MAR DE ÅLAND",
+            "tipo": "mar",
+            "aparecerEn": "mar",
+            "desaparecerEn": "roca"
+          },
+          {
+            "lon": 19.1292,
+            "lat": 60.3013,
+            "texto": "SUECIA",
+            "tipo": "region",
+            "aparecerEn": "Suecia#2"
+          },
+          {
+            "lon": 19.1326,
+            "lat": 60.3006,
+            "texto": "RUSIA",
+            "tipo": "region",
+            "aparecerEn": "Rusia"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 21,
+            "lat": 61.2,
+            "icono": "guerra",
+            "escala": 1.2,
+            "aparecerEn": "guerra",
+            "desaparecerEn": "frontera"
+          }
+        ],
+        "contexto": {
+          "texto": "MITAD Y MITAD",
+          "dice": "Mitad"
+        },
+        "clave": [
+          "1809",
+          "Suecia",
+          "Finlandia",
+          "ruso",
+          "Rusia"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el faro. En 1885 Finlandia, entonces un gran ducado del zar, levanta un faro en Märket, porque estas rocas hunden barcos. Una torre de piedra pegada a la casa del cuidador. El problema: la construye del lado sueco de la línea. Durante un siglo, nadie lo arregla.",
+        "rotulo": {
+          "texto": "1885",
+          "dice": "1885"
+        },
+        "planos": [
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 16.4,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 13.6,
+            "entrada": "zoom",
+            "en": "rocas",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.1306,
+              60.3008
+            ],
+            "zoom": 16.6,
+            "entrada": "zoom",
+            "en": "problema",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 19.1306,
+            "lat": 60.3011,
+            "texto": "FARO",
+            "tipo": "pin",
+            "aparecerEn": "faro#2",
+            "quedarse": 2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 19.1,
+            "lat": 60.31,
+            "icono": "barco",
+            "ruta": [
+              [
+                19.1,
+                60.312
+              ],
+              [
+                19.125,
+                60.303
+              ]
+            ],
+            "duracionSeg": 2,
+            "escala": 0.9,
+            "aparecerEn": "barcos",
+            "desaparecerEn": "problema"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Märket lighthouse",
+          "pie": "Faro de Märket, mar de Åland",
+          "anio": "1885",
+          "lado": "derecha",
+          "aparecerEn": "torre",
+          "duracionSeg": 3.2
+        },
+        "resaltes": [
+          {
+            "lon": 19.1306,
+            "lat": 60.3008,
+            "radio": 90,
+            "aparecerEn": "sueco"
+          }
+        ],
+        "contexto": {
+          "texto": "DEL LADO EQUIVOCADO",
+          "dice": "sueco"
+        },
+        "clave": [
+          "1885",
+          "zar",
+          "Märket",
+          "sueco"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la regla. Recién en 1985 entra en vigor un acuerdo de límites entre Finlandia y Suecia. Según su texto, la línea se redibuja con una condición: el faro pasa a Finlandia, pero cada país conserva la misma superficie de isla y el mismo largo de costa. Ni un metro más, ni uno menos.",
+        "rotulo": {
+          "texto": "MISMA SUPERFICIE",
+          "dice": "superficie"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 15.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 16.2,
+            "entrada": "zoom",
+            "en": "faro",
+            "deriva": 0.3
+          }
+        ],
+        "fuente": {
+          "texto": "Acuerdo de límites Finlandia–Suecia · 1985",
+          "dice": "Según"
+        },
+        "tarjetas": [
+          {
+            "texto": "MISMA ISLA",
+            "sub": "MISMA SUPERFICIE, MISMA COSTA",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "SUECIA",
+                "valor": 50
+              },
+              {
+                "etiqueta": "FINLANDIA",
+                "valor": 50
+              }
+            ],
+            "aparecerEn": "superficie",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 19.1335,
+            "lat": 60.3024,
+            "icono": "📏",
+            "escala": 1,
+            "aparecerEn": "regla",
+            "desaparecerEn": "faro"
+          }
+        ],
+        "contexto": {
+          "texto": "1985",
+          "dice": "1985"
+        },
+        "clave": [
+          "1985",
+          "faro",
+          "superficie",
+          "costa"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: para dejar el faro en Finlandia sin regalar tierra, la línea tiene que rodearlo y devolverle a Suecia lo mismo en otra parte. Por eso dibuja una S. No es el error que nadie corrigió. Es la corrección.",
+        "rotulo": {
+          "texto": "LA CORRECCIÓN",
+          "dice": "corrección"
+        },
+        "planos": [
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 16,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.1306,
+              60.3008
+            ],
+            "zoom": 16.8,
+            "entrada": "corte",
+            "en": "rodearlo",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 15.4,
+            "entrada": "zoom",
+            "en": "Por",
+            "deriva": 0.3
+          }
+        ],
+        "resaltes": [
+          {
+            "lon": 19.1306,
+            "lat": 60.3008,
+            "radio": 80,
+            "aparecerEn": "rodearlo"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 19.1292,
+            "lat": 60.3015,
+            "texto": "SUECIA",
+            "tipo": "region",
+            "aparecerEn": "Suecia"
+          },
+          {
+            "lon": 19.1326,
+            "lat": 60.3006,
+            "texto": "FINLANDIA",
+            "tipo": "region",
+            "aparecerEn": "Finlandia"
+          }
+        ],
+        "foto": {
+          "buscar": "Märket island",
+          "pie": "MÄRKET · MAR DE ÅLAND",
+          "aparecerEn": "error",
+          "duracionSeg": 2.4
+        },
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "giro",
+          "rodearlo",
+          "S",
+          "corrección"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy el faro funciona solo, sin cuidador, desde 1979. Según la Sociedad Finlandesa de Faros, que lo cuida, voluntarios llegan cada verano a repararlo. Sobre la roca no hay valla ni aduana. Y radioaficionados de todo el mundo viajan hasta aquí para transmitir desde una roca con dos países.",
+        "rotulo": {
+          "texto": "DOS PAÍSES",
+          "dice": "países"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 15.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.6,
+              60.25
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "radioaficionados",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              19.131,
+              60.301
+            ],
+            "zoom": 15.2,
+            "entrada": "zoom",
+            "en": "transmitir",
+            "deriva": 0.3
+          }
+        ],
+        "fuente": {
+          "texto": "Sociedad Finlandesa de Faros (Suomen Majakkaseura)",
+          "dice": "Según"
+        },
+        "tarjetas": [
+          {
+            "texto": "1979",
+            "sub": "FARO AUTOMÁTICO, SIN CUIDADOR",
+            "aparecerEn": "1979",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 19.1335,
+            "lat": 60.3024,
+            "icono": "🛠️",
+            "escala": 1,
+            "aparecerEn": "voluntarios",
+            "desaparecerEn": "radioaficionados"
+          },
+          {
+            "lon": 19.131,
+            "lat": 60.3025,
+            "icono": "📻",
+            "escala": 1,
+            "aparecerEn": "transmitir"
+          }
+        ],
+        "contexto": {
+          "texto": "UNA ROCA, DOS PAÍSES",
+          "dice": "roca"
+        },
+        "clave": [
+          "1979",
+          "voluntarios",
+          "radioaficionados",
+          "países"
+        ]
+      }
+    ],
+    "remate": "Finlandia se quedó con el faro. Suecia se quedó con los metros.",
+    "rematePlanos": [
+      {
+        "centro": [
+          19.131,
+          60.301
+        ],
+        "zoom": 15.8,
+        "entrada": "corte",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": 19.1326,
+        "lat": 60.3004,
+        "texto": "FINLANDIA: EL FARO"
+      },
+      {
+        "lon": 19.1292,
+        "lat": 60.3016,
+        "texto": "SUECIA: LOS METROS"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Suomen Majakkaseura (Sociedad Finlandesa de Faros): Märket",
+        "url": "https://www.majakkaseura.fi/"
+      },
+      {
+        "texto": "Wikipedia: Märket",
+        "url": "https://en.wikipedia.org/wiki/M%C3%A4rket"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        19.131,
+        60.301
+      ],
+      "zoomInicial": 14.6,
+      "zoomFinal": 15.6,
+      "lineas": [
+        {
+          "id": "frontera-hoy",
+          "puntos": [
+            [
+              19.13,
+              60.3024
+            ],
+            [
+              19.1296,
+              60.3014
+            ],
+            [
+              19.1301,
+              60.3004
+            ],
+            [
+              19.1313,
+              60.3003
+            ],
+            [
+              19.1322,
+              60.3
+            ],
+            [
+              19.1318,
+              60.2994
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "dibujando",
+          "etiqueta": "FRONTERA HOY"
+        },
+        {
+          "id": "frontera-1809",
+          "puntos": [
+            [
+              19.13,
+              60.3024
+            ],
+            [
+              19.1318,
+              60.2994
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Mitad",
+          "etiqueta": "LÍNEA DE 1809"
+        }
+      ]
+    }
+  }
+}

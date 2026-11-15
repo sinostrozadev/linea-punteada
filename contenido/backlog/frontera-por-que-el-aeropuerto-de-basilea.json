@@ -1,0 +1,716 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-por-que-el-aeropuerto-de-basilea",
+  "titulo": "¿Por qué el aeropuerto de Basilea, en Suiza, está en Francia?",
+  "descripcion": "El aeropuerto de Basilea, la tercera ciudad de Suiza, está entero en suelo francés, en Saint-Louis. Basilea no tenía espacio para una pista grande, y al otro lado de la frontera había llanura. La convención franco-suiza de 1949 lo resolvió con un reparto: Francia pone el terreno y Suiza financia la construcción. Una ruta aduanera con rejas lleva a los viajeros desde Basilea hasta el sector suizo de la terminal sin pasar por la aduana francesa, y dentro del edificio hay una salida hacia cada país.\n\nFuentes:\n- EuroAirport Basel Mulhouse Freiburg, historia y estatuto binacional: https://www.euroairport.com/\n- Convención franco-suiza del 4 de julio de 1949 (Fedlex, Confederación Suiza): https://www.fedlex.admin.ch/\n- Wikipedia: EuroAirport Basel Mulhouse Freiburg: https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#suiza",
+    "#francia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-por-que-el-aeropuerto-de-basilea",
+    "cabecera": "BASILEA — EL AEROPUERTO EN OTRO PAÍS",
+    "acento": "cian",
+    "tarjetaTitulo": {
+      "texto": "¿UN AEROPUERTO SUIZO EN FRANCIA?",
+      "clave": "FRANCIA",
+      "paises": [
+        "Switzerland",
+        "France"
+      ],
+      "centro": [
+        7.55,
+        47.62
+      ],
+      "zoom": 8.2,
+      "pines": [
+        {
+          "lon": 7.5296,
+          "lat": 47.5986,
+          "texto": "AEROPUERTO"
+        }
+      ],
+      "icono": "✈️"
+    },
+    "gancho": {
+      "texto": "Mira el aeropuerto de Basilea, la tercera ciudad de Suiza. La pista, la torre y la terminal están en suelo francés. ¿Por qué?",
+      "rotulo": "EN FRANCIA",
+      "planos": [
+        {
+          "centro": [
+            7.57,
+            47.58
+          ],
+          "zoom": 10.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            7.528,
+            47.598
+          ],
+          "zoom": 12.2,
+          "entrada": "zoom",
+          "en": "pista",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "France",
+          "color": "verde",
+          "etiqueta": "FRANCIA",
+          "etiquetaEn": [
+            7.5,
+            47.61
+          ],
+          "aparecerEn": "francés"
+        },
+        {
+          "pais": "Switzerland",
+          "color": "rojo",
+          "etiqueta": "SUIZA",
+          "etiquetaEn": [
+            7.6,
+            47.55
+          ],
+          "aparecerEn": "Suiza"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": 7.5886,
+          "lat": 47.5596,
+          "texto": "BASILEA",
+          "tipo": "pin",
+          "aparecerEn": "Basilea"
+        },
+        {
+          "lon": 7.5296,
+          "lat": 47.5986,
+          "texto": "TERMINAL",
+          "tipo": "pin",
+          "aparecerEn": "terminal"
+        }
+      ],
+      "contexto": {
+        "texto": "¿POR QUÉ?",
+        "dice": "qué"
+      },
+      "clave": [
+        "Basilea",
+        "Suiza",
+        "pista",
+        "terminal",
+        "francés"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "mito",
+        "texto": "Dicen que Suiza le compró ese pedazo de tierra a Francia. Nunca lo compró. La verdad es más rara.",
+        "rotulo": {
+          "texto": "LO COMPRÓ",
+          "dice": "compró"
+        },
+        "planos": [
+          {
+            "centro": [
+              7.55,
+              47.585
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.53,
+              47.598
+            ],
+            "zoom": 12.6,
+            "entrada": "corte",
+            "en": "Nunca",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 7.53,
+            "lat": 47.607,
+            "icono": "💰",
+            "escala": 1.1,
+            "aparecerEn": "compró",
+            "desaparecerEn": "Nunca"
+          },
+          {
+            "lon": 7.53,
+            "lat": 47.607,
+            "icono": "💰",
+            "escala": 1.1,
+            "tachado": true,
+            "aparecerEn": "Nunca"
+          }
+        ],
+        "contexto": {
+          "texto": "LA VERDAD ES MÁS RARA",
+          "dice": "verdad"
+        },
+        "clave": [
+          "compró",
+          "Nunca",
+          "rara"
+        ]
+      },
+      {
+        "tipo": "mapa-de-ruta",
+        "texto": "Todo se explica con tres cosas: un campo chico, un trato y una carretera. Y al final, un pasillo donde eliges país.",
+        "rotulo": {
+          "texto": "UN TRATO",
+          "dice": "trato"
+        },
+        "planos": [
+          {
+            "centro": [
+              7.58,
+              47.575
+            ],
+            "zoom": 11,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.555,
+              47.588
+            ],
+            "zoom": 11.6,
+            "entrada": "paneo",
+            "en": "carretera",
+            "deriva": 0.3
+          }
+        ],
+        "indice": [
+          {
+            "icono": "🛩️",
+            "texto": "CAMPO CHICO",
+            "dice": "campo"
+          },
+          {
+            "icono": "tratado",
+            "texto": "TRATO",
+            "dice": "trato"
+          },
+          {
+            "icono": "🛣️",
+            "texto": "CARRETERA",
+            "dice": "carretera"
+          }
+        ],
+        "indicePosicion": "fila",
+        "clave": [
+          "campo",
+          "trato",
+          "carretera",
+          "pasillo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Primero, el campo chico. Basilea volaba desde el Sternenfeld, un aeródromo apretado junto al Rin, en Birsfelden. Tras la guerra, los aviones crecían. La ciudad está encajada contra Francia y Alemania, y no le quedaba espacio para una pista de aviones grandes. Al otro lado de la frontera, en Saint-Louis, había llanura.",
+        "rotulo": {
+          "texto": "SIN ESPACIO",
+          "dice": "espacio"
+        },
+        "planos": [
+          {
+            "centro": [
+              7.62,
+              47.555
+            ],
+            "zoom": 12.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.6,
+              47.6
+            ],
+            "zoom": 9.8,
+            "entrada": "zoom",
+            "en": "ciudad",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.555,
+              47.59
+            ],
+            "zoom": 11.6,
+            "entrada": "zoom",
+            "en": "otro",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 7.625,
+            "lat": 47.553,
+            "texto": "STERNENFELD",
+            "tipo": "pin",
+            "aparecerEn": "Sternenfeld",
+            "desaparecerEn": "ciudad"
+          },
+          {
+            "lon": 7.61,
+            "lat": 47.57,
+            "texto": "RIN",
+            "tipo": "rio",
+            "rotacion": -30,
+            "aparecerEn": "Rin",
+            "desaparecerEn": "ciudad"
+          },
+          {
+            "lon": 7.45,
+            "lat": 47.64,
+            "texto": "FRANCIA",
+            "tipo": "pais",
+            "aparecerEn": "Francia",
+            "desaparecerEn": "otro"
+          },
+          {
+            "lon": 7.68,
+            "lat": 47.65,
+            "texto": "ALEMANIA",
+            "tipo": "pais",
+            "aparecerEn": "Alemania",
+            "desaparecerEn": "otro"
+          },
+          {
+            "lon": 7.5596,
+            "lat": 47.5904,
+            "texto": "SAINT-LOUIS",
+            "tipo": "pin",
+            "aparecerEn": "Saint-Louis"
+          }
+        ],
+        "contexto": {
+          "texto": "SIN LUGAR PARA UNA PISTA",
+          "dice": "pista"
+        },
+        "clave": [
+          "Sternenfeld",
+          "Rin",
+          "Francia",
+          "Alemania",
+          "espacio",
+          "Saint-Louis"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Segundo, el trato. El aeropuerto abre en mayo de 1946 con una pista provisoria. Según la convención franco-suiza de 1949, Francia pone el terreno y Suiza paga la construcción. A cambio, Suiza tiene su propio sector, con aduana suiza. Un consejo con gente de los dos países lo administra.",
+        "rotulo": {
+          "texto": "1949",
+          "dice": "1949"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              7.528,
+              47.6
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.545,
+              47.592
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "en": "Según",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.53,
+              47.598
+            ],
+            "zoom": 12.3,
+            "entrada": "zoom",
+            "en": "consejo",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1946",
+            "sub": "UNA PISTA PROVISORIA",
+            "aparecerEn": "1946",
+            "duracionSeg": 2.6
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                7.515,
+                47.578
+              ],
+              [
+                7.535,
+                47.578
+              ],
+              [
+                7.545,
+                47.615
+              ],
+              [
+                7.52,
+                47.618
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "TERRENO FRANCÉS",
+            "aparecerEn": "terreno"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 7.56,
+            "lat": 47.607,
+            "icono": "💰",
+            "escala": 1,
+            "aparecerEn": "paga"
+          }
+        ],
+        "fuente": {
+          "texto": "Convención franco-suiza del 4-7-1949",
+          "dice": "Según"
+        },
+        "clave": [
+          "1946",
+          "1949",
+          "terreno",
+          "construcción",
+          "sector",
+          "consejo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tercero, la carretera. Para que un viajero suizo llegue sin pasar por la aduana francesa, se construye una ruta aduanera de unos dos kilómetros y medio, cercada a ambos lados. Sales de Basilea, atraviesas Francia sin tocarla y llegas al sector suizo de la terminal. Una frontera con forma de tubo.",
+        "rotulo": {
+          "texto": "RUTA CERCADA",
+          "dice": "cercada"
+        },
+        "planos": [
+          {
+            "centro": [
+              7.552,
+              47.583
+            ],
+            "zoom": 12,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.546,
+              47.586
+            ],
+            "zoom": 12.8,
+            "entrada": "corte",
+            "en": "cercada",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              7.532,
+              47.597
+            ],
+            "zoom": 13,
+            "entrada": "paneo",
+            "en": "llegas",
+            "deriva": 0.2
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              7.5655,
+              47.5735
+            ],
+            "hasta": [
+              7.5305,
+              47.5985
+            ],
+            "texto": "≈ 2,5 KM",
+            "aparecerEn": "kilómetros",
+            "desaparecerEn": "llegas"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 7.5655,
+            "lat": 47.5735,
+            "icono": "🚌",
+            "ruta": [
+              [
+                7.5655,
+                47.5735
+              ],
+              [
+                7.552,
+                47.582
+              ],
+              [
+                7.538,
+                47.592
+              ],
+              [
+                7.5305,
+                47.5985
+              ]
+            ],
+            "duracionSeg": 3.5,
+            "escala": 0.9,
+            "aparecerEn": "Sales"
+          }
+        ],
+        "contexto": {
+          "texto": "FRANCIA SIN TOCARLA",
+          "dice": "tocarla"
+        },
+        "clave": [
+          "aduana",
+          "kilómetros",
+          "cercada",
+          "Basilea",
+          "tocarla",
+          "tubo"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Y aquí está el giro: la terminal tiene dos salidas. Por una sales a Suiza; por la otra, a Francia. Mismo avión, misma maleta, y el país lo eliges en el pasillo. Desde 1987 el nombre suma además una ciudad alemana: Friburgo.",
+        "rotulo": {
+          "texto": "DOS SALIDAS",
+          "dice": "salidas"
+        },
+        "planos": [
+          {
+            "centro": [
+              7.5296,
+              47.5986
+            ],
+            "zoom": 14,
+            "entrada": "zoom",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              7.6,
+              47.78
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "en": "1987",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": 7.5335,
+            "lat": 47.5975,
+            "icono": "🇨🇭",
+            "escala": 1,
+            "aparecerEn": "Suiza"
+          },
+          {
+            "lon": 7.5255,
+            "lat": 47.5995,
+            "icono": "🇫🇷",
+            "escala": 1,
+            "aparecerEn": "Francia"
+          },
+          {
+            "lon": 7.5296,
+            "lat": 47.5986,
+            "icono": "🧳",
+            "escala": 0.9,
+            "aparecerEn": "maleta",
+            "desaparecerEn": "1987"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 7.8421,
+            "lat": 47.999,
+            "texto": "FRIBURGO",
+            "tipo": "pin",
+            "aparecerEn": "Friburgo"
+          },
+          {
+            "lon": 7.3389,
+            "lat": 47.7508,
+            "texto": "MULHOUSE",
+            "tipo": "pin",
+            "aparecerEn": "alemana"
+          }
+        ],
+        "contexto": {
+          "texto": "EL GIRO",
+          "dice": "giro"
+        },
+        "clave": [
+          "salidas",
+          "Suiza",
+          "Francia",
+          "pasillo",
+          "1987",
+          "Friburgo"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy, según el propio aeropuerto, es el único del mundo manejado en conjunto por dos países. Tiene tres códigos: BSL para Suiza, MLH para Francia y EAP para todos. Lo usan suizos, franceses y alemanes. Y el suelo, ochenta años después, sigue siendo francés.",
+        "rotulo": {
+          "texto": "3 CÓDIGOS",
+          "dice": "códigos"
+        },
+        "fuenteEnVoz": true,
+        "planos": [
+          {
+            "centro": [
+              7.56,
+              47.62
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              7.53,
+              47.598
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "en": "suelo",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "BSL·MLH·EAP",
+            "sub": "UN AEROPUERTO, TRES CÓDIGOS",
+            "aparecerEn": "BSL",
+            "duracionSeg": 3.2
+          }
+        ],
+        "foto": {
+          "buscar": "EuroAirport Basel Mulhouse terminal",
+          "pie": "EUROAIRPORT · SAINT-LOUIS, FRANCIA",
+          "aparecerEn": "único",
+          "duracionSeg": 2.6
+        },
+        "clave": [
+          "único",
+          "códigos",
+          "BSL",
+          "MLH",
+          "EAP",
+          "francés"
+        ]
+      }
+    ],
+    "remate": "Francia puso el suelo. Suiza puso el dinero.",
+    "remateEtiquetas": [
+      {
+        "lon": 7.515,
+        "lat": 47.61,
+        "texto": "FRANCIA: EL SUELO"
+      },
+      {
+        "lon": 7.56,
+        "lat": 47.575,
+        "texto": "SUIZA: EL DINERO"
+      }
+    ],
+    "rematePlanos": [
+      {
+        "centro": [
+          7.545,
+          47.592
+        ],
+        "zoom": 11.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "EuroAirport Basel Mulhouse Freiburg: historia y estatuto binacional",
+        "url": "https://www.euroairport.com/"
+      },
+      {
+        "texto": "Convención franco-suiza del 4 de julio de 1949 (Fedlex, Confederación Suiza)",
+        "url": "https://www.fedlex.admin.ch/"
+      },
+      {
+        "texto": "Wikipedia: EuroAirport Basel Mulhouse Freiburg",
+        "url": "https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 6,
+      "centro": [
+        7.57,
+        47.58
+      ],
+      "zoomInicial": 10.4,
+      "zoomFinal": 11.8,
+      "lineas": [
+        {
+          "id": "ruta-aduanera",
+          "puntos": [
+            [
+              7.5655,
+              47.5735
+            ],
+            [
+              7.552,
+              47.582
+            ],
+            [
+              7.538,
+              47.592
+            ],
+            [
+              7.5305,
+              47.5985
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "ruta",
+          "etiqueta": "RUTA ADUANERA"
+        }
+      ],
+      "marcadores": []
+    }
+  }
+}
