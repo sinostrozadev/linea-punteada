@@ -1,0 +1,82 @@
+{
+  "id": "largo-bolivia-mar",
+  "canal": "linea-punteada",
+  "titulo": "A Bolivia le ofrecieron el mar 5 veces. ¿Qué falló?",
+  "ranura": "2026-11-22T19:00",
+  "ronda": 1,
+  "aprobado": false,
+  "bloqueantes": {
+    "B1": true,
+    "B2": true,
+    "B3": false,
+    "B4": true,
+    "B5": true,
+    "B6": false,
+    "B7": true,
+    "B8": true,
+    "B9": true,
+    "B10": true,
+    "B11": true
+  },
+  "maquina": {
+    "camara": "100 planos, 0 errores / 0 avisos (según el autor; el revisor no pudo correr camara.mts porque la sesión pide permiso; volver a correrlo en la ronda 2)",
+    "palabras": "1.396 (según el autor; no recontado; dentro de 1.100–1.400 pero en el borde: cualquier frase que se agregue obliga a quitar otra)",
+    "duracion_estimada": "≈10:05 estimado; ≈9:50 con la voz real (−2/3 %), sobre 8:00",
+    "ritmo_largo": "problemasDeRitmo 0 (según el autor)",
+    "capitulos": "5 capítulos de 126 / 112 / 106 / 107 / 113 s, todos dentro de 90–150 s"
+  },
+  "puntajes": {
+    "gancho": 4,
+    "claridad": 4,
+    "ritmo": 4,
+    "giro": 4,
+    "variedad": 4,
+    "cierre": 5,
+    "referente": 4
+  },
+  "promedio": 4.14,
+  "motivos": [
+    "B3: 1.4 dice 'Ese desierto parecía no valer nada. Hasta que apareció el salitre', pero el tratado de 1866 que el guion acaba de nombrar en 1.3 nació justamente de la pelea por el guano de Mejillones, y repartía entre los paralelos 23 y 25 los derechos sobre guano y minerales (Memoria Chilena; Wikipedia en Boundary Treaty of 1866). La frase es falsa tal como suena y se contradice con el bloque anterior.",
+    "B3: la tarjeta de 2.7 dice '4.265 M · EL PUNTO MÁS ALTO DE LA VÍA'. La cifra mejor respaldada es 4.257 m en General Lagos, km 184,5 (Wikipedia en Arica–La Paz railway y railsouthamerica); 4.265 m sale de una sola fuente de prensa. La voz no se equivoca ('por encima de los cuatro mil'); la tarjeta sí.",
+    "B6: 4.7 afirma con la voz del narrador la intención de un Estado: 'Y Perú tenía otra razón de fondo: …temía perder parte de sus aguas'. Se apoya en una sola fuente secundaria (Wikipedia es) y no se atribuye a nadie. Es una interpretación presentada como hecho.",
+    "B6 (balance): en 3.3 Bolivia acepta y Perú dice que no, pero falta la respuesta de Chile, que contestó que estudiaría el plan (FRUS 1926, telegramas del Departamento de Estado). Contado así, parece que el único 'no' fue de Perú. El autor la descartó porque las fuentes difieren, pero la versión mínima ('Chile responde que lo estudiará') sí está bien respaldada por los telegramas de FRUS 1926.",
+    "B9 (pasa con condición): con la voz real el mid-roll 1 cae hacia ~2:23, bajo el piso de ~2:30. El autor dejó escrito el plan alternativo; debe pasar a ser el plan principal (ver cambios). Los cuatro ganchos al siguiente sí funcionan como re-enganche de 10–15 s.",
+    "Título (política de engaño): es defendible pero frágil. Las cinco 'ofertas' que lo sostienen son 1895, 1920, 1926 (la hace EE. UU., no Chile ni Perú), 1950 (Chile se dice dispuesto a negociar, no ofrece costa) y 1975. Montevideo 1987 la propone Bolivia y no cuenta. La voz nunca las numera, así que el espectador no puede contar las 5 que promete el título. Si se numeran en pantalla, el título cumple.",
+    "gancho 4: hay lugar en el cuadro 0, contradicción (cinco veces / nunca pasó) y pregunta, pero la apertura tiene ~41 palabras (meta ≤ 30) y no dice todavía 'se lo ofrecieron', que es la promesa del título.",
+    "claridad 4: son más de 20 fechas en 10 min y los cinco intentos no tienen un contador visual que los amarre; el candado de 1929 sí ordena bien la segunda mitad.",
+    "ritmo 4: ~10 planos/min y 0 errores, pero los capítulos 4 y 5 encadenan muchos 'corte' en el mismo punto ([4.3,52.08] cinco veces seguidas, z8.0 → z9.9) y la Haya se queda visualmente quieta casi 40 s.",
+    "giro 4: el candado de dos llaves (1929 → Charaña 1976) es una inversión real, pero no trae una cifra que la remate.",
+    "variedad 4: los conectores 'Aquí las versiones se separan' / 'Las dos lecturas' / 'Según X… Según Y' se repiten 4 veces con la misma forma.",
+    "referente 4: el arranque iguala al de Ñerd en lugar + pregunta, pero no lo supera: le falta la imagen-contradicción del frame 0 (un país sin mar con Armada, o el candado sobre Arica)."
+  ],
+  "cambios": [
+    "1.4: 'Ese desierto parecía no valer nada. Hasta que apareció el salitre, un abono que el mundo pagaba caro.' → 'Primero se pelearon por el guano de Mejillones. Después apareció el salitre, un abono que el mundo pagaba caro.' (mantiene más o menos el largo; ajustar la dirección visual: icono guano en «guano», el ⛏️ sigue en «salitre»)",
+    "2.7 tarjeta: '4.265 M / EL PUNTO MÁS ALTO DE LA VÍA' → '4.257 M / GENERAL LAGOS · PUNTO MÁS ALTO'; corregir también la fila 21 del informe de verificación",
+    "3.3: 'Bolivia acepta en dos días. Perú dice que no.' → 'Bolivia acepta en dos días. Chile responde que lo estudiará. Perú dice que no.' (+5 palabras; compensar con el cambio de 4.7)",
+    "4.7: 'Ni Chile ni Bolivia la aceptan. Y Perú tenía otra razón de fondo: el nuevo mar boliviano quedaría pegado al suyo, y temía perder parte de sus aguas.' → 'Ni Chile ni Bolivia la aceptan. En Perú, además, se discutía otro punto: el nuevo mar boliviano quedaría pegado al suyo.' (atribuido, sin intención como hecho, −6 palabras); etiqueta «SEGÚN PERÚ» → «EL DEBATE EN PERÚ»",
+    "Mid-rolls: 'mid-roll 1 a ~2:27 tras la tregua (y el plan alternativo si queda antes de 2:25)' → 'el plan alternativo pasa a principal: mid-roll 1 al fin del capítulo 2 (~4:15, tras «…pesaría en cada intento que vino después.») y mid-roll 2 al fin del capítulo 4 (~7:45, tras «…se fue a un tribunal.»)'. Opcional: un tercero al fin del capítulo 3 (~6:05), que ya tiene re-enganche.",
+    "Contador de ofertas (para que el título se cumpla): agregar tarjeta/sello 'OFERTA 1 DE 5' en 2.3 (1895), '2 DE 5' en 3.1 (1920), '3 DE 5' en 3.3 (1926), '4 DE 5' en 3.8 (1950) y '5 DE 5' en 4.3 (1975). En 4.→ (Montevideo 1987): contexto «ESTA VEZ PROPONE BOLIVIA». Esto no cambia la voz.",
+    "Apertura: 'Desde entonces, devolverle una salida al mar estuvo sobre la mesa por lo menos cinco veces.' → 'Desde entonces, le ofrecieron una salida al mar cinco veces.' (alinea la voz con el título; −6 palabras; la cuenta 'cinco' queda respaldada por el contador)",
+    "Apertura (dirección visual): primer plano con el candado 🔒 sobre Arica visible desde el frame 0, no solo en 3.6, para que la miniatura y el cuadro 0 hablen el mismo idioma",
+    "5.5: 'su carga sale por Arica y Antofagasta, con una agencia boliviana en esos puertos.' → 'su carga sale sobre todo por Arica, con una agencia boliviana en el puerto.' (en 2024 Antofagasta movió ~3.700 t de la ASP-B frente a ~1,2 M por Arica; tal como está, la frase iguala dos puertos que no pesan lo mismo)",
+    "Capítulo 5 (dirección visual): reemplazar dos de los cinco 'corte' seguidos en [4.3,52.08] por un paneo del Palacio de la Paz al mapa de Sudamérica (por ejemplo en 5.2 «Según Chile»), para que La Haya no quede quieta ~40 s",
+    "Antes del render: revisar los fotogramas de 1.1, 4.1 y 5.5 (por si aparece una persona reconocible), y además el de 2.7 (puente del Lluta) y el de 5.7 (Tiquina)"
+  ],
+  "hechos_dudosos": [
+    "CONFIRMADO por el revisor: visita de Estado del presidente de Chile a La Paz el 16-10-2026, la primera en ~71 años (Emol, Meganoticias, Radio Agricultura, CNN Chile). 'Acuerdan avanzar hacia reponer embajadores' coincide con BioBio ('avanzar en reestablecer relaciones'); otras notas solo dicen que se abogó por el 'más alto nivel'. Mantener la formulación prudente 'avanzar hacia'.",
+    "CONFIRMADO: más de un millón de toneladas por Arica en 2024 (ASP-B, rendición de cuentas 2024: 1.200.807 t). Ojo: la memoria 2023 y la rendición 2023 difieren entre sí (1.181.735 frente a 1.201.448 t para 2023). La voz ('más de un millón') es segura; la tarjeta '1,2 MILLONES' es aceptable.",
+    "CONFIRMADO: Kellogg, 30-11-1926; Bolivia acepta el 2-12 (dos días); Chile dice que estudiará el plan; Perú rechaza en enero de 1927 (FRUS 1926, Papers Past).",
+    "CONFIRMADO: 1866 fija el paralelo 24 (con zona de reparto de derechos entre los paralelos 23 y 25); 1874 lo mantiene y suprime la zona compartida.",
+    "CORREGIR: la altura máxima del ferrocarril es 4.257 m (General Lagos), no 4.265 m; 440 km confirmado.",
+    "CORREGIR: 'parecía no valer nada' antes del salitre choca con la disputa del guano de 1866 y con la plata de Caracoles (1870).",
+    "Sin reverificar por el revisor (el informe del autor cita fuente primaria, la CIJ): 1895 Vítor–Camarones, acta de 1920, protocolo de 1929 art. 1, notas de 1950, Charaña 8-2-1975 / 19-12-1975 / noviembre de 1976, ruptura 17-3-1978, Montevideo 1987, demanda 24-4-2013, fallo 1-10-2018 12 a 3, párrafo 176. Son coherentes con lo que sabe el revisor; no se encontró ninguna contradicción.",
+    "Atribución débil (una fuente secundaria): el motivo de Perú en 4.7 (ver cambios); 'Cobija, puerto principal' en 1825 (lectura habitual; aceptable)."
+  ],
+  "revisor": "opus",
+  "fecha": "2026-11-15",
+  "santiago": {
+    "estado": "pendiente",
+    "vence": "sáb 2026-11-21 23:59",
+    "nota": "Ronda 2 corta: son 5 cambios de texto y 4 de dirección visual; con eso debería aprobar."
+  }
+}

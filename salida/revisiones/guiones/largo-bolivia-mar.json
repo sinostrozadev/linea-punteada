@@ -1,0 +1,93 @@
+{
+  "id": "largo-bolivia-mar",
+  "canal": "linea-punteada",
+  "titulo": "A Bolivia le ofrecieron el mar 5 veces. ¿Qué falló?",
+  "ranura": "2026-11-22T19:00",
+  "ronda": 2,
+  "aprobado": true,
+  "bloqueantes": {
+    "B1": true,
+    "B2": true,
+    "B3": true,
+    "B4": true,
+    "B5": true,
+    "B6": true,
+    "B7": true,
+    "B8": true,
+    "B9": true,
+    "B10": true,
+    "B11": true
+  },
+  "maquina": {
+    "camara": "no recorrido por el revisor (el comando pide permiso en esta sesión); el autor reporta 100 planos, 0 errores / 0 avisos. Hay que correrlo antes del render, porque en la ronda 2 cambiaron las anclas de 1.4, 3.3, 4.7 y 5.5 y se agregaron 5 tarjetas.",
+    "palabras": "≈1.385–1.390 (1.396 de la ronda 1 −6 en la apertura, +5 en 3.3, −6 en 4.7, −1 en 5.5; recontado a mano, no por el script), dentro de 1.100–1.400",
+    "duracion_estimada": "≈10:00 estimado; ≈9:45 con la voz real, sobre 8:00",
+    "ritmo_largo": "problemasDeRitmo 0 (según el autor; no recorrido por el revisor)",
+    "capitulos": "5 capítulos de ~126 / 112 / 106 / 107 / 113 s, todos dentro de 90–150 s, cada uno con su giro (tregua en vez de paz; 1895 firmado y sin vigor; el candado de dos llaves; la soberanía de tres; 12 a 3 pero 'pueden seguir dialogando')",
+    "midrolls": "plan principal: mid-roll 1 a ~4:15 (fin del cap. 2) y mid-roll 2 a ~7:45 (fin del cap. 4); el primer corte queda sobre 2:30. Re-enganche del cap. 2: ~23 palabras ≈ 9–10 s, justo en el borde; el del cap. 4: ≈ 12 s."
+  },
+  "puntajes": {
+    "gancho": 4,
+    "claridad": 4,
+    "ritmo": 4,
+    "giro": 4,
+    "variedad": 4,
+    "cierre": 5,
+    "referente": 4
+  },
+  "promedio": 4.14,
+  "motivos": [
+    "Cambios de la ronda 1, comprobados en el JSON: 1.4 guano→salitre ✓; tarjeta 4.257 M ✓; 3.3 'Chile responde que lo estudiará' ✓; 4.7 atribuido ('En Perú, además, se discutía…'), con la etiqueta EL DEBATE EN PERÚ ✓ y sin el icono 🌊 ✓; apertura 'le ofrecieron una salida al mar cinco veces' ✓; 5.5 'sobre todo por Arica… en el puerto', con el pin de Antofagasta quitado y la foto anclada en «puerto» ✓; mid-rolls a 4:15 / 7:45 como plan principal ✓; contador 1 DE 5 … 5 DE 5 ✓. No se aplicaron, tal como avisó el autor: el candado en el frame 0 y el paneo en La Haya.",
+    "B3: re-verifiqué con la web estos hechos: tren inaugurado el 13-5-1913, ~440 km, tramo boliviano traspasado en 1928 (Memoria Chilena; 'quince años después' cuadra); 1895 firmado y nunca aplicado porque faltó la aprobación de los congresos; 1920 Chile 'dispuesto a procurar' un acceso; 1950 notas con disposición a negociar; Charaña 8-2-1975; propuesta chilena del 19-12-1975 (revistamarina.cl); Perú contrapropone soberanía compartida y Chile y Bolivia la rechazan; ruptura en 1978 (EFE 18-3-1978 informa la ruptura del día 17); fallo del 1-10-2018 con 12 votos de mayoría; competencia declarada el 24-9-2015; Bolivia Mar 1992, 5 km, 99 años, sin soberanía (24-1-1992). La ronda 1 ya había confirmado Kellogg (30-11 → 2-12-1926), 1866/1874, ASP-B 2024 y la visita de oct-2026. No encontré ningún error de hecho.",
+    "B3 (punto débil, no bloqueante): 'unos cinco mil efectivos' de la Armada boliviana sale de una cifra de 2008 (Wikipedia en inglés). No encontré una fuente reciente que la confirme; el 'unos' la protege, pero conviene atribuirla o redondearla (ver cambios).",
+    "B6: las disputas se cuentan con las dos versiones (1.6, 2.8, 5.2, 5.9) y 4.7 ya no presenta como hecho la intención de un Estado. En 4.8, 'se frenó en un protocolo de 1929' es la tesis del video y no una opinión sobre quién tiene la razón: es la lectura que se desprende de que Perú usara su consulta. Es aceptable. No hay ninguna persona viva en imagen: Kellogg murió en 1937, lo de Abaroa es un monumento y la visita de 2026 se cuenta solo con mapa y avión.",
+    "Título (política de engaño): con el contador en pantalla, las 5 'ofertas' se pueden contar y la pasiva 'le ofrecieron' cubre la de 1926, que hizo EE. UU. Lo más estirado es 1950: Bolivia propone y Chile acepta negociar. Pero la tarjeta '4 DE 5 · OFERTA' aparece en «cincuenta» del bloque 3.7, justo cuando la voz dice 'Bolivia lo intenta otra vez', y eso contradice lo que se escucha. Hay que moverla al «dispuesto» de 3.8. Con eso el título es honesto.",
+    "Contador (choques visuales): tres de las cinco tarjetas nuevas comparten ancla con otra tarjeta que ya estaba: '1 DE 5' y la '1895' en «cinco» (2.3), '2 DE 5' y la '1920' en «veinte» (3.1), '5 DE 5' y 'DIC. 1975' en «diciembre» (4.3). A la vez y en el mismo lugar se pisan o se tapan. Además, '3 DE 5' cae en «Kellogg», junto con el polaroid.",
+    "B9: el primer corte queda en ~4:15 (≥ 2:30). Los dos re-enganches funcionan, aunque el del cap. 2 ('Pero quedaba un cabo suelto… vino después.') ronda los 9–10 s, en el límite inferior.",
+    "Coherencia de archivos: el .texto.md está desactualizado. En 4.7 todavía muestra «SEGÚN PERÚ» y 🌊 en «aguas», y en 5.5 el pin ANTOFAGASTA y la foto en «puertos». Tampoco muestra las tarjetas N DE 5, y la tabla de tiempos sigue con los mid-rolls 2:27 / 6:05 (solo una nota al final los anula). En el JSON, la 'clave' del bloque 4.7 todavía trae la palabra «aguas», que ya no está en el texto.",
+    "gancho 4: la voz ya anuncia la promesa del título en ~33 palabras, pero el frame 0 sigue sin la imagen-contradicción (el candado sobre Arica que sí está en la miniatura).",
+    "ritmo 4 / referente 4: La Haya (5.1–5.4) sigue con 5 cortes seguidos al mismo centro [4.3,52.08] y queda quieta cerca de 40 s; es lo que separa a este largo de superar al referente.",
+    "variedad 4: los conectores 'Según X… Según Y' / 'Las dos lecturas' / 'Aquí las versiones se separan' se repiten igual que en la ronda 1; no bloquea.",
+    "cierre 5: la frase final (una guerra / una mesa, 147 años) amarra el video y el teaser de la serie es concreto."
+  ],
+  "cambios": [
+    "Tarjeta '4 DE 5 · OFERTA · 1950': aparecerEn «cincuenta» (bloque 3.7) → aparecerEn «dispuesto» (bloque 3.8)",
+    "Tarjeta '1 DE 5 · OFERTA · 1895': aparecerEn «cinco» (choca con la tarjeta 1895) → aparecerEn «salida» (2.3, 'aparece la primera salida')",
+    "Tarjeta '2 DE 5 · OFERTA · 1920': aparecerEn «veinte» (choca con la tarjeta 1920) → aparecerEn «acceso» (3.1)",
+    "Tarjeta '3 DE 5 · OFERTA · 1926': aparecerEn «Kellogg» (junto al polaroid) → aparecerEn «cedan» (3.3)",
+    "Tarjeta '5 DE 5 · OFERTA · 1975': aparecerEn «diciembre» (choca con 'DIC. 1975') → aparecerEn «franja» (4.3), o fundir las dos en una: 'DIC. 1975' / 'PROPUESTA DE CHILE · OFERTA 5 DE 5'",
+    "5.7: 'Y una Armada: unos cinco mil efectivos en el lago Titicaca…' → 'Y una Armada: miles de marinos en el lago Titicaca…' (tarjeta '~5.000 / EFECTIVOS' → 'ARMADA BOLIVIANA / LAGO Y RÍOS'), o mantener la cifra con una fuente oficial reciente (Ministerio de Defensa / Atlas RESDAL) anotada en el informe",
+    "4.7 JSON: clave ['Chile','Bolivia','Perú','aguas'] → ['Chile','Bolivia','Perú','mar']",
+    "2.→ (re-enganche antes del mid-roll 1, ~9–10 s): 'Pero quedaba un cabo suelto: Arica todavía no era chilena del todo. Y ese detalle pesaría en cada intento que vino después.' → '…Y ese detalle, decidido en una sala lejos del desierto, pesaría en cada intento que vino después.' (opcional; +6 palabras, deja el total ≈1.395)",
+    "Regenerar contenido/borradores/largo-bolivia-mar.texto.md desde el JSON: dirección de 4.7 y 5.5, las tarjetas N DE 5, y la tabla de tiempos con los mid-rolls 4:15 / 7:45 (y 6:05 opcional) en lugar de 2:27 / 6:05",
+    "Dirección visual (sigue pendiente, recomendado y no bloqueante): apertura 'plano [-69.0,-22.7] z6.6 · corte' sin candado → agregar icono 🔒 sobre Arica en «Bolivia» del cold open; 5.2 'plano [4.3,52.08] z8.2 · corte' → paneo del Palacio de la Paz al mapa de Sudamérica",
+    "Antes del render: correr scripts/camara.mts y problemasDeRitmo sobre el JSON de la ronda 2, y mirar los fotogramas de 1.1, 2.7, 4.1, 5.5 y 5.7 por si aparece una persona reconocible"
+  ],
+  "hechos_dudosos": [
+    "Armada boliviana ~5.000 efectivos: la única fuente encontrada es la cifra de 2008 de Wikipedia en inglés; no hay dato oficial reciente (ver cambios).",
+    "Respuesta de Perú 'en noviembre de 1976': no encontré la fecha exacta en la web (las fuentes hablan de 1976 y de la tesis de la soberanía compartida). La voz dice solo el mes, que es lo seguro; la tarjeta 'NOV. 1976' es aceptable si el informe del autor cita el anexo de la CIJ.",
+    "Ruptura del 17-3-1978: lo respalda la nota de EFE del 18-3-1978; la Wikipedia en inglés trae por error '17 de marzo de 1982' en otra sección. La fecha del guion es la correcta.",
+    "'El diecinueve de diciembre Chile le pregunta a Perú': el 19-12-1975 está confirmado para la nota chilena a Bolivia; que la consulta a Perú sea del mismo día es la versión habitual, pero no la confirmé de forma independiente. Si el informe del autor no la ancla a la CIJ, decir 'ese mismo diciembre'.",
+    "Montevideo 1987 y el párrafo 176: no los re-verifiqué (el informe del autor cita a la CIJ); no encontré nada que los contradiga.",
+    "1950 como 'oferta': es defendible (en la nota chilena Chile se declara dispuesto a negociar una salida soberana), pero la iniciativa fue de Bolivia; por eso la tarjeta tiene que acompañar a «dispuesto» y no a «cincuenta»."
+  ],
+  "revisor": "opus",
+  "fecha": "2026-11-15",
+  "fuentes_revisor": [
+    "https://en.wikipedia.org/wiki/Obligation_to_Negotiate_Access_to_the_Pacific_Ocean",
+    "https://en.wikipedia.org/wiki/Chara%C3%B1a_Accord",
+    "https://revistamarina.cl/revistas/1994/3/Y.C.pdf",
+    "https://revistamarina.cl/revistas/2013/4/escenarios_ranson.pdf",
+    "https://www.memoriachilena.gob.cl/602/w3-article-92273.html",
+    "https://en.wikipedia.org/wiki/Arica%E2%80%93La_Paz_railway",
+    "https://www.wikipedia.org/wiki/Bolivia_Mar",
+    "https://www.canal26.com/internacionales/2026/05/07/la-playa-olvidada-de-sudamerica-que-podria-darle-mar-a-bolivia-hasta-2091-5-km-frente-al-pacifico-hoy-en-total-abandono/",
+    "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Bolivian_Naval_Force",
+    "https://eju.tv/2012/03/las-causas-del-fracaso-de-la-negociacin-con-chile-de-1975/"
+  ],
+  "santiago": {
+    "estado": "pendiente",
+    "vence": "sáb 2026-11-21 23:59",
+    "nota": "Aprobado en la ronda 2. Antes del render faltan: mover las 5 tarjetas del contador (3 se pisan con otras y la de 1950 va en el bloque equivocado), suavizar la cifra de la Armada, regenerar el .texto.md y correr camara.mts. Ninguno de estos cambios toca la tesis."
+  }
+}
