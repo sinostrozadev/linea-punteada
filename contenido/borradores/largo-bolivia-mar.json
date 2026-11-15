@@ -2013,11 +2013,21 @@
             "planos": [
               {
                 "centro": [
+                  -70.0,
+                  -18.0
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
                   -69.9,
                   -18.1
                 ],
-                "zoom": 8.5,
-                "entrada": "corte",
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "en": "Arica",
                 "deriva": 0.2
               },
               {
@@ -2103,7 +2113,7 @@
             ],
             "contexto": {
               "texto": "DOS LLAVES",
-              "dice": "llaves"
+              "dice": "Traducido"
             },
             "clave": [
               "Arica",
@@ -2156,13 +2166,39 @@
                   ]
                 ],
                 "duracionSeg": 2.5
+              },
+              {
+                "lon": -68.9,
+                "lat": -17.1,
+                "icono": "tratado",
+                "aparecerEn": "memorando"
               }
             ],
             "clave": [
               "memorando",
               "renuncia",
               "cincuenta"
-            ]
+            ],
+            "etiquetas": [
+              {
+                "lon": -68.13,
+                "lat": -16.5,
+                "texto": "LA PAZ",
+                "tipo": "pin",
+                "aparecerEn": "responde"
+              },
+              {
+                "lon": -72.4,
+                "lat": -19.8,
+                "texto": "OCÉANO PACÍFICO",
+                "tipo": "mar",
+                "aparecerEn": "recuperar"
+              }
+            ],
+            "contexto": {
+              "texto": "1929 · NO RENUNCIA",
+              "dice": "renuncia"
+            }
           },
           {
             "texto": "Bolivia propone negociar una salida propia y soberana al Pacífico. Chile se dice dispuesto, a cambio de compensaciones no territoriales. No pasa de las notas.",
@@ -2221,7 +2257,7 @@
             ],
             "contexto": {
               "texto": "SOLO NOTAS",
-              "dice": "notas"
+              "dice": "compensaciones"
             },
             "clave": [
               "soberana",
