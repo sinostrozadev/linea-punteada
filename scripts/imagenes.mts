@@ -20,7 +20,7 @@ import type { GuionBase, ImagenEscena, ImagenResuelta, ImagenesResueltas } from 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const API = 'https://commons.wikimedia.org/w/api.php';
 /** Wikimedia pide un User-Agent descriptivo con contacto: https://meta.wikimedia.org/wiki/User-Agent_policy */
-const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: sinostrozadev@gmail.com)';
+const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: https://github.com/sinostrozadev/linea-punteada)';
 const LADO_MINIMO = 1200;
 const ANCHO_DESCARGA = 1280; // suficiente para la tarjeta (960 px); más grande gasta RAM en el render
 const RESULTADOS = 20;

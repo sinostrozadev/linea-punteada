@@ -16,7 +16,7 @@ import { FORMATO } from '../src/marca/tokens';
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const WMS = 'https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi';
 const LADO_MAX = 2048;
-const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: sinostrozadev@gmail.com)';
+const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: https://github.com/sinostrozadev/linea-punteada)';
 
 const CAPAS = {
   landsat: { capa: 'Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual', credito: 'Imagen: NASA GIBS · Landsat WELD (USGS/NASA)' },

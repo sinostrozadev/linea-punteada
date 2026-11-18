@@ -22,7 +22,7 @@ const MARGEN = 2;
 // Lado máximo del JPEG: con margen ×2 un 9:16 pide 2160×3840 px de encuadre; 2880 mantiene ~1,3 px de pantalla por
 // texel en el plano más abierto (lo mismo que tenía ×1,4 con 2048).
 const LADO_MAX = 2880;
-const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: sinostrozadev@gmail.com)';
+const USER_AGENT = 'LineaPunteada/1.0 (canal de YouTube Línea Punteada; contacto: https://github.com/sinostrozadev/linea-punteada)';
 
 type Capa = { id: string; url: (bbox: number[], w: number, h: number) => string; credito: string };
 
