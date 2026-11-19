@@ -1,5 +1,44 @@
 # Línea Punteada — Plan semanal (rodante)
 
+## ⚡ 2026-11-18 noche — cambio de fórmula y lote de prueba (manda sobre lo de abajo)
+
+Decisiones en `docs/DECISIONES.md` (2026-11-18). Diagnóstico: `/home/santiago/projects/yt/_propuestas/2026-11-18-diagnostico-virales.md`.
+
+**Semana en curso (lun 16 → dom 22-11), como quedó en YouTube (verificado por API con `scripts/programados.mts`):**
+| Día | Hora | Short | Estado |
+|---|---|---|---|
+| jue 19 | 12:00 | Templo de Camboya `dNIhjwrpjQM` (fórmula vieja) | programado |
+| jue 19 | 18:00 | **GTA 6 — "Vice City existe: la Florida real detrás del mapa de GTA 6"** (fórmula directa, contingente: GTA 6 sale el 19-11) | ver JSON |
+| vie 20 | 12:00 / 18:00 | Bir Tawil `3mOOPlFK1Og` · EE. UU.–Canadá `q0yKd9tZOfs` (vieja) | programado |
+| sáb 21 | 12:00 / 18:00 | Paraguay–Brasil `PMZlRn8sJzU` · Golfo de Fonseca `D3-DI5qFfzs` (vieja, LatAm: se quedan) | programado |
+| dom 22 | 12:00 | Brasil–español `2GG8WgFkypA` (vieja, LatAm) | programado |
+| dom 22 | 18:00 | **Lote 1/6** (fórmula directa) | ver JSON |
+| dom 22 | 19:00 | Largo Bolivia `OA5sbBsUMHU` | programado |
+Desplazados (no borrados): Namibia `OA10Y6KsnxM` → sáb 28 12:00; Finlandia–Suecia `iOL6dJBGA7U` → dom 29 12:00.
+
+**Lote de prueba de la fórmula directa (6 Shorts, dom 22 18:00 → mié 25 12:00) y cómo se lee:**
+- Umbral: **≥ 2 de 6 por encima de 3× la mediana actual del canal a los 7 días**. Mediana actual = 1.585 vistas (20 Shorts
+  publicados hasta el 16-11) → umbral **≥ 4.800 vistas a 7 días**. Si 0 de 6: volver a 120 s y probar el personaje en todos.
+- Métricas por video (Studio "se queda a ver" + Analytics API): vistas a 7 d, **% que se queda a ver** (hoy 70 %), **% visto**
+  (meta ≥ 85 %), **compartidos por 1.000 vistas** (hoy 0–4) y **comentarios por 1.000 vistas** (hoy 0–6). A/B bandera con ojos:
+  mismas métricas, mitad con (Mendoza, Rapa Nui, Antártida) vs mitad sin (Tierra del Fuego, Malvinas, Presidente Hayes).
+- **Fecha de lectura: jue 03-12-2026** (7 días después del último del lote; mismo día que el corte de 14 días de GTA 6).
+  Resultado → `docs/DECISIONES.md` + `salida/revisiones/2026-12-03.md`.
+
+**🔒 Hito del jue 19-11 17:00 → semana 23 → 29-11 (ORDEN para el ritual):**
+- Escribir TODOS los guiones de las ranuras libres de la semana con la **fórmula directa** (`docs/GUION.md` §2;
+  `npx tsx scripts/generar-guiones.mts --plantilla frontera --n K` ya la usa por defecto) + revisor independiente + validación
+  (`scripts/validar-guion.mts`, `scripts/camara.mts`). 80 % Chile o vecinos con outlier enlazado en `props.referente`.
+- Ranuras ya ocupadas: lun 23 12/18, mar 24 12/18, mié 25 12:00 (lote), sáb 28 12:00 (Namibia), dom 29 12:00 (Finlandia).
+  Libres: mié 25 18:00, jue 26 12/18, vie 27 12/18, sáb 28 18:00, **dom 29 18:00 = Short tráiler del largo**.
+- **Largo dom 29-11 19:00 (los largos NO se pausan):** tema Chile/vecinos con outlier (candidato: "Combate naval de Iquique
+  (1879)" ← Batallas en el Mapa 838 K https://www.youtube.com/watch?v=2gtM4uVoSl8; alternativa "Perú era superior: ¿por qué no
+  hubo guerra con Chile en 1975?" ← Factor Bélico 286 K https://www.youtube.com/watch?v=XjDbQw-Qn7I). Reglas de `docs/GUION.md`
+  §10: escena con fecha y lugar en los primeros 20–30 s, sin intro ni capítulos anunciados; título de rivalidad/paradoja;
+  carátula GPT; Short tráiler del mismo tema el dom 29 18:00 con "related video" al largo. Medida frente a Bushby y
+  Panamericana: impresiones y CTR a 7 d y % a los 30 s (metas ≥ 1.000, ≥ 4 %, ≥ 65 %).
+
+
 > **2026-11-15 (agente de producción):** semana 16→22 producida y programada; ids verificados en YouTube/Studio según la tabla JSON. Revisor independiente aplicado a cada guion (veredictos en `salida/revisiones/guiones/`).
 
 > Actualizado **2026-11-07 09:00** (America/Santiago) por Claude. Método: skill global `plan-semanal`.

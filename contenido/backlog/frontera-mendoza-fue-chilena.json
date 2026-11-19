@@ -1,0 +1,684 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-mendoza-fue-chilena",
+  "titulo": "Mendoza fue chilena 215 años. ¿Por qué hoy es argentina? 🇨🇱🇦🇷",
+  "descripcion": "Mendoza, hoy capital del vino argentino, perteneció a la Capitanía General de Chile desde su fundación en 1561 hasta 1776, es decir, 215 años. Con mapas recorremos esa historia: el gobernador chileno García Hurtado de Mendoza que mandó cruzar los Andes al capitán Pedro del Castillo, la fundación de Mendoza, San Juan y San Luis bajo gobierno de Chile, la real cédula del 1 de agosto de 1776 que pasó Cuyo al nuevo Virreinato del Río de la Plata, y cómo en 1817 el Ejército de los Andes partió de Mendoza para liberar Chile en Chacabuco. Una frontera que hoy parece obvia fue durante dos siglos una cordillera dentro de un mismo reino. ¿Tendría que haber sido chilena? Cuéntanos en los comentarios.",
+  "hashtags": [
+    "#shorts",
+    "#mendoza",
+    "#chile",
+    "#argentina",
+    "#geografia",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-mendoza-fue-chilena",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+    "cabecera": "MENDOZA — CUYO CHILENO",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "Mendoza, la capital del vino argentino, fue chilena durante 215 años, de 1561 a 1776. ¿Cómo terminó siendo argentina?",
+      "rotulo": "215 AÑOS",
+      "planos": [
+        {
+          "centro": [
+            -69.3,
+            -34.0
+          ],
+          "zoom": 5.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -69.6,
+            -33.6
+          ],
+          "zoom": 5.7,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Cómo"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -70.0,
+              -32.1
+            ],
+            [
+              -67.5,
+              -32.1
+            ],
+            [
+              -66.6,
+              -33.2
+            ],
+            [
+              -66.5,
+              -37.4
+            ],
+            [
+              -68.5,
+              -37.6
+            ],
+            [
+              -70.2,
+              -37.0
+            ],
+            [
+              -70.3,
+              -35.2
+            ],
+            [
+              -70.1,
+              -34.0
+            ],
+            [
+              -70.0,
+              -32.6
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -68.84,
+          "lat": -32.89,
+          "texto": "MENDOZA",
+          "tipo": "pin",
+          "aparecerEn": "Mendoza"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -71.6,
+          "lat": -34.8,
+          "mirar": [
+            -67.8,
+            -34.8
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "AR",
+          "lon": -67.2,
+          "lat": -35.4,
+          "mirar": [
+            -71.6,
+            -34.8
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "Mendoza",
+        "chilena",
+        "215"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "García Hurtado de Mendoza gobernaba Chile desde los 21 años. En 1560 mandó al capitán Pedro del Castillo a cruzar los Andes y poblar Cuyo.",
+        "rotulo": {
+          "texto": "1560",
+          "dice": "1560"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.6,
+              -33.4
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.6,
+              -33.1
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Andes"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Chile"
+          },
+          {
+            "lon": -68.84,
+            "lat": -32.89,
+            "texto": "CUYO",
+            "tipo": "region",
+            "aparecerEn": "Cuyo"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.65,
+              -33.45
+            ],
+            "hasta": [
+              -68.84,
+              -32.89
+            ],
+            "texto": "~190 KM",
+            "aparecerEn": "cruzar"
+          }
+        ],
+        "clave": [
+          "Chile",
+          "Castillo",
+          "Cuyo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Castillo fundó la ciudad el 2 de marzo de 1561 y le puso el apellido de su jefe: Mendoza. San Juan, en 1562, y San Luis, en 1594, nacieron también bajo gobierno de Chile.",
+        "rotulo": {
+          "texto": "MENDOZA",
+          "dice": "Mendoza"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.2,
+              -32.9
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.0,
+              -32.8
+            ],
+            "zoom": 7.7,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "apellido"
+          },
+          {
+            "centro": [
+              -67.2,
+              -32.6
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Juan"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.84,
+            "lat": -32.89,
+            "texto": "MENDOZA 1561",
+            "tipo": "pin",
+            "aparecerEn": "Mendoza"
+          },
+          {
+            "lon": -68.54,
+            "lat": -31.54,
+            "texto": "SAN JUAN 1562",
+            "tipo": "pin",
+            "aparecerEn": "Juan"
+          },
+          {
+            "lon": -66.34,
+            "lat": -33.3,
+            "texto": "SAN LUIS 1594",
+            "tipo": "pin",
+            "aparecerEn": "Luis"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 MAR 1561",
+            "sub": "FUNDACIÓN DE MENDOZA",
+            "icono": "📜",
+            "aparecerEn": "marzo",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1561",
+          "Mendoza",
+          "Chile"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Durante más de dos siglos Cuyo fue parte de la Capitanía General de Chile. Mendoza queda a unos 190 kilómetros de Santiago, en línea recta, y a casi mil de Buenos Aires.",
+        "rotulo": {
+          "texto": "190 KM",
+          "dice": "190"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.6,
+              -33.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -33.1
+            ],
+            "zoom": 6.9,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "queda"
+          },
+          {
+            "centro": [
+              -64.8,
+              -33.8
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Buenos"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Buenos"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -68.84,
+              -32.89
+            ],
+            "hasta": [
+              -58.38,
+              -34.6
+            ],
+            "texto": "~1.000 KM",
+            "aparecerEn": "mil"
+          }
+        ],
+        "clave": [
+          "Chile",
+          "190",
+          "mil"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1776 España creó el Virreinato del Río de la Plata, con capital en Buenos Aires. Una real cédula del 1 de agosto separó Cuyo de Chile y lo puso bajo el nuevo virrey.",
+        "rotulo": {
+          "texto": "1776",
+          "dice": "1776"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.5,
+              -34.2
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -60.5,
+              -34.3
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "capital"
+          },
+          {
+            "centro": [
+              -67.5,
+              -33.6
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Cuyo"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.0,
+                -32.1
+              ],
+              [
+                -67.5,
+                -32.1
+              ],
+              [
+                -66.6,
+                -33.2
+              ],
+              [
+                -66.5,
+                -37.4
+              ],
+              [
+                -68.5,
+                -37.6
+              ],
+              [
+                -70.2,
+                -37.0
+              ],
+              [
+                -70.3,
+                -35.2
+              ],
+              [
+                -70.1,
+                -34.0
+              ],
+              [
+                -70.0,
+                -32.6
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "solida",
+            "aparecerEn": "cédula",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1776",
+            "sub": "REAL CÉDULA",
+            "icono": "📜",
+            "aparecerEn": "cédula",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1776",
+          "Virreinato",
+          "Cuyo"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Pero en 1817, desde Mendoza, el general José de San Martín armó el Ejército de los Andes: más de 5.000 hombres y 9.000 mulas. Cruzó la cordillera y ganó en Chacabuco para liberar Chile.",
+        "rotulo": {
+          "texto": "1817",
+          "dice": "1817"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.8,
+              -32.9
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -32.9
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Ejército"
+          },
+          {
+            "centro": [
+              -69.8,
+              -32.9
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "cordillera"
+          },
+          {
+            "centro": [
+              -70.6,
+              -32.95
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Chacabuco"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.84,
+            "lat": -32.89,
+            "texto": "MENDOZA",
+            "tipo": "pin",
+            "aparecerEn": "Mendoza"
+          },
+          {
+            "lon": -70.7,
+            "lat": -32.95,
+            "texto": "CHACABUCO",
+            "tipo": "pin",
+            "aparecerEn": "Chacabuco"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.6,
+            "lat": -32.75,
+            "icono": "🫏",
+            "escala": 1.0,
+            "aparecerEn": "mulas"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -71.5,
+            "lat": -33.4,
+            "mirar": [
+              -68.84,
+              -32.89
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "Chile",
+            "quedarse": 0
+          },
+          {
+            "pais": "AR",
+            "lon": -67.3,
+            "lat": -33.9,
+            "mirar": [
+              -70.6,
+              -32.95
+            ],
+            "expresion": "normal",
+            "escala": 0.9,
+            "aparecerEn": "Chile",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "1817",
+          "San Martín",
+          "Chacabuco"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Mendoza es argentina y su área metropolitana supera el millón de habitantes. La cordillera es ahora la frontera.",
+        "rotulo": {
+          "texto": "FRONTERA",
+          "dice": "frontera"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.9,
+              -33.0
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.9,
+              -33.0
+            ],
+            "zoom": 8.2,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "cordillera"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.05,
+            "lat": -32.83,
+            "texto": "FRONTERA HOY",
+            "tipo": "pin",
+            "aparecerEn": "frontera"
+          }
+        ],
+        "clave": [
+          "frontera",
+          "Chile",
+          "millón"
+        ]
+      }
+    ],
+    "remate": "¿Mendoza tendría que haber sido chilena?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -69.3,
+          -34.0
+        ],
+        "zoom": 5.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -71.4,
+        "lat": -34.2,
+        "texto": "¿CHILENA?"
+      },
+      {
+        "lon": -67.6,
+        "lat": -34.2,
+        "texto": "¿ARGENTINA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Mendoza (fundación 2-03-1561 por Pedro del Castillo; traslado 1562; Reino de Chile; pase a Virreinato 1776; Ejército de los Andes)",
+        "url": "https://es.wikipedia.org/wiki/Mendoza_(Argentina)"
+      },
+      {
+        "texto": "Wikipedia: Virreinato del Río de la Plata (real cédula del 1-08-1776; Cuyo bajo Chile hasta entonces)",
+        "url": "https://es.wikipedia.org/wiki/Virreinato_del_R%C3%ADo_de_la_Plata"
+      },
+      {
+        "texto": "Memoria Chilena: García Hurtado de Mendoza (gobernador de Chile 1557-1561, nombrado a los 21 años)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-94304.html"
+      },
+      {
+        "texto": "Wikipedia: Pedro del Castillo (encargo de poblar Cuyo en 1560, fundación 2-03-1561)",
+        "url": "https://en.wikipedia.org/wiki/Pedro_del_Castillo"
+      },
+      {
+        "texto": "Diario de Cuyo: San Juan 1562 (Juan Jufré, en nombre del gobernador de Chile) y San Luis 1594 (Luis Jufré de Loaysa)",
+        "url": "https://www.diariodecuyo.com.ar/noticias/la-fundacion-de-san-juan-705068.html"
+      },
+      {
+        "texto": "Wikipedia: Ejército de los Andes (5.423 hombres, 9.281 mulas; Chacabuco 12-02-1817)",
+        "url": "https://es.wikipedia.org/wiki/Ej%C3%A9rcito_de_los_Andes"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 6,
+      "centro": [
+        -69.3,
+        -34.0
+      ],
+      "zoomInicial": 5.4,
+      "zoomFinal": 5.8,
+      "lineas": [
+        {
+          "id": "cruce-andes",
+          "puntos": [
+            [
+              -68.84,
+              -32.89
+            ],
+            [
+              -69.35,
+              -32.59
+            ],
+            [
+              -70.05,
+              -32.83
+            ],
+            [
+              -70.6,
+              -32.9
+            ],
+            [
+              -70.7,
+              -32.95
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "cordillera",
+          "etiqueta": "CRUCE 1817"
+        }
+      ]
+    }
+  }
+}

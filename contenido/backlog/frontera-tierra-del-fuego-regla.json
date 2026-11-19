@@ -1,0 +1,601 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-tierra-del-fuego-regla",
+  "titulo": "¿Por qué Tierra del Fuego está cortada con regla? 🇨🇱🇦🇷",
+  "descripcion": "Tierra del Fuego, la isla más grande de Sudamérica, está partida por una línea recta: el meridiano 68°34' oeste, fijado en el Tratado de Límites de 1881 entre Chile y Argentina. Con mapas satelitales vemos cómo se firmó ese tratado en Buenos Aires el 23 de julio de 1881, qué dice su artículo sobre la isla, cuántos kilómetros cuadrados quedaron de cada lado (unos 29.500 para Chile y 18.500 para Argentina) y la historia del ingeniero rumano Julius Popper, que buscó oro en la bahía San Sebastián, acuñó sus propias monedas y emitió sus propios sellos. Hoy, a un lado y otro de la línea, la isla es muy distinta: Chile tiene el 61 % del territorio y unos 8.000 habitantes; Argentina, el 39 % y más de 190.000. ¿Es justa una línea recta? Cuéntanos en los comentarios.",
+  "hashtags": [
+    "#shorts",
+    "#tierradelfuego",
+    "#chile",
+    "#argentina",
+    "#geografia",
+    "#fronteras"
+  ],
+  "props": {
+    "id": "pendiente-frontera-tierra-del-fuego-regla",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
+    "cabecera": "TIERRA DEL FUEGO — LA LÍNEA RECTA",
+    "acento": "cian",
+    "gancho": {
+      "texto": "La isla más grande de Sudamérica, Tierra del Fuego, está cortada con regla: 61 % para Chile y 39 % para Argentina.",
+      "rotulo": "61 % / 39 %",
+      "planos": [
+        {
+          "centro": [
+            -69.0,
+            -54.0
+          ],
+          "zoom": 6.3,
+          "entrada": "corte",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -68.6,
+              -52.65
+            ],
+            [
+              -67.6,
+              -53.9
+            ],
+            [
+              -66.3,
+              -54.2
+            ],
+            [
+              -65.3,
+              -54.7
+            ],
+            [
+              -66.5,
+              -55.0
+            ],
+            [
+              -68.3,
+              -54.9
+            ],
+            [
+              -70.5,
+              -55.0
+            ],
+            [
+              -72.5,
+              -54.5
+            ],
+            [
+              -73.6,
+              -53.9
+            ],
+            [
+              -72.0,
+              -53.6
+            ],
+            [
+              -70.4,
+              -53.3
+            ],
+            [
+              -69.5,
+              -52.95
+            ]
+          ],
+          "color": "azul",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.6,
+          "lat": -54.0,
+          "texto": "CHILE 61 %",
+          "tipo": "pais",
+          "aparecerEn": "Chile"
+        },
+        {
+          "lon": -67.0,
+          "lat": -54.3,
+          "texto": "ARGENTINA 39 %",
+          "tipo": "pais",
+          "aparecerEn": "Argentina"
+        }
+      ],
+      "clave": [
+        "Tierra",
+        "regla",
+        "61"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "El 23 de julio de 1881, en Buenos Aires, Chile y Argentina firmaron un tratado de límites. Argentina se quedó con la Patagonia oriental; Chile, con el estrecho de Magallanes.",
+        "rotulo": {
+          "texto": "1881",
+          "dice": "1881"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.5,
+              -50.0
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.3,
+              -49.8
+            ],
+            "zoom": 4.5,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Patagonia"
+          },
+          {
+            "centro": [
+              -69.0,
+              -52.9
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Magallanes"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.5,
+            "lat": -52.5,
+            "texto": "ESTRECHO DE MAGALLANES",
+            "tipo": "mar",
+            "aparecerEn": "estrecho"
+          },
+          {
+            "lon": -69.0,
+            "lat": -47.5,
+            "texto": "PATAGONIA",
+            "tipo": "region",
+            "aparecerEn": "Patagonia"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "23 JUL 1881",
+            "sub": "TRATADO DE LÍMITES",
+            "icono": "📜",
+            "aparecerEn": "julio",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1881",
+          "Patagonia",
+          "Magallanes"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Para la isla bastó una frase: desde el cabo Espíritu Santo, una línea recta al sur por el meridiano 68°34' oeste, hasta el canal Beagle. Con coordenadas, no con ríos ni cumbres.",
+        "rotulo": {
+          "texto": "68°34' O",
+          "dice": "meridiano"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.6,
+              -52.9
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.6,
+              -54.0
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Beagle"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.6,
+            "lat": -52.66,
+            "texto": "CABO ESPÍRITU SANTO",
+            "tipo": "pin",
+            "aparecerEn": "Espíritu"
+          },
+          {
+            "lon": -68.5,
+            "lat": -54.9,
+            "texto": "CANAL BEAGLE",
+            "tipo": "mar",
+            "aparecerEn": "Beagle"
+          }
+        ],
+        "clave": [
+          "Espíritu",
+          "meridiano",
+          "Beagle"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Firmaron Irigoyen por Argentina y Echeverría por Chile. De casi 48.000 kilómetros cuadrados, unos 29.500 quedaron para Chile y 18.500 para Argentina.",
+        "rotulo": {
+          "texto": "48.000 KM²",
+          "dice": "48.000"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.5,
+              -54.0
+            ],
+            "zoom": 6.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.0,
+              -54.0
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Argentina"
+          },
+          {
+            "centro": [
+              -69.6,
+              -54.0
+            ],
+            "zoom": 6.3,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "kilómetros"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -68.57,
+                -52.66
+              ],
+              [
+                -68.57,
+                -54.87
+              ],
+              [
+                -70.5,
+                -55.0
+              ],
+              [
+                -72.5,
+                -54.5
+              ],
+              [
+                -73.6,
+                -53.9
+              ],
+              [
+                -72.0,
+                -53.6
+              ],
+              [
+                -70.4,
+                -53.3
+              ],
+              [
+                -69.5,
+                -52.95
+              ]
+            ],
+            "color": "verde",
+            "trama": "solida",
+            "etiqueta": "29.500 KM² · CHILE",
+            "aparecerEn": "Chile",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "29.500 / 18.500",
+            "sub": "KM² CHILE / ARGENTINA",
+            "icono": "📏",
+            "aparecerEn": "29.500",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Irigoyen",
+          "Echeverría",
+          "48.000"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1886, el ingeniero rumano Julius Popper obtuvo permiso argentino y encontró oro en la bahía San Sebastián, en la isla.",
+        "rotulo": {
+          "texto": "ORO",
+          "dice": "oro"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.5,
+              -53.2
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.35,
+              -53.3
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "San"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.35,
+            "lat": -53.3,
+            "texto": "BAHÍA SAN SEBASTIÁN",
+            "tipo": "pin",
+            "aparecerEn": "Sebastián"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1886",
+            "sub": "ORO EN LA BAHÍA SAN SEBASTIÁN",
+            "icono": "🪙",
+            "aparecerEn": "1886",
+            "duracionSeg": 3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Julius Popper Tierra del Fuego",
+          "pie": "Julius Popper",
+          "lado": "derecha",
+          "aparecerEn": "rumano",
+          "duracionSeg": 3.5
+        },
+        "clave": [
+          "Popper",
+          "oro",
+          "Sebastián"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Popper tuvo fuerza armada propia, acuñó monedas de oro con su apellido e imprimió sellos que decían Tierra del Fuego. Murió en Buenos Aires en 1893, con 35 años.",
+        "rotulo": {
+          "texto": "POPPER",
+          "dice": "Popper"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.35,
+              -53.3
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -68.35,
+              -53.3
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "1893"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.5,
+            "lat": -53.4,
+            "icono": "🪙",
+            "escala": 1.2,
+            "aparecerEn": "monedas"
+          },
+          {
+            "lon": -68.2,
+            "lat": -53.4,
+            "icono": "✉️",
+            "escala": 1.1,
+            "aparecerEn": "sellos"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1889",
+            "sub": "MONEDAS DE ORO · POPPER",
+            "icono": "🪙",
+            "aparecerEn": "apellido",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Popper",
+          "monedas",
+          "sellos"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Hoy la línea se nota: Chile tiene el 61 % de la isla y unos 8.000 habitantes. Argentina, el 39 %, más de 190.000 y las ciudades de Río Grande y Ushuaia.",
+        "rotulo": {
+          "texto": "190.000",
+          "dice": "190.000"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.6,
+              -54.0
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.3,
+              -53.9
+            ],
+            "zoom": 6.7,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "unos"
+          },
+          {
+            "centro": [
+              -67.7,
+              -54.1
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Grande"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -67.71,
+            "lat": -53.79,
+            "texto": "RÍO GRANDE",
+            "tipo": "pin",
+            "aparecerEn": "Grande"
+          },
+          {
+            "lon": -68.3,
+            "lat": -54.8,
+            "texto": "USHUAIA",
+            "tipo": "pin",
+            "aparecerEn": "Ushuaia"
+          },
+          {
+            "lon": -70.4,
+            "lat": -53.3,
+            "texto": "PORVENIR",
+            "tipo": "pin",
+            "aparecerEn": "Chile"
+          }
+        ],
+        "clave": [
+          "Chile",
+          "190.000",
+          "Ushuaia"
+        ]
+      }
+    ],
+    "remate": "¿Una línea recta es la forma más justa de repartir una isla?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -69.0,
+          -54.0
+        ],
+        "zoom": 6.3,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -70.6,
+        "lat": -54.2,
+        "texto": "¿JUSTA?"
+      },
+      {
+        "lon": -66.9,
+        "lat": -54.2,
+        "texto": "¿O CAPRICHO?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Tratado de Límites 1881, art. 3 (cabo Espíritu Santo, 52°40' S, meridiano 68°34' O hasta el Beagle) — FRUS 1881",
+        "url": "https://history.state.gov/historicaldocuments/frus1881/d8"
+      },
+      {
+        "texto": "Ley N.º 1116 (Argentina): texto del Tratado de 1881",
+        "url": "https://www.conicet.gov.ar/wp-content/uploads/Ley-N%C2%BA-1116-Tratado.pdf"
+      },
+      {
+        "texto": "Wikipedia: Boundary Treaty of 1881 (firma 23-07-1881; Irigoyen y Echeverría; art. 2 y 5)",
+        "url": "https://en.wikipedia.org/wiki/Boundary_Treaty_of_1881_between_Chile_and_Argentina"
+      },
+      {
+        "texto": "Wikipedia: Isla Grande de Tierra del Fuego (47.992 km²; 61,43 % Chile = ~29.500 km², 38,57 % Argentina = ~18.500 km²; ~190.000 hab. lado argentino 2022)",
+        "url": "https://en.wikipedia.org/wiki/Isla_Grande_de_Tierra_del_Fuego"
+      },
+      {
+        "texto": "Wikipedia: Julius Popper (expedición 1886, fuerza armada, monedas, sellos, muerte 1893)",
+        "url": "https://en.wikipedia.org/wiki/Julius_Popper"
+      },
+      {
+        "texto": "Numisquare: moneda 'Tierra del Fuego Popper 1889' de 5 gramos",
+        "url": "https://www.numisquare.com/5-gramos-1889-5470493710.html"
+      },
+      {
+        "texto": "Censo INE Chile 2017: provincia de Tierra del Fuego (~8.400 habitantes)",
+        "url": "https://telencuestas.com/censos-de-poblacion/chile/2017/magallanes-y-de-la-antartica-chilena/tierra-del-fuego"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -69.0,
+        -54.0
+      ],
+      "zoomInicial": 6.3,
+      "zoomFinal": 6.7,
+      "lineas": [
+        {
+          "id": "meridiano",
+          "puntos": [
+            [
+              -68.57,
+              -52.66
+            ],
+            [
+              -68.57,
+              -54.87
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 1,
+          "dice": "meridiano",
+          "etiqueta": "68°34' O"
+        }
+      ]
+    }
+  }
+}
