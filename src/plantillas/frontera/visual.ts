@@ -118,7 +118,9 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
   const dirs: Dir[] = [g.gancho as unknown as Dir, ...(g.escenas as Dir[]), { texto: g.remate, planos: g.rematePlanos } as Dir];
   const finDeLinea = (k: number) => { const b = plan.bloques[k]; return (b.desde + b.frames) / fps; };
   const ventana = (k: number, r: ReturnType<typeof resolverDeBase>, a: Momento | undefined, d: Momento | undefined, q: Quedarse | undefined, defA = 0.25): Ventana => {
-    const desde = r.en(a, defA);
+    let desde = r.en(a, defA);
+    // Fórmula directa: lo que el gancho pide desde el arranque ya está entero en el frame 0 (sin fundido de entrada).
+    if (k === 0 && T0 === 0 && desde <= 0.05) desde = -1;
     let hasta = q === 'siempre' ? fin : finDeLinea(Math.min(ultima, k + (q ?? 0)));
     if (d !== undefined) hasta = Math.max(desde + 0.4, r.en(d, 0));
     return { desde, hasta };
