@@ -12,7 +12,13 @@
     "#chaco"
   ],
   "duracionSeg": 84.5,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "shorts-2026-11-19-44448765101"
+  "artefacto": "shorts-2026-11-19-44448765101",
+  "publicarEn": "2026-11-25T15:00:00.000Z",
+  "videoId": "saWVBOhFN5U",
+  "url": "https://youtube.com/shorts/saWVBOhFN5U",
+  "programado": "2026-11-25 12:00",
+  "subidoEn": "2026-11-19T03:36:35.024Z",
+  "reprogramadoEn": "2026-11-19T03:36:49.500Z"
 }

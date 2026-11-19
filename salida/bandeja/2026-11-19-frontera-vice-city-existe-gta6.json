@@ -12,7 +12,13 @@
     "#vicecity"
   ],
   "duracionSeg": 80.3,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "shorts-2026-11-19-44448711074"
+  "artefacto": "shorts-2026-11-19-44448711074",
+  "publicarEn": "2026-11-19T21:00:00.000Z",
+  "videoId": "jnc7fW2GaT8",
+  "url": "https://youtube.com/shorts/jnc7fW2GaT8",
+  "programado": "2026-11-19 18:00",
+  "subidoEn": "2026-11-19T03:31:30.351Z",
+  "reprogramadoEn": "2026-11-19T03:31:46.496Z"
 }

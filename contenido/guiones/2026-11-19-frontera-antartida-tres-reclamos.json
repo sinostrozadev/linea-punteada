@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-antartida-tres-reclamos",
+  "id": "2026-11-19-frontera-antartida-tres-reclamos",
   "titulo": "Tres países reclaman la misma Antártida hasta el Polo Sur 🇨🇱🇦🇷🇬🇧",
   "descripcion": "Chile, Argentina y el Reino Unido reclaman porciones de la Antártida que se superponen y que llegan hasta el Polo Sur: el Reino Unido desde 1908 (entre los 20° y los 80° oeste), Chile desde 1940 (53° a 90° oeste) y Argentina desde 1946 (25° a 74° oeste). Entre los 53° y los 74° oeste los tres reclamos coinciden, justo donde están la base argentina Esperanza, donde nació Emilio Palma en 1978, y la aldea chilena Villa Las Estrellas, fundada en 1984. En 1959 doce países firmaron el Tratado Antártico, vigente desde 1961, que no anula los reclamos pero congela su ampliación. Los hechos de las tres partes, sin tomar posición. Fuentes: Wikipedia, Territorial claims in Antarctica; Wikipedia, Emilio Palma; Wikipedia, Villa Las Estrellas; Wikipedia, Esperanza Base; Secretaría del Tratado Antártico. Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#chile"
   ],
   "props": {
-    "id": "pendiente-frontera-antartida-tres-reclamos",
+    "id": "2026-11-19-frontera-antartida-tres-reclamos",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
     "cabecera": "ANTÁRTIDA — TRES RECLAMOS",
@@ -115,7 +115,7 @@
             -66
           ],
           "expresion": "normal",
-          "escala": 1.0,
+          "escala": 1,
           "aparecerEn": "Chile",
           "quedarse": 0
         },
@@ -128,7 +128,7 @@
             -68
           ],
           "expresion": "normal",
-          "escala": 1.0,
+          "escala": 1,
           "aparecerEn": "Argentina",
           "quedarse": 0
         },
@@ -141,7 +141,7 @@
             -64
           ],
           "expresion": "enojo",
-          "escala": 1.0,
+          "escala": 1,
           "aparecerEn": "Reino",
           "quedarse": 0
         }

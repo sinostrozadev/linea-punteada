@@ -8,15 +8,15 @@ Decisiones en `docs/DECISIONES.md` (2026-11-18). Diagnóstico: `/home/santiago/p
 | Día | Hora | Short | Estado |
 |---|---|---|---|
 | jue 19 | 12:00 | Templo de Camboya `dNIhjwrpjQM` (fórmula vieja) | programado |
-| jue 19 | 18:00 | **GTA 6 — "Vice City existe: la Florida real detrás del mapa de GTA 6"** (fórmula directa, contingente: GTA 6 sale el 19-11) | ver JSON |
+| jue 19 | 18:00 | **GTA 6 — "Vice City existe: la Florida real detrás del mapa de GTA 6"** (fórmula directa, contingente) `jnc7fW2GaT8` | programado (publishAt verificado) |
 | vie 20 | 12:00 / 18:00 | Bir Tawil `3mOOPlFK1Og` · EE. UU.–Canadá `q0yKd9tZOfs` (vieja) | programado |
 | sáb 21 | 12:00 / 18:00 | Paraguay–Brasil `PMZlRn8sJzU` · Golfo de Fonseca `D3-DI5qFfzs` (vieja, LatAm: se quedan) | programado |
 | dom 22 | 12:00 | Brasil–español `2GG8WgFkypA` (vieja, LatAm) | programado |
-| dom 22 | 18:00 | **Lote 1/6** (fórmula directa) | ver JSON |
+| dom 22 | 18:00 | **Lote 1/6 Rapa Nui** `DT-JWRpuALo` | programado |
 | dom 22 | 19:00 | Largo Bolivia `OA5sbBsUMHU` | programado |
 Desplazados (no borrados): Namibia `OA10Y6KsnxM` → sáb 28 12:00; Finlandia–Suecia `iOL6dJBGA7U` → dom 29 12:00.
 
-**Lote de prueba de la fórmula directa (6 Shorts, dom 22 18:00 → mié 25 12:00) y cómo se lee:**
+**Lote de prueba de la fórmula directa (6 Shorts, todos programados y verificados por API):** dom 22 18:00 Rapa Nui `DT-JWRpuALo` (bandera) · lun 23 12:00 Malvinas `qiIzAO6oFqU` · lun 23 18:00 Mendoza `75pQ9Z-EiKc` (bandera) · mar 24 12:00 Tierra del Fuego `CjCF53JgcIY` · mar 24 18:00 Antártida `L2FQ-4_oGeU` (bandera) · mié 25 12:00 Presidente Hayes `saWVBOhFN5U`. Cómo se lee:
 - Umbral: **≥ 2 de 6 por encima de 3× la mediana actual del canal a los 7 días**. Mediana actual = 1.585 vistas (20 Shorts
   publicados hasta el 16-11) → umbral **≥ 4.800 vistas a 7 días**. Si 0 de 6: volver a 120 s y probar el personaje en todos.
 - Métricas por video (Studio "se queda a ver" + Analytics API): vistas a 7 d, **% que se queda a ver** (hoy 70 %), **% visto**
@@ -144,21 +144,16 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
   "version": 1,
   "canal": "linea-punteada",
   "zona": "America/Santiago",
-  "actualizado": "2026-11-15T08:20:44.559Z",
+  "actualizado": "2026-11-19T05:00:00Z",
   "semanas": [
-    {
-      "inicio": "2026-11-02",
-      "fin": "2026-11-08",
-      "rol": "en-curso"
-    },
-    {
-      "inicio": "2026-11-09",
-      "fin": "2026-11-15",
-      "rol": "siguiente"
-    },
     {
       "inicio": "2026-11-16",
       "fin": "2026-11-22",
+      "rol": "en-curso"
+    },
+    {
+      "inicio": "2026-11-23",
+      "fin": "2026-11-29",
       "rol": "siguiente"
     }
   ],
@@ -684,15 +679,19 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "¿Por qué Namibia tiene un brazo de 450 km que apunta a una cascada?",
-      "tipo": "evergreen",
+      "tema": "Vice City existe: la Florida real detrás del mapa de GTA 6",
+      "tipo": "contingente",
       "serie": null,
-      "contingencia": null,
+      "contingencia": {
+        "texto": "Lanzamiento de GTA 6 (19-11-2026)",
+        "url": "https://www.rockstargames.com/VI",
+        "fecha": "2026-11-19"
+      },
       "estado": "programado",
-      "guion": "contenido/backlog/frontera-por-que-namibia-tiene-un-brazo-de-450-km.json",
-      "videoId": "OA10Y6KsnxM",
-      "referente": "Ñerd (Shorts de frontera 2–3 min)",
-      "porQue": "evergreen verificado (contenido/verificaciones/); sin contingencia esta semana",
+      "guion": "contenido/guiones/2026-11-19-frontera-vice-city-existe-gta6.json",
+      "videoId": "jnc7fW2GaT8",
+      "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+      "porQue": "fórmula directa + ola de GTA 6 (cero material de Rockstar)",
       "bloqueo": null
     },
     {
@@ -780,6 +779,230 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
+      "tema": "Rapa Nui está a 3.500 km de Chile. ¿Por qué es chilena?",
+      "tipo": "evergreen",
+      "serie": "lote fórmula directa 1/6 (bandera: sí)",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/guiones/2026-11-19-frontera-rapa-nui-chilena.json",
+      "videoId": "DT-JWRpuALo",
+      "referente": "https://www.youtube.com/shorts/Fijc7yJXIz8",
+      "porQue": "lote de prueba de la fórmula directa",
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-22",
+      "hora": "19:00",
+      "formato": "largo",
+      "plantilla": "largo",
+      "tema": "A Bolivia le ofrecieron el mar 5 veces. ¿Qué falló?",
+      "tipo": "serie",
+      "serie": "El mar de Bolivia",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/borradores/largo-bolivia-mar.json",
+      "videoId": "OA5sbBsUMHU",
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "Malvinas: a 500 km de Argentina y 12.700 de Londres",
+      "tipo": "evergreen",
+      "serie": "lote 2/6 (bandera: no)",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/guiones/2026-11-19-frontera-malvinas-500-km.json",
+      "videoId": "qiIzAO6oFqU",
+      "referente": "https://www.youtube.com/shorts/F2VoOweP8DA",
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-23",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "Mendoza fue chilena 215 años. ¿Por qué hoy es argentina?",
+      "tipo": "evergreen",
+      "serie": "lote 3/6 (bandera: sí)",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/guiones/2026-11-19-frontera-mendoza-fue-chilena.json",
+      "videoId": "75pQ9Z-EiKc",
+      "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-24",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "¿Por qué Tierra del Fuego está cortada con regla?",
+      "tipo": "evergreen",
+      "serie": "lote 4/6 (bandera: no)",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/guiones/2026-11-19-frontera-tierra-del-fuego-regla.json",
+      "videoId": "CjCF53JgcIY",
+      "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-24",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "Tres países reclaman la misma Antártida hasta el Polo Sur",
+      "tipo": "evergreen",
+      "serie": "lote 5/6 (bandera: sí)",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/guiones/2026-11-19-frontera-antartida-tres-reclamos.json",
+      "videoId": "L2FQ-4_oGeU",
+      "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "Paraguay tiene un departamento con nombre de presidente de EE. UU.",
+      "tipo": "evergreen",
+      "serie": "lote 6/6 (bandera: no)",
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/guiones/2026-11-19-frontera-presidente-hayes-paraguay.json",
+      "videoId": "saWVBOhFN5U",
+      "referente": "https://www.youtube.com/shorts/EDCfVGL8NzI",
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-25",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "(ritual jue 19-11: fórmula directa, Chile/vecinos)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "(ritual jue 19-11: fórmula directa, Chile/vecinos)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-26",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "(ritual jue 19-11: fórmula directa, Chile/vecinos)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-27",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "(ritual jue 19-11: fórmula directa, Chile/vecinos)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-27",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "(ritual jue 19-11: fórmula directa, Chile/vecinos)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "¿Por qué Namibia tiene un brazo de 450 km que apunta a una cascada?",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "programado",
+      "guion": "contenido/backlog/frontera-por-que-namibia-tiene-un-brazo-de-450-km.json",
+      "videoId": "OA10Y6KsnxM",
+      "referente": "Ñerd (Shorts de frontera 2–3 min)",
+      "porQue": "desplazado 18-11 por GTA 6 (tema extranjero)",
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-28",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "(ritual jue 19-11: fórmula directa, Chile/vecinos)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-29",
+      "hora": "12:00",
+      "formato": "short",
+      "plantilla": "frontera",
       "tema": "¿Por qué Finlandia y Suecia torcieron su frontera por un faro?",
       "tipo": "evergreen",
       "serie": null,
@@ -788,24 +1011,40 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "guion": "contenido/backlog/frontera-por-que-finlandia-y-suecia-torcieron-su.json",
       "videoId": "iOL6dJBGA7U",
       "referente": "Ñerd",
-      "porQue": "falta guion",
+      "porQue": "desplazado 18-11 por el lote (tema extranjero)",
       "bloqueo": null
     },
     {
-      "fecha": "2026-11-22",
+      "fecha": "2026-11-29",
+      "hora": "18:00",
+      "formato": "short",
+      "plantilla": "frontera",
+      "tema": "Short tráiler del largo del 29 (mismo tema, related video al largo)",
+      "tipo": "evergreen",
+      "serie": null,
+      "contingencia": null,
+      "estado": "idea",
+      "guion": null,
+      "videoId": null,
+      "referente": null,
+      "porQue": null,
+      "bloqueo": null
+    },
+    {
+      "fecha": "2026-11-29",
       "hora": "19:00",
       "formato": "largo",
       "plantilla": "largo",
-      "tema": "30.000 km de carretera y le faltan 100. ¿Por qué? (Panamericana / Tapón del Darién)",
-      "tipo": "serie",
-      "serie": "Del estrecho al canal",
+      "tema": "Largo Chile/vecinos con apertura en escena (candidato: Combate naval de Iquique, 1879)",
+      "tipo": "evergreen",
+      "serie": null,
       "contingencia": null,
-      "estado": "guion",
-      "guion": "contenido/borradores/largo-panamericana-darien.json",
+      "estado": "idea",
+      "guion": null,
       "videoId": null,
-      "referente": "GeoGlobeTales / Ñerd",
-      "porQue": "continúa el largo de Bushby (cruzó el Darién); 43 afirmaciones verificadas",
-      "bloqueo": "falta preparar-largo + render-largo + carátula (brief GPT en el .texto.md); 2 fotos revisar rostros"
+      "referente": "https://www.youtube.com/watch?v=2gtM4uVoSl8",
+      "porQue": "GUION.md §10; medir vs Bushby y Panamericana",
+      "bloqueo": null
     }
   ]
 }

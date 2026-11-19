@@ -12,7 +12,13 @@
     "#fronteras"
   ],
   "duracionSeg": 91.2,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "shorts-2026-11-19-44448747374"
+  "artefacto": "shorts-2026-11-19-44448747374",
+  "publicarEn": "2026-11-24T15:00:00.000Z",
+  "videoId": "CjCF53JgcIY",
+  "url": "https://youtube.com/shorts/CjCF53JgcIY",
+  "programado": "2026-11-24 12:00",
+  "subidoEn": "2026-11-19T03:35:05.609Z",
+  "reprogramadoEn": "2026-11-19T03:35:33.884Z"
 }
