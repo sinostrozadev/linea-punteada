@@ -1,0 +1,613 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-san-andres-islas-y-mar",
+  "titulo": "San Andrés es de Colombia, pero La Haya repartió su mar 🇨🇴🇳🇮",
+  "descripcion": "San Andrés, Providencia y Santa Catalina están a unos 640 km de la costa continental colombiana y a unos 150 km de las islas del Maíz (Corn), de Nicaragua. Hechos de ambas partes: el tratado Esguerra-Bárcenas de 1928, que Nicaragua trató como válido más de 50 años y declaró nulo en 1980; la sentencia de la CIJ del 19 de noviembre de 2012, que confirmó la soberanía colombiana sobre siete formaciones y trazó una frontera marítima nueva: unos 75.000 km² de mar (cifra de prensa colombiana; la Corte no da km² y Nicaragua cita más) que Colombia da por perdidos y Nicaragua por recuperados; el retiro colombiano del Pacto de Bogotá; y el fallo de 2023, que rechazó la plataforma extendida de Nicaragua frente a la costa colombiana.\n\nFuentes: icj-cij.org/node/102086 icj-cij.org/node/101775 icj-cij.org/node/202955\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#sanandres",
+    "#colombia",
+    "#nicaragua",
+    "#geografia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-san-andres-islas-y-mar",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/jO245y7O5u0",
+    "cabecera": "SAN ANDRÉS — LAS ISLAS Y EL MAR",
+    "acento": "coral",
+    "gancho": {
+      "texto": "Colombia conservó San Andrés, a unos 640 km de su costa y a 150 de Nicaragua. Pero unos 75 mil kilómetros cuadrados de mar pasaron a Nicaragua.",
+      "rotulo": "SAN ANDRÉS",
+      "planos": [
+        {
+          "centro": [
+            -80.8,
+            14.1
+          ],
+          "zoom": 6.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -80.2,
+            10.6
+          ],
+          "zoom": 5.4,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "640"
+        },
+        {
+          "centro": [
+            -80.8,
+            13.2
+          ],
+          "zoom": 6.0,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "pasaron"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -82,
+              15.9
+            ],
+            [
+              -82,
+              14.8
+            ],
+            [
+              -81.0,
+              14.8
+            ],
+            [
+              -81.0,
+              14.2
+            ],
+            [
+              -82,
+              14.2
+            ],
+            [
+              -82,
+              13.75
+            ],
+            [
+              -81.1,
+              13.75
+            ],
+            [
+              -81.1,
+              12.35
+            ],
+            [
+              -79.7,
+              12.9
+            ],
+            [
+              -79.7,
+              14.0
+            ],
+            [
+              -80.65,
+              14.0
+            ],
+            [
+              -80.65,
+              14.55
+            ],
+            [
+              -79.7,
+              14.55
+            ],
+            [
+              -79.7,
+              14.7
+            ],
+            [
+              -80.2,
+              15.9
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "etiqueta": "MAR QUE PASÓ A NICARAGUA",
+          "etiquetaEn": [
+            -80.9,
+            15.2
+          ],
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -81.72,
+          "lat": 12.54,
+          "texto": "SAN ANDRÉS",
+          "tipo": "pin",
+          "aparecerEn": "San"
+        },
+        {
+          "lon": -77.35,
+          "lat": 8.66,
+          "texto": "COSTA COLOMBIANA",
+          "tipo": "pin",
+          "aparecerEn": "costa"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -81.72,
+            12.54
+          ],
+          "hasta": [
+            -77.35,
+            8.66
+          ],
+          "texto": "~640 KM",
+          "aparecerEn": "640"
+        },
+        {
+          "desde": [
+            -81.72,
+            12.54
+          ],
+          "hasta": [
+            -83.04,
+            12.17
+          ],
+          "texto": "150 KM A CORN",
+          "aparecerEn": "150"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CO",
+          "lon": -81.3,
+          "lat": 13.1,
+          "mirar": [
+            -80.6,
+            14.2
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "San Andrés",
+        "640",
+        "75"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1928 Colombia y Nicaragua firmaron el tratado Esguerra-Bárcenas: Nicaragua reconoce la soberanía colombiana sobre San Andrés, Providencia y Santa Catalina. En 1980 Nicaragua lo declaró nulo.",
+        "rotulo": {
+          "texto": "1928",
+          "dice": "1928"
+        },
+        "planos": [
+          {
+            "centro": [
+              -81.55,
+              12.95
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -81.37,
+              13.35
+            ],
+            "zoom": 8.0,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "Providencia"
+          },
+          {
+            "centro": [
+              -81.5,
+              13.0
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "nulo"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -81.37,
+            "lat": 13.35,
+            "texto": "PROVIDENCIA",
+            "tipo": "pin",
+            "aparecerEn": "Providencia"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1928",
+            "sub": "TRATADO ESGUERRA-BÁRCENAS",
+            "icono": "📜",
+            "aparecerEn": "firmaron",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Esguerra-Bárcenas",
+          "soberanía",
+          "nulo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 2007 la Corte Internacional de Justicia notó que Nicaragua lo había tratado como válido más de 50 años. Pero el tratado fijaba las islas, no el mar.",
+        "rotulo": {
+          "texto": "50 AÑOS",
+          "dice": "50"
+        },
+        "planos": [
+          {
+            "centro": [
+              -81.3,
+              13.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -80.9,
+              13.9
+            ],
+            "zoom": 6.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "mar"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "50+ AÑOS",
+            "sub": "NICARAGUA LO TRATÓ COMO VÁLIDO",
+            "icono": "⚖️",
+            "aparecerEn": "50",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2007",
+          "50",
+          "mar"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 19 de noviembre de 2012 la Corte confirmó que siete formaciones, entre ellas Serrana y Quitasueño, son colombianas. Quitasueño es un islote y varios bancos que solo asoman con marea baja: la Corte les trazó un contorno de 12 millas.",
+        "rotulo": {
+          "texto": "19-11-2012",
+          "dice": "2012"
+        },
+        "planos": [
+          {
+            "centro": [
+              -80.9,
+              13.9
+            ],
+            "zoom": 6.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -81.3,
+              14.5
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Quitasueño"
+          },
+          {
+            "centro": [
+              -81.0,
+              14.3
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "contorno"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -81.093,
+                14.5
+              ],
+              [
+                -81.121,
+                14.6
+              ],
+              [
+                -81.197,
+                14.673
+              ],
+              [
+                -81.3,
+                14.7
+              ],
+              [
+                -81.403,
+                14.673
+              ],
+              [
+                -81.479,
+                14.6
+              ],
+              [
+                -81.507,
+                14.5
+              ],
+              [
+                -81.479,
+                14.4
+              ],
+              [
+                -81.403,
+                14.327
+              ],
+              [
+                -81.3,
+                14.3
+              ],
+              [
+                -81.197,
+                14.327
+              ],
+              [
+                -81.121,
+                14.4
+              ]
+            ],
+            "color": "violeta",
+            "trama": "rayas",
+            "etiqueta": "12 MILLAS",
+            "aparecerEn": "contorno",
+            "quedarse": 0
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -80.35,
+            "lat": 14.27,
+            "texto": "SERRANA",
+            "tipo": "pin",
+            "aparecerEn": "Serrana"
+          },
+          {
+            "lon": -81.3,
+            "lat": 14.5,
+            "texto": "QUITASUEÑO",
+            "tipo": "pin",
+            "aparecerEn": "Quitasueño"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "7 FORMACIONES",
+            "sub": "DE SOBERANÍA COLOMBIANA",
+            "icono": "🏝️",
+            "aparecerEn": "siete",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "siete",
+          "Quitasueño",
+          "12 millas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Nicaragua celebró haber recuperado mar a menos de 200 millas de su costa. Colombia habló de omisiones, errores, excesos e inconsistencias, y anunció su retiro del Pacto de Bogotá.",
+        "rotulo": {
+          "texto": "200 MILLAS",
+          "dice": "200"
+        },
+        "planos": [
+          {
+            "centro": [
+              -81.5,
+              13.6
+            ],
+            "zoom": 5.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -82.5,
+              13.2
+            ],
+            "zoom": 6.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Colombia"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Nicaragua",
+            "color": "azul",
+            "trama": "rayas",
+            "etiqueta": "NICARAGUA",
+            "aparecerEn": "Nicaragua",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "PACTO DE BOGOTÁ",
+            "sub": "COLOMBIA ANUNCIA SU RETIRO · 2012",
+            "icono": "🏛️",
+            "aparecerEn": "retiro",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "200",
+          "errores",
+          "retiro"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "En 2022 la Corte dijo que Colombia violó derechos de Nicaragua en su zona económica. En 2023 rechazó, por 13 votos contra 4, que esa plataforma se extienda a menos de 200 millas de la costa continental colombiana.",
+        "rotulo": {
+          "texto": "13 A 4",
+          "dice": "13"
+        },
+        "planos": [
+          {
+            "centro": [
+              -80.3,
+              11.8
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.5,
+              9.6
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "costa"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Colombia",
+            "color": "verde",
+            "trama": "rayas",
+            "aparecerEn": "costa",
+            "quedarse": 0
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CO",
+            "lon": -80.2,
+            "lat": 11.3,
+            "mirar": [
+              -82.5,
+              13.2
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "2023",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "13–4",
+            "sub": "CIJ · 13 DE JULIO DE 2023",
+            "icono": "⚖️",
+            "aparecerEn": "13",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2022",
+          "2023",
+          "13"
+        ]
+      }
+    ],
+    "remate": "¿Quién ganó más en La Haya: Colombia o Nicaragua?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -80.8,
+          13.2
+        ],
+        "zoom": 5.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -81.2,
+        "lat": 11.6,
+        "texto": "¿COLOMBIA?"
+      },
+      {
+        "lon": -83.4,
+        "lat": 14.2,
+        "texto": "¿NICARAGUA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "CIJ: Sentencia del 19-11-2012, Nicaragua c. Colombia (comunicado)",
+        "url": "https://icj-cij.org/node/102086"
+      },
+      {
+        "texto": "CIJ: Sentencia del 13-12-2007, excepciones preliminares (tratado de 1928)",
+        "url": "https://icj-cij.org/node/101775"
+      },
+      {
+        "texto": "CIJ: Sentencia del 21-04-2022, presuntas violaciones en el Caribe",
+        "url": "https://www.icj-cij.org/index.php/node/106162"
+      },
+      {
+        "texto": "CIJ: Sentencia del 13-07-2023, plataforma continental más allá de 200 M",
+        "url": "https://icj-cij.org/node/202955"
+      },
+      {
+        "texto": "El Dínamo: Colombia anuncia retiro del Pacto de Bogotá (28-11-2012)",
+        "url": "https://www.eldinamo.cl/mundo/2012/11/28/coletazos-del-fallo-de-la-haya-colombia-anuncia-retiro-del-pacto-de-bogota/"
+      },
+      {
+        "texto": "El País (Cali): Colombia perdería 75 mil km² de mar",
+        "url": "https://www.elpais.com.co/colombia/colombia-perderia-75-mil-kilometros-de-mar-tras-el-fallo-de-la-haya-de-2012-1423.html"
+      },
+      {
+        "texto": "Wikipedia: San Andrés, Providencia y Santa Catalina",
+        "url": "https://en.wikipedia.org/wiki/San_Andr%C3%A9s,_Providencia_and_Santa_Catalina_Department"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -80.8,
+        14.1
+      ],
+      "zoomInicial": 6.4,
+      "zoomFinal": 6.8,
+      "lineas": []
+    }
+  }
+}
