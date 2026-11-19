@@ -2,7 +2,7 @@
  * Genera guiones nuevos para el backlog usando `claude -p` (Claude Code con la suscripción de Santiago;
  * nunca la API de Anthropic).
  *
- *   npx tsx scripts/generar-guiones.mts [--plantilla frontera|lugar|ruta] [--n 5] [--modelo X]
+ *   npx tsx scripts/generar-guiones.mts [--plantilla frontera|lugar|ruta] [--n 5] [--modelo X] [--formula directa|clasica]
  *                                        [--schema <archivo>] [--dry-run] [--mostrar-prompt]
  *
  * System prompt = docs/GUION.md (la fórmula y el estilo del canal, lo escribe Fable; si falta, se usa un
@@ -32,6 +32,8 @@ const { values: opc } = parseArgs({
     // Opus por defecto (regla de orquestación: subagentes nunca Fable). Medido 2026-11-06: 1 guion de frontera ≈ 7 min con Opus;
     // con el modelo por defecto de la sesión (Fable) no terminaba en 10 min.
     modelo: { type: 'string', default: 'opus' },
+    // Fórmula del guion (docs/GUION.md §2): directa (Shorts desde 2026-11-18, 70–90 s) o clasica (la de 2–3 min).
+    formula: { type: 'string', default: 'directa' },
     schema: { type: 'string' },
     'dry-run': { type: 'boolean', default: false },
     'mostrar-prompt': { type: 'boolean', default: false },
@@ -90,6 +92,27 @@ const leerGuionMd = (): string => {
   return GUION_MINIMO;
 };
 
+const REGLAS_DIRECTA = `REGLAS DURAS — FÓRMULA DIRECTA (docs/GUION.md §2; si no se cumplen, el guion se descarta):
+- props.formula = "directa". 180–230 palabras habladas (gancho + escenas + remate) ≈ 70–90 s. 5–7 escenas de 20–40 palabras.
+- La PRIMERA FRASE del gancho (≤ 24 palabras) es la paradoja COMPLETA y nombra el lugar: "Bolivia perdió territorio con sus cinco
+  vecinos y hoy tiene una armada con miles de marinos, pero no tiene mar." Nunca abre con "Mira", "Fíjate", "Imagina", "¿Sabías…".
+- Un número (cifra, año, distancia, "cinco", "la mitad") dentro de las primeras 22 palabras.
+- Escenas: solo "acto" (+ 1 "giro" y 1 "hoy" opcionales, sin frase de anuncio). PROHIBIDO: mito, mapa-de-ruta, "la explicación
+  fácil", "la verdad es más rara/simple/peor", "todo se explica con", "y al final", "dicen que", "y aquí está el giro", índices.
+- Un hecho nuevo cada 5–8 s y al menos 2 anécdotas concretas (una cita corta, una cifra pintoresca, un nombre con gesto).
+- El remate es una PREGUNTA que divida opiniones y se pueda contestar en los comentarios ("¿Mendoza debería haber sido chilena?",
+  "¿Quién tenía razón?"), sin engaño ni clickbait que el video no cumpla. ≤ 110 caracteres.
+- Sin tarjetaTitulo. El gancho declara planos y pinta el sujeto en el frame 0: área con "trama": "plena" del país/territorio y/o
+  "banderas" (personaje bandera con ojos; solo si el encargo lo pide para el A/B). rotulo del gancho = 1–2 palabras ENORMES
+  (el lugar o la cifra: "MENDOZA", "500 KM").
+- Fuente: no hace falta en la voz; las fuentes primarias van en "fuentes" (con URL) y opcionalmente una "fuente" en pantalla.
+- Título ≤ 70 con el LUGAR NOMBRADO (nunca "este pueblo", "esta isla") + banderas emoji al final (🇨🇱🇦🇷). Hashtags: #shorts + 3–5.
+- Temas: 80 % Chile o un vecino (Argentina, Bolivia, Perú) u otro tema latinoamericano con demanda probada en los referentes.
+- Mapa: coordenadas [lon, lat] reales; índices de escena 0-based (-1 = gancho). Gramática de cámara R1–R5 (sin cortes secos a otro lugar).
+- imagen/foto/polaroid: búsqueda EN INGLÉS como los títulos de Commons; nunca personas vivas ni logos.
+- Disputas activas: los hechos de las dos partes, cero opinión de la voz (la pregunta del remate es para el público).
+- descripcion SIN hashtags; nada "para niños". No repitas temas ni títulos de la lista de usados.`;
+
 const REGLAS = `REGLAS DURAS (si no se cumplen, el guion se descarta):
 - Valida contra el schema: 5–9 escenas, ≥ 1 "mito", exactamente 1 "giro" que empieza por "Y aquí está el giro", la última es "hoy",
   ≥ 1 escena con fuenteEnVoz: true (y la fuente dicha en el texto), 300–480 palabras habladas (gancho + escenas + remate).
@@ -120,7 +143,7 @@ ${ejemplos.length ? ejemplos.map((g) => JSON.stringify(g, null, 2)).join('\n\n')
 === TÍTULOS YA USADOS (no repetir ni parafrasear) ===
 ${usados.length ? usados.map((t) => `- ${t}`).join('\n') : '(ninguno)'}
 
-${REGLAS}
+${opc.formula === 'clasica' ? REGLAS : REGLAS_DIRECTA}
 
 RESPONDE SOLO con un array JSON válido de ${n} objeto(s) con la forma del envoltorio. Sin texto antes ni después, sin comentarios, sin bloque de código markdown.`;
 
@@ -182,7 +205,9 @@ const main = async () => {
 
   const existentes = [...leerGuiones(), ...leerBacklog()];
   // Ejemplos: preferir los guiones curados (contenido/guiones), que ya renderizaron, y luego el backlog.
-  const ejemplos = [...leerGuiones(), ...leerBacklog()].filter((g) => g.plantilla === plantilla).slice(0, 2).map(({ ruta: _r, ...g }) => g);
+  // Con la fórmula directa solo sirven de ejemplo los guiones directos (los viejos enseñan el andamiaje que se prohibió).
+  const deFormula = (g: Guion) => ((g.props as { formula?: string }).formula === 'directa') === (opc.formula !== 'clasica');
+  const ejemplos = [...leerGuiones(), ...leerBacklog()].filter((g) => g.plantilla === plantilla && deFormula(g)).slice(-2).map(({ ruta: _r, ...g }) => g);
   const usados = [...new Set([...existentes.map((g) => g.titulo), ...leerBandeja(true).map((e) => e.titulo)])];
 
   const prompt = construirPrompt(plantilla, n, schema.texto, rel(schema.ruta), ejemplos, usados);
@@ -224,7 +249,7 @@ const main = async () => {
       let nombre = `${plantilla}-${slug}`;
       for (let k = 2; fs.existsSync(path.join(DIR_BACKLOG, `${nombre}.json`)); k++) nombre = `${plantilla}-${slug}-${k}`;
       g.id = `pendiente-${nombre}`;
-      g.props = { ...g.props, id: g.id };
+      g.props = { ...g.props, id: g.id, ...(opc.formula === 'clasica' ? {} : { formula: 'directa' }) };
 
       if (validadores.props) {
         const v = validadores.props.safeParse(g.props);

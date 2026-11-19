@@ -23,9 +23,9 @@ import { bajarFondos, planificarFondos, type Vista } from './lib/satelite.mjs';
 import { recortarGeo } from './lib/geo.mjs';
 import { EnvoltorioFrontera, GuionFrontera } from '../src/plantillas/frontera/guion';
 import { DURACION_TRAZO_SEG, gradosPorPx } from '../src/plantillas/frontera/mapa';
-import { FRAMES_CIERRE_V2, T_TITULO, resolverVisual } from '../src/plantillas/frontera/visual';
+import { FRAMES_CIERRE_V2, resolverVisual, tTitulo } from '../src/plantillas/frontera/visual';
 import { planificar, type Evento } from '../src/plantillas/comun/plan';
-import { palabrasDelGuion } from '../src/plantillas/comun/guion';
+import { DURACION_DIRECTA, palabrasDelGuion } from '../src/plantillas/comun/guion';
 import { FORMATO, RITMO } from '../src/marca/tokens';
 
 const ruta = process.argv[2];
@@ -42,8 +42,10 @@ console.log(`guion ${guion.id}: ${guion.escenas.length} escenas, ${palabrasDelGu
 
 const tiempos = await generarVoz(guion.id, guion);
 const plan = planificar(guion, tiempos, FORMATO.fps, FRAMES_CIERRE_V2);
-if (plan.duracionSeg < RITMO.shortMin || plan.duracionSeg > RITMO.shortMax) {
-  console.error(`✗ duración ${plan.duracionSeg.toFixed(1)} s fuera de ${RITMO.shortMin}–${RITMO.shortMax} s (${guion.id}). ${plan.duracionSeg < RITMO.shortMin ? 'Alarga' : 'Recorta'} escenas.`);
+// Fórmula directa (docs/GUION.md §2): 70–90 s de objetivo, tope duro 62–95 s. Clásica: RITMO.shortMin–shortMax.
+const [dMin, dMax] = guion.formula === 'directa' ? [DURACION_DIRECTA.min, DURACION_DIRECTA.max] : [RITMO.shortMin, RITMO.shortMax];
+if (plan.duracionSeg < dMin || plan.duracionSeg > dMax) {
+  console.error(`✗ duración ${plan.duracionSeg.toFixed(1)} s fuera de ${dMin}–${dMax} s (${guion.id}). ${plan.duracionSeg < dMin ? 'Alarga' : 'Recorta'} escenas.`);
   process.exit(1);
 }
 
@@ -51,7 +53,8 @@ if (plan.duracionSeg < RITMO.shortMin || plan.duracionSeg > RITMO.shortMax) {
 const vis = resolverVisual(guion, plan);
 const crudos: Evento[] = [
   ...plan.eventos.filter((e) => e.tipo === 'golpe' || e.tipo === 'riser' || e.tipo === 'cierre'),
-  { t: T_TITULO - 0.12, tipo: 'whoosh' as const, fuerza: 0.9 },
+  ...(tTitulo(guion) > 0 ? [{ t: tTitulo(guion) - 0.12, tipo: 'whoosh' as const, fuerza: 0.9 }] : []),
+  ...vis.banderas.map((a) => ({ t: a.desde, tipo: 'pop' as const, fuerza: 0.55 })),
   // Los micro-movimientos que agrega la plantilla (paneos lentos) no llevan SFX: no son un cambio de plano.
   ...vis.planos.slice(1).filter((p) => !p.micro).map((p) => (p.entrada === 'corte' ? { t: p.t0, tipo: 'tic' as const, fuerza: 0.55 } : { t: Math.max(0, p.t0 - 0.1), tipo: 'whoosh' as const, fuerza: 0.7 })),
   ...vis.trazos.map((t) => ({ t, tipo: 'trazo' as const, fuerza: 1, dur: DURACION_TRAZO_SEG })),
@@ -106,7 +109,7 @@ vis.planos.forEach((p, i) => {
 });
 const tt = guion.tarjetaTitulo;
 const zTitulo = tt?.zoom ?? vis.planos[0].zoom - 1.6;
-vistas.push({ centro: tt?.centro ?? vis.planos[0].centro, zoomMin: zTitulo, zoomMax: zTitulo + 0.2 });
+if (tTitulo(guion) > 0) vistas.push({ centro: tt?.centro ?? vis.planos[0].centro, zoomMin: zTitulo, zoomMax: zTitulo + 0.2 });
 const fondos = guion.mapa.fondo === 'oscuro' ? [] : await bajarFondos(raiz, guion.id, planificarFondos(vistas, FORMATO.ancho, FORMATO.alto, guion.mapa.mes));
 if (guion.mapa.fondo !== 'oscuro' && !fondos.length) console.warn('  ⚠ sin recortes satelitales: el video usará el mapa oscuro de Natural Earth.');
 const lejana = vistas.reduce((a, v) => (v.zoomMin < a.zoomMin ? v : a), vistas[0]);

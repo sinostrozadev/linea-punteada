@@ -120,7 +120,8 @@ export const Area = z.object({
   linea: z.union([z.string(), z.array(LonLat).min(2)]).optional(),
   anchoKm: z.number().min(0.01).max(800).optional(),
   color: z.enum(COLORES_AREA),
-  trama: z.enum(['rayas', 'solida']).optional(),
+  /** rayas (por defecto) · solida (relleno 45 %) · plena (relleno 80 %, el país "pintado" de los referentes, para el frame 0). */
+  trama: z.enum(['rayas', 'solida', 'plena']).optional(),
   /** Texto dentro del área ("PERÚ", "EL TRIÁNGULO"); va en el centro o en `etiquetaEn`. */
   etiqueta: z.string().max(26).optional(),
   etiquetaEn: LonLat.optional(),
@@ -188,6 +189,29 @@ export const Resalte = z.object({
   duracionSeg: z.number().min(0.6).max(6).optional(),
 });
 
+/** Banderas dibujadas por código (src/plantillas/comun/visuales/BanderaConOjos.tsx). */
+export const PAISES_BANDERA = ['CL', 'AR', 'BO', 'PE', 'UY', 'PY', 'BR', 'EC', 'CO', 'VE', 'MX', 'GB', 'ES', 'FR', 'PT', 'US'] as const;
+
+/**
+ * Personaje "bandera con ojos" (diagnóstico 2026-11-18 §3.4, A/B): la bandera del país, con ojos que parpadean y miran
+ * hacia la acción, bracitos y boca. Va en el frame 0 (gancho) y en los giros, sobre su país. Máx. 4 a la vez.
+ */
+export const BanderaMapa = z.object({
+  pais: z.enum(PAISES_BANDERA),
+  lon: z.number().min(-180).max(180),
+  lat: z.number().min(-90).max(90),
+  /** Hacia dónde mira: un punto [lon, lat] del mapa (otra bandera, la isla) o una dirección. Por defecto, a cámara. */
+  mirar: z.union([LonLat, z.enum(['izquierda', 'derecha', 'arriba', 'abajo', 'camara'])]).optional(),
+  /** normal (sonrisa) · sorpresa (boca en O, cejas arriba) · enojo (cejas en V) · triste. */
+  expresion: z.enum(['normal', 'sorpresa', 'enojo', 'triste']).optional(),
+  /** 1 = 200 px de ancho. */
+  escala: z.number().min(0.4).max(2.5).optional(),
+  aparecerEn: Momento.optional(),
+  desaparecerEn: Momento.optional(),
+  quedarse: Quedarse.optional(),
+});
+export type BanderaMapa = z.infer<typeof BanderaMapa>;
+
 /** Campos cartográficos + comunes que puede llevar el gancho o cualquier escena. */
 const DireccionMapa = {
   ...DireccionComun,
@@ -197,6 +221,7 @@ const DireccionMapa = {
   cotas: z.array(Cota).max(4).optional(),
   iconos: z.array(IconoMapa).max(6).optional(),
   resaltes: z.array(Resalte).max(3).optional(),
+  banderas: z.array(BanderaMapa).max(4).optional(),
   /**
    * Solo en `mapa-de-ruta`: el índice ("⚖️ 1 · CONCORDIA", "📍 2 · HITO", "🌊 3 · EL MAR"). `indicePosicion`:
    * fila (arriba a la izquierda, por defecto) o vertical-mapa (apilado sobre el mapa en `indiceAncla`).
@@ -250,6 +275,12 @@ export const GuionFrontera = CamposFrontera.superRefine((g, ctx) => {
   (g.mapa.marcadores ?? []).forEach((m, i) => {
     if (m.aparecerEn >= n) ctx.addIssue({ code: 'custom', path: ['mapa', 'marcadores', i, 'aparecerEn'], message: `escena ${m.aparecerEn} no existe (hay ${n})` });
   });
+  // Fórmula directa: sin tarjeta de título (el frame 0 es el mapa con la paradoja) y con planos desde el gancho.
+  if (g.formula === 'directa') {
+    if (g.tarjetaTitulo) ctx.addIssue({ code: 'custom', path: ['tarjetaTitulo'], message: 'la fórmula directa no lleva tarjeta de título: el frame 0 es el mapa' });
+    if (!(g.gancho.planos ?? []).length) ctx.addIssue({ code: 'custom', path: ['gancho', 'planos'], message: 'la fórmula directa declara el plano del frame 0 en el gancho' });
+    if (!(g.gancho.areas ?? []).length && !(g.gancho.banderas ?? []).length) ctx.addIssue({ code: 'custom', path: ['gancho', 'areas'], message: 'el frame 0 necesita el sujeto pintado: un área (trama plena) o una bandera en el gancho' });
+  }
   // v2: si alguna escena dirige la cámara, el gancho también (el video empieza con un plano declarado).
   const usaPlanos = g.escenas.some((e) => (e.planos ?? []).length) || (g.rematePlanos ?? []).length;
   if (usaPlanos && !(g.gancho.planos ?? []).length) ctx.addIssue({ code: 'custom', path: ['gancho', 'planos'], message: 'con dirección visual v2, el gancho debe declarar ≥ 1 plano' });
@@ -269,6 +300,7 @@ export const GuionFrontera = CamposFrontera.superRefine((g, ctx) => {
       ...(e.etiquetas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]), ...(e.cotas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]),
       ...(e.iconos ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]), ...(e.tarjetas ?? []).map((t) => t.aparecerEn),
       ...(e.indice ?? []).map((t) => t.dice), ...(e.resaltes ?? []).map((t) => t.aparecerEn),
+      ...(e.banderas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]),
     ].filter((p): p is string => typeof p === 'string');
     const norm = (w: string) => w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9ñ]/g, '');
     const tokens = texto.split(/\s+/).map(norm);

@@ -4,15 +4,52 @@ Este archivo es el **system prompt** de `scripts/generar-guiones.mts` (se le peg
 zod de la plantilla y de la lista de títulos ya usados) y la guía para cualquier agente que escriba o revise guiones.
 Prioridad absoluta de Santiago: **la calidad del guion**. Un guion mediocre no se renderiza.
 
+> **2026-11-18 — FÓRMULA DIRECTA VIGENTE para todos los Shorts nuevos** (diagnóstico de virales,
+> `/home/santiago/projects/yt/_propuestas/2026-11-18-diagnostico-virales.md` §3). Más Allá del Mapa hizo nuestros mismos temas en
+> 75 s y sacó 548 K; nosotros, en 145 s con andamiaje, 3,3 K. La fórmula directa (§2) reemplaza a la clásica (§2b), que queda
+> solo como referencia de los guiones viejos y de los largos. `scripts/generar-guiones.mts` usa la directa por defecto.
+
 ## 1. Qué es el canal y a quién le habla
-Línea Punteada cuenta **una historia completa sobre un mapa** en 2–3 minutos: una frontera rara, una ruta humana absurda
+Línea Punteada cuenta **una historia completa sobre un mapa** en 70–90 segundos (antes 2–3 minutos): una frontera rara, una ruta humana absurda
 o un lugar que "no debería estar ahí". Público: hispanohablantes de 18–45 años que no vieron geografía desde el colegio
 y que paran el dedo cuando ven una línea rara en un mapa. Mirada **desde el sur del mundo**: Chile y Latinoamérica son el
 punto de partida natural, el mundo entero es el destino. Lema: "Cada línea del mapa esconde una historia."
 El narrador es una voz sintetizada; nunca se presenta como persona, experto ni testigo. Español neutro (ni "vosotros" ni
 chilenismos cerrados), tuteo directo ("Mira…", "Fíjate…"), presente histórico cuando ayuda al ritmo.
 
-## 2. La fórmula (orden obligatorio; cada paso es una escena del JSON con su `tipo`)
+## 2. La fórmula DIRECTA (Shorts desde 2026-11-18; `props.formula = "directa"`)
+Modelo: Más Allá del Mapa ("¿Por qué Bolivia tiene armada si no tiene mar?", 548 K en 76 s; "El secreto detrás de la forma de
+Chile", 1,6 M en 88 s) y GeoFronteras ("El Imperio Español se dividió en 18 países", 801 K en 63 s). Cada guion lleva en
+`props.referente` el enlace del outlier sobre el que se modeló.
+
+1. **Primera frase = la paradoja COMPLETA, con el lugar nombrado** (≤ 24 palabras, ~6 s): "Bolivia perdió territorio con cada
+   uno de sus cinco vecinos y hoy tiene una armada con miles de marinos, pero no tiene mar." / "Chile es más largo que Argentina,
+   pero en su parte más angosta mide apenas 90 km." / "Todo esto era España." Nunca "Mira…", "Fíjate…", "Imagina…", "¿Sabías…?".
+   El primer número suena en las primeras 22 palabras (≈ 8 s). El `rotulo` del gancho son 1–2 palabras ENORMES (el lugar o la
+   cifra) que se ven arriba desde el frame 0.
+2. **Cadena de hechos, sin andamiaje**: escenas `acto` (5–7 en total), cada una 20–40 palabras, cada frase un hecho nuevo
+   (fecha, nombre, cifra, lugar) cada 5–8 s. **Prohibido:** mito inventado, "dicen que", "la explicación fácil", "la verdad es más
+   rara/simple/peor", "todo se explica con N cosas", "y al final…", "y aquí está el giro", índices de capítulos. El orden es
+   cronológico o de causa a consecuencia; el giro se cuenta, no se anuncia (escena `giro` opcional, sin frase de entrada).
+3. **Anécdotas concretas** (≥ 2 por guion): la cita corta ("¿Rendirme yo? ¡Que se rinda su abuela!"), la cifra pintoresca ("un
+   impuesto de 10 centavos", "dos millones de libras y un tren"), la persona con nombre y gesto. Son lo que se comparte.
+4. **Humor seco** cuando cabe (una línea: "la armada sigue ahí, en el Titicaca, por las dudas"), nunca burla de un país.
+5. **Cierre que invita a comentar o compartir**: el `remate` es una PREGUNTA que divide opiniones y se contesta en una palabra
+   ("¿Mendoza tendría que haber sido chilena?", "¿Quién tenía razón: Lima o Santiago?"), honesta (el video ya dio los hechos de
+   las dos partes). Escena `hoy` opcional antes del remate (la huella visible).
+
+Largo: **180–230 palabras habladas** (gancho + escenas + remate) ≈ 70–90 s con la voz a +4 %; el render se rechaza fuera de
+62–95 s. Sin `tarjetaTitulo`: el frame 0 es el mapa con el sujeto pintado (área `trama: "plena"` y/o banderas con ojos) y el
+rótulo enorme arriba. La fuente no se dice en la voz (cuesta 3–4 s); va en `fuentes` (primarias, con URL) y, si ayuda, una
+`fuente` en pantalla. Temas: 80 % Chile o un vecino (Argentina, Bolivia, Perú) u otro tema latinoamericano con demanda probada.
+Título ≤ 70 con el lugar nombrado (nunca "este pueblo", "esta isla") y banderas emoji al final: "Mendoza fue chilena 215 años.
+¿Por qué hoy es argentina? 🇨🇱🇦🇷". Validación mecánica: `problemasDirecta()` en `src/plantillas/comun/guion.ts` (zod la aplica).
+
+**Personaje "bandera con ojos"** (`banderas[]` en el gancho y en el giro; `src/plantillas/comun/visuales/BanderaConOjos.tsx`):
+la bandera del país sobre su territorio, mira hacia la acción (`mirar`: otro punto del mapa) y cambia de `expresion` en el giro.
+Hasta medir el A/B (docs/DECISIONES.md, 2026-11-18) va en la MITAD de cada lote.
+
+## 2b. La fórmula CLÁSICA (legado: guiones hasta el 2026-11-17 y referencia para largos; no usar en Shorts nuevos)
 0. **GANCHO** (`gancho`, 2 frases, 20–35 palabras): imperativo visual + la rareza + la pregunta. Empieza con lo que se ve
    en el mapa: "Mira la frontera entre Chile y Argentina. Es la tercera más larga del mundo… y le falta un pedazo. ¿Por qué?"
    El `rotulo` del gancho son 1–3 palabras que resumen la rareza ("LE FALTA UN PEDAZO"). Nada de "¿Sabías que…?".
@@ -117,6 +154,10 @@ Revisión: `npx tsx scripts/camara.mts <guion.json>`.
   Lleva foto de Commons grande con Ken Burns y mapa inset.
 
 ## 7. Verificación antes de aceptar un guion (el generador y el revisor la pasan)
+**Fórmula directa (vigente):** `props.formula = "directa"`; 180–230 palabras; primera frase ≤ 24 palabras con el lugar y la
+paradoja completa; número en las primeras 22 palabras; sin andamiaje; ≥ 2 anécdotas; remate con pregunta; sin tarjeta de título;
+área plena o bandera en el gancho; `referente` con el enlace del outlier; título con el lugar y banderas emoji; hechos en fuentes
+primarias; cámara sin errores. Lo de abajo es la lista de la fórmula clásica (2b).
 - [ ] Hechos, cifras y fechas salen de `docs/IDEAS-INICIALES.md` (verificadas) o de una fuente primaria que se cita.
 - [ ] Gancho con imperativo visual + rareza + pregunta; `rotulo` del gancho entero y legible.
 - [ ] Mito con cierre "La verdad es más rara/simple/peor."; 1 giro que empieza "Y aquí está el giro:"; escena final `hoy`;
@@ -169,3 +210,22 @@ Revisión: `npx tsx scripts/camara.mts <guion.json>`.
 Cada lunes `scripts/revisar.mts` compara retención y vistas por guion y anota en `salida/revisiones/` qué ganchos, qué
 largos y qué tipos de historia rinden; las conclusiones se vuelcan AQUÍ (este archivo es vivo) y en `docs/DECISIONES.md`.
 Dos guiones seguidos con la misma estructura de gancho o el mismo país = se cambia uno.
+
+## 10. Largos (16:9, ≥ 8 min): apertura con ESCENA (vigente desde 2026-11-18)
+Diagnóstico 2026-11-18 §3–§4: en nuestros largos se va casi la mitad en 30 s (Bushby: 53 % a los 26 s) porque abren con una
+estadística y un índice. Los largos que despegan desde el video 1 (Batallas en el Mapa: Puebla 838 K; Curiosito: "¿Por qué
+Argentina dejó de ser potencia?" 347 K; Orbi Explicando: Centroamérica 126 K; Factor Bélico: "6 de agosto de 1975…") abren con
+**una escena con fecha y lugar**. Reglas para el guion de cada largo (`contenido/borradores/largo-*.json`, plantilla `largo`):
+1. **Primeros 20–30 s = una escena**: fecha + lugar + un detalle humano ("El 21 de mayo de 1879, frente a Iquique, una corbeta de
+   madera…"). Nada de intro, saludo, "en este video", índice ni anuncio de capítulos o fuentes. El dato duro llega dentro de la
+   historia, después del segundo 25.
+2. **Título de rivalidad o paradoja concreta**, con número cuando lo hay y el lugar nombrado: "Combate de Iquique (1879): 8 horas,
+   2 barcos de madera…", "Perú era superior: ¿por qué no hubo guerra con Chile en 1975?". ≤ 70 caracteres.
+3. **Tema Chile o vecinos con demanda probada**: `referente` = enlace del outlier del nicho que lo prueba.
+4. **Carátula GPT** (skill `caratulas-con-gpt`) con el molde que funciona en el nicho: mapa/escena con sujeto único, ≤ 4 palabras,
+   número grande; nunca 3 líneas de texto + subtítulo + marca. El subidor exige la carátula en `salida/caratulas/`.
+5. **Short tráiler del mismo tema, el mismo día** (fórmula directa §2, 70–90 s) con "related video" hacia el largo
+   (`herramientas/navegador/related-video.mjs <short> <largo>`) y comentario fijado que lo enlaza.
+6. Se mide contra los dos largos anteriores (Bushby `RMjYx4IUpjE`: 93 impresiones, CTR 3,2 %, 53 % a los 26 s; Panamericana
+   `S5BF4K20624`: 16 impresiones): **impresiones y CTR a 7 días y % que sigue a los 30 s**. Meta: ≥ 1.000 impresiones, CTR ≥ 4 %,
+   ≥ 65 % a los 30 s.

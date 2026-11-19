@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, type CalculateMetadataFunction } from 'remotion';
+import { AbsoluteFill, Audio, Sequence, spring, staticFile, useCurrentFrame, type CalculateMetadataFunction } from 'remotion';
 import { z } from 'zod';
 import { ACENTOS, FORMATO, MAPA, PALETA, TIPO } from '../../marca/tokens';
 import { cargarFuentes } from '../../marca/fuentes';
@@ -12,7 +12,7 @@ import { CamposFrontera, FondoCapa, FondoResuelto, type GeoRecortado } from './g
 import { Mapa, type Fondo } from './Mapa';
 import { TarjetaTitulo } from './TarjetaTitulo';
 import { proyeccion } from './mapa';
-import { FRAMES_CIERRE_V2, T_TITULO, camaraEn, fotoEn, resolverVisual, type Visual } from './visual';
+import { FRAMES_CIERRE_V2, camaraEn, fotoEn, resolverVisual, tTitulo, type Visual } from './visual';
 
 /** Props de la composición: el guion + lo que agrega preparar-frontera. */
 export const PropsFrontera = CamposFrontera.extend({
@@ -80,7 +80,12 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
   const foto = fotoEn(vis, t);
   const tarjetaActiva = vis.tarjetas.find((x) => t >= x.desde && t < x.hasta);
   const b = bloqueEn(plan, frame);
-  const enTitulo = t < T_TITULO;
+  const enTitulo = t < tTitulo(props);
+  // Fórmula directa: sin tarjeta; el rótulo del gancho va ENORME arriba desde el frame 0 hasta la primera escena
+  // (como "BOLIVIA" / "5 VECINOS" de los referentes), sobre el mapa con el país pintado.
+  const directa = props.formula === 'directa';
+  const finGancho = plan.bloques[1] ? plan.bloques[1].desde / FPS : 3;
+  const tituloArriba = directa && t < finGancho && !foto;
   const enCierre = frame >= plan.cierreDesde;
 
   // Índice: ítem activo durante los actos; ancla vertical proyectada si se pidió.
@@ -97,7 +102,7 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
   const bajar = indiceArriba ? ALTO_INDICE : 0;
   // El contexto va bajo la tarjeta (según su alto real: con pictos o barras es más alta) y nunca bajo el índice.
   const topTarjeta = ARRIBA_TARJETA + bajar;
-  const topContexto = tarjetaActiva ? topTarjeta + altoTarjeta(tarjetaActiva.d) + 24 : 330 + bajar;
+  const topContexto = tarjetaActiva ? topTarjeta + altoTarjeta(tarjetaActiva.d) + 24 : 330 + bajar + (tituloArriba ? 170 : 0);
   const contextoActivo = vis.contextos.find((c) => t >= c.desde && t < c.hasta);
   const fuenteActiva = vis.fuentes.find((f) => t >= f.desde && t < f.hasta);
 
@@ -118,6 +123,7 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
     const top = (pol.d.anio ? 380 : 470) + bajar, der = (pol.d.lado ?? 'derecha') === 'derecha';
     reservas.push({ x0: der ? W - 66 - 500 : 40, y0: top, x1: der ? W - 40 : 66 + 500, y1: top + (pol.d.anio ? 140 : 0) + 560 });
   }
+  if (tituloArriba) reservas.push({ x0: 40, y0: ARRIBA_TITULO - 10, x1: W - 40, y1: ARRIBA_TITULO + 150 });
   if (fuenteActiva) reservas.push({ x0: FORMATO.seguro.lados, y0: 1372, x1: FORMATO.seguro.lados + 920, y1: 1372 + 84 });
   if (oCredito > 0) reservas.push({ x0: W - 30 - ANCHO_CREDITO, y0: ARRIBA_CREDITO - 4, x1: W - 20, y1: ARRIBA_CREDITO + 32 });
 
@@ -153,6 +159,7 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
           {credito}
         </div>
       )}
+      {tituloArriba && <TituloArriba texto={props.gancho.rotulo} t={t} hasta={finGancho} />}
       {enTitulo && (
         <TarjetaTitulo texto={tt?.texto ?? props.gancho.rotulo} clave={tt?.clave} cam={camTitulo} t={t} mapa={props.mapa} fondos={fondos} geo={geo} vis={vis}
           acento={acento} paises={tt?.paises ?? props.mapa.paises} pines={tt?.pines} icono={tt?.icono} />
@@ -161,6 +168,22 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
         <CierreLinea frame={frame - plan.cierreDesde} acento={acento} />
       </Sequence>
     </AbsoluteFill>
+  );
+};
+
+const ARRIBA_TITULO = 250;
+
+/** Rótulo enorme del frame 0 en la fórmula directa: blanco, borde negro grueso, sin caja (estilo de los referentes). */
+const TituloArriba: React.FC<{ texto: string; t: number; hasta: number }> = ({ texto, t, hasta }) => {
+  const e = spring({ frame: Math.round(t * FPS), fps: FPS, config: { damping: 12, stiffness: 200 }, from: 0.85, to: 1 });
+  const salida = Math.max(0, Math.min(1, (hasta - t) / 0.25));
+  const largo = texto.length;
+  const tam = largo <= 10 ? 150 : largo <= 16 ? 124 : 100;
+  return (
+    <div style={{ position: 'absolute', left: 40, right: 40, top: ARRIBA_TITULO, textAlign: 'center', opacity: salida, transform: `scale(${e})` }}>
+      <span style={{ fontFamily: TIPO.condensada, fontSize: tam, lineHeight: 1, letterSpacing: 2, color: '#fff', textTransform: 'uppercase',
+        WebkitTextStroke: '10px #111', paintOrder: 'stroke fill', textShadow: '0 8px 18px rgba(0,0,0,0.6)' }}>{texto}</span>
+    </div>
   );
 };
 

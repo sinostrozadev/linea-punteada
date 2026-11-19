@@ -9,6 +9,7 @@ import { COLORES_GUION, COLORES_MASCARA, FORMATO, MAPA, PALETA, TIPO } from '../
 import { Icono } from '../comun/Icono';
 import { mascaraRecorte, opacidadPorCobertura } from '../comun/recorte';
 import type { FondoResuelto, GeoRecortado, MapaFrontera, Poligonos } from './guion';
+import { BanderaConOjos } from '../comun/visuales/BanderaConOjos';
 import { DURACION_TRAZO_SEG, escalaDeZoom, proyeccion, tipoProyeccion, type LonLat } from './mapa';
 import { camaraAsentada, opacidadVentana, type EstadoCamara, type Visual } from './visual';
 import { PRIORIDAD, anchoTexto, bordeMasCercano, resolverColisiones, type Caja, type EtiquetaColision } from './colisiones';
@@ -343,7 +344,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
           const { d, ancho: w } = geometriaArea(v.d);
           if (!d) return null;
           const c = COLORES_MASCARA[v.d.color];
-          const relleno = v.d.trama === 'solida' ? c : `url(#rayas-${v.d.color})`;
+          const relleno = v.d.trama === 'solida' || v.d.trama === 'plena' ? c : `url(#rayas-${v.d.color})`;
           if (w) {
             return (
               <g key={v.id} opacity={o}>
@@ -354,7 +355,7 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
           }
           return (
             <g key={v.id} opacity={o}>
-              <path d={d} fill={relleno} fillOpacity={v.d.trama === 'solida' ? 0.45 : 1} stroke="none" />
+              <path d={d} fill={relleno} fillOpacity={v.d.trama === 'plena' ? 0.8 : v.d.trama === 'solida' ? 0.45 : 1} stroke="none" />
               <g mask={v.d.pais ? mascaraBordes : undefined}>
                 <path d={d} fill="none" stroke={c} strokeWidth={10} strokeOpacity={0.4} filter="url(#brilloSuave)" />
                 <path d={d} fill="none" stroke="#fff" strokeWidth={3.5} strokeOpacity={0.9} strokeLinejoin="round" />
@@ -519,6 +520,25 @@ export const Mapa: React.FC<PropsMapa> = ({ mapa, fondos, geo, vis, t, cam, acen
                 <path d="M20 80 L80 20" stroke={PALETA.coral} strokeWidth={8} strokeLinecap="round" />
               </svg>
             )}
+          </div>
+        );
+      })}
+      {!soloBase && vis.banderas.map((v, n) => {
+        const o = opacidadVentana(v, t);
+        if (o <= 0) return null;
+        const p = xy([v.d.lon, v.d.lat]);
+        if (!p) return null;
+        const lado = 200 * (v.d.escala ?? 1);
+        // Mirada: hacia un punto del mapa (proyectado) o una dirección fija.
+        let mirada: [number, number] = [0, 0];
+        const m = v.d.mirar;
+        if (Array.isArray(m)) { const q = xy(m as LonLat); if (q) { const dx = q[0] - p[0], dy = q[1] - p[1], L = Math.hypot(dx, dy) || 1; mirada = [dx / L, dy / L]; } }
+        else if (m === 'izquierda') mirada = [-1, 0]; else if (m === 'derecha') mirada = [1, 0]; else if (m === 'arriba') mirada = [0, -1]; else if (m === 'abajo') mirada = [0, 1];
+        const e = resorte(t, v.desde, { damping: 9, stiffness: 180 });
+        const bob = Math.sin((t - v.desde) * 2.6 + n) * 6;
+        return (
+          <div key={v.id} style={{ position: 'absolute', left: p[0] - lado / 2, top: p[1] - lado * 0.36 + bob, width: lado, opacity: o, transform: `scale(${e})`, transformOrigin: '50% 80%' }}>
+            <BanderaConOjos pais={v.d.pais} t={t - v.desde} ancho={lado} mirada={mirada} expresion={v.d.expresion} semilla={n * 7 + v.k} />
           </div>
         );
       })}

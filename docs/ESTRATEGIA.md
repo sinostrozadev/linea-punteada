@@ -1,4 +1,4 @@
-# Línea Punteada — Estrategia (Claude al mando; actualizado 2026-11-05)
+# Línea Punteada — Estrategia (Claude al mando; actualizado 2026-11-18)
 
 > 🎯 **OBJETIVO: lograr la MONETIZACIÓN y GANAR MUCHO DINERO. Lo MÁS IMPORTANTE, por encima de calidad, volumen,
 > herramientas o cualquier otra meta, es MONETIZAR y HACER GANAR DINERO a Santiago** (orden textual, 2026-11-05).
@@ -7,6 +7,19 @@
 Mandato de Santiago (2026-11-05): "haz que el canal funcione, que se pueda monetizar y me haga ganar dinero; crea
 estrategias, toma decisiones, haz todo. Prepara bien el guion y mejora cada vez más la calidad del producto final."
 Claude decide y ejecuta; Santiago solo da los clics de identidad/consentimiento y pone el dinero si alguna vez hace falta.
+
+## 0. Cambio de rumbo 2026-11-18 (diagnóstico de virales; manda sobre lo que contradiga abajo)
+- **Shorts = fórmula directa** (docs/GUION.md §2): 70–90 s, paradoja completa en la primera frase, cadena de hechos sin
+  andamiaje, cierre con pregunta. Los Shorts de LP retienen sobre la media de YouTube (rel. 0,62–0,90) pero duran 116–152 s y
+  no generan compartidos ni comentarios (0–0,4 %): el feed no los empuja más allá del lote de prueba (~1.000–1.500 vistas).
+- **Temas: 80 % Chile o vecinos** (Argentina, Bolivia, Perú) u otro tema LatAm con demanda probada en los referentes.
+- **Meta-referente de Shorts: Más Allá del Mapa** (mediana 330 K, Shorts de 63–94 s); Ñerd queda como referencia secundaria.
+- **Lote de prueba de 6 Shorts** (sáb 21-11 → mié 25-11) + A/B de la bandera con ojos (3 con, 3 sin). Umbral: ≥ 2 de 6 sobre 3×
+  la mediana actual del canal a los 7 días (detalle y fecha de lectura en `docs/PLAN-SEMANAL.md`).
+- **Largos: siguen** (domingo 19:00): arranque con escena (fecha + lugar) en 20–30 s, título de rivalidad/paradoja, tema Chile/
+  vecinos con outlier, carátula GPT del molde del nicho y Short tráiler del mismo tema el mismo día con "related video".
+- Lo que se deja: andamiaje "mito → la verdad es más rara → todo se explica con N cosas → y al final"; temas extranjeros sin
+  gancho latino; tarjeta de título en el frame 0.
 
 ## 1. Objetivo y métrica que manda
 - **Meta 1 (90 días): entrar al YPP** → 1.000 suscriptores + 10 M de vistas de Shorts en 90 días (ruta A) o 4.000 h de
@@ -20,7 +33,7 @@ Claude decide y ejecuta; Santiago solo da los clics de identidad/consentimiento 
   primeros segundos (< 30 %). Si dos semanas seguidas no se cumplen, se cambia gancho/duración/tema según §5.
 
 ## 2. Producto
-- **Shorts 120–170 s**, 9:16, una historia completa con la fórmula de `docs/GUION.md`. 3 plantillas en rotación
+- **Shorts 70–90 s** (desde 2026-11-18; antes 120–170 s), 9:16, una historia completa con la fórmula directa de `docs/GUION.md` §2. 3 plantillas en rotación
   (`frontera`, `lugar`, `ruta`) para que la hoja de contacto de la semana se vea variada (requisito YPP "inauténtico").
 - **Largos 6–8 min, 16:9**, los domingos: la versión extendida del mejor Short de la semana (más contexto, 2 giros,
   mapa con más capas) + al menos un tema exclusivo del largo cada mes. Mid-rolls a partir de 8 min: apuntar a 8:30.

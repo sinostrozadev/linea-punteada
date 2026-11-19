@@ -16,9 +16,28 @@ export const PLANTILLAS_CANAL = ['frontera', 'lugar', 'ruta'] as const;
 export const VOCES = ['es-MX-JorgeNeural', 'es-CL-LorenzoNeural', 'es-ES-AlvaroNeural', 'es-MX-DaliaNeural'] as const;
 export const VOZ_POR_DEFECTO: (typeof VOCES)[number] = 'es-MX-JorgeNeural';
 
-/** Límites de palabras habladas (gancho + escenas + remate): ≈ 110–175 s con la voz a +4 %. */
+/** Límites de palabras habladas (gancho + escenas + remate): ≈ 110–175 s con la voz a +4 %. Fórmula `clasica`. */
 export const PALABRAS_MIN = 300;
 export const PALABRAS_MAX = 480;
+
+/**
+ * Fórmula `directa` (estilo Más Allá del Mapa, vigente desde 2026-11-18, docs/GUION.md §2): 180–230 palabras ≈ 70–90 s,
+ * la paradoja completa en la primera frase con el lugar nombrado, hecho nuevo cada pocos segundos, sin andamiaje
+ * (mito, "la verdad es más rara", "todo se explica con", "y al final", "y aquí está el giro") y cierre con pregunta.
+ */
+export const PALABRAS_DIRECTA_MIN = 180;
+export const PALABRAS_DIRECTA_MAX = 230;
+/** Duración objetivo del render con la fórmula directa (s), la usa preparar-frontera. */
+export const DURACION_DIRECTA = { min: 62, max: 95 } as const;
+/** Palabras del arranque en las que tiene que aparecer el primer dato con número (≈ 8 s a 170 palabras/min). */
+export const PALABRAS_PRIMER_DATO = 22;
+/** Andamiaje prohibido en la fórmula directa (frases que retrasan el primer hecho; diagnóstico 2026-11-18 §3.2). */
+export const ANDAMIAJE_PROHIBIDO = [
+  'la explicación fácil', 'la explicacion facil', 'la verdad es más rara', 'la verdad es más simple', 'la verdad es peor',
+  'todo se explica con', 'y al final', 'y aquí está el giro', 'dicen que', 'en este video', 'hoy vamos a ver', '¿sabías que',
+  'quédate hasta el final', 'suscríbete',
+] as const;
+const NUMEROS_PALABRA = /\b(uno|una|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce|quince|veinte|treinta|cuarenta|cincuenta|cien|ciento|cientos|mil|miles|millón|millones|mitad|doble|triple|primer|primera|único|única)\b/i;
 
 /**
  * Imagen de archivo para una escena (opcional). `scripts/imagenes.mts` la busca en Wikimedia Commons y
@@ -88,6 +107,14 @@ export type Escena = z.infer<typeof Escena>;
 export const CamposBase = z.object({
   /** Igual al id del envoltorio (el pipeline lo reescribe al promover el guion). */
   id: z.string().min(1),
+  /**
+   * `directa` (Shorts desde 2026-11-18, docs/GUION.md §2): 70–90 s, sin tarjeta de título, sin mito ni mapa de ruta,
+   * escenas `acto` (y opcionalmente 1 `giro` y 1 `hoy`), remate con pregunta. `clasica` (o ausente): la fórmula vieja
+   * gancho → mito → mapa de ruta → actos → "Y aquí está el giro" → hoy, 300–480 palabras (guiones anteriores).
+   */
+  formula: z.enum(['clasica', 'directa']).optional(),
+  /** Enlace al Short/video de un referente sobre el que se modeló el guion (outlier del nicho). Solo documentación. */
+  referente: z.string().url().optional(),
   voz: z.enum(VOCES).optional(),
   /** Lugar en mayúsculas, arriba y pequeño, todo el video: "NOGALES — LA LÍNEA PARTE LA CIUDAD". Máx. 44 caracteres. */
   cabecera: z.string().min(3).max(44),
@@ -117,6 +144,7 @@ export const palabrasDelGuion = (g: Pick<z.infer<typeof CamposBase>, 'gancho' | 
  * por plantilla (GuionFrontera, GuionLugar, GuionRuta).
  */
 export const validarFormula = (g: z.infer<typeof CamposBase>, ctx: z.RefinementCtx) => {
+  if (g.formula === 'directa') return validarDirecta(g, ctx);
   const tipos = g.escenas.map((e) => e.tipo);
   if (!tipos.includes('mito')) ctx.addIssue({ code: 'custom', path: ['escenas'], message: 'falta al menos una escena "mito"' });
   const giros = g.escenas.filter((e) => e.tipo === 'giro');
@@ -133,6 +161,42 @@ export const validarFormula = (g: z.infer<typeof CamposBase>, ctx: z.RefinementC
   });
   const n = palabrasDelGuion(g);
   if (n < PALABRAS_MIN || n > PALABRAS_MAX) ctx.addIssue({ code: 'custom', path: ['escenas'], message: `${n} palabras habladas: deben ser entre ${PALABRAS_MIN} y ${PALABRAS_MAX}` });
+};
+
+/** Primera frase de un texto (hasta . ? ! o …). */
+export const primeraFrase = (texto: string) => (texto.trim().match(/^.*?[.?!…](?=\s|$)/s)?.[0] ?? texto.trim());
+
+/**
+ * Reglas de la fórmula `directa` (docs/GUION.md §2). Devuelve la lista de problemas (vacía = cumple); el validador zod
+ * y el generador usan la misma lista.
+ */
+export const problemasDirecta = (g: z.infer<typeof CamposBase>): string[] => {
+  const p: string[] = [];
+  const tipos = g.escenas.map((e) => e.tipo);
+  if (tipos.includes('mito') || tipos.includes('mapa-de-ruta')) p.push('la fórmula directa no lleva escenas "mito" ni "mapa-de-ruta" (solo acto, 1 giro opcional, 1 hoy opcional)');
+  if (tipos.filter((t) => t === 'giro').length > 1) p.push('máximo 1 escena "giro"');
+  if (tipos.filter((t) => t === 'hoy').length > 1) p.push('máximo 1 escena "hoy"');
+  const todo = [g.gancho.texto, ...g.escenas.map((e) => e.texto), g.remate].join(' ').toLowerCase();
+  for (const f of ANDAMIAJE_PROHIBIDO) if (todo.includes(f)) p.push(`andamiaje prohibido: "${f}"`);
+  const f1 = primeraFrase(g.gancho.texto);
+  const n1 = contarPalabras(f1);
+  if (n1 > 24) p.push(`la primera frase tiene ${n1} palabras (máx. 24): la paradoja completa tiene que caber en ~6 s`);
+  if (/^\s*(mira|fíjate|fijate|imagina|sabías|sabias)\b/i.test(f1)) p.push('la primera frase no abre con "Mira/Fíjate/Imagina": abre con el lugar y el hecho');
+  // El lugar nombrado en la primera frase: al menos un nombre propio (mayúscula) entre sus palabras.
+  if (!f1.split(/\s+/).some((w) => /^[¿¡"«(]*[A-ZÁÉÍÓÚÑ][\p{L}]/u.test(w))) p.push('la primera frase tiene que nombrar el lugar (nombre propio)');
+  const arranque = g.gancho.texto.split(/\s+/).slice(0, PALABRAS_PRIMER_DATO).join(' ');
+  if (!/\d/.test(arranque) && !NUMEROS_PALABRA.test(arranque)) p.push(`el primer dato con número tiene que sonar en las primeras ${PALABRAS_PRIMER_DATO} palabras (≈ 8 s)`);
+  if (!/\?\s*$/.test(g.remate.trim())) p.push('el remate termina con una pregunta que invite a comentar (que divida opiniones, sin engaño)');
+  const n = palabrasDelGuion(g);
+  if (n < PALABRAS_DIRECTA_MIN || n > PALABRAS_DIRECTA_MAX) p.push(`${n} palabras habladas: la fórmula directa pide ${PALABRAS_DIRECTA_MIN}–${PALABRAS_DIRECTA_MAX} (≈ 70–90 s)`);
+  g.escenas.forEach((e, i) => {
+    if (e.rotulo?.dice && !e.texto.toLowerCase().includes(e.rotulo.dice.toLowerCase())) p.push(`escenas.${i}.rotulo.dice: "${e.rotulo.dice}" no aparece en el texto de la escena`);
+  });
+  return p;
+};
+
+const validarDirecta = (g: z.infer<typeof CamposBase>, ctx: z.RefinementCtx) => {
+  for (const m of problemasDirecta(g)) ctx.addIssue({ code: 'custom', path: ['escenas'], message: m });
 };
 
 /** Props comunes validados (las plantillas usan su propia extensión). */

@@ -1,0 +1,622 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-vice-city-existe-gta6",
+  "titulo": "Vice City existe: la Florida real detrás del mapa de GTA 6 🌴🇺🇸",
+  "descripcion": "GTA 6 sale el 19 de noviembre de 2026 y su estado, Leonida, está inspirado en Florida. Recorremos con mapas los lugares reales con los que la prensa compara cada región: Miami y Miami Beach, los Cayos y su carretera sobre el mar, los Everglades, Clewiston junto al lago Okeechobee y la costa del Panhandle. Y lo único que Florida no tiene: montañas. Sin imágenes del juego: solo geografía real. Correspondencias según la prensa especializada; el juego comprime y mezcla lugares, no es una copia uno a uno.",
+  "hashtags": [
+    "#shorts",
+    "#gta6",
+    "#florida",
+    "#geografia",
+    "#mapas",
+    "#vicecity"
+  ],
+  "props": {
+    "id": "pendiente-frontera-vice-city-existe-gta6",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+    "cabecera": "FLORIDA — LA LEONIDA REAL",
+    "acento": "coral",
+    "gancho": {
+      "texto": "El punto más alto de Florida mide 105 metros, pero el mapa de GTA 6, inspirado en Florida, tiene montañas.",
+      "rotulo": "FLORIDA",
+      "planos": [
+        {
+          "centro": [
+            -83.5,
+            28.2
+          ],
+          "zoom": 7.3,
+          "entrada": "corte",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -87.6,
+              31.0
+            ],
+            [
+              -85.0,
+              31.0
+            ],
+            [
+              -84.9,
+              30.7
+            ],
+            [
+              -82.2,
+              30.57
+            ],
+            [
+              -81.45,
+              30.7
+            ],
+            [
+              -81.3,
+              29.9
+            ],
+            [
+              -80.6,
+              28.4
+            ],
+            [
+              -80.03,
+              26.8
+            ],
+            [
+              -80.1,
+              25.8
+            ],
+            [
+              -80.4,
+              25.2
+            ],
+            [
+              -81.1,
+              25.1
+            ],
+            [
+              -81.8,
+              26.1
+            ],
+            [
+              -82.7,
+              27.6
+            ],
+            [
+              -82.8,
+              28.9
+            ],
+            [
+              -83.7,
+              29.9
+            ],
+            [
+              -84.4,
+              29.9
+            ],
+            [
+              -85.4,
+              29.7
+            ],
+            [
+              -86.5,
+              30.4
+            ],
+            [
+              -87.5,
+              30.3
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -86.28,
+          "lat": 30.99,
+          "texto": "105 M",
+          "tipo": "pin",
+          "aparecerEn": "105"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -82.4,
+          "lat": 27.9,
+          "icono": "⛰️",
+          "escala": 1.3,
+          "tachado": true,
+          "aparecerEn": "montañas"
+        }
+      ],
+      "clave": [
+        "Florida",
+        "105",
+        "GTA",
+        "montañas"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "Vice City es el Miami de Leonida. Rockstar pone a sus protagonistas en el lado más oscuro del lugar más soleado de Estados Unidos. Sus hoteles pastel recuerdan a Miami Beach, donde en 1979 más de 800 edificios entraron juntos al registro histórico.",
+        "rotulo": {
+          "texto": "MIAMI",
+          "dice": "Miami"
+        },
+        "planos": [
+          {
+            "centro": [
+              -80.25,
+              25.8
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -80.135,
+              25.785
+            ],
+            "zoom": 12.2,
+            "entrada": "zoom",
+            "en": "hoteles",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -80.2,
+            "lat": 25.77,
+            "texto": "MIAMI",
+            "tipo": "pin",
+            "aparecerEn": "Miami"
+          },
+          {
+            "lon": -80.132,
+            "lat": 25.79,
+            "texto": "MIAMI BEACH",
+            "tipo": "pin",
+            "aparecerEn": "Beach"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "800+",
+            "sub": "EDIFICIOS HISTÓRICOS · 1979",
+            "icono": "🏨",
+            "aparecerEn": "800",
+            "duracionSeg": 3
+          }
+        ],
+        "polaroid": {
+          "buscar": "Miami Beach Art Deco District Ocean Drive",
+          "pie": "Ocean Drive, Miami Beach",
+          "lado": "derecha",
+          "aparecerEn": "Beach",
+          "duracionSeg": 3.5
+        },
+        "clave": [
+          "Miami",
+          "1979",
+          "800"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Al sur, los Leonida Keys son los Cayos de Florida: islas bajas unidas por una sola carretera de unos 180 kilómetros sobre el mar, abierta en 1938, con decenas de puentes.",
+        "rotulo": {
+          "texto": "LOS CAYOS",
+          "dice": "Cayos"
+        },
+        "planos": [
+          {
+            "centro": [
+              -80.9,
+              25.0
+            ],
+            "zoom": 8.3,
+            "entrada": "zoom",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -81.15,
+              24.71
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "en": "puentes",
+            "deriva": 0.3
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -80.45,
+              25.25
+            ],
+            "hasta": [
+              -81.78,
+              24.555
+            ],
+            "texto": "~180 KM",
+            "aparecerEn": "180"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -81.78,
+            "lat": 24.555,
+            "texto": "KEY WEST",
+            "tipo": "pin",
+            "aparecerEn": "1938"
+          }
+        ],
+        "clave": [
+          "Cayos",
+          "180",
+          "1938"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Grassrivers son los Everglades, hasta en el nombre: en 1947 Marjory Stoneman Douglas los llamó río de hierba, el año en que se inauguró su parque nacional.",
+        "rotulo": {
+          "texto": "EVERGLADES",
+          "dice": "Everglades"
+        },
+        "planos": [
+          {
+            "centro": [
+              -80.85,
+              25.55
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -80.85,
+              25.45
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "en": "hierba",
+            "deriva": 0.2
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -81.3,
+                25.2
+              ],
+              [
+                -80.5,
+                25.2
+              ],
+              [
+                -80.45,
+                25.8
+              ],
+              [
+                -80.7,
+                26.4
+              ],
+              [
+                -81.2,
+                26.2
+              ],
+              [
+                -81.4,
+                25.6
+              ]
+            ],
+            "color": "verde",
+            "trama": "solida",
+            "etiqueta": "RÍO DE HIERBA",
+            "aparecerEn": "hierba"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1947",
+            "sub": "LIBRO Y PARQUE NACIONAL",
+            "icono": "🐊",
+            "aparecerEn": "1947",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Everglades",
+          "1947",
+          "hierba"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Ambrosia, tierra del azúcar, recuerda a Clewiston, junto al lago Okeechobee, que se apoda el pueblo más dulce de Estados Unidos.",
+        "rotulo": {
+          "texto": "CLEWISTON",
+          "dice": "Clewiston"
+        },
+        "planos": [
+          {
+            "centro": [
+              -80.9,
+              26.6
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -80.93,
+              26.75
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "en": "Clewiston",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -80.83,
+            "lat": 26.95,
+            "texto": "LAGO OKEECHOBEE",
+            "tipo": "mar",
+            "aparecerEn": "Okeechobee"
+          },
+          {
+            "lon": -80.934,
+            "lat": 26.754,
+            "texto": "CLEWISTON",
+            "tipo": "pin",
+            "aparecerEn": "Clewiston"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -80.75,
+            "lat": 26.6,
+            "icono": "🍬",
+            "escala": 1.1,
+            "aparecerEn": "dulce"
+          }
+        ],
+        "clave": [
+          "Ambrosia",
+          "Clewiston",
+          "dulce"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Port Gellhorn, balneario venido a menos del Golfo, recuerda al Panhandle, como Panama City, según mapas de fans que cita la prensa.",
+        "rotulo": {
+          "texto": "PANHANDLE",
+          "dice": "Panhandle"
+        },
+        "planos": [
+          {
+            "centro": [
+              -83.4,
+              28.6
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -85.66,
+              30.16
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Panhandle",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -85.66,
+            "lat": 30.16,
+            "texto": "PANAMA CITY",
+            "tipo": "pin",
+            "aparecerEn": "Panama"
+          },
+          {
+            "lon": -86.2,
+            "lat": 29.3,
+            "texto": "GOLFO DE MÉXICO",
+            "tipo": "mar",
+            "aparecerEn": "Golfo"
+          }
+        ],
+        "clave": [
+          "Golfo",
+          "Panhandle",
+          "Panama"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "La montaña no está en Florida: la prensa compara el monte Kalaga con las sierras de Georgia y las Carolinas, cientos de kilómetros al norte. Leonida mezcla lugares: no es una copia exacta.",
+        "rotulo": {
+          "texto": "KALAGA",
+          "dice": "Kalaga"
+        },
+        "planos": [
+          {
+            "centro": [
+              -84.2,
+              31.8
+            ],
+            "zoom": 6.7,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -83.6,
+              34.6
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "Georgia",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -83.6,
+            "lat": 35.1,
+            "texto": "APALACHES",
+            "tipo": "region",
+            "aparecerEn": "sierras"
+          },
+          {
+            "lon": -86.28,
+            "lat": 30.99,
+            "texto": "FLORIDA · 105 M",
+            "tipo": "pin",
+            "aparecerEn": "Florida"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -86.28,
+              30.99
+            ],
+            "hasta": [
+              -83.81,
+              34.87
+            ],
+            "texto": "~500 KM",
+            "aparecerEn": "cientos"
+          }
+        ],
+        "clave": [
+          "Kalaga",
+          "Georgia",
+          "Carolinas"
+        ]
+      }
+    ],
+    "remate": "¿Irías a la Florida real o te quedas con la del juego?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -83.4,
+          28.4
+        ],
+        "zoom": 6.8,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -80.6,
+        "lat": 27.3,
+        "texto": "FLORIDA REAL"
+      },
+      {
+        "lon": -84.6,
+        "lat": 29.0,
+        "texto": "¿O LEONIDA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Rockstar Games: Grand Theft Auto VI (sitio oficial, descripción de Vice City y Leonida)",
+        "url": "https://www.rockstargames.com/VI"
+      },
+      {
+        "texto": "GTA BOOM: las regiones reales detrás de Leonida (18-09-2026)",
+        "url": "https://www.gtaboom.com/real-world-regions-behind-gta-6-trailer-2-4844"
+      },
+      {
+        "texto": "USGS / Wikipedia: Britton Hill, punto más alto de Florida (105 m)",
+        "url": "https://en.wikipedia.org/wiki/Britton_Hill"
+      },
+      {
+        "texto": "Ciudad de Miami Beach: el distrito Art Deco entró al Registro Nacional el 14-05-1979 (más de 800 edificios)",
+        "url": "https://miamibeachfl.gov/?p=308501"
+      },
+      {
+        "texto": "Overseas Highway (US 1): 113 millas, abierta el 29-03-1938",
+        "url": "https://en.wikipedia.org/wiki/Overseas_Highway"
+      },
+      {
+        "texto": "The Everglades: River of Grass (Marjory Stoneman Douglas, 1947) y Parque Nacional Everglades (1947)",
+        "url": "https://en.wikipedia.org/wiki/The_Everglades:_River_of_Grass"
+      },
+      {
+        "texto": "Clewiston, Florida: \"America's Sweetest Town\"",
+        "url": "https://en.wikipedia.org/wiki/Clewiston,_Florida"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -83.5,
+        28.2
+      ],
+      "zoomInicial": 7.3,
+      "zoomFinal": 7.5,
+      "lineas": [
+        {
+          "id": "overseas-highway",
+          "puntos": [
+            [
+              -80.45,
+              25.25
+            ],
+            [
+              -80.6,
+              25.0
+            ],
+            [
+              -80.87,
+              24.83
+            ],
+            [
+              -81.1,
+              24.7
+            ],
+            [
+              -81.5,
+              24.66
+            ],
+            [
+              -81.78,
+              24.555
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "carretera",
+          "etiqueta": "CARRETERA US 1"
+        }
+      ]
+    }
+  }
+}

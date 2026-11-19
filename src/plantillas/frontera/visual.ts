@@ -7,11 +7,13 @@
 import type { Plan, Palabra } from '../comun/plan';
 import { normalizar } from '../comun/plan';
 import type { Contexto, Foto, FuentePantalla, ItemIndice, Momento, Polaroid, Quedarse, Tarjeta } from '../comun/direccion';
-import type { Area, Cota, EtiquetaMapa, GuionFrontera, IconoMapa, Plano } from './guion';
+import type { Area, BanderaMapa, Cota, EtiquetaMapa, GuionFrontera, IconoMapa, Plano } from './guion';
 import { gradosPorPx, type LonLat } from './mapa';
 
 /** Duración de la tarjeta de título del frame 0 (s). Después, corte al satélite. */
 export const T_TITULO = 0.9;
+/** Duración real de la tarjeta de título de un guion: 0 con la fórmula directa (el frame 0 ya es el mapa). */
+export const tTitulo = (g: { formula?: string }) => (g.formula === 'directa' ? 0 : T_TITULO);
 /** Frames del cierre de marca de frontera v2 (0,8 s de línea punteada con el handle). */
 export const FRAMES_CIERRE_V2 = 48;
 
@@ -29,6 +31,7 @@ export type Visual = {
   contextos: ConVentana<{ texto: string }>[];
   cotas: ConVentana<Cota>[];
   iconos: ConVentana<IconoMapa>[];
+  banderas: ConVentana<BanderaMapa>[];
   resaltes: ConVentana<{ lon: number; lat: number; radio: number }>[];
   tarjetas: ConVentana<Tarjeta>[];
   fotos: ConVentana<Foto>[];
@@ -63,11 +66,11 @@ export const buscarPalabraN = (palabras: Palabra[], palabra: string): number => 
 };
 
 /** Resolver de momentos de una línea de voz. */
-const resolverDe = (plan: Plan, k: number) => {
+const resolverDeBase = (plan: Plan, k: number, titulo = T_TITULO) => {
   const b = plan.bloques[k];
   const base = b.linea.inicio;
   const fin = (b.desde + b.frames) / plan.fps;
-  const piso = k === 0 ? T_TITULO : base;
+  const piso = k === 0 ? titulo : base;
   const en = (m: Momento | undefined, defecto: number): number => {
     let t = base + defecto;
     if (typeof m === 'number') t = base + m;
@@ -108,11 +111,13 @@ const clavesAuto = (texto: string): string[] => {
 
 export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
   const fps = plan.fps;
+  const T0 = tTitulo(g);
+  const resolverDe = (p: Plan, k: number) => resolverDeBase(p, k, T0);
   const ultima = plan.bloques.length - 1; // remate
   const fin = plan.cierreDesde / fps;
   const dirs: Dir[] = [g.gancho as unknown as Dir, ...(g.escenas as Dir[]), { texto: g.remate, planos: g.rematePlanos } as Dir];
   const finDeLinea = (k: number) => { const b = plan.bloques[k]; return (b.desde + b.frames) / fps; };
-  const ventana = (k: number, r: ReturnType<typeof resolverDe>, a: Momento | undefined, d: Momento | undefined, q: Quedarse | undefined, defA = 0.25): Ventana => {
+  const ventana = (k: number, r: ReturnType<typeof resolverDeBase>, a: Momento | undefined, d: Momento | undefined, q: Quedarse | undefined, defA = 0.25): Ventana => {
     const desde = r.en(a, defA);
     let hasta = q === 'siempre' ? fin : finDeLinea(Math.min(ultima, k + (q ?? 0)));
     if (d !== undefined) hasta = Math.max(desde + 0.4, r.en(d, 0));
@@ -161,6 +166,7 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
   const contextos: Visual['contextos'] = [];
   const cotas: Visual['cotas'] = [];
   const iconos: Visual['iconos'] = [];
+  const banderas: Visual['banderas'] = [];
   const resaltes: Visual['resaltes'] = [];
   const tarjetas: Visual['tarjetas'] = [];
   const fotos: Visual['fotos'] = [];
@@ -182,6 +188,8 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
     });
     (d.cotas ?? []).forEach((c, i) => cotas.push({ d: c, ...ventana(k, r, c.aparecerEn, c.desaparecerEn, c.quedarse), k, id: `q${k}-${i}` }));
     (d.iconos ?? []).forEach((c, i) => iconos.push({ d: c, ...ventana(k, r, c.aparecerEn, c.desaparecerEn, c.quedarse), k, id: `i${k}-${i}` }));
+    // Banderas con ojos: en el gancho aparecen desde el frame 0 si no se pide otro momento.
+    (d.banderas ?? []).forEach((c, i) => banderas.push({ d: c, ...ventana(k, r, c.aparecerEn, c.desaparecerEn, c.quedarse, k === 0 && c.aparecerEn === undefined ? 0 : 0.25), k, id: `b${k}-${i}` }));
     (d.resaltes ?? []).forEach((c, i) => {
       const desde = r.en(c.aparecerEn, 0.4);
       resaltes.push({ d: { lon: c.lon, lat: c.lat, radio: c.radio ?? 90 }, desde, hasta: desde + (c.duracionSeg ?? 1.6), k, id: `r${k}-${i}` });
@@ -237,11 +245,11 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
   }));
 
   // Líneas y marcadores de `mapa` (índice de escena; -1 = gancho, que arranca tras la tarjeta de título).
-  const deEscena = (e: number) => (e < 0 ? T_TITULO + 0.3 : (plan.escenas[e]?.linea.inicio ?? 0) + 0.3);
+  const deEscena = (e: number) => (e < 0 ? T0 + 0.3 : (plan.escenas[e]?.linea.inicio ?? 0) + 0.3);
   const trazos = g.mapa.lineas.map((l) => (l.dice !== undefined ? resolverDe(plan, l.dibujarEn + 1).en(l.dice, 0.3) : deEscena(l.dibujarEn)));
   const marcadoresDesde = (g.mapa.marcadores ?? []).map((m) => deEscena(m.aparecerEn));
 
-  return { v2, planos, trazos, marcadoresDesde, areas, etiquetas, contextos, cotas, iconos, resaltes, tarjetas, fotos, polaroids, fuentes, indice, remateEtiquetas, claves, fin };
+  return { v2, planos, trazos, marcadoresDesde, areas, etiquetas, contextos, cotas, iconos, banderas, resaltes, tarjetas, fotos, polaroids, fuentes, indice, remateEtiquetas, claves, fin };
 };
 
 // ---------------------------------------------------------------- micro-movimientos

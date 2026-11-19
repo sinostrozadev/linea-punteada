@@ -114,7 +114,7 @@ export const medirCamara = (g: GuionCam, opciones: { continua: boolean; tiempos?
     if (!ps?.length) return;
     const L = tiempos.lineas[k];
     if (!L) return;
-    const inicio = k === 0 ? 0.9 : L.inicio; // el gancho arranca tras la tarjeta de título (T_TITULO)
+    const inicio = k === 0 ? ((g as { formula?: string }).formula === 'directa' ? 0 : 0.9) : L.inicio; // el gancho arranca tras la tarjeta de título (T_TITULO; 0 en la fórmula directa)
     const finLinea = k + 1 < tiempos.lineas.length ? tiempos.lineas[k + 1].inicio : fin;
     const frases = L.palabras.filter((_, i) => i > 0 && /[.,;:?!…]["»”)]*$/.test(L.palabras[i - 1].texto)).map((p) => L.inicio + p.inicio - 0.05);
     const ajustar = (t: number) => { let m = t, d = 1.4; for (const c of frases) if (Math.abs(c - t) < d) { d = Math.abs(c - t); m = c; } return m; };
