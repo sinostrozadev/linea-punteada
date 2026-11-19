@@ -1,0 +1,597 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-virreinato-del-peru",
+  "titulo": "Todo esto era el Virreinato del Perú. ¿Cómo se partió? 🇵🇪",
+  "descripcion": "El Virreinato del Perú, creado por Carlos I en 1542 (Leyes Nuevas), llegó a abarcar casi toda la Sudamérica española, sin Venezuela ni Brasil. Nueva Granada se creó en 1717, se suprimió en 1723 y se restableció en 1739; el Río de la Plata nació en 1776 (provisional, 1 de agosto; definitivo en 1777) con Buenos Aires, Paraguay, el Alto Perú con Potosí y Cuyo, que era chileno; y en 1798 Carlos IV separó a Chile del virreinato. Nota: el mapa pinta los países actuales como aproximación; las fronteras coloniales eran otras y discutidas, y las fechas varían según la fuente. ¿Era inevitable? Cuéntalo en los comentarios.\n\nFuentes: https://es.wikipedia.org/wiki/Virreinato_del_Perú · https://es.wikipedia.org/wiki/Virreinato_de_Nueva_Granada · https://es.wikipedia.org/wiki/Virreinato_del_Río_de_la_Plata · https://es.wikipedia.org/wiki/Capitanía_General_de_Chile",
+  "hashtags": [
+    "#shorts",
+    "#virreinato",
+    "#peru",
+    "#geografia",
+    "#mapas",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-virreinato-del-peru",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/Z51DtnpA9K8",
+    "cabecera": "VIRREINATO DEL PERÚ — CÓMO SE PARTIÓ",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "Todo esto era un solo virreinato, el del Perú, y hoy son nueve países. Lo creó Carlos I en 1542 y se mandaba entero desde Lima.",
+      "rotulo": "VIRREINATO",
+      "planos": [
+        {
+          "centro": [
+            -67,
+            -22
+          ],
+          "zoom": 5.0,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -77,
+            -12
+          ],
+          "zoom": 5.8,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Lima"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": "siempre"
+        },
+        {
+          "pais": "Colombia",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 1
+        },
+        {
+          "pais": "Ecuador",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 1
+        },
+        {
+          "pais": "Bolivia",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 2
+        },
+        {
+          "pais": "Chile",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 3
+        },
+        {
+          "pais": "Argentina",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 2
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -77.04,
+          "lat": -12.05,
+          "texto": "LIMA",
+          "tipo": "pin",
+          "aparecerEn": "Lima"
+        }
+      ],
+      "clave": [
+        "Perú",
+        "1542",
+        "Lima"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "Su tesoro era Potosí, en la actual Bolivia: más de cien mil habitantes hacia 1600 y la mayor mina de plata del mundo. Algo que «vale un Potosí» valía una fortuna.",
+        "rotulo": {
+          "texto": "POTOSÍ",
+          "dice": "Potosí"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70,
+              -16
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -65.75,
+              -19.58
+            ],
+            "zoom": 7,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Potosí"
+          },
+          {
+            "centro": [
+              -65.75,
+              -19.58
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "fortuna"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -65.75,
+            "lat": -19.58,
+            "texto": "POTOSÍ",
+            "tipo": "pin",
+            "aparecerEn": "Potosí"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "+100.000",
+            "sub": "HABITANTES · 1600",
+            "icono": "⛏️",
+            "aparecerEn": "cien",
+            "duracionSeg": 3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Panama",
+            "color": "amarillo",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": 0
+          },
+          {
+            "pais": "Paraguay",
+            "color": "amarillo",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": 1
+          },
+          {
+            "pais": "Uruguay",
+            "color": "amarillo",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": 1
+          }
+        ],
+        "clave": [
+          "Potosí",
+          "plata",
+          "fortuna"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El primer pedazo se fue al norte. En 1717 el rey creó el Virreinato de Nueva Granada, con Bogotá y Quito. Lo suprimió en 1723 por gastos y lo restableció en 1739, esta vez para quedarse.",
+        "rotulo": {
+          "texto": "1717",
+          "dice": "1717"
+        },
+        "planos": [
+          {
+            "centro": [
+              -76,
+              3
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.07,
+              4.7
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Bogotá"
+          },
+          {
+            "centro": [
+              -76,
+              2
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "1723"
+          },
+          {
+            "centro": [
+              -78.5,
+              -0.2
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "1739"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Colombia",
+            "color": "azul",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre",
+            "etiqueta": "NUEVA GRANADA",
+            "etiquetaEn": [
+              -73.5,
+              3.5
+            ]
+          },
+          {
+            "pais": "Ecuador",
+            "color": "azul",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre"
+          },
+          {
+            "pais": "Panama",
+            "color": "amarillo",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "desaparecerEn": "1739"
+          },
+          {
+            "pais": "Panama",
+            "color": "azul",
+            "trama": "plena",
+            "aparecerEn": "1739",
+            "quedarse": "siempre"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -74.07,
+            "lat": 4.7,
+            "texto": "BOGOTÁ",
+            "tipo": "pin",
+            "aparecerEn": "Bogotá"
+          },
+          {
+            "lon": -78.5,
+            "lat": -0.2,
+            "texto": "QUITO",
+            "tipo": "pin",
+            "aparecerEn": "Quito"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1717·1723·1739",
+            "sub": "CREADO · SUPRIMIDO · RESTABLECIDO",
+            "icono": "📜",
+            "aparecerEn": "suprimió",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "Nueva",
+          "suprimió",
+          "quedarse"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1776 llegó el golpe mayor. Para frenar a los portugueses, Carlos III creó el Virreinato del Río de la Plata, con Buenos Aires de capital y Pedro de Cevallos de virrey. Se llevó Paraguay, el Alto Perú con Potosí incluido, y Cuyo, que hasta entonces era chileno.",
+        "rotulo": {
+          "texto": "1776",
+          "dice": "1776"
+        },
+        "planos": [
+          {
+            "centro": [
+              -62,
+              -30
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.4,
+              -34.6
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Buenos"
+          },
+          {
+            "centro": [
+              -60,
+              -24
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Paraguay"
+          },
+          {
+            "centro": [
+              -65.75,
+              -19.58
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Potosí"
+          },
+          {
+            "centro": [
+              -68.8,
+              -33
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Cuyo"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Bolivia",
+            "color": "violeta",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre"
+          },
+          {
+            "pais": "Argentina",
+            "color": "violeta",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre",
+            "etiqueta": "RÍO DE LA PLATA",
+            "etiquetaEn": [
+              -65,
+              -36
+            ]
+          },
+          {
+            "pais": "Paraguay",
+            "color": "violeta",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre"
+          },
+          {
+            "pais": "Uruguay",
+            "color": "violeta",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.4,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Buenos"
+          },
+          {
+            "lon": -68.84,
+            "lat": -32.89,
+            "texto": "CUYO",
+            "tipo": "pin",
+            "aparecerEn": "Cuyo"
+          }
+        ],
+        "clave": [
+          "portugueses",
+          "Alto",
+          "Cuyo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Chile también se soltó. En 1798, tras una disputa entre el virrey Ambrosio O'Higgins y el gobernador Gabriel de Avilés, Carlos IV separó a Chile del virreinato.",
+        "rotulo": {
+          "texto": "1798",
+          "dice": "1798"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71,
+              -33
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71,
+              -33.4
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "O'Higgins"
+          },
+          {
+            "centro": [
+              -71,
+              -35
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Carlos"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Chile",
+            "color": "verde",
+            "trama": "plena",
+            "aparecerEn": 0,
+            "quedarse": "siempre",
+            "etiqueta": "CHILE",
+            "etiquetaEn": [
+              -71,
+              -33
+            ]
+          }
+        ],
+        "clave": [
+          "disputa",
+          "Avilés",
+          "separó"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Al Perú le quedó el Perú de hoy: casi 1,3 millones de kilómetros cuadrados. Del resto salieron, en el mapa actual, ocho países más.",
+        "rotulo": {
+          "texto": "8 PAÍSES",
+          "dice": "ocho"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67,
+              -22
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -75,
+              -10
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "kilómetros"
+          },
+          {
+            "centro": [
+              -67,
+              -22
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "ocho"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Peru",
+            "color": "amarillo",
+            "trama": "plena",
+            "aparecerEn": "Perú",
+            "etiqueta": "PERÚ",
+            "etiquetaEn": [
+              -74,
+              -9.5
+            ],
+            "quedarse": "siempre"
+          }
+        ],
+        "clave": [
+          "Perú",
+          "1,3",
+          "ocho"
+        ]
+      }
+    ],
+    "remate": "¿Era inevitable partir el Virreinato del Perú, o Lima mandaba desde demasiado lejos?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -67,
+          -22
+        ],
+        "zoom": 4.8,
+        "entrada": "zoom",
+        "deriva": 0.3
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -79,
+        "lat": -12,
+        "texto": "¿LEJOS?"
+      },
+      {
+        "lon": -60,
+        "lat": -34,
+        "texto": "¿INEVITABLE?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Virreinato del Perú (20-11-1542, Leyes Nuevas)",
+        "url": "https://es.wikipedia.org/wiki/Virreinato_del_Perú"
+      },
+      {
+        "texto": "Wikipedia: Viceroyalty of Peru",
+        "url": "https://en.wikipedia.org/wiki/Viceroyalty_of_Peru"
+      },
+      {
+        "texto": "Wikipedia: Virreinato de Nueva Granada (cédulas 1717, 1723, 1739)",
+        "url": "https://es.wikipedia.org/wiki/Virreinato_de_Nueva_Granada"
+      },
+      {
+        "texto": "Wikipedia: Virreinato del Río de la Plata (1776)",
+        "url": "https://es.wikipedia.org/wiki/Virreinato_del_Río_de_la_Plata"
+      },
+      {
+        "texto": "Wikipedia: Capitanía General de Chile (1798)",
+        "url": "https://es.wikipedia.org/wiki/Capitanía_General_de_Chile"
+      },
+      {
+        "texto": "Wikipedia: Potosí",
+        "url": "https://es.wikipedia.org/wiki/Potosí"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 9,
+      "centro": [
+        -67,
+        -22
+      ],
+      "zoomInicial": 5.0,
+      "zoomFinal": 5.2,
+      "lineas": []
+    }
+  }
+}
