@@ -1,0 +1,2172 @@
+{
+  "plantilla": "largo",
+  "id": "largo-iquique-1879",
+  "titulo": "Iquique 1879: el combate que Perú ganó y Chile celebra",
+  "descripcion": "¿Quién ganó en Iquique? El 21 de mayo de 1879, el monitor peruano Huáscar de Miguel Grau hundió a la corbeta chilena Esmeralda de Arturo Prat y rompió el bloqueo. Ese mismo día, a unas diez millas al sur, la fragata peruana Independencia encalló en Punta Gruesa persiguiendo a la goleta Covadonga de Carlos Condell, y se perdió. Perú ganó el combate y perdió uno de sus dos blindados más poderosos; Chile perdió su corbeta y ganó su mito naval: cada 21 de mayo celebra las Glorias Navales. Contamos las dos versiones, la carta con que Grau devolvió las pertenencias de Prat a su viuda, Carmela Carvajal, y cómo terminó todo en Angamos (8-10-1879), donde murió Grau y Chile capturó el Huáscar, hoy museo flotante en Talcahuano.\n\nLas cifras de muertos varían según la fuente; usamos las más citadas. Mapa propio; posiciones de combate aproximadas. Voz sintetizada. Pinturas y fotos de Wikimedia Commons.\n\nFuentes: Wikipedia es (Combates de Iquique, Punta Gruesa y Angamos) https://es.wikipedia.org/wiki/Combate_naval_de_Iquique · Memoria Chilena https://www.memoriachilena.gob.cl/602/w3-article-96912.html · Carta de Grau https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat",
+  "hashtags": [
+    "#historia",
+    "#mapas",
+    "#GuerraDelPacifico",
+    "#Chile",
+    "#Perú",
+    "#geografia"
+  ],
+  "props": {
+    "id": "largo-iquique-1879",
+    "acento": "cian",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "celeste",
+      "escala": 1.1,
+      "mes": 5,
+      "puntos": [
+        {
+          "lon": -70.15,
+          "lat": -20.21,
+          "etiqueta": "IQUIQUE",
+          "fecha": "1879-05-21"
+        },
+        {
+          "lon": -70.17,
+          "lat": -20.36,
+          "etiqueta": "PUNTA GRUESA",
+          "fecha": "1879-05-21"
+        },
+        {
+          "lon": -70.21,
+          "lat": -19.6,
+          "etiqueta": "PISAGUA",
+          "fecha": "1879-06-02"
+        },
+        {
+          "lon": -70.3,
+          "lat": -21.6
+        },
+        {
+          "lon": -70.53,
+          "lat": -23.04,
+          "etiqueta": "PUNTA ANGAMOS",
+          "fecha": "1879-10-08"
+        }
+      ]
+    },
+    "apertura": {
+      "texto": "Veintiuno de mayo de mil ochocientos setenta y nueve, puerto de Iquique, Perú. Una corbeta de madera, con las calderas descompuestas, ve humo en el horizonte. Su capitán tiene treinta y un años y manda reforzar la comida de su gente. Ese día se hunde un barco. Y dos países cuentan distinto quién ganó.",
+      "planos": [
+        {
+          "centro": [
+            -70.15,
+            -20.21
+          ],
+          "zoom": 9.6,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -70.15,
+            -20.1
+          ],
+          "zoom": 9.0,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "humo"
+        },
+        {
+          "centro": [
+            -70.5,
+            -20.3
+          ],
+          "zoom": 7.8,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "hunde"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -70.3,
+              -19.2
+            ],
+            [
+              -69.3,
+              -19.2
+            ],
+            [
+              -68.6,
+              -20.0
+            ],
+            [
+              -68.7,
+              -21.0
+            ],
+            [
+              -69.0,
+              -21.45
+            ],
+            [
+              -70.06,
+              -21.43
+            ]
+          ],
+          "color": "rojo",
+          "trama": "rayas",
+          "etiqueta": "PERÚ EN 1879",
+          "aparecerEn": "Perú"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.15,
+          "lat": -20.21,
+          "texto": "IQUIQUE",
+          "tipo": "pin",
+          "aparecerEn": "Iquique"
+        },
+        {
+          "lon": -71.7,
+          "lat": -20.9,
+          "texto": "OCÉANO PACÍFICO",
+          "tipo": "mar",
+          "aparecerEn": "horizonte"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "21-5-1879",
+          "sub": "LA MAÑANA DEL COMBATE",
+          "tipo": "cifra",
+          "aparecerEn": "mil",
+          "duracionSeg": 3.2
+        }
+      ],
+      "contexto": {
+        "texto": "¿QUIÉN GANÓ?",
+        "dice": "quién"
+      }
+    },
+    "tarjetaTitulo": {
+      "texto": "¿QUIÉN GANÓ EN IQUIQUE?",
+      "clave": "GANÓ"
+    },
+    "capitulos": [
+      {
+        "titulo": "EL BLOQUEO",
+        "bloques": [
+          {
+            "texto": "Chile y Perú, con Bolivia, llevan semanas en guerra. Y en el mar el peso está en el norte: la escuadra chilena bloquea Iquique, el puerto de la provincia de Tarapacá, por donde sale el salitre peruano.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "escuadra"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -20.0
+                ],
+                "zoom": 7.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "provincia"
+              },
+              {
+                "centro": [
+                  -69.8,
+                  -20.3
+                ],
+                "zoom": 7.4,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "salitre"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.15,
+                "lat": -20.21,
+                "texto": "IQUIQUE",
+                "tipo": "pin",
+                "aparecerEn": "bloquea"
+              },
+              {
+                "lon": -69.6,
+                "lat": -20.7,
+                "texto": "TARAPACÁ",
+                "tipo": "region",
+                "aparecerEn": "Tarapacá"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.45,
+                "lat": -20.2,
+                "icono": "barco",
+                "aparecerEn": "bloquea"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1879",
+                "sub": "GUERRA DEL PACÍFICO",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "semanas",
+                "duracionSeg": 3.2,
+                "desde": "1879",
+                "hasta": "1884"
+              }
+            ]
+          },
+          {
+            "texto": "El dieciséis de mayo casi toda la escuadra chilena zarpa hacia Callao, el puerto de Lima. Esa misma semana, dos buques peruanos salen de Callao rumbo al sur. En Iquique quedan dos barcos viejos: la corbeta Esmeralda, de Arturo Prat, y la goleta Covadonga, de Carlos Condell.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -73.5,
+                  -16.0
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "zarpa"
+              },
+              {
+                "centro": [
+                  -75.5,
+                  -13.5
+                ],
+                "zoom": 5.4,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "Callao"
+              },
+              {
+                "centro": [
+                  -73.5,
+                  -16.0
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "rumbo"
+              },
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Esmeralda"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.15,
+                "lat": -12.05,
+                "texto": "CALLAO",
+                "tipo": "pin",
+                "aparecerEn": "Callao"
+              },
+              {
+                "lon": -70.15,
+                "lat": -20.21,
+                "texto": "IQUIQUE",
+                "tipo": "pin",
+                "aparecerEn": "quedan"
+              },
+              {
+                "lon": -73.5,
+                "lat": -18.0,
+                "texto": "OCÉANO PACÍFICO",
+                "tipo": "mar",
+                "aparecerEn": "sur"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -72.0,
+                "lat": -16.5,
+                "icono": "barco",
+                "aparecerEn": "zarpa",
+                "ruta": [
+                  [
+                    -70.4,
+                    -20.0
+                  ],
+                  [
+                    -73.5,
+                    -15.0
+                  ],
+                  [
+                    -76.5,
+                    -12.5
+                  ]
+                ],
+                "duracionSeg": 6
+              }
+            ],
+            "contexto": {
+              "texto": "DOS BARCOS VIEJOS",
+              "dice": "viejos"
+            }
+          },
+          {
+            "texto": "Los peruanos son el monitor Huáscar, mandado por Miguel Grau, y la fragata blindada Independencia, del capitán Juan Guillermo Moore. Llevan a bordo al presidente Mariano Ignacio Prado. En Arica, Prado se entera del bloqueo y les ordena romperlo.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -72.0,
+                  -15.5
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Huáscar"
+              },
+              {
+                "centro": [
+                  -70.32,
+                  -18.48
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Arica"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -19.2
+                ],
+                "zoom": 7.0,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "romperlo"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.32,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              }
+            ],
+            "foto": {
+              "buscar": "Ironclads Huascar Independencia",
+              "archivo": "File:Ironclads Huáscar e Independencia.jpg",
+              "pie": "HUÁSCAR E INDEPENDENCIA · BLINDADOS",
+              "aparecerEn": "Independencia",
+              "duracionSeg": 3.0
+            }
+          },
+          {
+            "texto": "Hasta el casco cuenta. La Esmeralda es de madera: unas ochocientas cincuenta toneladas, doce cañones y calderas tan malas que apenas da unos pocos nudos. El Huáscar pesa más de mil setecientas toneladas y lleva el casco protegido con hierro.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Esmeralda"
+              },
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 9.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "calderas"
+              },
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 10.7,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "Huáscar"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "850 T",
+                "sub": "LA ESMERALDA · DE MADERA",
+                "tipo": "cifra",
+                "aparecerEn": "ochocientas",
+                "duracionSeg": 3.2,
+                "icono": "barco"
+              }
+            ],
+            "contexto": {
+              "texto": "MADERA CONTRA HIERRO",
+              "dice": "madera"
+            }
+          },
+          {
+            "texto": "Al amanecer, un vigía de la Covadonga ve humo por el norte. Condell dispara un cañonazo de aviso. Prat manda levantar anclas, toca zafarrancho y habla a su gente. Según una de las versiones que quedaron, les dice: «Muchachos, la contienda es desigual, pero ánimo y valor».",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.0
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "vigía"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.1
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "cañonazo"
+              },
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Prat"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.15,
+                "lat": -20.21,
+                "texto": "ESMERALDA",
+                "tipo": "pin",
+                "aparecerEn": "levantar"
+              }
+            ],
+            "fuente": {
+              "texto": "Arenga de Prat · versión de Vicente Zegers",
+              "dice": "versiones"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Grau abre fuego primero. Pero durante más de una hora, el monitor de hierro no logra darle a la corbeta de madera. ¿Por qué?",
+          "tramo": [
+            0,
+            0
+          ],
+          "planos": [
+            {
+              "centro": [
+                -70.2,
+                -20.1
+              ],
+              "zoom": 9.0,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "fuego"
+            },
+            {
+              "centro": [
+                -70.2,
+                -20.1
+              ],
+              "zoom": 9.5,
+              "entrada": "corte",
+              "deriva": 0.1,
+              "en": "monitor"
+            }
+          ],
+          "contexto": {
+            "texto": "¿POR QUÉ NO LE DA?",
+            "dice": "Por"
+          }
+        }
+      },
+      {
+        "titulo": "TRES EMBESTIDAS",
+        "bloques": [
+          {
+            "texto": "Grau le teme a una cosa: los torpedos. Un bote del puerto le avisa que la Esmeralda está protegida por líneas de torpedos. Así que mantiene la distancia y dispara de lejos, sin acercarse.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.2
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "torpedos"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.2
+                ],
+                "zoom": 10.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "distancia"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -20.25
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "lejos"
+              }
+            ],
+            "cotas": [
+              {
+                "desde": [
+                  -70.185,
+                  -20.205
+                ],
+                "hasta": [
+                  -70.23,
+                  -20.205
+                ],
+                "texto": "500 M",
+                "aparecerEn": "distancia"
+              }
+            ],
+            "contexto": {
+              "texto": "EL MIEDO A LOS TORPEDOS",
+              "dice": "teme"
+            }
+          },
+          {
+            "texto": "Mientras tanto, a la Esmeralda le estallan las calderas y casi no avanza. Desde la playa, una batería peruana de cañones de montaña también le dispara. Prat arrastra su barco hacia el norte, fuera de esa línea de fuego.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.17,
+                  -20.18
+                ],
+                "zoom": 10.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "calderas"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.18
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "playa"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.12
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "norte"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.155,
+                "lat": -20.215,
+                "texto": "BATERÍA PERUANA",
+                "tipo": "pin",
+                "aparecerEn": "batería"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.19,
+                "lat": -20.2,
+                "icono": "guerra",
+                "aparecerEn": "estallan"
+              }
+            ]
+          },
+          {
+            "texto": "Pasadas las once y media, Grau concluye que lo de los torpedos era falso. Y el Huáscar embiste. En el primer choque, Prat salta a su cubierta con un sargento y un marinero. «¡Al abordaje, muchachos!», grita, según los relatos.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 11.2,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "torpedos"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "embiste"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 10.8,
+                "entrada": "corte",
+                "deriva": 0.2,
+                "en": "choque"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 10.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "abordaje"
+              }
+            ],
+            "polaroid": {
+              "buscar": "Arturo Prat portrait",
+              "archivo": "File:Arturo-Prat-Chacón.jpg",
+              "pie": "Arturo Prat (1848-1879)",
+              "anio": "1879",
+              "aparecerEn": "Prat",
+              "duracionSeg": 3.5
+            }
+          },
+          {
+            "texto": "Cae sobre la cubierta peruana, a los treinta y un años. Los testimonios no coinciden en cómo: hay quien habla de un hachazo y hay quien habla de un balazo. Grau trató de llegar a tiempo para salvarlo, y llegó tarde.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 10.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "cubierta"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 10.3,
+                "entrada": "corte",
+                "deriva": 0.2,
+                "en": "testimonios"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 10.7,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Grau"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "31 AÑOS",
+                "sub": "ABOGADO, MARINO, PADRE DE DOS HIJOS",
+                "tipo": "cifra",
+                "aparecerEn": "treinta",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "VERSIONES DISTINTAS",
+              "dice": "coinciden"
+            }
+          },
+          {
+            "texto": "Grau se aparta y deja abierta la rendición. El teniente Luis Uribe, ahora al mando de la Esmeralda, la rechaza. Segundo espolonazo, por el otro costado: entra agua a la santabárbara y la corbeta pierde el rumbo.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.22,
+                  -20.16
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "aparta"
+              },
+              {
+                "centro": [
+                  -70.22,
+                  -20.16
+                ],
+                "zoom": 10.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "rechaza"
+              },
+              {
+                "centro": [
+                  -70.22,
+                  -20.16
+                ],
+                "zoom": 10.3,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "santabárbara"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2.º",
+                "sub": "ESPOLONAZO",
+                "tipo": "ranking",
+                "aparecerEn": "Segundo",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "LA RENDICIÓN, RECHAZADA",
+              "dice": "rendición"
+            }
+          },
+          {
+            "texto": "Un segundo grupo de doce hombres, al mando del teniente Ignacio Serrano, salta a bordo del Huáscar. El intento fracasa. Serrano queda herido y muere en el monitor, atendido por el cirujano peruano Santiago Távara.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.22,
+                  -20.16
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "deriva": 0.2,
+                "en": "grupo"
+              },
+              {
+                "centro": [
+                  -70.22,
+                  -20.16
+                ],
+                "zoom": 11.4,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "Ignacio"
+              },
+              {
+                "centro": [
+                  -70.22,
+                  -20.16
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Serrano#2"
+              }
+            ]
+          },
+          {
+            "texto": "Veinte minutos después, un tercer espolonazo. La Esmeralda hunde la proa. Son las doce y diez, y su bandera sigue arriba. Desde entonces, ese minuto se recuerda a la hora exacta.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.17
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.15
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "tercer"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.15
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "hunde"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.15
+                ],
+                "zoom": 9.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "bandera"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "12:10",
+                "sub": "SE HUNDE LA ESMERALDA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "doce",
+                "duracionSeg": 3.2,
+                "desde": "08:15",
+                "hasta": "12:10"
+              }
+            ],
+            "foto": {
+              "buscar": "Combate Naval Iquique Somerscales",
+              "archivo": "File:Combate Naval Iquique-Thomas Somerscales.jpg",
+              "pie": "COMBATE DE IQUIQUE · PINTURA DE SOMERSCALES",
+              "aparecerEn": "proa",
+              "duracionSeg": 3.0
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Pero mientras el Huáscar termina con la Esmeralda, a diez millas al sur la goleta que escapó está haciendo algo que nadie esperaba.",
+          "tramo": [
+            0,
+            1
+          ],
+          "planos": [
+            {
+              "centro": [
+                -70.2,
+                -20.17
+              ],
+              "zoom": 9.0,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "Huáscar"
+            },
+            {
+              "centro": [
+                -70.17,
+                -20.36
+              ],
+              "zoom": 8.6,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "millas"
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -70.17,
+              "lat": -20.36,
+              "texto": "PUNTA GRUESA",
+              "tipo": "pin",
+              "aparecerEn": "sur"
+            }
+          ],
+          "contexto": {
+            "texto": "A DIEZ MILLAS AL SUR",
+            "dice": "diez"
+          }
+        }
+      },
+      {
+        "titulo": "PUNTA GRUESA",
+        "bloques": [
+          {
+            "texto": "La Covadonga había huido hacia el sur, pegada a la costa. Una goleta de unas seiscientas treinta toneladas, con dos cañones y unos ciento treinta hombres. Detrás venía la Independencia: más de tres mil toneladas, con blindaje y más de trescientos tripulantes.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.35
+                ],
+                "zoom": 8.6,
+                "entrada": "corte",
+                "deriva": 0.2,
+                "en": "goleta"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.35
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "cañones"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -20.3
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Independencia"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.17,
+                "lat": -20.36,
+                "texto": "PUNTA GRUESA",
+                "tipo": "pin",
+                "aparecerEn": "costa"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "630 T vs 3.300 T",
+                "sub": "COVADONGA CONTRA INDEPENDENCIA",
+                "tipo": "barras",
+                "aparecerEn": "seiscientas",
+                "duracionSeg": 3.2,
+                "barras": [
+                  {
+                    "etiqueta": "COVADONGA",
+                    "valor": 630
+                  },
+                  {
+                    "etiqueta": "INDEPEND.",
+                    "valor": 3300
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "texto": "La Covadonga calaba poco; la Independencia, más de seis metros. Condell se arrima a la costa, donde el buque grande no puede seguirlo. El comandante Moore intenta embestirla dos veces, y no alcanza el agua suficiente.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.36
+                ],
+                "zoom": 10.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "calaba"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.36
+                ],
+                "zoom": 10.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "arrima"
+              },
+              {
+                "centro": [
+                  -70.2,
+                  -20.36
+                ],
+                "zoom": 10.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "embestirla"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "6 M",
+                "sub": "LO QUE CALABA LA FRAGATA",
+                "tipo": "cifra",
+                "aparecerEn": "seis",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "A las doce y treinta y cinco, cerca de Punta Gruesa, la Independencia choca contra una roca sumergida y queda varada, escorada y haciendo agua. Moore diría después que esa roca no estaba en las cartas.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 10.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Gruesa"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 11.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "roca"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 10.3,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "haciendo"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "cartas"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.17,
+                "lat": -20.36,
+                "texto": "PUNTA GRUESA",
+                "tipo": "pin",
+                "aparecerEn": "Gruesa"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "12:35",
+                "sub": "LA INDEPENDENCIA VARA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "doce",
+                "duracionSeg": 3.2,
+                "desde": "08:15",
+                "hasta": "15:10"
+              }
+            ]
+          },
+          {
+            "texto": "Lo que pasó después se cuenta distinto. Condell informó que los peruanos arriaron su bandera. Moore lo negó. Y algunos autores sostienen que la Covadonga siguió disparando sobre los náufragos. La fragata, en cualquier caso, ya no se movía.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "después"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 10.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "bandera"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "autores"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 11.3,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "náufragos"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.3,
+                "lat": -20.3,
+                "texto": "SEGÚN CONDELL",
+                "tipo": "region",
+                "aparecerEn": "informó"
+              },
+              {
+                "lon": -70.05,
+                "lat": -20.42,
+                "texto": "SEGÚN MOORE",
+                "tipo": "region",
+                "aparecerEn": "negó"
+              }
+            ],
+            "contexto": {
+              "texto": "VERSIONES OPUESTAS",
+              "dice": "distinto"
+            }
+          },
+          {
+            "texto": "A las tres y diez llega el Huáscar y encuentra la fragata varada, con unos veinte hombres a bordo. Grau persigue a la Covadonga durante tres horas y no la alcanza. Luego ordena incendiar la Independencia.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.2,
+                  -20.3
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "llega"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -20.6
+                ],
+                "zoom": 8.0,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "persigue"
+              },
+              {
+                "centro": [
+                  -70.17,
+                  -20.36
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "incendiar"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "15:10",
+                "sub": "LLEGA EL HUÁSCAR",
+                "tipo": "cifra",
+                "aparecerEn": "diez",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "La Independencia era uno de los dos únicos blindados peruanos capaces de enfrentar a las fragatas chilenas Cochrane y Blanco Encalada. Ese día Perú hundió un barco enemigo y perdió uno de sus dos más poderosos.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.4,
+                  -21.0
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "blindados"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -21.0
+                ],
+                "zoom": 7.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Cochrane"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -21.0
+                ],
+                "zoom": 6.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Perú"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.9,
+                "lat": -20.6,
+                "icono": "barco",
+                "aparecerEn": "Cochrane"
+              },
+              {
+                "lon": -70.9,
+                "lat": -21.2,
+                "icono": "barco",
+                "aparecerEn": "Blanco"
+              }
+            ],
+            "contexto": {
+              "texto": "UN DÍA, DOS CUENTAS",
+              "dice": "hundió"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Al cerrar el día, Grau tiene en su cubierta las cosas de un hombre muerto. Y decide qué hacer con ellas.",
+          "tramo": [
+            1,
+            2
+          ],
+          "planos": [
+            {
+              "centro": [
+                -70.21,
+                -19.6
+              ],
+              "zoom": 7.0,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "cubierta"
+            },
+            {
+              "centro": [
+                -70.21,
+                -19.6
+              ],
+              "zoom": 8.4,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "decide"
+            }
+          ],
+          "contexto": {
+            "texto": "¿QUÉ HACE GRAU?",
+            "dice": "decide"
+          }
+        }
+      },
+      {
+        "titulo": "LA CARTA",
+        "bloques": [
+          {
+            "texto": "Tras el hundimiento, Grau manda botes a recoger a los náufragos de la Esmeralda. Cincuenta y siete sobreviven y quedan prisioneros. Alrededor de ciento cuarenta chilenos murieron, según la cifra más citada. Del lado peruano hubo ocho bajas, entre muertos y heridos.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "botes"
+              },
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 9.7,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "sobreviven"
+              },
+              {
+                "centro": [
+                  -70.15,
+                  -20.3
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "peruano"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "57",
+                "sub": "SOBREVIVIENTES RESCATADOS",
+                "tipo": "cifra",
+                "aparecerEn": "Cincuenta",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "LAS CIFRAS VARÍAN",
+              "dice": "cifra"
+            }
+          },
+          {
+            "texto": "Prat y Serrano son sepultados en Iquique el veintidós de mayo. Los restos de Prat viajarían a Valparaíso recién en mil ochocientos ochenta y ocho. Pero antes de eso, sus pertenencias ya iban camino a casa.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.15,
+                  -20.21
+                ],
+                "zoom": 8.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "sepultados"
+              },
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Valparaíso"
+              },
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "pertenencias"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.15,
+                "lat": -20.21,
+                "texto": "IQUIQUE",
+                "tipo": "pin",
+                "aparecerEn": "Iquique"
+              },
+              {
+                "lon": -71.62,
+                "lat": -33.04,
+                "texto": "VALPARAÍSO",
+                "tipo": "pin",
+                "aparecerEn": "Valparaíso"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1888",
+                "sub": "PRAT, TRASLADADO A VALPARAÍSO",
+                "tipo": "cifra",
+                "aparecerEn": "ochenta",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "Entre las cosas de Prat hay una espada, un anillo de oro de matrimonio, fotografías de su familia y un libro de memorándum. Un oficial peruano las anota en un inventario, y Grau decide devolverlas.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "espada"
+              },
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "matrimonio"
+              },
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "inventario"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.21,
+                "lat": -19.6,
+                "texto": "PISAGUA",
+                "tipo": "pin",
+                "aparecerEn": "oficial"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.19,
+                "lat": -19.62,
+                "icono": "tratado",
+                "aparecerEn": "inventario"
+              }
+            ]
+          },
+          {
+            "texto": "El dos de junio, desde el Huáscar, fondeado en Pisagua, escribe a la viuda, Carmela Carvajal: «Un sagrado deber me autoriza a dirigirme a usted». Y le envía lo que llama «las para usted inestimables prendas».",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Pisagua"
+              },
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 9.9,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "viuda"
+              },
+              {
+                "centro": [
+                  -70.21,
+                  -19.6
+                ],
+                "zoom": 9.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "inestimables"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2-6-1879",
+                "sub": "CARTA DE GRAU A LA VIUDA DE PRAT",
+                "tipo": "cifra",
+                "aparecerEn": "junio",
+                "duracionSeg": 3.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Miguel Grau Seminario portrait",
+              "archivo": "File:Retrato de busto del Almirante Miguel Grau Seminario.jpg",
+              "pie": "Miguel Grau (1834-1879)",
+              "anio": "1879",
+              "aparecerEn": "Carvajal",
+              "duracionSeg": 3.5
+            }
+          },
+          {
+            "texto": "Carmela le responde desde Valparaíso el primero de agosto, y le agradece el gesto. Los chilenos lo recuerdan como la prueba de un adversario noble. Los peruanos lo llaman el Caballero de los Mares.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Valparaíso"
+              },
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 7.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "adversario"
+              },
+              {
+                "centro": [
+                  -72.5,
+                  -24.0
+                ],
+                "zoom": 4.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "peruanos"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -71.62,
+                "lat": -33.04,
+                "texto": "VALPARAÍSO",
+                "tipo": "pin",
+                "aparecerEn": "Valparaíso"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1-8-1879",
+                "sub": "RESPUESTA DE CARMELA CARVAJAL",
+                "tipo": "cifra",
+                "aparecerEn": "agosto",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "EL CABALLERO DE LOS MARES",
+              "dice": "Caballero"
+            }
+          },
+          {
+            "texto": "En Valparaíso, el telégrafo anuncia el hundimiento y la muerte de Prat. Muchos jóvenes corren a enlistarse. Chile había perdido un barco viejo. Y acababa de ganar algo que ningún barco da: una historia.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "telégrafo"
+              },
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "jóvenes"
+              },
+              {
+                "centro": [
+                  -72.0,
+                  -30.0
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "historia"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -74.5,
+                "lat": -33.5,
+                "texto": "OCÉANO PACÍFICO",
+                "tipo": "mar",
+                "aparecerEn": "barco"
+              }
+            ],
+            "contexto": {
+              "texto": "NACE UN MITO",
+              "dice": "historia"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Perú había ganado el combate. Pero a casi cinco meses de ese día, Grau volvería a toparse con la escuadra chilena. Y esta vez no volvería.",
+          "tramo": [
+            2,
+            3
+          ],
+          "planos": [
+            {
+              "centro": [
+                -72.0,
+                -24.0
+              ],
+              "zoom": 5.4,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "combate"
+            },
+            {
+              "centro": [
+                -70.53,
+                -23.04
+              ],
+              "zoom": 8.0,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "escuadra"
+            }
+          ],
+          "contexto": {
+            "texto": "ANGAMOS",
+            "dice": "volvería"
+          }
+        }
+      },
+      {
+        "titulo": "ANGAMOS Y EL MITO",
+        "bloques": [
+          {
+            "texto": "El ocho de octubre, frente a Punta Angamos, el Huáscar y la corbeta Unión se topan con la escuadra chilena: las fragatas blindadas Cochrane y Blanco Encalada, entre otros buques. La Unión logra escapar. El Huáscar no.",
+            "tramo": [
+              3,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.53,
+                  -23.04
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Angamos"
+              },
+              {
+                "centro": [
+                  -70.53,
+                  -23.04
+                ],
+                "zoom": 9.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "escuadra"
+              },
+              {
+                "centro": [
+                  -70.53,
+                  -23.04
+                ],
+                "zoom": 10.5,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "Cochrane"
+              },
+              {
+                "centro": [
+                  -70.7,
+                  -23.0
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "escapar"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.53,
+                "lat": -23.04,
+                "texto": "PUNTA ANGAMOS",
+                "tipo": "pin",
+                "aparecerEn": "Angamos"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "8-10-1879",
+                "sub": "COMBATE DE ANGAMOS",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "ocho",
+                "duracionSeg": 3.2,
+                "desde": "1879-05",
+                "hasta": "1879-10"
+              }
+            ]
+          },
+          {
+            "texto": "Alrededor de las diez, una granada da en la torre de mando y mata a Grau. Tenía cuarenta y cinco años. Su segundo, Elías Aguirre, también muere. A las once y diez, los chilenos abordan el monitor.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.53,
+                  -23.04
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "granada"
+              },
+              {
+                "centro": [
+                  -70.53,
+                  -23.04
+                ],
+                "zoom": 9.9,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Aguirre"
+              },
+              {
+                "centro": [
+                  -70.53,
+                  -23.04
+                ],
+                "zoom": 9.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "abordan"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "45 AÑOS",
+                "sub": "MUERE MIGUEL GRAU",
+                "tipo": "cifra",
+                "aparecerEn": "cuarenta",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "Con el Huáscar capturado, Chile domina el mar. Un historiador chileno, Gonzalo Bulnes, escribiría que la guerra del Pacífico se había decidido en Angamos. Chile lo repara y lo mantiene en servicio hasta mil ochocientos noventa y siete.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -72.0,
+                  -22.5
+                ],
+                "zoom": 5.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "domina"
+              },
+              {
+                "centro": [
+                  -72.0,
+                  -22.5
+                ],
+                "zoom": 5.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Bulnes"
+              },
+              {
+                "centro": [
+                  -72.0,
+                  -22.5
+                ],
+                "zoom": 5.5,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "servicio"
+              }
+            ],
+            "fuente": {
+              "texto": "Gonzalo Bulnes · historiador chileno",
+              "dice": "Bulnes"
+            }
+          },
+          {
+            "texto": "Los cincuenta y siete sobrevivientes de la Esmeralda siguieron presos en Perú hasta el canje de prisioneros de fines de ese año, cuando los cambiaron por tripulantes del Huáscar que los chilenos habían tomado prisioneros en Angamos.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -72.0,
+                  -22.5
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -72.0,
+                  -22.5
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "canje"
+              },
+              {
+                "centro": [
+                  -72.0,
+                  -22.5
+                ],
+                "zoom": 6.9,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Huáscar"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "57",
+                "sub": "SOBREVIVIENTES DE LA ESMERALDA",
+                "tipo": "cifra",
+                "aparecerEn": "cincuenta",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "Hoy el Huáscar es un museo flotante, amarrado en Talcahuano, y se puede visitar. Es uno de los buques blindados más antiguos del mundo que todavía flotan.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -73.12,
+                  -36.72
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Talcahuano"
+              },
+              {
+                "centro": [
+                  -73.12,
+                  -36.72
+                ],
+                "zoom": 8.9,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "visitar"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -73.12,
+                "lat": -36.72,
+                "texto": "TALCAHUANO",
+                "tipo": "pin",
+                "aparecerEn": "Talcahuano"
+              }
+            ],
+            "foto": {
+              "buscar": "Monitor Huascar Talcahuano",
+              "archivo": "File:Monitor Huáscar.jpg",
+              "pie": "EL HUÁSCAR HOY · TALCAHUANO",
+              "aparecerEn": "museo",
+              "duracionSeg": 3.0
+            }
+          },
+          {
+            "texto": "Cada veintiuno de mayo, Chile celebra las Glorias Navales; una ley de mil novecientos quince lo declaró feriado. En Valparaíso, a las doce y diez, la hora del hundimiento, se rinden honores y suenan veintiuna salvas de cañón.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Glorias"
+              },
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.1,
+                "en": "Navales"
+              },
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 8.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "hundimiento"
+              },
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 8.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "salvas"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -71.62,
+                "lat": -33.04,
+                "texto": "VALPARAÍSO",
+                "tipo": "pin",
+                "aparecerEn": "Valparaíso"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "21 DE MAYO",
+                "sub": "DÍA DE LAS GLORIAS NAVALES",
+                "tipo": "cifra",
+                "aparecerEn": "veintiuno",
+                "duracionSeg": 3.2
+              }
+            ]
+          },
+          {
+            "texto": "Prat descansa bajo el monumento de la plaza Sotomayor, junto a otros veintiún marinos de la Esmeralda y la Covadonga. En Perú, Grau es un héroe nacional, y sus restos están en la Cripta de los Héroes, en Lima.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.62,
+                  -33.04
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Prat"
+              },
+              {
+                "centro": [
+                  -77.04,
+                  -12.05
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Perú"
+              },
+              {
+                "centro": [
+                  -77.04,
+                  -12.05
+                ],
+                "zoom": 8.5,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Cripta"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.04,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Lima"
+              }
+            ],
+            "foto": {
+              "buscar": "Monumento Heroes de Iquique Valparaiso",
+              "archivo": "File:Monumento a los Héroes de Iquique, Valparaíso, Chile.jpg",
+              "pie": "MONUMENTO A LOS HÉROES · VALPARAÍSO",
+              "aparecerEn": "monumento",
+              "duracionSeg": 3.0
+            }
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "Perú hundió la Esmeralda y perdió la Independencia. Chile perdió su corbeta y ganó un mito. Un mismo día, dos formas de contarlo. ¿Cómo te lo contaron a ti?",
+      "planos": [
+        {
+          "centro": [
+            -71.0,
+            -20.0
+          ],
+          "zoom": 6.0,
+          "entrada": "zoom",
+          "deriva": -0.2
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.15,
+          "lat": -20.21,
+          "texto": "IQUIQUE · 21-5-1879"
+        },
+        {
+          "lon": -70.53,
+          "lat": -23.04,
+          "texto": "ANGAMOS · 8-10-1879"
+        }
+      ],
+      "serie": "La Guerra del Pacífico en el mapa",
+      "pie": "La próxima: el desierto donde se decidió la guerra",
+      "segundosFinales": 14
+    },
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Combate naval de Iquique (cronología, buques, bajas)",
+        "url": "https://es.wikipedia.org/wiki/Combate_naval_de_Iquique"
+      },
+      {
+        "texto": "Wikipedia: Combate naval de Punta Gruesa",
+        "url": "https://es.wikipedia.org/wiki/Combate_naval_de_Punta_Gruesa"
+      },
+      {
+        "texto": "Wikipedia: Combate naval de Angamos",
+        "url": "https://es.wikipedia.org/wiki/Combate_naval_de_Angamos"
+      },
+      {
+        "texto": "Wikisource: Carta de condolencias de Miguel Grau a Carmela Carvajal (2-6-1879)",
+        "url": "https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat"
+      },
+      {
+        "texto": "Wikisource: Carta de Carmela Carvajal a Miguel Grau (1-8-1879)",
+        "url": "https://es.wikisource.org/wiki/Carta_de_Carmela_Carvajal_de_Prat_a_Miguel_Grau"
+      },
+      {
+        "texto": "Memoria Chilena: Combate Naval de Iquique",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-96912.html"
+      },
+      {
+        "texto": "Wikipedia: Día de las Glorias Navales (Ley 2977 de 1915)",
+        "url": "https://es.wikipedia.org/wiki/Día_de_las_Glorias_Navales"
+      },
+      {
+        "texto": "Wikipedia: Huáscar (ironclad)",
+        "url": "https://en.wikipedia.org/wiki/Hu%C3%A1scar_(ironclad)"
+      }
+    ]
+  }
+}
