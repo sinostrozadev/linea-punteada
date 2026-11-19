@@ -1,0 +1,472 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-isla-robinson-crusoe",
+  "titulo": "Robinson Crusoe no existió, pero su isla está a 670 km de Chile 🇨🇱",
+  "descripcion": "La isla Robinson Crusoe, en el archipiélago Juan Fernández, queda a unos 670 kilómetros de la costa de Chile y mide unos 48 km². Se llamaba Más a Tierra hasta 1966. En septiembre de 1704, el marinero escocés Alexander Selkirk pidió que lo dejaran allí y pasó cuatro años y cuatro meses solo, hasta que el corsario Woodes Rogers lo rescató el 2 de febrero de 1709. En 1719 Daniel Defoe publicó Robinson Crusoe, cuya isla está en el Caribe; los especialistas discuten cuánto debe el libro a Selkirk. En 1915 el crucero alemán Dresden fue atacado por buques británicos y hundido por su tripulación en la bahía Cumberland; a bordo iba Wilhelm Canaris, futuro jefe de la Abwehr. En 1966 Chile rebautizó Más a Tierra como Robinson Crusoe y Más Afuera como Alejandro Selkirk, aunque él estuvo en la otra isla. ¿Selkirk o Crusoe? Cuéntalo en los comentarios.",
+  "hashtags": [
+    "#shorts",
+    "#chile",
+    "#islas",
+    "#geografia",
+    "#mapas",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-isla-robinson-crusoe",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/watch?v=OvC__4eDylU",
+    "cabecera": "ROBINSON CRUSOE — UNA ISLA REAL",
+    "acento": "cian",
+    "gancho": {
+      "texto": "La isla Robinson Crusoe queda a unos 670 kilómetros de Chile y se llama así desde 1966, aunque el personaje nunca existió.",
+      "rotulo": "ROBINSON CRUSOE",
+      "planos": [
+        {
+          "centro": [
+            -78.86,
+            -33.63
+          ],
+          "zoom": 11.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -75.2,
+            -33.6
+          ],
+          "zoom": 7.1,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "kilómetros"
+        },
+        {
+          "centro": [
+            -78.86,
+            -33.63
+          ],
+          "zoom": 10,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "así"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -78.83,
+          "lat": -33.636,
+          "texto": "ROBINSON CRUSOE",
+          "tipo": "pin",
+          "aparecerEn": "Robinson"
+        },
+        {
+          "lon": -71.62,
+          "lat": -33.59,
+          "texto": "COSTA DE CHILE",
+          "tipo": "pin",
+          "aparecerEn": "Chile"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -78.83,
+            -33.64
+          ],
+          "hasta": [
+            -71.62,
+            -33.59
+          ],
+          "texto": "~670 KM",
+          "aparecerEn": "kilómetros"
+        }
+      ],
+      "clave": [
+        "Robinson",
+        "670",
+        "1966"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1704, un marinero escocés, Alexander Selkirk, pidió que lo dejaran en tierra: dudaba de que su barco aguantara. Le dieron un mosquete, un hacha, una olla y una Biblia. Pasó solo cuatro años y cuatro meses.",
+        "rotulo": {
+          "texto": "1704",
+          "dice": "1704"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.85,
+              -33.63
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.84,
+              -33.64
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "mosquete"
+          },
+          {
+            "centro": [
+              -78.84,
+              -33.64
+            ],
+            "zoom": 11.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "solo"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "4 AÑOS 4 MESES",
+            "sub": "SOLO EN LA ISLA",
+            "icono": "⏳",
+            "aparecerEn": "cuatro",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1704",
+          "Selkirk",
+          "cuatro"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Comía langosta y carne de cabra. Cosió su ropa con pieles de cabra, usando un clavo. Y cuando llegaron barcos españoles, se escondió hasta en un árbol.",
+        "rotulo": {
+          "texto": "CABRAS",
+          "dice": "cabra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.87,
+              -33.64
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.86,
+              -33.635
+            ],
+            "zoom": 12,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "clavo"
+          },
+          {
+            "centro": [
+              -78.84,
+              -33.635
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "árbol"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "CABRA Y LANGOSTA",
+            "sub": "SU COMIDA",
+            "icono": "🐐",
+            "aparecerEn": "langosta",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "langosta",
+          "clavo",
+          "árbol"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 2 de febrero de 1709 lo rescató el corsario Woodes Rogers, que lo llamó, con ironía, gobernador de la isla. En 1719, Daniel Defoe publicó Robinson Crusoe. Pero la isla de la novela está en el Caribe.",
+        "rotulo": {
+          "texto": "1709",
+          "dice": "1709"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.84,
+              -33.64
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.84,
+              -33.64
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Defoe"
+          },
+          {
+            "centro": [
+              -61.5,
+              10.6
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "Caribe"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -60.8,
+            "lat": 10.7,
+            "texto": "LA ISLA DE LA NOVELA",
+            "tipo": "pin",
+            "aparecerEn": "Caribe"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1719",
+            "sub": "DEFOE PUBLICA SU NOVELA",
+            "icono": "📖",
+            "aparecerEn": "Defoe",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1709",
+          "Defoe",
+          "Caribe"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1915, buques británicos atacaron al crucero alemán Dresden en la bahía Cumberland y su tripulación lo hundió. A bordo iba Wilhelm Canaris, que escapó de Chile y llegó a jefe del espionaje alemán.",
+        "rotulo": {
+          "texto": "1915",
+          "dice": "1915"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.83,
+              -33.63
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.83,
+              -33.63
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "hundió"
+          },
+          {
+            "centro": [
+              -78.83,
+              -33.63
+            ],
+            "zoom": 11.9,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "Canaris"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -78.83,
+            "lat": -33.625,
+            "texto": "BAHÍA CUMBERLAND",
+            "tipo": "pin",
+            "aparecerEn": "Cumberland"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1915",
+            "sub": "SE HUNDE EL DRESDEN",
+            "icono": "🚢",
+            "aparecerEn": "atacaron",
+            "duracionSeg": 3
+          },
+          {
+            "texto": "CANARIS",
+            "sub": "ESPÍA EN EL DRESDEN",
+            "icono": "🕵️",
+            "aparecerEn": "Canaris",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1915",
+          "Dresden",
+          "Canaris"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "En 1966, Chile rebautizó Más a Tierra como Robinson Crusoe. A Más Afuera, la otra isla grande, la llamó Alejandro Selkirk, aunque nada indica que él la pisara.",
+        "rotulo": {
+          "texto": "1966",
+          "dice": "1966"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.8,
+              -33.7
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.8,
+              -33.7
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Más"
+          },
+          {
+            "centro": [
+              -80.75,
+              -33.76
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "Selkirk"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Chile",
+            "color": "verde",
+            "trama": "solida",
+            "aparecerEn": "1966"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -78.83,
+            "lat": -33.64,
+            "texto": "ROBINSON CRUSOE",
+            "tipo": "pin",
+            "aparecerEn": "Tierra"
+          },
+          {
+            "lon": -80.75,
+            "lat": -33.76,
+            "texto": "ALEJANDRO SELKIRK",
+            "tipo": "pin",
+            "aparecerEn": "Afuera"
+          }
+        ],
+        "clave": [
+          "1966",
+          "Más Afuera",
+          "Selkirk"
+        ]
+      }
+    ],
+    "remate": "¿Cuál debería ser el nombre de la isla: Selkirk o Crusoe?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -79.8,
+          -33.7
+        ],
+        "zoom": 8.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -78.83,
+        "lat": -33.4,
+        "texto": "¿ROBINSON CRUSOE?"
+      },
+      {
+        "lon": -80.75,
+        "lat": -33.45,
+        "texto": "¿SELKIRK?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Robinson Crusoe Island (670 km al oeste de San Antonio; 47,9 km²; Dresden 14-03-1915)",
+        "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe_Island"
+      },
+      {
+        "texto": "Wikipedia: Alexander Selkirk (1704, 4 años 4 meses, rescate 2-02-1709, renombre 1966)",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Selkirk"
+      },
+      {
+        "texto": "Wikipedia: Robinson Crusoe (novela, 25-04-1719; isla en el Caribe)",
+        "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe"
+      },
+      {
+        "texto": "Wikipedia: Isla Alejandro Selkirk (ex Más Afuera, 1966)",
+        "url": "https://es.wikipedia.org/wiki/Isla_Alejandro_Selkirk"
+      },
+      {
+        "texto": "Wikipedia: Battle of Más a Tierra (1915)",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_M%C3%A1s_a_Tierra"
+      },
+      {
+        "texto": "Wikipedia: Isla Róbinson Crusoe (langosta de Juan Fernández, San Juan Bautista)",
+        "url": "https://es.wikipedia.org/wiki/Isla_R%C3%B3binson_Crusoe"
+      },
+      {
+        "texto": "Wikipedia: Wilhelm Canaris (oficial del Dresden, escapó en 1915)",
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_Canaris"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -78.86,
+        -33.63
+      ],
+      "zoomInicial": 9.4,
+      "zoomFinal": 9.8,
+      "lineas": []
+    }
+  }
+}
