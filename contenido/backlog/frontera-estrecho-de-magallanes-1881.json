@@ -1,0 +1,843 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-estrecho-de-magallanes-1881",
+  "titulo": "¿Por qué dos Osborn mediaron por el Estrecho de Magallanes? 🇨🇱🇦🇷",
+  "descripcion": "El Estrecho de Magallanes mide unos 565 km y une dos océanos. En 1881, con Chile aún en guerra con Perú y Bolivia, Chile y Argentina cerraron su disputa por la Patagonia con mediación de los ministros de EE. UU. en Santiago y Buenos Aires, ambos llamados Thomas Osborn, que pasaron los mensajes por telégrafo. La soberanía del Estrecho quedó en Chile, neutralizado a perpetuidad. En 2026 la Cancillería argentina declaró vigentes los tratados de 1881 y 1984. La historiografía chilena sostiene que la Corona nunca separó la Patagonia del Reino de Chile; la argentina, que dependía del Virreinato del Río de la Plata. Sin tomar partido: ¿fue un buen trato para Chile? Cuéntanos en los comentarios.\n\nFuentes: Memoria Chilena https://www.memoriachilena.gob.cl/602/w3-article-92197.html · FRUS 1881 https://history.state.gov/historicaldocuments/frus1881/d4 · Wikipedia https://es.wikipedia.org/wiki/Tratado_de_1881_entre_Argentina_y_Chile",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#historia",
+    "#chile",
+    "#argentina"
+  ],
+  "props": {
+    "id": "pendiente-frontera-estrecho-de-magallanes-1881",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/XGmIcyDKEzY",
+    "cabecera": "ESTRECHO DE MAGALLANES — 1881",
+    "acento": "cian",
+    "gancho": {
+      "texto": "En 1881, dos Thomas Osborn, ministros de EE. UU., mediaron por telégrafo entre Chile y Argentina la disputa por el Estrecho de Magallanes.",
+      "rotulo": "ESTRECHO 1881",
+      "planos": [
+        {
+          "centro": [
+            -68,
+            -47
+          ],
+          "zoom": 6.1,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -68,
+            -49
+          ],
+          "zoom": 6.5,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "telégrafo"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -71.5,
+              -41.1
+            ],
+            [
+              -62.5,
+              -41.0
+            ],
+            [
+              -63.8,
+              -42.4
+            ],
+            [
+              -65.1,
+              -43.3
+            ],
+            [
+              -65.7,
+              -44.8
+            ],
+            [
+              -67.5,
+              -45.9
+            ],
+            [
+              -65.7,
+              -47.2
+            ],
+            [
+              -65.9,
+              -47.75
+            ],
+            [
+              -67.7,
+              -49.3
+            ],
+            [
+              -68.4,
+              -50.1
+            ],
+            [
+              -69.2,
+              -51.6
+            ],
+            [
+              -68.43,
+              -52.4
+            ],
+            [
+              -70,
+              -52.2
+            ],
+            [
+              -72.0,
+              -51.8
+            ],
+            [
+              -72.3,
+              -50
+            ],
+            [
+              -72.9,
+              -48
+            ],
+            [
+              -72.1,
+              -46
+            ],
+            [
+              -71.8,
+              -44
+            ],
+            [
+              -71.7,
+              -42.5
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -69,
+          "lat": -45.5,
+          "texto": "PATAGONIA",
+          "tipo": "region",
+          "aparecerEn": "Argentina"
+        },
+        {
+          "lon": -70.9,
+          "lat": -53.1,
+          "texto": "ESTRECHO DE MAGALLANES",
+          "tipo": "pin",
+          "aparecerEn": "telégrafo"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -73.6,
+          "lat": -47.0,
+          "mirar": [
+            -69,
+            -46
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "AR",
+          "lon": -67.0,
+          "lat": -44.0,
+          "mirar": [
+            -73.6,
+            -47.0
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "Osborn",
+        "telégrafo",
+        "Estrecho"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1847, Argentina, gobernada por Rosas, protestó por la ocupación chilena del Estrecho. La disputa duró más de treinta años.",
+        "rotulo": {
+          "texto": "30 AÑOS",
+          "dice": "treinta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -52.3
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -51.8
+            ],
+            "zoom": 6.9,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "ocupación"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1847",
+            "sub": "PROTESTA DE ROSAS",
+            "icono": "📜",
+            "aparecerEn": "1847",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1847",
+          "Rosas",
+          "treinta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1881 Chile aún peleaba con Perú y Bolivia. Entre Buenos Aires y Santiago, los dos Thomas Osborn pasaban los mensajes por telégrafo.",
+        "rotulo": {
+          "texto": "DOS OSBORN",
+          "dice": "Osborn"
+        },
+        "planos": [
+          {
+            "centro": [
+              -64.5,
+              -34.2
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.4,
+              -34.6
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Buenos"
+          },
+          {
+            "centro": [
+              -70.65,
+              -33.45
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Santiago"
+          },
+          {
+            "centro": [
+              -64.5,
+              -34.2
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "telégrafo"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "OSBORN · BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Buenos"
+          },
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "OSBORN · SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Santiago"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.65,
+              -33.45
+            ],
+            "hasta": [
+              -58.38,
+              -34.6
+            ],
+            "texto": "~1.140 KM",
+            "aparecerEn": "telégrafo"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -64.5,
+            "lat": -34.1,
+            "icono": "⚡",
+            "escala": 1,
+            "aparecerEn": "mensajes"
+          }
+        ],
+        "clave": [
+          "Perú",
+          "Osborn",
+          "telégrafo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En julio, el tratado cerró la disputa. La soberanía del Estrecho quedó en Chile, con una condición.",
+        "rotulo": {
+          "texto": "JULIO 1881",
+          "dice": "julio"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69,
+              -50
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.3,
+              -53.2
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Estrecho"
+          }
+        ],
+        "clave": [
+          "julio",
+          "Estrecho",
+          "condición"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El artículo quinto lo neutralizó a perpetuidad: libre para las banderas de todas las naciones y sin fortalezas en sus costas.",
+        "rotulo": {
+          "texto": "ART. 5",
+          "dice": "quinto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.8,
+              -53.0
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.5,
+              -52.7
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "naciones"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "NEUTRALIZADO",
+            "sub": "ARTÍCULO 5 · A PERPETUIDAD",
+            "icono": "📜",
+            "aparecerEn": "neutralizó",
+            "duracionSeg": 3
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "US",
+            "lon": -66.8,
+            "lat": -51.6,
+            "mirar": [
+              -69.5,
+              -52.7
+            ],
+            "expresion": "normal",
+            "escala": 0.8,
+            "aparecerEn": "naciones",
+            "quedarse": 0
+          },
+          {
+            "pais": "GB",
+            "lon": -66.4,
+            "lat": -52.8,
+            "mirar": [
+              -69.5,
+              -52.7
+            ],
+            "expresion": "normal",
+            "escala": 0.8,
+            "aparecerEn": "naciones",
+            "quedarse": 0
+          },
+          {
+            "pais": "FR",
+            "lon": -66.8,
+            "lat": -54.0,
+            "mirar": [
+              -69.5,
+              -52.7
+            ],
+            "expresion": "normal",
+            "escala": 0.8,
+            "aparecerEn": "naciones",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "quinto",
+          "neutralizó",
+          "naciones"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Todo había empezado en 1843: una goleta con 23 a bordo, la Ancud, tomó posesión del Estrecho para Chile y levantó el Fuerte Bulnes. Un barco francés llegó con la misma misión, un día o dos tarde.",
+        "rotulo": {
+          "texto": "1843",
+          "dice": "1843"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.8,
+              -53.3
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.93,
+              -53.55
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Ancud"
+          },
+          {
+            "centro": [
+              -70.8,
+              -53.5
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "francés"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -71.4,
+            "lat": -53.75,
+            "texto": "ESTRECHO DE MAGALLANES",
+            "tipo": "region",
+            "aparecerEn": "Estrecho"
+          },
+          {
+            "lon": -70.93,
+            "lat": -53.63,
+            "texto": "FUERTE BULNES",
+            "tipo": "pin",
+            "aparecerEn": "Fuerte"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "21 SEP 1843",
+            "sub": "LLEGA LA GOLETA ANCUD",
+            "icono": "⚓",
+            "aparecerEn": "Ancud",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.7,
+            "lat": -53.5,
+            "icono": "⛵",
+            "escala": 1,
+            "aparecerEn": "goleta"
+          }
+        ],
+        "clave": [
+          "1843",
+          "Ancud",
+          "francés"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Hay dos lecturas sobre la Patagonia. Para la historiografía chilena, la Corona nunca la separó del Reino de Chile. Para la argentina, dependía del Virreinato del Río de la Plata.",
+        "rotulo": {
+          "texto": "DOS LECTURAS",
+          "dice": "lecturas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69,
+              -47
+            ],
+            "zoom": 6.1,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.5,
+              -45
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Virreinato"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -71.5,
+                -41.1
+              ],
+              [
+                -62.5,
+                -41.0
+              ],
+              [
+                -63.8,
+                -42.4
+              ],
+              [
+                -65.1,
+                -43.3
+              ],
+              [
+                -65.7,
+                -44.8
+              ],
+              [
+                -67.5,
+                -45.9
+              ],
+              [
+                -65.7,
+                -47.2
+              ],
+              [
+                -65.9,
+                -47.75
+              ],
+              [
+                -67.7,
+                -49.3
+              ],
+              [
+                -68.4,
+                -50.1
+              ],
+              [
+                -69.2,
+                -51.6
+              ],
+              [
+                -68.43,
+                -52.4
+              ],
+              [
+                -70,
+                -52.2
+              ],
+              [
+                -72.0,
+                -51.8
+              ],
+              [
+                -72.3,
+                -50
+              ],
+              [
+                -72.9,
+                -48
+              ],
+              [
+                -72.1,
+                -46
+              ],
+              [
+                -71.8,
+                -44
+              ],
+              [
+                -71.7,
+                -42.5
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "solida",
+            "aparecerEn": "Patagonia",
+            "quedarse": 0
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -72.6,
+            "lat": -45.5,
+            "texto": "REINO DE CHILE",
+            "tipo": "region",
+            "aparecerEn": "Reino"
+          },
+          {
+            "lon": -65.8,
+            "lat": -44.6,
+            "texto": "VIRREINATO DEL PLATA",
+            "tipo": "region",
+            "aparecerEn": "Virreinato"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -73.8,
+            "lat": -47.0,
+            "mirar": [
+              -69,
+              -46
+            ],
+            "expresion": "normal",
+            "escala": 0.9,
+            "aparecerEn": "chilena",
+            "quedarse": 0
+          },
+          {
+            "pais": "AR",
+            "lon": -66.0,
+            "lat": -47.5,
+            "mirar": [
+              -73.8,
+              -47.0
+            ],
+            "expresion": "normal",
+            "escala": 0.9,
+            "aparecerEn": "argentina",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "Patagonia",
+          "chilena",
+          "Virreinato"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "En agosto de 2026, la Cancillería argentina declaró que los tratados de 1881 y 1984 rigen plenamente.",
+        "rotulo": {
+          "texto": "2026",
+          "dice": "2026"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69,
+              -51
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.5,
+              -53
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Cancillería"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "AGO 2026",
+            "sub": "CANCILLERÍA ARGENTINA: RIGEN PLENAMENTE",
+            "icono": "🏛️",
+            "aparecerEn": "agosto",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "agosto",
+          "Cancillería",
+          "tratados"
+        ]
+      }
+    ],
+    "remate": "¿Fue un buen trato para Chile?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.2,
+          -52.8
+        ],
+        "zoom": 7.0,
+        "entrada": "paneo",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -71.8,
+        "lat": -53.6,
+        "texto": "¿ESTRECHO?"
+      },
+      {
+        "lon": -67.8,
+        "lat": -49.0,
+        "texto": "¿PATAGONIA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Memoria Chilena: Tratado de límites con Argentina (1881; renuncia a la Patagonia oriental; Estrecho; protesta de Rosas 1847)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-92197.html"
+      },
+      {
+        "texto": "Departamento de Estado de EE. UU. (FRUS 1881): despacho de Thomas O. Osborn desde Buenos Aires, 1-07-1881 (buenos oficios, negociación por telégrafo)",
+        "url": "https://history.state.gov/historicaldocuments/frus1881/d4"
+      },
+      {
+        "texto": "Departamento de Estado de EE. UU. (FRUS 1881): despacho de Thomas A. Osborn desde Santiago, 22-07-1881 (neutralidad del Estrecho)",
+        "url": "https://history.state.gov/historicaldocuments/frus1881/d100"
+      },
+      {
+        "texto": "Wikipedia: Tratado de 1881 entre Argentina y Chile (artículos 1, 2 y 5)",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_1881_entre_Argentina_y_Chile"
+      },
+      {
+        "texto": "Wikipedia: Disputa de la Patagonia Oriental, Tierra del Fuego y el estrecho de Magallanes (lecturas chilena y argentina)",
+        "url": "https://es.wikipedia.org/wiki/Disputa_de_la_Patagonia_Oriental,_Tierra_del_Fuego_y_el_estrecho_de_Magallanes"
+      },
+      {
+        "texto": "Memoria Chilena: El Fuerte Bulnes (goleta Ancud, 21-09-1843, 23 tripulantes)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-714.html"
+      },
+      {
+        "texto": "Wikipedia: Estrecho de Magallanes (565 km)",
+        "url": "https://es.wikipedia.org/wiki/Estrecho_de_Magallanes"
+      },
+      {
+        "texto": "BioBioChile: ¿Es verdad que Argentina le robó la Patagonia a Chile?",
+        "url": "https://www.biobiochile.cl/noticias/2015/08/02/es-verdad-que-argentina-le-robo-la-patagonia-a-chile.shtml"
+      },
+      {
+        "texto": "Emol (25-08-2026): tratados Chile-Argentina y Estrecho de Magallanes",
+        "url": "https://www.emol.com/noticias/Nacional/2026/08/25/1209512/tratados-chileargentina-y-estrechomagallanes.html"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -68,
+        -47
+      ],
+      "zoomInicial": 6.1,
+      "zoomFinal": 6.4,
+      "lineas": [
+        {
+          "id": "estrecho",
+          "puntos": [
+            [
+              -68.4,
+              -52.4
+            ],
+            [
+              -69.6,
+              -52.65
+            ],
+            [
+              -70.6,
+              -52.9
+            ],
+            [
+              -70.95,
+              -53.3
+            ],
+            [
+              -71.3,
+              -53.9
+            ],
+            [
+              -72.3,
+              -53.8
+            ],
+            [
+              -73.2,
+              -53.1
+            ],
+            [
+              -74.0,
+              -52.7
+            ],
+            [
+              -74.7,
+              -52.7
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 2,
+          "dice": "Estrecho",
+          "etiqueta": "ESTRECHO"
+        }
+      ]
+    }
+  }
+}
