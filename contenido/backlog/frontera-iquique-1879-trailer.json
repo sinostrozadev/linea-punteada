@@ -1,0 +1,549 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-iquique-1879-trailer",
+  "titulo": "Iquique 1879: Perú ganó el combate, ¿y Chile lo celebra? 🇨🇱🇵🇪",
+  "descripcion": "El 21 de mayo de 1879, frente a Iquique, el monitor peruano Huáscar de Miguel Grau hundió con tres espolonazos la corbeta chilena Esmeralda de Arturo Prat: murieron unos 140 de sus 200 hombres y Perú tuvo un muerto. Ese mismo día, unos 20 km al sur, la fragata peruana Independencia encalló en Punta Gruesa persiguiendo a la goleta Covadonga de Carlos Condell, y Grau tuvo que incendiarla. Doce días después, Grau devolvió a la viuda de Prat, Carmela Carvajal, su espada y su anillo. Chile recuerda el 21 de mayo como Día de las Glorias Navales; Perú recuerda a Grau como héroe nacional. ¿Quién ganó de verdad en Iquique? Cuéntanos en los comentarios.\n\nFuentes:\n- https://es.wikipedia.org/wiki/Combate_naval_de_Iquique\n- https://es.wikipedia.org/wiki/Combate_naval_de_Punta_Gruesa\n- https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat",
+  "hashtags": [
+    "#shorts",
+    "#iquique",
+    "#chile",
+    "#peru",
+    "#geografia",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-iquique-1879-trailer",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/watch?v=2gtM4uVoSl8",
+    "cabecera": "IQUIQUE — 21 DE MAYO DE 1879",
+    "acento": "coral",
+    "gancho": {
+      "texto": "En Iquique, el 21 de mayo de 1879, Perú hundió una corbeta chilena en un combate que Chile celebra como feriado cada año.",
+      "rotulo": "IQUIQUE 1879",
+      "planos": [
+        {
+          "centro": [
+            -70.5,
+            -20.2
+          ],
+          "zoom": 7.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -70.45,
+            -20.25
+          ],
+          "zoom": 7.9,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "hundió"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -70.9,
+              -19.9
+            ],
+            [
+              -70.15,
+              -19.9
+            ],
+            [
+              -70.15,
+              -20.55
+            ],
+            [
+              -70.9,
+              -20.55
+            ]
+          ],
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.15,
+          "lat": -20.21,
+          "texto": "IQUIQUE",
+          "tipo": "pin",
+          "aparecerEn": "Iquique"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "PE",
+          "lon": -70.5,
+          "lat": -19.95,
+          "mirar": [
+            -70.5,
+            -20.45
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "CL",
+          "lon": -70.5,
+          "lat": -20.5,
+          "mirar": [
+            -70.5,
+            -19.95
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "Iquique",
+        "Perú",
+        "feriado"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "La Esmeralda era una corbeta de madera de 1855, al mando de Arturo Prat. El Huáscar de Miguel Grau era un monitor blindado de 1.745 toneladas.",
+        "rotulo": {
+          "texto": "MADERA VS ACERO",
+          "dice": "madera"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.4,
+              -20.2
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.35,
+              -20.22
+            ],
+            "zoom": 8.5,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Huáscar"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.3,
+            "lat": -20.18,
+            "texto": "ESMERALDA",
+            "tipo": "pin",
+            "aparecerEn": "Esmeralda"
+          },
+          {
+            "lon": -70.3,
+            "lat": -20.26,
+            "texto": "HUÁSCAR",
+            "tipo": "pin",
+            "aparecerEn": "Huáscar"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1.745 T",
+            "sub": "HUÁSCAR · MONITOR BLINDADO",
+            "icono": "⚓",
+            "aparecerEn": "toneladas",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "madera",
+          "Prat",
+          "blindado"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El Huáscar la embistió. Prat saltó a su cubierta y murió allí. Tras el segundo espolonazo, el teniente Serrano saltó con doce hombres.",
+        "rotulo": {
+          "texto": "2 ABORDAJES",
+          "dice": "segundo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.32,
+              -20.22
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3,
+              -20.22
+            ],
+            "zoom": 9.1,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "cubierta"
+          },
+          {
+            "centro": [
+              -70.28,
+              -20.21
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Serrano"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.3,
+            "lat": -20.22,
+            "texto": "PRAT",
+            "tipo": "pin",
+            "aparecerEn": "Prat"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.28,
+            "lat": -20.2,
+            "icono": "⚔️",
+            "escala": 1,
+            "aparecerEn": "embistió"
+          }
+        ],
+        "clave": [
+          "embistió",
+          "Prat",
+          "Serrano"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Con el tercer espolonazo, a las 12:10, la Esmeralda se hundió con su bandera izada. Murieron unos 140 de sus 200 hombres. Perú, un muerto.",
+        "rotulo": {
+          "texto": "12:10",
+          "dice": "12:10"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -20.21
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3,
+              -20.21
+            ],
+            "zoom": 9.3,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "140"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "140 DE 200",
+            "sub": "MUERTOS EN LA ESMERALDA",
+            "icono": "🚩",
+            "aparecerEn": "140",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "tercer",
+          "hundió",
+          "140"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Ese mismo día, 20 kilómetros al sur, la fragata peruana Independencia perseguía a la goleta Covadonga, de Carlos Condell. Quiso embestirla, chocó con una roca y encalló en Punta Gruesa.",
+        "rotulo": {
+          "texto": "PUNTA GRUESA",
+          "dice": "Gruesa"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.2,
+              -20.3
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.2,
+              -20.38
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "roca"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.19,
+            "lat": -20.4,
+            "texto": "PUNTA GRUESA",
+            "tipo": "pin",
+            "aparecerEn": "Gruesa"
+          },
+          {
+            "lon": -70.15,
+            "lat": -20.21,
+            "texto": "IQUIQUE",
+            "tipo": "pin",
+            "aparecerEn": "Independencia"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.15,
+              -20.21
+            ],
+            "hasta": [
+              -70.19,
+              -20.4
+            ],
+            "texto": "~20 KM",
+            "aparecerEn": "kilómetros"
+          }
+        ],
+        "clave": [
+          "Independencia",
+          "Covadonga",
+          "roca"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Grau tuvo que incendiarla. Perú ganó en Iquique y perdió esa misma tarde una de sus dos naves más poderosas.",
+        "rotulo": {
+          "texto": "GANÓ Y PERDIÓ",
+          "dice": "perdió"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -20.3
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.4,
+              -20.3
+            ],
+            "zoom": 7.4,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "perdió"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "PE",
+            "lon": -70.75,
+            "lat": -20.2,
+            "mirar": [
+              -70.19,
+              -20.4
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "Perú",
+            "quedarse": 0
+          },
+          {
+            "pais": "CL",
+            "lon": -70.75,
+            "lat": -20.55,
+            "mirar": [
+              -70.19,
+              -20.4
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "Perú",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "incendiarla",
+          "Perú",
+          "perdió"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Doce días después, Grau le devolvió a Carmela Carvajal, viuda de Prat, su espada y su anillo de matrimonio, con una carta.",
+        "rotulo": {
+          "texto": "LA ESPADA",
+          "dice": "espada"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.2,
+              -20.3
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.9,
+              -20.5
+            ],
+            "zoom": 6.5,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Carmela"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 JUN 1879",
+            "sub": "CARTA DE GRAU A LA VIUDA",
+            "icono": "✉️",
+            "aparecerEn": "Carmela",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Doce",
+          "Carmela",
+          "espada"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Chile celebra el 21 de mayo como Día de las Glorias Navales. Perú recuerda a Grau como héroe nacional. Casi cinco meses después, en Angamos, el Huáscar perdería a su comandante.",
+        "rotulo": {
+          "texto": "ANGAMOS",
+          "dice": "Angamos"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.9,
+              -20.5
+            ],
+            "zoom": 6.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.6,
+              -23.2
+            ],
+            "zoom": 6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Angamos"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.5,
+            "lat": -23.0,
+            "texto": "ANGAMOS 8 OCT",
+            "tipo": "pin",
+            "aparecerEn": "Angamos"
+          }
+        ],
+        "clave": [
+          "feriado",
+          "Grau",
+          "Angamos"
+        ]
+      }
+    ],
+    "remate": "¿Quién ganó de verdad en Iquique?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.5,
+          -20.3
+        ],
+        "zoom": 7.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -70.5,
+        "lat": -20.0,
+        "texto": "¿PERÚ?"
+      },
+      {
+        "lon": -70.5,
+        "lat": -20.5,
+        "texto": "¿CHILE?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Combate naval de Iquique",
+        "url": "https://es.wikipedia.org/wiki/Combate_naval_de_Iquique"
+      },
+      {
+        "texto": "Wikipedia: Combate naval de Punta Gruesa",
+        "url": "https://es.wikipedia.org/wiki/Combate_naval_de_Punta_Gruesa"
+      },
+      {
+        "texto": "Wikisource: Carta de Miguel Grau a Carmela Carvajal (2-06-1879)",
+        "url": "https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat"
+      },
+      {
+        "texto": "Wikipedia: Día de las Glorias Navales (ley 2977 de 1915)",
+        "url": "https://es.wikipedia.org/wiki/D%C3%ADa_de_las_Glorias_Navales"
+      },
+      {
+        "texto": "Wikipedia: Combate naval de Angamos (8-10-1879)",
+        "url": "https://es.wikipedia.org/wiki/Combate_naval_de_Angamos"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 6,
+      "centro": [
+        -70.5,
+        -20.3
+      ],
+      "zoomInicial": 7.6,
+      "zoomFinal": 7.9,
+      "lineas": []
+    }
+  }
+}
