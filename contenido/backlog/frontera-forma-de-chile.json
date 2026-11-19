@@ -1,0 +1,488 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-forma-de-chile",
+  "titulo": "Chile mide 4.270 km de largo y solo 90 km en su parte más angosta 🇨🇱",
+  "descripcion": "Chile se extiende unos 4.270 km de norte a sur, pero su ancho promedio es de apenas 177 km y, según estimaciones cartográficas repetidas por enciclopedias y mapas (sin medición oficial verificada; otras fuentes dan 94 km), en su punto más angosto, hacia los 31°37' S en la región de Coquimbo, ronda los 90 km. Con mapas recorremos cómo se armó esa cinta: el Pacífico y los Andes como límites naturales, el tratado de límites de 1881 con Argentina que fijó la frontera en las cumbres más elevadas que dividen las aguas, la toma de posesión del estrecho de Magallanes por la goleta Ancud el 21 de septiembre de 1843, y los territorios del norte que Chile incorporó tras la guerra de 1879 con Perú y Bolivia (Tarapacá, Antofagasta; Arica en 1929), que sumaron unos 600 km, cerca del 14 % de su largo actual (cálculo propio): los otros 3.600 km ya existían antes de la guerra. Cuéntanos en los comentarios: ¿geografía o guerras?\n\nFuentes:\nhttps://es.wikipedia.org/wiki/Chile\nhttps://en.wikipedia.org/wiki/Geography_of_Chile\nhttps://es.wikipedia.org/wiki/Goleta_Ancud\nhttps://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico\nhttps://www.conicet.gov.ar/wp-content/uploads/Ley-N%C2%BA-1116-Tratado.pdf",
+  "hashtags": [
+    "#shorts",
+    "#chile",
+    "#geografia",
+    "#mapas",
+    "#argentina",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-forma-de-chile",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+    "cabecera": "CHILE — LA CINTA DE TIERRA",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "Chile mide más de 4.000 kilómetros de largo, pero en su parte más angosta tiene apenas unos 90 kilómetros de ancho. ¿Cómo se estiró tanto?",
+      "rotulo": "90 KM",
+      "planos": [
+        {
+          "centro": [
+            -70.5,
+            -38
+          ],
+          "zoom": 4.6,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -70.8,
+            -33.5
+          ],
+          "zoom": 5.4,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "angosta"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -71.0,
+          "lat": -31.6,
+          "texto": "90 KM",
+          "tipo": "pin",
+          "aparecerEn": "angosta"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -72.3,
+          "lat": -37.5,
+          "mirar": [
+            -69.5,
+            -37.5
+          ],
+          "expresion": "normal",
+          "escala": 0.8,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "AR",
+          "lon": -66.8,
+          "lat": -37.5,
+          "mirar": [
+            -72.3,
+            -37.5
+          ],
+          "expresion": "normal",
+          "escala": 0.8,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "4.000",
+        "angosta",
+        "90"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "A un lado, el Pacífico; al otro, los Andes, con el Ojos del Salado a 6.893 metros, el volcán más alto del mundo. Al norte, el desierto de Atacama.",
+        "rotulo": {
+          "texto": "6.893 M",
+          "dice": "6.893"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.5,
+              -30
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.5,
+              -27.1
+            ],
+            "zoom": 5.5,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Ojos"
+          },
+          {
+            "centro": [
+              -69.5,
+              -22
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Atacama"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.54,
+            "lat": -27.11,
+            "texto": "OJOS DEL SALADO",
+            "tipo": "pin",
+            "aparecerEn": "Ojos"
+          },
+          {
+            "lon": -70.1,
+            "lat": -23.5,
+            "texto": "ATACAMA",
+            "tipo": "region",
+            "aparecerEn": "Atacama"
+          },
+          {
+            "lon": -72.5,
+            "lat": -30,
+            "texto": "PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "Pacífico"
+          }
+        ],
+        "clave": [
+          "Pacífico",
+          "Andes",
+          "Atacama"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 21 de septiembre de 1843, 23 tripulantes de la goleta Ancud desembarcaron en el estrecho de Magallanes y tomaron posesión con 21 cañonazos. Al día siguiente fondeó una fragata francesa, y su comandante reclamó.",
+        "rotulo": {
+          "texto": "1843",
+          "dice": "1843"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71,
+              -46
+            ],
+            "zoom": 4.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.2,
+              -53.2
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "estrecho"
+          },
+          {
+            "centro": [
+              -70.9,
+              -53.6
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "fragata"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.93,
+            "lat": -53.65,
+            "texto": "FUERTE BULNES",
+            "tipo": "pin",
+            "aparecerEn": "estrecho"
+          },
+          {
+            "lon": -73.9,
+            "lat": -41.87,
+            "texto": "ANCUD",
+            "tipo": "pin",
+            "aparecerEn": "Ancud"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.7,
+            "lat": -53.4,
+            "icono": "⛵",
+            "escala": 1,
+            "aparecerEn": "goleta"
+          }
+        ],
+        "clave": [
+          "1843",
+          "Ancud",
+          "cañonazos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Treinta y ocho años después, según el Tratado de Límites de 1881, la frontera con Argentina correría por las cumbres más elevadas que dividan las aguas. La cordillera quedó como el muro del este.",
+        "rotulo": {
+          "texto": "1881",
+          "dice": "1881"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -35
+            ],
+            "zoom": 5.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.2,
+              -33
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "cumbres"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.0,
+            "lat": -34,
+            "texto": "ANDES",
+            "tipo": "region",
+            "aparecerEn": "cordillera"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1881",
+            "sub": "TRATADO DE LÍMITES",
+            "icono": "📜",
+            "aparecerEn": "Tratado",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1881",
+          "cumbres",
+          "muro"
+        ],
+        "fuenteEnVoz": true
+      },
+      {
+        "tipo": "giro",
+        "texto": "Hasta 1879 el límite estaba en el paralelo 24. Tras la guerra con Perú y Bolivia, Chile quedó con Tarapacá y Antofagasta, y en 1929 con Arica: unos 600 kilómetros más, apenas el 14 % de su largo. Los otros 3.600 ya estaban.",
+        "rotulo": {
+          "texto": "+600 KM",
+          "dice": "600"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -24
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.2,
+              -21
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Tarapacá"
+          },
+          {
+            "centro": [
+              -70.3,
+              -18.5
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Arica"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.3,
+            "lat": -24,
+            "texto": "PARALELO 24",
+            "tipo": "pin",
+            "aparecerEn": "paralelo"
+          },
+          {
+            "lon": -70.2,
+            "lat": -20.2,
+            "texto": "TARAPACÁ",
+            "tipo": "region",
+            "aparecerEn": "Tarapacá"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.3,
+              -24
+            ],
+            "hasta": [
+              -70.3,
+              -18.5
+            ],
+            "texto": "~600 KM",
+            "aparecerEn": "600"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1879",
+            "sub": "GUERRA DEL PACÍFICO",
+            "icono": "📜",
+            "aparecerEn": "1879",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1879",
+          "Tarapacá",
+          "Arica"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Chile mide 4.270 kilómetros de largo y 177 de ancho promedio: es unas 24 veces más largo que ancho.",
+        "rotulo": {
+          "texto": "4.270 KM",
+          "dice": "4.270"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.5,
+              -38
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71,
+              -37
+            ],
+            "zoom": 4.9,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "ancho"
+          }
+        ],
+        "clave": [
+          "4.270",
+          "177",
+          "24"
+        ]
+      }
+    ],
+    "remate": "¿Chile es largo por su geografía o por sus guerras?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.5,
+          -38
+        ],
+        "zoom": 4.6,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -72.5,
+        "lat": -36,
+        "texto": "¿GEOGRAFÍA?"
+      },
+      {
+        "lon": -70,
+        "lat": -21,
+        "texto": "¿GUERRAS?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Chile (largo 4.270 km; ancho máx. 445 km a 52°21' S, mín. 90 km a 31°37' S)",
+        "url": "https://es.wikipedia.org/wiki/Chile"
+      },
+      {
+        "texto": "Wikipedia: Geography of Chile (4.270 km; ancho promedio 177 km; Ojos del Salado 6.893 m)",
+        "url": "https://en.wikipedia.org/wiki/Geography_of_Chile"
+      },
+      {
+        "texto": "Wikipedia: Goleta Ancud (toma de posesión del estrecho, 21-09-1843; fragata Phaéton)",
+        "url": "https://es.wikipedia.org/wiki/Goleta_Ancud"
+      },
+      {
+        "texto": "Wikipedia: Guerra del Pacífico (Ancón 1883, tregua 1884, tratado 1904)",
+        "url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico"
+      },
+      {
+        "texto": "Tratado de Límites Chile-Argentina de 1881, art. 1 (Ley 1116)",
+        "url": "https://www.conicet.gov.ar/wp-content/uploads/Ley-N%C2%BA-1116-Tratado.pdf"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 9,
+      "centro": [
+        -70.5,
+        -38
+      ],
+      "zoomInicial": 4.6,
+      "zoomFinal": 5.0,
+      "lineas": [
+        {
+          "id": "paralelo-24",
+          "puntos": [
+            [
+              -71.5,
+              -24
+            ],
+            [
+              -68.0,
+              -24
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 3,
+          "dice": "paralelo",
+          "etiqueta": "LÍMITE 1879"
+        }
+      ]
+    }
+  }
+}
