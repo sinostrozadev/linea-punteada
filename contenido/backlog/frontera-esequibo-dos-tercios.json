@@ -1,0 +1,591 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-esequibo-dos-tercios",
+  "titulo": "Venezuela reclama dos tercios de Guyana: el Esequibo 🇻🇪🇬🇾",
+  "descripcion": "Venezuela reclama el Esequibo, unos 160 mil km² que Guyana administra. Hechos de cada parte, sin tomar partido: el laudo de París de 1899, unánime, válido para Guyana y nulo para Venezuela (que cita el memorando de Mallet-Prevost, publicado en 1949); el Acuerdo de Ginebra de 1966; la demanda de Guyana ante la CIJ en 2018, cuya jurisdicción Venezuela no acepta; el referéndum venezolano de 2023; y las audiencias de mayo de 2026. ¿Debe decidir la Corte? Cuéntalo en los comentarios.\n\nFuentes:\n- CIJ, caso 171: https://www.icj-cij.org/case/171\n- Guayana Esequiba: https://es.wikipedia.org/wiki/Guayana_Esequiba\n- Disputa Guyana-Venezuela: https://en.wikipedia.org/wiki/Guyana%E2%80%93Venezuela_territorial_dispute\n- Memorando Mallet-Prevost: https://en.wikipedia.org/wiki/Mallet-Prevost_memorandum\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#esequibo",
+    "#venezuela",
+    "#guyana",
+    "#geografia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-esequibo-dos-tercios",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/yhyz06uBbw0",
+    "cabecera": "ESEQUIBO — DOS VERSIONES",
+    "acento": "coral",
+    "gancho": {
+      "texto": "Venezuela reclama el Esequibo: unos 160 mil kilómetros cuadrados, dos tercios del territorio de Guyana, que lo administra.",
+      "rotulo": "ESEQUIBO",
+      "planos": [
+        {
+          "centro": [
+            -59.4,
+            5.0
+          ],
+          "zoom": 5.0,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -59.4,
+            5.0
+          ],
+          "zoom": 5.5,
+          "entrada": "zoom",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -58.47,
+              7
+            ],
+            [
+              -58.47,
+              7.24
+            ],
+            [
+              -58.57,
+              7.45
+            ],
+            [
+              -58.75,
+              7.61
+            ],
+            [
+              -58.88,
+              7.78
+            ],
+            [
+              -59.09,
+              8
+            ],
+            [
+              -59.35,
+              8.17
+            ],
+            [
+              -59.61,
+              8.26
+            ],
+            [
+              -59.82,
+              8.35
+            ],
+            [
+              -60.02,
+              8.56
+            ],
+            [
+              -60,
+              8.13
+            ],
+            [
+              -60.2,
+              7.97
+            ],
+            [
+              -60.5,
+              7.82
+            ],
+            [
+              -60.7,
+              7.5
+            ],
+            [
+              -60.6,
+              7.3
+            ],
+            [
+              -60.4,
+              6.95
+            ],
+            [
+              -60.74,
+              6.76
+            ],
+            [
+              -60.9,
+              6.78
+            ],
+            [
+              -61.2,
+              6.56
+            ],
+            [
+              -61.15,
+              6.4
+            ],
+            [
+              -61.4,
+              5.95
+            ],
+            [
+              -60.74,
+              5.2
+            ],
+            [
+              -60.2,
+              5.26
+            ],
+            [
+              -59.98,
+              5.06
+            ],
+            [
+              -60.08,
+              4.65
+            ],
+            [
+              -59.7,
+              4.39
+            ],
+            [
+              -59.6,
+              4
+            ],
+            [
+              -59.84,
+              3.4
+            ],
+            [
+              -59.97,
+              3
+            ],
+            [
+              -60,
+              2.68
+            ],
+            [
+              -59.74,
+              2.1
+            ],
+            [
+              -59.7,
+              1.86
+            ],
+            [
+              -59.3,
+              1.46
+            ],
+            [
+              -58.9,
+              1.22
+            ],
+            [
+              -58.4,
+              1.4
+            ],
+            [
+              -58.3,
+              2
+            ],
+            [
+              -58.3,
+              2.7
+            ],
+            [
+              -58.4,
+              3.4
+            ],
+            [
+              -58.45,
+              4
+            ],
+            [
+              -58.55,
+              4.7
+            ],
+            [
+              -58.5,
+              5.4
+            ],
+            [
+              -58.45,
+              6
+            ],
+            [
+              -58.5,
+              6.4
+            ],
+            [
+              -58.5,
+              6.9
+            ]
+          ],
+          "color": "rojo",
+          "trama": "plena",
+          "etiqueta": "ESEQUIBO",
+          "etiquetaEn": [
+            -59.3,
+            5.2
+          ],
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -65.5,
+          "lat": 7.0,
+          "texto": "VENEZUELA",
+          "tipo": "pais",
+          "aparecerEn": 0
+        },
+        {
+          "lon": -56.8,
+          "lat": 4.8,
+          "texto": "GUYANA",
+          "tipo": "pais",
+          "aparecerEn": "Guyana"
+        }
+      ],
+      "clave": [
+        "Esequibo",
+        "160",
+        "Guyana"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "El 3 de octubre de 1899, cinco árbitros reunidos en París fijan por unanimidad la frontera entre Venezuela y la Guayana Británica.",
+        "rotulo": {
+          "texto": "1899",
+          "dice": "1899"
+        },
+        "planos": [
+          {
+            "centro": [
+              -59.4,
+              5.0
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -59.6,
+              5.0
+            ],
+            "zoom": 5.7,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.4,
+              4.5
+            ],
+            "zoom": 5.5,
+            "entrada": "paneo",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -59.0,
+            "lat": 6.6,
+            "texto": "GUAYANA BRITÁNICA",
+            "tipo": "pais",
+            "aparecerEn": "Guayana"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3 OCT 1899",
+            "sub": "LAUDO DE PARÍS · 5 ÁRBITROS",
+            "icono": "⚖️",
+            "aparecerEn": "París",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "París",
+          "unanimidad",
+          "1899"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Venezuela sostiene que ese laudo es nulo. En 1944 el abogado Severo Mallet-Prevost escribió que el presidente del tribunal, el ruso Friedrich Martens, presionó para pactar el fallo. Se publicó en 1949, con los árbitros ya muertos.",
+        "rotulo": {
+          "texto": "UN PAPEL PÓSTUMO",
+          "dice": "nulo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60.5,
+              6.0
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -60.5,
+              6.0
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1944 → 1949",
+            "sub": "MEMORANDO MALLET-PREVOST",
+            "icono": "📜",
+            "aparecerEn": "1944",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "nulo",
+          "Mallet-Prevost",
+          "Martens"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Guyana responde que fue unánime. Y no hay rastro del memorando en los papeles de los árbitros. Venezuela lo impugna en 1962. En 1966, el Acuerdo de Ginebra.",
+        "rotulo": {
+          "texto": "GINEBRA 1966",
+          "dice": "Ginebra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -59.3,
+              5.2
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -59.3,
+              5.2
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "17 FEB 1966",
+            "sub": "ACUERDO DE GINEBRA",
+            "icono": "🤝",
+            "aparecerEn": "Ginebra",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "unánime",
+          "1962",
+          "Ginebra"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 2018 Guyana pide a la Corte Internacional de Justicia que lo declare válido. Venezuela dice que nunca aceptó su jurisdicción.",
+        "rotulo": {
+          "texto": "LA HAYA",
+          "dice": "Corte"
+        },
+        "planos": [
+          {
+            "centro": [
+              -59.3,
+              5.2
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -59.3,
+              5.2
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2018",
+            "sub": "CIJ: DEMANDA DE GUYANA",
+            "icono": "🏛️",
+            "aparecerEn": "2018",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2018",
+          "Corte",
+          "jurisdicción"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "El 3 de diciembre de 2023, Venezuela vota un referéndum sobre el Esequibo: informa más de 95 % de sí. Dos días antes, la Corte le ordenó no alterar el territorio que Guyana controla.",
+        "rotulo": {
+          "texto": "95 % SÍ",
+          "dice": "95"
+        },
+        "planos": [
+          {
+            "centro": [
+              -62.5,
+              6.5
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -60.5,
+              5.6
+            ],
+            "zoom": 4.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Venezuela",
+            "color": "violeta",
+            "trama": "rayas",
+            "etiqueta": "VENEZUELA",
+            "aparecerEn": "vota"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "3 DIC 2023",
+            "sub": "REFERÉNDUM · 5 PREGUNTAS",
+            "icono": "🗳️",
+            "aparecerEn": "diciembre",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "95",
+          "Corte",
+          "Guyana"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "En los mapas escolares venezolanos aparece rayado como «zona en reclamación». La Corte oyó los alegatos de fondo en mayo de 2026, aún sin sentencia.",
+        "rotulo": {
+          "texto": "EN RECLAMACIÓN",
+          "dice": "reclamación"
+        },
+        "planos": [
+          {
+            "centro": [
+              -59.4,
+              5.0
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -59.4,
+              5.0
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "4–11 MAYO 2026",
+            "sub": "ALEGATOS DE FONDO · CIJ",
+            "icono": "🏛️",
+            "aparecerEn": "mayo",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "escolares",
+          "rayado",
+          "mayo"
+        ]
+      }
+    ],
+    "remate": "¿Debe la Corte decidir el futuro del Esequibo?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -59.4,
+          5.0
+        ],
+        "zoom": 5.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -62.5,
+        "lat": 6.5,
+        "texto": "¿VENEZUELA?"
+      },
+      {
+        "lon": -57.0,
+        "lat": 4.8,
+        "texto": "¿GUYANA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "CIJ: Arbitral Award of 3 October 1899 (Guyana v. Venezuela), cronología y audiencias de mayo de 2026",
+        "url": "https://www.icj-cij.org/case/171"
+      },
+      {
+        "texto": "Wikipedia: Guayana Esequiba (159.542 km², laudo unánime, 1962, Ginebra 1966, fallos CIJ)",
+        "url": "https://es.wikipedia.org/wiki/Guayana_Esequiba"
+      },
+      {
+        "texto": "Wikipedia: Guyana–Venezuela territorial dispute (referéndum 2023, ley de 2024, población)",
+        "url": "https://en.wikipedia.org/wiki/Guyana%E2%80%93Venezuela_territorial_dispute"
+      },
+      {
+        "texto": "Wikipedia: Mallet-Prevost memorandum (1944; publicado 1949)",
+        "url": "https://en.wikipedia.org/wiki/Mallet-Prevost_memorandum"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -59.4,
+        5.0
+      ],
+      "zoomInicial": 4.8,
+      "zoomFinal": 5.6,
+      "lineas": []
+    }
+  }
+}
