@@ -1,0 +1,454 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-presidente-hayes-paraguay",
+  "titulo": "Paraguay tiene un departamento con nombre de presidente de EE. UU.",
+  "descripcion": "Paraguay tiene un departamento, Presidente Hayes, que mide casi 73.000 km² y lleva el nombre del presidente estadounidense Rutherford B. Hayes. Tras la Guerra de la Triple Alianza (1864-1870), Paraguay y Argentina se disputaron la tierra del Chaco entre los ríos Verde y Pilcomayo, con Villa Occidental dentro. Por el tratado firmado en Buenos Aires el 3 de febrero de 1876 aceptaron que lo decidiera el presidente de Estados Unidos. Hayes falló el 12 de noviembre de 1878: Paraguay tenía título legal y justo sobre esa tierra. Villa Occidental pasó a llamarse Villa Hayes en 1879, y hoy la ciudad conserva un museo, un busto y un feriado local cada 12 de noviembre. Las pérdidas humanas de la guerra son materia de debate entre historiadores. Fuentes: Wikipedia, Presidente Hayes Department y Villa Hayes; ABC Color, Laudo Hayes: a 140 años de la proeza jurídica; KPBS/NPR; Mental Floss. Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#paraguay",
+    "#geografia",
+    "#mapas",
+    "#historia",
+    "#chaco"
+  ],
+  "props": {
+    "id": "pendiente-frontera-presidente-hayes-paraguay",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/EDCfVGL8NzI",
+    "cabecera": "PARAGUAY — PRESIDENTE HAYES",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "Paraguay tiene un departamento de casi 73.000 kilómetros cuadrados que se llama Presidente Hayes, por un presidente de Estados Unidos. Un fallo suyo de 1878 decidió de quién era esa tierra.",
+      "rotulo": "PRESIDENTE HAYES",
+      "planos": [
+        {
+          "centro": [
+            -58.4,
+            -23.4
+          ],
+          "zoom": 5.9,
+          "entrada": "corte",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Paraguay",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -57.52,
+          "lat": -25.09,
+          "texto": "VILLA HAYES",
+          "tipo": "pin",
+          "aparecerEn": "Hayes"
+        }
+      ],
+      "clave": [
+        "Paraguay",
+        "73.000",
+        "Hayes"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "Entre 1864 y 1870 Paraguay peleó contra Brasil, Argentina y Uruguay a la vez. Según las estimaciones, murieron entre cuatro y siete de cada diez habitantes.",
+        "rotulo": {
+          "texto": "1864–1870",
+          "dice": "1864"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57,
+              -27
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.5,
+              -25.5
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "en": "habitantes",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -53,
+            "lat": -24.5,
+            "texto": "BRASIL",
+            "tipo": "pais",
+            "aparecerEn": "Brasil"
+          },
+          {
+            "lon": -63.5,
+            "lat": -28,
+            "texto": "ARGENTINA",
+            "tipo": "pais",
+            "aparecerEn": "Argentina"
+          },
+          {
+            "lon": -56,
+            "lat": -32.5,
+            "texto": "URUGUAY",
+            "tipo": "pais",
+            "aparecerEn": "Uruguay"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "4 A 7 DE CADA 10",
+            "sub": "HABITANTES MUERTOS · ESTIMACIONES",
+            "icono": "⚔️",
+            "aparecerEn": "cuatro",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1864",
+          "Brasil",
+          "habitantes"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Perdida la guerra, Argentina ocupó Villa Occidental, junto al río Paraguay, y reclamó la tierra entre el Verde y el Pilcomayo.",
+        "rotulo": {
+          "texto": "EL CHACO",
+          "dice": "Pilcomayo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.5,
+              -24.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.52,
+              -25.09
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "en": "Villa",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -57.52,
+            "lat": -25.09,
+            "texto": "VILLA OCCIDENTAL",
+            "tipo": "pin",
+            "aparecerEn": "Villa"
+          },
+          {
+            "lon": -60.0,
+            "lat": -23.8,
+            "texto": "RÍO PILCOMAYO",
+            "tipo": "rio",
+            "rotacion": 35,
+            "aparecerEn": "Pilcomayo"
+          }
+        ],
+        "clave": [
+          "Argentina",
+          "Villa",
+          "Pilcomayo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 3 de febrero de 1876 firmaron en Buenos Aires: decidiría el presidente de Estados Unidos. Era Rutherford Hayes, que ganó su elección por un voto electoral y tenía un apodo: Rutherfraud.",
+        "rotulo": {
+          "texto": "1876",
+          "dice": "1876"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.4,
+              -34.6
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -77.04,
+              38.9
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "en": "Hayes",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.4,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Buenos"
+          },
+          {
+            "lon": -77.04,
+            "lat": 38.9,
+            "texto": "WASHINGTON",
+            "tipo": "pin",
+            "aparecerEn": "Hayes"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Rutherford B. Hayes portrait",
+          "pie": "Rutherford B. Hayes",
+          "lado": "derecha",
+          "aparecerEn": "Rutherfraud",
+          "duracionSeg": 3.5
+        },
+        "clave": [
+          "1876",
+          "Hayes",
+          "Rutherfraud"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 12 de noviembre de 1878 falló: Paraguay tenía título legal y justo sobre esa tierra, Villa Occidental incluida. Argentina entregó el pueblo en 1879.",
+        "rotulo": {
+          "texto": "12-11-1878",
+          "dice": "1878"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.3,
+              -24.0
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.52,
+              -25.09
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "pueblo",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Paraguay",
+            "color": "amarillo",
+            "trama": "rayas",
+            "aparecerEn": "Paraguay",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "12 NOV 1878",
+            "sub": "FALLO ARBITRAL DE HAYES",
+            "icono": "⚖️",
+            "aparecerEn": "falló",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1878",
+          "legal",
+          "1879"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Villa Occidental pasó a llamarse Villa Hayes. En su museo hay una copia del fallo escrito a mano, un busto recibe a los niños de una escuela y el 12 de noviembre es feriado local.",
+        "rotulo": {
+          "texto": "VILLA HAYES",
+          "dice": "Villa"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57.52,
+              -25.09
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.55,
+              -25.1
+            ],
+            "zoom": 12.0,
+            "entrada": "zoom",
+            "en": "museo",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -57.52,
+            "lat": -25.09,
+            "texto": "VILLA HAYES",
+            "tipo": "pin",
+            "aparecerEn": "Hayes"
+          },
+          {
+            "lon": -57.63,
+            "lat": -25.28,
+            "texto": "ASUNCIÓN",
+            "tipo": "pin",
+            "aparecerEn": "Villa"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "12 NOV",
+            "sub": "FERIADO EN VILLA HAYES",
+            "icono": "🎉",
+            "aparecerEn": "feriado",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Hayes",
+          "museo",
+          "feriado"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Presidente Hayes tiene casi 127.000 habitantes. La directora del museo dice que Paraguay existe gracias a él.",
+        "rotulo": {
+          "texto": "126.880",
+          "dice": "127.000"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.5,
+              -23.5
+            ],
+            "zoom": 6.3,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.7,
+              -23.7
+            ],
+            "zoom": 6.9,
+            "entrada": "paneo",
+            "en": "directora",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -59.0,
+            "lat": -23.7,
+            "texto": "PRESIDENTE HAYES",
+            "tipo": "region",
+            "aparecerEn": "Presidente"
+          }
+        ],
+        "clave": [
+          "Presidente",
+          "127.000",
+          "directora"
+        ]
+      }
+    ],
+    "remate": "¿Fue el fallo de Hayes justicia o diplomacia?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -58.4,
+          -23.4
+        ],
+        "zoom": 5.9,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -56.5,
+        "lat": -21.5,
+        "texto": "¿JUSTICIA?"
+      },
+      {
+        "lon": -60.5,
+        "lat": -26.5,
+        "texto": "¿DIPLOMACIA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ABC Color: Laudo Hayes, a 140 años de la proeza jurídica (texto del fallo, 12-11-1878; 13-5-1879)",
+        "url": "https://www.abc.com.py/edicion-impresa/politica/laudo-hayes-a-140-anos-de-la-proeza-juridica-1758558.html"
+      },
+      {
+        "texto": "La Nación (Paraguay): el histórico arbitraje que definió la soberanía sobre la Villa Occidental (16-11-2025)",
+        "url": "https://www.lanacion.com.py/gran-diario-domingo/2025/11/16/el-historico-arbitraje-que-definio-la-soberania-sobre-la-villa-occidental/"
+      },
+      {
+        "texto": "Wikipedia: Presidente Hayes Department (72.907 km², 126.880 hab. en 2022)",
+        "url": "https://en.wikipedia.org/wiki/Presidente_Hayes_Department"
+      },
+      {
+        "texto": "Wikipedia: Villa Hayes (nombre por decreto del 13-5-1879, museo y monumentos)",
+        "url": "https://en.wikipedia.org/wiki/Villa_Hayes"
+      },
+      {
+        "texto": "KPBS/NPR: el lugar donde Rutherford B. Hayes es de verdad un héroe (museo, busto, feriado)",
+        "url": "https://www.kpbs.org/news/2014/10/30/the-place-where-rutherford-b-hayes-is-a-really"
+      },
+      {
+        "texto": "Whigham y Potthast (1999), Paraguayan Rosetta Stone, LARR; Kleinpenning (2002): estimaciones de mortalidad de la guerra",
+        "url": "https://stafforini.com/works/kleinpenning-2002-strong-reservations-about/"
+      },
+      {
+        "texto": "Miller Center: Disputed Election of 1876 (185 a 184, apodo Rutherfraud)",
+        "url": "https://millercenter.org/the-presidency/educational-resources/disputed-election-1876"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 10,
+      "centro": [
+        -58.4,
+        -23.4
+      ],
+      "zoomInicial": 5.9,
+      "zoomFinal": 6.2,
+      "lineas": []
+    }
+  }
+}

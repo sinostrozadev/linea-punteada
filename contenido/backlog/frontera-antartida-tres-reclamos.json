@@ -1,0 +1,666 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-antartida-tres-reclamos",
+  "titulo": "Tres países reclaman la misma Antártida hasta el Polo Sur 🇨🇱🇦🇷🇬🇧",
+  "descripcion": "Chile, Argentina y el Reino Unido reclaman porciones de la Antártida que se superponen y que llegan hasta el Polo Sur: el Reino Unido desde 1908 (entre los 20° y los 80° oeste), Chile desde 1940 (53° a 90° oeste) y Argentina desde 1946 (25° a 74° oeste). Entre los 53° y los 74° oeste los tres reclamos coinciden, justo donde están la base argentina Esperanza, donde nació Emilio Palma en 1978, y la aldea chilena Villa Las Estrellas, fundada en 1984. En 1959 doce países firmaron el Tratado Antártico, vigente desde 1961, que no anula los reclamos pero congela su ampliación. Los hechos de las tres partes, sin tomar posición. Fuentes: Wikipedia, Territorial claims in Antarctica; Wikipedia, Emilio Palma; Wikipedia, Villa Las Estrellas; Wikipedia, Esperanza Base; Secretaría del Tratado Antártico. Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#antartida",
+    "#geografia",
+    "#mapas",
+    "#fronteras",
+    "#chile"
+  ],
+  "props": {
+    "id": "pendiente-frontera-antartida-tres-reclamos",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
+    "cabecera": "ANTÁRTIDA — TRES RECLAMOS",
+    "acento": "cian",
+    "gancho": {
+      "texto": "Tres países reclaman la misma parte de la Antártida y sus mapas se pisan: Chile, Argentina y Reino Unido. Los tres llegan hasta el Polo Sur.",
+      "rotulo": "ANTÁRTIDA",
+      "planos": [
+        {
+          "centro": [
+            -55,
+            -69
+          ],
+          "zoom": 4.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -90,
+              -60
+            ],
+            [
+              -53,
+              -60
+            ],
+            [
+              -53,
+              -85
+            ],
+            [
+              -90,
+              -85
+            ]
+          ],
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "poligono": [
+            [
+              -74,
+              -60
+            ],
+            [
+              -25,
+              -60
+            ],
+            [
+              -25,
+              -85
+            ],
+            [
+              -74,
+              -85
+            ]
+          ],
+          "color": "azul",
+          "trama": "solida",
+          "aparecerEn": "Argentina",
+          "quedarse": 0
+        },
+        {
+          "poligono": [
+            [
+              -80,
+              -60
+            ],
+            [
+              -20,
+              -60
+            ],
+            [
+              -20,
+              -85
+            ],
+            [
+              -80,
+              -85
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "solida",
+          "aparecerEn": "Reino",
+          "quedarse": 0
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -80,
+          "lat": -74,
+          "mirar": [
+            -60,
+            -72
+          ],
+          "expresion": "normal",
+          "escala": 0.7,
+          "aparecerEn": "Chile",
+          "quedarse": 0
+        },
+        {
+          "pais": "AR",
+          "lon": -40,
+          "lat": -70,
+          "mirar": [
+            -60,
+            -68
+          ],
+          "expresion": "normal",
+          "escala": 0.7,
+          "aparecerEn": "Argentina",
+          "quedarse": 0
+        },
+        {
+          "pais": "GB",
+          "lon": -28,
+          "lat": -79,
+          "mirar": [
+            -58,
+            -68
+          ],
+          "expresion": "normal",
+          "escala": 0.7,
+          "aparecerEn": "Reino",
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "Tres",
+        "Antártida",
+        "Polo Sur"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "El Reino Unido trazó el suyo en 1908, entre los 20 y los 80 grados oeste. Chile, en 1940, entre los 53 y los 90.",
+        "rotulo": {
+          "texto": "1908",
+          "dice": "1908"
+        },
+        "planos": [
+          {
+            "centro": [
+              -55,
+              -69
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68,
+              -70
+            ],
+            "zoom": 4.9,
+            "entrada": "zoom",
+            "en": "Chile",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -80,
+                -60
+              ],
+              [
+                -20,
+                -60
+              ],
+              [
+                -20,
+                -85
+              ],
+              [
+                -80,
+                -85
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "rayas",
+            "etiqueta": "REINO UNIDO",
+            "etiquetaEn": [
+              -35,
+              -77
+            ],
+            "aparecerEn": "Reino",
+            "quedarse": 0
+          },
+          {
+            "poligono": [
+              [
+                -90,
+                -60
+              ],
+              [
+                -53,
+                -60
+              ],
+              [
+                -53,
+                -85
+              ],
+              [
+                -90,
+                -85
+              ]
+            ],
+            "color": "rojo",
+            "trama": "rayas",
+            "etiqueta": "CHILE",
+            "etiquetaEn": [
+              -83,
+              -77
+            ],
+            "aparecerEn": "Chile",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1908",
+            "sub": "REINO UNIDO · 20°–80° O",
+            "icono": "📜",
+            "aparecerEn": "1908",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1908",
+          "1940",
+          "Chile"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Argentina oficializó el suyo en 1946, entre los 25 y los 74. Entre los 53 y los 74 oeste coinciden los tres: una cuña con tres dueños en el papel.",
+        "rotulo": {
+          "texto": "3 DUEÑOS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60,
+              -68
+            ],
+            "zoom": 4.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63,
+              -73
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "cuña",
+            "deriva": 0.3
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -74,
+                -60
+              ],
+              [
+                -25,
+                -60
+              ],
+              [
+                -25,
+                -85
+              ],
+              [
+                -74,
+                -85
+              ]
+            ],
+            "color": "azul",
+            "trama": "rayas",
+            "etiqueta": "ARGENTINA",
+            "etiquetaEn": [
+              -38,
+              -66
+            ],
+            "aparecerEn": "Argentina",
+            "quedarse": 0
+          },
+          {
+            "poligono": [
+              [
+                -74,
+                -60
+              ],
+              [
+                -53,
+                -60
+              ],
+              [
+                -53,
+                -85
+              ],
+              [
+                -74,
+                -85
+              ]
+            ],
+            "color": "violeta",
+            "trama": "solida",
+            "etiqueta": "LOS TRES",
+            "etiquetaEn": [
+              -63.5,
+              -80
+            ],
+            "aparecerEn": "coinciden",
+            "quedarse": 0
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -74,
+              -62
+            ],
+            "hasta": [
+              -53,
+              -62
+            ],
+            "texto": "53°–74° O",
+            "aparecerEn": "coinciden"
+          }
+        ],
+        "clave": [
+          "1946",
+          "tres",
+          "cuña"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1978 Argentina llevó a una embarazada de siete meses a la base Esperanza. Allí nació Emilio Palma, hijo del jefe del destacamento: el primer bebé nacido en la Antártida.",
+        "rotulo": {
+          "texto": "ESPERANZA",
+          "dice": "Esperanza"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60,
+              -66
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -56.997,
+              -63.4
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "en": "Palma",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.997,
+            "lat": -63.4,
+            "texto": "BASE ESPERANZA",
+            "tipo": "pin",
+            "aparecerEn": "Esperanza"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "7 ENE 1978",
+            "sub": "PRIMER NACIDO EN LA ANTÁRTIDA",
+            "icono": "👶",
+            "aparecerEn": "Palma",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1978",
+          "Esperanza",
+          "Palma"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Chile tiene su aldea: Villa Las Estrellas, fundada en 1984 en la isla Rey Jorge, con banco, correo y capilla. Allí nació Juan Pablo Camacho, el primer chileno nacido en la Antártida.",
+        "rotulo": {
+          "texto": "1984",
+          "dice": "1984"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.5,
+              -63.5
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.96,
+              -62.2
+            ],
+            "zoom": 9.8,
+            "entrada": "zoom",
+            "en": "Rey",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.96,
+            "lat": -62.2,
+            "texto": "VILLA LAS ESTRELLAS",
+            "tipo": "pin",
+            "aparecerEn": "Estrellas"
+          },
+          {
+            "lon": -58.4,
+            "lat": -62.0,
+            "texto": "ISLA REY JORGE",
+            "tipo": "region",
+            "aparecerEn": "Rey"
+          }
+        ],
+        "clave": [
+          "Estrellas",
+          "1984",
+          "Camacho"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1959 doce países firmaron el Tratado Antártico, vigente desde 1961. No borra ningún reclamo, pero prohíbe ampliarlos o crear otros.",
+        "rotulo": {
+          "texto": "1959",
+          "dice": "1959"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60,
+              -70
+            ],
+            "zoom": 4.3,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -45,
+              -74
+            ],
+            "zoom": 4.6,
+            "entrada": "paneo",
+            "en": "ampliarlos",
+            "deriva": 0.2
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "12 PAÍSES",
+            "sub": "TRATADO ANTÁRTICO · 1959",
+            "icono": "🧊",
+            "aparecerEn": "doce",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1959",
+          "doce",
+          "ampliarlos"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Esperanza y Villa Las Estrellas, la base argentina y la aldea chilena, están dentro de los tres reclamos a la vez.",
+        "rotulo": {
+          "texto": "LOS TRES A LA VEZ",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58,
+              -64
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -57.5,
+              -63.4
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "en": "tres",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.997,
+            "lat": -63.4,
+            "texto": "ESPERANZA",
+            "tipo": "pin",
+            "aparecerEn": "Esperanza"
+          },
+          {
+            "lon": -58.96,
+            "lat": -62.2,
+            "texto": "LAS ESTRELLAS",
+            "tipo": "pin",
+            "aparecerEn": "Estrellas"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -65.5,
+            "lat": -62.2,
+            "mirar": [
+              -58,
+              -63
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.5,
+            "aparecerEn": 0.2,
+            "quedarse": 0
+          },
+          {
+            "pais": "AR",
+            "lon": -50.5,
+            "lat": -62.2,
+            "mirar": [
+              -58,
+              -63
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.5,
+            "aparecerEn": 0.2,
+            "quedarse": 0
+          },
+          {
+            "pais": "GB",
+            "lon": -58,
+            "lat": -66.2,
+            "mirar": [
+              -58,
+              -63
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.5,
+            "aparecerEn": 0.2,
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "Esperanza",
+          "Estrellas",
+          "tres"
+        ]
+      }
+    ],
+    "remate": "¿Debería la Antártida seguir congelada o repartirse algún día?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -55,
+          -69
+        ],
+        "zoom": 4.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -62,
+        "lat": -66,
+        "texto": "¿CONGELADA?"
+      },
+      {
+        "lon": -45,
+        "lat": -78,
+        "texto": "¿REPARTIDA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Territorial claims in Antarctica (sectores, decretos y superposiciones)",
+        "url": "https://en.wikipedia.org/wiki/Territorial_claims_in_Antarctica"
+      },
+      {
+        "texto": "Wikipedia: Antarctic Treaty System (firma 1-12-1959, vigencia 23-6-1961, 12 firmantes)",
+        "url": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System"
+      },
+      {
+        "texto": "Secretaría del Tratado Antártico (texto del Tratado, artículo IV)",
+        "url": "https://www.ats.aq/e/antarctictreaty.html"
+      },
+      {
+        "texto": "Wikipedia: Emilio Palma (nacido el 7-1-1978 en Base Esperanza; Guinness)",
+        "url": "https://en.wikipedia.org/wiki/Emilio_Palma"
+      },
+      {
+        "texto": "Wikipedia: Esperanza Base (coordenadas, escuela, familias)",
+        "url": "https://en.wikipedia.org/wiki/Esperanza_Base"
+      },
+      {
+        "texto": "Wikipedia: Villa Las Estrellas (fundada el 9-4-1984; Juan Pablo Camacho)",
+        "url": "https://en.wikipedia.org/wiki/Villa_Las_Estrellas"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -55,
+        -69
+      ],
+      "zoomInicial": 4.2,
+      "zoomFinal": 4.5,
+      "lineas": []
+    }
+  }
+}

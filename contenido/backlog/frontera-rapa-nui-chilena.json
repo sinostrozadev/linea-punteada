@@ -1,0 +1,493 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-rapa-nui-chilena",
+  "titulo": "Rapa Nui está a 3.500 km de Chile. ¿Por qué es chilena? 🇨🇱",
+  "descripcion": "Rapa Nui, la Isla de Pascua, está a unos 3.500 kilómetros de la costa de Chile continental y es chilena desde el 9 de septiembre de 1888, cuando el capitán de la Armada Policarpo Toro firmó el Acuerdo de Voluntades con el ariki Atamu Tekena y otros jefes rapanui. Ese día hubo que traducir del rapanui al inglés y del inglés al español, y existen dos versiones: el texto en español habla de cesión de soberanía; para muchos rapanui fue una alianza de protección que conservaba su tierra. Después vinieron los arriendos para criar ovejas desde 1895, la compañía Williamson Balfour desde 1903, la restricción de vivir solo en Hanga Roa, el fin del contrato en 1953 y la Ley Pascua de 1966. Es una historia que los dos lados cuentan distinto: cuéntanos cómo la ves, con respeto, en los comentarios.",
+  "hashtags": [
+    "#shorts",
+    "#rapanui",
+    "#isladepascua",
+    "#chile",
+    "#geografia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-rapa-nui-chilena",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/Fijc7yJXIz8",
+    "cabecera": "RAPA NUI — EL ACUERDO DE 1888",
+    "acento": "coral",
+    "gancho": {
+      "texto": "Rapa Nui está a unos tres mil quinientos kilómetros de Chile continental, pero es chilena desde el 9 de septiembre de 1888. Ese día se firmó un acuerdo que hoy se cuenta de dos maneras.",
+      "rotulo": "3.500 KM",
+      "planos": [
+        {
+          "centro": [
+            -109.4,
+            -27.1
+          ],
+          "zoom": 9.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -90.5,
+            -31.0
+          ],
+          "zoom": 3.4,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "maneras"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -109.46,
+              -27.18
+            ],
+            [
+              -109.38,
+              -27.03
+            ],
+            [
+              -109.22,
+              -27.08
+            ],
+            [
+              -109.3,
+              -27.2
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -109.38,
+          "lat": -27.12,
+          "mirar": [
+            -71.6,
+            -33.0
+          ],
+          "expresion": "normal",
+          "escala": 0.7,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -109.43,
+          "lat": -27.15,
+          "texto": "RAPA NUI",
+          "tipo": "pin",
+          "aparecerEn": "Rapa"
+        },
+        {
+          "lon": -73.6,
+          "lat": -37.17,
+          "texto": "PUNTA LAVAPIÉ",
+          "tipo": "pin",
+          "aparecerEn": "Chile"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -109.3,
+            -27.1
+          ],
+          "hasta": [
+            -73.6,
+            -37.17
+          ],
+          "texto": "~3.500 KM",
+          "aparecerEn": "quinientos"
+        }
+      ],
+      "clave": [
+        "Rapa Nui",
+        "3.500",
+        "1888"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En la bahía de Hanga Roa, el capitán de la Armada Policarpo Toro llegó en la corbeta Angamos. Firmó el Acuerdo de Voluntades con el ariki Atamu Tekena y otros once jefes rapanui.",
+        "rotulo": {
+          "texto": "HANGA ROA",
+          "dice": "Hanga"
+        },
+        "planos": [
+          {
+            "centro": [
+              -109.43,
+              -27.15
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.43,
+              -27.15
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Toro"
+          },
+          {
+            "centro": [
+              -109.43,
+              -27.15
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Atamu"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -109.43,
+            "lat": -27.15,
+            "texto": "HANGA ROA",
+            "tipo": "pin",
+            "aparecerEn": "Hanga"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "9-9-1888",
+            "sub": "ACUERDO DE VOLUNTADES",
+            "icono": "📜",
+            "aparecerEn": "Acuerdo",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Toro",
+          "Atamu Tekena",
+          "jefes"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Casi nadie en la isla hablaba español. Se tradujo del rapanui al inglés y del inglés al español. Según la tradición rapanui, Atamu Tekena le entregó a Toro un puñado de pasto y se quedó con uno de tierra.",
+        "rotulo": {
+          "texto": "PASTO Y TIERRA",
+          "dice": "pasto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -109.4,
+              -27.12
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.4,
+              -27.12
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "tradujo"
+          },
+          {
+            "centro": [
+              -109.4,
+              -27.12
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "puñado"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -109.35,
+            "lat": -27.1,
+            "icono": "🌱",
+            "escala": 1.2,
+            "aparecerEn": "pasto"
+          }
+        ],
+        "clave": [
+          "inglés",
+          "pasto",
+          "tierra"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Desde 1895 el Estado arrendó la isla para criar ovejas, y en 1903 entró la compañía británica Williamson Balfour. Los rapanui tenían prohibido vivir fuera de Hanga Roa.",
+        "rotulo": {
+          "texto": "OVEJAS",
+          "dice": "ovejas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -109.35,
+              -27.12
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.35,
+              -27.12
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "británica"
+          },
+          {
+            "centro": [
+              -109.43,
+              -27.15
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Hanga"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -109.46,
+                -27.18
+              ],
+              [
+                -109.38,
+                -27.03
+              ],
+              [
+                -109.22,
+                -27.08
+              ],
+              [
+                -109.3,
+                -27.2
+              ]
+            ],
+            "color": "verde",
+            "trama": "solida",
+            "etiqueta": "HACIENDA",
+            "aparecerEn": "isla"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1895",
+            "sub": "ARRIENDO PARA GANADERÍA",
+            "icono": "🐑",
+            "aparecerEn": "1895",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1895",
+          "1903",
+          "Hanga Roa"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1953 el presidente Carlos Ibáñez canceló el contrato, y la Armada pasó a administrar la isla. Los rapanui recién obtuvieron ciudadanía chilena con la Ley Pascua de 1966.",
+        "rotulo": {
+          "texto": "1966",
+          "dice": "1966"
+        },
+        "planos": [
+          {
+            "centro": [
+              -109.4,
+              -27.12
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -109.4,
+              -27.12
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Armada"
+          },
+          {
+            "centro": [
+              -109.43,
+              -27.15
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Ley"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1966",
+            "sub": "LEY PASCUA · CIUDADANÍA",
+            "icono": "⚖️",
+            "aparecerEn": "1966",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1953",
+          "Armada",
+          "1966"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "El texto en español habla de cesión de soberanía. Para Chile fue una anexión. Para muchos rapanui fue una alianza de protección que conservaba su tierra.",
+        "rotulo": {
+          "texto": "DOS VERSIONES",
+          "dice": "texto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -100.0,
+              -30.0
+            ],
+            "zoom": 3.6,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -90.5,
+              -31.0
+            ],
+            "zoom": 3.4,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "alianza"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -109.38,
+            "lat": -27.12,
+            "mirar": [
+              -109.43,
+              -27.15
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.7,
+            "aparecerEn": 0,
+            "quedarse": 0
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -109.43,
+            "lat": -27.15,
+            "texto": "RAPA NUI",
+            "tipo": "pin",
+            "aparecerEn": "rapanui"
+          },
+          {
+            "lon": -71.6,
+            "lat": -33.0,
+            "texto": "CHILE",
+            "tipo": "pin",
+            "aparecerEn": "Chile"
+          }
+        ],
+        "clave": [
+          "cesión",
+          "anexión",
+          "alianza"
+        ]
+      }
+    ],
+    "remate": "¿El Acuerdo de 1888 fue una anexión o una alianza entre dos pueblos?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -90.5,
+          -31.0
+        ],
+        "zoom": 3.5,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -100.0,
+        "lat": -24.5,
+        "texto": "¿ANEXIÓN?"
+      },
+      {
+        "lon": -85.0,
+        "lat": -29.0,
+        "texto": "¿ALIANZA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia (es): Isla de Pascua (distancia 3.526 km a Punta Lavapié; Ley Pascua 1966; hacienda y Hanga Roa; 1953)",
+        "url": "https://es.wikipedia.org/wiki/Isla_de_Pascua"
+      },
+      {
+        "texto": "Memoria Chilena: Incorporándola al territorio chileno (corbeta Angamos, 9-9-1888, arriendos)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-94620.html"
+      },
+      {
+        "texto": "El Desconcierto: Rapa Nui y Chile, 127 años (traducción, 12 jefes, pasto y tierra, dos lecturas)",
+        "url": "https://eldesconcierto.cl/2015/09/19/rapa-nui-y-chile-127-anos"
+      },
+      {
+        "texto": "Hispanopedia: Acuerdo de Voluntades de 1888 (versión española y rapanui)",
+        "url": "https://es.hispanopedia.com/wiki/Acuerdo_de_Voluntades_de_1888"
+      },
+      {
+        "texto": "Ley 16.441 (1-3-1966), crea el Departamento de Isla de Pascua",
+        "url": "https://www.monumentos.gob.cl/sites/default/files/ley_pascua-16441_01-mar-1966.pdf"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -109.4,
+        -27.1
+      ],
+      "zoomInicial": 9.4,
+      "zoomFinal": 9.8,
+      "lineas": []
+    }
+  }
+}

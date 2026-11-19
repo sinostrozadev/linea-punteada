@@ -1,0 +1,523 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-malvinas-500-km",
+  "titulo": "Malvinas: a 500 km de Argentina y 12.700 de Londres 🇦🇷🇬🇧",
+  "descripcion": "Las islas Malvinas, llamadas Falklands en inglés, están a unos 500 kilómetros de la costa argentina y a unos 12.700 de Londres. Repasamos los hechos que cita cada parte, sin tomar partido: la llegada de la nave británica Clio en enero de 1833 y la salida de la guarnición argentina; la resolución 2065 de la ONU de 1965, que pidió a ambos gobiernos negociar; la guerra de 1982, que duró 74 días y dejó 649 militares argentinos, 255 británicos y tres civiles isleños muertos; el referéndum de marzo de 2013, con 1.513 votos a favor de seguir siendo territorio británico y 3 en contra; y la disposición transitoria de la Constitución argentina de 1994, que ratifica la soberanía que Argentina reclama. Cada 2 de abril, Argentina recuerda a sus veteranos y caídos. Y tú, ¿qué opinas? Cuéntalo en los comentarios.",
+  "hashtags": [
+    "#shorts",
+    "#malvinas",
+    "#argentina",
+    "#geografia",
+    "#mapas",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-malvinas-500-km",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/F2VoOweP8DA",
+    "cabecera": "MALVINAS — DOS NOMBRES, DOS RECLAMOS",
+    "acento": "cian",
+    "gancho": {
+      "texto": "Las islas Malvinas están a unos 500 kilómetros de la costa argentina y a doce mil setecientos de Londres. Argentina las reclama; el Reino Unido las administra desde 1833.",
+      "rotulo": "500 KM",
+      "planos": [
+        {
+          "centro": [
+            -59.5,
+            -51.7
+          ],
+          "zoom": 6.8,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -64.5,
+            -51.8
+          ],
+          "zoom": 5.4,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "costa"
+        },
+        {
+          "centro": [
+            -64.5,
+            -51.0
+          ],
+          "zoom": 4.6,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "Londres"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -61.3,
+              -51.6
+            ],
+            [
+              -60.6,
+              -51.2
+            ],
+            [
+              -59.5,
+              -51.3
+            ],
+            [
+              -58.4,
+              -51.3
+            ],
+            [
+              -57.7,
+              -51.5
+            ],
+            [
+              -57.75,
+              -52.0
+            ],
+            [
+              -58.6,
+              -52.3
+            ],
+            [
+              -59.6,
+              -52.3
+            ],
+            [
+              -60.5,
+              -52.3
+            ],
+            [
+              -61.2,
+              -52.0
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -59.0,
+          "lat": -51.7,
+          "texto": "MALVINAS",
+          "tipo": "pin",
+          "aparecerEn": "Malvinas"
+        },
+        {
+          "lon": -68.35,
+          "lat": -52.3,
+          "texto": "CABO VÍRGENES",
+          "tipo": "pin",
+          "aparecerEn": "costa"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -68.35,
+            -52.3
+          ],
+          "hasta": [
+            -60.65,
+            -52.2
+          ],
+          "texto": "~500 KM",
+          "aparecerEn": "500"
+        }
+      ],
+      "clave": [
+        "Malvinas",
+        "500",
+        "Londres"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En enero de 1833, el bergantín británico Clio llega a Puerto Soledad y exige arriar la bandera argentina. El comandante Pinedo se va con veinticinco soldados. Argentina lo llama expulsión. El Reino Unido, recuperación de lo que reclamaba desde 1765.",
+        "rotulo": {
+          "texto": "1833",
+          "dice": "1833"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.13,
+              -51.55
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.13,
+              -51.55
+            ],
+            "zoom": 9.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "exige"
+          },
+          {
+            "centro": [
+              -58.13,
+              -51.55
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Pinedo"
+          },
+          {
+            "centro": [
+              -58.13,
+              -51.55
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Reino"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.13,
+            "lat": -51.55,
+            "texto": "PUERTO SOLEDAD",
+            "tipo": "pin",
+            "aparecerEn": "Soledad"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1833",
+            "sub": "LLEGA LA CLIO",
+            "icono": "⚓",
+            "aparecerEn": "Clio",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Clio",
+          "Pinedo",
+          "expulsión"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1965 la ONU aprobó la resolución 2065: 94 votos a favor, ninguno en contra. Pidió a los gobiernos negociar, atendiendo a los isleños.",
+        "rotulo": {
+          "texto": "ONU 1965",
+          "dice": "ONU"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.9,
+              -51.7
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.9,
+              -51.7
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "votos"
+          },
+          {
+            "centro": [
+              -58.9,
+              -51.7
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "negociar"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "94–0",
+            "sub": "RESOLUCIÓN 2065 · 14 ABSTENCIONES",
+            "icono": "🏛️",
+            "aparecerEn": "94",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2065",
+          "94",
+          "negociar"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 2 de abril de 1982, Argentina desembarca. La guerra dura 74 días y mueren 649 militares argentinos, 255 británicos y tres civiles isleños.",
+        "rotulo": {
+          "texto": "74 DÍAS",
+          "dice": "74"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.2,
+              -51.7
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.2,
+              -51.7
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "74"
+          },
+          {
+            "centro": [
+              -58.0,
+              -51.7
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "649"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -57.85,
+            "lat": -51.69,
+            "texto": "STANLEY / PUERTO ARGENTINO",
+            "tipo": "pin",
+            "aparecerEn": "abril"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "649 · 255 · 3",
+            "sub": "ARGENTINOS · BRITÁNICOS · CIVILES",
+            "icono": "🕊️",
+            "aparecerEn": "649",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "abril",
+          "74",
+          "649"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En marzo de 2013, los isleños votaron seguir siendo británicos: 1.513 votos por el sí y 3 por el no. En inglés las llaman Falklands. Argentina dijo que no cambia su posición.",
+        "rotulo": {
+          "texto": "1.513 A 3",
+          "dice": "1.513"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57.9,
+              -51.7
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.85,
+              -51.7
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "1.513"
+          },
+          {
+            "centro": [
+              -57.85,
+              -51.7
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "inglés"
+          },
+          {
+            "centro": [
+              -57.85,
+              -51.7
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Argentina"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -57.85,
+            "lat": -51.69,
+            "texto": "STANLEY",
+            "tipo": "pin",
+            "aparecerEn": "votaron"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1.513 SÍ · 3 NO",
+            "sub": "REFERÉNDUM · MARZO 2013 · 92 %",
+            "icono": "🗳️",
+            "aparecerEn": "1.513",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1.513",
+          "92",
+          "Falklands"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "La Constitución argentina de 1994 declara su soberanía legítima e imprescriptible y la recuperación, un objetivo irrenunciable. Cada 2 de abril es feriado. El Reino Unido responde que cuenta la voluntad de los isleños.",
+        "rotulo": {
+          "texto": "1994",
+          "dice": "1994"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.0,
+              -45.0
+            ],
+            "zoom": 3.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -64.0,
+              -41.0
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "feriado"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Argentina",
+            "color": "azul",
+            "trama": "solida",
+            "etiqueta": "ARGENTINA",
+            "aparecerEn": "Constitución"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 DE ABRIL",
+            "sub": "FERIADO · DÍA DEL VETERANO",
+            "icono": "🇦🇷",
+            "aparecerEn": "feriado",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Constitución",
+          "1994",
+          "abril"
+        ]
+      }
+    ],
+    "remate": "¿Quién debería decidir el futuro de las islas: los isleños, Argentina o el Reino Unido?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -62.0,
+          -51.0
+        ],
+        "zoom": 4.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -69.0,
+        "lat": -50.2,
+        "texto": "¿ARGENTINA?"
+      },
+      {
+        "lon": -56.0,
+        "lat": -53.2,
+        "texto": "¿REINO UNIDO?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Falkland Islands (distancia ~500 km de Patagonia; censo 2021: 3.662)",
+        "url": "https://en.wikipedia.org/wiki/Falkland_Islands"
+      },
+      {
+        "texto": "Wikipedia: Falklands War (2 abril–14 junio 1982, 74 días; 649/255/3 muertos)",
+        "url": "https://en.wikipedia.org/wiki/Falklands_War"
+      },
+      {
+        "texto": "Wikipedia: 2013 Falkland Islands sovereignty referendum (1.513 sí, 3 no, 92 %)",
+        "url": "https://en.wikipedia.org/wiki/2013_Falkland_Islands_sovereignty_referendum"
+      },
+      {
+        "texto": "Wikipedia: Reassertion of British sovereignty over the Falkland Islands (1833)",
+        "url": "https://en.wikipedia.org/wiki/Reassertion_of_British_sovereignty_over_the_Falkland_Islands_(1833)"
+      },
+      {
+        "texto": "Falkland Islands Dictionary of Biography: John James Onslow",
+        "url": "https://www.falklandsbiographies.org/biographies/onslow_john"
+      },
+      {
+        "texto": "Constitución Nacional Argentina (Ley 24.430): Disposición Transitoria Primera",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-24430-804/texto"
+      },
+      {
+        "texto": "Ley 25.370: 2 de abril, Día del Veterano y de los Caídos en la Guerra de Malvinas",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/norma-65442/texto"
+      },
+      {
+        "texto": "ONU, resolución 2065 (XX), 16-12-1965",
+        "url": "https://es.wikipedia.org/wiki/Cuestión_de_las_islas_Malvinas"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 3,
+      "centro": [
+        -59.5,
+        -51.7
+      ],
+      "zoomInicial": 6.8,
+      "zoomFinal": 7.2,
+      "lineas": []
+    }
+  }
+}
