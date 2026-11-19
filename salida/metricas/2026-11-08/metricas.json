@@ -1,0 +1,138 @@
+{
+  "fecha": "2026-11-08",
+  "canalId": "UCp05AZK18-TL8pp74ntbdUw",
+  "generadoEn": "2026-11-08T11:15:50.199Z",
+  "zona": "America/Santiago",
+  "subs": 26,
+  "videosPublicados": 6,
+  "vistasTotales": 9796,
+  "vistas28d": null,
+  "vistas48h": 7,
+  "horasTotales": 1483,
+  "progresoYPP": {
+    "subs": null,
+    "vistasShorts90d": null,
+    "horas12m": null
+  },
+  "fuentes": {
+    "numeros": "públicos (curl a youtube.com)",
+    "studio": "texto de Studio, mejor esfuerzo",
+    "api": "token presente (aún no usado)"
+  },
+  "capturas": {
+    "1-overview": "ok",
+    "2-monetizacion": "ok",
+    "3-audiencia": "ok",
+    "4-contenido": "ok"
+  },
+  "videos": [
+    {
+      "id": "8rm7lrivW0Q",
+      "bandeja": "2026-11-05-frontera-laguna-del-desierto",
+      "titulo": "Chile y Argentina pelearon un lago por una frase escrita en 1902",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-05T18:00:00-03:00",
+      "vistas": 2159,
+      "publicadoEn": "2026-11-05T13:00:35-08:00",
+      "segundos": 150,
+      "privado": false
+    },
+    {
+      "id": "6LgYD_Ae5qI",
+      "bandeja": "2026-11-05-frontera-martin-garcia",
+      "titulo": "¿Por qué hay una isla argentina a solo 3,5 km de Uruguay?",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-06T12:00:00-03:00",
+      "vistas": 1102,
+      "publicadoEn": "2026-11-06T07:00:36-08:00",
+      "segundos": 133,
+      "privado": false
+    },
+    {
+      "id": "p-0rgosOKdg",
+      "bandeja": "2026-11-05-frontera-rivera-livramento",
+      "titulo": "¿Por qué en esta plaza cambias de país sin mostrar un solo papel?",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-06T18:00:00-03:00",
+      "vistas": 1375,
+      "publicadoEn": "2026-11-06T13:00:00-08:00",
+      "segundos": 128,
+      "privado": false
+    },
+    {
+      "id": "xl1dVN0KX7Q",
+      "bandeja": "2026-11-05-frontera-triangulo-terrestre",
+      "titulo": "La Haya repartió el mar entre Perú y Chile… menos 5 canchas de arena",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": null,
+      "vistas": 1481,
+      "publicadoEn": "2026-11-05T07:00:31-08:00",
+      "segundos": 133,
+      "privado": false
+    },
+    {
+      "id": "o3yQPPqXoQA",
+      "bandeja": "2026-11-06-frontera-campo-de-hielo",
+      "titulo": "Chile y Argentina tienen un tramo de frontera que todavía no existe",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-07T12:00:00-03:00",
+      "vistas": 2080,
+      "publicadoEn": "2026-11-07T07:00:32-08:00",
+      "segundos": 143,
+      "privado": false
+    },
+    {
+      "id": "FM9aJ326bHU",
+      "bandeja": "2026-11-07-frontera-bolivia-tiene-armada-y-no-tiene-mar",
+      "titulo": "Bolivia tiene Armada… y no tiene mar",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-07T18:00:00-03:00",
+      "vistas": 1599,
+      "publicadoEn": "2026-11-07T13:00:11-08:00",
+      "segundos": 145,
+      "privado": false
+    },
+    {
+      "id": "VgecejtBkTo",
+      "bandeja": "2026-11-07-frontera-la-frontera-mas-vigilada-de-europa-se",
+      "titulo": "",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-09T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "-c96F_ywLkM",
+      "bandeja": "2026-11-07-frontera-la-guerra-por-un-petroleo-que-no-estaba",
+      "titulo": "",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-08T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "fKFCTNMk7iQ",
+      "bandeja": "2026-11-07-frontera-por-que-ningun-uruguayo-firmo",
+      "titulo": "",
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-08T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    }
+  ]
+}

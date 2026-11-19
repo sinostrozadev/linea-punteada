@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-por-que-el-aeropuerto-de-basilea",
+  "id": "2026-11-15-frontera-por-que-el-aeropuerto-de-basilea-2",
   "titulo": "¿Por qué el aeropuerto de Basilea, en Suiza, está en Francia?",
   "descripcion": "El aeropuerto de Basilea, la tercera ciudad de Suiza, está entero en suelo francés, en Saint-Louis. Basilea no tenía espacio para una pista grande, y al otro lado de la frontera había llanura. La convención franco-suiza de 1949 lo resolvió con un reparto: Francia pone el terreno y Suiza financia la construcción. Una ruta aduanera con rejas lleva a los viajeros desde Basilea hasta el sector suizo de la terminal sin pasar por la aduana francesa, y dentro del edificio hay una salida hacia cada país.\n\nFuentes:\n- EuroAirport Basel Mulhouse Freiburg, historia y estatuto binacional: https://www.euroairport.com/\n- Convención franco-suiza del 4 de julio de 1949 (Fedlex, Confederación Suiza): https://www.fedlex.admin.ch/\n- Wikipedia: EuroAirport Basel Mulhouse Freiburg: https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#francia"
   ],
   "props": {
-    "id": "pendiente-frontera-por-que-el-aeropuerto-de-basilea",
+    "id": "2026-11-15-frontera-por-que-el-aeropuerto-de-basilea-2",
     "cabecera": "BASILEA — EL AEROPUERTO EN OTRO PAÍS",
     "acento": "cian",
     "tarjetaTitulo": {

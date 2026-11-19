@@ -1,0 +1,210 @@
+{
+  "fecha": "2026-11-10",
+  "canalId": "UCp05AZK18-TL8pp74ntbdUw",
+  "generadoEn": "2026-11-10T11:15:51.003Z",
+  "zona": "America/Santiago",
+  "subs": 37,
+  "videosPublicados": 11,
+  "vistasTotales": 0,
+  "vistas28d": null,
+  "vistas48h": null,
+  "horasTotales": 2992,
+  "progresoYPP": {
+    "subs": null,
+    "vistasShorts90d": null,
+    "horas12m": null
+  },
+  "fuentes": {
+    "numeros": "públicos (curl a youtube.com)",
+    "studio": "texto de Studio, mejor esfuerzo",
+    "api": "token presente (aún no usado)"
+  },
+  "capturas": {
+    "1-overview": "ok",
+    "2-monetizacion": "ok",
+    "3-audiencia": "ok",
+    "4-contenido": "ok"
+  },
+  "videos": [
+    {
+      "id": "8rm7lrivW0Q",
+      "bandeja": "2026-11-05-frontera-laguna-del-desierto",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-05T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "6LgYD_Ae5qI",
+      "bandeja": "2026-11-05-frontera-martin-garcia",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-06T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "p-0rgosOKdg",
+      "bandeja": "2026-11-05-frontera-rivera-livramento",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-06T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "xl1dVN0KX7Q",
+      "bandeja": "2026-11-05-frontera-triangulo-terrestre",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": null,
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "o3yQPPqXoQA",
+      "bandeja": "2026-11-06-frontera-campo-de-hielo",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-07T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "FM9aJ326bHU",
+      "bandeja": "2026-11-07-frontera-bolivia-tiene-armada-y-no-tiene-mar",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-07T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "VgecejtBkTo",
+      "bandeja": "2026-11-07-frontera-la-frontera-mas-vigilada-de-europa-se",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-09T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "-c96F_ywLkM",
+      "bandeja": "2026-11-07-frontera-la-guerra-por-un-petroleo-que-no-estaba",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-08T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "fKFCTNMk7iQ",
+      "bandeja": "2026-11-07-frontera-por-que-ningun-uruguayo-firmo",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-08T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "9o6fBi5_fFQ",
+      "bandeja": "2026-11-08-frontera-chile-y-bolivia-fueron-a-la-haya",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-11T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "Aa8tOCay-rk",
+      "bandeja": "2026-11-08-frontera-por-que-estas-dos-islas-estan-a-3-8-km",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-10T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "yCkE5KOg-Ho",
+      "bandeja": "2026-11-08-frontera-por-que-mexico-recupero-tierra-de-texas",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-11T12:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "sXHB8kRkrdo",
+      "bandeja": "2026-11-08-frontera-por-que-un-frances-firmo-el-tratado",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-10T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "N0E7clGqn4E",
+      "bandeja": "2026-11-08-frontera-soldados-entraron-a-un-pais-sin-ejercito",
+      "titulo": null,
+      "plantilla": "frontera",
+      "tipo": "short",
+      "publicarEn": "2026-11-09T18:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    },
+    {
+      "id": "RMjYx4IUpjE",
+      "bandeja": "2026-11-08-largo-bushby",
+      "titulo": null,
+      "plantilla": "largo",
+      "tipo": "largo",
+      "publicarEn": "2026-11-08T19:00:00-03:00",
+      "vistas": null,
+      "publicadoEn": null,
+      "segundos": null,
+      "privado": false
+    }
+  ]
+}

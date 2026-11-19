@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-por-que-este-pueblo-es-de-espana-si-esta",
+  "id": "2026-11-15-frontera-por-que-este-pueblo-es-de-espana-si-esta",
   "titulo": "¿Por qué este pueblo es de España si está rodeado de Francia?",
   "descripcion": "Llívia es un pueblo español metido entero dentro de Francia, en el valle de la Cerdaña, en los Pirineos. No quedó así por un error en el mapa. Quedó así por una palabra. En 1659 el Tratado de los Pirineos le entregó a Francia una parte de la Cerdaña. Al año siguiente, el Tratado de Llívia hizo la lista: 33 pueblos. Llívia tenía el título de villa, así que España sostuvo que no entraba en una lista de pueblos. Francia aceptó. Así quedó aislada la que había sido la capital romana del valle.\n\nFuentes:\n- Paz de los Pirineos (1659): https://es.wikipedia.org/wiki/Paz_de_los_Pirineos\n- Tratado de Llívia (1660): https://es.wikipedia.org/wiki/Tratado_de_Ll%C3%ADvia\n- Llívia: https://es.wikipedia.org/wiki/Ll%C3%ADvia\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#francia"
   ],
   "props": {
-    "id": "pendiente-frontera-por-que-este-pueblo-es-de-espana-si-esta",
+    "id": "2026-11-15-frontera-por-que-este-pueblo-es-de-espana-si-esta",
     "cabecera": "LLÍVIA — EL PUEBLO QUE SOBRÓ",
     "acento": "cian",
     "tarjetaTitulo": {

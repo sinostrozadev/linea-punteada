@@ -1,6 +1,6 @@
 # Videos listos para subir a mano (YouTube Studio)
 
-Generado: 2026-11-10 04:45 (America/Santiago) · 4 Short(s), en orden de calendario.
+Generado: 2026-11-15 06:35 (America/Santiago) · 4 Short(s), en orden de calendario.
 
 Cómo: YouTube Studio → **Crear → Subir videos** → elige el archivo indicado. Copia el título y la
 descripción **tal cual** (la descripción ya trae los hashtags al final). En "Público": **No, no es
@@ -11,143 +11,140 @@ Al terminar, marca cada video como subido para que no vuelva a aparecer: en `sal
 cambia `"estado": "listo"` por `"estado": "subido"` y agrega `"publicarEn": "<fecha ISO>"`
 (así el calendario sabe que esa ranura ya está ocupada). Si no lo haces, solo se volverá a listar.
 
-## 1. ¿Por qué Chile ganó tres islas y Argentina se quedó con el mar?
+## 1. ¿Por qué Canadá y Dinamarca se pelearon 49 años con botellas?
 
-- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-09-frontera-por-que-chile-gano-tres-islas.mp4`
-- **Programar para:** 2026-11-12 12:00 (America/Santiago)
-- **Id:** `2026-11-09-frontera-por-que-chile-gano-tres-islas` · **Plantilla:** frontera · **Duración:** 02:15 · **Categoría:** Entretenimiento
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-13-frontera-por-que-canada-y-dinamarca-se-pelearon.mp4`
+- **Programar para:** 2026-11-23 12:00 (America/Santiago)
+- **Id:** `2026-11-13-frontera-por-que-canada-y-dinamarca-se-pelearon` · **Plantilla:** frontera · **Duración:** 02:06 · **Categoría:** Entretenimiento
 
 **Título:**
 ```
-¿Por qué Chile ganó tres islas y Argentina se quedó con el mar?
+¿Por qué Canadá y Dinamarca se pelearon 49 años con botellas?
 ```
 
 **Descripción:**
 ```
-Tres islas al final del canal Beagle, Picton, Lennox y Nueva, casi llevan a Chile y Argentina a la guerra en diciembre de 1978. El tratado de 1881 daba a Chile las islas al sur del Beagle, pero no decía dónde termina el canal. En un arbitraje pedido a la corona británica, un tribunal de cinco jueces de la Corte Internacional de Justicia se las dio a Chile en 1977. Argentina declaró nulo el laudo en 1978. La mediación de Juan Pablo II, con el cardenal Antonio Samoré, terminó en el Tratado de Paz y Amistad de 1984: las islas para Chile y casi todo el mar al este para Argentina.
+Una roca de poco más de un kilómetro en medio del canal Kennedy, entre Canadá y Groenlandia, quedó sin dueño cuando los dos países trazaron su límite marítimo en 1973. Durante décadas la disputa se jugó con banderas y botellas: en 1984 soldados canadienses dejaron whisky, y ese mismo año el ministro danés para Groenlandia dejó licor danés con una nota. En junio de 2022 firmaron en Ottawa un acuerdo que parte la isla Hans siguiendo una grieta natural y que le da a Canadá su segunda frontera terrestre.
 
 Fuentes:
-- Laudo del Canal Beagle (1977), Reports of International Arbitral Awards, Naciones Unidas: https://legal.un.org/riaa/
-- Conflicto del Beagle: https://es.wikipedia.org/wiki/Conflicto_del_Beagle
-- Tratado de Paz y Amistad de 1984 entre Chile y Argentina: https://es.wikipedia.org/wiki/Tratado_de_Paz_y_Amistad_de_1984_entre_Chile_y_Argentina
+- Gobierno de Canadá, comunicado del 14-06-2022: https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html
+- Hans Island (resumen y cronología): https://en.wikipedia.org/wiki/Hans_Island
 
 Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
 
-#shorts #geografia #mapas #fronteras #chile #argentina
+#shorts #geografia #mapas #fronteras #canada #groenlandia
 ```
 
 **Hashtags:**
 ```
-#shorts #geografia #mapas #fronteras #chile #argentina
+#shorts #geografia #mapas #fronteras #canada #groenlandia
 ```
 
 **Etiquetas** (campo "Etiquetas" de Studio):
 ```
-shorts, geografia, mapas, fronteras, chile, argentina
+shorts, geografia, mapas, fronteras, canada, groenlandia
 ```
 
-## 2. ¿Por qué Chile y Perú prometieron votar en 1894… y nadie votó nunca?
+## 2. ¿Por qué Canadá y Dinamarca se pelearon 49 años con botellas?
 
-- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-09-frontera-por-que-chile-y-peru-prometieron-votar.mp4`
-- **Programar para:** 2026-11-12 18:00 (America/Santiago)
-- **Id:** `2026-11-09-frontera-por-que-chile-y-peru-prometieron-votar` · **Plantilla:** frontera · **Duración:** 02:30 · **Categoría:** Entretenimiento
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-15-frontera-por-que-canada-y-dinamarca-se-pelearon-2.mp4`
+- **Programar para:** 2026-11-23 18:00 (America/Santiago)
+- **Id:** `2026-11-15-frontera-por-que-canada-y-dinamarca-se-pelearon-2` · **Plantilla:** frontera · **Duración:** 02:07 · **Categoría:** Entretenimiento
 
 **Título:**
 ```
-¿Por qué Chile y Perú prometieron votar en 1894… y nadie votó nunca?
+¿Por qué Canadá y Dinamarca se pelearon 49 años con botellas?
 ```
 
 **Descripción:**
 ```
-La frontera entre Chile y Perú debía salir de un plebiscito que nunca se hizo. El Tratado de Ancón de 1883 lo prometió a diez años; Estados Unidos intentó organizarlo en 1925 y la comisión lo declaró impracticable en 1926. El Tratado de Lima de 1929 repartió el territorio: Tacna para Perú, Arica para Chile. Y su protocolo complementario hizo que el corredor ofrecido a Bolivia en 1975 pasara también por Perú.
+Una roca de poco más de un kilómetro en medio del canal Kennedy, entre Canadá y Groenlandia, quedó sin dueño cuando los dos países trazaron su límite marítimo en 1973. Durante décadas la disputa se jugó con banderas y botellas: en 1984 soldados canadienses dejaron whisky, y ese mismo año el ministro danés para Groenlandia dejó licor danés con una nota. En junio de 2022 firmaron en Ottawa un acuerdo que parte la isla Hans siguiendo una grieta natural y que le da a Canadá su segunda frontera terrestre.
 
 Fuentes:
-- Tratado de Lima (1929): https://derechos.org/nizkor/peru/doc/tratadolima.html
-- Tratado de Ancón (1883): https://es.wikipedia.org/wiki/Tratado_de_Anc%C3%B3n
-- Laudo Tacna-Arica de 1925, Reports of International Arbitral Awards, vol. II (Naciones Unidas): https://legal.un.org/riaa/cases/vol_II/921-958.pdf
-- Corte Internacional de Justicia, Bolivia c. Chile (2018): https://www.icj-cij.org/node/105707
+- Gobierno de Canadá, comunicado del 14-06-2022: https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html
+- Hans Island (resumen y cronología): https://en.wikipedia.org/wiki/Hans_Island
 
 Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
 
-#shorts #geografia #mapas #fronteras #chile #peru
+#shorts #geografia #mapas #fronteras #canada #groenlandia
 ```
 
 **Hashtags:**
 ```
-#shorts #geografia #mapas #fronteras #chile #peru
+#shorts #geografia #mapas #fronteras #canada #groenlandia
 ```
 
 **Etiquetas** (campo "Etiquetas" de Studio):
 ```
-shorts, geografia, mapas, fronteras, chile, peru
+shorts, geografia, mapas, fronteras, canada, groenlandia
 ```
 
-## 3. ¿Por qué Colombia toca el Amazonas con una punta de solo 116 km?
+## 3. ¿Por qué el aeropuerto de Basilea, en Suiza, está en Francia?
 
-- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-09-frontera-por-que-colombia-toca-el-amazonas.mp4`
-- **Programar para:** 2026-11-13 12:00 (America/Santiago)
-- **Id:** `2026-11-09-frontera-por-que-colombia-toca-el-amazonas` · **Plantilla:** frontera · **Duración:** 02:32 · **Categoría:** Entretenimiento
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-15-frontera-por-que-el-aeropuerto-de-basilea-2.mp4`
+- **Programar para:** 2026-11-24 12:00 (America/Santiago)
+- **Id:** `2026-11-15-frontera-por-que-el-aeropuerto-de-basilea-2` · **Plantilla:** frontera · **Duración:** 02:13 · **Categoría:** Entretenimiento
 
 **Título:**
 ```
-¿Por qué Colombia toca el Amazonas con una punta de solo 116 km?
+¿Por qué el aeropuerto de Basilea, en Suiza, está en Francia?
 ```
 
 **Descripción:**
 ```
-Colombia llega al río Amazonas por una punta de selva con forma de trapecio. No la ganó en una guerra: la recibió en un canje firmado en 1922. Diez años después, un grupo armado de peruanos entró a Leticia y estalló el conflicto. La salida fue rara: durante un año, una comisión de la Sociedad de Naciones administró la ciudad. Hoy la discusión sigue en el agua, con la isla Santa Rosa: Perú y Colombia la leen de manera distinta.
+El aeropuerto de Basilea, la tercera ciudad de Suiza, está entero en suelo francés, en Saint-Louis. Basilea no tenía espacio para una pista grande, y al otro lado de la frontera había llanura. La convención franco-suiza de 1949 lo resolvió con un reparto: Francia pone el terreno y Suiza financia la construcción. Una ruta aduanera con rejas lleva a los viajeros desde Basilea hasta el sector suizo de la terminal sin pasar por la aduana francesa, y dentro del edificio hay una salida hacia cada país.
 
 Fuentes:
-- Tratado Salomón-Lozano (1922): https://es.wikipedia.org/wiki/Tratado_Salom%C3%B3n-Lozano
-- Guerra colombo-peruana (1932-1933): https://es.wikipedia.org/wiki/Guerra_colombo-peruana
-- Leticia (Colombia): https://es.wikipedia.org/wiki/Leticia_(Colombia)
+- EuroAirport Basel Mulhouse Freiburg, historia y estatuto binacional: https://www.euroairport.com/
+- Convención franco-suiza del 4 de julio de 1949 (Fedlex, Confederación Suiza): https://www.fedlex.admin.ch/
+- Wikipedia: EuroAirport Basel Mulhouse Freiburg: https://en.wikipedia.org/wiki/EuroAirport_Basel_Mulhouse_Freiburg
 
 Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
 
-#shorts #geografia #mapas #fronteras #historia #colombia
+#shorts #geografia #mapas #fronteras #suiza #francia
 ```
 
 **Hashtags:**
 ```
-#shorts #geografia #mapas #fronteras #historia #colombia
+#shorts #geografia #mapas #fronteras #suiza #francia
 ```
 
 **Etiquetas** (campo "Etiquetas" de Studio):
 ```
-shorts, geografia, mapas, fronteras, historia, colombia
+shorts, geografia, mapas, fronteras, suiza, francia
 ```
 
-## 4. ¿Por qué Ecuador es dueño de 1 km² de Perú… y ahí no manda?
+## 4. ¿Por qué este pueblo es de España si está rodeado de Francia?
 
-- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-09-frontera-por-que-ecuador-es-dueno-de-1-km-de-peru.mp4`
-- **Programar para:** 2026-11-13 18:00 (America/Santiago)
-- **Id:** `2026-11-09-frontera-por-que-ecuador-es-dueno-de-1-km-de-peru` · **Plantilla:** frontera · **Duración:** 02:20 · **Categoría:** Entretenimiento
+- **Archivo:** `/home/santiago/projects/yt/linea-punteada/salida/bandeja/2026-11-15-frontera-por-que-este-pueblo-es-de-espana-si-esta.mp4`
+- **Programar para:** 2026-11-24 18:00 (America/Santiago)
+- **Id:** `2026-11-15-frontera-por-que-este-pueblo-es-de-espana-si-esta` · **Plantilla:** frontera · **Duración:** 02:00 · **Categoría:** Entretenimiento
 
 **Título:**
 ```
-¿Por qué Ecuador es dueño de 1 km² de Perú… y ahí no manda?
+¿Por qué este pueblo es de España si está rodeado de Francia?
 ```
 
 **Descripción:**
 ```
-En plena selva, dentro de Perú, hay un kilómetro cuadrado cuyo dueño es el Estado ecuatoriano. No es un enclave ni un botín: es propiedad privada, sin soberanía. Para llegar ahí hicieron falta el Protocolo de Río de 1942, un río que las fotos aéreas revelaron después, 78 kilómetros de frontera sin hitos, la guerra del Cenepa de 1995 y el Acta de Brasilia de 1998.
+Llívia es un pueblo español metido entero dentro de Francia, en el valle de la Cerdaña, en los Pirineos. No quedó así por un error en el mapa. Quedó así por una palabra. En 1659 el Tratado de los Pirineos le entregó a Francia una parte de la Cerdaña. Al año siguiente, el Tratado de Llívia hizo la lista: 33 pueblos. Llívia tenía el título de villa, así que España sostuvo que no entraba en una lista de pueblos. Francia aceptó. Así quedó aislada la que había sido la capital romana del valle.
 
 Fuentes:
-- Protocolo de Río de Janeiro (1942): https://en.wikipedia.org/wiki/Rio_Protocol
-- Guerra del Cenepa y Acta de Brasilia (1998): https://en.wikipedia.org/wiki/Cenepa_War
-- Disputa territorial Ecuador-Perú: https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute
+- Paz de los Pirineos (1659): https://es.wikipedia.org/wiki/Paz_de_los_Pirineos
+- Tratado de Llívia (1660): https://es.wikipedia.org/wiki/Tratado_de_Ll%C3%ADvia
+- Llívia: https://es.wikipedia.org/wiki/Ll%C3%ADvia
 
 Voz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.
 
-#shorts #geografia #mapas #fronteras #ecuador #peru
+#shorts #geografia #mapas #fronteras #espana #francia
 ```
 
 **Hashtags:**
 ```
-#shorts #geografia #mapas #fronteras #ecuador #peru
+#shorts #geografia #mapas #fronteras #espana #francia
 ```
 
 **Etiquetas** (campo "Etiquetas" de Studio):
 ```
-shorts, geografia, mapas, fronteras, ecuador, peru
+shorts, geografia, mapas, fronteras, espana, francia
 ```
