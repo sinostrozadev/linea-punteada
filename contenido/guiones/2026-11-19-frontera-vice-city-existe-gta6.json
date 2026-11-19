@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-vice-city-existe-gta6",
+  "id": "2026-11-19-frontera-vice-city-existe-gta6",
   "titulo": "Vice City existe: la Florida real detrás del mapa de GTA 6 🌴🇺🇸",
   "descripcion": "GTA 6 sale el 19 de noviembre de 2026 y su estado, Leonida, está inspirado en Florida. Recorremos con mapas los lugares reales con los que la prensa compara cada región: Miami y Miami Beach, los Cayos y su carretera sobre el mar, los Everglades, Clewiston junto al lago Okeechobee y la costa del Panhandle. Y lo único que Florida no tiene: montañas. Sin imágenes del juego: solo geografía real. Correspondencias según la prensa especializada; el juego comprime y mezcla lugares, no es una copia uno a uno.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#vicecity"
   ],
   "props": {
-    "id": "pendiente-frontera-vice-city-existe-gta6",
+    "id": "2026-11-19-frontera-vice-city-existe-gta6",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
     "cabecera": "FLORIDA — LA LEONIDA REAL",
@@ -36,11 +36,11 @@
           "poligono": [
             [
               -87.6,
-              31.0
+              31
             ],
             [
-              -85.0,
-              31.0
+              -85,
+              31
             ],
             [
               -84.9,
@@ -221,7 +221,7 @@
           {
             "centro": [
               -80.9,
-              25.0
+              25
             ],
             "zoom": 8.3,
             "entrada": "zoom",
@@ -416,7 +416,7 @@
               -83.4,
               28.6
             ],
-            "zoom": 7.0,
+            "zoom": 7,
             "entrada": "zoom",
             "deriva": 0.2
           },
@@ -538,7 +538,7 @@
       },
       {
         "lon": -84.6,
-        "lat": 29.0,
+        "lat": 29,
         "texto": "¿O LEONIDA?"
       }
     ],
@@ -591,7 +591,7 @@
             ],
             [
               -80.6,
-              25.0
+              25
             ],
             [
               -80.87,

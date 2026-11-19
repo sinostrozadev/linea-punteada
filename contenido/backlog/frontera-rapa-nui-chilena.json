@@ -23,17 +23,17 @@
       "planos": [
         {
           "centro": [
-            -109.4,
-            -27.1
+            -109.36,
+            -27.12
           ],
-          "zoom": 9.4,
+          "zoom": 11.0,
           "entrada": "corte",
           "deriva": 0.3
         },
         {
           "centro": [
             -90.5,
-            -31.0
+            -31
           ],
           "zoom": 3.4,
           "entrada": "zoom",
@@ -43,24 +43,7 @@
       ],
       "areas": [
         {
-          "poligono": [
-            [
-              -109.46,
-              -27.18
-            ],
-            [
-              -109.38,
-              -27.03
-            ],
-            [
-              -109.22,
-              -27.08
-            ],
-            [
-              -109.3,
-              -27.2
-            ]
-          ],
+          "pais": "Chile",
           "color": "amarillo",
           "trama": "plena",
           "aparecerEn": 0,
@@ -70,14 +53,14 @@
       "banderas": [
         {
           "pais": "CL",
-          "lon": -109.38,
-          "lat": -27.12,
+          "lon": -109.33,
+          "lat": -27.02,
           "mirar": [
             -71.6,
-            -33.0
+            -33
           ],
           "expresion": "normal",
-          "escala": 0.7,
+          "escala": 1.2,
           "aparecerEn": 0,
           "quedarse": 0
         }
@@ -194,7 +177,7 @@
               -109.4,
               -27.12
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -256,7 +239,7 @@
               -109.35,
               -27.12
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "británica"
@@ -326,7 +309,7 @@
               -109.4,
               -27.12
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -376,8 +359,8 @@
         "planos": [
           {
             "centro": [
-              -100.0,
-              -30.0
+              -100,
+              -30
             ],
             "zoom": 3.6,
             "entrada": "zoom",
@@ -386,7 +369,7 @@
           {
             "centro": [
               -90.5,
-              -31.0
+              -31
             ],
             "zoom": 3.4,
             "entrada": "corte",
@@ -419,7 +402,7 @@
           },
           {
             "lon": -71.6,
-            "lat": -33.0,
+            "lat": -33,
             "texto": "CHILE",
             "tipo": "pin",
             "aparecerEn": "Chile"
@@ -437,7 +420,7 @@
       {
         "centro": [
           -90.5,
-          -31.0
+          -31
         ],
         "zoom": 3.5,
         "entrada": "zoom",
@@ -446,13 +429,13 @@
     ],
     "remateEtiquetas": [
       {
-        "lon": -100.0,
+        "lon": -100,
         "lat": -24.5,
         "texto": "¿ANEXIÓN?"
       },
       {
-        "lon": -85.0,
-        "lat": -29.0,
+        "lon": -85,
+        "lat": -29,
         "texto": "¿ALIANZA?"
       }
     ],

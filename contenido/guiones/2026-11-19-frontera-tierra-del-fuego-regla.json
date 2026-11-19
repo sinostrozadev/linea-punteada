@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-tierra-del-fuego-regla",
+  "id": "2026-11-19-frontera-tierra-del-fuego-regla",
   "titulo": "¿Por qué Tierra del Fuego está cortada con regla? 🇨🇱🇦🇷",
   "descripcion": "Tierra del Fuego, la isla más grande de Sudamérica, está partida por una línea recta: el meridiano 68°34' oeste, fijado en el Tratado de Límites de 1881 entre Chile y Argentina. Con mapas satelitales vemos cómo se firmó ese tratado en Buenos Aires el 23 de julio de 1881, qué dice su artículo sobre la isla, cuántos kilómetros cuadrados quedaron de cada lado (unos 29.500 para Chile y 18.500 para Argentina) y la historia del ingeniero rumano Julius Popper, que buscó oro en la bahía San Sebastián, acuñó sus propias monedas y emitió sus propios sellos. Hoy, a un lado y otro de la línea, la isla es muy distinta: Chile tiene el 61 % del territorio y unos 8.000 habitantes; Argentina, el 39 % y más de 190.000. ¿Es justa una línea recta? Cuéntanos en los comentarios.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#fronteras"
   ],
   "props": {
-    "id": "pendiente-frontera-tierra-del-fuego-regla",
+    "id": "2026-11-19-frontera-tierra-del-fuego-regla",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
     "cabecera": "TIERRA DEL FUEGO — LA LÍNEA RECTA",
@@ -23,8 +23,8 @@
       "planos": [
         {
           "centro": [
-            -69.0,
-            -54.0
+            -69,
+            -54
           ],
           "zoom": 6.3,
           "entrada": "corte",
@@ -52,7 +52,7 @@
             ],
             [
               -66.5,
-              -55.0
+              -55
             ],
             [
               -68.3,
@@ -60,7 +60,7 @@
             ],
             [
               -70.5,
-              -55.0
+              -55
             ],
             [
               -72.5,
@@ -71,7 +71,7 @@
               -53.9
             ],
             [
-              -72.0,
+              -72,
               -53.6
             ],
             [
@@ -92,13 +92,13 @@
       "etiquetas": [
         {
           "lon": -70.6,
-          "lat": -54.0,
+          "lat": -54,
           "texto": "CHILE 61 %",
           "tipo": "pais",
           "aparecerEn": "Chile"
         },
         {
-          "lon": -67.0,
+          "lon": -67,
           "lat": -54.3,
           "texto": "ARGENTINA 39 %",
           "tipo": "pais",
@@ -123,7 +123,7 @@
           {
             "centro": [
               -69.5,
-              -50.0
+              -50
             ],
             "zoom": 4.2,
             "entrada": "zoom",
@@ -141,7 +141,7 @@
           },
           {
             "centro": [
-              -69.0,
+              -69,
               -52.9
             ],
             "zoom": 6.8,
@@ -159,7 +159,7 @@
             "aparecerEn": "estrecho"
           },
           {
-            "lon": -69.0,
+            "lon": -69,
             "lat": -47.5,
             "texto": "PATAGONIA",
             "tipo": "region",
@@ -201,9 +201,9 @@
           {
             "centro": [
               -68.6,
-              -54.0
+              -54
             ],
-            "zoom": 7.0,
+            "zoom": 7,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "Beagle"
@@ -242,16 +242,16 @@
           {
             "centro": [
               -69.5,
-              -54.0
+              -54
             ],
-            "zoom": 6.0,
+            "zoom": 6,
             "entrada": "zoom",
             "deriva": 0.3
           },
           {
             "centro": [
-              -69.0,
-              -54.0
+              -69,
+              -54
             ],
             "zoom": 6.6,
             "entrada": "zoom",
@@ -261,7 +261,7 @@
           {
             "centro": [
               -69.6,
-              -54.0
+              -54
             ],
             "zoom": 6.3,
             "entrada": "zoom",
@@ -282,7 +282,7 @@
               ],
               [
                 -70.5,
-                -55.0
+                -55
               ],
               [
                 -72.5,
@@ -293,7 +293,7 @@
                 -53.9
               ],
               [
-                -72.0,
+                -72,
                 -53.6
               ],
               [
@@ -456,7 +456,7 @@
           {
             "centro": [
               -68.6,
-              -54.0
+              -54
             ],
             "zoom": 6.4,
             "entrada": "zoom",
@@ -517,8 +517,8 @@
     "rematePlanos": [
       {
         "centro": [
-          -69.0,
-          -54.0
+          -69,
+          -54
         ],
         "zoom": 6.3,
         "entrada": "zoom",
@@ -571,8 +571,8 @@
       "fondo": "satelite",
       "mes": 1,
       "centro": [
-        -69.0,
-        -54.0
+        -69,
+        -54
       ],
       "zoomInicial": 6.3,
       "zoomFinal": 6.7,

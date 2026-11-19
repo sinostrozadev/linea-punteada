@@ -24,9 +24,9 @@
         {
           "centro": [
             -55,
-            -69
+            -63.5
           ],
-          "zoom": 4.2,
+          "zoom": 4.5,
           "entrada": "corte",
           "deriva": 0.3
         }
@@ -44,11 +44,11 @@
             ],
             [
               -53,
-              -85
+              -76
             ],
             [
               -90,
-              -85
+              -76
             ]
           ],
           "color": "rojo",
@@ -68,11 +68,11 @@
             ],
             [
               -25,
-              -85
+              -76
             ],
             [
               -74,
-              -85
+              -76
             ]
           ],
           "color": "azul",
@@ -92,11 +92,11 @@
             ],
             [
               -20,
-              -85
+              -76
             ],
             [
               -80,
-              -85
+              -76
             ]
           ],
           "color": "amarillo",
@@ -108,40 +108,40 @@
       "banderas": [
         {
           "pais": "CL",
-          "lon": -80,
-          "lat": -74,
+          "lon": -78,
+          "lat": -68,
           "mirar": [
-            -60,
-            -72
+            -40,
+            -66
           ],
           "expresion": "normal",
-          "escala": 0.7,
+          "escala": 1.0,
           "aparecerEn": "Chile",
           "quedarse": 0
         },
         {
           "pais": "AR",
           "lon": -40,
-          "lat": -70,
+          "lat": -66,
           "mirar": [
-            -60,
+            -78,
             -68
           ],
           "expresion": "normal",
-          "escala": 0.7,
+          "escala": 1.0,
           "aparecerEn": "Argentina",
           "quedarse": 0
         },
         {
           "pais": "GB",
-          "lon": -28,
-          "lat": -79,
+          "lon": -56,
+          "lat": -73,
           "mirar": [
-            -58,
-            -68
+            -56,
+            -64
           ],
-          "expresion": "normal",
-          "escala": 0.7,
+          "expresion": "enojo",
+          "escala": 1.0,
           "aparecerEn": "Reino",
           "quedarse": 0
         }
@@ -454,7 +454,7 @@
           },
           {
             "lon": -58.4,
-            "lat": -62.0,
+            "lat": -62,
             "texto": "ISLA REY JORGE",
             "tipo": "region",
             "aparecerEn": "Rey"
