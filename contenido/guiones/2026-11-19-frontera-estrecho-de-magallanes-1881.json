@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-estrecho-de-magallanes-1881",
+  "id": "2026-11-19-frontera-estrecho-de-magallanes-1881",
   "titulo": "¿Por qué dos Osborn mediaron por el Estrecho de Magallanes? 🇨🇱🇦🇷",
   "descripcion": "El Estrecho de Magallanes mide unos 565 km y une dos océanos. En 1881, con Chile aún en guerra con Perú y Bolivia, Chile y Argentina cerraron su disputa por la Patagonia con mediación de los ministros de EE. UU. en Santiago y Buenos Aires, ambos llamados Thomas Osborn, que pasaron los mensajes por telégrafo. La soberanía del Estrecho quedó en Chile, neutralizado a perpetuidad. En 2026 la Cancillería argentina declaró vigentes los tratados de 1881 y 1984. La historiografía chilena sostiene que la Corona nunca separó la Patagonia del Reino de Chile; la argentina, que dependía del Virreinato del Río de la Plata. Sin tomar partido: ¿fue un buen trato para Chile? Cuéntanos en los comentarios.\n\nFuentes: Memoria Chilena https://www.memoriachilena.gob.cl/602/w3-article-92197.html · FRUS 1881 https://history.state.gov/historicaldocuments/frus1881/d4 · Wikipedia https://es.wikipedia.org/wiki/Tratado_de_1881_entre_Argentina_y_Chile",
   "hashtags": [
@@ -13,7 +13,7 @@
     "#argentina"
   ],
   "props": {
-    "id": "pendiente-frontera-estrecho-de-magallanes-1881",
+    "id": "2026-11-19-frontera-estrecho-de-magallanes-1881",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/XGmIcyDKEzY",
     "cabecera": "ESTRECHO DE MAGALLANES — 1881",
@@ -51,7 +51,7 @@
             ],
             [
               -62.5,
-              -41.0
+              -41
             ],
             [
               -63.8,
@@ -98,7 +98,7 @@
               -52.2
             ],
             [
-              -72.0,
+              -72,
               -51.8
             ],
             [
@@ -148,7 +148,7 @@
         {
           "pais": "CL",
           "lon": -73.6,
-          "lat": -47.0,
+          "lat": -47,
           "mirar": [
             -69,
             -46
@@ -160,11 +160,11 @@
         },
         {
           "pais": "AR",
-          "lon": -67.0,
-          "lat": -44.0,
+          "lon": -67,
+          "lat": -44,
           "mirar": [
             -73.6,
-            -47.0
+            -47
           ],
           "expresion": "normal",
           "escala": 0.9,
@@ -360,7 +360,7 @@
           {
             "centro": [
               -70.8,
-              -53.0
+              -53
             ],
             "zoom": 7.6,
             "entrada": "corte",
@@ -416,7 +416,7 @@
           {
             "pais": "FR",
             "lon": -66.8,
-            "lat": -54.0,
+            "lat": -54,
             "mirar": [
               -69.5,
               -52.7
@@ -548,7 +548,7 @@
               ],
               [
                 -62.5,
-                -41.0
+                -41
               ],
               [
                 -63.8,
@@ -595,7 +595,7 @@
                 -52.2
               ],
               [
-                -72.0,
+                -72,
                 -51.8
               ],
               [
@@ -645,7 +645,7 @@
           {
             "pais": "CL",
             "lon": -73.8,
-            "lat": -47.0,
+            "lat": -47,
             "mirar": [
               -69,
               -46
@@ -657,11 +657,11 @@
           },
           {
             "pais": "AR",
-            "lon": -66.0,
+            "lon": -66,
             "lat": -47.5,
             "mirar": [
               -73.8,
-              -47.0
+              -47
             ],
             "expresion": "normal",
             "escala": 0.9,
@@ -726,7 +726,7 @@
           -70.2,
           -52.8
         ],
-        "zoom": 7.0,
+        "zoom": 7,
         "entrada": "paneo",
         "deriva": 0.2
       }
@@ -739,7 +739,7 @@
       },
       {
         "lon": -67.8,
-        "lat": -49.0,
+        "lat": -49,
         "texto": "¿PATAGONIA?"
       }
     ],
@@ -823,7 +823,7 @@
               -53.1
             ],
             [
-              -74.0,
+              -74,
               -52.7
             ],
             [

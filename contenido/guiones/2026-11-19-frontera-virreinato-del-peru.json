@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-virreinato-del-peru",
+  "id": "2026-11-19-frontera-virreinato-del-peru",
   "titulo": "Todo esto era el Virreinato del Perú. ¿Cómo se partió? 🇵🇪",
   "descripcion": "El Virreinato del Perú, creado por Carlos I en 1542 (Leyes Nuevas), llegó a abarcar casi toda la Sudamérica española, sin Venezuela ni Brasil. Nueva Granada se creó en 1717, se suprimió en 1723 y se restableció en 1739; el Río de la Plata nació en 1776 (provisional, 1 de agosto; definitivo en 1777) con Buenos Aires, Paraguay, el Alto Perú con Potosí y Cuyo, que era chileno; y en 1798 Carlos IV separó a Chile del virreinato. Nota: el mapa pinta los países actuales como aproximación; las fronteras coloniales eran otras y discutidas, y las fechas varían según la fuente. ¿Era inevitable? Cuéntalo en los comentarios.\n\nFuentes: https://es.wikipedia.org/wiki/Virreinato_del_Perú · https://es.wikipedia.org/wiki/Virreinato_de_Nueva_Granada · https://es.wikipedia.org/wiki/Virreinato_del_Río_de_la_Plata · https://es.wikipedia.org/wiki/Capitanía_General_de_Chile",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#historia"
   ],
   "props": {
-    "id": "pendiente-frontera-virreinato-del-peru",
+    "id": "2026-11-19-frontera-virreinato-del-peru",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/Z51DtnpA9K8",
     "cabecera": "VIRREINATO DEL PERÚ — CÓMO SE PARTIÓ",
@@ -26,7 +26,7 @@
             -67,
             -22
           ],
-          "zoom": 5.0,
+          "zoom": 5,
           "entrada": "corte",
           "deriva": 0.3
         },
@@ -486,7 +486,7 @@
               -67,
               -22
             ],
-            "zoom": 5.0,
+            "zoom": 5,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -505,7 +505,7 @@
               -67,
               -22
             ],
-            "zoom": 5.0,
+            "zoom": 5,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "ocho"
@@ -589,7 +589,7 @@
         -67,
         -22
       ],
-      "zoomInicial": 5.0,
+      "zoomInicial": 5,
       "zoomFinal": 5.2,
       "lineas": []
     }

@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-iquique-1879-trailer",
+  "id": "2026-11-19-frontera-iquique-1879-trailer",
   "titulo": "Iquique 1879: Perú ganó el combate, ¿y Chile lo celebra? 🇨🇱🇵🇪",
   "descripcion": "El 21 de mayo de 1879, frente a Iquique, el monitor peruano Huáscar de Miguel Grau hundió con tres espolonazos la corbeta chilena Esmeralda de Arturo Prat: murieron unos 140 de sus 200 hombres y Perú tuvo un muerto. Ese mismo día, unos 20 km al sur, la fragata peruana Independencia encalló en Punta Gruesa persiguiendo a la goleta Covadonga de Carlos Condell, y Grau tuvo que incendiarla. Doce días después, Grau devolvió a la viuda de Prat, Carmela Carvajal, su espada y su anillo. Chile recuerda el 21 de mayo como Día de las Glorias Navales; Perú recuerda a Grau como héroe nacional. ¿Quién ganó de verdad en Iquique? Cuéntanos en los comentarios.\n\nFuentes:\n- https://es.wikipedia.org/wiki/Combate_naval_de_Iquique\n- https://es.wikipedia.org/wiki/Combate_naval_de_Punta_Gruesa\n- https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#historia"
   ],
   "props": {
-    "id": "pendiente-frontera-iquique-1879-trailer",
+    "id": "2026-11-19-frontera-iquique-1879-trailer",
     "formula": "directa",
     "referente": "https://www.youtube.com/watch?v=2gtM4uVoSl8",
     "cabecera": "IQUIQUE — 21 DE MAYO DE 1879",
@@ -54,11 +54,11 @@
             ],
             [
               -70.2,
-              -21.0
+              -21
             ],
             [
               -71.7,
-              -21.0
+              -21
             ]
           ],
           "color": "rojo",

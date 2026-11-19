@@ -1,0 +1,56 @@
+{
+  "id": "largo-iquique-1879",
+  "plantilla": "largo",
+  "titulo": "Iquique 1879: el combate que Perú ganó y Chile celebra",
+  "descripcion": "¿Quién ganó en Iquique? El 21 de mayo de 1879, el monitor peruano Huáscar de Miguel Grau hundió a la corbeta chilena Esmeralda de Arturo Prat y rompió el bloqueo. Ese mismo día, a unas diez millas al sur, la fragata peruana Independencia encalló en Punta Gruesa persiguiendo a la goleta Covadonga de Carlos Condell, y se perdió. Perú ganó el combate y perdió uno de sus dos blindados más poderosos; Chile perdió su corbeta y ganó su mito naval: cada 21 de mayo celebra las Glorias Navales. Contamos las dos versiones, la carta con que Grau devolvió las pertenencias de Prat a su viuda, Carmela Carvajal, y cómo terminó todo en Angamos (8-10-1879), donde murió Grau y Chile capturó el Huáscar, hoy museo flotante en Talcahuano.\n\nLas cifras de muertos varían según la fuente; usamos las más citadas. Mapa propio; posiciones de combate aproximadas. Voz sintetizada. Pinturas y fotos de Wikimedia Commons.\n\nFuentes: Wikipedia es (Combates de Iquique, Punta Gruesa y Angamos) https://es.wikipedia.org/wiki/Combate_naval_de_Iquique · Memoria Chilena https://www.memoriachilena.gob.cl/602/w3-article-96912.html · Carta de Grau https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat\n\nCapítulos:\n0:00 La mañana del 21 de mayo\n0:19 EL BLOQUEO\n1:52 TRES EMBESTIDAS\n3:40 PUNTA GRUESA\n5:15 LA CARTA\n6:50 ANGAMOS Y EL MITO\n\nFuentes:\n- Wikipedia: Combate naval de Iquique (cronología, buques, bajas): https://es.wikipedia.org/wiki/Combate_naval_de_Iquique\n- Wikipedia: Combate naval de Punta Gruesa: https://es.wikipedia.org/wiki/Combate_naval_de_Punta_Gruesa\n- Wikipedia: Combate naval de Angamos: https://es.wikipedia.org/wiki/Combate_naval_de_Angamos\n- Wikisource: Carta de condolencias de Miguel Grau a Carmela Carvajal (2-6-1879): https://es.wikisource.org/wiki/Carta_de_condolencias_de_Miguel_Grau_Seminario_a_Carmela_Carvajal_vda._de_Prat\n- Wikisource: Carta de Carmela Carvajal a Miguel Grau (1-8-1879): https://es.wikisource.org/wiki/Carta_de_Carmela_Carvajal_de_Prat_a_Miguel_Grau\n- Memoria Chilena: Combate Naval de Iquique: https://www.memoriachilena.gob.cl/602/w3-article-96912.html\n- Wikipedia: Día de las Glorias Navales (Ley 2977 de 1915): https://es.wikipedia.org/wiki/Día_de_las_Glorias_Navales\n- Wikipedia: Huáscar (ironclad): https://en.wikipedia.org/wiki/Hu%C3%A1scar_(ironclad)\n\nMapa: NASA Blue Marble Next Generation · GIBS; Sentinel-2 cloudless – s2maps.eu by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016), CC BY 4.0; vectores de Natural Earth (dominio público). Mapa propio; ruta y distancias aproximadas (grandes círculos entre puntos).\n\nImágenes: Wikimedia Commons\n- Ironclads Huáscar e Independencia · Javier de Santiago y Hoppe · Public domain · https://commons.wikimedia.org/wiki/File:Ironclads_Hu%C3%A1scar_e_Independencia.jpg\n- Combate Naval Iquique-Thomas Somerscales · Thomas Somerscales · Public domain · https://commons.wikimedia.org/wiki/File:Combate_Naval_Iquique-Thomas_Somerscales.jpg\n- Monitor Huáscar · Gonzalez2007 · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Monitor_Hu%C3%A1scar.jpg\n- Monumento a los Héroes de Iquique, Valparaíso, Chile · AntoArias 6 · CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0) · https://commons.wikimedia.org/wiki/File:Monumento_a_los_H%C3%A9roes_de_Iquique,_Valpara%C3%ADso,_Chile.jpg\n- Arturo-Prat-Chacón · Unknown author Unknown author · Public domain · https://commons.wikimedia.org/wiki/File:Arturo-Prat-Chac%C3%B3n.jpg\n- Retrato de busto del Almirante Miguel Grau Seminario · Courret Hermanos · Public domain · https://commons.wikimedia.org/wiki/File:Retrato_de_busto_del_Almirante_Miguel_Grau_Seminario.jpg\n\nVoz sintetizada (contenido sintético). Música y efectos: composición propia.",
+  "hashtags": [
+    "#historia",
+    "#mapas",
+    "#GuerraDelPacifico",
+    "#Chile",
+    "#Perú",
+    "#geografia"
+  ],
+  "duracionSeg": 531.1,
+  "estado": "subido",
+  "tipo": "largo",
+  "capitulos": [
+    {
+      "titulo": "La mañana del 21 de mayo",
+      "desde": 0,
+      "marca": "0:00"
+    },
+    {
+      "titulo": "EL BLOQUEO",
+      "desde": 19.9,
+      "marca": "0:19"
+    },
+    {
+      "titulo": "TRES EMBESTIDAS",
+      "desde": 112.47,
+      "marca": "1:52"
+    },
+    {
+      "titulo": "PUNTA GRUESA",
+      "desde": 220.66,
+      "marca": "3:40"
+    },
+    {
+      "titulo": "LA CARTA",
+      "desde": 315.01,
+      "marca": "5:15"
+    },
+    {
+      "titulo": "ANGAMOS Y EL MITO",
+      "desde": 410,
+      "marca": "6:50"
+    }
+  ],
+  "miniatura": "salida/caratulas/iquique-1879.png",
+  "publicarEn": "2026-11-29T22:00:00.000Z",
+  "videoId": "3699jF6jxyg",
+  "url": "https://www.youtube.com/watch?v=3699jF6jxyg",
+  "programado": "2026-11-29 19:00",
+  "subidoEn": "2026-11-19T18:35:35.637Z",
+  "reprogramadoEn": "2026-11-19T18:35:50.206Z"
+}

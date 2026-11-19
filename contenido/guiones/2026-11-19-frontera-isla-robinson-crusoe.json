@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-isla-robinson-crusoe",
+  "id": "2026-11-19-frontera-isla-robinson-crusoe",
   "titulo": "Robinson Crusoe no existió, pero su isla está a 670 km de Chile 🇨🇱",
   "descripcion": "La isla Robinson Crusoe, en el archipiélago Juan Fernández, queda a unos 670 kilómetros de la costa de Chile y mide unos 48 km². Se llamaba Más a Tierra hasta 1966. En septiembre de 1704, el marinero escocés Alexander Selkirk pidió que lo dejaran allí y pasó cuatro años y cuatro meses solo, hasta que el corsario Woodes Rogers lo rescató el 2 de febrero de 1709. En 1719 Daniel Defoe publicó Robinson Crusoe, cuya isla está en el Caribe; los especialistas discuten cuánto debe el libro a Selkirk. En 1915 el crucero alemán Dresden fue atacado por buques británicos y hundido por su tripulación en la bahía Cumberland; a bordo iba Wilhelm Canaris, futuro jefe de la Abwehr. En 1966 Chile rebautizó Más a Tierra como Robinson Crusoe y Más Afuera como Alejandro Selkirk, aunque él estuvo en la otra isla. ¿Selkirk o Crusoe? Cuéntalo en los comentarios.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#historia"
   ],
   "props": {
-    "id": "pendiente-frontera-isla-robinson-crusoe",
+    "id": "2026-11-19-frontera-isla-robinson-crusoe",
     "formula": "directa",
     "referente": "https://www.youtube.com/watch?v=OvC__4eDylU",
     "cabecera": "ROBINSON CRUSOE — UNA ISLA REAL",
