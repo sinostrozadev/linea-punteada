@@ -31,6 +31,7 @@ Regla del día (Santiago): "cerrar frentes": cero mejoras nuevas; fórmula direc
   dom 29 18:00 Tráiler Iquique `hOaASeOx1Pk` · **dom 29 19:00 LARGO "Iquique 1879: el combate que Perú ganó y Chile celebra" `3699jF6jxyg`**
   (8:52, apertura con escena, 6 capítulos, mid-rolls ~3:40 y ~6:49; render local 54,7 min).
 - Carátula GPT del largo `salida/caratulas/iquique-1879.png` (revisada: texto exacto, un acento, sujeto legible sin título; puesta por API).
+- GTA 6 `jnc7fW2GaT8` público a las 18:00 (verificado por API); comentario "¿Irías a la Florida real o te quedas con la del juego?" publicado y fijado en Studio.
 - `docs/PLAN-SEMANAL.md`: bloque del 19-11, JSON con ids, esqueleto 30-11 → 06-12.
 
 ## Pendiente
