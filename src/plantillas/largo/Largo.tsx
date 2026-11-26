@@ -16,6 +16,7 @@ import { ALTO_CONTADOR, Contador, TOP_CONTADOR } from '../ruta/Contador';
 import { camaraAsentadaV2, camaraV2, proyeccionDe } from '../ruta/camara';
 import { cabezaEn, type Trazado } from '../ruta/trazado';
 import { CamposLargo, type GuionLargo } from './guion';
+import { MediosCompletos, type MediosResueltos } from '../comun/visuales/Medios';
 import { LARGO, TITULO_SEG, capitulosEn, modeloLargo, planLargo, tiemposEstimadosLargo, trazadoLargo } from './modelo';
 import { BarraCapitulo, Cierre16x9, CreditoFoto, Mover, Subtitulos16x9, TarjetaCapitulo, TarjetaTituloLargo } from './Capas16x9';
 
@@ -27,6 +28,8 @@ export const PropsLargo = CamposLargo.extend({
   trazado: z.any().optional(),
   fotos: ImagenesResueltas.optional(),
   polaroids: ImagenesResueltas.optional(),
+  /** Fotos y videos reales de `medios[]`, por clave "<línea>-<n>". */
+  medios: z.record(z.string(), z.any()).optional(),
   fondoMapa: FondoResuelto.optional(),
   texturasGlobo: z.array(FondoCapa).optional(),
   creditos: z.string().optional(),
@@ -143,7 +146,7 @@ export const Largo: React.FC<PropsLargo> = (props) => {
       {!foto && vis.contextos.map((c) => <EtiquetaContexto key={c.id} texto={c.d.texto} t={t} desde={c.desde} hasta={c.hasta} acento={acento} top={topContexto} />)}
       {!foto && ind && <IndiceEnumeracion items={ind.items} activo={activo} t={t} hasta={ind.hasta} acento={acento} ancla={null} />}
       {vis.fotos.map((f) => {
-        const img = props.fotos?.[String(f.k)];
+        const img = f.d.medio ? undefined : props.fotos?.[String(f.k)];
         return img ? (
           <React.Fragment key={f.id}>
             <FotoCompleta imagen={img} pie={f.d.pie} t={t} desde={f.desde} hasta={f.hasta} variante={f.k} />
@@ -151,6 +154,7 @@ export const Largo: React.FC<PropsLargo> = (props) => {
           </React.Fragment>
         ) : null;
       })}
+      <MediosCompletos ventanas={vis.fotos} medios={props.medios as MediosResueltos | undefined} />
       <Mover dx={0} dy={DY_FUENTE}>
         {vis.fuentes.map((f) => <TarjetaFuente key={f.id} texto={f.d.texto} t={t} desde={f.desde} hasta={f.hasta} acento={acento} />)}
       </Mover>

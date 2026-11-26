@@ -21,6 +21,7 @@ import { generarSonido } from './sonido.mjs';
 import { prepararImagenes } from './imagenes.mjs';
 import { bajarFondos, planificarFondos, type Vista } from './lib/satelite.mjs';
 import { recortarGeo } from './lib/geo.mjs';
+import { prepararMedios } from './lib/medios.mjs';
 import { EnvoltorioFrontera, GuionFrontera } from '../src/plantillas/frontera/guion';
 import { DURACION_TRAZO_SEG, gradosPorPx } from '../src/plantillas/frontera/mapa';
 import { FRAMES_CIERRE_V2, resolverVisual, tTitulo } from '../src/plantillas/frontera/visual';
@@ -91,6 +92,7 @@ const bajarPor = async (sufijo: string, elegir: (l: (typeof lineas)[number]) => 
 };
 const fotos = await bajarPor('fotos', (l) => l.foto && { buscar: l.foto.buscar, archivo: l.foto.archivo, encuadre: l.foto.encuadre });
 const polaroids = await bajarPor('polaroids', (l) => l.polaroid && { buscar: l.polaroid.buscar, archivo: l.polaroid.archivo, encuadre: l.polaroid.encuadre });
+const medios = await prepararMedios(guion.id, lineas, 'vertical');
 const creditosFotos = [creditosV1, fotos.creditos, polaroids.creditos].filter(Boolean).join('\n').replace(/\nImágenes: Wikimedia Commons/g, '');
 
 // ---------------------------------------------------------------- satélite + Natural Earth recortado
@@ -129,11 +131,12 @@ const creditos = [
   '',
   `Mapa: ${capas.length ? `${capas.join('; ')}; ` : ''}vectores de Natural Earth (dominio público). Mapa propio; trazados aproximados.`,
   ...(creditosFotos ? ['', creditosFotos.startsWith('Imágenes') ? creditosFotos : `Imágenes: Wikimedia Commons\n${creditosFotos}`] : []),
+  ...(medios.creditos ? ['', medios.creditos] : []),
   '',
   'Voz sintetizada (contenido sintético). Música y efectos: composición propia.',
 ].join('\n');
 
-const finales = { ...guion, duracionFrames: plan.duracionFrames, tiempos, imagenes, fotos: fotos.imagenes, polaroids: polaroids.imagenes, fondos, geo, creditos };
+const finales = { ...guion, duracionFrames: plan.duracionFrames, tiempos, imagenes, fotos: fotos.imagenes, polaroids: polaroids.imagenes, medios: medios.medios, fondos, geo, creditos };
 const salida = path.join(raiz, 'salida/trabajo', `${guion.id}.props.json`);
 fs.mkdirSync(path.dirname(salida), { recursive: true });
 fs.writeFileSync(salida, JSON.stringify(finales, null, 2) + '\n');

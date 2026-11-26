@@ -34,7 +34,8 @@ export type Visual = {
   banderas: ConVentana<BanderaMapa>[];
   resaltes: ConVentana<{ lon: number; lat: number; radio: number }>[];
   tarjetas: ConVentana<Tarjeta>[];
-  fotos: ConVentana<Foto>[];
+  /** Fotos y videos a pantalla completa. `medio` = clave en props.medios ("<línea>-<n>") cuando viene de `medios[]`. */
+  fotos: ConVentana<Foto & { medio?: string; tipo?: 'foto' | 'video' }>[];
   polaroids: ConVentana<Polaroid & { v1?: boolean }>[];
   fuentes: ConVentana<FuentePantalla>[];
   indice: { items: (ItemIndice & { desde: number })[]; hasta: number; activo: { item: number; desde: number; hasta: number }[]; posicion: 'fila' | 'vertical-mapa'; ancla?: LonLat } | null;
@@ -211,6 +212,16 @@ export const resolverVisual = (g: GuionFrontera, plan: Plan): Visual => {
       const desde = r.en(d.foto.aparecerEn, 0.35);
       fotos.push({ d: d.foto, desde, hasta: Math.min(r.fin, desde + (d.foto.duracionSeg ?? 2.6)), k, id: `f${k}` });
     }
+    // Secuencia de medios (fotos y videos reales): cada uno en su palabra o, sin ella, al terminar el anterior.
+    let finMedio = -1;
+    (d.medios ?? []).forEach((m, i) => {
+      const desde = m.aparecerEn !== undefined || finMedio < 0 ? r.en(m.aparecerEn, 0.35) : finMedio;
+      const hasta = Math.min(r.fin, desde + (m.duracionSeg ?? (m.tipo === 'video' ? 4 : 2.6)));
+      if (hasta - desde < 0.8) return;
+      const { tipo, ...resto } = m;
+      fotos.push({ d: { ...(resto as Foto), tipo, medio: `${k}-${i}` }, desde, hasta, k, id: `m${k}-${i}` });
+      finMedio = hasta;
+    });
     const pol: (Polaroid & { v1?: boolean }) | undefined = d.polaroid ?? (d.imagen && !d.foto ? { ...d.imagen, v1: true } : undefined);
     if (pol) {
       const desde = r.en(pol.aparecerEn, 0.5);

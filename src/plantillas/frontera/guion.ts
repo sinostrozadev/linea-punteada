@@ -295,7 +295,7 @@ export const GuionFrontera = CamposFrontera.superRefine((g, ctx) => {
     if (sinMapa.length) ctx.addIssue({ code: 'custom', path: [...base, 'etiquetas'], message: 'las etiquetas (salvo contexto) necesitan lon y lat' });
     const texto = k === 0 ? g.gancho.texto : g.escenas[k - 1].texto;
     const palabras = [
-      e.contexto?.dice, e.fuente?.dice, e.foto?.aparecerEn, e.polaroid?.aparecerEn,
+      e.contexto?.dice, e.fuente?.dice, e.foto?.aparecerEn, e.polaroid?.aparecerEn, ...(e.medios ?? []).map((m) => m.aparecerEn),
       ...(e.planos ?? []).map((p) => p.en), ...(e.areas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]),
       ...(e.etiquetas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]), ...(e.cotas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]),
       ...(e.iconos ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]), ...(e.tarjetas ?? []).map((t) => t.aparecerEn),

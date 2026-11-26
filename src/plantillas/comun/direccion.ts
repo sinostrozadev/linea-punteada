@@ -77,6 +77,46 @@ export const Foto = z.object({
 export type Foto = z.infer<typeof Foto>;
 
 /**
+ * VIDEO REAL a pantalla completa (extracto de archivo con licencia libre; scripts/lib/videos.mts): 2–6 s de imagen
+ * filmada del LUGAR o de la COSA de la que habla la voz (el glaciar, el estrecho, el desierto, la ciudad, el barco),
+ * sin su audio, con la pastilla "● LUGAR · QUÉ ES" y el crédito en pantalla. Úsalo cuando ver el lugar de verdad
+ * dice más que el mapa; NO para ilustrar un hecho histórico con imágenes que no son de ese hecho sin decirlo en el pie
+ * ("HOY", "RECREACIÓN" no existe: si no es el hecho, el pie nombra lo que se ve). Elige el archivo exacto con
+ * `npx tsx scripts/videos.mts buscar "<consulta en inglés o español>"` y fíjalo en `archivo`.
+ */
+export const Video = z.object({
+  /** Consulta (2–6 palabras; Commons responde mejor con el nombre del lugar: "Perito Moreno glacier", "Estrecho de Magallanes"). */
+  buscar: z.string().min(2).max(70),
+  /** Identificador exacto en la fuente: "File:….webm" (Commons), nasa_id (NASA), identifier (archive.org), id (Pexels/Pixabay). */
+  archivo: z.string().optional(),
+  /** Fuente (si falta: Commons → NASA → Internet Archive con licencia explícita → Pexels/Pixabay si hay clave). */
+  fuente: z.enum(['commons', 'nasa', 'archive', 'pexels', 'pixabay']).optional(),
+  /** Pastilla: "GLACIAR PERITO MORENO · HOY". Máx. 46 caracteres. */
+  pie: z.string().min(3).max(46),
+  aparecerEn: Momento.optional(),
+  /** Segundos en pantalla (por defecto 4). Extractos cortos: lo que manda es la narración, no el clip. */
+  duracionSeg: z.number().min(1.5).max(8).optional(),
+  /** Segundo del original donde empieza el extracto (por defecto, el 12 % de su duración). */
+  desdeSeg: z.number().min(0).optional(),
+  /** Velocidad de reproducción (0,5 = cámara lenta; 2 = rápido). */
+  velocidad: z.number().min(0.4).max(3).optional(),
+  /** Qué parte del cuadro conservar al recortar a 9:16 (o 16:9 en el largo). */
+  encuadre: z.enum(['izquierda', 'centro', 'derecha', 'arriba', 'abajo']).optional(),
+});
+export type Video = z.infer<typeof Video>;
+
+/**
+ * SECUENCIA DE MEDIOS de una línea de voz (hasta 4): fotos y videos a pantalla completa, uno tras otro, con corte seco.
+ * Es la forma de meter MÁS TIPOS DE IMAGEN por minuto (docs/GUION.md §4c): mapa → video del lugar → mapa → retrato →
+ * documento. Cada uno aparece en su palabra (`aparecerEn`); sin ella, entra cuando termina el anterior.
+ */
+export const Medio = z.discriminatedUnion('tipo', [
+  Foto.extend({ tipo: z.literal('foto') }),
+  Video.extend({ tipo: z.literal('video') }),
+]);
+export type Medio = z.infer<typeof Medio>;
+
+/**
  * Polaroid sobre el mapa (retratos, documentos, edificios): marco blanco, leve giro, crédito debajo y, si se
  * da, un año gigante arriba. `forma: "circulo"` = foto redonda incrustada en el mapa.
  */
@@ -125,6 +165,8 @@ export const DireccionComun = {
   contexto: Contexto.optional(),
   tarjetas: z.array(Tarjeta).max(2).optional(),
   foto: Foto.optional(),
+  /** Fotos y videos reales a pantalla completa, en secuencia (además de `foto`). Ver `Medio`. */
+  medios: z.array(Medio).max(4).optional(),
   polaroid: Polaroid.optional(),
   fuente: FuentePantalla.optional(),
 };

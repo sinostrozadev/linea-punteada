@@ -26,7 +26,7 @@ const REINTENTOS = 3;
 /** `limites` = WordBoundary crudos del servicio (para diagnosticar y realinear sin volver a sintetizar). */
 type Sidecar = { hash: string; voz: string; duracionAudio: number; palabras: Palabra[]; reales: boolean; texto: string; desfaseMax?: number; alineacion?: number; limites?: { texto: string; inicio: number; fin: number }[] };
 
-const hashDe = (texto: string, voz: string) => crypto.createHash('sha256').update(`${voz}\n${JSON.stringify(PROSODIA)}\n${texto}`).digest('hex').slice(0, 16);
+const hashDe = (texto: string, voz: string, prosodia = PROSODIA) => crypto.createHash('sha256').update(`${voz}\n${JSON.stringify(prosodia)}\n${texto}`).digest('hex').slice(0, 16);
 
 /** Lee los props de un guion (envoltorio {plantilla, props} o props sueltos) SIN validar: cada preparar-* valida con su schema. */
 export const leerProps = (ruta: string): GuionBase => {
@@ -38,8 +38,8 @@ export type LineaVoz = { tipo: TipoLinea; texto: string };
 
 const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-const sintetizar = async (tts: MsEdgeTTS, texto: string): Promise<{ audio: Buffer; limites: Limite[] }> => {
-  const { audioStream, metadataStream } = tts.toStream(texto, PROSODIA);
+const sintetizar = async (tts: MsEdgeTTS, texto: string, prosodia = PROSODIA): Promise<{ audio: Buffer; limites: Limite[] }> => {
+  const { audioStream, metadataStream } = tts.toStream(texto, prosodia);
   const partes: Buffer[] = [];
   const limites: Limite[] = [];
   const metaListo = new Promise<void>((resolve) => {
@@ -62,8 +62,10 @@ const sintetizar = async (tts: MsEdgeTTS, texto: string): Promise<{ audio: Buffe
  * `lineas` por defecto = textosDelGuion(guion) (gancho, escenas, remate); una plantilla con otra
  * estructura puede pasar las suyas.
  */
-export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gancho' | 'escenas' | 'remate'>, lineas: LineaVoz[] = textosDelGuion(guion)): Promise<Tiempos> => {
+export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gancho' | 'escenas' | 'remate'> & { vozRitmo?: string }, lineas: LineaVoz[] = textosDelGuion(guion)): Promise<Tiempos> => {
   const voz = guion.voz ?? VOZ_POR_DEFECTO;
+  // Velocidad por guion (`vozRitmo`); sin ella, la de siempre (mismo hash: la caché de los guiones viejos sigue valiendo).
+  const prosodia = guion.vozRitmo ? { rate: guion.vozRitmo } : PROSODIA;
   const dir = path.join(RAIZ, 'public/voz', id);
   fs.mkdirSync(dir, { recursive: true });
   let tts: MsEdgeTTS | null = null;
@@ -73,7 +75,7 @@ export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gan
       const { tipo, texto } = lineas[i];
       const mp3 = path.join(dir, `${i}.mp3`);
       const sidecarRuta = path.join(dir, `${i}.json`);
-      const hash = hashDe(texto, voz);
+      const hash = hashDe(texto, voz, prosodia);
       let sidecar: Sidecar | null = null;
       if (fs.existsSync(mp3) && fs.existsSync(sidecarRuta)) {
         const previo = JSON.parse(fs.readFileSync(sidecarRuta, 'utf8')) as Sidecar;
@@ -93,7 +95,7 @@ export const generarVoz = async (id: string, guion: Pick<GuionBase, 'voz' | 'gan
         for (let intento = 1; intento <= REINTENTOS && !sidecar; intento++) {
           try {
             if (!tts) { tts = new MsEdgeTTS({ connectionTimeoutMs: 15000, synthesisTimeoutMs: 30000 }); await tts.setMetadata(voz, FORMATO_AUDIO, { wordBoundaryEnabled: true }); }
-            const { audio, limites } = await sintetizar(tts, texto);
+            const { audio, limites } = await sintetizar(tts, texto, prosodia);
             const tmp = `${mp3}.tmp.mp3`;
             fs.writeFileSync(tmp, audio);
             const meta = await parseFile(tmp);

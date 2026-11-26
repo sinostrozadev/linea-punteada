@@ -11,6 +11,7 @@ import type { Caja } from './colisiones';
 import { CamposFrontera, FondoCapa, FondoResuelto, type GeoRecortado } from './guion';
 import { Mapa, type Fondo } from './Mapa';
 import { TarjetaTitulo } from './TarjetaTitulo';
+import { MediosCompletos, type MediosResueltos } from '../comun/visuales/Medios';
 import { proyeccion } from './mapa';
 import { FRAMES_CIERRE_V2, camaraEn, fotoEn, resolverVisual, tTitulo, type Visual } from './visual';
 
@@ -23,6 +24,8 @@ export const PropsFrontera = CamposFrontera.extend({
   /** v2: foto a pantalla completa y polaroid por línea de voz (0 = gancho). */
   fotos: ImagenesResueltas.optional(),
   polaroids: ImagenesResueltas.optional(),
+  /** Fotos y videos reales de `medios[]`, por clave "<línea>-<n>" (los resuelve scripts/lib/medios.mts). */
+  medios: z.record(z.string(), z.any()).optional(),
   /** v1: un solo recorte satelital. */
   fondoMapa: FondoResuelto.optional(),
   /** v2: varias capas (relieve regional + Sentinel-2 en los planos cercanos). */
@@ -146,9 +149,10 @@ export const Frontera: React.FC<PropsFrontera> = (props) => {
       {!foto && vis.contextos.map((c) => <EtiquetaContexto key={c.id} texto={c.d.texto} t={t} desde={c.desde} hasta={c.hasta} acento={acento} top={topContexto} />)}
       {!foto && ind && <IndiceEnumeracion items={ind.items} activo={activo} t={t} hasta={ind.hasta} acento={acento} ancla={ancla} />}
       {vis.fotos.map((f) => {
-        const img = props.fotos?.[String(f.k)];
+        const img = f.d.medio ? undefined : props.fotos?.[String(f.k)];
         return img ? <FotoCompleta key={f.id} imagen={img} pie={f.d.pie} t={t} desde={f.desde} hasta={f.hasta} variante={f.k} /> : null;
       })}
+      <MediosCompletos ventanas={vis.fotos} medios={props.medios as MediosResueltos | undefined} />
       {vis.fuentes.map((f) => <TarjetaFuente key={f.id} texto={f.d.texto} t={t} desde={f.desde} hasta={f.hasta} acento={acento} />)}
 
       {!enTitulo && !enCierre && (

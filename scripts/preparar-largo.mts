@@ -13,6 +13,7 @@
  * y escribe salida/trabajo/<id>.props.json (+ <id>.capitulos.json con los minutos para la descripción).
  * Luego: npx tsx scripts/render-largo.mts <guion-largo.json>
  */
+import { prepararMedios } from './lib/medios.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { generarVoz } from './voz.mjs';
@@ -86,6 +87,7 @@ const bajarPor = async (sufijo: string, elegir: (l: (typeof lineas)[number]) => 
 };
 const fotos = await bajarPor('fotos', (l) => l.foto && { buscar: l.foto.buscar, archivo: l.foto.archivo, encuadre: l.foto.encuadre });
 const polaroids = await bajarPor('polaroids', (l) => l.polaroid && { buscar: l.polaroid.buscar, archivo: l.polaroid.archivo, encuadre: l.polaroid.encuadre });
+const medios = await prepararMedios(guion.id, lineas, 'horizontal');
 const creditosFotos = [fotos.creditos, polaroids.creditos].filter(Boolean).join('\n').replace(/\nImágenes: Wikimedia Commons/g, '');
 
 console.log(`trazado: ${Math.round(tr.totalKm).toLocaleString('es-CL')} km, ${tr.denso.length} vértices, ${tr.puntitos.length} puntitos · tramos ${m.tramos.map(([a, b]) => `${a}→${b}`).join(' ')}`);
@@ -144,11 +146,12 @@ const creditos = [
   '',
   `Mapa: ${fondoMapa ? `${fondoMapa.credito.replace(/^Imagen: /, 'imagen satelital ')} (dominio público); ` : ''}${texturasGlobo.length ? `${[...new Set(texturasGlobo.map((f) => f.credito))].join('; ')}; ` : ''}vectores de Natural Earth (dominio público). Mapa propio; ruta y distancias aproximadas (grandes círculos entre puntos).`,
   ...(creditosFotos ? ['', creditosFotos] : []),
+  ...(medios.creditos ? ['', medios.creditos] : []),
   '',
   'Voz sintetizada (contenido sintético). Música y efectos: composición propia.',
 ].join('\n');
 
-const finales = { ...guion, duracionFrames: plan.duracionFrames, tiempos, trazado: tr, fotos: fotos.imagenes, polaroids: polaroids.imagenes, fondoMapa, texturasGlobo, creditos };
+const finales = { ...guion, duracionFrames: plan.duracionFrames, tiempos, trazado: tr, fotos: fotos.imagenes, polaroids: polaroids.imagenes, medios: medios.medios, fondoMapa, texturasGlobo, creditos };
 const salida = path.join(raiz, 'salida/trabajo', `${guion.id}.props.json`);
 fs.mkdirSync(path.dirname(salida), { recursive: true });
 fs.writeFileSync(salida, JSON.stringify(finales) + '\n');

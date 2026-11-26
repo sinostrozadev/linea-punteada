@@ -84,7 +84,7 @@ export const CapasPantalla: React.FC<Props> = ({ vis, plan, frame, fps, acento, 
       {!foto && vis.contextos.map((c) => <EtiquetaContexto key={c.id} texto={c.d.texto} t={t} desde={c.desde} hasta={c.hasta} acento={acento} top={(tarjetaActiva ? 640 : 330) + bajar} />)}
       {!foto && ind && <IndiceEnumeracion items={ind.items} activo={activo} t={t} hasta={ind.hasta} acento={acento} ancla={ind.posicion === 'vertical-mapa' ? anclaIndice ?? null : null} />}
       {vis.fotos.map((f) => {
-        const img = fotos?.[String(f.k)];
+        const img = f.d.medio ? undefined : fotos?.[String(f.k)];
         return img ? <FotoCompleta key={f.id} imagen={img} pie={f.d.pie} t={t} desde={f.desde} hasta={f.hasta} variante={f.k} /> : null;
       })}
       {vis.fuentes.map((f) => <TarjetaFuente key={f.id} texto={f.d.texto} t={t} desde={f.desde} hasta={f.hasta} acento={acento} />)}

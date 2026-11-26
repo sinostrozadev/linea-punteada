@@ -53,6 +53,8 @@ export const LineaMapa = z.object({ lon: z.number(), lat: z.number(), texto: z.s
 export const CamposLargo = z.object({
   id: z.string().min(1),
   voz: z.enum(VOCES).optional(),
+  /** Velocidad de la voz ("+4%" por defecto). Ver comun/guion.ts. */
+  vozRitmo: z.string().regex(/^[+-]\d{1,2}%$/).optional(),
   acento: AcentoVideo.optional(),
   mapa: MapaLargo,
   /** Cold open ≤ 20 s de voz: imperativo visual sobre el mapa + lo raro + LA pregunta. Debe declarar ≥ 1 plano. */
@@ -89,6 +91,7 @@ export type GuionLargo = z.infer<typeof CamposLargo>;
 export type Aplanado = {
   id: string;
   voz?: GuionLargo['voz'];
+  vozRitmo?: string;
   acento?: GuionLargo['acento'];
   cabecera: string;
   mapa: MapaLargo;
@@ -117,6 +120,7 @@ export const mapaEscenas = (g: Pick<GuionLargo, 'capitulos'>) => {
 export const aplanar = (g: GuionLargo): Aplanado => ({
   id: g.id,
   voz: g.voz,
+  vozRitmo: g.vozRitmo,
   acento: g.acento,
   cabecera: g.tarjetaTitulo.texto.slice(0, 44),
   mapa: g.mapa,

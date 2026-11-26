@@ -31,3 +31,4 @@ salida/revisiones/hojas/*
 # Métricas diarias (skill metricas-diarias): capturas y JSON son material del video "camino a la monetización"; los fallos no.
 !salida/metricas/
 salida/metricas/**/fallo-*.png
+public/videos/

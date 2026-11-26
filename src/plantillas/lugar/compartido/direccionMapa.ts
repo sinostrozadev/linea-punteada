@@ -67,7 +67,7 @@ export const validarDireccionV2 = (g: GuionV2, ctx: z.RefinementCtx) => {
     const sinLugar = (e.etiquetas ?? []).filter((x) => x.tipo !== 'contexto' && (x.lon === undefined || x.lat === undefined));
     if (sinLugar.length) ctx.addIssue({ code: 'custom', path: [...base, 'etiquetas'], message: 'las etiquetas (salvo contexto) necesitan lon y lat' });
     const palabras = [
-      e.contexto?.dice, e.fuente?.dice, e.foto?.aparecerEn, e.polaroid?.aparecerEn,
+      e.contexto?.dice, e.fuente?.dice, e.foto?.aparecerEn, e.polaroid?.aparecerEn, ...(e.medios ?? []).map((m) => m.aparecerEn),
       ...(e.planos ?? []).map((p) => p.en), ...(e.areas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]),
       ...(e.etiquetas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]), ...(e.cotas ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]),
       ...(e.iconos ?? []).flatMap((a) => [a.aparecerEn, a.desaparecerEn]), ...(e.tarjetas ?? []).map((t) => t.aparecerEn),

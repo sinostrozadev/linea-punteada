@@ -116,6 +116,11 @@ export const CamposBase = z.object({
   /** Enlace al Short/video de un referente sobre el que se modeló el guion (outlier del nicho). Solo documentación. */
   referente: z.string().url().optional(),
   voz: z.enum(VOCES).optional(),
+  /**
+   * Velocidad de la voz ("+4%" por defecto; "+18%" ≈ el ritmo de los Shorts que despegan en el nicho: 2,8–3,1 palabras/s
+   * contra 2,1–2,3 de los nuestros a +4 %; medición 2026-11-26). Formato de Edge TTS: signo, 1–2 dígitos y %.
+   */
+  vozRitmo: z.string().regex(/^[+-]\d{1,2}%$/).optional(),
   /** Lugar en mayúsculas, arriba y pequeño, todo el video: "NOGALES — LA LÍNEA PARTE LA CIUDAD". Máx. 44 caracteres. */
   cabecera: z.string().min(3).max(44),
   gancho: z.object({
