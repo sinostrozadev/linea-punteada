@@ -1,0 +1,668 @@
+{
+  "id": "largo-lima-1881",
+  "generado": "2026-11-26T15:02:17.615Z",
+  "nota": "Evidencia de licencia de cada extracto de video usado (metadatos de la fuente al momento de la descarga).",
+  "clips": {
+    "2-1": {
+      "clave": "[\"Vista del Mar desde el Morro Solar\",\"File:Vista del Mar desde el Morro Solar.webm\",\"commons\",120,4,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Vista del Mar desde el Morro Solar",
+        "archivo": "File:Vista del Mar desde el Morro Solar.webm",
+        "fuente": "commons",
+        "pie": "EL MAR DESDE EL MORRO SOLAR · HOY",
+        "aparecerEn": "mar",
+        "duracionSeg": 3.6,
+        "desdeSeg": 120,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/2-1.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 4,
+        "titulo": "Vista del Mar desde el Morro Solar",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Vista_del_Mar_desde_el_Morro_Solar.webm",
+        "autor": "Ovruni",
+        "licencia": "CC BY-SA 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Vista del Mar desde el Morro Solar.webm",
+        "titulo": "Vista del Mar desde el Morro Solar",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Vista_del_Mar_desde_el_Morro_Solar.webm",
+        "autor": "Ovruni",
+        "licencia": "CC BY-SA 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "clase": "atribucion",
+        "ancho": 1920,
+        "alto": 1080,
+        "duracion": 25.71,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Vista_del_Mar_desde_el_Morro_Solar.webm/Vista_del_Mar_desde_el_Morro_Solar.webm.1080p.vp9.webm",
+        "anchoDescarga": 1920,
+        "altoDescarga": 1080
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3AVista+del+Mar+desde+el+Morro+Solar.webm",
+        "consultado": "2026-11-26T14:58:59.351Z",
+        "extmetadata": {
+          "DateTime": "2023-08-06 01:01:10",
+          "ObjectName": "Vista del Mar desde el Morro Solar",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "Morro Solar|Self-published work",
+          "Assessments": "",
+          "ImageDescription": "Vista del Mar desde el Morro Solar",
+          "DateTimeOriginal": "2023-07-22",
+          "Credit": "Own work",
+          "Artist": "Ovruni",
+          "LicenseShortName": "CC BY-SA 4.0",
+          "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "AttributionRequired": "true",
+          "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc-by-sa-4.0"
+        },
+        "categorias": [
+          "Category:CC-BY-SA-4.0",
+          "Category:Morro Solar",
+          "Category:Self-published work"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Vista_del_Mar_desde_el_Morro_Solar.webm/Vista_del_Mar_desde_el_Morro_Solar.webm.1080p.vp9.webm",
+        "bytes": 6870834,
+        "sha256": "cabeb590031915a554cd7f07093580047db1db61378e726a554f2bee24de1be8"
+      },
+      "extracto": {
+        "desdeSeg": 21.61,
+        "duracionSeg": 4,
+        "formato": "horizontal"
+      }
+    },
+    "17-0": {
+      "clave": "[\"Fog pushes up against the Peruvian Andes CIRA 2019 06 13\",\"File:Fog pushes up against the Peruvian Andes (CIRA 2019-06-13).webm\",\"commons\",0,4.8,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Fog pushes up against the Peruvian Andes CIRA 2019 06 13",
+        "archivo": "File:Fog pushes up against the Peruvian Andes (CIRA 2019-06-13).webm",
+        "fuente": "commons",
+        "pie": "NIEBLA DE LA COSTA CONTRA LOS ANDES · NOAA",
+        "aparecerEn": "Arriba",
+        "duracionSeg": 4.4,
+        "desdeSeg": 0,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/17-0.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 4.8,
+        "titulo": "Fog pushes up against the Peruvian Andes (CIRA 2019-06-13)",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Fog_pushes_up_against_the_Peruvian_Andes_(CIRA_2019-06-13).webm",
+        "autor": "GOES imagery: CSU/CIRA & NOAA",
+        "licencia": "Public domain",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Fog pushes up against the Peruvian Andes (CIRA 2019-06-13).webm",
+        "titulo": "Fog pushes up against the Peruvian Andes (CIRA 2019-06-13)",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Fog_pushes_up_against_the_Peruvian_Andes_(CIRA_2019-06-13).webm",
+        "autor": "GOES imagery: CSU/CIRA & NOAA",
+        "licencia": "Public domain",
+        "clase": "libre",
+        "ancho": 1440,
+        "alto": 1080,
+        "duracion": 9.28,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/Fog_pushes_up_against_the_Peruvian_Andes_%28CIRA_2019-06-13%29.webm/Fog_pushes_up_against_the_Peruvian_Andes_%28CIRA_2019-06-13%29.webm.1080p.vp9.webm",
+        "anchoDescarga": 1440,
+        "altoDescarga": 1080
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3AFog+pushes+up+against+the+Peruvian+Andes+%28CIRA+2019-06-13%29.webm",
+        "consultado": "2026-11-26T14:59:26.386Z",
+        "extmetadata": {
+          "DateTime": "2025-05-04 22:46:24",
+          "ObjectName": "Fog pushes up against the Peruvian Andes (CIRA 2019-06-13)",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "PD US NOAA|Video display resolution 1440 x 1080|Uploaded with video2commons|Videos taken on 2019-06-13|Videos of satellite pictures of Earth|GOES 16 pictures|CIRA files uploaded by OptimusPrimeBot|2019 satellite pictures from CIRA",
+          "Assessments": "",
+          "ImageDescription": "Fog pushes up against the Peruvian Andes",
+          "DateTimeOriginal": "Taken on 13 June 2019",
+          "Credit": "Fog pushes up against the Peruvian Andes",
+          "Artist": "GOES imagery: CSU/CIRA & NOAA",
+          "LicenseShortName": "Public domain",
+          "UsageTerms": "Public domain",
+          "AttributionRequired": "false",
+          "Copyrighted": "False",
+          "Restrictions": "",
+          "License": "pd"
+        },
+        "categorias": [
+          "Category:2019 satellite pictures from CIRA",
+          "Category:CIRA files uploaded by OptimusPrimeBot",
+          "Category:GOES 16 pictures",
+          "Category:PD US NOAA",
+          "Category:Uploaded with video2commons",
+          "Category:Video display resolution 1440 x 1080",
+          "Category:Videos of satellite pictures of Earth",
+          "Category:Videos taken on 2019-06-13"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/Fog_pushes_up_against_the_Peruvian_Andes_%28CIRA_2019-06-13%29.webm/Fog_pushes_up_against_the_Peruvian_Andes_%28CIRA_2019-06-13%29.webm.1080p.vp9.webm",
+        "bytes": 13372722,
+        "sha256": "38b8eaf01e07a582baa6fa64ac87a59be563991f9103a9def8cdaa3fce90b56f"
+      },
+      "extracto": {
+        "desdeSeg": 0,
+        "duracionSeg": 4.8,
+        "formato": "horizontal"
+      }
+    },
+    "18-0": {
+      "clave": "[\"Presencia del tren\",\"File:Presencia del tren.webm\",\"commons\",4,4,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Presencia del tren",
+        "archivo": "File:Presencia del tren.webm",
+        "fuente": "commons",
+        "pie": "TREN JUNTO AL RÍO RÍMAC · HOY",
+        "aparecerEn": "Ferrocarril",
+        "duracionSeg": 3.6,
+        "desdeSeg": 4,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/18-0.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 4,
+        "titulo": "Presencia del tren",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Presencia_del_tren.webm",
+        "autor": "GeralMuZa",
+        "licencia": "CC BY-SA 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Presencia del tren.webm",
+        "titulo": "Presencia del tren",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Presencia_del_tren.webm",
+        "autor": "GeralMuZa",
+        "licencia": "CC BY-SA 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "clase": "atribucion",
+        "ancho": 1920,
+        "alto": 1080,
+        "duracion": 29.82,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Presencia_del_tren.webm/Presencia_del_tren.webm.1080p.vp9.webm",
+        "anchoDescarga": 1920,
+        "altoDescarga": 1080
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3APresencia+del+tren.webm",
+        "consultado": "2026-11-26T14:59:57.685Z",
+        "extmetadata": {
+          "DateTime": "2022-04-11 01:44:30",
+          "ObjectName": "Presencia del tren",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "Photowalk about disasters risk management in Perú march-april 2022|Callao District|Rail vehicles of Peru|Self-published work|Central Railway of Peru",
+          "Assessments": "",
+          "ImageDescription": "Se presencia el tren cerca de las edificaciones construidas en los alrededores, que ante un al movimiento este puede volcarse y destruir los alrededores y atentar contra la vida de las personas que residen ahí.",
+          "DateTimeOriginal": "2022-04-10",
+          "Credit": "Own work",
+          "Artist": "GeralMuZa",
+          "LicenseShortName": "CC BY-SA 4.0",
+          "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "AttributionRequired": "true",
+          "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc-by-sa-4.0"
+        },
+        "categorias": [
+          "Category:CC-BY-SA-4.0",
+          "Category:Callao District",
+          "Category:Central Railway of Peru",
+          "Category:Photowalk about disasters risk management in Perú march-april 2022",
+          "Category:Rail vehicles of Peru",
+          "Category:Self-published work"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Presencia_del_tren.webm/Presencia_del_tren.webm.1080p.vp9.webm",
+        "bytes": 19330768,
+        "sha256": "fdc7806b04eadb428ece3bd3f9b5607466fa6e578c2eb3493dbc7223f28352d2"
+      },
+      "extracto": {
+        "desdeSeg": 4,
+        "duracionSeg": 4,
+        "formato": "horizontal"
+      }
+    },
+    "20-0": {
+      "clave": "[\"THE ANDEAN REGION A PLACE TO CONSERVE\",\"File:THE ANDEAN REGION- A PLACE TO CONSERVE.webm\",\"commons\",2,4,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "THE ANDEAN REGION A PLACE TO CONSERVE",
+        "archivo": "File:THE ANDEAN REGION- A PLACE TO CONSERVE.webm",
+        "fuente": "commons",
+        "pie": "PUNA ANDINA · HOY",
+        "aparecerEn": "mulas",
+        "duracionSeg": 3.6,
+        "desdeSeg": 2,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/20-0.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 4,
+        "titulo": "THE ANDEAN REGION- A PLACE TO CONSERVE",
+        "pagina": "https://commons.wikimedia.org/wiki/File:THE_ANDEAN_REGION-_A_PLACE_TO_CONSERVE.webm",
+        "autor": "Wetlands International",
+        "licencia": "CC BY 3.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:THE ANDEAN REGION- A PLACE TO CONSERVE.webm",
+        "titulo": "THE ANDEAN REGION- A PLACE TO CONSERVE",
+        "pagina": "https://commons.wikimedia.org/wiki/File:THE_ANDEAN_REGION-_A_PLACE_TO_CONSERVE.webm",
+        "autor": "Wetlands International",
+        "licencia": "CC BY 3.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+        "clase": "atribucion",
+        "ancho": 854,
+        "alto": 480,
+        "duracion": 12.83,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/THE_ANDEAN_REGION-_A_PLACE_TO_CONSERVE.webm/THE_ANDEAN_REGION-_A_PLACE_TO_CONSERVE.webm.480p.vp9.webm",
+        "anchoDescarga": 854,
+        "altoDescarga": 480
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3ATHE+ANDEAN+REGION-+A+PLACE+TO+CONSERVE.webm",
+        "consultado": "2026-11-26T15:00:56.702Z",
+        "extmetadata": {
+          "DateTime": "2026-10-15 10:54:59",
+          "ObjectName": "THE ANDEAN REGION- A PLACE TO CONSERVE",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "Videos from YouTube|License review needed (video)|Videos of 2018|Uploaded with video2commons",
+          "Assessments": "",
+          "ImageDescription": "The Puna is a vast area of arid grasslands hidden away at altitude in the Andes. It is remote and removed from most people’s daily lives, far from most big cities and sits in the shadow of some of the Andes highest peaks. Straddling the borders of Argentina, Bolivia, Chile and Peru. Sitting above 3500m it is high enough to take your breath away, and lack of oxygen is not the only reason! It is a landscape of rugged beauty at an epic scale. Here the development of the Andes Mountains is laid bare before you; improbable geological convulsions exposed and rearranged by water and wind. Framed by an azure blue sky, the rocks give the landscape a rich and varied palette, a spectrum of mineral colours that changes continuously with the sun’s daily passage. Nestled between the hills and mountains lie oases of calm and life. Vibrant blue wetland lagoons give homes to rare and often endangered flamingos, ducks, wading birds and geese surrounded in the wet season by verdant green pastures. Arranged around them are communities whose way of life have been inextricably tied to them for hundreds, even thousands of years. More about the story: https://impakter.com/andean-region-place-conserve/ This a Wetlands International story Video credit: Wetlands International/Chris Baker www.wetlands.org",
+          "DateTimeOriginal": "2018-09-06",
+          "Credit": "YouTube : THE ANDEAN REGION: A PLACE TO CONSERVE – View/save archived versions on archive.org",
+          "Artist": "Wetlands International",
+          "LicenseShortName": "CC BY 3.0",
+          "UsageTerms": "Creative Commons Attribution 3.0",
+          "AttributionRequired": "true",
+          "Attribution": "Wetlands International",
+          "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc-by-3.0"
+        },
+        "categorias": [
+          "Category:CC-BY-3.0",
+          "Category:License review needed (video)",
+          "Category:Uploaded with video2commons",
+          "Category:Videos from YouTube",
+          "Category:Videos of 2018"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/THE_ANDEAN_REGION-_A_PLACE_TO_CONSERVE.webm/THE_ANDEAN_REGION-_A_PLACE_TO_CONSERVE.webm.480p.vp9.webm",
+        "bytes": 1446952,
+        "sha256": "2bac99fd4230413f5cca1b2529927e09fdbcca89ad9b70fa31ef3058a5ae5f91"
+      },
+      "extracto": {
+        "desdeSeg": 2,
+        "duracionSeg": 4,
+        "formato": "horizontal"
+      }
+    },
+    "25-0": {
+      "clave": "[\"Visiones de la provincia de Huancayo\",\"File:Visiones de la provincia de Huancayo.webm\",\"commons\",40,3.8,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Visiones de la provincia de Huancayo",
+        "archivo": "File:Visiones de la provincia de Huancayo.webm",
+        "fuente": "commons",
+        "pie": "PROVINCIA DE HUANCAYO · DOCUMENTAL ANTIGUO",
+        "aparecerEn": "miles",
+        "duracionSeg": 3.4,
+        "desdeSeg": 40,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/25-0.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 3.8,
+        "titulo": "Visiones de la provincia de Huancayo",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Visiones_de_la_provincia_de_Huancayo.webm",
+        "autor": "Perú. Ministerio de Gobierno. Dirección de Prensa y Propaganda Perú Sono Film",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Visiones de la provincia de Huancayo.webm",
+        "titulo": "Visiones de la provincia de Huancayo",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Visiones_de_la_provincia_de_Huancayo.webm",
+        "autor": "Perú. Ministerio de Gobierno. Dirección de Prensa y Propaganda Perú Sono Film",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "clase": "libre",
+        "ancho": 654,
+        "alto": 480,
+        "duracion": 353.46,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Visiones_de_la_provincia_de_Huancayo.webm/Visiones_de_la_provincia_de_Huancayo.webm.480p.vp9.webm",
+        "anchoDescarga": 654,
+        "altoDescarga": 480
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3AVisiones+de+la+provincia+de+Huancayo.webm",
+        "consultado": "2026-11-26T15:01:07.743Z",
+        "extmetadata": {
+          "DateTime": "2025-07-28 15:25:09",
+          "ObjectName": "Visiones de la provincia de Huancayo",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "CC-Zero|Retouched pictures|Views of Huancayo|Plaza de la Constitución (Huancayo)|Cathedral of Huancayo|Districts of Huancayo Province|Hotel de Turistas de Huancayo|Huayucachi District|Avenida Giraldez|History of Huancayo|PDMark-owner|Files from the National Library of Peru|Newsreels from Peru|Commerce in Huancayo|Bridges in Huancayo|Monumento a Cahuide|Videos of the 1940s from Peru|Videos from Huancayo",
+          "Assessments": "",
+          "ImageDescription": "Noticiario cinematográfico de la década de 1940 sobre la ciudad de Huancayo : avenidas, centros industriales, arquitectura, iglesias, haciendas entre otros.",
+          "DateTimeOriginal": "1940s date QS:P,+1940-00-00T00:00:00Z/8",
+          "Credit": "This file is from the National Library of Peru , and is available online at bibliotecadigital.bnp.gob.pe/items/d9f4eb48-d222-4720-8c2d-8d163d9b7d4f .",
+          "Artist": "Perú. Ministerio de Gobierno. Dirección de Prensa y Propaganda Perú Sono Film",
+          "LicenseShortName": "CC0",
+          "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "AttributionRequired": "false",
+          "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc0"
+        },
+        "categorias": [
+          "Category:Avenida Giraldez",
+          "Category:Bridges in Huancayo",
+          "Category:CC-Zero",
+          "Category:Cathedral of Huancayo",
+          "Category:Commerce in Huancayo",
+          "Category:Districts of Huancayo Province",
+          "Category:Files from the National Library of Peru",
+          "Category:History of Huancayo",
+          "Category:Hotel de Turistas de Huancayo",
+          "Category:Huayucachi District",
+          "Category:Monumento a Cahuide",
+          "Category:Newsreels from Peru",
+          "Category:PDMark-owner",
+          "Category:Plaza de la Constitución (Huancayo)",
+          "Category:Retouched pictures",
+          "Category:Videos from Huancayo",
+          "Category:Videos of the 1940s from Peru",
+          "Category:Views of Huancayo"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Visiones_de_la_provincia_de_Huancayo.webm/Visiones_de_la_provincia_de_Huancayo.webm.480p.vp9.webm",
+        "bytes": 42832822,
+        "sha256": "0e3feb2ad400d63cf726b6835791a4361dec68159ef550795107831ab2e6d34f"
+      },
+      "extracto": {
+        "desdeSeg": 40,
+        "duracionSeg": 3.8,
+        "formato": "horizontal"
+      }
+    },
+    "44-1": {
+      "clave": "[\"Huascarán orbit with path names PeakNav 3D terrain render\",\"File:Huascarán orbit with path names, PeakNav 3D terrain render.webm\",\"commons\",4,4.4,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Huascarán orbit with path names PeakNav 3D terrain render",
+        "archivo": "File:Huascarán orbit with path names, PeakNav 3D terrain render.webm",
+        "fuente": "commons",
+        "pie": "HUASCARÁN · RELIEVE EN 3D",
+        "aparecerEn": "Huascarán",
+        "duracionSeg": 4,
+        "desdeSeg": 4,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/44-1.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 4.4,
+        "titulo": "Huascarán orbit with path names, PeakNav 3D terrain render",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Huascar%C3%A1n_orbit_with_path_names,_PeakNav_3D_terrain_render.webm",
+        "autor": "Upabjojr",
+        "licencia": "CC BY 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Huascarán orbit with path names, PeakNav 3D terrain render.webm",
+        "titulo": "Huascarán orbit with path names, PeakNav 3D terrain render",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Huascar%C3%A1n_orbit_with_path_names,_PeakNav_3D_terrain_render.webm",
+        "autor": "Upabjojr",
+        "licencia": "CC BY 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+        "clase": "atribucion",
+        "ancho": 854,
+        "alto": 480,
+        "duracion": 36,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Huascar%C3%A1n_orbit_with_path_names%2C_PeakNav_3D_terrain_render.webm/Huascar%C3%A1n_orbit_with_path_names%2C_PeakNav_3D_terrain_render.webm.480p.vp9.webm",
+        "anchoDescarga": 854,
+        "altoDescarga": 480
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3AHuascar%C3%A1n+orbit+with+path+names%2C+PeakNav+3D+terrain+render.webm",
+        "consultado": "2026-11-26T15:01:48.391Z",
+        "extmetadata": {
+          "DateTime": "2026-10-21 13:44:53",
+          "ObjectName": "Huascarán orbit with path names, PeakNav 3D terrain render",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "Huascarán|Self-published work",
+          "Assessments": "",
+          "ImageDescription": "Huascarán (6,768 m, Cordillera Blanca, Peru): one full turn round the summit, with the names and numbers of the paths drawn on the trails. PeakNav 3D terrain render.",
+          "DateTimeOriginal": "2026-10-10",
+          "Credit": "Own work",
+          "Artist": "Upabjojr",
+          "LicenseShortName": "CC BY 4.0",
+          "UsageTerms": "Creative Commons Attribution 4.0",
+          "AttributionRequired": "true",
+          "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc-by-4.0"
+        },
+        "categorias": [
+          "Category:CC-BY-4.0",
+          "Category:Huascarán",
+          "Category:Self-published work"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Huascar%C3%A1n_orbit_with_path_names%2C_PeakNav_3D_terrain_render.webm/Huascar%C3%A1n_orbit_with_path_names%2C_PeakNav_3D_terrain_render.webm.480p.vp9.webm",
+        "bytes": 4525164,
+        "sha256": "7639f9cb07aa9fec5816a93f6d374f2530c21f438608848a08601dde042ff966"
+      },
+      "extracto": {
+        "desdeSeg": 4,
+        "duracionSeg": 4.4,
+        "formato": "horizontal"
+      }
+    },
+    "44-2": {
+      "clave": "[\"Stream in the Huascarán National Park Peru\",\"File:Stream in the Huascarán National Park - Peru.webm\",\"commons\",3,3.4,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Stream in the Huascarán National Park Peru",
+        "archivo": "File:Stream in the Huascarán National Park - Peru.webm",
+        "fuente": "commons",
+        "pie": "PARQUE NACIONAL HUASCARÁN · HOY",
+        "aparecerEn": "zapatos",
+        "duracionSeg": 3,
+        "desdeSeg": 3,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/44-2.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 3.4,
+        "titulo": "Stream in the Huascarán National Park - Peru",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Stream_in_the_Huascar%C3%A1n_National_Park_-_Peru.webm",
+        "autor": "CorraleH",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Stream in the Huascarán National Park - Peru.webm",
+        "titulo": "Stream in the Huascarán National Park - Peru",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Stream_in_the_Huascar%C3%A1n_National_Park_-_Peru.webm",
+        "autor": "CorraleH",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "clase": "libre",
+        "ancho": 854,
+        "alto": 480,
+        "duracion": 20.57,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Stream_in_the_Huascar%C3%A1n_National_Park_-_Peru.webm/Stream_in_the_Huascar%C3%A1n_National_Park_-_Peru.webm.480p.vp9.webm",
+        "anchoDescarga": 854,
+        "altoDescarga": 480
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3AStream+in+the+Huascar%C3%A1n+National+Park+-+Peru.webm",
+        "consultado": "2026-11-26T15:01:57.089Z",
+        "extmetadata": {
+          "DateTime": "2024-11-14 04:51:01",
+          "ObjectName": "Stream in the Huascarán National Park - Peru",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "CC-Zero|Huascarán National Park|Self-published work|Uploaded with video2commons|Files with coordinates missing SDC location of creation",
+          "Assessments": "",
+          "GPSLatitude": "-9.097119",
+          "GPSLongitude": "-77.671041",
+          "GPSMapDatum": "WGS-84",
+          "ImageDescription": "Stream in the Huascarán National Park - Peru.",
+          "DateTimeOriginal": "2024-11-11",
+          "Credit": "Own work",
+          "Artist": "CorraleH",
+          "LicenseShortName": "CC0",
+          "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "AttributionRequired": "false",
+          "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc0"
+        },
+        "categorias": [
+          "Category:CC-Zero",
+          "Category:Files with coordinates missing SDC location of creation",
+          "Category:Huascarán National Park",
+          "Category:Self-published work",
+          "Category:Uploaded with video2commons"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Stream_in_the_Huascar%C3%A1n_National_Park_-_Peru.webm/Stream_in_the_Huascar%C3%A1n_National_Park_-_Peru.webm.480p.vp9.webm",
+        "bytes": 2793877,
+        "sha256": "fa87e065ec9c19dc9b1423e2b15c43da6ec6c3d7dcfe1a5c26676d1e788c2385"
+      },
+      "extracto": {
+        "desdeSeg": 3,
+        "duracionSeg": 3.4,
+        "formato": "horizontal"
+      }
+    },
+    "55-0": {
+      "clave": "[\"Callao 2020 01 08 02\",\"File:Callao-2020 01 08-02.webm\",\"commons\",2,3.8,\"centro\",\"horizontal\"]",
+      "pedido": {
+        "buscar": "Callao 2020 01 08 02",
+        "archivo": "File:Callao-2020 01 08-02.webm",
+        "fuente": "commons",
+        "pie": "EL CALLAO · HOY",
+        "aparecerEn": "sale",
+        "duracionSeg": 3.4,
+        "desdeSeg": 2,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/largo-lima-1881/55-0.mp4",
+        "ancho": 1280,
+        "alto": 720,
+        "duracion": 3.8,
+        "titulo": "Callao-2020 01 08-02",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Callao-2020_01_08-02.webm",
+        "autor": "Nicolas Vigier",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Callao-2020 01 08-02.webm",
+        "titulo": "Callao-2020 01 08-02",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Callao-2020_01_08-02.webm",
+        "autor": "Nicolas Vigier",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "clase": "libre",
+        "ancho": 1920,
+        "alto": 1080,
+        "duracion": 18.04,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Callao-2020_01_08-02.webm/Callao-2020_01_08-02.webm.1080p.vp9.webm",
+        "anchoDescarga": 1920,
+        "altoDescarga": 1080
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3ACallao-2020+01+08-02.webm",
+        "consultado": "2026-11-26T15:02:04.357Z",
+        "extmetadata": {
+          "DateTime": "2021-01-13 22:35:43",
+          "ObjectName": "Callao-2020 01 08-02",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "CC-Zero|Uploaded with video2commons|Videos by Nicolas Vigier|Videos of storm Filomena in Madrid",
+          "Assessments": "",
+          "ImageDescription": "Callao, Madrid",
+          "DateTimeOriginal": "2021-01-08",
+          "Credit": "Own work",
+          "Artist": "Nicolas Vigier",
+          "LicenseShortName": "CC0",
+          "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "AttributionRequired": "false",
+          "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc0"
+        },
+        "categorias": [
+          "Category:CC-Zero",
+          "Category:Uploaded with video2commons",
+          "Category:Videos by Nicolas Vigier",
+          "Category:Videos of storm Filomena in Madrid"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Callao-2020_01_08-02.webm/Callao-2020_01_08-02.webm.1080p.vp9.webm",
+        "bytes": 11567686,
+        "sha256": "ad98e4eca2055be5e4cb977752f05ba67d5e655dbf9f04d87ac26c0513c84049"
+      },
+      "extracto": {
+        "desdeSeg": 2,
+        "duracionSeg": 3.8,
+        "formato": "horizontal"
+      }
+    }
+  }
+}

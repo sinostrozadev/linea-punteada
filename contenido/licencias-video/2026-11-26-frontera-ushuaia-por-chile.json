@@ -1,0 +1,252 @@
+{
+  "id": "2026-11-26-frontera-ushuaia-por-chile",
+  "generado": "2026-11-26T15:02:24.248Z",
+  "nota": "Evidencia de licencia de cada extracto de video usado (metadatos de la fuente al momento de la descarga).",
+  "clips": {
+    "0-0": {
+      "clave": "[\"pinguinos faro Ushuaia\",\"File:Población de pinguinos en Faro del Fin del mundo en Ushuaia.webm\",\"\",null,2.2,\"centro\",\"vertical\"]",
+      "pedido": {
+        "buscar": "pinguinos faro Ushuaia",
+        "archivo": "File:Población de pinguinos en Faro del Fin del mundo en Ushuaia.webm",
+        "pie": "USHUAIA · FARO LES ÉCLAIREURS",
+        "aparecerEn": "Ushuaia",
+        "duracionSeg": 1.8,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/2026-11-26-frontera-ushuaia-por-chile/0-0.mp4",
+        "ancho": 720,
+        "alto": 1280,
+        "duracion": 2.2,
+        "titulo": "Población de pinguinos en Faro del Fin del mundo en Ushuaia",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Poblaci%C3%B3n_de_pinguinos_en_Faro_del_Fin_del_mundo_en_Ushuaia.webm",
+        "autor": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
+        "licencia": "CC BY-SA 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:Población de pinguinos en Faro del Fin del mundo en Ushuaia.webm",
+        "titulo": "Población de pinguinos en Faro del Fin del mundo en Ushuaia",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Poblaci%C3%B3n_de_pinguinos_en_Faro_del_Fin_del_mundo_en_Ushuaia.webm",
+        "autor": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
+        "licencia": "CC BY-SA 4.0",
+        "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "clase": "atribucion",
+        "ancho": 608,
+        "alto": 1080,
+        "duracion": 11,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Poblaci%C3%B3n_de_pinguinos_en_Faro_del_Fin_del_mundo_en_Ushuaia.webm/Poblaci%C3%B3n_de_pinguinos_en_Faro_del_Fin_del_mundo_en_Ushuaia.webm.1080p.vp9.webm",
+        "anchoDescarga": 608,
+        "altoDescarga": 1080
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3APoblaci%C3%B3n+de+pinguinos+en+Faro+del+Fin+del+mundo+en+Ushuaia.webm",
+        "consultado": "2026-11-26T15:02:17.020Z",
+        "extmetadata": {
+          "DateTime": "2025-12-10 03:42:24",
+          "ObjectName": "Población de pinguinos en Faro del Fin del mundo en Ushuaia",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "Ushuaia|Self-published work|Uploaded via Campaign:wsc-ar|Images from Wiki Science Competition 2025 in Argentina|Non-photographic media from Wiki Science Competition 2025",
+          "Assessments": "",
+          "ImageDescription": "Penguin population at the End of the World Lighthouse in Ushuaia",
+          "DateTimeOriginal": "2025-12-10",
+          "Credit": "Own work",
+          "Artist": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
+          "LicenseShortName": "CC BY-SA 4.0",
+          "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+          "AttributionRequired": "true",
+          "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc-by-sa-4.0"
+        },
+        "categorias": [
+          "Category:CC-BY-SA-4.0",
+          "Category:Images from Wiki Science Competition 2025 in Argentina",
+          "Category:Non-photographic media from Wiki Science Competition 2025",
+          "Category:Self-published work",
+          "Category:Uploaded via Campaign:wsc-ar",
+          "Category:Ushuaia"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Poblaci%C3%B3n_de_pinguinos_en_Faro_del_Fin_del_mundo_en_Ushuaia.webm/Poblaci%C3%B3n_de_pinguinos_en_Faro_del_Fin_del_mundo_en_Ushuaia.webm.1080p.vp9.webm",
+        "bytes": 4588317,
+        "sha256": "457af6d45ef1ce8d8b6804142180bf2cd36be8712f51bdf1d4633f86ac1d8c30"
+      },
+      "extracto": {
+        "desdeSeg": 1.32,
+        "duracionSeg": 2.2,
+        "formato": "vertical"
+      }
+    },
+    "2-1": {
+      "clave": "[\"bomb cyclone Tierra del Fuego\",\"File:A \\\"bomb cyclone\\\" impacts Tierra del Fuego (CIRA 2019-04-12).webm\",\"\",2,3,\"centro\",\"vertical\"]",
+      "pedido": {
+        "buscar": "bomb cyclone Tierra del Fuego",
+        "archivo": "File:A \"bomb cyclone\" impacts Tierra del Fuego (CIRA 2019-04-12).webm",
+        "pie": "CICLÓN SOBRE TIERRA DEL FUEGO · SATÉLITE",
+        "aparecerEn": "viento",
+        "duracionSeg": 2.6,
+        "desdeSeg": 2,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/2026-11-26-frontera-ushuaia-por-chile/2-1.mp4",
+        "ancho": 720,
+        "alto": 1280,
+        "duracion": 3,
+        "titulo": "A \"bomb cyclone\" impacts Tierra del Fuego (CIRA 2019-04-12)",
+        "pagina": "https://commons.wikimedia.org/wiki/File:A_%22bomb_cyclone%22_impacts_Tierra_del_Fuego_(CIRA_2019-04-12).webm",
+        "autor": "GOES imagery: CSU/CIRA & NOAA",
+        "licencia": "Public domain",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:A \"bomb cyclone\" impacts Tierra del Fuego (CIRA 2019-04-12).webm",
+        "titulo": "A \"bomb cyclone\" impacts Tierra del Fuego (CIRA 2019-04-12)",
+        "pagina": "https://commons.wikimedia.org/wiki/File:A_%22bomb_cyclone%22_impacts_Tierra_del_Fuego_(CIRA_2019-04-12).webm",
+        "autor": "GOES imagery: CSU/CIRA & NOAA",
+        "licencia": "Public domain",
+        "clase": "libre",
+        "ancho": 1440,
+        "alto": 1080,
+        "duracion": 12.04,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/A_%22bomb_cyclone%22_impacts_Tierra_del_Fuego_%28CIRA_2019-04-12%29.webm/A_%22bomb_cyclone%22_impacts_Tierra_del_Fuego_%28CIRA_2019-04-12%29.webm.1080p.vp9.webm",
+        "anchoDescarga": 1440,
+        "altoDescarga": 1080
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3AA+%22bomb+cyclone%22+impacts+Tierra+del+Fuego+%28CIRA+2019-04-12%29.webm",
+        "consultado": "2026-11-26T14:44:24.552Z",
+        "extmetadata": {
+          "DateTime": "2025-05-05 20:00:20",
+          "ObjectName": "A \"bomb cyclone\" impacts Tierra del Fuego (CIRA 2019-04-12)",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "Tierra del Fuego|PD US NOAA|Video display resolution 1440 x 1080|Uploaded with video2commons|Videos taken on 2019-04-12|Videos of satellite pictures of Earth|Bomb cyclones|GOES 16 pictures|CIRA files uploaded by OptimusPrimeBot|2019 satellite pictures from CIRA",
+          "Assessments": "",
+          "ImageDescription": "A \"bomb cyclone\" impacts Tierra del Fuego",
+          "DateTimeOriginal": "Taken on 12 April 2019",
+          "Credit": "A \"bomb cyclone\" impacts Tierra del Fuego",
+          "Artist": "GOES imagery: CSU/CIRA & NOAA",
+          "LicenseShortName": "Public domain",
+          "UsageTerms": "Public domain",
+          "AttributionRequired": "false",
+          "Copyrighted": "False",
+          "Restrictions": "",
+          "License": "pd"
+        },
+        "categorias": [
+          "Category:2019 satellite pictures from CIRA",
+          "Category:Bomb cyclones",
+          "Category:CIRA files uploaded by OptimusPrimeBot",
+          "Category:GOES 16 pictures",
+          "Category:PD US NOAA",
+          "Category:Tierra del Fuego",
+          "Category:Uploaded with video2commons",
+          "Category:Video display resolution 1440 x 1080",
+          "Category:Videos of satellite pictures of Earth",
+          "Category:Videos taken on 2019-04-12"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/A_%22bomb_cyclone%22_impacts_Tierra_del_Fuego_%28CIRA_2019-04-12%29.webm/A_%22bomb_cyclone%22_impacts_Tierra_del_Fuego_%28CIRA_2019-04-12%29.webm.1080p.vp9.webm",
+        "bytes": 5958944,
+        "sha256": "817a9327c4742227c07c977498e9e750c51169e27a0ca323451d26f2e3120532"
+      },
+      "extracto": {
+        "desdeSeg": 2,
+        "duracionSeg": 3,
+        "formato": "vertical"
+      }
+    },
+    "4-0": {
+      "clave": "[\"Punta Arenas Cerro de la Cruz\",\"File:PuntaArenas vom Cerro-de-la-Cruz.webm\",\"\",70,3.4,\"centro\",\"vertical\"]",
+      "pedido": {
+        "buscar": "Punta Arenas Cerro de la Cruz",
+        "archivo": "File:PuntaArenas vom Cerro-de-la-Cruz.webm",
+        "pie": "ESTRECHO DE MAGALLANES · PUNTA ARENAS",
+        "aparecerEn": 0,
+        "duracionSeg": 3,
+        "desdeSeg": 70,
+        "tipo": "video"
+      },
+      "video": {
+        "tipo": "video",
+        "src": "videos/2026-11-26-frontera-ushuaia-por-chile/4-0.mp4",
+        "ancho": 720,
+        "alto": 1280,
+        "duracion": 3.4,
+        "titulo": "PuntaArenas vom Cerro-de-la-Cruz",
+        "pagina": "https://commons.wikimedia.org/wiki/File:PuntaArenas_vom_Cerro-de-la-Cruz.webm",
+        "autor": "Opa Gerhard-1",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "fuente": "Wikimedia Commons"
+      },
+      "candidato": {
+        "fuente": "commons",
+        "archivo": "File:PuntaArenas vom Cerro-de-la-Cruz.webm",
+        "titulo": "PuntaArenas vom Cerro-de-la-Cruz",
+        "pagina": "https://commons.wikimedia.org/wiki/File:PuntaArenas_vom_Cerro-de-la-Cruz.webm",
+        "autor": "Opa Gerhard-1",
+        "licencia": "CC0",
+        "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "clase": "libre",
+        "ancho": 854,
+        "alto": 480,
+        "duracion": 209.4,
+        "descarga": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/PuntaArenas_vom_Cerro-de-la-Cruz.webm/PuntaArenas_vom_Cerro-de-la-Cruz.webm.480p.vp9.webm",
+        "anchoDescarga": 854,
+        "altoDescarga": 480
+      },
+      "evidencia": {
+        "api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=1&prop=videoinfo%7Ccategories&cllimit=max&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&viextmetadatafilter=LicenseShortName%7CLicenseUrl%7CArtist%7CCredit%7CObjectName%7CRestrictions%7CImageDescription%7CDateTimeOriginal&titles=File%3APuntaArenas+vom+Cerro-de-la-Cruz.webm",
+        "consultado": "2026-11-26T14:49:03.203Z",
+        "extmetadata": {
+          "DateTime": "2025-09-19 20:41:26",
+          "ObjectName": "PuntaArenas vom Cerro-de-la-Cruz",
+          "CommonsMetadataExtension": 1.2,
+          "Categories": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|All media needing categories as of 2025|Media needing categories as of 19 September 2025",
+          "Assessments": "",
+          "GPSLatitude": "-53.159190",
+          "GPSLongitude": "-70.915380",
+          "GPSMapDatum": "WGS-84",
+          "ImageDescription": "Punta Arenas seen from Cerro de la Cruz",
+          "DateTimeOriginal": "2025-03",
+          "Credit": "Own work",
+          "Artist": "Opa Gerhard-1",
+          "LicenseShortName": "CC0",
+          "UsageTerms": "Creative Commons Zero, Public Domain Dedication",
+          "AttributionRequired": "false",
+          "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "Copyrighted": "True",
+          "Restrictions": "",
+          "License": "cc0"
+        },
+        "categorias": [
+          "Category:All media needing categories as of 2025",
+          "Category:CC-Zero",
+          "Category:Files with coordinates missing SDC location of creation",
+          "Category:Media needing categories as of 19 September 2025",
+          "Category:Self-published work"
+        ]
+      },
+      "crudo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/PuntaArenas_vom_Cerro-de-la-Cruz.webm/PuntaArenas_vom_Cerro-de-la-Cruz.webm.480p.vp9.webm",
+        "bytes": 24143374,
+        "sha256": "3efdcafe332845c4c04a4e02cbfc81d4015d207c05b7012f295b05b9b1bcabbf"
+      },
+      "extracto": {
+        "desdeSeg": 70,
+        "duracionSeg": 3.4,
+        "formato": "vertical"
+      }
+    }
+  }
+}

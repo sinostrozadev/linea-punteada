@@ -24,12 +24,12 @@
       "planos": [
         {
           "centro": [
-            -68.6,
-            -51.2
+            -67.0,
+            -45.0
           ],
-          "zoom": 5.4,
+          "zoom": 5.6,
           "entrada": "corte",
-          "deriva": 0.3
+          "deriva": 0.2
         },
         {
           "centro": [
@@ -61,27 +61,27 @@
       "banderas": [
         {
           "pais": "AR",
-          "lon": -69.6,
-          "lat": -48.6,
+          "lon": -65.0,
+          "lat": -38.5,
           "mirar": [
             -68.3,
             -54.8
           ],
           "expresion": "sorpresa",
-          "escala": 1.0,
+          "escala": 1.2,
           "aparecerEn": 0,
           "quedarse": 0
         },
         {
           "pais": "CL",
-          "lon": -72.6,
-          "lat": -51.6,
+          "lon": -76.5,
+          "lat": -46.5,
           "mirar": [
             -68.3,
             -54.8
           ],
           "expresion": "normal",
-          "escala": 0.9,
+          "escala": 1.0,
           "aparecerEn": 0,
           "quedarse": 0
         }
@@ -93,10 +93,18 @@
           "texto": "USHUAIA",
           "tipo": "pin",
           "aparecerEn": 0,
-          "quedarse": "siempre"
+          "quedarse": 0
         }
       ],
       "medios": [
+        {
+          "tipo": "video",
+          "archivo": "File:Población de pinguinos en Faro del Fin del mundo en Ushuaia.webm",
+          "buscar": "pinguinos faro Ushuaia",
+          "pie": "USHUAIA · FARO LES ÉCLAIREURS",
+          "aparecerEn": "Ushuaia",
+          "duracionSeg": 1.8
+        },
         {
           "tipo": "foto",
           "archivo": "File:PioneroAtPuntaDelgada.jpg",
@@ -204,18 +212,9 @@
             "tipo": "foto",
             "archivo": "File:Bienvenido a Chile.jpg",
             "buscar": "Bienvenido a Chile sign",
-            "pie": "ENTRADA A CHILE",
-            "aparecerEn": "Sello",
-            "duracionSeg": 2
-          },
-          {
-            "tipo": "foto",
-            "archivo": "File:Chilean station at Strait of Magellan crossing (5520732549).jpg",
-            "buscar": "Strait of Magellan crossing",
-            "pie": "CONTROL CHILENO · EL CRUCE",
-            "aparecerEn": "manzana",
-            "duracionSeg": 2,
-            "encuadre": "centro"
+            "pie": "CONTROL SANITARIO · ENTRADA A CHILE",
+            "aparecerEn": "funcionario",
+            "duracionSeg": 3
           }
         ],
         "clave": [
@@ -251,10 +250,10 @@
               -69.54,
               -52.48
             ],
-            "zoom": 9.6,
+            "zoom": 10.0,
             "entrada": "zoom",
             "en": "angosta",
-            "deriva": 0.3
+            "deriva": 0.2
           }
         ],
         "etiquetas": [
@@ -389,13 +388,13 @@
           },
           {
             "centro": [
-              -68.5,
+              -68.0,
               -46.0
             ],
-            "zoom": 5.2,
+            "zoom": 5.8,
             "entrada": "zoom",
             "en": "Neuquén",
-            "deriva": 0.2
+            "deriva": 0.1
           }
         ],
         "etiquetas": [
@@ -511,6 +510,13 @@
             "texto": "RÍO GRANDE",
             "tipo": "pin",
             "aparecerEn": "llegar"
+          },
+          {
+            "lon": -68.3,
+            "lat": -54.8,
+            "texto": "USHUAIA",
+            "tipo": "pin",
+            "aparecerEn": "propia"
           }
         ],
         "medios": [
@@ -538,8 +544,8 @@
         "tipo": "acto",
         "texto": "Argentina tiene desde 2012 una ley que ordena unir Santa Cruz con la isla en barco, sin pisar Chile. El plan de 2015 eran 245 kilómetros de mar abierto. Contra 4 de estrecho. Nunca se construyó.",
         "rotulo": {
-          "texto": "245 KM",
-          "dice": "245"
+          "texto": "SIN PISAR CHILE",
+          "dice": "pisar"
         },
         "planos": [
           {
@@ -644,20 +650,20 @@
           },
           {
             "centro": [
-              -70.8,
-              -43.5
+              -70.5,
+              -43.0
             ],
-            "zoom": 4.6,
+            "zoom": 5.8,
             "entrada": "zoom",
             "en": "Santiago",
-            "deriva": 0.3
+            "deriva": 0.1
           }
         ],
         "banderas": [
           {
             "pais": "CL",
-            "lon": -73.8,
-            "lat": -47.5,
+            "lon": -77.5,
+            "lat": -44.5,
             "mirar": [
               -69.5,
               -45.0
@@ -683,16 +689,6 @@
             "aparecerEn": "Santiago"
           }
         ],
-        "medios": [
-          {
-            "tipo": "video",
-            "archivo": "File:Población de pinguinos en Faro del Fin del mundo en Ushuaia.webm",
-            "buscar": "pinguinos faro Ushuaia",
-            "pie": "FARO LES ÉCLAIREURS · USHUAIA",
-            "aparecerEn": 0,
-            "duracionSeg": 2.5
-          }
-        ],
         "clave": [
           "Chile",
           "Punta Arenas",
@@ -705,23 +701,23 @@
     "rematePlanos": [
       {
         "centro": [
-          -67.5,
+          -67.0,
           -45.0
         ],
-        "zoom": 4.4,
+        "zoom": 5.6,
         "entrada": "zoom",
         "deriva": 0.2
       }
     ],
     "remateEtiquetas": [
       {
-        "lon": -63.5,
-        "lat": -50.5,
+        "lon": -59.5,
+        "lat": -50.0,
         "texto": "¿BARCO PROPIO?"
       },
       {
-        "lon": -63.5,
-        "lat": -41.0,
+        "lon": -74.0,
+        "lat": -31.0,
         "texto": "¿O POR CHILE?"
       }
     ],
@@ -755,11 +751,11 @@
       "fondo": "satelite",
       "mes": 1,
       "centro": [
-        -68.6,
-        -51.2
+        -67.0,
+        -45.0
       ],
-      "zoomInicial": 5.4,
-      "zoomFinal": 5.6,
+      "zoomInicial": 5.6,
+      "zoomFinal": 5.8,
       "paises": [
         "Argentina",
         "Chile"
