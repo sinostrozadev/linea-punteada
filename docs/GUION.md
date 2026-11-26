@@ -135,6 +135,39 @@ deriva) del anterior; deriva por defecto +0,3):
 - **R5 (ERROR)** Escena que cambia de lugar: entra con `zoom`. Corte seco entre escenas solo si el lugar es el mismo.
 Revisión: `npx tsx scripts/camara.mts <guion.json>`.
 
+## 4c. Medios reales: fotos y VIDEO de archivo a pantalla completa (`medios[]`, desde 2026-11-26)
+Diagnóstico 2026-11-26 (`/home/santiago/projects/yt/_propuestas/2026-11-26-viral-linea-punteada.md`): en los 14 Shorts de la fórmula
+directa hubo **0 fotos a pantalla completa y 0 video**; todo el video es el mismo satélite oscuro. Ñerd (2,95 M) mete una imagen de
+archivo a pantalla completa cada ~20 s. Cada línea de voz (gancho, escena, bloque del largo) puede llevar `medios`: hasta 4 fotos o
+videos reales, uno tras otro, con corte seco (esquema `Medio`/`Video` en `src/plantillas/comun/direccion.ts`; plantillas `frontera` y `largo`).
+
+```json
+"medios": [
+  { "tipo": "video", "buscar": "Primera Angostura ferry", "archivo": "File:….webm", "pie": "PRIMERA ANGOSTURA · EL CRUCE", "aparecerEn": "barcaza", "duracionSeg": 4, "desdeSeg": 12 },
+  { "tipo": "foto", "buscar": "Paso San Sebastián", "archivo": "File:….jpg", "pie": "PASO SAN SEBASTIÁN", "duracionSeg": 2.2 }
+]
+```
+- **Cuándo SÍ video real:** cuando ver el lugar o la cosa dice más que el mapa (el ferry, el glaciar, la aduana, el viento, la
+  ciudad hoy, el tren que sube a 4.800 m). 2–4 extractos por Short (2–5 s cada uno, **≤ 20 % de la duración**) y 1 cada 30–45 s en
+  el largo. Siempre bajo la narración propia, sin su audio, con la pastilla (`pie`) que dice QUÉ se ve y el crédito en pantalla.
+- **Cuándo NO:** para "ilustrar" un hecho histórico con imágenes que no son de ese hecho sin decirlo (el `pie` nombra lo que se ve:
+  "LIMA HOY", no "LIMA 1881"); personas identificables en primer plano; material de noticieros, películas, otros canales o música
+  comercial; nunca dos clips seguidos del mismo autor que sumen > 8 s (el archivo no puede ser la sustancia del video: política de
+  "contenido reutilizado" de YouTube, `docs/LICENCIAS-VIDEO.md`).
+- **Cómo se elige:** `npx tsx scripts/videos.mts buscar "<consulta>" [--formato horizontal]` lista los candidatos con licencia
+  permitida (dominio público, CC0, CC BY, CC BY-SA; Wikimedia Commons y NASA sin clave; Pexels/Pixabay solo si Santiago deja una
+  clave gratuita en `secrets/pexels.key` / `secrets/pixabay.key`). Se fija el `archivo` exacto y `desdeSeg`. Para verlo antes:
+  `npx tsx scripts/videos.mts bajar "File:…" --desde 12 --dur 4`. La evidencia de licencia de cada clip queda en
+  `contenido/licencias-video/<id>.json` y los créditos completos van solos a la descripción.
+- **Fotos en `medios`:** retratos y grabados de dominio público, el documento, el lugar hoy. Meta de variedad por Short: **≥ 4 tipos
+  de imagen** (mapa satelital, territorio pintado a color pleno, video real, foto/grabado, tarjeta de cifra, personaje) y ningún
+  tramo de más de 8 s con el mismo tipo.
+- **Color:** el sujeto pintado (área `trama: "plena"`) tiene que ocupar el cuadro. Medido: los referentes tienen 18–57 % de píxeles
+  oscuros; nuestros Shorts, 64–91 %. Pinta todos los países que se nombran, no solo el protagonista.
+- **Ritmo de voz (`vozRitmo`):** los Shorts que despegan hablan a 2,6–3,1 palabras/s; los nuestros a +4 % van a 2,1–2,3. Los Shorts
+  nuevos llevan `"vozRitmo": "+18%"` (≈ 2,6 palabras/s); el tope de palabras de la fórmula directa (180–230) se mantiene, así que el
+  video queda en 62–80 s.
+
 ## 5. Título, descripción, hashtags
 - **Título** (≤ 70 caracteres): contradicción explícita o pregunta con cifra. Patrones que rinden: "¿Por qué X está a
   solo N km de Y?", "X le compró Y a Z… y pagó con W", "La frontera que todavía no existe", "Dos países se pelean por
