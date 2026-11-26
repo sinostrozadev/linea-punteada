@@ -1,0 +1,987 @@
+{
+  "plantilla": "frontera",
+  "id": "2026-11-26-frontera-ushuaia-por-chile",
+  "titulo": "Para llegar en auto a Ushuaia hay que salir de Argentina 🇦🇷🇨🇱",
+  "descripcion": "Ushuaia es argentina, pero no se puede llegar en auto sin salir de Argentina: la Ruta 3 entra a Chile pasado Río Gallegos, cruza el Estrecho de Magallanes en barcaza por Primera Angostura y recién vuelve al país en el paso San Sebastián.\nEse camino se ha cortado: 9 días sin paso en 2015 por un paro de aduaneros chilenos y 614 camiones varados en 2021 por un bloqueo de camioneros chilenos en represalia por cortes en Neuquén. Desde 2012 una ley ordena unir Santa Cruz con la isla en barco sin pisar Chile; el plan de 2015 eran 245 km de mar y nunca se construyó. Y a Chile le pasa lo mismo con Punta Arenas. ¿Argentina debería pagar su propio barco?",
+  "hashtags": [
+    "#shorts",
+    "#geografia",
+    "#mapas",
+    "#argentina",
+    "#chile",
+    "#ushuaia"
+  ],
+  "props": {
+    "id": "2026-11-26-frontera-ushuaia-por-chile",
+    "formula": "directa",
+    "vozRitmo": "+18%",
+    "referente": "https://www.youtube.com/shorts/izJ7BzH8uwc",
+    "cabecera": "USHUAIA — POR TIERRA SOLO POR CHILE",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "Para ir en auto de Argentina a Ushuaia, que también es Argentina, hay que salir del país. Cruzar unos 200 kilómetros de Chile. Y subirse a un barco.",
+      "rotulo": "USHUAIA",
+      "planos": [
+        {
+          "centro": [
+            -68.6,
+            -51.2
+          ],
+          "zoom": 5.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -69.3,
+            -52.6
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "en": "Cruzar",
+          "deriva": 0.3
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Argentina",
+          "color": "azul",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": "siempre"
+        },
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": "siempre"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "AR",
+          "lon": -69.6,
+          "lat": -48.6,
+          "mirar": [
+            -68.3,
+            -54.8
+          ],
+          "expresion": "sorpresa",
+          "escala": 1.0,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "CL",
+          "lon": -72.6,
+          "lat": -51.6,
+          "mirar": [
+            -68.3,
+            -54.8
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -68.3,
+          "lat": -54.8,
+          "texto": "USHUAIA",
+          "tipo": "pin",
+          "aparecerEn": 0,
+          "quedarse": "siempre"
+        }
+      ],
+      "medios": [
+        {
+          "tipo": "foto",
+          "archivo": "File:PioneroAtPuntaDelgada.jpg",
+          "buscar": "Pionero ferry Punta Delgada",
+          "pie": "LA BARCAZA · PRIMERA ANGOSTURA",
+          "aparecerEn": "barco",
+          "duracionSeg": 2
+        }
+      ],
+      "clave": [
+        "Ushuaia",
+        "200",
+        "Chile"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "No hay otro camino. La Ruta 3 baja desde Buenos Aires y, después de Río Gallegos, choca con Chile. Sello de salida, sello de entrada, y un funcionario chileno preguntando si llevas una manzana.",
+        "rotulo": {
+          "texto": "RUTA 3",
+          "dice": "Ruta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.5,
+              -42.5
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.3,
+              -51.9
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "en": "Gallegos",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.45,
+              -52.25
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "funcionario",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Buenos"
+          },
+          {
+            "lon": -69.22,
+            "lat": -51.62,
+            "texto": "RÍO GALLEGOS",
+            "tipo": "pin",
+            "aparecerEn": "Gallegos"
+          },
+          {
+            "lon": -69.52,
+            "lat": -52.14,
+            "texto": "MONTE AYMOND",
+            "tipo": "pin",
+            "aparecerEn": "choca"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.22,
+            "lat": -51.62,
+            "icono": "🚗",
+            "ruta": [
+              [
+                -69.22,
+                -51.62
+              ],
+              [
+                -69.52,
+                -52.14
+              ],
+              [
+                -69.55,
+                -52.46
+              ]
+            ],
+            "duracionSeg": 6,
+            "escala": 0.8,
+            "aparecerEn": "choca",
+            "quedarse": 0
+          }
+        ],
+        "medios": [
+          {
+            "tipo": "foto",
+            "archivo": "File:Bienvenido a Chile.jpg",
+            "buscar": "Bienvenido a Chile sign",
+            "pie": "ENTRADA A CHILE",
+            "aparecerEn": "Sello",
+            "duracionSeg": 2
+          },
+          {
+            "tipo": "foto",
+            "archivo": "File:Chilean station at Strait of Magellan crossing (5520732549).jpg",
+            "buscar": "Strait of Magellan crossing",
+            "pie": "CONTROL CHILENO · EL CRUCE",
+            "aparecerEn": "manzana",
+            "duracionSeg": 2,
+            "encuadre": "centro"
+          }
+        ],
+        "clave": [
+          "Ruta 3",
+          "Buenos Aires",
+          "Río Gallegos",
+          "chileno"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Después, el Estrecho de Magallanes, que en su parte más angosta mide menos de 4 kilómetros y tiene las dos orillas chilenas desde 1881. Se cruza en barcaza, unos veinte minutos. Si el viento deja.",
+        "rotulo": {
+          "texto": "MENOS DE 4 KM",
+          "dice": "4"
+        },
+        "contexto": {
+          "texto": "ORILLAS CHILENAS · 1881",
+          "dice": "1881"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.6,
+              -52.5
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.54,
+              -52.48
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "en": "angosta",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.25,
+            "lat": -52.75,
+            "texto": "ESTRECHO DE MAGALLANES",
+            "tipo": "mar",
+            "aparecerEn": "Estrecho"
+          },
+          {
+            "lon": -69.55,
+            "lat": -52.46,
+            "texto": "PUNTA DELGADA",
+            "tipo": "pin",
+            "aparecerEn": "orillas"
+          },
+          {
+            "lon": -69.52,
+            "lat": -52.5,
+            "texto": "BAHÍA AZUL",
+            "tipo": "pin",
+            "aparecerEn": "orillas"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -69.58,
+              -52.465
+            ],
+            "hasta": [
+              -69.545,
+              -52.5
+            ],
+            "texto": "< 4 KM",
+            "aparecerEn": "4"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.55,
+            "lat": -52.46,
+            "icono": "⛴️",
+            "ruta": [
+              [
+                -69.55,
+                -52.46
+              ],
+              [
+                -69.52,
+                -52.5
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.8,
+            "aparecerEn": "cruza"
+          }
+        ],
+        "medios": [
+          {
+            "tipo": "foto",
+            "archivo": "File:FuegionAtPuntaEspora.jpg",
+            "buscar": "Fueguino ferry Punta Espora",
+            "pie": "BARCAZA FUEGUINO · BAHÍA AZUL",
+            "aparecerEn": "barcaza",
+            "duracionSeg": 2.2
+          },
+          {
+            "tipo": "video",
+            "archivo": "File:A \"bomb cyclone\" impacts Tierra del Fuego (CIRA 2019-04-12).webm",
+            "buscar": "bomb cyclone Tierra del Fuego",
+            "pie": "CICLÓN SOBRE TIERRA DEL FUEGO · SATÉLITE",
+            "aparecerEn": "viento",
+            "duracionSeg": 2.6,
+            "desdeSeg": 2
+          }
+        ],
+        "clave": [
+          "Estrecho de Magallanes",
+          "4",
+          "1881",
+          "chilenas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Y a veces lo que no deja es otra cosa. En 2015, un paro de aduaneros chilenos dejó a Tierra del Fuego nueve días sin camino. En 2021, camioneros chilenos cortaron el paso al ferry, en represalia por cortes de ruta en Neuquén: 614 camiones varados.",
+        "rotulo": {
+          "texto": "SIN CAMINO",
+          "dice": "camino"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.4,
+              -52.6
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.8,
+              -53.3
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "en": "2015",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.7,
+              -53.35
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "en": "nueve",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.3,
+              -52.45
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "en": "camioneros",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -68.5,
+              -46.0
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "en": "Neuquén",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.62,
+            "lat": -53.31,
+            "texto": "SAN SEBASTIÁN",
+            "tipo": "pin",
+            "aparecerEn": "aduaneros"
+          },
+          {
+            "lon": -68.4,
+            "lat": -53.9,
+            "texto": "TIERRA DEL FUEGO",
+            "tipo": "region",
+            "aparecerEn": "Tierra"
+          },
+          {
+            "lon": -68.06,
+            "lat": -38.95,
+            "texto": "NEUQUÉN",
+            "tipo": "pin",
+            "aparecerEn": "Neuquén"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.62,
+            "lat": -53.31,
+            "icono": "🛃",
+            "escala": 0.9,
+            "aparecerEn": "aduaneros"
+          },
+          {
+            "lon": -69.35,
+            "lat": -52.3,
+            "icono": "🚛",
+            "escala": 1.2,
+            "aparecerEn": "camioneros"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "9 DÍAS",
+            "sub": "SIN CAMINO · 2015",
+            "tipo": "cifra",
+            "icono": "🛃",
+            "aparecerEn": "nueve",
+            "duracionSeg": 3
+          },
+          {
+            "texto": "614 CAMIONES",
+            "sub": "REPRESALIA POR CORTES EN NEUQUÉN · 2021",
+            "tipo": "cifra",
+            "icono": "🚛",
+            "aparecerEn": "614",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2015",
+          "nueve días",
+          "2021",
+          "614"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Ese año, el gobernador fueguino lo dijo: un argentino no puede llegar a su propia tierra por una decisión ajena.",
+        "rotulo": {
+          "texto": "SU PROPIA TIERRA",
+          "dice": "tierra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.2,
+              -54.0
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.3,
+              -54.5
+            ],
+            "zoom": 7.7,
+            "entrada": "zoom",
+            "en": "llegar",
+            "deriva": 0.2
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "AR",
+            "lon": -66.9,
+            "lat": -53.6,
+            "mirar": [
+              -68.3,
+              -54.8
+            ],
+            "expresion": "triste",
+            "escala": 0.9,
+            "aparecerEn": "argentino"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -67.71,
+            "lat": -53.79,
+            "texto": "RÍO GRANDE",
+            "tipo": "pin",
+            "aparecerEn": "llegar"
+          }
+        ],
+        "medios": [
+          {
+            "tipo": "video",
+            "archivo": "File:PuntaArenas vom Cerro-de-la-Cruz.webm",
+            "buscar": "Punta Arenas Cerro de la Cruz",
+            "pie": "ESTRECHO DE MAGALLANES · PUNTA ARENAS",
+            "aparecerEn": 0,
+            "duracionSeg": 3,
+            "desdeSeg": 70
+          }
+        ],
+        "fuente": {
+          "texto": "Gustavo Melella · La Nación, 27-04-2021",
+          "dice": "argentino"
+        },
+        "clave": [
+          "gobernador",
+          "argentino",
+          "propia tierra"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Argentina tiene desde 2012 una ley que ordena unir Santa Cruz con la isla en barco, sin pisar Chile. El plan de 2015 eran 245 kilómetros de mar abierto. Contra 4 de estrecho. Nunca se construyó.",
+        "rotulo": {
+          "texto": "245 KM",
+          "dice": "245"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.6,
+              -52.4
+            ],
+            "zoom": 6.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.3,
+              -52.7
+            ],
+            "zoom": 6.9,
+            "entrada": "zoom",
+            "en": "plan",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -69.5,
+              -52.48
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "en": "Contra",
+            "deriva": 0.2
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.0,
+            "lat": -51.6,
+            "texto": "PUNTA LOYOLA",
+            "tipo": "pin",
+            "aparecerEn": "plan"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "245 KM",
+            "sub": "MAR ABIERTO VS. ESTRECHO",
+            "tipo": "barras",
+            "barras": [
+              {
+                "etiqueta": "BARCO PROPIO",
+                "valor": 245
+              },
+              {
+                "etiqueta": "ESTRECHO",
+                "valor": 4
+              }
+            ],
+            "aparecerEn": "245",
+            "duracionSeg": 3.2
+          }
+        ],
+        "medios": [
+          {
+            "tipo": "foto",
+            "archivo": "File:Boca del estrecho de Magallanes vista desde el faro Cabo Vírgenes.jpg",
+            "buscar": "Cabo Virgenes strait mouth",
+            "pie": "BOCA DEL ESTRECHO · CABO VÍRGENES",
+            "aparecerEn": 0,
+            "duracionSeg": 2.2
+          },
+          {
+            "tipo": "foto",
+            "archivo": "File:Fin de la ruta 3.JPG",
+            "buscar": "Fin de la ruta 3",
+            "pie": "FIN DE LA RUTA 3 · LAPATAIA",
+            "aparecerEn": "Nunca",
+            "duracionSeg": 2
+          }
+        ],
+        "clave": [
+          "2012",
+          "Santa Cruz",
+          "245",
+          "4"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "A Chile le pasa lo mismo: para ir por tierra de Punta Arenas a Santiago, hay que pasar por Argentina.",
+        "rotulo": {
+          "texto": "POR ARGENTINA",
+          "dice": "Argentina"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71.3,
+              -52.0
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.8,
+              -43.5
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "en": "Santiago",
+            "deriva": 0.3
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -73.8,
+            "lat": -47.5,
+            "mirar": [
+              -69.5,
+              -45.0
+            ],
+            "expresion": "sorpresa",
+            "escala": 1.0,
+            "aparecerEn": "Punta"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.92,
+            "lat": -53.16,
+            "texto": "PUNTA ARENAS",
+            "tipo": "pin",
+            "aparecerEn": "Punta"
+          },
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Santiago"
+          }
+        ],
+        "medios": [
+          {
+            "tipo": "video",
+            "archivo": "File:Población de pinguinos en Faro del Fin del mundo en Ushuaia.webm",
+            "buscar": "pinguinos faro Ushuaia",
+            "pie": "FARO LES ÉCLAIREURS · USHUAIA",
+            "aparecerEn": 0,
+            "duracionSeg": 2.5
+          }
+        ],
+        "clave": [
+          "Chile",
+          "Punta Arenas",
+          "Santiago",
+          "Argentina"
+        ]
+      }
+    ],
+    "remate": "¿Argentina debería pagar su propio barco, o seguir cruzando por Chile?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -67.5,
+          -45.0
+        ],
+        "zoom": 4.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -63.5,
+        "lat": -50.5,
+        "texto": "¿BARCO PROPIO?"
+      },
+      {
+        "lon": -63.5,
+        "lat": -41.0,
+        "texto": "¿O POR CHILE?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Gobierno de Argentina: cómo llegar a Tierra del Fuego (RN3, cruce por Chile y Estrecho, paso San Sebastián)",
+        "url": "https://www.argentina.gob.ar/tierradelfuego/llegar"
+      },
+      {
+        "texto": "La Nación, 27-04-2021: bloqueo de camioneros chilenos cerca de Punta Delgada, 614 camiones varados; cita del gobernador Melella",
+        "url": "https://www.lanacion.com.ar/economia/efecto-vaca-muerta-tierra-del-fuego-esta-incomunicada-por-un-bloqueo-de-camioneros-chilenos-nid27042021/"
+      },
+      {
+        "texto": "Mundo Marítimo, 01-06-2015: paro de aduaneros chilenos, Tierra del Fuego 9 días incomunicada por tierra",
+        "url": "https://mundomaritimo.cl/noticias/dirigentes-y-empresarios-argentinos-de-tierra-del-fuego-piden-evitar-paso-por-chile"
+      },
+      {
+        "texto": "Boletín Oficial, 23-11-2012: Ley 26.776 de integración física con Tierra del Fuego",
+        "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/79494/20121123"
+      },
+      {
+        "texto": "Mundo Marítimo, 2015: fideicomiso del cruce marítimo Punta Loyola – Caleta La Misión (245 km de mar)",
+        "url": "https://www.mundomaritimo.cl/noticias/argentina-crea-fideicomiso-para-vincular-via-maritima-con-tierra-del-fuego"
+      },
+      {
+        "texto": "Legislatura de Tierra del Fuego, 2016: la Ley 26.776 aún sin ejecutar",
+        "url": "https://www.legistdf.gob.ar/lp/novedadesip/Asuntos%20Entrados%202016/As.%20N%BA%20462-16.pdf"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -68.6,
+        -51.2
+      ],
+      "zoomInicial": 5.4,
+      "zoomFinal": 5.6,
+      "paises": [
+        "Argentina",
+        "Chile"
+      ],
+      "lineas": [
+        {
+          "id": "rn3",
+          "puntos": [
+            [
+              -58.38,
+              -34.6
+            ],
+            [
+              -62.27,
+              -38.72
+            ],
+            [
+              -65.3,
+              -43.25
+            ],
+            [
+              -67.48,
+              -45.86
+            ],
+            [
+              -67.72,
+              -49.3
+            ],
+            [
+              -69.22,
+              -51.62
+            ],
+            [
+              -69.52,
+              -52.14
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 0,
+          "dice": "Buenos",
+          "etiqueta": "RUTA 3"
+        },
+        {
+          "id": "chile-continente",
+          "puntos": [
+            [
+              -69.52,
+              -52.14
+            ],
+            [
+              -69.6,
+              -52.3
+            ],
+            [
+              -69.55,
+              -52.46
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 0,
+          "dice": "funcionario",
+          "etiqueta": "CHILE · 200 KM"
+        },
+        {
+          "id": "cruce",
+          "puntos": [
+            [
+              -69.55,
+              -52.46
+            ],
+            [
+              -69.52,
+              -52.5
+            ]
+          ],
+          "color": "coral",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "orillas",
+          "etiqueta": "PRIMERA ANGOSTURA"
+        },
+        {
+          "id": "chile-isla",
+          "puntos": [
+            [
+              -69.52,
+              -52.5
+            ],
+            [
+              -69.29,
+              -52.77
+            ],
+            [
+              -68.62,
+              -53.31
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Tierra"
+        },
+        {
+          "id": "rn3-isla",
+          "puntos": [
+            [
+              -68.62,
+              -53.31
+            ],
+            [
+              -68.2,
+              -53.6
+            ],
+            [
+              -67.71,
+              -53.79
+            ],
+            [
+              -67.6,
+              -54.2
+            ],
+            [
+              -67.9,
+              -54.6
+            ],
+            [
+              -68.3,
+              -54.8
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "llegar"
+        },
+        {
+          "id": "ferry-propio",
+          "puntos": [
+            [
+              -69.0,
+              -51.6
+            ],
+            [
+              -68.5,
+              -51.8
+            ],
+            [
+              -67.9,
+              -52.4
+            ],
+            [
+              -67.6,
+              -53.2
+            ],
+            [
+              -67.9,
+              -53.6
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 4,
+          "dice": "plan",
+          "etiqueta": "BARCO PROPIO"
+        },
+        {
+          "id": "por-argentina",
+          "puntos": [
+            [
+              -70.92,
+              -53.16
+            ],
+            [
+              -72.5,
+              -51.73
+            ],
+            [
+              -72.3,
+              -51.53
+            ],
+            [
+              -72.27,
+              -50.34
+            ],
+            [
+              -70.24,
+              -48.75
+            ],
+            [
+              -70.93,
+              -46.59
+            ],
+            [
+              -71.31,
+              -42.91
+            ],
+            [
+              -71.31,
+              -41.13
+            ],
+            [
+              -71.95,
+              -40.71
+            ],
+            [
+              -73.13,
+              -40.57
+            ],
+            [
+              -70.65,
+              -33.45
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 5,
+          "dice": "pasar",
+          "etiqueta": "POR ARGENTINA"
+        }
+      ]
+    }
+  }
+}
