@@ -1,0 +1,3474 @@
+{
+  "plantilla": "largo",
+  "id": "largo-lima-1881",
+  "titulo": "Chile tomó Lima en 3 días. A este general no lo atrapó nunca",
+  "descripcion": "En enero de 1881 Chile tomó Lima en tres días de batalla y todos dieron la guerra por terminada. Pero un coronel peruano herido, Andrés Avelino Cáceres, escapó a la sierra y durante casi tres años llevó al ejército chileno por los Andes: donde se acababa el tren, la altura, el tifus y los campesinos peleaban por él.\n\nSeguimos en el mapa su recorrido de Lima a Huamachuco, contamos las dos versiones en cada punto disputado (Miraflores, Concepción, Huamachuco) y cómo terminó cada uno tras el Tratado de Ancón. Mapa propio; recorrido y posiciones aproximadas. Voz sintetizada.",
+  "hashtags": [
+    "#historia",
+    "#mapas",
+    "#guerradelpacifico",
+    "#peru",
+    "#chile"
+  ],
+  "miniatura": "salida/caratulas/lima-1881.png",
+  "props": {
+    "id": "largo-lima-1881",
+    "vozRitmo": "+4%",
+    "acento": "coral",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "amarillo",
+      "escala": 1.1,
+      "mostrarContador": false,
+      "puntos": [
+        {
+          "lon": -77.03,
+          "lat": -12.046,
+          "etiqueta": "LIMA",
+          "fecha": "1881-01-17"
+        },
+        {
+          "lon": -76.7,
+          "lat": -11.94,
+          "etiqueta": "CHOSICA",
+          "fecha": "1881-04-15"
+        },
+        {
+          "lon": -76.38,
+          "lat": -11.84
+        },
+        {
+          "lon": -76.27,
+          "lat": -11.7,
+          "etiqueta": "CHICLA"
+        },
+        {
+          "lon": -76.19,
+          "lat": -11.6
+        },
+        {
+          "lon": -75.9,
+          "lat": -11.52,
+          "etiqueta": "LA OROYA"
+        },
+        {
+          "lon": -75.5,
+          "lat": -11.775,
+          "etiqueta": "JAUJA",
+          "fecha": "1881-05"
+        },
+        {
+          "lon": -75.691,
+          "lat": -11.419,
+          "etiqueta": "TARMA"
+        },
+        {
+          "lon": -76.27,
+          "lat": -11.7
+        },
+        {
+          "lon": -76.7,
+          "lat": -11.94
+        },
+        {
+          "lon": -75.691,
+          "lat": -11.419,
+          "fecha": "1882-01"
+        },
+        {
+          "lon": -75.5,
+          "lat": -11.775
+        },
+        {
+          "lon": -75.217,
+          "lat": -12.067,
+          "etiqueta": "HUANCAYO"
+        },
+        {
+          "lon": -75.15,
+          "lat": -12.17,
+          "etiqueta": "PUCARÁ",
+          "fecha": "1882-02-05"
+        },
+        {
+          "lon": -75.06,
+          "lat": -12.37
+        },
+        {
+          "lon": -74.976,
+          "lat": -12.786
+        },
+        {
+          "lon": -74.85,
+          "lat": -12.95
+        },
+        {
+          "lon": -74.224,
+          "lat": -13.163,
+          "etiqueta": "AYACUCHO",
+          "fecha": "1882-03"
+        },
+        {
+          "lon": -74.997,
+          "lat": -12.501,
+          "etiqueta": "IZCUCHACA",
+          "fecha": "1882-06-01"
+        },
+        {
+          "lon": -75.18,
+          "lat": -12.13,
+          "fecha": "1882-07-09"
+        },
+        {
+          "lon": -75.15,
+          "lat": -12.17
+        },
+        {
+          "lon": -75.31,
+          "lat": -11.92,
+          "etiqueta": "CONCEPCIÓN",
+          "fecha": "1882-07-10"
+        },
+        {
+          "lon": -75.691,
+          "lat": -11.419,
+          "fecha": "1882-07-18"
+        },
+        {
+          "lon": -75.691,
+          "lat": -11.419,
+          "fecha": "1883-05-16"
+        },
+        {
+          "lon": -75.77,
+          "lat": -11.3
+        },
+        {
+          "lon": -75.99,
+          "lat": -11.16,
+          "etiqueta": "JUNÍN"
+        },
+        {
+          "lon": -76.06,
+          "lat": -10.92
+        },
+        {
+          "lon": -76.62,
+          "lat": -9.83
+        },
+        {
+          "lon": -76.783,
+          "lat": -9.767,
+          "fecha": "1883-06-12"
+        },
+        {
+          "lon": -77.533,
+          "lat": -9.533,
+          "etiqueta": "HUARAZ",
+          "fecha": "1883-06-15"
+        },
+        {
+          "lon": -77.745,
+          "lat": -9.139,
+          "fecha": "1883-06-20"
+        },
+        {
+          "lon": -77.58,
+          "lat": -9.07,
+          "etiqueta": "LLANGANUCO",
+          "fecha": "1883-06-21"
+        },
+        {
+          "lon": -77.46,
+          "lat": -8.82,
+          "fecha": "1883-06-26"
+        },
+        {
+          "lon": -77.626,
+          "lat": -8.558
+        },
+        {
+          "lon": -77.95,
+          "lat": -8.19
+        },
+        {
+          "lon": -78,
+          "lat": -8.05,
+          "fecha": "1883-07-07"
+        },
+        {
+          "lon": -78.05,
+          "lat": -7.81,
+          "etiqueta": "HUAMACHUCO",
+          "fecha": "1883-07-10"
+        }
+      ]
+    },
+    "apertura": {
+      "texto": "Lima, 17 de enero de 1881. Entra el ejército chileno, con la guerra ganada. A pocas cuadras, en la celda de un cura, hay un coronel peruano con el fémur atravesado por una bala. Lo están buscando. No lo van a encontrar. Ni ese día, ni en los tres años que siguen.",
+      "planos": [
+        {
+          "centro": [
+            -77.03,
+            -12.046
+          ],
+          "zoom": 11.2,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -77.03,
+            -12.046
+          ],
+          "zoom": 12,
+          "entrada": "corte",
+          "en": "cuadras",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -77.03,
+            -12.046
+          ],
+          "zoom": 12.3,
+          "entrada": "corte",
+          "en": "buscando",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -76.6,
+            -12
+          ],
+          "zoom": 8.6,
+          "entrada": "zoom",
+          "en": "siguen",
+          "deriva": -0.2
+        }
+      ],
+      "medios": [
+        {
+          "tipo": "foto",
+          "buscar": "Entrada del ejército chileno a Lima 1881",
+          "archivo": "File:Entrada del ejército chileno a Lima (1881).jpg",
+          "pie": "ENTRADA CHILENA A LIMA · 1881",
+          "aparecerEn": 0,
+          "duracionSeg": 3.4
+        },
+        {
+          "tipo": "foto",
+          "buscar": "Iglesia de San Pedro Lima Perú 2015 07 28 DD 84",
+          "archivo": "File:Iglesia de San Pedro, Lima, Perú, 2015-07-28, DD 84.JPG",
+          "pie": "IGLESIA DE SAN PEDRO, LIMA · HOY",
+          "aparecerEn": "cura",
+          "duracionSeg": 2.4
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -77.03,
+          "lat": -12.046,
+          "texto": "LIMA",
+          "tipo": "pin",
+          "aparecerEn": "cuadras"
+        }
+      ],
+      "resaltes": [
+        {
+          "lon": -77.03,
+          "lat": -12.046,
+          "radio": 120,
+          "aparecerEn": "coronel",
+          "duracionSeg": 2.4
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "17-1-1881",
+          "sub": "EL EJÉRCITO CHILENO ENTRA A LIMA",
+          "tipo": "cifra",
+          "aparecerEn": "entra",
+          "duracionSeg": 3.4
+        }
+      ],
+      "contexto": {
+        "texto": "NUNCA LO ENCONTRARON",
+        "dice": "encontrar"
+      }
+    },
+    "tarjetaTitulo": {
+      "texto": "EL QUE NO ATRAPARON",
+      "clave": "NO"
+    },
+    "capitulos": [
+      {
+        "titulo": "TRES DÍAS",
+        "bloques": [
+          {
+            "texto": "Para entender lo fácil que parecía, hay que mirar la costa.",
+            "planos": [
+              {
+                "centro": [
+                  -76.9,
+                  -12.6
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -78.2,
+                "lat": -12.9,
+                "texto": "OCÉANO PACÍFICO",
+                "tipo": "mar",
+                "aparecerEn": "costa"
+              }
+            ]
+          },
+          {
+            "texto": "En diciembre de 1880 Chile desembarca al sur de Lima con unos veinticinco mil hombres. Tiene el mar, tiene los barcos, tiene el telégrafo. El desierto peruano es plano y la capital está ahí, a un par de días de marcha.",
+            "planos": [
+              {
+                "centro": [
+                  -76.85,
+                  -12.35
+                ],
+                "zoom": 8.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.85,
+                  -12.35
+                ],
+                "zoom": 9.3,
+                "entrada": "corte",
+                "en": "desierto",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Cuartel general chileno en Lurín",
+                "archivo": "File:Cuartel general chileno en Lurín.jpg",
+                "pie": "CUARTEL GENERAL CHILENO EN LURÍN · 1881",
+                "aparecerEn": "desembarca",
+                "duracionSeg": 3
+              },
+              {
+                "tipo": "video",
+                "buscar": "Vista del Mar desde el Morro Solar",
+                "archivo": "File:Vista del Mar desde el Morro Solar.webm",
+                "fuente": "commons",
+                "pie": "EL MAR DESDE EL MORRO SOLAR · HOY",
+                "aparecerEn": "mar",
+                "duracionSeg": 3.6,
+                "desdeSeg": 120
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "25.000",
+                "sub": "SOLDADOS CHILENOS · DIC. 1880",
+                "tipo": "cifra",
+                "aparecerEn": "veinticinco",
+                "duracionSeg": 3.4
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -76.87,
+                "lat": -12.27,
+                "texto": "CURAYACO",
+                "tipo": "pin",
+                "aparecerEn": "barcos"
+              },
+              {
+                "lon": -77.03,
+                "lat": -12.046,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "capital"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -76.87,
+                "lat": -12.27,
+                "icono": "guerra",
+                "ruta": [
+                  [
+                    -76.87,
+                    -12.27
+                  ],
+                  [
+                    -76.97,
+                    -12.17
+                  ],
+                  [
+                    -77.03,
+                    -12.046
+                  ]
+                ],
+                "duracionSeg": 4,
+                "aparecerEn": "capital"
+              },
+              {
+                "lon": -77.1,
+                "lat": -12.45,
+                "icono": "barco",
+                "aparecerEn": "barcos"
+              }
+            ]
+          },
+          {
+            "texto": "El 13 de enero, antes del amanecer, ataca en San Juan y Chorrillos. A media tarde se acabó.",
+            "planos": [
+              {
+                "centro": [
+                  -77,
+                  -12.17
+                ],
+                "zoom": 10.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77,
+                  -12.17
+                ],
+                "zoom": 11.1,
+                "entrada": "corte",
+                "en": "media",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Batalla de chorrillos morro solar by Lisle",
+                "archivo": "File:Batalla de chorrillos - morro solar by Lisle.jpg",
+                "pie": "MORRO SOLAR TRAS LA BATALLA · 1881",
+                "aparecerEn": "Chorrillos",
+                "duracionSeg": 3
+              },
+              {
+                "tipo": "foto",
+                "buscar": "Batalla de chorrilos Hacienda San Juan",
+                "archivo": "File:Batalla de chorrilos - Hacienda San Juan.jpg",
+                "pie": "HACIENDA SAN JUAN · FOTO DE LISLE, 1881",
+                "aparecerEn": "tarde",
+                "duracionSeg": 2.4
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -76.97,
+                "lat": -12.17,
+                "texto": "SAN JUAN",
+                "tipo": "pin",
+                "aparecerEn": "San"
+              },
+              {
+                "lon": -77.021,
+                "lat": -12.186,
+                "texto": "CHORRILLOS",
+                "tipo": "pin",
+                "aparecerEn": "amanecer"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "13-1-1881",
+                "sub": "SAN JUAN Y CHORRILLOS",
+                "tipo": "cifra",
+                "aparecerEn": "13",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "El 15, en Miraflores, hay una tregua. Los diplomáticos extranjeros están reunidos con el presidente peruano cuando alguien dispara. Nunca se aclaró quién: cada país culpa al otro hasta hoy. Esa tarde pelean abogados, empleados de ministerio, gente de Lima con fusil prestado. Pierden.",
+            "planos": [
+              {
+                "centro": [
+                  -77.029,
+                  -12.121
+                ],
+                "zoom": 11.2,
+                "entrada": "paneo",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.029,
+                  -12.121
+                ],
+                "zoom": 11.7,
+                "entrada": "corte",
+                "en": "Nunca",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.029,
+                  -12.121
+                ],
+                "zoom": 11.4,
+                "entrada": "zoom",
+                "en": "Pierden",
+                "deriva": -0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Nicolás de Piérola",
+              "archivo": "File:Nicolás de Piérola.jpg",
+              "pie": "Nicolás de Piérola, presidente del Perú",
+              "aparecerEn": "presidente",
+              "duracionSeg": 3.8,
+              "lado": "derecha"
+            },
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Asalto reducto 2 batalla de miraflores",
+                "archivo": "File:Asalto reducto 2 batalla de miraflores.jpg",
+                "pie": "ASALTO AL REDUCTO 2, MIRAFLORES · 1881",
+                "aparecerEn": "dispara",
+                "duracionSeg": 2.8
+              },
+              {
+                "tipo": "foto",
+                "buscar": "El tercer reducto",
+                "archivo": "File:El tercer reducto.jpg",
+                "pie": "EL TERCER REDUCTO · PINTURA DE LEPIANI, 1894",
+                "aparecerEn": "abogados",
+                "duracionSeg": 3
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.029,
+                "lat": -12.121,
+                "texto": "MIRAFLORES",
+                "tipo": "pin",
+                "aparecerEn": "Miraflores"
+              }
+            ],
+            "contexto": {
+              "texto": "¿QUIÉN DISPARÓ?",
+              "dice": "aclaró"
+            }
+          },
+          {
+            "texto": "Ahora, algo incómodo, y de los dos lados.",
+            "planos": [
+              {
+                "centro": [
+                  -77.02,
+                  -12.15
+                ],
+                "zoom": 11,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "contexto": {
+              "texto": "DE LOS DOS LADOS",
+              "dice": "incómodo"
+            }
+          },
+          {
+            "texto": "Chorrillos, Barranco y Miraflores terminan saqueados y en llamas, con tropa chilena borracha y fuera de control. Eso lo cuentan también las fuentes chilenas.",
+            "planos": [
+              {
+                "centro": [
+                  -77.02,
+                  -12.15
+                ],
+                "zoom": 11.3,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.02,
+                  -12.15
+                ],
+                "zoom": 11.9,
+                "entrada": "corte",
+                "en": "fuentes",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "22D0502 Vista de Chorrillos destruido por los Chilenos",
+                "archivo": "File:22D0502 - (Vista de Chorrillos destruido por los Chilenos ).jpg",
+                "pie": "CHORRILLOS DESTRUIDO · FOTO COURRET, 1881",
+                "aparecerEn": "saqueados",
+                "duracionSeg": 3.2
+              },
+              {
+                "tipo": "foto",
+                "buscar": "Chorrillos War Ruins 1881",
+                "archivo": "File:Chorrillos War Ruins 1881.jpg",
+                "pie": "RUINAS DE CHORRILLOS · 1881",
+                "aparecerEn": "control",
+                "duracionSeg": 2.6
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.021,
+                "lat": -12.186,
+                "texto": "CHORRILLOS",
+                "tipo": "pin",
+                "aparecerEn": "Chorrillos"
+              },
+              {
+                "lon": -77.017,
+                "lat": -12.142,
+                "texto": "BARRANCO",
+                "tipo": "pin",
+                "aparecerEn": "Barranco"
+              },
+              {
+                "lon": -77.029,
+                "lat": -12.121,
+                "texto": "MIRAFLORES",
+                "tipo": "pin",
+                "aparecerEn": "Miraflores"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.017,
+                "lat": -12.142,
+                "icono": "🔥",
+                "aparecerEn": "llamas"
+              }
+            ]
+          },
+          {
+            "texto": "Esa noche, en Lima, saquean soldados peruanos dispersos y turbas, sobre todo a los comerciantes chinos. Y quienes ponen orden son bomberos italianos, franceses y británicos, con fusiles, patrullando una capital sin gobierno.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 11.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 12.2,
+                "entrada": "corte",
+                "en": "bomberos",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "09F0108 Vista de edificaciones destruidas durante la Guerra ",
+                "archivo": "File:09F0108 - (Vista de edificaciones destruidas durante la Guerra del Pacífico).jpg",
+                "pie": "EDIFICIOS DESTRUIDOS · FOTO COURRET",
+                "aparecerEn": "saquean",
+                "duracionSeg": 3
+              }
+            ],
+            "contexto": {
+              "texto": "BOMBEROS EXTRANJEROS",
+              "dice": "bomberos"
+            }
+          },
+          {
+            "texto": "El 17, los chilenos entran a una ciudad en silencio.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 12.6,
+                "entrada": "corte",
+                "deriva": 0.1
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Bandera Chile Palacio Lima Perú",
+                "archivo": "File:Bandera Chile Palacio Lima Perú.JPG",
+                "pie": "PALACIO DE GOBIERNO, LIMA · 1881",
+                "aparecerEn": "entran",
+                "duracionSeg": 3
+              }
+            ]
+          },
+          {
+            "texto": "Tres días de batalla y la guerra terminada. Eso creía todo el mundo.",
+            "planos": [
+              {
+                "centro": [
+                  -76.8,
+                  -12.6
+                ],
+                "zoom": 8,
+                "entrada": "zoom",
+                "deriva": -0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -77.45,
+                    -11.55
+                  ],
+                  [
+                    -76.95,
+                    -11.5
+                  ],
+                  [
+                    -76.55,
+                    -12.2
+                  ],
+                  [
+                    -76,
+                    -13.6
+                  ],
+                  [
+                    -76.2,
+                    -14.1
+                  ],
+                  [
+                    -76.55,
+                    -13.9
+                  ],
+                  [
+                    -76.9,
+                    -12.6
+                  ],
+                  [
+                    -77.3,
+                    -12.15
+                  ]
+                ],
+                "color": "rojo",
+                "trama": "solida",
+                "etiqueta": "COSTA OCUPADA",
+                "etiquetaEn": [
+                  -76.9,
+                  -12.75
+                ],
+                "aparecerEn": "guerra",
+                "quedarse": 1
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "3 DÍAS",
+                "sub": "DE BATALLA POR LIMA",
+                "tipo": "cifra",
+                "aparecerEn": "Tres",
+                "duracionSeg": 3.4
+              }
+            ],
+            "contexto": {
+              "texto": "¿TERMINADA?",
+              "dice": "creía"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Pero el presidente peruano se había ido a la sierra. Y no era el único que pensaba subir.",
+          "planos": [
+            {
+              "centro": [
+                -75.9,
+                -12
+              ],
+              "zoom": 7.4,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -75.9,
+                -12
+              ],
+              "zoom": 7.9,
+              "entrada": "corte",
+              "en": "único",
+              "deriva": 0.2
+            }
+          ],
+          "areas": [
+            {
+              "poligono": [
+                [
+                  -76.5,
+                  -10.8
+                ],
+                [
+                  -75.3,
+                  -10.9
+                ],
+                [
+                  -74.3,
+                  -12.4
+                ],
+                [
+                  -73.9,
+                  -13.4
+                ],
+                [
+                  -74.7,
+                  -13.7
+                ],
+                [
+                  -75.5,
+                  -12.8
+                ],
+                [
+                  -76.4,
+                  -11.9
+                ],
+                [
+                  -76.7,
+                  -11.3
+                ]
+              ],
+              "color": "verde",
+              "trama": "solida",
+              "etiqueta": "LA SIERRA",
+              "etiquetaEn": [
+                -75.3,
+                -12.1
+              ],
+              "aparecerEn": "sierra"
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -75,
+              "lat": -11.2,
+              "texto": "LOS ANDES",
+              "tipo": "region",
+              "aparecerEn": "sierra"
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "EL HERIDO DE SAN PEDRO",
+        "bloques": [
+          {
+            "texto": "El coronel de la celda se llama Andrés Avelino Cáceres. Tiene cuarenta y tantos años, es de Ayacucho y habla quechua, que en esta historia va a importar más que cualquier cañón.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 11.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -74.5,
+                  -13
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "en": "Ayacucho",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Andrés Avelino Cáceres Dorregaray",
+              "archivo": "File:Andrés Avelino Cáceres Dorregaray.jpg",
+              "pie": "Andrés Avelino Cáceres",
+              "aparecerEn": "Andrés",
+              "duracionSeg": 3.8,
+              "lado": "derecha"
+            },
+            "etiquetas": [
+              {
+                "lon": -74.224,
+                "lat": -13.163,
+                "texto": "AYACUCHO",
+                "tipo": "pin",
+                "aparecerEn": "Ayacucho"
+              }
+            ],
+            "contexto": {
+              "texto": "HABLA QUECHUA",
+              "dice": "quechua"
+            }
+          },
+          {
+            "texto": "En Miraflores una bala le perforó el fémur derecho. Lo atiende un médico en un colegio convertido en hospital, y cuando los chilenos preguntan por él, los curas del convento de San Pedro lo meten en la celda del padre superior.",
+            "planos": [
+              {
+                "centro": [
+                  -77.029,
+                  -12.121
+                ],
+                "zoom": 11.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 12.2,
+                "entrada": "zoom",
+                "en": "convento",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Iglesia de San Pedro Lima Perú 2015 07 28 DD 85",
+                "archivo": "File:Iglesia de San Pedro, Lima, Perú, 2015-07-28, DD 85.JPG",
+                "pie": "IGLESIA DE SAN PEDRO, LIMA · HOY",
+                "aparecerEn": "celda",
+                "duracionSeg": 3
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.029,
+                "lat": -12.121,
+                "texto": "MIRAFLORES",
+                "tipo": "pin",
+                "aparecerEn": "Miraflores"
+              },
+              {
+                "lon": -77.03,
+                "lat": -12.046,
+                "texto": "SAN PEDRO",
+                "tipo": "pin",
+                "aparecerEn": "Pedro"
+              }
+            ],
+            "contexto": {
+              "texto": "FÉMUR DERECHO",
+              "dice": "fémur"
+            }
+          },
+          {
+            "texto": "Ahí pasa tres meses. Tres meses escondido en el centro de una ciudad ocupada.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 12.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "3 MESES",
+                "sub": "ESCONDIDO EN LIMA",
+                "tipo": "linea-tiempo",
+                "desde": "ENE 1881",
+                "hasta": "ABR 1881",
+                "aparecerEn": "tres",
+                "duracionSeg": 3.4
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Iglesia de San Pedro Lima Perú 2015 07 28 DD 88",
+                "archivo": "File:Iglesia de San Pedro, Lima, Perú, 2015-07-28, DD 88.JPG",
+                "pie": "IGLESIA DE SAN PEDRO, LIMA · HOY",
+                "aparecerEn": "ocupada",
+                "duracionSeg": 2.6
+              }
+            ]
+          },
+          {
+            "texto": "Mientras tanto, su esposa, Antonia Moreno, hace algo todavía más arriesgado: junta fusiles, munición y plata, a escondidas, en plena Lima, para una resistencia que todavía no existe.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 12.2,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 11.6,
+                "entrada": "zoom",
+                "en": "resistencia",
+                "deriva": -0.2
+              }
+            ],
+            "contexto": {
+              "texto": "LA RESISTENCIA",
+              "dice": "resistencia"
+            }
+          },
+          {
+            "texto": "El 15 de abril, todavía cojo, Cáceres sale de la ciudad rumbo a Jauja.",
+            "tramo": [
+              0,
+              6
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -76.25,
+                  -11.8
+                ],
+                "zoom": 8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "15-4-1881",
+                "sub": "CÁCERES SALE DE LIMA",
+                "tipo": "cifra",
+                "aparecerEn": "15",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "Ojo con la fecha, porque ese mismo día sale de Lima la primera expedición chilena a la sierra. Suben casi juntos. Unos, a buscar un ejército para pelear. Los otros, a cobrarles a los pueblos.",
+            "tramo": [
+              6,
+              6
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -76.25,
+                  -11.8
+                ],
+                "zoom": 8.3,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76,
+                  -11.7
+                ],
+                "zoom": 8.9,
+                "entrada": "zoom",
+                "en": "juntos",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.03,
+                "lat": -12.046,
+                "icono": "guerra",
+                "ruta": [
+                  [
+                    -77.03,
+                    -12.046
+                  ],
+                  [
+                    -76.7,
+                    -11.94
+                  ],
+                  [
+                    -76.38,
+                    -11.84
+                  ],
+                  [
+                    -76.27,
+                    -11.7
+                  ],
+                  [
+                    -75.9,
+                    -11.52
+                  ]
+                ],
+                "duracionSeg": 6,
+                "aparecerEn": "expedición"
+              },
+              {
+                "lon": -75.5,
+                "lat": -11.775,
+                "icono": "dinero",
+                "aparecerEn": "cobrarles"
+              }
+            ],
+            "contexto": {
+              "texto": "EL MISMO DÍA",
+              "dice": "mismo"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Arriba, las reglas eran otras. Y el terreno no estaba de parte de Chile.",
+          "planos": [
+            {
+              "centro": [
+                -76.6,
+                -11.8
+              ],
+              "zoom": 7.4,
+              "entrada": "zoom",
+              "deriva": 0.2
+            }
+          ],
+          "medios": [
+            {
+              "tipo": "video",
+              "buscar": "Fog pushes up against the Peruvian Andes CIRA 2019 06 13",
+              "archivo": "File:Fog pushes up against the Peruvian Andes (CIRA 2019-06-13).webm",
+              "fuente": "commons",
+              "pie": "NIEBLA DE LA COSTA CONTRA LOS ANDES · NOAA",
+              "aparecerEn": "Arriba",
+              "duracionSeg": 4.4,
+              "desdeSeg": 0
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "DONDE SE ACABA EL TREN",
+        "bloques": [
+          {
+            "texto": "Este es el Ferrocarril Central. Sale del Callao, pasa por Lima y trepa la cordillera por puentes que dan vértigo hasta en la foto.",
+            "planos": [
+              {
+                "centro": [
+                  -77.15,
+                  -12.05
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.6,
+                  -11.9
+                ],
+                "zoom": 8.8,
+                "entrada": "zoom",
+                "en": "cordillera",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "video",
+                "buscar": "Presencia del tren",
+                "archivo": "File:Presencia del tren.webm",
+                "fuente": "commons",
+                "pie": "TREN JUNTO AL RÍO RÍMAC · HOY",
+                "aparecerEn": "Ferrocarril",
+                "duracionSeg": 3.6,
+                "desdeSeg": 4
+              },
+              {
+                "tipo": "foto",
+                "buscar": "N° 153 Línea del Callao a la Oroya gran puente de Verrugas t",
+                "archivo": "File:N° 153. Línea del Callao a la Oroya, gran puente de Verrugas (tomado de abajo).png",
+                "pie": "PUENTE DE VERRUGAS · FOTO GARREAUD, ÉPOCA",
+                "aparecerEn": "puentes",
+                "duracionSeg": 2.8
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.15,
+                "lat": -12.05,
+                "texto": "CALLAO",
+                "tipo": "pin",
+                "aparecerEn": "Callao"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.15,
+                "lat": -12.05,
+                "icono": "tren",
+                "ruta": [
+                  [
+                    -77.15,
+                    -12.05
+                  ],
+                  [
+                    -77.03,
+                    -12.046
+                  ],
+                  [
+                    -76.7,
+                    -11.94
+                  ],
+                  [
+                    -76.38,
+                    -11.84
+                  ],
+                  [
+                    -76.27,
+                    -11.7
+                  ]
+                ],
+                "duracionSeg": 5,
+                "aparecerEn": "trepa"
+              }
+            ]
+          },
+          {
+            "texto": "En 1881 llegaba hasta un pueblo llamado Chicla, a tres mil setecientos metros de altura. Ahí se acababan los rieles, y un poco más arriba, en Casapalca, se acababa el telégrafo.",
+            "planos": [
+              {
+                "centro": [
+                  -76.27,
+                  -11.7
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.23,
+                  -11.65
+                ],
+                "zoom": 10.2,
+                "entrada": "paneo",
+                "en": "Casapalca",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "3.730 M",
+                "sub": "CHICLA · FIN DE LA VÍA EN 1881",
+                "tipo": "cifra",
+                "aparecerEn": "tres",
+                "duracionSeg": 3.4
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -76.27,
+                "lat": -11.7,
+                "texto": "CHICLA · 3.730 M",
+                "tipo": "pin",
+                "aparecerEn": "Chicla"
+              },
+              {
+                "lon": -76.23,
+                "lat": -11.65,
+                "texto": "CASAPALCA · 4.150 M",
+                "tipo": "pin",
+                "aparecerEn": "Casapalca"
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "N° 180 Línea del Callao á la Oroya Vista general de Chicla",
+                "archivo": "File:N° 180. Línea del Callao á la Oroya, Vista general de Chicla (...).png",
+                "pie": "VISTA DE CHICLA · FOTO DE ÉPOCA",
+                "aparecerEn": "rieles",
+                "duracionSeg": 2.8
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -76.2,
+                "lat": -11.7,
+                "icono": "tren",
+                "tachado": true,
+                "aparecerEn": "rieles"
+              }
+            ]
+          },
+          {
+            "texto": "De ahí para adelante, todo lo que había hecho ganar a Chile dejaba de servir. No hay barcos a cuatro mil metros. No hay tren. Hay mulas, senderos, y un aire tan delgado que un soldado de la costa se marea al cargar su propio fusil.",
+            "planos": [
+              {
+                "centro": [
+                  -76.19,
+                  -11.6
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.19,
+                  -11.6
+                ],
+                "zoom": 10.9,
+                "entrada": "corte",
+                "en": "mulas",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "4.000 M",
+                "sub": "SIN BARCOS, SIN TREN",
+                "tipo": "cifra",
+                "aparecerEn": "cuatro",
+                "duracionSeg": 3.4
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -76.12,
+                "lat": -11.62,
+                "icono": "barco",
+                "tachado": true,
+                "aparecerEn": "barcos"
+              },
+              {
+                "lon": -76.26,
+                "lat": -11.56,
+                "icono": "tren",
+                "tachado": true,
+                "aparecerEn": "tren"
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "video",
+                "buscar": "THE ANDEAN REGION A PLACE TO CONSERVE",
+                "archivo": "File:THE ANDEAN REGION- A PLACE TO CONSERVE.webm",
+                "fuente": "commons",
+                "pie": "PUNA ANDINA · HOY",
+                "aparecerEn": "mulas",
+                "duracionSeg": 3.6,
+                "desdeSeg": 2
+              },
+              {
+                "tipo": "foto",
+                "buscar": "FCCA GE C30 7 Chinchan Ticlio",
+                "archivo": "File:FCCA GE C30-7 Chinchan - Ticlio.jpg",
+                "pie": "EL TREN CERCA DE TICLIO · HOY",
+                "aparecerEn": "delgado",
+                "duracionSeg": 2.6
+              }
+            ]
+          },
+          {
+            "texto": "Esa primera expedición la manda un teniente coronel, Ambrosio Letelier, con setecientos hombres. Y según el historiador chileno Gonzalo Bulnes, aquello fue menos una campaña que una recaudación a mano armada: pueblo que tocaban, pueblo que pagaba.",
+            "planos": [
+              {
+                "centro": [
+                  -75.85,
+                  -11.6
+                ],
+                "zoom": 8.5,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.85,
+                  -11.6
+                ],
+                "zoom": 9,
+                "entrada": "corte",
+                "en": "recaudación",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "700",
+                "sub": "HOMBRES DE LETELIER",
+                "tipo": "cifra",
+                "aparecerEn": "setecientos",
+                "duracionSeg": 3.4
+              }
+            ],
+            "fuente": {
+              "texto": "Gonzalo Bulnes · Guerra del Pacífico (1911–1919)",
+              "dice": "Bulnes"
+            },
+            "iconos": [
+              {
+                "lon": -75.5,
+                "lat": -11.775,
+                "icono": "dinero",
+                "aparecerEn": "pagaba"
+              },
+              {
+                "lon": -75.691,
+                "lat": -11.419,
+                "icono": "dinero",
+                "aparecerEn": "tocaban"
+              }
+            ]
+          },
+          {
+            "texto": "Quien lo frenó fue Chile: su jefe lo mandó de vuelta y una corte marcial, en Lima, lo condenó por quedarse con dinero. Después la Corte Suprema, en Santiago, le levantó la pena.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 10,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -72.5,
+                  -24
+                ],
+                "zoom": 4.4,
+                "entrada": "zoom",
+                "en": "Santiago",
+                "deriva": 0.1
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.03,
+                "lat": -12.046,
+                "icono": "tribunal",
+                "aparecerEn": "corte"
+              },
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "icono": "tribunal",
+                "aparecerEn": "Santiago"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "texto": "SANTIAGO",
+                "tipo": "pin",
+                "aparecerEn": "Santiago"
+              }
+            ],
+            "contexto": {
+              "texto": "CORTE MARCIAL",
+              "dice": "marcial"
+            }
+          },
+          {
+            "texto": "A los pueblos nadie les devolvió nada. Y de esos pueblos sacó Cáceres a su gente.",
+            "tramo": [
+              6,
+              7
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.6,
+                  -11.6
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -76.5,
+                    -10.8
+                  ],
+                  [
+                    -75.3,
+                    -10.9
+                  ],
+                  [
+                    -74.3,
+                    -12.4
+                  ],
+                  [
+                    -73.9,
+                    -13.4
+                  ],
+                  [
+                    -74.7,
+                    -13.7
+                  ],
+                  [
+                    -75.5,
+                    -12.8
+                  ],
+                  [
+                    -76.4,
+                    -11.9
+                  ],
+                  [
+                    -76.7,
+                    -11.3
+                  ]
+                ],
+                "color": "verde",
+                "trama": "solida",
+                "etiqueta": "LA SIERRA",
+                "etiquetaEn": [
+                  -75.3,
+                  -12.1
+                ],
+                "aparecerEn": "pueblos#2"
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Montoneros al servicio de Cáceres",
+                "archivo": "File:Montoneros al servicio de Cáceres.jpg",
+                "pie": "MONTONEROS DE CÁCERES · ARCHIVO COURRET",
+                "aparecerEn": "sacó",
+                "duracionSeg": 3.2
+              }
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Para fines de ese año tiene un ejército chico acampado en Chosica. Mira el mapa: eso es casi Lima. El herido de San Pedro ya está mirando la capital desde arriba.",
+          "tramo": [
+            7,
+            9
+          ],
+          "planos": [
+            {
+              "centro": [
+                -76.3,
+                -11.75
+              ],
+              "zoom": 8.2,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -76.85,
+                -12
+              ],
+              "zoom": 9.4,
+              "entrada": "zoom",
+              "en": "Mira",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -76.85,
+                -12
+              ],
+              "zoom": 10,
+              "entrada": "corte",
+              "en": "herido",
+              "deriva": 0.2
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -76.7,
+              "lat": -11.94,
+              "texto": "CHOSICA · 860 M",
+              "tipo": "pin",
+              "aparecerEn": "Chosica"
+            },
+            {
+              "lon": -77.03,
+              "lat": -12.046,
+              "texto": "LIMA · 150 M",
+              "tipo": "pin",
+              "aparecerEn": "Lima"
+            }
+          ],
+          "cotas": [
+            {
+              "desde": [
+                -76.7,
+                -11.94
+              ],
+              "hasta": [
+                -77.03,
+                -12.046
+              ],
+              "texto": "≈ 40 KM",
+              "aparecerEn": "casi"
+            }
+          ],
+          "resaltes": [
+            {
+              "lon": -76.7,
+              "lat": -11.94,
+              "radio": 90,
+              "aparecerEn": "capital",
+              "duracionSeg": 2
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "EL VALLE",
+        "bloques": [
+          {
+            "texto": "Enero de 1882. Chile decide terminar con esto y sube en serio: dos divisiones, miles de hombres, a encerrarlo en el valle del Mantaro.",
+            "tramo": [
+              9,
+              12
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.8,
+                  -11.7
+                ],
+                "zoom": 8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.3,
+                  -11.95
+                ],
+                "zoom": 9,
+                "entrada": "zoom",
+                "en": "encerrarlo",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.03,
+                "lat": -12.046,
+                "icono": "guerra",
+                "ruta": [
+                  [
+                    -77.03,
+                    -12.046
+                  ],
+                  [
+                    -76.27,
+                    -11.7
+                  ],
+                  [
+                    -75.9,
+                    -11.52
+                  ],
+                  [
+                    -75.5,
+                    -11.775
+                  ]
+                ],
+                "duracionSeg": 5,
+                "aparecerEn": "divisiones"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -75.25,
+                "lat": -11.85,
+                "texto": "RÍO MANTARO",
+                "tipo": "rio",
+                "rotacion": -45,
+                "aparecerEn": "valle"
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "video",
+                "buscar": "Visiones de la provincia de Huancayo",
+                "archivo": "File:Visiones de la provincia de Huancayo.webm",
+                "fuente": "commons",
+                "pie": "PROVINCIA DE HUANCAYO · DOCUMENTAL ANTIGUO",
+                "aparecerEn": "miles",
+                "duracionSeg": 3.4,
+                "desdeSeg": 40
+              }
+            ]
+          },
+          {
+            "texto": "Y casi lo consiguen. En febrero lo alcanzan en Pucará. Hay combate, lo tienen ahí, a tiro de fusil… y se les escurre hacia el sur, hacia Ayacucho, con lo que le queda.",
+            "tramo": [
+              12,
+              14
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.15,
+                  -12.17
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.15,
+                  -12.17
+                ],
+                "zoom": 11,
+                "entrada": "corte",
+                "en": "tiro",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -74.8,
+                  -12.6
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "en": "escurre",
+                "deriva": 0.2
+              }
+            ],
+            "resaltes": [
+              {
+                "lon": -75.15,
+                "lat": -12.17,
+                "radio": 110,
+                "aparecerEn": "Pucará",
+                "duracionSeg": 2.4
+              }
+            ],
+            "contexto": {
+              "texto": "A TIRO DE FUSIL",
+              "dice": "fusil"
+            }
+          },
+          {
+            "texto": "En el camino lo agarra una tormenta en plena cordillera, y de su ejército llegan unos cuatrocientos, hambrientos y en harapos.",
+            "tramo": [
+              14,
+              17
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -74.6,
+                  -12.85
+                ],
+                "zoom": 8.4,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -74.224,
+                  -13.163
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "en": "llegan",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -74.85,
+                "lat": -12.95,
+                "icono": "❄️",
+                "aparecerEn": "tormenta"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "400",
+                "sub": "LLEGAN A AYACUCHO",
+                "tipo": "cifra",
+                "aparecerEn": "cuatrocientos",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "Cualquiera habría dicho que se acabó. Pero en ese valle los soldados chilenos empiezan a morir, y no de balas: tifus, viruela, frío. Cuando su comandante, Estanislao del Canto, saca la cuenta, anota 154 bajas en combate. Y 277 por enfermedad.",
+            "planos": [
+              {
+                "centro": [
+                  -75.3,
+                  -11.95
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.3,
+                  -11.95
+                ],
+                "zoom": 9.8,
+                "entrada": "corte",
+                "en": "tifus",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.3,
+                  -11.95
+                ],
+                "zoom": 10.3,
+                "entrada": "corte",
+                "en": "cuenta",
+                "deriva": 0.1
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Río Mantaro visto desde Llocllapampa",
+                "archivo": "File:Río Mantaro visto desde Llocllapampa.jpg",
+                "pie": "RÍO MANTARO · HOY",
+                "aparecerEn": "valle",
+                "duracionSeg": 2.6
+              }
+            ],
+            "polaroid": {
+              "buscar": "El Coronel Estanislao del Canto",
+              "archivo": "File:El Coronel Estanislao del Canto.jpg",
+              "pie": "Estanislao del Canto",
+              "aparecerEn": "Estanislao",
+              "duracionSeg": 3.8,
+              "lado": "izquierda"
+            },
+            "tarjetas": [
+              {
+                "texto": "BAJAS CHILENAS",
+                "sub": "VALLE DEL MANTARO, 1882",
+                "tipo": "barras",
+                "barras": [
+                  {
+                    "etiqueta": "COMBATE",
+                    "valor": 154
+                  },
+                  {
+                    "etiqueta": "ENFERMEDAD",
+                    "valor": 277
+                  }
+                ],
+                "aparecerEn": "154",
+                "duracionSeg": 5
+              }
+            ],
+            "contexto": {
+              "texto": "NO DE BALAS",
+              "dice": "balas"
+            }
+          },
+          {
+            "texto": "Los estaba derrotando el lugar.",
+            "planos": [
+              {
+                "centro": [
+                  -75.4,
+                  -11.9
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": -0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -76.5,
+                    -10.8
+                  ],
+                  [
+                    -75.3,
+                    -10.9
+                  ],
+                  [
+                    -74.3,
+                    -12.4
+                  ],
+                  [
+                    -73.9,
+                    -13.4
+                  ],
+                  [
+                    -74.7,
+                    -13.7
+                  ],
+                  [
+                    -75.5,
+                    -12.8
+                  ],
+                  [
+                    -76.4,
+                    -11.9
+                  ],
+                  [
+                    -76.7,
+                    -11.3
+                  ]
+                ],
+                "color": "verde",
+                "trama": "plena",
+                "etiqueta": "EL LUGAR",
+                "etiquetaEn": [
+                  -75.3,
+                  -12.1
+                ],
+                "aparecerEn": "lugar"
+              }
+            ]
+          },
+          {
+            "texto": "Mientras tanto Cáceres vuelve. Con otro ejército, y con miles de campesinos que no tienen fusil: tienen lanzas, tienen hondas y conocen cada quebrada. Su plan es una trampa: cerrarles el valle por arriba y por abajo, y volar el único puente de salida, el de La Oroya.",
+            "tramo": [
+              17,
+              19
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -74.7,
+                  -12.6
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.5,
+                  -11.8
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "en": "trampa",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.9,
+                  -11.52
+                ],
+                "zoom": 10,
+                "entrada": "zoom",
+                "en": "puente",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -75.9,
+                "lat": -11.52,
+                "texto": "LA OROYA",
+                "tipo": "pin",
+                "aparecerEn": "Oroya"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -75.9,
+                "lat": -11.52,
+                "icono": "🌉",
+                "aparecerEn": "puente"
+              }
+            ],
+            "contexto": {
+              "texto": "LA TRAMPA",
+              "dice": "trampa"
+            }
+          },
+          {
+            "texto": "Julio de 1882. En el pueblo de Concepción hay una compañía chilena: 77 hombres, varios con tifus, al mando del capitán Ignacio Carrera Pinto.",
+            "tramo": [
+              19,
+              21
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 10.9,
+                "entrada": "corte",
+                "en": "capitán",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "77",
+                "sub": "SOLDADOS CHILENOS EN CONCEPCIÓN",
+                "tipo": "cifra",
+                "aparecerEn": "77",
+                "duracionSeg": 3.4
+              }
+            ],
+            "polaroid": {
+              "buscar": "Capitán Ignacio Carrera Pinto",
+              "archivo": "File:Capitán Ignacio Carrera Pinto.jpg",
+              "pie": "Ignacio Carrera Pinto",
+              "aparecerEn": "Ignacio",
+              "duracionSeg": 3.8,
+              "lado": "derecha"
+            },
+            "etiquetas": [
+              {
+                "lon": -75.31,
+                "lat": -11.92,
+                "texto": "CONCEPCIÓN · 3.283 M",
+                "tipo": "pin",
+                "aparecerEn": "Concepción"
+              }
+            ]
+          },
+          {
+            "texto": "Los atacan el 9 de julio y pelean hasta el día siguiente. No sobrevive ninguno.",
+            "planos": [
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 11.3,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Combate de la Concepción",
+                "archivo": "File:Combate de la Concepción.jpg",
+                "pie": "LA CONCEPCIÓN · PINTURA DE L. F. ROJAS",
+                "aparecerEn": "atacan",
+                "duracionSeg": 3.4
+              }
+            ],
+            "contexto": {
+              "texto": "NINGÚN SOBREVIVIENTE",
+              "dice": "sobrevive"
+            }
+          },
+          {
+            "texto": "Cómo fue el final depende de quién te lo cuente. En Chile, los últimos cinco cargan a la bayoneta para no rendirse. En el Perú, los últimos se rinden y los matan. No quedó un solo chileno vivo para decirlo.",
+            "planos": [
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": -0.2
+              },
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 10.5,
+                "entrada": "corte",
+                "en": "Chile",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 10.9,
+                "entrada": "corte",
+                "en": "Perú",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 11.3,
+                "entrada": "corte",
+                "en": "vivo",
+                "deriva": 0.1
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -75.26,
+                "lat": -11.88,
+                "texto": "VERSIÓN CHILENA",
+                "tipo": "pin",
+                "aparecerEn": "bayoneta"
+              },
+              {
+                "lon": -75.36,
+                "lat": -11.96,
+                "texto": "VERSIÓN PERUANA",
+                "tipo": "pin",
+                "aparecerEn": "rinden"
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Los Heroes de La Concepción",
+                "archivo": "File:Los Heroes de La Concepción.jpg",
+                "pie": "LOS CUATRO OFICIALES DE CONCEPCIÓN · RETRATOS",
+                "aparecerEn": "cargan",
+                "duracionSeg": 3
+              }
+            ],
+            "contexto": {
+              "texto": "DOS VERSIONES",
+              "dice": "depende"
+            }
+          },
+          {
+            "texto": "Lo que sí está escrito es lo que vino después. La división chilena llega ese mediodía y, como castigo, manda quemar el pueblo entero.",
+            "planos": [
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 11.2,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -75.31,
+                "lat": -11.92,
+                "icono": "🔥",
+                "escala": 1.3,
+                "aparecerEn": "quemar"
+              }
+            ],
+            "contexto": {
+              "texto": "LA REPRESALIA",
+              "dice": "castigo"
+            }
+          },
+          {
+            "texto": "En Chile, el 9 de julio es el Día de la Bandera: ese día juran los soldados. Del incendio del día siguiente se habla bastante menos.",
+            "planos": [
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 11.5,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -75.31,
+                  -11.92
+                ],
+                "zoom": 10.6,
+                "entrada": "zoom",
+                "en": "incendio",
+                "deriva": -0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "9 DE JULIO",
+                "sub": "DÍA DE LA BANDERA EN CHILE",
+                "tipo": "cifra",
+                "aparecerEn": "Bandera",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "La trampa, eso sí, falló por un hombre: el coronel que tenía que volar el puente no lo voló. Los chilenos cruzaron y bajaron a Lima con casi quinientos enfermos, setenta de ellos en camilla.",
+            "planos": [
+              {
+                "centro": [
+                  -75.9,
+                  -11.52
+                ],
+                "zoom": 10,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.4,
+                  -11.8
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "en": "bajaron",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -75.9,
+                "lat": -11.52,
+                "icono": "💥",
+                "tachado": true,
+                "aparecerEn": "voló"
+              },
+              {
+                "lon": -75.9,
+                "lat": -11.52,
+                "icono": "guerra",
+                "ruta": [
+                  [
+                    -75.9,
+                    -11.52
+                  ],
+                  [
+                    -76.27,
+                    -11.7
+                  ],
+                  [
+                    -76.7,
+                    -11.94
+                  ],
+                  [
+                    -77.03,
+                    -12.046
+                  ]
+                ],
+                "duracionSeg": 5,
+                "aparecerEn": "cruzaron"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "500",
+                "sub": "ENFERMOS DE VUELTA A LIMA",
+                "tipo": "cifra",
+                "aparecerEn": "quinientos",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "Se fueron del valle. Cáceres se quedó.",
+            "tramo": [
+              21,
+              22
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.5,
+                  -11.7
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -76.5,
+                    -10.8
+                  ],
+                  [
+                    -75.3,
+                    -10.9
+                  ],
+                  [
+                    -74.3,
+                    -12.4
+                  ],
+                  [
+                    -73.9,
+                    -13.4
+                  ],
+                  [
+                    -74.7,
+                    -13.7
+                  ],
+                  [
+                    -75.5,
+                    -12.8
+                  ],
+                  [
+                    -76.4,
+                    -11.9
+                  ],
+                  [
+                    -76.7,
+                    -11.3
+                  ]
+                ],
+                "color": "verde",
+                "trama": "plena",
+                "etiqueta": "LA SIERRA DE CÁCERES",
+                "etiquetaEn": [
+                  -75.3,
+                  -12.1
+                ],
+                "aparecerEn": "quedó"
+              }
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Y entonces la guerra le llegó por la espalda. Desde el norte. Y en peruano.",
+          "planos": [
+            {
+              "centro": [
+                -75.5,
+                -11.7
+              ],
+              "zoom": 8.2,
+              "entrada": "corte",
+              "deriva": -0.3
+            },
+            {
+              "centro": [
+                -77.4,
+                -8.6
+              ],
+              "zoom": 6.8,
+              "entrada": "zoom",
+              "en": "norte",
+              "deriva": 0.2
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -78.51,
+              "lat": -7.16,
+              "texto": "CAJAMARCA",
+              "tipo": "pin",
+              "aparecerEn": "norte"
+            }
+          ]
+        }
+      },
+      {
+        "titulo": "LA MARCHA AL NORTE",
+        "bloques": [
+          {
+            "texto": "Miguel Iglesias es general, peruano, y peleó en Chorrillos. En agosto de 1882, desde una hacienda en Cajamarca, dice en voz alta lo que muchos pensaban y nadie decía: esto está perdido. Hay que firmar la paz, aunque cueste territorio, antes de que no quede país.",
+            "planos": [
+              {
+                "centro": [
+                  -78.51,
+                  -7.16
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.51,
+                  -7.16
+                ],
+                "zoom": 9.7,
+                "entrada": "corte",
+                "en": "Cajamarca",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.51,
+                  -7.16
+                ],
+                "zoom": 8.8,
+                "entrada": "zoom",
+                "en": "paz",
+                "deriva": -0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Retrato de Miguel Iglesias",
+              "archivo": "File:Retrato de Miguel Iglesias.jpg",
+              "pie": "Miguel Iglesias",
+              "aparecerEn": "Iglesias",
+              "duracionSeg": 3.8,
+              "lado": "derecha"
+            },
+            "etiquetas": [
+              {
+                "lon": -78.51,
+                "lat": -7.16,
+                "texto": "CAJAMARCA",
+                "tipo": "pin",
+                "aparecerEn": "Cajamarca"
+              }
+            ],
+            "contexto": {
+              "texto": "FIRMAR LA PAZ",
+              "dice": "firmar"
+            }
+          },
+          {
+            "texto": "Para Cáceres eso tiene un solo nombre: traición.",
+            "planos": [
+              {
+                "centro": [
+                  -78.51,
+                  -7.16
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "contexto": {
+              "texto": "TRAICIÓN",
+              "dice": "traición"
+            }
+          },
+          {
+            "texto": "Uno quería salvar lo que quedaba. El otro no aceptaba que quedara tan poco.",
+            "planos": [
+              {
+                "centro": [
+                  -76.8,
+                  -9.5
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.1
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -78.51,
+                "lat": -7.16,
+                "texto": "IGLESIAS",
+                "tipo": "pin",
+                "aparecerEn": "Uno"
+              },
+              {
+                "lon": -75.691,
+                "lat": -11.419,
+                "texto": "CÁCERES",
+                "tipo": "pin",
+                "aparecerEn": "otro"
+              }
+            ]
+          },
+          {
+            "texto": "El punto es que ahora Chile tiene con quién firmar, y a Cáceres le queda una sola jugada: ir a buscar a Iglesias. Al norte.",
+            "planos": [
+              {
+                "centro": [
+                  -76.8,
+                  -9.5
+                ],
+                "zoom": 6.8,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.8,
+                  -9.5
+                ],
+                "zoom": 7.2,
+                "entrada": "corte",
+                "en": "jugada",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.03,
+                "lat": -12.046,
+                "icono": "tratado",
+                "aparecerEn": "firmar"
+              }
+            ],
+            "resaltes": [
+              {
+                "lon": -78.51,
+                "lat": -7.16,
+                "radio": 90,
+                "aparecerEn": "norte",
+                "duracionSeg": 1.8
+              }
+            ]
+          },
+          {
+            "texto": "Mayo de 1883. Sale de Tarma y hace esto. Mira la línea.",
+            "tramo": [
+              22,
+              27
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -76.2,
+                  -10.5
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "MAYO 1883",
+                "sub": "SALE DE TARMA",
+                "tipo": "cifra",
+                "aparecerEn": "Mayo",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "Semanas de marcha por la sierra, y aquí, para pasar al otro lado, cruza la Cordillera Blanca por Llanganuco: un paso a cuatro mil setecientos metros, al lado del Huascarán, con cañones, con mulas y con muchos soldados sin zapatos.",
+            "tramo": [
+              27,
+              31
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.1,
+                  -9.6
+                ],
+                "zoom": 7.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.58,
+                  -9.07
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "en": "Cordillera",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.58,
+                  -9.07
+                ],
+                "zoom": 10.4,
+                "entrada": "corte",
+                "en": "cañones",
+                "deriva": 0.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.75,
+                "lat": -9.4,
+                "texto": "CORDILLERA BLANCA",
+                "tipo": "region",
+                "aparecerEn": "Blanca"
+              },
+              {
+                "lon": -77.58,
+                "lat": -9.07,
+                "texto": "LLANGANUCO · 4.767 M",
+                "tipo": "pin",
+                "aparecerEn": "Llanganuco"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "4.767 M",
+                "sub": "PORTACHUELO DE LLANGANUCO",
+                "tipo": "cifra",
+                "aparecerEn": "cuatro",
+                "duracionSeg": 3.4
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Huascaran",
+                "archivo": "File:Huascaran.JPG",
+                "pie": "NEVADO HUASCARÁN · HOY",
+                "aparecerEn": "paso",
+                "duracionSeg": 2.4
+              },
+              {
+                "tipo": "video",
+                "buscar": "Huascarán orbit with path names PeakNav 3D terrain render",
+                "archivo": "File:Huascarán orbit with path names, PeakNav 3D terrain render.webm",
+                "fuente": "commons",
+                "pie": "HUASCARÁN · RELIEVE EN 3D",
+                "aparecerEn": "Huascarán",
+                "duracionSeg": 4,
+                "desdeSeg": 4
+              },
+              {
+                "tipo": "video",
+                "buscar": "Stream in the Huascarán National Park Peru",
+                "archivo": "File:Stream in the Huascarán National Park - Peru.webm",
+                "fuente": "commons",
+                "pie": "PARQUE NACIONAL HUASCARÁN · HOY",
+                "aparecerEn": "zapatos",
+                "duracionSeg": 3,
+                "desdeSeg": 3
+              }
+            ]
+          },
+          {
+            "texto": "Detrás de él va una división chilena de casi tres mil hombres. Le pierde el rastro, da la vuelta y regresa a Lima. Su propio jefe anotó 571 bajas, entre enfermos y desertores. Sin disparar un tiro.",
+            "planos": [
+              {
+                "centro": [
+                  -76.6,
+                  -10.4
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -76.6,
+                  -10.4
+                ],
+                "zoom": 7.6,
+                "entrada": "corte",
+                "en": "jefe",
+                "deriva": 0.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -76.06,
+                "lat": -10.92,
+                "icono": "guerra",
+                "ruta": [
+                  [
+                    -76.06,
+                    -10.92
+                  ],
+                  [
+                    -76.62,
+                    -9.83
+                  ],
+                  [
+                    -76.06,
+                    -10.92
+                  ],
+                  [
+                    -75.9,
+                    -11.52
+                  ]
+                ],
+                "duracionSeg": 5,
+                "aparecerEn": "rastro"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "571",
+                "sub": "BAJAS SIN DISPARAR UN TIRO",
+                "tipo": "cifra",
+                "aparecerEn": "571",
+                "duracionSeg": 3.4
+              }
+            ]
+          },
+          {
+            "texto": "Pero al Brujo de los Andes, que así lo llamaban porque aparecía donde no debía estar, también se le estaba acabando el truco.",
+            "planos": [
+              {
+                "centro": [
+                  -77.6,
+                  -8.7
+                ],
+                "zoom": 8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Busto Andrés Avelino Cáceres",
+              "archivo": "File:Busto Andrés Avelino Cáceres.jpg",
+              "pie": "Busto de Cáceres, \"el Brujo de los Andes\"",
+              "aparecerEn": "Brujo",
+              "duracionSeg": 3.8,
+              "lado": "izquierda"
+            },
+            "contexto": {
+              "texto": "EL BRUJO DE LOS ANDES",
+              "dice": "Brujo"
+            }
+          },
+          {
+            "texto": "El 10 de julio de 1883 llega a Huamachuco con unos mil cuatrocientos hombres agotados, pocas balas y ninguna bayoneta. Enfrente, el coronel Alejandro Gorostiaga, con más o menos los mismos, pero con todo lo demás.",
+            "tramo": [
+              31,
+              36
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.8,
+                  -8.4
+                ],
+                "zoom": 8.2,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "en": "Huamachuco",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 10.3,
+                "entrada": "corte",
+                "en": "Enfrente",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1.400",
+                "sub": "PERUANOS EN HUAMACHUCO",
+                "tipo": "cifra",
+                "aparecerEn": "cuatrocientos",
+                "duracionSeg": 3.4
+              }
+            ],
+            "polaroid": {
+              "buscar": "A gorostiaga",
+              "archivo": "File:A.gorostiaga.jpg",
+              "pie": "Alejandro Gorostiaga",
+              "aparecerEn": "Gorostiaga",
+              "duracionSeg": 3.8,
+              "lado": "derecha"
+            },
+            "etiquetas": [
+              {
+                "lon": -78.05,
+                "lat": -7.81,
+                "texto": "HUAMACHUCO · 3.169 M",
+                "tipo": "pin",
+                "aparecerEn": "Huamachuco"
+              }
+            ]
+          },
+          {
+            "texto": "Durante horas, los peruanos van ganando. Después se quedan sin munición, y la caballería chilena carga.",
+            "planos": [
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 10.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 11.2,
+                "entrada": "corte",
+                "en": "caballería",
+                "deriva": 0.1
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -78.03,
+                "lat": -7.83,
+                "icono": "guerra",
+                "aparecerEn": "carga"
+              }
+            ],
+            "contexto": {
+              "texto": "SIN MUNICIÓN",
+              "dice": "munición"
+            }
+          },
+          {
+            "texto": "En Huamachuco se remata a heridos peruanos, como antes se había rematado a heridos de los dos lados.",
+            "planos": [
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": -0.2
+              }
+            ],
+            "contexto": {
+              "texto": "LOS DOS BANDOS",
+              "dice": "remata"
+            }
+          },
+          {
+            "texto": "Cinco días después fusilan a un coronel de 29 años, Leoncio Prado, hijo de un expresidente. Lo que sabemos de su último minuto lo contaron, muchos años más tarde, los oficiales chilenos que lo fusilaron: que pidió una taza de café, y que dio él mismo la señal, golpeando la taza con la cuchara.",
+            "planos": [
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 10.6,
+                "entrada": "corte",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 11.1,
+                "entrada": "corte",
+                "en": "oficiales",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -78.05,
+                  -7.81
+                ],
+                "zoom": 11.5,
+                "entrada": "corte",
+                "en": "café",
+                "deriva": 0.1
+              }
+            ],
+            "polaroid": {
+              "buscar": "BUSTO LEONCIO PRADO",
+              "archivo": "File:BUSTO - LEONCIO PRADO.jpg",
+              "pie": "Busto de Leoncio Prado (1853-1883)",
+              "aparecerEn": "Leoncio",
+              "duracionSeg": 3.8,
+              "anio": "1883",
+              "lado": "derecha"
+            },
+            "tarjetas": [
+              {
+                "texto": "29 AÑOS",
+                "sub": "CORONEL LEONCIO PRADO",
+                "tipo": "cifra",
+                "aparecerEn": "29",
+                "duracionSeg": 3.4
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -78,
+                "lat": -7.8,
+                "icono": "☕",
+                "aparecerEn": "café"
+              }
+            ],
+            "fuente": {
+              "texto": "Relato de los oficiales chilenos, años después",
+              "dice": "contaron"
+            }
+          },
+          {
+            "texto": "¿Y Cáceres? Herido otra vez. A caballo. Se les fue.",
+            "tramo": [
+              36,
+              36
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.8,
+                  -8.2
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": -0.2
+              }
+            ],
+            "resaltes": [
+              {
+                "lon": -78.05,
+                "lat": -7.81,
+                "radio": 100,
+                "aparecerEn": "Cáceres",
+                "duracionSeg": 1.6
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -78.05,
+                "lat": -7.81,
+                "icono": "🐎",
+                "ruta": [
+                  [
+                    -78.05,
+                    -7.81
+                  ],
+                  [
+                    -77.9,
+                    -8.4
+                  ],
+                  [
+                    -77.6,
+                    -8.9
+                  ]
+                ],
+                "duracionSeg": 3,
+                "aparecerEn": "caballo"
+              }
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Tres meses después, la guerra termina, en un papel que él no firmó. Y lo que pasa con los dos, el que firmó y el que no, es lo más raro de toda esta historia.",
+          "planos": [
+            {
+              "centro": [
+                -77.1,
+                -11.9
+              ],
+              "zoom": 8.6,
+              "entrada": "zoom",
+              "deriva": 0.2
+            },
+            {
+              "centro": [
+                -77.17,
+                -11.77
+              ],
+              "zoom": 9.6,
+              "entrada": "zoom",
+              "en": "papel",
+              "deriva": 0.2
+            }
+          ],
+          "iconos": [
+            {
+              "lon": -77.17,
+              "lat": -11.77,
+              "icono": "tratado",
+              "aparecerEn": "papel"
+            }
+          ],
+          "contexto": {
+            "texto": "LO MÁS RARO",
+            "dice": "raro"
+          }
+        }
+      },
+      {
+        "titulo": "LO QUE QUEDÓ",
+        "bloques": [
+          {
+            "texto": "20 de octubre de 1883, Ancón, un balneario al norte de Lima. Iglesias firma.",
+            "planos": [
+              {
+                "centro": [
+                  -77.17,
+                  -11.77
+                ],
+                "zoom": 10,
+                "entrada": "corte",
+                "deriva": 0.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "20-10-1883",
+                "sub": "TRATADO DE ANCÓN",
+                "tipo": "cifra",
+                "aparecerEn": "octubre",
+                "duracionSeg": 3.4
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.17,
+                "lat": -11.77,
+                "texto": "ANCÓN",
+                "tipo": "pin",
+                "aparecerEn": "Ancón"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.17,
+                "lat": -11.77,
+                "icono": "tratado",
+                "aparecerEn": "firma"
+              }
+            ]
+          },
+          {
+            "texto": "Tarapacá pasa a Chile para siempre. Tacna y Arica, por diez años, y después se vota. Esa votación, que ya contamos en otro video, no ocurrió nunca.",
+            "planos": [
+              {
+                "centro": [
+                  -70.1,
+                  -19.3
+                ],
+                "zoom": 6.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -70.1,
+                  -19.3
+                ],
+                "zoom": 7.1,
+                "entrada": "corte",
+                "en": "votación",
+                "deriva": 0.2
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.4,
+                    -19
+                  ],
+                  [
+                    -69.4,
+                    -19
+                  ],
+                  [
+                    -68.45,
+                    -19.2
+                  ],
+                  [
+                    -68.4,
+                    -20.6
+                  ],
+                  [
+                    -68.6,
+                    -21.4
+                  ],
+                  [
+                    -70.15,
+                    -21.45
+                  ],
+                  [
+                    -70.2,
+                    -20.2
+                  ]
+                ],
+                "color": "rojo",
+                "trama": "plena",
+                "etiqueta": "TARAPACÁ",
+                "aparecerEn": "Tarapacá"
+              },
+              {
+                "poligono": [
+                  [
+                    -71,
+                    -17.3
+                  ],
+                  [
+                    -70.1,
+                    -16.9
+                  ],
+                  [
+                    -69.5,
+                    -17
+                  ],
+                  [
+                    -69.4,
+                    -17.6
+                  ],
+                  [
+                    -69.4,
+                    -18.4
+                  ],
+                  [
+                    -69.6,
+                    -18.9
+                  ],
+                  [
+                    -70.4,
+                    -19
+                  ],
+                  [
+                    -70.35,
+                    -18.3
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "plena",
+                "etiqueta": "TACNA Y ARICA",
+                "aparecerEn": "Tacna"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "10 AÑOS",
+                "sub": "Y DESPUÉS, UN PLEBISCITO",
+                "tipo": "cifra",
+                "aparecerEn": "diez",
+                "duracionSeg": 3.4
+              }
+            ],
+            "contexto": {
+              "texto": "NUNCA SE VOTÓ",
+              "dice": "votación"
+            }
+          },
+          {
+            "texto": "Tres días después, el ejército chileno sale de Lima. Nadie había calculado cuánto se iba a quedar: fueron dos años y nueve meses.",
+            "planos": [
+              {
+                "centro": [
+                  -77.1,
+                  -12.05
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.1,
+                  -12.05
+                ],
+                "zoom": 10.1,
+                "entrada": "corte",
+                "en": "Nadie",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "video",
+                "buscar": "Callao 2020 01 08 02",
+                "archivo": "File:Callao-2020 01 08-02.webm",
+                "fuente": "commons",
+                "pie": "EL CALLAO · HOY",
+                "aparecerEn": "sale",
+                "duracionSeg": 3.4,
+                "desdeSeg": 2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2 AÑOS Y 9 MESES",
+                "sub": "DE OCUPACIÓN DE LIMA",
+                "tipo": "linea-tiempo",
+                "desde": "ENE 1881",
+                "hasta": "OCT 1883",
+                "aparecerEn": "Nadie",
+                "duracionSeg": 4.5
+              }
+            ]
+          },
+          {
+            "texto": "Iglesias, el que firmó, gobierna un par de años y cae. Lo derriba una guerra civil, y el que la gana es Cáceres.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 10.8,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 11.3,
+                "entrada": "corte",
+                "en": "civil",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Monumento al mariscal Andrés Avelino Cáceres en Lima",
+              "archivo": "File:Monumento al mariscal Andrés Avelino Cáceres en Lima.jpg",
+              "pie": "Monumento al mariscal Cáceres, Lima (hoy)",
+              "aparecerEn": "Cáceres",
+              "duracionSeg": 3.8,
+              "anio": "1886",
+              "lado": "derecha"
+            },
+            "contexto": {
+              "texto": "GUERRA CIVIL",
+              "dice": "civil"
+            }
+          },
+          {
+            "texto": "Queda otro final, más chico. Ricardo Palma, el escritor, perdió su casa y su biblioteca en Miraflores.",
+            "planos": [
+              {
+                "centro": [
+                  -77.029,
+                  -12.121
+                ],
+                "zoom": 11.4,
+                "entrada": "zoom",
+                "deriva": 0.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Palma1",
+              "archivo": "File:Palma1.jpg",
+              "pie": "Ricardo Palma",
+              "aparecerEn": "Ricardo",
+              "duracionSeg": 3.8,
+              "lado": "izquierda"
+            },
+            "etiquetas": [
+              {
+                "lon": -77.029,
+                "lat": -12.121,
+                "texto": "MIRAFLORES",
+                "tipo": "pin",
+                "aparecerEn": "Miraflores"
+              }
+            ]
+          },
+          {
+            "texto": "Cuando se van las tropas le encargan la Biblioteca Nacional, que había sido saqueada, con buena parte de sus libros llevados a Chile, y encuentra poco más de setecientos. Así que sale a pedir, casa por casa. Lo apodan el bibliotecario mendigo.",
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 11.6,
+                "entrada": "zoom",
+                "deriva": 0.2
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.046
+                ],
+                "zoom": 12.1,
+                "entrada": "corte",
+                "en": "pedir",
+                "deriva": 0.2
+              }
+            ],
+            "medios": [
+              {
+                "tipo": "foto",
+                "buscar": "Don Ricardo Palma en el saloncito de la Dirección de la Bibl",
+                "archivo": "File:Don Ricardo Palma en el saloncito de la Dirección de la Biblioteca (1906).jpg",
+                "pie": "PALMA EN LA BIBLIOTECA NACIONAL · 1906",
+                "aparecerEn": "Biblioteca",
+                "duracionSeg": 3.2
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "700 LIBROS",
+                "sub": "LO QUE QUEDABA",
+                "tipo": "cifra",
+                "aparecerEn": "setecientos",
+                "duracionSeg": 3.4
+              }
+            ],
+            "contexto": {
+              "texto": "EL BIBLIOTECARIO MENDIGO",
+              "dice": "bibliotecario"
+            }
+          },
+          {
+            "texto": "En 2007, Chile devolvió tres mil setecientos ochenta y ocho de esos libros. Ciento veintiséis años después. Todavía tenían el sello.",
+            "planos": [
+              {
+                "centro": [
+                  -73.5,
+                  -22.5
+                ],
+                "zoom": 4.4,
+                "entrada": "zoom",
+                "deriva": 0.1
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "icono": "📚",
+                "ruta": [
+                  [
+                    -70.65,
+                    -33.45
+                  ],
+                  [
+                    -71.5,
+                    -24
+                  ],
+                  [
+                    -72.5,
+                    -18
+                  ],
+                  [
+                    -77.03,
+                    -12.046
+                  ]
+                ],
+                "duracionSeg": 4,
+                "aparecerEn": "devolvió"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "3.788 LIBROS",
+                "sub": "DEVUELTOS EN 2007",
+                "tipo": "cifra",
+                "aparecerEn": "devolvió",
+                "duracionSeg": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "Tres días para tomar una capital. Casi tres años para salir de ella. Y al hombre que fueron a buscar a la sierra lo volvieron a ver en Lima. De presidente. ¿A ti cómo te la contaron: terminaba en Lima… o empezaba ahí?",
+      "planos": [
+        {
+          "centro": [
+            -77.03,
+            -12.046
+          ],
+          "zoom": 10.4,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "duracionSeg": 4.5
+        },
+        {
+          "centro": [
+            -77.03,
+            -12.046
+          ],
+          "zoom": 11,
+          "entrada": "corte",
+          "deriva": 0.2,
+          "duracionSeg": 4.5
+        },
+        {
+          "centro": [
+            -76.4,
+            -10.5
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "deriva": -0.1
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -77.03,
+          "lat": -12.046,
+          "texto": "LIMA · 150 M"
+        },
+        {
+          "lon": -76,
+          "lat": -11.4,
+          "texto": "LA SIERRA · +4.000 M"
+        }
+      ],
+      "serie": "LA GUERRA DEL PACÍFICO EN EL MAPA",
+      "pie": "La próxima: otro capítulo de la guerra en el mapa",
+      "segundosFinales": 14
+    },
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Campaña de la Breña",
+        "url": "https://es.wikipedia.org/wiki/Campa%C3%B1a_de_la_Bre%C3%B1a"
+      },
+      {
+        "texto": "Wikipedia: Ocupación de Lima",
+        "url": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Lima"
+      },
+      {
+        "texto": "Wikipedia: Andrés Avelino Cáceres",
+        "url": "https://es.wikipedia.org/wiki/Andr%C3%A9s_Avelino_C%C3%A1ceres"
+      },
+      {
+        "texto": "Wikipedia: Combate de La Concepción",
+        "url": "https://es.wikipedia.org/wiki/Combate_de_La_Concepci%C3%B3n"
+      },
+      {
+        "texto": "Wikipedia: Batalla de Huamachuco",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Huamachuco"
+      },
+      {
+        "texto": "Wikipedia: Tratado de Ancón",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Anc%C3%B3n"
+      },
+      {
+        "texto": "Memoria Chilena: Campaña de la Sierra",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-92672.html"
+      }
+    ]
+  }
+}
