@@ -1,42 +1,40 @@
-# Revisión 2026-11-19 · Línea Punteada (ritual del jueves: semana 23 → 29-11 asegurada)
+# Revisión 2026-11-26 · Línea Punteada (encargo "un viral": diagnóstico, librería de video y dos piezas candidatas)
 
 Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas · Agregado · Pendiente.
-Regla del día (Santiago): "cerrar frentes": cero mejoras nuevas; fórmula directa y plantillas tal como quedaron el 18-11.
+Documento completo: `/home/santiago/projects/yt/_propuestas/2026-11-26-viral-linea-punteada.md`.
 
 ## Detectado
-- Faltaban 7 Shorts (mié 25 18:00, jue 26 12/18, vie 27 12/18, sáb 28 18:00, dom 29 18:00 tráiler) y el largo del dom 29 19:00 (confirmado por API).
-- El revisor independiente rechazó 6 de 8 guiones en ronda 1 (todos aprobados en ronda 2): cifra con matiz ("volcán activo" de Ojos del Salado), falta de
-  `fuenteEnVoz`, títulos sin contradicción, polígono de "mar perdido" que encerraba las islas que Colombia conservó, cifra de prensa dicha como hecho,
-  fecha sin fuente en el largo ("volvieron a casa a fines de diciembre"), colores apilados en el Virreinato y un anacronismo (Panamá en 1717).
-- Hoja de contacto del tráiler de Iquique: las dos banderas con ojos salían montadas una sobre otra y el área del cuadro 0 no se veía → re-render en la nube.
-- `subir-studio.mjs` se corta con "timeout esperando subida completa" cuando Studio muestra "Checking N %" (el regex espera "Checks complete|Upload complete|Processing"):
-  el video queda subido y en el paso de programar. 2 de 7 Shorts; se pulsó Schedule a mano y se leyó el id del diálogo.
-- Como siempre, Studio dejó 5 de 7 Shorts y el largo sin `publishAt` aunque imprimió ✓: reprogramados por API y verificados con `videos.list`.
-- Pedidos a GPT: con varios pedidos abiertos, `pedido-gpt.yml` elige por `ls -t` sobre un checkout recién clonado (mtimes iguales) y saltó dos veces el de
-  Línea Punteada para atender los de Números Rojos; salió al tercer `workflow_dispatch`, ~32 min después del pedido.
+- Por qué se sienten "mecánicos" (5 virales y 3 nuestros, un fotograma cada 0,5 s): el mismo satélite oscuro todo el video (64–91 % de píxeles oscuros;
+  los virales 18–57 %), **0 fotos a pantalla completa y 0 video en los 14 Shorts de la fórmula directa**, 0–0,7 cortes duros cada 10 s (GeoFronteras 2,9;
+  Ñerd 2,2) y voz a 2,1–2,3 palabras/s (ellos 2,6–3,1).
+- Los guiones suenan a ficha de enciclopedia: fecha, nombre, cifra; sin diálogo, sin humor, sin una persona. Los virales traen citas y apartes.
+- Ninguno de los virales medidos usa video real: los separa el color, los personajes, el humor y el ritmo. El video real es diferenciación, no la fórmula probada.
+- Video libre de Chile y vecinos: Commons cubre bien lo turístico y mal lo específico (no hay un video del ferry de Primera Angostura ni de una aduana).
+- El primer borrador de cada guion nuevo tenía hechos mal (la Corte Suprema "confirmó" una condena que en realidad revocó; cifras solo de Wikipedia): el
+  revisor con web los atrapó antes de producir.
 
 ## Mejorado
-- Nada en código ni plantillas (regla del día). Guiones corregidos según el revisor (ronda 2) y el cuadro 0 del tráiler (banderas separadas, escala 1,3).
+- Guion: narrador con punto de vista, cita real, frase larga encadenada + remate corto, remate con dilema en vez de moraleja; dos filtros por guion
+  (revisor de hechos + "detector de IA").
+- Voz: `vozRitmo` por guion (Short +18 %, largo +10 %).
+- Imagen: países a color pleno todo el video, fotos reales y extractos de video a pantalla completa con crédito en pantalla.
 
 ## Herramientas exploradas
-- `gh run download -p 'shorts-*' -p preparado`: baja solo lo que necesita `registrar-nube.mts` (sin los 10 fragmentos, ~200 MB menos por run).
-- Data API `search.list` + `videos.list` (order=viewCount) para medir la demanda real de un referente antes de citarlo (Esequibo: el candidato tenía 4,6 K;
-  se cambió por `yhyz06uBbw0`, 878 K).
+- Wikimedia Commons (video, sin clave), NASA images-api (sin clave), NASA SVS, Internet Archive/Prelinger, Pexels, Pixabay, Coverr, Mixkit, Europeana,
+  Google Earth Studio, ESO, NOAA, Sentinel: licencias leídas en la página de cada fuente (`docs/LICENCIAS-VIDEO.md`).
+- Captura de fotogramas de Shorts ajenos con un Chromium headless propio (sin yt-dlp) y medición de cortes, luz y color (`lab/viral-lp-2026-11-26/scripts/`).
+- Render de un prototipo en la nube desde una rama aparte, sin tocar la cola de producción.
+- GPT para carátulas: 3 variantes del largo en 15 min.
 
 ## Agregado
-- 7 guiones de Shorts (fórmula directa) + 1 largo, verificados (`contenido/verificaciones/`) y aprobados por revisor Sonnet (`salida/revisiones/guiones/`).
-- Semana 23 → 29-11 completa y programada, `publishAt` verificado por API:
-  mié 25 18:00 Forma de Chile `cWbAjgCysMU` · jue 26 12:00 Esequibo `BiZoEyHu2jM` · jue 26 18:00 Estrecho de Magallanes `t2H8xt9IU5Q` ·
-  vie 27 12:00 Virreinato del Perú `Wzkx2X0XuAU` · vie 27 18:00 San Andrés `yehzyCHwXxI` · sáb 28 18:00 Robinson Crusoe `c5I-8_Jh4Hc` ·
-  dom 29 18:00 Tráiler Iquique `hOaASeOx1Pk` · **dom 29 19:00 LARGO "Iquique 1879: el combate que Perú ganó y Chile celebra" `3699jF6jxyg`**
-  (8:52, apertura con escena, 6 capítulos, mid-rolls ~3:40 y ~6:49; render local 54,7 min).
-- Carátula GPT del largo `salida/caratulas/iquique-1879.png` (revisada: texto exacto, un acento, sujeto legible sin título; puesta por API).
-- GTA 6 `jnc7fW2GaT8` público a las 18:00 (verificado por API); comentario "¿Irías a la Florida real o te quedas con la del juego?" publicado y fijado en Studio.
-- `docs/PLAN-SEMANAL.md`: bloque del 19-11, JSON con ids, esqueleto 30-11 → 06-12.
+- `scripts/lib/videos.mts`, `scripts/videos.mts`, `scripts/lib/medios.mts`, `src/plantillas/comun/visuales/Medios.tsx`, `medios[]` y `vozRitmo` en el esquema
+  (frontera y largo). Compatible: los guiones existentes validan y renderizan igual.
+- `docs/GUION.md` §4c, `docs/LICENCIAS-VIDEO.md`, dossiers de hechos en `contenido/investigacion/2026-11-26-*.md`.
+- Short candidato "Para llegar en auto a Ushuaia hay que salir de Argentina" y largo candidato "Chile tomó Lima en 3 días. A este general no lo atrapó nunca"
+  (guion v2, carátulas GPT A y C, versión para locución humana).
 
 ## Pendiente
-- Día de salida de cada Short: comentario fijado (`scripts/comentar.mts` + fijar en Studio). Largo: comentario fijado, pausas publicitarias y pantalla final en Studio.
-- Dom 29 ≥ 19:00: "related video" del tráiler al largo: `flock -w 1800 /tmp/piloto.lock node herramientas/navegador/related-video.mjs hOaASeOx1Pk 3699jF6jxyg`.
-- 26-11: reconfirmar en icj-cij.org que no hay sentencia en Guyana c. Venezuela (la voz dice "aún sin sentencia").
-- Arreglo de una línea para después de "cerrar frentes": aceptar "Checking" en el regex de "subida completa" de `subir-studio.mjs`.
-- Ritual del jue 26-11 17:00: semana 30-11 → 06-12 (largo candidato: Perú 1975) y lectura del lote el jue 03-12.
+- Santiago: ver las dos piezas privadas; claves gratuitas de Pexels y Pixabay; decidir sobre CC BY-SA; grabar el Short con su voz; elegir carátula (A o C).
+- Lote de 10 Shorts (5 con medios, 5 sin) después de leer el lote "directa" el 03-12.
+- Integrar NASA SVS; adaptador de Qwen3 a `tiempos.json`; `medios[]` en `lugar` y `ruta`; llevar las reglas nuevas al generador semanal solo si el lote pasa el umbral.
+- Antes de publicar el largo: pasada de hechos por Sater (*Andean Tragedy*) y Memoria Chilena (varios datos tienen confianza media).
