@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-ayacucho-1824",
+  "id": "2026-11-26-frontera-ayacucho-1824",
   "titulo": "Ayacucho: España cayó en horas, pero la paz tardó 55 años 🇵🇪🇪🇸",
   "descripcion": "El 9 de diciembre de 1824, en la pampa de la Quinua (Ayacucho, Perú), el ejército del virrey José de La Serna cayó en unas horas ante el de Sucre. Ese día, con el virrey herido y preso, Canterac firmó la capitulación. Pero Rodil resistió en el Real Felipe del Callao hasta enero de 1826, y España recién firmó la paz con el Perú en el tratado de París de 1879, que se cita como su reconocimiento de la independencia. A 202 años de Ayacucho, ¿cuándo terminó de verdad? Cuéntanos.\n\nFuentes:\n- https://es.wikisource.org/wiki/Capitulaci%C3%B3n_de_Ayacucho\n- https://es.wikipedia.org/wiki/Batalla_de_Ayacucho\n- https://elperuano.pe/noticia/259458-que-establece-la-capitulacion-de-ayacucho-el-documento-que-puso-fin-al-poder-de-espana-en-el-peru\n- https://history.state.gov/historicaldocuments/frus1880/d538\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#mapas"
   ],
   "props": {
-    "id": "pendiente-frontera-ayacucho-1824",
+    "id": "2026-11-26-frontera-ayacucho-1824",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/Z51DtnpA9K8",
     "cabecera": "AYACUCHO — EL FIN DEL VIRREINATO",
@@ -26,7 +26,7 @@
             -75.2,
             -10.5
           ],
-          "zoom": 6.0,
+          "zoom": 6,
           "entrada": "corte",
           "deriva": 0.3
         },
@@ -88,7 +88,7 @@
               -74.131,
               -13.043
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "corte",
             "deriva": 0.3,
             "en": "Sucre"
@@ -203,7 +203,7 @@
               -74.131,
               -13.043
             ],
-            "zoom": 11.0,
+            "zoom": 11,
             "entrada": "zoom",
             "deriva": -0.2,
             "en": "cayeron"
@@ -369,7 +369,7 @@
               -75.2,
               -10.5
             ],
-            "zoom": 6.0,
+            "zoom": 6,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -466,7 +466,7 @@
         -75.2,
         -10.5
       ],
-      "zoomInicial": 6.0,
+      "zoomInicial": 6,
       "zoomFinal": 6.4,
       "lineas": []
     }

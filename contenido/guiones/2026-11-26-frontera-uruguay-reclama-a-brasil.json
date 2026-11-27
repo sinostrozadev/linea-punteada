@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-uruguay-reclama-a-brasil",
+  "id": "2026-11-26-frontera-uruguay-reclama-a-brasil",
   "titulo": "Uruguay todavía reclama dos pedazos que administra Brasil 🇺🇾🇧🇷",
   "descripcion": "El tratado de límites de 1851 entre Uruguay y Brasil dejó dos pedazos en discusión. En el Rincón de Artigas (más de 200 km², junto a Masoller), Brasil dice que el 'arroyo de la Invernada' es el del oeste; Uruguay, que es el del este, el Moirones. En la boca del Cuareim, el tratado da a Brasil 'la isla o islas'; Uruguay sostiene que la Isla Brasilera está en el río Uruguay. En junio de 2025, Uruguay envió una nota verbal por el parque eólico que Brasil construye en el Rincón. ¿Quién tiene razón?\n\nFuentes:\n- El Observador (2025): https://www.elobservador.com.uy/nacional/uruguay-envio-nota-brasil-la-construccion-un-parque-eolico-un-territorio-que-reclama-como-propio-n6003781\n- Gazeta do Povo (2025): https://www.gazetadopovo.com.br/brasil/o-territorio-que-o-uruguai-quer-tomar-do-brasil/\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#geografia"
   ],
   "props": {
-    "id": "pendiente-frontera-uruguay-reclama-a-brasil",
+    "id": "2026-11-26-frontera-uruguay-reclama-a-brasil",
     "formula": "directa",
     "referente": "https://www.youtube.com/watch?v=KopaQVi4LVc",
     "cabecera": "MASOLLER — LA FRONTERA EN DISPUTA",
@@ -26,7 +26,7 @@
             -56.2,
             -32.4
           ],
-          "zoom": 7.0,
+          "zoom": 7,
           "entrada": "corte",
           "deriva": 0.3
         },
@@ -48,7 +48,7 @@
           "trama": "plena",
           "etiqueta": "URUGUAY",
           "etiquetaEn": [
-            -56.0,
+            -56,
             -32.8
           ],
           "aparecerEn": 0,
@@ -188,8 +188,8 @@
           "lon": -55.6,
           "lat": -33.3,
           "mirar": [
-            -56.0,
-            -31.0
+            -56,
+            -31
           ],
           "expresion": "normal",
           "escala": 0.9,
@@ -201,8 +201,8 @@
           "lon": -54.6,
           "lat": -29.6,
           "mirar": [
-            -56.0,
-            -31.0
+            -56,
+            -31
           ],
           "expresion": "normal",
           "escala": 0.9,
@@ -227,8 +227,8 @@
         "planos": [
           {
             "centro": [
-              -56.0,
-              -31.0
+              -56,
+              -31
             ],
             "zoom": 9.4,
             "entrada": "zoom",
@@ -989,7 +989,7 @@
         -56.2,
         -32.4
       ],
-      "zoomInicial": 7.0,
+      "zoomInicial": 7,
       "zoomFinal": 7.4,
       "lineas": [
         {

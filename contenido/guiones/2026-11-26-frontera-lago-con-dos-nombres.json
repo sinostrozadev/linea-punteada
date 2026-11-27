@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-lago-con-dos-nombres",
+  "id": "2026-11-26-frontera-lago-con-dos-nombres",
   "titulo": "El lago más grande de Chile se llama distinto en Argentina 🇨🇱🇦🇷",
   "descripcion": "Un solo lago patagónico de unos 1.850 km² con dos nombres: General Carrera en Chile y Buenos Aires en Argentina. Hasta 1959 los dos lo llamaban Buenos Aires, hasta que la Ley 13.375 de Chile lo rebautizó. La frontera que lo cruza sale del Tratado de 1881 y del laudo británico de 1902, que no adoptó ni la divisoria de aguas que pedía Chile ni las altas cumbres que pedía Argentina. ¿Cómo debería llamarse? Cuéntanos en los comentarios.\n\nFuentes:\nhttps://www.bcn.cl/leychile/navegar?idNorma=27455\nhttps://en.wikipedia.org/wiki/General_Carrera_Lake\nhttps://en.wikipedia.org/wiki/Cordillera_of_the_Andes_Boundary_Case\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#fronteras"
   ],
   "props": {
-    "id": "pendiente-frontera-lago-con-dos-nombres",
+    "id": "2026-11-26-frontera-lago-con-dos-nombres",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/TquxttS76_Q",
     "cabecera": "AYSÉN — UN LAGO, DOS NOMBRES",
@@ -569,7 +569,7 @@
         "planos": [
           {
             "centro": [
-              -72.0,
+              -72,
               -46.58
             ],
             "zoom": 8.8,
@@ -578,7 +578,7 @@
           },
           {
             "centro": [
-              -72.0,
+              -72,
               -46.58
             ],
             "zoom": 8.9,
@@ -1202,13 +1202,13 @@
               -72.3,
               -46.8
             ],
-            "zoom": 7.0,
+            "zoom": 7,
             "entrada": "zoom",
             "deriva": 0.3
           },
           {
             "centro": [
-              -72.0,
+              -72,
               -46.6
             ],
             "zoom": 7.3,
@@ -1255,7 +1255,7 @@
         "iconos": [
           {
             "lon": -73.15,
-            "lat": -47.0,
+            "lat": -47,
             "icono": "montana",
             "escala": 0.9,
             "aparecerEn": "cumbres"
@@ -1300,7 +1300,7 @@
         "planos": [
           {
             "centro": [
-              -72.0,
+              -72,
               -46.58
             ],
             "zoom": 8.6,
@@ -1827,7 +1827,7 @@
         "iconos": [
           {
             "lon": -73.15,
-            "lat": -47.0,
+            "lat": -47,
             "icono": "montana",
             "escala": 0.9,
             "aparecerEn": "cumbres",
@@ -1900,10 +1900,10 @@
         "banderas": [
           {
             "pais": "AR",
-            "lon": -68.0,
+            "lon": -68,
             "lat": -46.3,
             "mirar": [
-              -66.0,
+              -66,
               -47.7
             ],
             "expresion": "sorpresa",
@@ -1914,7 +1914,7 @@
           {
             "pais": "CL",
             "lon": -73.9,
-            "lat": -47.0,
+            "lat": -47,
             "mirar": [
               -73.54,
               -47.8
@@ -1954,7 +1954,7 @@
               -71.67,
               -46.56
             ],
-            "zoom": 12.0,
+            "zoom": 12,
             "entrada": "corte",
             "deriva": 0.2,
             "en": "paso"
@@ -2164,7 +2164,7 @@
               -46.95
             ],
             [
-              -68.0,
+              -68,
               -47.2
             ],
             [

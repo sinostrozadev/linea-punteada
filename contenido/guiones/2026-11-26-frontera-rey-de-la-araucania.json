@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-rey-de-la-araucania",
+  "id": "2026-11-26-frontera-rey-de-la-araucania",
   "titulo": "Un francés se proclamó rey de la Araucanía. Chile lo declaró loco 🇨🇱",
   "descripcion": "En 1860, el francés Antoine de Tounens, formado en leyes, firmó un decreto que lo hacía rey de la Araucanía y, tres días después, de la Patagonia, del río Biobío al estrecho de Magallanes. En enero de 1862 lo entregó uno de sus hombres; lo condenaron, lo declararon demente y lo embarcaron a Francia. Volvió en 1869, 1874 y 1876, y murió pobre en 1878. Su 'casa real' sigue existiendo en Francia como título simbólico, sin territorio ni reconocimiento de ningún Estado. ¿Rey o loco?\n\nFuentes:\n- Memoria Chilena: https://www.memoriachilena.gob.cl/602/w3-article-96468.html\n- BBC Mundo: https://www.prensalibre.com/?p=5878514\n- BioBioChile: https://www.biobiochile.cl/noticias/sociedad/curiosidades/2016/08/21/orelie-antoine-de-tounens-el-aventurero-frances-que-se-convirtio-en-rey-de-la-araucania.shtml\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#mapas"
   ],
   "props": {
-    "id": "pendiente-frontera-rey-de-la-araucania",
+    "id": "2026-11-26-frontera-rey-de-la-araucania",
     "formula": "directa",
     "referente": "https://www.youtube.com/watch?v=9xdaFZl_zwk",
     "cabecera": "ARAUCANÍA — EL REY FRANCÉS",
@@ -53,7 +53,7 @@
               -37.05
             ],
             [
-              -72.0,
+              -72,
               -37.6
             ],
             [
@@ -65,7 +65,7 @@
               -38.8
             ],
             [
-              -70.0,
+              -70,
               -38.9
             ],
             [
@@ -78,7 +78,7 @@
             ],
             [
               -65.1,
-              -40.0
+              -40
             ],
             [
               -63.8,
@@ -86,26 +86,26 @@
             ],
             [
               -62.8,
-              -41.0
+              -41
             ],
             [
               -63.8,
               -41.2
             ],
             [
-              -65.0,
-              -41.0
+              -65,
+              -41
             ],
             [
-              -65.0,
-              -42.0
+              -65,
+              -42
             ],
             [
               -64.2,
               -42.5
             ],
             [
-              -65.0,
+              -65,
               -43.4
             ],
             [
@@ -121,12 +121,12 @@
               -46.4
             ],
             [
-              -66.0,
+              -66,
               -47.5
             ],
             [
               -67.5,
-              -49.0
+              -49
             ],
             [
               -68.9,
@@ -157,23 +157,23 @@
               -53.3
             ],
             [
-              -74.0,
+              -74,
               -52.8
             ],
             [
-              -75.0,
+              -75,
               -51.5
             ],
             [
               -75.4,
-              -49.0
+              -49
             ],
             [
               -74.8,
-              -47.0
+              -47
             ],
             [
-              -74.0,
+              -74,
               -45.5
             ],
             [
@@ -186,7 +186,7 @@
             ],
             [
               -73.7,
-              -40.0
+              -40
             ],
             [
               -73.4,
@@ -202,7 +202,7 @@
           "etiqueta": "EL REINO",
           "etiquetaEn": [
             -69.5,
-            -46.0
+            -46
           ],
           "aparecerEn": 0,
           "quedarse": 0
@@ -218,7 +218,7 @@
         },
         {
           "lon": -68.5,
-          "lat": -44.0,
+          "lat": -44,
           "texto": "PATAGONIA",
           "tipo": "region",
           "aparecerEn": "Patagonia"
@@ -233,15 +233,15 @@
       ],
       "iconos": [
         {
-          "lon": -71.0,
+          "lon": -71,
           "lat": -41.5,
           "icono": "👑",
           "escala": 1.1,
           "aparecerEn": "rey"
         },
         {
-          "lon": -70.0,
-          "lat": -35.0,
+          "lon": -70,
+          "lat": -35,
           "icono": "📰",
           "escala": 0.9,
           "aparecerEn": "diarios"
@@ -343,7 +343,7 @@
           },
           {
             "centro": [
-              -71.0,
+              -71,
               -52.6
             ],
             "zoom": 6.8,
@@ -374,7 +374,7 @@
                 -37.05
               ],
               [
-                -72.0,
+                -72,
                 -37.6
               ],
               [
@@ -386,7 +386,7 @@
                 -38.8
               ],
               [
-                -70.0,
+                -70,
                 -38.9
               ],
               [
@@ -399,7 +399,7 @@
               ],
               [
                 -65.1,
-                -40.0
+                -40
               ],
               [
                 -63.8,
@@ -407,26 +407,26 @@
               ],
               [
                 -62.8,
-                -41.0
+                -41
               ],
               [
                 -63.8,
                 -41.2
               ],
               [
-                -65.0,
-                -41.0
+                -65,
+                -41
               ],
               [
-                -65.0,
-                -42.0
+                -65,
+                -42
               ],
               [
                 -64.2,
                 -42.5
               ],
               [
-                -65.0,
+                -65,
                 -43.4
               ],
               [
@@ -442,12 +442,12 @@
                 -46.4
               ],
               [
-                -66.0,
+                -66,
                 -47.5
               ],
               [
                 -67.5,
-                -49.0
+                -49
               ],
               [
                 -68.9,
@@ -478,23 +478,23 @@
                 -53.3
               ],
               [
-                -74.0,
+                -74,
                 -52.8
               ],
               [
-                -75.0,
+                -75,
                 -51.5
               ],
               [
                 -75.4,
-                -49.0
+                -49
               ],
               [
                 -74.8,
-                -47.0
+                -47
               ],
               [
-                -74.0,
+                -74,
                 -45.5
               ],
               [
@@ -507,7 +507,7 @@
               ],
               [
                 -73.7,
-                -40.0
+                -40
               ],
               [
                 -73.4,
@@ -541,15 +541,15 @@
             "aparecerEn": "Magallanes"
           },
           {
-            "lon": -77.0,
-            "lat": -46.0,
+            "lon": -77,
+            "lat": -46,
             "texto": "PACÍFICO",
             "tipo": "mar",
             "aparecerEn": "Biobío"
           },
           {
             "lon": -61.5,
-            "lat": -46.0,
+            "lat": -46,
             "texto": "ATLÁNTICO",
             "tipo": "mar",
             "aparecerEn": "Magallanes"
@@ -565,7 +565,7 @@
         "iconos": [
           {
             "lon": -69.5,
-            "lat": -44.0,
+            "lat": -44,
             "icono": "📜",
             "escala": 1,
             "aparecerEn": "constitución",
@@ -582,7 +582,7 @@
               ],
               [
                 -71.2,
-                -36.0
+                -36
               ],
               [
                 -70.7,
@@ -779,7 +779,7 @@
         "planos": [
           {
             "centro": [
-              -70.0,
+              -70,
               -40.5
             ],
             "zoom": 6.2,
@@ -862,7 +862,7 @@
               -68.8,
               -45.2
             ],
-            "zoom": 6.0,
+            "zoom": 6,
             "entrada": "corte",
             "deriva": 0.3
           },
@@ -889,7 +889,7 @@
                 -37.05
               ],
               [
-                -72.0,
+                -72,
                 -37.6
               ],
               [
@@ -901,7 +901,7 @@
                 -38.8
               ],
               [
-                -70.0,
+                -70,
                 -38.9
               ],
               [
@@ -914,7 +914,7 @@
               ],
               [
                 -65.1,
-                -40.0
+                -40
               ],
               [
                 -63.8,
@@ -922,26 +922,26 @@
               ],
               [
                 -62.8,
-                -41.0
+                -41
               ],
               [
                 -63.8,
                 -41.2
               ],
               [
-                -65.0,
-                -41.0
+                -65,
+                -41
               ],
               [
-                -65.0,
-                -42.0
+                -65,
+                -42
               ],
               [
                 -64.2,
                 -42.5
               ],
               [
-                -65.0,
+                -65,
                 -43.4
               ],
               [
@@ -957,12 +957,12 @@
                 -46.4
               ],
               [
-                -66.0,
+                -66,
                 -47.5
               ],
               [
                 -67.5,
-                -49.0
+                -49
               ],
               [
                 -68.9,
@@ -993,23 +993,23 @@
                 -53.3
               ],
               [
-                -74.0,
+                -74,
                 -52.8
               ],
               [
-                -75.0,
+                -75,
                 -51.5
               ],
               [
                 -75.4,
-                -49.0
+                -49
               ],
               [
                 -74.8,
-                -47.0
+                -47
               ],
               [
-                -74.0,
+                -74,
                 -45.5
               ],
               [
@@ -1022,7 +1022,7 @@
               ],
               [
                 -73.7,
-                -40.0
+                -40
               ],
               [
                 -73.4,
@@ -1046,14 +1046,14 @@
         "iconos": [
           {
             "lon": -69.4,
-            "lat": -44.0,
+            "lat": -44,
             "icono": "👑",
             "escala": 1.2,
             "aparecerEn": "casa"
           },
           {
             "lon": -69.4,
-            "lat": -44.0,
+            "lat": -44,
             "icono": "👑",
             "escala": 1.2,
             "tachado": true,
@@ -1081,12 +1081,12 @@
     ],
     "remateEtiquetas": [
       {
-        "lon": -72.0,
-        "lat": -40.0,
+        "lon": -72,
+        "lat": -40,
         "texto": "¿REY?"
       },
       {
-        "lon": -67.0,
+        "lon": -67,
         "lat": -48.5,
         "texto": "¿LOCO?"
       }
@@ -1144,7 +1144,7 @@
             ],
             [
               -71.6,
-              -38.0
+              -38
             ],
             [
               -71.3,
@@ -1173,19 +1173,19 @@
               -39.1
             ],
             [
-              -66.0,
+              -66,
               -39.5
             ],
             [
               -65.1,
-              -40.0
+              -40
             ],
             [
-              -64.0,
+              -64,
               -40.6
             ],
             [
-              -63.0,
+              -63,
               -40.8
             ],
             [

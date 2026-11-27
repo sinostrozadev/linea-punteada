@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-primer-bebe-antartico",
+  "id": "2026-11-26-frontera-primer-bebe-antartico",
   "titulo": "El primer bebé de la Antártida nació en 1978. ¿Para qué? 🇦🇷🇨🇱🇦🇶",
   "descripcion": "El 7 de enero de 1978 nació en la Base Esperanza, en la punta de la península Antártica, Emilio Marcos Palma: el nacimiento más austral que registra Guinness. La zona la reclaman Argentina, Chile y el Reino Unido. En 1984 Chile inauguró Villa Las Estrellas, en la isla Rey Jorge, y ahí nació Juan Pablo Camacho, el primer chileno nacido en la Antártida. Pero el Tratado Antártico de 1959 dice que nada de lo que se haga mientras rija sirve para reclamar soberanía. ¿Nacer ahí debería contar?\n\nFuentes:\nhttps://www.guinnessworldrecords.com/world-records/73079-most-southerly-birth\nhttps://www.argentina.gob.ar/ejercito/antartida/base-esperanza\nhttps://en.wikisource.org/wiki/Antarctic_Treaty\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#historia"
   ],
   "props": {
-    "id": "pendiente-frontera-primer-bebe-antartico",
+    "id": "2026-11-26-frontera-primer-bebe-antartico",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/POGA2KBk01I",
     "cabecera": "BASE ESPERANZA — ANTÁRTIDA",
@@ -45,7 +45,7 @@
         {
           "poligono": [
             [
-              -58.0,
+              -58,
               -63.25
             ],
             [
