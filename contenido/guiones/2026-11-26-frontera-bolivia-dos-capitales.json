@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-bolivia-dos-capitales",
+  "id": "2026-11-26-frontera-bolivia-dos-capitales",
   "titulo": "Bolivia: capital en Sucre, gobierno en La Paz. ¿Por qué? 🇧🇴",
   "descripcion": "Bolivia tiene dos ciudades centrales: Sucre, capital según la Constitución, y La Paz, sede del gobierno y del Parlamento. El origen es la Guerra Federal de 1898–1899: el Congreso aprobó en noviembre de 1898 la Ley de Radicatoria, que dejaba el gobierno en Sucre de forma permanente; La Paz se levantó, formó una Junta Federal y el ejército de José Manuel Pando, con comunidades aymaras de Pablo Zárate Willka, ganó en el Segundo Crucero el 10 de abril de 1899. El Tribunal Supremo sigue en Sucre. La Constitución de 2009 dice en su artículo 6: «Sucre es la Capital de Bolivia». Tú, ¿qué dices?\n\nFuentes:\nhttps://pdba.georgetown.edu/Constitutions/Bolivia/bolivia09.html\nhttps://es.wikipedia.org/wiki/Sucre\nhttps://en.wikipedia.org/wiki/Bolivian_Civil_War\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -11,7 +11,7 @@
     "#mapas"
   ],
   "props": {
-    "id": "pendiente-frontera-bolivia-dos-capitales",
+    "id": "2026-11-26-frontera-bolivia-dos-capitales",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/XcZV6DpldlU",
     "cabecera": "BOLIVIA — SUCRE Y LA PAZ",
@@ -112,9 +112,9 @@
           {
             "centro": [
               -65.3,
-              -19.0
+              -19
             ],
-            "zoom": 8.0,
+            "zoom": 8,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -239,7 +239,7 @@
           {
             "centro": [
               -65.3,
-              -19.0
+              -19
             ],
             "zoom": 7.8,
             "entrada": "paneo",
@@ -318,7 +318,7 @@
           },
           {
             "centro": [
-              -68.0,
+              -68,
               -16.8
             ],
             "zoom": 8.4,
@@ -335,7 +335,7 @@
                 -15.6
               ],
               [
-                -68.0,
+                -68,
                 -15.9
               ],
               [
@@ -395,16 +395,16 @@
         "planos": [
           {
             "centro": [
-              -67.0,
+              -67,
               -17.9
             ],
-            "zoom": 8.0,
+            "zoom": 8,
             "entrada": "zoom",
             "deriva": 0.3
           },
           {
             "centro": [
-              -67.0,
+              -67,
               -17.9
             ],
             "zoom": 8.6,
@@ -445,7 +445,7 @@
           {
             "pais": "BO",
             "lon": -63.4,
-            "lat": -16.0,
+            "lat": -16,
             "mirar": [
               -68.15,
               -16.5
@@ -536,7 +536,7 @@
     ],
     "remateEtiquetas": [
       {
-        "lon": -65.0,
+        "lon": -65,
         "lat": -19.9,
         "texto": "¿SUCRE?"
       },
