@@ -1,0 +1,744 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-cristo-redentor-andes",
+  "titulo": "El Cristo de los Andes celebra una guerra que nunca ocurrió 🇨🇱🇦🇷",
+  "descripcion": "En la frontera entre Chile y Argentina, a unos 3.800 metros, hay un Cristo de bronce que celebra una guerra que nunca empezó. Los Pactos de Mayo de 1902 mandaron la disputa a arbitraje y frenaron la carrera naval: Argentina vendió a Japón dos cruceros que pelearon en Tsushima en 1905. El Cristo de Mateo Alonso se inauguró el 13 de marzo de 1904. ¿Es más chileno o más argentino?\n\nFuentes:\nhttps://es.wikipedia.org/wiki/Cristo_Redentor_de_los_Andes\nhttps://es.wikipedia.org/wiki/Pactos_de_Mayo\nhttps://en.wikipedia.org/wiki/Kasuga-class_cruiser\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#chile",
+    "#argentina",
+    "#cristoredentor",
+    "#historia",
+    "#geografia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-cristo-redentor-andes",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/dMVhf5379s4",
+    "cabecera": "LOS ANDES — EL CRISTO DE LA FRONTERA",
+    "acento": "cian",
+    "gancho": {
+      "texto": "En la frontera entre Chile y Argentina, a unos 3.800 metros, hay un Cristo de bronce que celebra una guerra que no ocurrió.",
+      "rotulo": "3.800 M",
+      "planos": [
+        {
+          "centro": [
+            -69.6,
+            -33.6
+          ],
+          "zoom": 5.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -69.9,
+            -33.0
+          ],
+          "zoom": 7.6,
+          "entrada": "corte",
+          "deriva": 0.3,
+          "en": "Cristo"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0
+        },
+        {
+          "pais": "Argentina",
+          "color": "azul",
+          "trama": "plena",
+          "aparecerEn": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -71.3,
+          "lat": -35.2,
+          "texto": "CHILE",
+          "tipo": "pais",
+          "aparecerEn": "Chile"
+        },
+        {
+          "lon": -67.4,
+          "lat": -35.2,
+          "texto": "ARGENTINA",
+          "tipo": "pais",
+          "aparecerEn": "Argentina"
+        },
+        {
+          "lon": -70.0708,
+          "lat": -32.8253,
+          "texto": "CRISTO REDENTOR",
+          "tipo": "pin",
+          "aparecerEn": "Cristo"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -71.4,
+          "lat": -34.4,
+          "mirar": [
+            -70.0708,
+            -32.8253
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "desaparecerEn": "Cristo"
+        },
+        {
+          "pais": "AR",
+          "lon": -67.9,
+          "lat": -34.4,
+          "mirar": [
+            -70.0708,
+            -32.8253
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "desaparecerEn": "Cristo"
+        }
+      ],
+      "clave": [
+        "3.800",
+        "Cristo",
+        "guerra"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "A comienzos del siglo veinte los dos países discutían la frontera y se armaban. Chile encargó dos acorazados en Inglaterra. Argentina compró dos cruceros que se construían en Italia.",
+        "rotulo": {
+          "texto": "ACORAZADOS",
+          "dice": "acorazados"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.0,
+              -37.0
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.0,
+              -37.0
+            ],
+            "zoom": 4.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Argentina"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -74.5,
+            "lat": -34.0,
+            "icono": "🚢",
+            "escala": 1,
+            "aparecerEn": "Chile"
+          },
+          {
+            "lon": -74.5,
+            "lat": -37.0,
+            "icono": "🚢",
+            "escala": 1,
+            "aparecerEn": "acorazados"
+          },
+          {
+            "lon": -55.5,
+            "lat": -38.5,
+            "icono": "🚢",
+            "escala": 1,
+            "aparecerEn": "Argentina"
+          },
+          {
+            "lon": -55.5,
+            "lat": -41.5,
+            "icono": "🚢",
+            "escala": 1,
+            "aparecerEn": "cruceros"
+          }
+        ],
+        "etiquetas": [
+          {
+            "texto": "CARRERA NAVAL",
+            "tipo": "contexto",
+            "aparecerEn": "armaban"
+          }
+        ],
+        "clave": [
+          "frontera",
+          "acorazados",
+          "cruceros"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 28 de mayo de 1902 firmaron los Pactos de Mayo. La frontera iría a arbitraje y ninguno sumaría barcos de guerra durante cinco años.",
+        "rotulo": {
+          "texto": "1902",
+          "dice": "1902"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -34.5
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.8,
+              -34.5
+            ],
+            "zoom": 5.9,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "frontera"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "28 MAY 1902",
+            "sub": "PACTOS DE MAYO",
+            "icono": "📜",
+            "aparecerEn": "Pactos",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -73.6,
+            "lat": -36.0,
+            "icono": "⚖️",
+            "escala": 1,
+            "aparecerEn": "arbitraje"
+          },
+          {
+            "lon": -66.6,
+            "lat": -36.0,
+            "icono": "🚢",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "barcos"
+          }
+        ],
+        "clave": [
+          "1902",
+          "arbitraje",
+          "cinco"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Los barcos sobraron. Chile vendió sus acorazados a Gran Bretaña. Argentina vendió sus cruceros a Japón, y en 1905 pelearon contra Rusia en Tsushima.",
+        "rotulo": {
+          "texto": "TSUSHIMA",
+          "dice": "Tsushima"
+        },
+        "planos": [
+          {
+            "centro": [
+              -60.0,
+              -30.0
+            ],
+            "zoom": 2.6,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              129.5,
+              34.3
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Japón"
+          },
+          {
+            "centro": [
+              129.5,
+              34.3
+            ],
+            "zoom": 5.4,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Tsushima"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -64.0,
+            "lat": -40.0,
+            "icono": "🚢",
+            "escala": 1,
+            "ruta": [
+              [
+                -64.0,
+                -40.0
+              ],
+              [
+                -35.0,
+                -15.0
+              ]
+            ],
+            "duracionSeg": 2.5,
+            "aparecerEn": "Argentina"
+          },
+          {
+            "lon": 129.4,
+            "lat": 34.0,
+            "icono": "⚔️",
+            "escala": 1.1,
+            "aparecerEn": "pelearon"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": 129.3,
+            "lat": 34.4,
+            "texto": "TSUSHIMA",
+            "tipo": "pin",
+            "aparecerEn": "Tsushima"
+          },
+          {
+            "lon": 135.5,
+            "lat": 36.5,
+            "texto": "JAPÓN",
+            "tipo": "pais",
+            "aparecerEn": "Japón"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1905",
+            "sub": "JAPÓN CONTRA RUSIA",
+            "icono": "⚓",
+            "aparecerEn": "1905",
+            "duracionSeg": 2.6
+          }
+        ],
+        "clave": [
+          "Gran Bretaña",
+          "Japón",
+          "Tsushima"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Para sellar la paz, el escultor Mateo Alonso hizo un Cristo de siete metros. Para el bronce se donaron cañones viejos; si la estatua salió de ellos, todavía se discute.",
+        "rotulo": {
+          "texto": "CAÑONES",
+          "dice": "cañones"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.0708,
+              -32.8253
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.0708,
+              -32.8253
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "bronce"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Cristo Redentor de los Andes",
+          "archivo": "File:Cristo Redentor de los Andes.jpg",
+          "pie": "Cristo Redentor de los Andes",
+          "lado": "derecha",
+          "forma": "marco",
+          "aparecerEn": "Cristo"
+        },
+        "iconos": [
+          {
+            "lon": -70.2,
+            "lat": -32.95,
+            "icono": "guerra",
+            "escala": 1,
+            "aparecerEn": "cañones"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "7 M",
+            "sub": "DE BRONCE",
+            "aparecerEn": "siete",
+            "duracionSeg": 2.4
+          }
+        ],
+        "clave": [
+          "Mateo Alonso",
+          "siete",
+          "cañones"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Viajó en piezas, en tren hasta la cordillera y en mula hasta la cumbre. Se inauguró el 13 de marzo de 1904, justo sobre la línea.",
+        "rotulo": {
+          "texto": "1904",
+          "dice": "1904"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.45,
+              -32.75
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.03,
+              -32.82
+            ],
+            "zoom": 11.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "mula"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.84,
+            "lat": -32.89,
+            "icono": "🚂",
+            "escala": 0.9,
+            "ruta": [
+              [
+                -68.84,
+                -32.89
+              ],
+              [
+                -69.35,
+                -32.59
+              ],
+              [
+                -69.91,
+                -32.82
+              ],
+              [
+                -69.99,
+                -32.81
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "tren"
+          },
+          {
+            "lon": -69.99,
+            "lat": -32.81,
+            "icono": "🫏",
+            "escala": 1,
+            "aparecerEn": "mula"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.84,
+            "lat": -32.89,
+            "texto": "MENDOZA",
+            "tipo": "pin",
+            "aparecerEn": "tren",
+            "desaparecerEn": "mula"
+          },
+          {
+            "lon": -69.99,
+            "lat": -32.81,
+            "texto": "LAS CUEVAS",
+            "tipo": "pin",
+            "aparecerEn": "cordillera"
+          }
+        ],
+        "foto": {
+          "buscar": "Inauguración Cristo Redentor de Los Andes",
+          "archivo": "File:Inaguración Cristo Redentor de Los Andes.JPG",
+          "pie": "INAUGURACIÓN · 13 DE MARZO DE 1904",
+          "aparecerEn": "inauguró",
+          "duracionSeg": 2.8
+        },
+        "clave": [
+          "tren",
+          "mula",
+          "1904"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Ese día el obispo chileno Ramón Ángel Jara dijo: «Se desplomarán primero estas montañas antes que argentinos y chilenos rompan la paz jurada a los pies del Cristo Redentor».",
+        "rotulo": {
+          "texto": "LA PAZ",
+          "dice": "paz"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.06,
+              -32.83
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.06,
+              -32.83
+            ],
+            "zoom": 12.0,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "montañas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "texto": "OBISPO RAMÓN ÁNGEL JARA",
+            "tipo": "contexto",
+            "aparecerEn": "obispo"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -70.16,
+            "lat": -32.86,
+            "mirar": [
+              -70.0708,
+              -32.8253
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.8,
+            "aparecerEn": "chilenos"
+          },
+          {
+            "pais": "AR",
+            "lon": -69.97,
+            "lat": -32.86,
+            "mirar": [
+              -70.0708,
+              -32.8253
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.8,
+            "aparecerEn": "chilenos"
+          }
+        ],
+        "clave": [
+          "montañas",
+          "paz",
+          "Cristo"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Más de 120 años después, el Cristo sigue en el paso de La Cumbre. Las montañas, por ahora, también.",
+        "rotulo": {
+          "texto": "LA CUMBRE",
+          "dice": "Cumbre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.0708,
+              -32.8253
+            ],
+            "zoom": 13.0,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.0708,
+              -32.8253
+            ],
+            "zoom": 10.0,
+            "entrada": "corte",
+            "deriva": -0.2,
+            "en": "montañas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.0708,
+            "lat": -32.8253,
+            "texto": "CRISTO REDENTOR",
+            "tipo": "pin",
+            "aparecerEn": "Cristo"
+          },
+          {
+            "lon": -70.0708,
+            "lat": -32.8253,
+            "texto": "3.832 M",
+            "tipo": "region",
+            "aparecerEn": "Cumbre",
+            "desaparecerEn": "montañas"
+          }
+        ],
+        "clave": [
+          "120",
+          "Cristo",
+          "montañas"
+        ]
+      }
+    ],
+    "remate": "¿Ese Cristo es más chileno o más argentino?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.0708,
+          -32.8253
+        ],
+        "zoom": 9.6,
+        "entrada": "corte",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -70.35,
+        "lat": -32.95,
+        "texto": "¿CHILENO?"
+      },
+      {
+        "lon": -69.75,
+        "lat": -32.95,
+        "texto": "¿ARGENTINO?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Cristo Redentor de los Andes (13-03-1904; Mateo Alonso; ~4 t; bronce de cañones viejos; tren y mulas; frase del obispo Jara)",
+        "url": "https://es.wikipedia.org/wiki/Cristo_Redentor_de_los_Andes"
+      },
+      {
+        "texto": "Wikipedia (en): Christ the Redeemer of the Andes (3.832 m; 7 m; 'commonly believed' de cañones, dudado por historiadores; tren 1.200 km y mulas)",
+        "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_of_the_Andes"
+      },
+      {
+        "texto": "Wikipedia: Pactos de Mayo (28-05-1902; arbitraje; no adquirir naves y no aumentar armamento naval por cinco años)",
+        "url": "https://es.wikipedia.org/wiki/Pactos_de_Mayo"
+      },
+      {
+        "texto": "La Nación: El Cristo de los Andes, símbolo de paz (13-03-1904; Benavente; Oliveira Cézar; donación de cañones viejos para fundición)",
+        "url": "https://www.lanacion.com.ar/sociedad/el-cristo-de-los-andes-simbolo-de-paz-para-la-argentina-y-chile-nid2116421"
+      },
+      {
+        "texto": "C5N: La increíble historia del Cristo Redentor (7 m, 4 t; frase del obispo Ramón Ángel Jara)",
+        "url": "https://www.c5n.com/sociedad/la-increible-historia-del-cristo-redentor-los-andes-su-origen-su-ubicacion-un-lugar-unico-n189015"
+      },
+      {
+        "texto": "Diario de Cuyo: El Cristo Redentor como símbolo de paz (cita literal de Jara)",
+        "url": "https://diariodecuyo.com.ar/columnasdeopinion/El-Cristo-Redentor-de-los-Andes-como-simbolo-de-paz-20190313-0143.html"
+      },
+      {
+        "texto": "Wikipedia (en): Kasuga-class cruiser (cruceros argentinos Rivadavia y Moreno vendidos a Japón; Tsushima 1905)",
+        "url": "https://en.wikipedia.org/wiki/Kasuga-class_cruiser"
+      },
+      {
+        "texto": "Wikipedia (en): Swiftsure-class battleship (Constitución y Libertad, encargados por Chile en 1901, comprados por el Reino Unido en 1903)",
+        "url": "https://en.wikipedia.org/wiki/Swiftsure-class_battleship"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -69.6,
+        -33.6
+      ],
+      "zoomInicial": 5.6,
+      "zoomFinal": 6,
+      "lineas": [
+        {
+          "id": "frontera-cl-ar",
+          "fronteraEntre": [
+            "Chile",
+            "Argentina"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "frontera",
+          "etiqueta": "FRONTERA"
+        },
+        {
+          "id": "tren-1904",
+          "puntos": [
+            [
+              -68.84,
+              -32.89
+            ],
+            [
+              -69.35,
+              -32.59
+            ],
+            [
+              -69.91,
+              -32.82
+            ],
+            [
+              -69.99,
+              -32.81
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "tren",
+          "etiqueta": "TREN"
+        },
+        {
+          "id": "mula-1904",
+          "puntos": [
+            [
+              -69.99,
+              -32.81
+            ],
+            [
+              -70.03,
+              -32.82
+            ],
+            [
+              -70.0708,
+              -32.8253
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 4,
+          "dice": "mula"
+        }
+      ]
+    }
+  }
+}
