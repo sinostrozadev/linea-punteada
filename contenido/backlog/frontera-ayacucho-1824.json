@@ -1,0 +1,474 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-ayacucho-1824",
+  "titulo": "Ayacucho: España cayó en horas, pero la paz tardó 55 años 🇵🇪🇪🇸",
+  "descripcion": "El 9 de diciembre de 1824, en la pampa de la Quinua (Ayacucho, Perú), el ejército del virrey José de La Serna cayó en unas horas ante el de Sucre. Ese día, con el virrey herido y preso, Canterac firmó la capitulación. Pero Rodil resistió en el Real Felipe del Callao hasta enero de 1826, y España recién firmó la paz con el Perú en el tratado de París de 1879, que se cita como su reconocimiento de la independencia. A 202 años de Ayacucho, ¿cuándo terminó de verdad? Cuéntanos.\n\nFuentes:\n- https://es.wikisource.org/wiki/Capitulaci%C3%B3n_de_Ayacucho\n- https://es.wikipedia.org/wiki/Batalla_de_Ayacucho\n- https://elperuano.pe/noticia/259458-que-establece-la-capitulacion-de-ayacucho-el-documento-que-puso-fin-al-poder-de-espana-en-el-peru\n- https://history.state.gov/historicaldocuments/frus1880/d538\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#ayacucho",
+    "#peru",
+    "#historia",
+    "#independencia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-ayacucho-1824",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/Z51DtnpA9K8",
+    "cabecera": "AYACUCHO — EL FIN DEL VIRREINATO",
+    "acento": "coral",
+    "gancho": {
+      "texto": "En Ayacucho, en 1824, España perdió en unas horas al ejército del virrey del Perú, pero tardó 55 años en firmar la paz.",
+      "rotulo": "AYACUCHO 1824",
+      "planos": [
+        {
+          "centro": [
+            -75.2,
+            -10.5
+          ],
+          "zoom": 6.0,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -74.4,
+            -12.8
+          ],
+          "zoom": 7.4,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "virrey"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -74.131,
+          "lat": -13.043,
+          "texto": "PAMPA DE LA QUINUA",
+          "tipo": "pin",
+          "aparecerEn": "Ayacucho"
+        }
+      ],
+      "clave": [
+        "Ayacucho",
+        "horas",
+        "55"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "La batalla fue el 9 de diciembre, en la pampa de la Quinua, sobre los 3.000 metros. Según el parte de Sucre, unos 6.000 patriotas vencieron a unos 9.000 realistas, aunque los registros de cada ejército los dan casi parejos.",
+        "rotulo": {
+          "texto": "9 DIC 1824",
+          "dice": "diciembre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -74.131,
+              -13.043
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.131,
+              -13.043
+            ],
+            "zoom": 10.0,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Sucre"
+          },
+          {
+            "centro": [
+              -74.14,
+              -13.05
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "registros"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -74.131,
+            "lat": -13.043,
+            "texto": "PAMPA DE LA QUINUA",
+            "tipo": "pin",
+            "aparecerEn": "Quinua"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "6.000 VS 9.000",
+            "sub": "SEGÚN EL PARTE DE SUCRE",
+            "icono": "⚔️",
+            "aparecerEn": "patriotas",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Quinua",
+          "6.000",
+          "9.000"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El general José María Córdova, de 25 años, lanzó a su división con una orden: «Armas a discreción, paso de vencedores».",
+        "rotulo": {
+          "texto": "CÓRDOVA",
+          "dice": "Córdova"
+        },
+        "planos": [
+          {
+            "centro": [
+              -74.125,
+              -13.04
+            ],
+            "zoom": 10.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.135,
+              -13.045
+            ],
+            "zoom": 11.1,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "orden"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -74.131,
+            "lat": -13.043,
+            "icono": "⚔️",
+            "escala": 1.2,
+            "aparecerEn": "división"
+          }
+        ],
+        "clave": [
+          "Córdova",
+          "25",
+          "vencedores"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Hacia la una de la tarde, el virrey José de La Serna estaba herido y prisionero. Con él cayeron muchos de sus oficiales.",
+        "rotulo": {
+          "texto": "VIRREY PRESO",
+          "dice": "prisionero"
+        },
+        "planos": [
+          {
+            "centro": [
+              -74.135,
+              -13.045
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.13,
+              -13.042
+            ],
+            "zoom": 11.7,
+            "entrada": "corte",
+            "deriva": 0.1,
+            "en": "herido"
+          },
+          {
+            "centro": [
+              -74.131,
+              -13.043
+            ],
+            "zoom": 11.0,
+            "entrada": "zoom",
+            "deriva": -0.2,
+            "en": "cayeron"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -74.135,
+            "lat": -13.045,
+            "icono": "👑",
+            "escala": 1.3,
+            "aparecerEn": "virrey"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "13:00",
+            "sub": "EL VIRREY, HERIDO Y PRESO",
+            "icono": "👑",
+            "aparecerEn": "tarde",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "virrey",
+          "herido",
+          "prisionero"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Ese mismo día, en el campo de batalla, el general Canterac firmó la capitulación con Sucre. Perú pagaría el pasaje a España de los soldados que quisieran volver.",
+        "rotulo": {
+          "texto": "CAPITULACIÓN",
+          "dice": "capitulación"
+        },
+        "planos": [
+          {
+            "centro": [
+              -74.131,
+              -13.043
+            ],
+            "zoom": 10.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -75.6,
+              -12.5
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "pasaje"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "9 DIC 1824",
+            "sub": "CAPITULACIÓN DE AYACUCHO",
+            "icono": "📜",
+            "aparecerEn": "firmó",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -77.549,
+            "lat": -12.061,
+            "icono": "⛵",
+            "escala": 1,
+            "aparecerEn": "volver"
+          }
+        ],
+        "clave": [
+          "Canterac",
+          "capitulación",
+          "pasaje"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "El acuerdo prometía entregar el Callao en veinte días. El jefe de la plaza, José Ramón Rodil, no lo aceptó y resistió en la fortaleza del Real Felipe hasta enero de 1826.",
+        "rotulo": {
+          "texto": "REAL FELIPE",
+          "dice": "Felipe"
+        },
+        "planos": [
+          {
+            "centro": [
+              -77.149,
+              -12.061
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -77.149,
+              -12.071
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "resistió"
+          },
+          {
+            "centro": [
+              -77.149,
+              -12.061
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Felipe"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.149,
+            "lat": -12.061,
+            "texto": "CALLAO",
+            "tipo": "pin",
+            "aparecerEn": "Callao"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -77.149,
+            "lat": -12.071,
+            "icono": "🏰",
+            "escala": 1.2,
+            "aparecerEn": "fortaleza"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "ENERO 1826",
+            "sub": "RODIL SE RINDE",
+            "icono": "🏰",
+            "aparecerEn": "enero",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "veinte",
+          "Rodil",
+          "1826"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "España recién firmó la paz con el Perú en 1879, en un tratado de París, en plena Guerra del Pacífico. Con él se suele fechar su reconocimiento de la independencia.",
+        "rotulo": {
+          "texto": "1879",
+          "dice": "1879"
+        },
+        "planos": [
+          {
+            "centro": [
+              -75.2,
+              -10.5
+            ],
+            "zoom": 6.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -75.2,
+              -10.5
+            ],
+            "zoom": 6.3,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "París"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Peru",
+            "color": "rojo",
+            "trama": "solida",
+            "aparecerEn": "Perú",
+            "quedarse": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "14 AGO 1879",
+            "sub": "TRATADO DE PARÍS",
+            "icono": "📜",
+            "aparecerEn": "tratado",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1879",
+          "París",
+          "Pacífico"
+        ]
+      }
+    ],
+    "remate": "¿Cuándo terminó de verdad el imperio: en 1824, en 1826 o en 1879?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -75.6,
+          -12.6
+        ],
+        "zoom": 7.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -74.131,
+        "lat": -13.043,
+        "texto": "¿1824?"
+      },
+      {
+        "lon": -77.149,
+        "lat": -12.061,
+        "texto": "¿1826?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Capitulación de Ayacucho, texto íntegro (firmada por Canterac y Sucre en el campo de Ayacucho el 9-12-1824; La Serna 'herido y prisionero'; Callao a entregar en veinte días; pasaje de regreso)",
+        "url": "https://es.wikisource.org/wiki/Capitulaci%C3%B3n_de_Ayacucho"
+      },
+      {
+        "texto": "Wikipedia: Batalla de Ayacucho (pampa de la Quinua; cifras de tropas en varias versiones; virrey preso hacia la una de la tarde; orden de Córdova)",
+        "url": "https://es.wikipedia.org/wiki/Batalla_de_Ayacucho"
+      },
+      {
+        "texto": "El Peruano: qué establece la Capitulación de Ayacucho (Sucre a Bolívar: unos 6.000 contra 9.000; pasaje de regreso)",
+        "url": "https://elperuano.pe/noticia/259458-que-establece-la-capitulacion-de-ayacucho-el-documento-que-puso-fin-al-poder-de-espana-en-el-peru"
+      },
+      {
+        "texto": "Wikipedia: Capitulación de Ayacucho (Rodil resiste en el Real Felipe hasta el 22-01-1826)",
+        "url": "https://es.wikipedia.org/wiki/Capitulaci%C3%B3n_de_Ayacucho"
+      },
+      {
+        "texto": "Wikipedia: Tratado de París del 14 de agosto de 1879 (paz entre Perú y España; citado como reconocimiento de la independencia)",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_Par%C3%ADs_(14_de_agosto_de_1879)"
+      },
+      {
+        "texto": "FRUS 1880, doc. 538: tratado de paz entre Perú y España firmado en París (agosto 1879)",
+        "url": "https://history.state.gov/historicaldocuments/frus1880/d538"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 12,
+      "centro": [
+        -75.2,
+        -10.5
+      ],
+      "zoomInicial": 6.0,
+      "zoomFinal": 6.4,
+      "lineas": []
+    }
+  }
+}

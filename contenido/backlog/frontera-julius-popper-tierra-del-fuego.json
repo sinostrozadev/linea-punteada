@@ -1,0 +1,693 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-julius-popper-tierra-del-fuego",
+  "titulo": "Tierra del Fuego: un rumano tuvo su propia moneda de oro 🇨🇱🇦🇷",
+  "descripcion": "En 1889, en Tierra del Fuego, el ingeniero rumano Julius Popper mandó acuñar su propia moneda de oro en una isla que Chile y Argentina se habían repartido en 1881. Con mapas: el oro de El Páramo en la bahía San Sebastián, las piezas de 1 y 5 gramos de Lavaderos de Oro del Sud, la estampilla de 1891 para pagar el reparto de sus cartas hasta un correo oficial, sus choques con los gobernadores y su muerte en 1893. Sus hombres participaron además en las matanzas de los selk'nam. ¿Empresario audaz o invasor? Cuéntanos.\n\nFuentes:\n- https://es.wikipedia.org/wiki/Julio_Popper\n- https://en.wikipedia.org/wiki/Julius_Popper\n- https://patfotos.org/eng/VwSCTM/popper1.html\n- https://www.firstissues.org/countries/tdf.html\n- https://es.wikipedia.org/wiki/Tratado_de_L%C3%ADmites_de_1881_entre_Argentina_y_Chile\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#tierradelfuego",
+    "#patagonia",
+    "#historia",
+    "#chile",
+    "#argentina"
+  ],
+  "props": {
+    "id": "pendiente-frontera-julius-popper-tierra-del-fuego",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
+    "cabecera": "TIERRA DEL FUEGO — EL ORO DE POPPER",
+    "acento": "cian",
+    "gancho": {
+      "texto": "En Tierra del Fuego, en 1889, un ingeniero rumano mandó acuñar su propia moneda de oro en una isla repartida entre Chile y Argentina.",
+      "rotulo": "1889",
+      "planos": [
+        {
+          "centro": [
+            -68.4,
+            -53.8
+          ],
+          "zoom": 7.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -68.3,
+            -53.4
+          ],
+          "zoom": 7.9,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "isla"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "Argentina",
+          "color": "azul",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -68.6,
+          "lat": -54.25,
+          "texto": "TIERRA DEL FUEGO",
+          "tipo": "region",
+          "aparecerEn": "Fuego"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "CL",
+          "lon": -70.1,
+          "lat": -53.5,
+          "mirar": [
+            -67.2,
+            -53.8
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "AR",
+          "lon": -67.2,
+          "lat": -53.8,
+          "mirar": [
+            -70.1,
+            -53.5
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "1889",
+        "oro",
+        "rumano"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "Julius Popper nació en Bucarest en 1857. En 1886 desembarcó en la isla buscando oro, con una expedición.",
+        "rotulo": {
+          "texto": "1886",
+          "dice": "1886"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.3,
+              -53.4
+            ],
+            "zoom": 8.2,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.27,
+              -53.25
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "1886"
+          },
+          {
+            "centro": [
+              -68.23,
+              -53.12
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "isla"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "BUCAREST 1857",
+            "sub": "NACE JULIUS POPPER",
+            "icono": "📜",
+            "aparecerEn": "Bucarest",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.23,
+            "lat": -53.09,
+            "icono": "⛏️",
+            "escala": 1,
+            "aparecerEn": "oro"
+          }
+        ],
+        "clave": [
+          "Bucarest",
+          "1857",
+          "oro"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La isla estaba partida desde 1881. El tratado trazó una línea recta desde el cabo Espíritu Santo hasta el canal Beagle: el oeste para Chile, el este para Argentina.",
+        "rotulo": {
+          "texto": "1881",
+          "dice": "1881"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.6,
+              -53.8
+            ],
+            "zoom": 7.3,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.6,
+              -53.0
+            ],
+            "zoom": 7.9,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Espíritu"
+          },
+          {
+            "centro": [
+              -68.6,
+              -54.5
+            ],
+            "zoom": 7.9,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "Beagle"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.6,
+            "lat": -52.65,
+            "texto": "CABO ESPÍRITU SANTO",
+            "tipo": "pin",
+            "aparecerEn": "Espíritu"
+          },
+          {
+            "lon": -68.2,
+            "lat": -54.93,
+            "texto": "CANAL BEAGLE",
+            "tipo": "mar",
+            "aparecerEn": "Beagle"
+          },
+          {
+            "lon": -69.8,
+            "lat": -53.8,
+            "texto": "CHILE",
+            "tipo": "pais",
+            "aparecerEn": "oeste"
+          },
+          {
+            "lon": -67.6,
+            "lat": -54.0,
+            "texto": "ARGENTINA",
+            "tipo": "pais",
+            "aparecerEn": "este"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1881",
+            "sub": "TRATADO DE LÍMITES",
+            "icono": "📜",
+            "aparecerEn": "tratado",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1881",
+          "línea",
+          "Beagle"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Popper encontró oro en la arena de El Páramo, una lengua de tierra en la bahía San Sebastián, a unos 20 kilómetros de esa línea, del lado argentino.",
+        "rotulo": {
+          "texto": "EL PÁRAMO",
+          "dice": "Páramo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.35,
+              -53.2
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.25,
+              -53.1
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Páramo"
+          },
+          {
+            "centro": [
+              -68.4,
+              -53.1
+            ],
+            "zoom": 9.9,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "kilómetros"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.23,
+            "lat": -53.09,
+            "texto": "EL PÁRAMO",
+            "tipo": "pin",
+            "aparecerEn": "Páramo"
+          },
+          {
+            "lon": -68.45,
+            "lat": -53.28,
+            "texto": "BAHÍA SAN SEBASTIÁN",
+            "tipo": "mar",
+            "aparecerEn": "bahía"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -68.567,
+              -53.09
+            ],
+            "hasta": [
+              -68.23,
+              -53.09
+            ],
+            "texto": "~22 KM",
+            "aparecerEn": "kilómetros"
+          }
+        ],
+        "clave": [
+          "oro",
+          "Páramo",
+          "20"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En Buenos Aires mandó acuñar piezas de oro de 1 y 5 gramos. La de un gramo lleva grabado El Páramo.",
+        "rotulo": {
+          "texto": "1 Y 5 GRAMOS",
+          "dice": "gramos"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.23,
+              -53.09
+            ],
+            "zoom": 10.1,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.23,
+            "lat": -53.09,
+            "icono": "🪙",
+            "escala": 1.4,
+            "aparecerEn": "piezas"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1 G · 5 G DE ORO",
+            "sub": "ORO DE EL PÁRAMO, 1889",
+            "icono": "🪙",
+            "aparecerEn": "acuñar",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "acuñar",
+          "gramos",
+          "Páramo"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1891 emitió su propia estampilla de diez centavos, para pagar el reparto de sus cartas hasta un correo oficial, como el de Punta Arenas.",
+        "rotulo": {
+          "texto": "10 CENTAVOS",
+          "dice": "centavos"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.5,
+              -53.12
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -53.15
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "reparto"
+          },
+          {
+            "centro": [
+              -70.0,
+              -53.15
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "correo"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.23,
+            "lat": -53.09,
+            "icono": "✉️",
+            "ruta": [
+              [
+                -68.23,
+                -53.09
+              ],
+              [
+                -69.5,
+                -53.0
+              ],
+              [
+                -70.91,
+                -53.16
+              ]
+            ],
+            "duracionSeg": 4,
+            "escala": 1,
+            "aparecerEn": "cartas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.91,
+            "lat": -53.16,
+            "texto": "PUNTA ARENAS",
+            "tipo": "pin",
+            "aparecerEn": "oficial"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1891",
+            "sub": "LA ESTAMPILLA DE POPPER",
+            "icono": "✉️",
+            "aparecerEn": "estampilla",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1891",
+          "estampilla",
+          "correo"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Tenía una guardia propia, uniformada y armada, y chocó con los dos primeros gobernadores. Sus hombres participaron además en las matanzas de los selk'nam, el pueblo originario de la isla.",
+        "rotulo": {
+          "texto": "GUARDIA PROPIA",
+          "dice": "guardia"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.35,
+              -53.3
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.5,
+              -53.6
+            ],
+            "zoom": 7.9,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "chocó"
+          },
+          {
+            "centro": [
+              -68.7,
+              -53.5
+            ],
+            "zoom": 7.9,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "matanzas"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -68.23,
+            "lat": -53.09,
+            "icono": "🛡️",
+            "escala": 1.1,
+            "aparecerEn": "armada"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -70.1,
+            "lat": -53.5,
+            "mirar": [
+              -68.23,
+              -53.09
+            ],
+            "expresion": "normal",
+            "escala": 0.9,
+            "aparecerEn": "gobernadores",
+            "desaparecerEn": "hombres"
+          },
+          {
+            "pais": "AR",
+            "lon": -67.2,
+            "lat": -53.8,
+            "mirar": [
+              -68.23,
+              -53.09
+            ],
+            "expresion": "normal",
+            "escala": 0.9,
+            "aparecerEn": "gobernadores",
+            "desaparecerEn": "hombres"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.9,
+            "lat": -53.5,
+            "texto": "TERRITORIO SELK'NAM",
+            "tipo": "region",
+            "aparecerEn": "selk'nam"
+          }
+        ],
+        "clave": [
+          "guardia",
+          "gobernadores",
+          "selk'nam"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Murió de repente en Buenos Aires en 1893, y su empresa se deshizo. Sus monedas hoy se rematan entre coleccionistas.",
+        "rotulo": {
+          "texto": "1893",
+          "dice": "1893"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.5,
+              -44.0
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.4,
+              -34.6
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Aires"
+          },
+          {
+            "centro": [
+              -58.4,
+              -34.6
+            ],
+            "zoom": 7.8,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "monedas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.38,
+            "lat": -34.6,
+            "texto": "BUENOS AIRES",
+            "tipo": "pin",
+            "aparecerEn": "Aires"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "MUERE EN 1893",
+            "sub": "BUENOS AIRES",
+            "icono": "🕯️",
+            "aparecerEn": "repente",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1893",
+          "monedas",
+          "coleccionistas"
+        ]
+      }
+    ],
+    "remate": "¿Fue Popper un empresario audaz o un invasor de tierras ajenas?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -68.6,
+          -53.8
+        ],
+        "zoom": 7.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -70.0,
+        "lat": -53.6,
+        "texto": "¿EMPRESARIO?"
+      },
+      {
+        "lon": -67.3,
+        "lat": -53.9,
+        "texto": "¿INVASOR?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Julio Popper (Bucarest 1857; Buenos Aires 1885; expedición sept. 1886; El Páramo; monedas de 1 y 5 g, 1889; estampilla de 10 centavos (sobretasa del reparto de cartas), 1891; guardia uniformada; muerte 1893)",
+        "url": "https://es.wikipedia.org/wiki/Julio_Popper"
+      },
+      {
+        "texto": "Wikipedia (EN): Julius Popper (El Páramo en la bahía San Sebastián; inscripciones de las monedas; ejército privado; muerte repentina 5-06-1893)",
+        "url": "https://en.wikipedia.org/wiki/Julius_Popper"
+      },
+      {
+        "texto": "Coins and Tokens of Southern Patagonia: 1 gramo 1889 'EL PARAMO UN GRAMO', acuñado en Buenos Aires",
+        "url": "https://patfotos.org/eng/VwSCTM/popper1.html"
+      },
+      {
+        "texto": "First Issues Collectors Club: estampilla Tierra del Fuego 1891 (10 centavos oro, correo a Ushuaia o Punta Arenas)",
+        "url": "https://www.firstissues.org/countries/tdf.html"
+      },
+      {
+        "texto": "Odone y Palma, La muerte exhibida: fotografías de Julius Popper en Tierra del Fuego (2003)",
+        "url": "http://www.rchav.cl/2004_4_ame12_odone_&_palma.html"
+      },
+      {
+        "texto": "Memoria Chilena: exterminio selk'nam",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-93345.html"
+      },
+      {
+        "texto": "Wikipedia: Félix Mariano Paz y Mario Cornero (choques con Popper)",
+        "url": "https://es.wikipedia.org/wiki/F%C3%A9lix_Mariano_Paz"
+      },
+      {
+        "texto": "Tratado de Límites de 1881, art. 3 (meridiano 68°34' desde el cabo Espíritu Santo al canal Beagle)",
+        "url": "https://es.wikipedia.org/wiki/Tratado_de_L%C3%ADmites_de_1881_entre_Argentina_y_Chile"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -68.4,
+        -53.8
+      ],
+      "zoomInicial": 7.2,
+      "zoomFinal": 7.6,
+      "lineas": [
+        {
+          "id": "meridiano-1881",
+          "puntos": [
+            [
+              -68.567,
+              -52.66
+            ],
+            [
+              -68.567,
+              -54.88
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "línea",
+          "etiqueta": "LÍMITE 1881"
+        }
+      ]
+    }
+  }
+}
