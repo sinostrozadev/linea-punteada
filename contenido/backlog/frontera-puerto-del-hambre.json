@@ -1,0 +1,654 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-puerto-del-hambre",
+  "titulo": "Puerto del Hambre: la fundó España, la bautizó un inglés 🇨🇱🇬🇧",
+  "descripcion": "En 1584, Pedro Sarmiento de Gamboa fundó en el estrecho de Magallanes la ciudad Rey Don Felipe: Felipe II quería cerrarle el paso a los corsarios ingleses tras el viaje de Drake de 1578. Sarmiento salió a buscar ayuda, cayó preso de los ingleses en 1586 y no volvió. Unas 300 personas murieron de hambre y frío. En 1587 Thomas Cavendish encontró las ruinas, se llevó a un sobreviviente, Tomé Hernández, y bautizó el lugar Port Famine: Puerto del Hambre, cerca de Punta Arenas. ¿De quién fue la culpa?\n\nFuentes:\nhttps://www.memoriachilena.gob.cl/602/w3-article-94467.html\nhttps://es.wikipedia.org/wiki/Puerto_del_Hambre\nhttps://es.wikipedia.org/wiki/Pedro_Sarmiento_de_Gamboa\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#chile",
+    "#magallanes",
+    "#historia",
+    "#geografia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-puerto-del-hambre",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/7N0LQwZIPII",
+    "cabecera": "ESTRECHO — PUERTO DEL HAMBRE",
+    "acento": "coral",
+    "gancho": {
+      "texto": "En 1584 España fundó una ciudad en el estrecho de Magallanes para frenar a los ingleses; un inglés la bautizó Puerto del Hambre. El nombre sigue en el mapa de Chile.",
+      "rotulo": "HAMBRE",
+      "planos": [
+        {
+          "centro": [
+            -70.6,
+            -53.1
+          ],
+          "zoom": 6.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -70.9,
+            -53.5
+          ],
+          "zoom": 7.2,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "bautizó"
+        },
+        {
+          "centro": [
+            -70.9,
+            -53.4
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "mapa"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -71.4,
+          "lat": -52.6,
+          "texto": "ESTRECHO DE MAGALLANES",
+          "tipo": "mar",
+          "aparecerEn": "estrecho"
+        },
+        {
+          "lon": -70.934,
+          "lat": -53.608,
+          "texto": "PUERTO DEL HAMBRE",
+          "tipo": "pin",
+          "aparecerEn": "Puerto"
+        }
+      ],
+      "clave": [
+        "1584",
+        "ingleses",
+        "Hambre"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1578 Francis Drake cruzó el estrecho, saqueó Valparaíso y se llevó un barco con vino chileno. Felipe Segundo quiso cerrar esa puerta.",
+        "rotulo": {
+          "texto": "DRAKE 1578",
+          "dice": "Drake"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71.5,
+              -43
+            ],
+            "zoom": 4.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.6,
+              -34.5
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Valparaíso"
+          },
+          {
+            "centro": [
+              -71,
+              -52.8
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Felipe"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -71.62,
+            "lat": -33.05,
+            "texto": "VALPARAÍSO",
+            "tipo": "pin",
+            "aparecerEn": "Valparaíso"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -74.5,
+            "lat": -52.6,
+            "icono": "⛵",
+            "ruta": [
+              [
+                -74.5,
+                -52.6
+              ],
+              [
+                -76,
+                -45
+              ],
+              [
+                -72.6,
+                -33.3
+              ]
+            ],
+            "duracionSeg": 4,
+            "escala": 1,
+            "aparecerEn": "cruzó"
+          },
+          {
+            "lon": -72.2,
+            "lat": -33.4,
+            "icono": "🍷",
+            "escala": 1,
+            "aparecerEn": "vino"
+          }
+        ],
+        "clave": [
+          "1578",
+          "Drake",
+          "Valparaíso"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Mandó a Pedro Sarmiento de Gamboa. Salió de España con más de veinte barcos y de Brasil partió con cinco.",
+        "rotulo": {
+          "texto": "SOLO 5",
+          "dice": "cinco"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.6,
+              -52.7
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.8,
+              -52.4
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Brasil"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.45,
+            "lat": -52.33,
+            "texto": "ENTRADA ATLÁNTICA",
+            "tipo": "pin",
+            "aparecerEn": "cinco"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "+20 → 5",
+            "sub": "BARCOS DE LA EXPEDICIÓN",
+            "icono": "⛵",
+            "aparecerEn": "cinco",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Sarmiento",
+          "veinte",
+          "cinco"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 25 de marzo fundó Rey Don Felipe, con iglesia y calles trazadas. Bajo la primera piedra enterró una moneda de plata.",
+        "rotulo": {
+          "texto": "REY DON FELIPE",
+          "dice": "Felipe"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.9,
+              -53.5
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.93,
+              -53.61
+            ],
+            "zoom": 10,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "piedra"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.934,
+            "lat": -53.608,
+            "texto": "REY DON FELIPE",
+            "tipo": "pin",
+            "aparecerEn": "Rey"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.9,
+            "lat": -53.58,
+            "icono": "🪙",
+            "escala": 1,
+            "aparecerEn": "moneda"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "25 MAR 1584",
+            "sub": "FUNDACIÓN",
+            "icono": "📜",
+            "aparecerEn": "marzo",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "marzo",
+          "iglesia",
+          "moneda"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Sarmiento zarpó a buscar ayuda y nunca volvió. En 1586 lo capturaron corsarios ingleses y la reina Isabel lo interrogó en latín. Y el socorro nunca llegó.",
+        "rotulo": {
+          "texto": "NUNCA VOLVIÓ",
+          "dice": "volvió"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.6,
+              -53.3
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.5,
+              -52.6
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "volvió"
+          },
+          {
+            "centro": [
+              -69.5,
+              -52.6
+            ],
+            "zoom": 6.4,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "socorro"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.8,
+            "lat": -53.4,
+            "icono": "⛵",
+            "ruta": [
+              [
+                -70.8,
+                -53.4
+              ],
+              [
+                -70.2,
+                -52.8
+              ],
+              [
+                -68.3,
+                -52.4
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 1,
+            "aparecerEn": "zarpó"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1586",
+            "sub": "PRESO DE LOS INGLESES",
+            "icono": "⚓",
+            "aparecerEn": "capturaron",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Sarmiento",
+          "1586",
+          "Isabel"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Quedaron unas 300 personas. Comieron mariscos y murieron de hambre y de frío, invierno tras invierno.",
+        "rotulo": {
+          "texto": "300",
+          "dice": "300"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.93,
+              -53.6
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.93,
+              -53.6
+            ],
+            "zoom": 9.8,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "invierno"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.934,
+            "lat": -53.608,
+            "texto": "REY DON FELIPE",
+            "tipo": "pin",
+            "aparecerEn": "Quedaron"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.86,
+            "lat": -53.56,
+            "icono": "❄️",
+            "escala": 1.2,
+            "aparecerEn": "frío"
+          }
+        ],
+        "clave": [
+          "300",
+          "hambre",
+          "frío"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "En 1587 llegó el corsario Thomas Cavendish. Halló la ciudad vacía y casi sin sobrevivientes. Se llevó a uno, Tomé Hernández, y bautizó el lugar Port Famine: Puerto del Hambre.",
+        "rotulo": {
+          "texto": "PORT FAMINE",
+          "dice": "Famine"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.4,
+              -53.0
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.93,
+              -53.6
+            ],
+            "zoom": 9,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "ciudad"
+          },
+          {
+            "centro": [
+              -70.93,
+              -53.6
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "Famine"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.2,
+            "lat": -52.9,
+            "icono": "⛵",
+            "ruta": [
+              [
+                -70.2,
+                -52.9
+              ],
+              [
+                -70.85,
+                -53.55
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 1,
+            "aparecerEn": "llegó"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.934,
+            "lat": -53.608,
+            "texto": "PORT FAMINE",
+            "tipo": "pin",
+            "aparecerEn": "Famine"
+          }
+        ],
+        "clave": [
+          "1587",
+          "Cavendish",
+          "Hambre"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Las ruinas están cerca de Punta Arenas. Ahí, arqueólogos chilenos hallaron la moneda justo donde Sarmiento escribió que la dejó, 440 años después.",
+        "rotulo": {
+          "texto": "440 AÑOS",
+          "dice": "440"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.93,
+              -53.38
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.4
+          },
+          {
+            "centro": [
+              -70.93,
+              -53.5
+            ],
+            "zoom": 7.6,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "moneda"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.917,
+            "lat": -53.163,
+            "texto": "PUNTA ARENAS",
+            "tipo": "pin",
+            "aparecerEn": "Punta"
+          },
+          {
+            "lon": -70.934,
+            "lat": -53.608,
+            "texto": "PUERTO DEL HAMBRE",
+            "tipo": "pin",
+            "aparecerEn": "ruinas"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.9,
+            "lat": -53.6,
+            "icono": "🪙",
+            "escala": 1.2,
+            "aparecerEn": "moneda"
+          }
+        ],
+        "clave": [
+          "Punta Arenas",
+          "moneda",
+          "440"
+        ]
+      }
+    ],
+    "remate": "¿La culpa fue de Sarmiento o de Felipe Segundo?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.6,
+          -53.1
+        ],
+        "zoom": 6.4,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -71.6,
+        "lat": -52.4,
+        "texto": "¿SARMIENTO?"
+      },
+      {
+        "lon": -69.6,
+        "lat": -53.8,
+        "texto": "¿EL REY?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Memoria Chilena: Pedro Sarmiento de Gamboa (Nombre de Jesús y Rey Don Felipe, 1584; Cavendish la llama Port Famine)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-94467.html"
+      },
+      {
+        "texto": "Museo Regional de Magallanes: descubrimiento e intentos de conquista",
+        "url": "https://museodemagallanes.gob.cl/multimedia/discovery-and-attempts-conquer"
+      },
+      {
+        "texto": "Wikipedia: Puerto del Hambre (fundación 25-03-1584, Cavendish 1587, Tomé Hernández)",
+        "url": "https://es.wikipedia.org/wiki/Puerto_del_Hambre"
+      },
+      {
+        "texto": "Wikipedia: Pedro Sarmiento de Gamboa (captura 1586, Isabel I, abandono de la colonia)",
+        "url": "https://es.wikipedia.org/wiki/Pedro_Sarmiento_de_Gamboa"
+      },
+      {
+        "texto": "Wikipedia (en): intento de colonización española del estrecho (~300 colonos, mariscos y canelo)",
+        "url": "https://en.wikipedia.org/wiki/Spanish_colonization_attempt_of_the_Strait_of_Magellan"
+      },
+      {
+        "texto": "El Mostrador (2026): la moneda de Sarmiento hallada en la iglesia de Rey Don Felipe",
+        "url": "https://www.elmostrador.cl/cultura/2026/04/22/pista-desvela-colonia-donde-337-espanoles-murieron-de-hambre-en-la-patagonia-chilena/"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -70.6,
+        -53.1
+      ],
+      "zoomInicial": 6.2,
+      "zoomFinal": 6.6,
+      "lineas": [
+        {
+          "id": "estrecho",
+          "puntos": [
+            [
+              -68.4,
+              -52.4
+            ],
+            [
+              -69.6,
+              -52.5
+            ],
+            [
+              -70.3,
+              -52.75
+            ],
+            [
+              -70.75,
+              -53.15
+            ],
+            [
+              -70.93,
+              -53.6
+            ],
+            [
+              -71.3,
+              -53.9
+            ],
+            [
+              -72.4,
+              -53.6
+            ],
+            [
+              -73.6,
+              -53.0
+            ],
+            [
+              -74.7,
+              -52.7
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": -1,
+          "dice": "estrecho",
+          "etiqueta": "LA PUERTA"
+        }
+      ]
+    }
+  }
+}
