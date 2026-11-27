@@ -1,0 +1,807 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-guerra-por-10-centavos",
+  "titulo": "Antofagasta: la guerra de 3 países empezó con 10 centavos 🇨🇱🇧🇴🇵🇪",
+  "descripcion": "Una guerra que cambió el mapa de Chile, Bolivia y Perú empezó con un impuesto de 10 centavos por quintal de salitre. El tratado de 1874 fijó la frontera en el paralelo 24 y prohibió a Bolivia subir impuestos a capitales chilenos por 25 años. En 1878 Bolivia condicionó el contrato de la Compañía de Salitres y Ferrocarril de Antofagasta a ese impuesto; Chile lo vio como una ruptura del tratado y Bolivia como un asunto interno con una empresa. El 14 de febrero de 1879, día del remate de la compañía, Chile ocupó Antofagasta. ¿Quién rompió primero el tratado?\n\nFuentes:\nhttps://es.wikipedia.org/wiki/Impuesto_de_los_10_centavos\nhttps://en.wikipedia.org/wiki/War_of_the_Pacific\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#bolivia",
+    "#chile",
+    "#peru",
+    "#guerradelpacifico",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-guerra-por-10-centavos",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/watch?v=_GxuFjpP4MM",
+    "cabecera": "ANTOFAGASTA — EL IMPUESTO DE 1878",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "Una guerra que cambió el mapa de Chile, Bolivia y Perú empezó con un impuesto de 10 centavos.",
+      "rotulo": "10 CENTAVOS",
+      "planos": [
+        {
+          "centro": [
+            -68.8,
+            -21.5
+          ],
+          "zoom": 5.0,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -69.6,
+            -22.6
+          ],
+          "zoom": 6.4,
+          "entrada": "corte",
+          "deriva": 0.3,
+          "en": "impuesto"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Chile",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0
+        },
+        {
+          "pais": "Bolivia",
+          "color": "verde",
+          "trama": "plena",
+          "aparecerEn": 0
+        },
+        {
+          "pais": "Peru",
+          "color": "violeta",
+          "trama": "plena",
+          "aparecerEn": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.6,
+          "lat": -27.5,
+          "texto": "CHILE",
+          "tipo": "pais",
+          "aparecerEn": "Chile"
+        },
+        {
+          "lon": -65.5,
+          "lat": -17.5,
+          "texto": "BOLIVIA",
+          "tipo": "pais",
+          "aparecerEn": "Bolivia"
+        },
+        {
+          "lon": -73.5,
+          "lat": -13.0,
+          "texto": "PERÚ",
+          "tipo": "pais",
+          "aparecerEn": "Perú"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -70.4,
+          "lat": -23.65,
+          "icono": "dinero",
+          "escala": 1.2,
+          "aparecerEn": "centavos"
+        }
+      ],
+      "clave": [
+        "mapa",
+        "10",
+        "centavos"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1874 Chile y Bolivia firmaron un tratado. La frontera quedaba en el paralelo 24, y Bolivia prometía no subir impuestos a capitales chilenos durante 25 años.",
+        "rotulo": {
+          "texto": "1874",
+          "dice": "1874"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.2,
+              -23.4
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.2,
+              -23.6
+            ],
+            "zoom": 6.8,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Bolivia#2"
+          }
+        ],
+        "etiquetas": [
+          {
+            "texto": "TRATADO DE 1874",
+            "tipo": "contexto",
+            "aparecerEn": "tratado",
+            "desaparecerEn": "Bolivia#2"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "25 AÑOS",
+            "sub": "SIN SUBIR IMPUESTOS",
+            "icono": "📜",
+            "aparecerEn": "25",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1874",
+          "paralelo",
+          "25"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En Antofagasta, entonces boliviana, el salitre lo sacaba una compañía de Valparaíso con capitales chilenos y un socio británico. La mayoría de la ciudad era chilena.",
+        "rotulo": {
+          "texto": "SALITRE",
+          "dice": "salitre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.3,
+              -22.6
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.38,
+              -23.64
+            ],
+            "zoom": 10.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "salitre"
+          },
+          {
+            "centro": [
+              -70.38,
+              -23.64
+            ],
+            "zoom": 10.4,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "mayoría"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.06,
+                -21.43
+              ],
+              [
+                -69.0,
+                -21.3
+              ],
+              [
+                -68.2,
+                -21.2
+              ],
+              [
+                -68.05,
+                -22.0
+              ],
+              [
+                -67.7,
+                -22.8
+              ],
+              [
+                -67.0,
+                -23.0
+              ],
+              [
+                -67.3,
+                -24.0
+              ],
+              [
+                -70.55,
+                -24.0
+              ],
+              [
+                -70.45,
+                -23.4
+              ],
+              [
+                -70.3,
+                -22.6
+              ],
+              [
+                -70.2,
+                -21.9
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "solida",
+            "etiqueta": "LITORAL BOLIVIANO",
+            "aparecerEn": "boliviana",
+            "desaparecerEn": "salitre"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.4,
+            "lat": -23.65,
+            "texto": "ANTOFAGASTA",
+            "tipo": "pin",
+            "aparecerEn": "Antofagasta"
+          },
+          {
+            "texto": "CAPITAL CHILENO Y BRITÁNICO",
+            "tipo": "contexto",
+            "aparecerEn": "capitales"
+          }
+        ],
+        "foto": {
+          "buscar": "Antofagasta 1876 muelle salitreras",
+          "archivo": "File:Vista del muelle ferroviario y salitreras en Antofagasta 1876.jpg",
+          "pie": "ANTOFAGASTA EN 1876 · MUELLE Y SALITRERAS",
+          "aparecerEn": "compañía",
+          "duracionSeg": 2.8
+        },
+        "clave": [
+          "Antofagasta",
+          "salitre",
+          "chilena"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En febrero de 1878 Bolivia aprobó el contrato de esa compañía con una condición: pagar 10 centavos por cada quintal de salitre exportado.",
+        "rotulo": {
+          "texto": "1878",
+          "dice": "1878"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.39,
+              -23.645
+            ],
+            "zoom": 10.7,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.39,
+              -23.645
+            ],
+            "zoom": 13.0,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "centavos"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "10 CENTAVOS",
+            "sub": "POR QUINTAL DE SALITRE",
+            "icono": "💰",
+            "aparecerEn": "10",
+            "duracionSeg": 3.2
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.41,
+            "lat": -23.63,
+            "icono": "🚢",
+            "escala": 0.9,
+            "ruta": [
+              [
+                -70.41,
+                -23.63
+              ],
+              [
+                -70.5,
+                -23.6
+              ]
+            ],
+            "duracionSeg": 2,
+            "aparecerEn": "exportado"
+          }
+        ],
+        "clave": [
+          "1878",
+          "condición",
+          "10"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Chile dijo que eso rompía el tratado y propuso un arbitraje. Bolivia respondió que era un asunto interno con una empresa. La compañía no pagó.",
+        "rotulo": {
+          "texto": "DOS VERSIONES",
+          "dice": "Bolivia"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.6,
+              -26.0
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.6,
+              -26.0
+            ],
+            "zoom": 5.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Bolivia"
+          },
+          {
+            "centro": [
+              -70.39,
+              -23.645
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "compañía"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Chile",
+            "desaparecerEn": "Bolivia"
+          },
+          {
+            "texto": "SEGÚN CHILE",
+            "tipo": "contexto",
+            "aparecerEn": "Chile",
+            "desaparecerEn": "Bolivia"
+          },
+          {
+            "lon": -65.26,
+            "lat": -19.04,
+            "texto": "SUCRE",
+            "tipo": "pin",
+            "aparecerEn": "Bolivia"
+          },
+          {
+            "texto": "SEGÚN BOLIVIA",
+            "tipo": "contexto",
+            "aparecerEn": "Bolivia",
+            "desaparecerEn": "compañía"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -71.5,
+            "lat": -29.0,
+            "icono": "⚖️",
+            "escala": 1,
+            "aparecerEn": "arbitraje"
+          },
+          {
+            "lon": -70.39,
+            "lat": -23.645,
+            "icono": "dinero",
+            "escala": 1,
+            "tachado": true,
+            "aparecerEn": "pagó"
+          },
+          {
+            "lon": -66.0,
+            "lat": -22.0,
+            "icono": "tribunal",
+            "escala": 1,
+            "aparecerEn": "interno"
+          }
+        ],
+        "clave": [
+          "Chile",
+          "Bolivia",
+          "pagó"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Bolivia anuló el contrato y fijó su remate para el 14 de febrero de 1879. Esa misma mañana desembarcaron unos 200 soldados chilenos. Chile dijo que Bolivia había roto el tratado; Bolivia habló de invasión.",
+        "rotulo": {
+          "texto": "1879",
+          "dice": "1879"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.39,
+              -23.645
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.4,
+              -23.645
+            ],
+            "zoom": 12.0,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "desembarcaron"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.6,
+            "lat": -23.62,
+            "icono": "🚢",
+            "escala": 1,
+            "ruta": [
+              [
+                -70.6,
+                -23.62
+              ],
+              [
+                -70.415,
+                -23.643
+              ]
+            ],
+            "duracionSeg": 2.2,
+            "aparecerEn": "desembarcaron"
+          }
+        ],
+        "foto": {
+          "buscar": "Ejercito chileno en Antofagasta 1879",
+          "archivo": "File:Ejercito chileno en Antofagasta (1879).jpg",
+          "pie": "TROPAS CHILENAS EN ANTOFAGASTA · 1879",
+          "aparecerEn": "soldados",
+          "duracionSeg": 2.6
+        },
+        "clave": [
+          "remate",
+          "1879",
+          "invasión"
+        ],
+        "etiquetas": [
+          {
+            "texto": "SEGÚN CHILE: TRATADO ROTO",
+            "tipo": "contexto",
+            "aparecerEn": "roto",
+            "desaparecerEn": "invasión"
+          },
+          {
+            "texto": "SEGÚN BOLIVIA: INVASIÓN",
+            "tipo": "contexto",
+            "aparecerEn": "invasión"
+          }
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Perú tenía con Bolivia una alianza secreta desde 1873 e intentó mediar. El 5 de abril, Chile declaró la guerra a los dos.",
+        "rotulo": {
+          "texto": "ALIANZA SECRETA",
+          "dice": "secreta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71.0,
+              -17.5
+            ],
+            "zoom": 4.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.0,
+              -17.5
+            ],
+            "zoom": 5.0,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "abril"
+          }
+        ],
+        "areas": [
+          {
+            "pais": "Peru",
+            "color": "violeta",
+            "trama": "solida",
+            "aparecerEn": "Perú"
+          },
+          {
+            "pais": "Bolivia",
+            "color": "verde",
+            "trama": "solida",
+            "aparecerEn": "Bolivia"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.04,
+            "lat": -12.05,
+            "texto": "LIMA",
+            "tipo": "pin",
+            "aparecerEn": "mediar"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1873",
+            "sub": "ALIANZA PERÚ–BOLIVIA",
+            "icono": "🤝",
+            "aparecerEn": "1873",
+            "duracionSeg": 2.8
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.3,
+            "lat": -22.5,
+            "icono": "guerra",
+            "escala": 1.2,
+            "aparecerEn": "guerra"
+          }
+        ],
+        "clave": [
+          "secreto",
+          "1873",
+          "guerra"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Al terminar, Bolivia había perdido su costa y Perú, Tarapacá. El paralelo 24 dejó de ser frontera.",
+        "rotulo": {
+          "texto": "SIN COSTA",
+          "dice": "costa"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.4,
+              -21.8
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.4,
+              -21.8
+            ],
+            "zoom": 6.1,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "paralelo"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.06,
+                -21.43
+              ],
+              [
+                -69.0,
+                -21.3
+              ],
+              [
+                -68.2,
+                -21.2
+              ],
+              [
+                -68.05,
+                -22.0
+              ],
+              [
+                -67.7,
+                -22.8
+              ],
+              [
+                -67.0,
+                -23.0
+              ],
+              [
+                -67.3,
+                -24.0
+              ],
+              [
+                -70.55,
+                -24.0
+              ],
+              [
+                -70.45,
+                -23.4
+              ],
+              [
+                -70.3,
+                -22.6
+              ],
+              [
+                -70.2,
+                -21.9
+              ]
+            ],
+            "color": "rojo",
+            "trama": "plena",
+            "etiqueta": "LITORAL",
+            "aparecerEn": "costa",
+            "quedarse": "siempre"
+          },
+          {
+            "poligono": [
+              [
+                -70.06,
+                -21.43
+              ],
+              [
+                -70.2,
+                -20.8
+              ],
+              [
+                -70.15,
+                -20.2
+              ],
+              [
+                -70.22,
+                -19.6
+              ],
+              [
+                -70.27,
+                -19.2
+              ],
+              [
+                -69.6,
+                -19.0
+              ],
+              [
+                -68.95,
+                -19.1
+              ],
+              [
+                -68.6,
+                -19.6
+              ],
+              [
+                -68.5,
+                -20.4
+              ],
+              [
+                -68.4,
+                -21.0
+              ],
+              [
+                -68.2,
+                -21.2
+              ],
+              [
+                -69.0,
+                -21.3
+              ]
+            ],
+            "color": "rojo",
+            "trama": "plena",
+            "etiqueta": "TARAPACÁ",
+            "aparecerEn": "Tarapacá",
+            "quedarse": "siempre"
+          }
+        ],
+        "clave": [
+          "Bolivia",
+          "Tarapacá",
+          "24"
+        ]
+      }
+    ],
+    "remate": "¿Quién rompió primero el tratado: Bolivia o Chile?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -69.4,
+          -22.4
+        ],
+        "zoom": 6.2,
+        "entrada": "corte",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -66.8,
+        "lat": -20.5,
+        "texto": "¿BOLIVIA?"
+      },
+      {
+        "lon": -71.6,
+        "lat": -25.5,
+        "texto": "¿CHILE?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia: Impuesto de los 10 centavos (ley del 14-02-1878; CSFA de Valparaíso, capital mayoritariamente chileno y socio Gibbs; art. IV del tratado de 1874, 25 años; nota chilena de arbitraje; anulación 1-02-1879; remate 14-02-1879)",
+        "url": "https://es.wikipedia.org/wiki/Impuesto_de_los_10_centavos"
+      },
+      {
+        "texto": "Wikipedia (en): Boundary Treaty of 1874 (6-08-1874, paralelo 24, art. 4 por 25 años; postura boliviana: asunto de tribunales bolivianos)",
+        "url": "https://en.wikipedia.org/wiki/Boundary_Treaty_of_1874_between_Chile_and_Bolivia"
+      },
+      {
+        "texto": "Wikipedia: Ocupación de Antofagasta (14-02-1879, Sotomayor; guarnición boliviana de 35 a 40 hombres)",
+        "url": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Antofagasta"
+      },
+      {
+        "texto": "Wikipedia (en): War of the Pacific (alianza secreta Perú-Bolivia de febrero de 1873; ~200 soldados; misión Lavalle; declaración chilena del 5-04-1879; Ancón 1883)",
+        "url": "https://en.wikipedia.org/wiki/War_of_the_Pacific"
+      },
+      {
+        "texto": "La Batalla / Redalyc: el impuesto violaba el art. IV según Chile; texto de la ley boliviana de 1878",
+        "url": "https://www.redalyc.org/pdf/334/33441103.pdf"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 2,
+      "centro": [
+        -68.8,
+        -21.5
+      ],
+      "zoomInicial": 5.0,
+      "zoomFinal": 5.6,
+      "lineas": [
+        {
+          "id": "paralelo-24",
+          "puntos": [
+            [
+              -70.55,
+              -24.0
+            ],
+            [
+              -67.3,
+              -24.0
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 0,
+          "dice": "paralelo",
+          "etiqueta": "PARALELO 24"
+        }
+      ]
+    }
+  }
+}
