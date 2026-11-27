@@ -1,0 +1,1225 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-rey-de-la-araucania",
+  "titulo": "Un francés se proclamó rey de la Araucanía. Chile lo declaró loco 🇨🇱",
+  "descripcion": "En 1860, el francés Antoine de Tounens, formado en leyes, firmó un decreto que lo hacía rey de la Araucanía y, tres días después, de la Patagonia, del río Biobío al estrecho de Magallanes. En enero de 1862 lo entregó uno de sus hombres; lo condenaron, lo declararon demente y lo embarcaron a Francia. Volvió en 1869, 1874 y 1876, y murió pobre en 1878. Su 'casa real' sigue existiendo en Francia como título simbólico, sin territorio ni reconocimiento de ningún Estado. ¿Rey o loco?\n\nFuentes:\n- Memoria Chilena: https://www.memoriachilena.gob.cl/602/w3-article-96468.html\n- BBC Mundo: https://www.prensalibre.com/?p=5878514\n- BioBioChile: https://www.biobiochile.cl/noticias/sociedad/curiosidades/2016/08/21/orelie-antoine-de-tounens-el-aventurero-frances-que-se-convirtio-en-rey-de-la-araucania.shtml\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#araucania",
+    "#patagonia",
+    "#chile",
+    "#historia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-rey-de-la-araucania",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/watch?v=9xdaFZl_zwk",
+    "cabecera": "ARAUCANÍA — EL REY FRANCÉS",
+    "acento": "coral",
+    "gancho": {
+      "texto": "En 1860, un abogado francés se proclamó rey de la Araucanía y la Patagonia, un reino más grande que Francia. Chile se enteró por los diarios.",
+      "rotulo": "REY FRANCÉS",
+      "planos": [
+        {
+          "centro": [
+            -68.8,
+            -45.2
+          ],
+          "zoom": 5.9,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -71.6,
+            -37.2
+          ],
+          "zoom": 6.5,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Chile"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -73.15,
+              -36.8
+            ],
+            [
+              -72.6,
+              -37.05
+            ],
+            [
+              -72.0,
+              -37.6
+            ],
+            [
+              -71.4,
+              -38.4
+            ],
+            [
+              -71.2,
+              -38.8
+            ],
+            [
+              -70.0,
+              -38.9
+            ],
+            [
+              -68.05,
+              -38.97
+            ],
+            [
+              -66.5,
+              -39.3
+            ],
+            [
+              -65.1,
+              -40.0
+            ],
+            [
+              -63.8,
+              -40.6
+            ],
+            [
+              -62.8,
+              -41.0
+            ],
+            [
+              -63.8,
+              -41.2
+            ],
+            [
+              -65.0,
+              -41.0
+            ],
+            [
+              -65.0,
+              -42.0
+            ],
+            [
+              -64.2,
+              -42.5
+            ],
+            [
+              -65.0,
+              -43.4
+            ],
+            [
+              -65.3,
+              -44.8
+            ],
+            [
+              -66.6,
+              -45.1
+            ],
+            [
+              -67.6,
+              -46.4
+            ],
+            [
+              -66.0,
+              -47.5
+            ],
+            [
+              -67.5,
+              -49.0
+            ],
+            [
+              -68.9,
+              -50.3
+            ],
+            [
+              -69.2,
+              -51.6
+            ],
+            [
+              -68.4,
+              -52.35
+            ],
+            [
+              -69.5,
+              -52.5
+            ],
+            [
+              -70.9,
+              -53.1
+            ],
+            [
+              -71.3,
+              -53.85
+            ],
+            [
+              -72.5,
+              -53.3
+            ],
+            [
+              -74.0,
+              -52.8
+            ],
+            [
+              -75.0,
+              -51.5
+            ],
+            [
+              -75.4,
+              -49.0
+            ],
+            [
+              -74.8,
+              -47.0
+            ],
+            [
+              -74.0,
+              -45.5
+            ],
+            [
+              -73.6,
+              -43.5
+            ],
+            [
+              -73.8,
+              -41.8
+            ],
+            [
+              -73.7,
+              -40.0
+            ],
+            [
+              -73.4,
+              -38.5
+            ],
+            [
+              -73.5,
+              -37.3
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "etiqueta": "EL REINO",
+          "etiquetaEn": [
+            -69.5,
+            -46.0
+          ],
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -72.6,
+          "lat": -38.7,
+          "texto": "ARAUCANÍA",
+          "tipo": "region",
+          "aparecerEn": "Araucanía"
+        },
+        {
+          "lon": -68.5,
+          "lat": -44.0,
+          "texto": "PATAGONIA",
+          "tipo": "region",
+          "aparecerEn": "Patagonia"
+        },
+        {
+          "lon": -70.65,
+          "lat": -33.45,
+          "texto": "SANTIAGO",
+          "tipo": "pin",
+          "aparecerEn": "Chile"
+        }
+      ],
+      "iconos": [
+        {
+          "lon": -71.0,
+          "lat": -41.5,
+          "icono": "👑",
+          "escala": 1.1,
+          "aparecerEn": "rey"
+        },
+        {
+          "lon": -70.0,
+          "lat": -35.0,
+          "icono": "📰",
+          "escala": 0.9,
+          "aparecerEn": "diarios"
+        }
+      ],
+      "clave": [
+        "1860",
+        "rey",
+        "Francia"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "Se llamaba Antoine de Tounens y había estudiado leyes. En 1858 se embarcó a Chile sin hablar español. El 17 de noviembre de 1860 firmó su decreto: era Orélie-Antoine Primero.",
+        "rotulo": {
+          "texto": "1860",
+          "dice": "1860"
+        },
+        "planos": [
+          {
+            "centro": [
+              -72.5,
+              -38.6
+            ],
+            "zoom": 7.3,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.45,
+              -38.65
+            ],
+            "zoom": 8.3,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "noviembre"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Antoine de Tounens avoué 1857",
+          "archivo": "File:Antoine de Tounens dans son étude d'avoué (1857).jpg",
+          "pie": "Antoine de Tounens en su estudio de procurador",
+          "anio": "1857",
+          "lado": "derecha",
+          "aparecerEn": "leyes",
+          "duracionSeg": 3.2
+        },
+        "etiquetas": [
+          {
+            "lon": -72.6,
+            "lat": -38.7,
+            "texto": "ARAUCANÍA",
+            "tipo": "region",
+            "aparecerEn": "Chile"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "17 NOV 1860",
+            "sub": "DECRETO DEL REINO",
+            "icono": "📜",
+            "aparecerEn": "noviembre",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.3,
+            "lat": -38.4,
+            "icono": "👑",
+            "escala": 1,
+            "aparecerEn": "Orélie-Antoine"
+          }
+        ],
+        "clave": [
+          "Tounens",
+          "1858",
+          "Primero"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Tres días después se anexó la Patagonia, del río Biobío al estrecho de Magallanes. Tuvo constitución, bandera e himno, y le avisó al presidente Manuel Montt.",
+        "rotulo": {
+          "texto": "PATAGONIA",
+          "dice": "Patagonia"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.8,
+              -45.2
+            ],
+            "zoom": 5.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.0,
+              -52.6
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Magallanes"
+          },
+          {
+            "centro": [
+              -70.65,
+              -33.45
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "avisó"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -73.15,
+                -36.8
+              ],
+              [
+                -72.6,
+                -37.05
+              ],
+              [
+                -72.0,
+                -37.6
+              ],
+              [
+                -71.4,
+                -38.4
+              ],
+              [
+                -71.2,
+                -38.8
+              ],
+              [
+                -70.0,
+                -38.9
+              ],
+              [
+                -68.05,
+                -38.97
+              ],
+              [
+                -66.5,
+                -39.3
+              ],
+              [
+                -65.1,
+                -40.0
+              ],
+              [
+                -63.8,
+                -40.6
+              ],
+              [
+                -62.8,
+                -41.0
+              ],
+              [
+                -63.8,
+                -41.2
+              ],
+              [
+                -65.0,
+                -41.0
+              ],
+              [
+                -65.0,
+                -42.0
+              ],
+              [
+                -64.2,
+                -42.5
+              ],
+              [
+                -65.0,
+                -43.4
+              ],
+              [
+                -65.3,
+                -44.8
+              ],
+              [
+                -66.6,
+                -45.1
+              ],
+              [
+                -67.6,
+                -46.4
+              ],
+              [
+                -66.0,
+                -47.5
+              ],
+              [
+                -67.5,
+                -49.0
+              ],
+              [
+                -68.9,
+                -50.3
+              ],
+              [
+                -69.2,
+                -51.6
+              ],
+              [
+                -68.4,
+                -52.35
+              ],
+              [
+                -69.5,
+                -52.5
+              ],
+              [
+                -70.9,
+                -53.1
+              ],
+              [
+                -71.3,
+                -53.85
+              ],
+              [
+                -72.5,
+                -53.3
+              ],
+              [
+                -74.0,
+                -52.8
+              ],
+              [
+                -75.0,
+                -51.5
+              ],
+              [
+                -75.4,
+                -49.0
+              ],
+              [
+                -74.8,
+                -47.0
+              ],
+              [
+                -74.0,
+                -45.5
+              ],
+              [
+                -73.6,
+                -43.5
+              ],
+              [
+                -73.8,
+                -41.8
+              ],
+              [
+                -73.7,
+                -40.0
+              ],
+              [
+                -73.4,
+                -38.5
+              ],
+              [
+                -73.5,
+                -37.3
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "solida",
+            "aparecerEn": "Patagonia",
+            "desaparecerEn": "avisó"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -72.3,
+            "lat": -37.3,
+            "texto": "RÍO BIOBÍO",
+            "tipo": "rio",
+            "rotacion": 35,
+            "aparecerEn": "Biobío"
+          },
+          {
+            "lon": -71.2,
+            "lat": -53.6,
+            "texto": "ESTRECHO DE MAGALLANES",
+            "tipo": "mar",
+            "aparecerEn": "Magallanes"
+          },
+          {
+            "lon": -77.0,
+            "lat": -46.0,
+            "texto": "PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "Biobío"
+          },
+          {
+            "lon": -61.5,
+            "lat": -46.0,
+            "texto": "ATLÁNTICO",
+            "tipo": "mar",
+            "aparecerEn": "Magallanes"
+          },
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Montt"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.5,
+            "lat": -44.0,
+            "icono": "📜",
+            "escala": 1,
+            "aparecerEn": "constitución",
+            "desaparecerEn": "avisó"
+          },
+          {
+            "lon": -71.6,
+            "lat": -36.5,
+            "icono": "tratado",
+            "ruta": [
+              [
+                -71.8,
+                -38.2
+              ],
+              [
+                -71.2,
+                -36.0
+              ],
+              [
+                -70.7,
+                -33.6
+              ]
+            ],
+            "duracionSeg": 2.2,
+            "aparecerEn": "avisó"
+          }
+        ],
+        "clave": [
+          "Patagonia",
+          "Magallanes",
+          "Montt"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 5 de enero de 1862, en la Araucanía, uno de sus propios hombres, Juan Bautista Rosales, lo entregó a las autoridades. Lo llevaron preso a Los Ángeles.",
+        "rotulo": {
+          "texto": "1862",
+          "dice": "1862"
+        },
+        "planos": [
+          {
+            "centro": [
+              -72.3,
+              -37.9
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.3,
+              -38.05
+            ],
+            "zoom": 9.4,
+            "entrada": "corte",
+            "deriva": 0.25,
+            "en": "Rosales"
+          },
+          {
+            "centro": [
+              -72.33,
+              -37.75
+            ],
+            "zoom": 9.6,
+            "entrada": "paneo",
+            "deriva": 0.2,
+            "en": "llevaron"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -72.352,
+            "lat": -37.471,
+            "texto": "LOS ÁNGELES",
+            "tipo": "pin",
+            "aparecerEn": "Ángeles"
+          },
+          {
+            "lon": -72.6,
+            "lat": -38.4,
+            "texto": "ARAUCANÍA",
+            "tipo": "region",
+            "aparecerEn": "Araucanía"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "5 ENE 1862",
+            "sub": "LO ENTREGA UNO DE LOS SUYOS",
+            "icono": "⛓️",
+            "aparecerEn": "enero",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1862",
+          "Rosales",
+          "Ángeles"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Lo condenaron a diez años de cárcel. Después, la justicia lo declaró demente. Intervino el cónsul francés, y en octubre de 1862 lo subieron a un barco a Francia.",
+        "rotulo": {
+          "texto": "DEMENTE",
+          "dice": "demente"
+        },
+        "planos": [
+          {
+            "centro": [
+              -72.35,
+              -37.47
+            ],
+            "zoom": 10.1,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.1,
+              -33.3
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "demente"
+          },
+          {
+            "centro": [
+              -72.4,
+              -33.2
+            ],
+            "zoom": 7.2,
+            "entrada": "paneo",
+            "deriva": 0.2,
+            "en": "barco"
+          }
+        ],
+        "contexto": {
+          "texto": "DECLARADO DEMENTE",
+          "dice": "demente"
+        },
+        "fuente": {
+          "texto": "Memoria Chilena · Biblioteca Nacional de Chile",
+          "dice": "justicia"
+        },
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "justicia"
+          },
+          {
+            "lon": -71.62,
+            "lat": -33.047,
+            "texto": "VALPARAÍSO",
+            "tipo": "pin",
+            "aparecerEn": "cónsul"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "10 AÑOS",
+            "sub": "LA PRIMERA CONDENA",
+            "icono": "⚖️",
+            "aparecerEn": "diez",
+            "duracionSeg": 2.6
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -71.7,
+            "lat": -33.03,
+            "icono": "🚢",
+            "escala": 1.1,
+            "ruta": [
+              [
+                -71.7,
+                -33.03
+              ],
+              [
+                -72.8,
+                -33.1
+              ],
+              [
+                -73.9,
+                -33.3
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "barco"
+          }
+        ],
+        "clave": [
+          "diez",
+          "demente",
+          "Francia"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "No se rindió. Volvió en 1869, y Chile le puso precio a su cabeza. Lo intentó en 1874 y en 1876. Murió pobre en Francia, en 1878.",
+        "rotulo": {
+          "texto": "3 REGRESOS",
+          "dice": "1869"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.0,
+              -40.5
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.4,
+              -38.6
+            ],
+            "zoom": 7.3,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "precio"
+          },
+          {
+            "centro": [
+              -68.8,
+              -45.2
+            ],
+            "zoom": 5.7,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "1874"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Antoine de Tounens 1872",
+          "archivo": "File:Antoine-de-Tounens-1872.jpg",
+          "pie": "Orélie-Antoine I, retrato de 1872",
+          "anio": "1872",
+          "lado": "izquierda",
+          "aparecerEn": "rindió",
+          "duracionSeg": 2.6
+        },
+        "tarjetas": [
+          {
+            "texto": "3 REGRESOS",
+            "tipo": "linea-tiempo",
+            "desde": "1869",
+            "hasta": "1876",
+            "aparecerEn": "1874",
+            "duracionSeg": 3.4
+          },
+          {
+            "texto": "1878",
+            "sub": "MUERE POBRE EN FRANCIA",
+            "icono": "🕯️",
+            "aparecerEn": "1878",
+            "duracionSeg": 2.4
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -72.4,
+            "lat": -38.4,
+            "icono": "💰",
+            "escala": 1.1,
+            "aparecerEn": "precio",
+            "desaparecerEn": "1874"
+          }
+        ],
+        "clave": [
+          "1869",
+          "precio",
+          "1878"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "El reino no murió con él. Su «casa real» sigue existiendo en Francia, como título simbólico, sin territorio ni reconocimiento de ningún Estado.",
+        "rotulo": {
+          "texto": "SÍMBOLO",
+          "dice": "simbólico"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.8,
+              -45.2
+            ],
+            "zoom": 6.0,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.4,
+              -44.6
+            ],
+            "zoom": 6.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "simbólico"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -73.15,
+                -36.8
+              ],
+              [
+                -72.6,
+                -37.05
+              ],
+              [
+                -72.0,
+                -37.6
+              ],
+              [
+                -71.4,
+                -38.4
+              ],
+              [
+                -71.2,
+                -38.8
+              ],
+              [
+                -70.0,
+                -38.9
+              ],
+              [
+                -68.05,
+                -38.97
+              ],
+              [
+                -66.5,
+                -39.3
+              ],
+              [
+                -65.1,
+                -40.0
+              ],
+              [
+                -63.8,
+                -40.6
+              ],
+              [
+                -62.8,
+                -41.0
+              ],
+              [
+                -63.8,
+                -41.2
+              ],
+              [
+                -65.0,
+                -41.0
+              ],
+              [
+                -65.0,
+                -42.0
+              ],
+              [
+                -64.2,
+                -42.5
+              ],
+              [
+                -65.0,
+                -43.4
+              ],
+              [
+                -65.3,
+                -44.8
+              ],
+              [
+                -66.6,
+                -45.1
+              ],
+              [
+                -67.6,
+                -46.4
+              ],
+              [
+                -66.0,
+                -47.5
+              ],
+              [
+                -67.5,
+                -49.0
+              ],
+              [
+                -68.9,
+                -50.3
+              ],
+              [
+                -69.2,
+                -51.6
+              ],
+              [
+                -68.4,
+                -52.35
+              ],
+              [
+                -69.5,
+                -52.5
+              ],
+              [
+                -70.9,
+                -53.1
+              ],
+              [
+                -71.3,
+                -53.85
+              ],
+              [
+                -72.5,
+                -53.3
+              ],
+              [
+                -74.0,
+                -52.8
+              ],
+              [
+                -75.0,
+                -51.5
+              ],
+              [
+                -75.4,
+                -49.0
+              ],
+              [
+                -74.8,
+                -47.0
+              ],
+              [
+                -74.0,
+                -45.5
+              ],
+              [
+                -73.6,
+                -43.5
+              ],
+              [
+                -73.8,
+                -41.8
+              ],
+              [
+                -73.7,
+                -40.0
+              ],
+              [
+                -73.4,
+                -38.5
+              ],
+              [
+                -73.5,
+                -37.3
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "plena",
+            "aparecerEn": "reino",
+            "quedarse": 1
+          }
+        ],
+        "contexto": {
+          "texto": "SIN TERRITORIO",
+          "dice": "territorio"
+        },
+        "iconos": [
+          {
+            "lon": -69.4,
+            "lat": -44.0,
+            "icono": "👑",
+            "escala": 1.2,
+            "aparecerEn": "casa"
+          },
+          {
+            "lon": -69.4,
+            "lat": -44.0,
+            "icono": "👑",
+            "escala": 1.2,
+            "tachado": true,
+            "aparecerEn": "territorio"
+          }
+        ],
+        "clave": [
+          "Francia",
+          "simbólico",
+          "territorio"
+        ]
+      }
+    ],
+    "remate": "¿Antoine de Tounens fue un rey o un loco?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -68.8,
+          -45.2
+        ],
+        "zoom": 5.9,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -72.0,
+        "lat": -40.0,
+        "texto": "¿REY?"
+      },
+      {
+        "lon": -67.0,
+        "lat": -48.5,
+        "texto": "¿LOCO?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Memoria Chilena: Orélie Antoine de Tounens (1825-1878) (procurador, 1858, decreto a Montt, captura enero 1862, demente, deportado desde Valparaíso, precio por su cabeza, 1874, muerte 1878)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-96468.html"
+      },
+      {
+        "texto": "BBC Mundo vía Prensa Libre (2020): proclamación nov. 1860, anexión de la Patagonia, himno, bandera, cónsul, último viaje 1876",
+        "url": "https://www.prensalibre.com/?p=5878514"
+      },
+      {
+        "texto": "BioBioChile (2016): Rosales, 10 años de cárcel, asilo, precio a su cabeza",
+        "url": "https://www.biobiochile.cl/noticias/sociedad/curiosidades/2016/08/21/orelie-antoine-de-tounens-el-aventurero-frances-que-se-convirtio-en-rey-de-la-araucania.shtml"
+      },
+      {
+        "texto": "Wikipedia: Orélie-Antoine de Tounens (decretos 17 y 20-11-1860, captura 5-01-1862, demente 2-09-1862, expulsión 28-10-1862, regresos 1869/1874/1876, muerte 17-09-1878)",
+        "url": "https://en.wikipedia.org/wiki/Or%C3%A9lie-Antoine_de_Tounens"
+      },
+      {
+        "texto": "Le Petit Journal Santiago (2021, act. 2024): el reino hoy es una 'maison royale en exil', entidad histórica y memorial",
+        "url": "https://lepetitjournal.com/santiago/comprendre-chili/frederic-luz-francais-prince-araucanie-patagonie-302414"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -68.8,
+        -45.2
+      ],
+      "zoomInicial": 5.9,
+      "zoomFinal": 6.2,
+      "lineas": [
+        {
+          "id": "rio-biobio",
+          "puntos": [
+            [
+              -73.12,
+              -36.82
+            ],
+            [
+              -72.6,
+              -37.05
+            ],
+            [
+              -72.35,
+              -37.45
+            ],
+            [
+              -71.9,
+              -37.65
+            ],
+            [
+              -71.6,
+              -38.0
+            ],
+            [
+              -71.3,
+              -38.4
+            ],
+            [
+              -71.3,
+              -38.75
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "Biobío",
+          "etiqueta": "LÍMITE NORTE"
+        },
+        {
+          "id": "rio-negro",
+          "puntos": [
+            [
+              -68.03,
+              -38.98
+            ],
+            [
+              -67.2,
+              -39.1
+            ],
+            [
+              -66.0,
+              -39.5
+            ],
+            [
+              -65.1,
+              -40.0
+            ],
+            [
+              -64.0,
+              -40.6
+            ],
+            [
+              -63.0,
+              -40.8
+            ],
+            [
+              -62.8,
+              -41.03
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "Biobío"
+        },
+        {
+          "id": "captura",
+          "puntos": [
+            [
+              -72.3,
+              -38.05
+            ],
+            [
+              -72.33,
+              -37.75
+            ],
+            [
+              -72.352,
+              -37.471
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "llevaron"
+        }
+      ]
+    }
+  }
+}

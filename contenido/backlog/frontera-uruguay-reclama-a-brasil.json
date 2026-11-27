@@ -1,0 +1,1114 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-uruguay-reclama-a-brasil",
+  "titulo": "Uruguay todavía reclama dos pedazos que administra Brasil 🇺🇾🇧🇷",
+  "descripcion": "El tratado de límites de 1851 entre Uruguay y Brasil dejó dos pedazos en discusión. En el Rincón de Artigas (más de 200 km², junto a Masoller), Brasil dice que el 'arroyo de la Invernada' es el del oeste; Uruguay, que es el del este, el Moirones. En la boca del Cuareim, el tratado da a Brasil 'la isla o islas'; Uruguay sostiene que la Isla Brasilera está en el río Uruguay. En junio de 2025, Uruguay envió una nota verbal por el parque eólico que Brasil construye en el Rincón. ¿Quién tiene razón?\n\nFuentes:\n- El Observador (2025): https://www.elobservador.com.uy/nacional/uruguay-envio-nota-brasil-la-construccion-un-parque-eolico-un-territorio-que-reclama-como-propio-n6003781\n- Gazeta do Povo (2025): https://www.gazetadopovo.com.br/brasil/o-territorio-que-o-uruguai-quer-tomar-do-brasil/\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#uruguay",
+    "#brasil",
+    "#fronteras",
+    "#mapas",
+    "#geografia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-uruguay-reclama-a-brasil",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/watch?v=KopaQVi4LVc",
+    "cabecera": "MASOLLER — LA FRONTERA EN DISPUTA",
+    "acento": "cian",
+    "gancho": {
+      "texto": "Uruguay todavía reclama dos pedazos que administra Brasil: más de 200 kilómetros cuadrados junto a Masoller y una isla fluvial.",
+      "rotulo": "URUGUAY RECLAMA",
+      "planos": [
+        {
+          "centro": [
+            -56.2,
+            -32.4
+          ],
+          "zoom": 7.0,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -56.6,
+            -30.8
+          ],
+          "zoom": 8.2,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Masoller"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Uruguay",
+          "color": "verde",
+          "trama": "plena",
+          "etiqueta": "URUGUAY",
+          "etiquetaEn": [
+            -56.0,
+            -32.8
+          ],
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "Brazil",
+          "color": "rojo",
+          "trama": "solida",
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "poligono": [
+            [
+              -55.99,
+              -30.859
+            ],
+            [
+              -56.007,
+              -30.9
+            ],
+            [
+              -56.006,
+              -30.921
+            ],
+            [
+              -56.015,
+              -30.943
+            ],
+            [
+              -56.01,
+              -30.97
+            ],
+            [
+              -56.013,
+              -30.99
+            ],
+            [
+              -56.017,
+              -31.016
+            ],
+            [
+              -56.018,
+              -31.045
+            ],
+            [
+              -56.01,
+              -31.081
+            ],
+            [
+              -55.993,
+              -31.085
+            ],
+            [
+              -55.949,
+              -31.082
+            ],
+            [
+              -55.93,
+              -31.083
+            ],
+            [
+              -55.9,
+              -31.068
+            ],
+            [
+              -55.884,
+              -31.077
+            ],
+            [
+              -55.867,
+              -31.065
+            ],
+            [
+              -55.859,
+              -31.05
+            ],
+            [
+              -55.837,
+              -31.042
+            ],
+            [
+              -55.825,
+              -31.038
+            ],
+            [
+              -55.86,
+              -30.99
+            ],
+            [
+              -55.92,
+              -30.95
+            ],
+            [
+              -55.955,
+              -30.927
+            ],
+            [
+              -55.962,
+              -30.904
+            ],
+            [
+              -55.973,
+              -30.888
+            ],
+            [
+              -55.986,
+              -30.869
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": "Masoller",
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -56.003,
+          "lat": -31.084,
+          "texto": "MASOLLER",
+          "tipo": "pin",
+          "aparecerEn": "Masoller"
+        },
+        {
+          "lon": -57.625,
+          "lat": -30.185,
+          "texto": "ISLA BRASILERA",
+          "tipo": "pin",
+          "aparecerEn": "isla"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "UY",
+          "lon": -55.6,
+          "lat": -33.3,
+          "mirar": [
+            -56.0,
+            -31.0
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "BR",
+          "lon": -54.6,
+          "lat": -29.6,
+          "mirar": [
+            -56.0,
+            -31.0
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "Uruguay",
+        "Brasil",
+        "200"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "El 12 de octubre de 1851, Uruguay y el Imperio del Brasil firmaron su tratado de límites. Cerca de Masoller, la frontera seguía un arroyo: el de la Invernada.",
+        "rotulo": {
+          "texto": "12 OCT 1851",
+          "dice": "1851"
+        },
+        "planos": [
+          {
+            "centro": [
+              -56.0,
+              -31.0
+            ],
+            "zoom": 9.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.95,
+              -30.97
+            ],
+            "zoom": 11.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Masoller"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.003,
+            "lat": -31.084,
+            "texto": "MASOLLER",
+            "tipo": "pin",
+            "aparecerEn": "Masoller"
+          },
+          {
+            "texto": "EL ARROYO DE LA INVERNADA",
+            "tipo": "contexto",
+            "aparecerEn": "Invernada"
+          }
+        ],
+        "clave": [
+          "1851",
+          "Masoller",
+          "Invernada"
+        ],
+        "tarjetas": [
+          {
+            "texto": "12 OCT 1851",
+            "sub": "TRATADO DE LÍMITES · RÍO DE JANEIRO",
+            "icono": "📜",
+            "aparecerEn": "octubre",
+            "duracionSeg": 3
+          }
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1856, la comisión mixta marcó como Invernada el arroyo del oeste. Brasil dice que ese es el del tratado. Uruguay dice que el verdadero es el del este: el arroyo Moirones.",
+        "rotulo": {
+          "texto": "¿CUÁL ARROYO?",
+          "dice": "oeste"
+        },
+        "planos": [
+          {
+            "centro": [
+              -55.95,
+              -30.97
+            ],
+            "zoom": 11.6,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.975,
+              -30.91
+            ],
+            "zoom": 12.8,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "Moirones"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -55.99,
+                -30.859
+              ],
+              [
+                -56.007,
+                -30.9
+              ],
+              [
+                -56.006,
+                -30.921
+              ],
+              [
+                -56.015,
+                -30.943
+              ],
+              [
+                -56.01,
+                -30.97
+              ],
+              [
+                -56.013,
+                -30.99
+              ],
+              [
+                -56.017,
+                -31.016
+              ],
+              [
+                -56.018,
+                -31.045
+              ],
+              [
+                -56.01,
+                -31.081
+              ],
+              [
+                -55.993,
+                -31.085
+              ],
+              [
+                -55.949,
+                -31.082
+              ],
+              [
+                -55.93,
+                -31.083
+              ],
+              [
+                -55.9,
+                -31.068
+              ],
+              [
+                -55.884,
+                -31.077
+              ],
+              [
+                -55.867,
+                -31.065
+              ],
+              [
+                -55.859,
+                -31.05
+              ],
+              [
+                -55.837,
+                -31.042
+              ],
+              [
+                -55.825,
+                -31.038
+              ],
+              [
+                -55.86,
+                -30.99
+              ],
+              [
+                -55.92,
+                -30.95
+              ],
+              [
+                -55.955,
+                -30.927
+              ],
+              [
+                -55.962,
+                -30.904
+              ],
+              [
+                -55.973,
+                -30.888
+              ],
+              [
+                -55.986,
+                -30.869
+              ]
+            ],
+            "color": "amarillo",
+            "etiqueta": "RINCÓN DE ARTIGAS",
+            "etiquetaEn": [
+              -55.93,
+              -31.01
+            ],
+            "aparecerEn": "verdadero",
+            "quedarse": 1
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.04,
+            "lat": -30.95,
+            "texto": "SEGÚN BRASIL",
+            "tipo": "region",
+            "aparecerEn": "Brasil"
+          },
+          {
+            "lon": -55.93,
+            "lat": -30.9,
+            "texto": "SEGÚN URUGUAY",
+            "tipo": "region",
+            "aparecerEn": "Uruguay"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1856",
+            "sub": "LA COMISIÓN MIXTA MARCA EL LÍMITE",
+            "icono": "📍",
+            "aparecerEn": "1856",
+            "duracionSeg": 2.6
+          }
+        ],
+        "clave": [
+          "oeste",
+          "este",
+          "Moirones"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1933, un capitán uruguayo revisó los hitos y concluyó que uno estaba en la cabecera equivocada. En 1934, Montevideo pidió estudiar el arroyo de nuevo. Brasil mantuvo su posición.",
+        "rotulo": {
+          "texto": "1933",
+          "dice": "1933"
+        },
+        "planos": [
+          {
+            "centro": [
+              -55.975,
+              -30.91
+            ],
+            "zoom": 12.9,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.97,
+              -30.93
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Montevideo"
+          },
+          {
+            "centro": [
+              -55.95,
+              -30.97
+            ],
+            "zoom": 12.4,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Brasil"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -56.012,
+            "lat": -30.96,
+            "icono": "🔍",
+            "escala": 1,
+            "aparecerEn": "hitos",
+            "desaparecerEn": "1934"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1934",
+            "sub": "NOTA DE MONTEVIDEO",
+            "icono": "✉️",
+            "aparecerEn": "1934",
+            "duracionSeg": 2.6
+          }
+        ],
+        "contexto": {
+          "texto": "BRASIL MANTIENE SU POSICIÓN",
+          "dice": "mantuvo"
+        },
+        "clave": [
+          "1933",
+          "Montevideo",
+          "Brasil"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Más al oeste, donde el Cuareim se junta con el río Uruguay, el tratado le da a Brasil la isla o islas de la desembocadura. Brasil dice que es esta. Uruguay, que queda en el río Uruguay.",
+        "rotulo": {
+          "texto": "LA ISLA",
+          "dice": "isla"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57.6,
+              -30.21
+            ],
+            "zoom": 10.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.625,
+              -30.19
+            ],
+            "zoom": 13.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "esta"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -57.6444,
+                -30.192
+              ],
+              [
+                -57.6389,
+                -30.1887
+              ],
+              [
+                -57.6303,
+                -30.1861
+              ],
+              [
+                -57.6221,
+                -30.1864
+              ],
+              [
+                -57.6147,
+                -30.1885
+              ],
+              [
+                -57.6099,
+                -30.1864
+              ],
+              [
+                -57.6073,
+                -30.1831
+              ],
+              [
+                -57.6121,
+                -30.1807
+              ],
+              [
+                -57.6191,
+                -30.1794
+              ],
+              [
+                -57.6269,
+                -30.1782
+              ],
+              [
+                -57.6335,
+                -30.1783
+              ],
+              [
+                -57.64,
+                -30.182
+              ],
+              [
+                -57.6435,
+                -30.1899
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "plena",
+            "etiqueta": "ISLA BRASILERA",
+            "aparecerEn": "isla",
+            "quedarse": 1
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -57.66,
+            "lat": -30.12,
+            "texto": "RÍO URUGUAY",
+            "tipo": "rio",
+            "rotacion": -70,
+            "aparecerEn": "Uruguay"
+          },
+          {
+            "lon": -57.56,
+            "lat": -30.222,
+            "texto": "RÍO CUAREIM",
+            "tipo": "rio",
+            "rotacion": 12,
+            "aparecerEn": "Cuareim"
+          },
+          {
+            "lon": -57.606,
+            "lat": -30.261,
+            "texto": "BELLA UNIÓN",
+            "tipo": "pin",
+            "aparecerEn": "Cuareim",
+            "desaparecerEn": "esta"
+          },
+          {
+            "lon": -57.551,
+            "lat": -30.209,
+            "texto": "BARRA DO QUARAÍ",
+            "tipo": "pin",
+            "aparecerEn": "Cuareim",
+            "desaparecerEn": "esta"
+          }
+        ],
+        "contexto": {
+          "texto": "«LA ISLA O ISLAS»",
+          "dice": "islas"
+        },
+        "banderas": [
+          {
+            "pais": "BR",
+            "lon": -57.615,
+            "lat": -30.155,
+            "mirar": [
+              -57.625,
+              -30.185
+            ],
+            "expresion": "normal",
+            "escala": 0.8,
+            "aparecerEn": "esta"
+          },
+          {
+            "pais": "UY",
+            "lon": -57.63,
+            "lat": -30.225,
+            "mirar": [
+              -57.625,
+              -30.185
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.8,
+            "aparecerEn": "Uruguay#2"
+          }
+        ],
+        "clave": [
+          "Cuareim",
+          "isla",
+          "Uruguay"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Mide menos de 3 kilómetros cuadrados y tuvo un solo habitante: José Jorge Daniel, un granjero brasileño que vivió ahí desde 1964 hasta 2011.",
+        "rotulo": {
+          "texto": "1 HABITANTE",
+          "dice": "habitante"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57.626,
+              -30.185
+            ],
+            "zoom": 14.6,
+            "entrada": "corte",
+            "deriva": 0.25
+          },
+          {
+            "centro": [
+              -57.622,
+              -30.186
+            ],
+            "zoom": 14.9,
+            "entrada": "paneo",
+            "deriva": -0.2,
+            "en": "Daniel"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2,8 KM²",
+            "sub": "MENOS DE 3 KM²",
+            "icono": "🏝️",
+            "aparecerEn": "kilómetros",
+            "duracionSeg": 2.2
+          },
+          {
+            "texto": "47 AÑOS",
+            "tipo": "linea-tiempo",
+            "desde": "1964",
+            "hasta": "2011",
+            "sub": "UN SOLO HABITANTE",
+            "aparecerEn": "1964",
+            "duracionSeg": 3
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -57.627,
+            "lat": -30.1835,
+            "icono": "🏠",
+            "escala": 1,
+            "aparecerEn": "habitante"
+          }
+        ],
+        "clave": [
+          "3",
+          "Daniel",
+          "1964"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Hoy Brasil construye un parque eólico en el Rincón de Artigas. En 2025, Uruguay mandó una nota: la obra no significa reconocer su soberanía.",
+        "rotulo": {
+          "texto": "2025",
+          "dice": "2025"
+        },
+        "planos": [
+          {
+            "centro": [
+              -55.94,
+              -30.97
+            ],
+            "zoom": 11.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -55.94,
+              -30.97
+            ],
+            "zoom": 11.9,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "nota"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -55.99,
+                -30.859
+              ],
+              [
+                -56.007,
+                -30.9
+              ],
+              [
+                -56.006,
+                -30.921
+              ],
+              [
+                -56.015,
+                -30.943
+              ],
+              [
+                -56.01,
+                -30.97
+              ],
+              [
+                -56.013,
+                -30.99
+              ],
+              [
+                -56.017,
+                -31.016
+              ],
+              [
+                -56.018,
+                -31.045
+              ],
+              [
+                -56.01,
+                -31.081
+              ],
+              [
+                -55.993,
+                -31.085
+              ],
+              [
+                -55.949,
+                -31.082
+              ],
+              [
+                -55.93,
+                -31.083
+              ],
+              [
+                -55.9,
+                -31.068
+              ],
+              [
+                -55.884,
+                -31.077
+              ],
+              [
+                -55.867,
+                -31.065
+              ],
+              [
+                -55.859,
+                -31.05
+              ],
+              [
+                -55.837,
+                -31.042
+              ],
+              [
+                -55.825,
+                -31.038
+              ],
+              [
+                -55.86,
+                -30.99
+              ],
+              [
+                -55.92,
+                -30.95
+              ],
+              [
+                -55.955,
+                -30.927
+              ],
+              [
+                -55.962,
+                -30.904
+              ],
+              [
+                -55.973,
+                -30.888
+              ],
+              [
+                -55.986,
+                -30.869
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "plena",
+            "etiqueta": "RINCÓN DE ARTIGAS",
+            "etiquetaEn": [
+              -55.93,
+              -31.01
+            ],
+            "aparecerEn": "Rincón",
+            "quedarse": 1
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -55.93,
+            "lat": -30.99,
+            "icono": "🌬️",
+            "escala": 0.9,
+            "aparecerEn": "eólico"
+          },
+          {
+            "lon": -55.89,
+            "lat": -31.04,
+            "icono": "🌬️",
+            "escala": 0.9,
+            "aparecerEn": "eólico"
+          }
+        ],
+        "contexto": {
+          "texto": "NOTA DE URUGUAY · 2025",
+          "dice": "nota"
+        },
+        "banderas": [
+          {
+            "pais": "UY",
+            "lon": -56.06,
+            "lat": -31.1,
+            "mirar": [
+              -55.93,
+              -30.99
+            ],
+            "expresion": "normal",
+            "escala": 0.8,
+            "aparecerEn": "Uruguay"
+          },
+          {
+            "pais": "BR",
+            "lon": -55.85,
+            "lat": -30.88,
+            "mirar": [
+              -55.93,
+              -30.99
+            ],
+            "expresion": "normal",
+            "escala": 0.8,
+            "aparecerEn": "Brasil"
+          }
+        ],
+        "clave": [
+          "eólico",
+          "2025",
+          "soberanía"
+        ]
+      }
+    ],
+    "remate": "¿Quién tiene razón: Montevideo o Brasilia?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -56.6,
+          -30.8
+        ],
+        "zoom": 8.3,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -56.4,
+        "lat": -31.4,
+        "texto": "¿MONTEVIDEO?"
+      },
+      {
+        "lon": -56.8,
+        "lat": -30.2,
+        "texto": "¿BRASILIA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Gazeta do Povo (01-08-2025): Rincão de Artigas, 237 km², Invernada vs Moirões, notas de 1934 y 1988, nota verbal de 2025 sobre el parque eólico",
+        "url": "https://www.gazetadopovo.com.br/brasil/o-territorio-que-o-uruguai-quer-tomar-do-brasil/"
+      },
+      {
+        "texto": "La Mañana (15-07-2020): art. 3 del tratado de 1851, 'la isla o islas' de la embocadura del Cuareim",
+        "url": "https://www.xn--lamaana-7za.uy/?p=10909"
+      },
+      {
+        "texto": "Wikipedia: Rincón de Artigas (Acta n.º 3 del 28-04-1856, Villa Seré 1933, nota del 10-08-1934)",
+        "url": "https://es.wikipedia.org/wiki/Rinc%C3%B3n_de_Artigas"
+      },
+      {
+        "texto": "Decreto brasileño 7.992 de 1910 (cita el Tratado de Límites del 12-10-1851)",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1910-1919/decreto-7992-11-maio-1910-586242-publicacaooriginal-109730-pe.html"
+      },
+      {
+        "texto": "Billiken (2023): Isla Brasilera, 2,8 km², José Jorge Daniel 1964-2011, postura de cada país",
+        "url": "https://billiken.lat/interesante/lha-brasileira-la-curiosa-isla-de-brasil-que-se-encuentra-rodeada-por-argentina-y-uruguay/"
+      },
+      {
+        "texto": "Wikipedia: Brazilian Island",
+        "url": "https://en.wikipedia.org/wiki/Brazilian_Island"
+      },
+      {
+        "texto": "El Observador (2025): Uruguay envió nota a Brasil por el parque eólico en el Rincón de Artigas",
+        "url": "https://www.elobservador.com.uy/nacional/uruguay-envio-nota-brasil-la-construccion-un-parque-eolico-un-territorio-que-reclama-como-propio-n6003781"
+      },
+      {
+        "texto": "Infobae (16-06-2025): nota verbal del 11-06-2025; la obra 'no supone reconocer' la soberanía de Brasil",
+        "url": "https://www.infobae.com/america/america-latina/2025/06/16/empresa-estatal-de-brasil-construye-un-parque-eolico-en-territorio-que-uruguay-reclama-como-propio-hace-95-anos/"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 10,
+      "centro": [
+        -56.2,
+        -32.4
+      ],
+      "zoomInicial": 7.0,
+      "zoomFinal": 7.4,
+      "lineas": [
+        {
+          "id": "invernada-oeste",
+          "puntos": [
+            [
+              -55.99,
+              -30.859
+            ],
+            [
+              -55.993,
+              -30.867
+            ],
+            [
+              -56.007,
+              -30.897
+            ],
+            [
+              -56.006,
+              -30.921
+            ],
+            [
+              -56.015,
+              -30.943
+            ],
+            [
+              -56.01,
+              -30.95
+            ],
+            [
+              -56.011,
+              -30.957
+            ],
+            [
+              -56.01,
+              -30.97
+            ],
+            [
+              -56.011,
+              -30.978
+            ],
+            [
+              -56.013,
+              -30.99
+            ],
+            [
+              -56.017,
+              -31.016
+            ],
+            [
+              -56.017,
+              -31.032
+            ],
+            [
+              -56.018,
+              -31.045
+            ],
+            [
+              -56.015,
+              -31.055
+            ],
+            [
+              -56.01,
+              -31.068
+            ],
+            [
+              -56.01,
+              -31.081
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 1,
+          "dice": "oeste",
+          "etiqueta": "INVERNADA (BRASIL)"
+        },
+        {
+          "id": "moirones-este",
+          "puntos": [
+            [
+              -55.99,
+              -30.859
+            ],
+            [
+              -55.986,
+              -30.869
+            ],
+            [
+              -55.982,
+              -30.881
+            ],
+            [
+              -55.973,
+              -30.888
+            ],
+            [
+              -55.966,
+              -30.895
+            ],
+            [
+              -55.962,
+              -30.904
+            ],
+            [
+              -55.961,
+              -30.914
+            ],
+            [
+              -55.955,
+              -30.927
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 1,
+          "dice": "Moirones",
+          "etiqueta": "INVERNADA (URUGUAY)"
+        }
+      ]
+    }
+  }
+}
