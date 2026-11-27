@@ -1,0 +1,1216 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-ecuador-perdio-su-amazonia",
+  "titulo": "Ecuador se dice amazónico. ¿Por qué no llega al Amazonas? 🇪🇨🇵🇪",
+  "descripcion": "Ecuador se define como país amazónico, pero desde 1942 su frontera no llega al río Amazonas. Repasamos los argumentos de los dos países, la guerra de 1941, el Protocolo de Río de Janeiro del 29 de enero de 1942, el río Cenepa que las fotos aéreas encontraron donde el tratado veía una sola divisoria, la nulidad que declaró Ecuador en 1960 y la paz de Brasilia de 1998. Las cifras de territorio cambian mucho según la fuente. ¿Perdió Ecuador su Amazonía o nunca fue suya?\n\nFuentes:\nhttps://en.wikipedia.org/wiki/Rio_Protocol\nhttps://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute\nhttps://en.wikipedia.org/wiki/Brasilia_Presidential_Act\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#ecuador",
+    "#peru",
+    "#amazonas",
+    "#historia",
+    "#fronteras"
+  ],
+  "props": {
+    "id": "pendiente-frontera-ecuador-perdio-su-amazonia",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/9YgSOT0Ce4w",
+    "cabecera": "ECUADOR — LEJOS DEL AMAZONAS",
+    "acento": "coral",
+    "gancho": {
+      "texto": "Ecuador se define como país amazónico, pero en 1942 firmó un tratado que lo dejó lejos del río Amazonas.",
+      "rotulo": "1942",
+      "planos": [
+        {
+          "centro": [
+            -75.6,
+            -2.8
+          ],
+          "zoom": 6.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -75.6,
+            -2.8
+          ],
+          "zoom": 7.2,
+          "entrada": "corte",
+          "deriva": 0.2,
+          "en": "1942"
+        },
+        {
+          "centro": [
+            -74.0,
+            -3.6
+          ],
+          "zoom": 7.3,
+          "entrada": "paneo",
+          "deriva": 0.3,
+          "en": "Amazonas"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Ecuador",
+          "color": "verde",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "Peru",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -78.6,
+          "lat": -1.4,
+          "texto": "ECUADOR",
+          "tipo": "pais",
+          "aparecerEn": "Ecuador"
+        },
+        {
+          "lon": -75.2,
+          "lat": -6.4,
+          "texto": "PERÚ",
+          "tipo": "pais",
+          "aparecerEn": "tratado"
+        },
+        {
+          "lon": -71.86,
+          "lat": -3.32,
+          "texto": "RÍO AMAZONAS",
+          "tipo": "rio",
+          "rotacion": -12,
+          "aparecerEn": "Amazonas"
+        }
+      ],
+      "clave": [
+        "Ecuador",
+        "amazónico",
+        "1942",
+        "Amazonas"
+      ],
+      "resaltes": [
+        {
+          "lon": -78.6,
+          "lat": -1.6,
+          "radio": 140,
+          "aparecerEn": "amazónico"
+        }
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1542, Francisco de Orellana salió de Quito rumbo al Amazonas. Para Ecuador, el Amazonas se descubrió desde Quito.",
+        "rotulo": {
+          "texto": "1542",
+          "dice": "1542"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.3,
+              -0.6
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -75.4,
+              -2.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Amazonas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -78.51,
+            "lat": -0.22,
+            "texto": "QUITO",
+            "tipo": "pin",
+            "aparecerEn": "Quito"
+          },
+          {
+            "lon": -73.1,
+            "lat": -3.4,
+            "texto": "RÍO NAPO → AMAZONAS",
+            "tipo": "pin",
+            "aparecerEn": "rumbo"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.51,
+            "lat": -0.22,
+            "icono": "barco",
+            "escala": 0.8,
+            "ruta": [
+              [
+                -78.51,
+                -0.22
+              ],
+              [
+                -77.0,
+                -0.6
+              ],
+              [
+                -75.5,
+                -1.4
+              ],
+              [
+                -73.2,
+                -3.3
+              ]
+            ],
+            "duracionSeg": 4,
+            "aparecerEn": "salió"
+          }
+        ],
+        "polaroid": {
+          "buscar": "Francisco de Orellana Amazon voyage",
+          "archivo": "File:Francisco de Orellana Amazon River voyage (1541-1542).svg",
+          "pie": "Viaje de Orellana por el Amazonas, 1541-1542",
+          "anio": "1542",
+          "lado": "derecha",
+          "forma": "marco",
+          "aparecerEn": "Ecuador"
+        },
+        "clave": [
+          "1542",
+          "Orellana",
+          "Quito",
+          "Amazonas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Ecuador invocaba la Audiencia de Quito, de 1563. Perú, una real cédula de 1802 que le daba Maynas, la región de Iquitos.",
+        "rotulo": {
+          "texto": "1563 · 1802",
+          "dice": "1563"
+        },
+        "planos": [
+          {
+            "centro": [
+              -77.8,
+              -1.6
+            ],
+            "zoom": 7.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.6,
+              -3.6
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Perú"
+          },
+          {
+            "centro": [
+              -73.3,
+              -3.8
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Iquitos"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -75.25,
+                -0.12
+              ],
+              [
+                -74.3,
+                -0.9
+              ],
+              [
+                -73.0,
+                -1.7
+              ],
+              [
+                -71.5,
+                -2.3
+              ],
+              [
+                -70.0,
+                -2.9
+              ],
+              [
+                -69.96,
+                -4.23
+              ],
+              [
+                -70.52,
+                -3.91
+              ],
+              [
+                -71.86,
+                -3.32
+              ],
+              [
+                -73.24,
+                -3.75
+              ],
+              [
+                -73.57,
+                -4.51
+              ],
+              [
+                -74.6,
+                -4.75
+              ],
+              [
+                -76.0,
+                -4.64
+              ],
+              [
+                -76.55,
+                -4.83
+              ],
+              [
+                -77.42,
+                -4.56
+              ],
+              [
+                -77.55,
+                -4.47
+              ],
+              [
+                -78.2,
+                -4.63
+              ],
+              [
+                -78.56,
+                -3.98
+              ],
+              [
+                -78.36,
+                -3.41
+              ],
+              [
+                -78.198,
+                -3.385
+              ],
+              [
+                -77.532,
+                -2.87
+              ],
+              [
+                -76.33,
+                -2.311
+              ],
+              [
+                -75.595,
+                -1.566
+              ],
+              [
+                -75.347,
+                -0.975
+              ],
+              [
+                -75.289,
+                -0.717
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "rayas",
+            "etiqueta": "MAYNAS",
+            "etiquetaEn": [
+              -74.6,
+              -3.0
+            ],
+            "aparecerEn": "Maynas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "texto": "SEGÚN ECUADOR",
+            "tipo": "contexto",
+            "aparecerEn": "Ecuador",
+            "desaparecerEn": "Perú"
+          },
+          {
+            "texto": "SEGÚN PERÚ",
+            "tipo": "contexto",
+            "aparecerEn": "Perú"
+          },
+          {
+            "lon": -73.24,
+            "lat": -3.75,
+            "texto": "IQUITOS",
+            "tipo": "pin",
+            "aparecerEn": "Iquitos"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1563",
+            "sub": "REAL AUDIENCIA DE QUITO",
+            "icono": "📜",
+            "aparecerEn": "1563",
+            "duracionSeg": 2.5
+          },
+          {
+            "texto": "1802",
+            "sub": "REAL CÉDULA DE MAYNAS",
+            "icono": "📜",
+            "aparecerEn": "1802",
+            "duracionSeg": 2.5
+          }
+        ],
+        "clave": [
+          "1563",
+          "1802",
+          "Maynas",
+          "Iquitos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En julio de 1941 estalló la guerra. Perú ocupó la provincia de El Oro y lanzó paracaidistas sobre Puerto Bolívar.",
+        "rotulo": {
+          "texto": "JULIO 1941",
+          "dice": "1941"
+        },
+        "planos": [
+          {
+            "centro": [
+              -79.9,
+              -3.6
+            ],
+            "zoom": 7.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -79.8,
+              -3.5
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "Oro"
+          },
+          {
+            "centro": [
+              -80.0,
+              -3.3
+            ],
+            "zoom": 10.0,
+            "entrada": "corte",
+            "deriva": 0.25,
+            "en": "paracaidistas"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -80.25,
+                -3.25
+              ],
+              [
+                -79.95,
+                -3.15
+              ],
+              [
+                -79.55,
+                -3.05
+              ],
+              [
+                -79.3,
+                -3.35
+              ],
+              [
+                -79.35,
+                -3.75
+              ],
+              [
+                -79.6,
+                -3.95
+              ],
+              [
+                -80.15,
+                -3.75
+              ],
+              [
+                -80.25,
+                -3.5
+              ]
+            ],
+            "color": "rojo",
+            "trama": "rayas",
+            "etiqueta": "EL ORO",
+            "aparecerEn": "Oro"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -80.0,
+            "lat": -3.27,
+            "texto": "PUERTO BOLÍVAR",
+            "tipo": "pin",
+            "aparecerEn": "Puerto"
+          },
+          {
+            "lon": -80.25,
+            "lat": -3.67,
+            "texto": "ZARUMILLA",
+            "tipo": "pin",
+            "aparecerEn": "guerra",
+            "desaparecerEn": "Oro"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -79.96,
+            "lat": -3.2,
+            "icono": "🪂",
+            "escala": 1,
+            "aparecerEn": "paracaidistas"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "JUL 1941",
+            "sub": "ESTALLA LA GUERRA",
+            "icono": "⚔️",
+            "aparecerEn": "1941",
+            "duracionSeg": 2.5
+          }
+        ],
+        "clave": [
+          "1941",
+          "guerra",
+          "El Oro",
+          "Puerto Bolívar"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En enero de 1942, Ecuador firmó el Protocolo de Río. Según Ecuador, perdió unos 200.000 kilómetros cuadrados; según Perú, esa selva ya era peruana.",
+        "rotulo": {
+          "texto": "PROTOCOLO",
+          "dice": "Protocolo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -76.2,
+              -3.0
+            ],
+            "zoom": 6.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -74.6,
+              -3.4
+            ],
+            "zoom": 7.2,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "según#2"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -75.25,
+                -0.12
+              ],
+              [
+                -74.3,
+                -0.9
+              ],
+              [
+                -73.0,
+                -1.7
+              ],
+              [
+                -71.5,
+                -2.3
+              ],
+              [
+                -70.0,
+                -2.9
+              ],
+              [
+                -69.96,
+                -4.23
+              ],
+              [
+                -70.52,
+                -3.91
+              ],
+              [
+                -71.86,
+                -3.32
+              ],
+              [
+                -73.24,
+                -3.75
+              ],
+              [
+                -73.57,
+                -4.51
+              ],
+              [
+                -74.6,
+                -4.75
+              ],
+              [
+                -76.0,
+                -4.64
+              ],
+              [
+                -76.55,
+                -4.83
+              ],
+              [
+                -77.42,
+                -4.56
+              ],
+              [
+                -77.55,
+                -4.47
+              ],
+              [
+                -78.2,
+                -4.63
+              ],
+              [
+                -78.56,
+                -3.98
+              ],
+              [
+                -78.36,
+                -3.41
+              ],
+              [
+                -78.198,
+                -3.385
+              ],
+              [
+                -77.532,
+                -2.87
+              ],
+              [
+                -76.33,
+                -2.311
+              ],
+              [
+                -75.595,
+                -1.566
+              ],
+              [
+                -75.347,
+                -0.975
+              ],
+              [
+                -75.289,
+                -0.717
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "solida",
+            "etiqueta": "200.000 KM² (ECUADOR)",
+            "etiquetaEn": [
+              -74.6,
+              -3.0
+            ],
+            "aparecerEn": "200.000"
+          }
+        ],
+        "etiquetas": [
+          {
+            "texto": "SEGÚN PERÚ: NUNCA FUE SUYA",
+            "tipo": "contexto",
+            "aparecerEn": "Perú"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "29 ENE 1942",
+            "sub": "PROTOCOLO DE RÍO DE JANEIRO",
+            "icono": "📜",
+            "aparecerEn": "1942",
+            "duracionSeg": 2.6
+          }
+        ],
+        "polaroid": {
+          "buscar": "Protocolo de Rio 1942",
+          "archivo": "File:Protocolo de Río.jpg",
+          "pie": "Protocolo de Río de Janeiro",
+          "anio": "1942",
+          "lado": "izquierda",
+          "forma": "marco",
+          "aparecerEn": "firmó"
+        },
+        "fuente": {
+          "texto": "Protocolo de Río de Janeiro, 29-01-1942",
+          "dice": "Protocolo"
+        },
+        "clave": [
+          "1942",
+          "Protocolo",
+          "200.000",
+          "Perú"
+        ],
+        "resaltes": [
+          {
+            "lon": -73.24,
+            "lat": -3.75,
+            "radio": 110,
+            "aparecerEn": "peruana"
+          }
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Pero el mapa falló. Aviones de Estados Unidos fotografiaron la Cordillera del Cóndor y hallaron el río Cenepa donde el tratado veía una sola divisoria. Quedaron 78 kilómetros sin hitos.",
+        "rotulo": {
+          "texto": "78 KM",
+          "dice": "78"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.35,
+              -3.95
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.36,
+              -3.85
+            ],
+            "zoom": 9.4,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "Cenepa"
+          },
+          {
+            "centro": [
+              -78.45,
+              -3.7
+            ],
+            "zoom": 9.0,
+            "entrada": "paneo",
+            "deriva": 0.2,
+            "en": "Quedaron"
+          }
+        ],
+        "etiquetas": [
+          {
+            "texto": "CORDILLERA DEL CÓNDOR",
+            "tipo": "contexto",
+            "aparecerEn": "Cordillera"
+          },
+          {
+            "lon": -78.75,
+            "lat": -3.95,
+            "texto": "RÍO ZAMORA",
+            "tipo": "rio",
+            "rotacion": -60,
+            "aparecerEn": "divisoria"
+          },
+          {
+            "lon": -78.15,
+            "lat": -3.25,
+            "texto": "RÍO SANTIAGO",
+            "tipo": "rio",
+            "rotacion": -40,
+            "aparecerEn": "divisoria"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.0,
+            "lat": -3.6,
+            "icono": "✈️",
+            "escala": 0.9,
+            "ruta": [
+              [
+                -77.8,
+                -3.4
+              ],
+              [
+                -78.35,
+                -3.85
+              ],
+              [
+                -78.8,
+                -4.2
+              ]
+            ],
+            "duracionSeg": 2.5,
+            "aparecerEn": "Aviones"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "78 KM",
+            "sub": "SIN HITOS",
+            "icono": "📍",
+            "aparecerEn": "78",
+            "duracionSeg": 2.5
+          }
+        ],
+        "clave": [
+          "error",
+          "Cenepa",
+          "divisoria",
+          "78"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1960 Ecuador declaró nulo el Protocolo. En 1995 hubo otra guerra, en el Cenepa.",
+        "rotulo": {
+          "texto": "NULO",
+          "dice": "nulo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -78.3,
+              -4.1
+            ],
+            "zoom": 9.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -78.25,
+              -4.1
+            ],
+            "zoom": 10.2,
+            "entrada": "corte",
+            "deriva": 0.25,
+            "en": "1995"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -78.25,
+            "lat": -4.1,
+            "icono": "guerra",
+            "escala": 1,
+            "aparecerEn": "guerra"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1960",
+            "sub": "ECUADOR LO DECLARA NULO",
+            "icono": "✖️",
+            "aparecerEn": "1960",
+            "duracionSeg": 2.4
+          },
+          {
+            "texto": "1995",
+            "sub": "GUERRA DEL CENEPA",
+            "icono": "⚔️",
+            "aparecerEn": "1995",
+            "duracionSeg": 2.4
+          }
+        ],
+        "clave": [
+          "1960",
+          "nulo",
+          "1995",
+          "Cenepa"
+        ],
+        "polaroid": {
+          "buscar": "Velasco Ibarra",
+          "archivo": "File:José María Velasco Ibarra.jpg",
+          "pie": "José María Velasco Ibarra, presidente de Ecuador",
+          "anio": "1960",
+          "lado": "derecha",
+          "forma": "circulo",
+          "aparecerEn": "nulo"
+        }
+      },
+      {
+        "tipo": "hoy",
+        "texto": "En 1998, en Brasilia, ambos aceptaron la línea de 1942. Ecuador recibió dos terrenos de 150 hectáreas junto al Marañón para navegar al Amazonas.",
+        "rotulo": {
+          "texto": "150 HECTÁREAS",
+          "dice": "150"
+        },
+        "planos": [
+          {
+            "centro": [
+              -77.6,
+              -4.3
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -77.49,
+              -4.6
+            ],
+            "zoom": 9.6,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "150"
+          },
+          {
+            "centro": [
+              -75.0,
+              -4.0
+            ],
+            "zoom": 6.9,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "navegar"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.42,
+            "lat": -4.56,
+            "texto": "SARAMIRIZA",
+            "tipo": "pin",
+            "aparecerEn": "terrenos"
+          },
+          {
+            "lon": -77.56,
+            "lat": -4.63,
+            "texto": "PIJUAYAL",
+            "tipo": "pin",
+            "aparecerEn": "terrenos"
+          },
+          {
+            "lon": -77.0,
+            "lat": -4.85,
+            "texto": "RÍO MARAÑÓN",
+            "tipo": "rio",
+            "rotacion": 10,
+            "aparecerEn": "Marañón"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -77.42,
+            "lat": -4.56,
+            "icono": "barco",
+            "escala": 0.8,
+            "ruta": [
+              [
+                -77.42,
+                -4.56
+              ],
+              [
+                -76.55,
+                -4.83
+              ],
+              [
+                -74.6,
+                -4.75
+              ],
+              [
+                -73.57,
+                -4.51
+              ],
+              [
+                -73.24,
+                -3.75
+              ]
+            ],
+            "duracionSeg": 3,
+            "aparecerEn": "navegar"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2 × 150 HA",
+            "sub": "POR 50 AÑOS · SIN SOBERANÍA",
+            "icono": "⚓",
+            "aparecerEn": "hectáreas",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1998",
+          "Brasilia",
+          "150",
+          "Amazonas"
+        ]
+      }
+    ],
+    "remate": "¿Ecuador perdió su Amazonía, o nunca fue suya?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -75.6,
+          -2.8
+        ],
+        "zoom": 6.6,
+        "entrada": "zoom",
+        "deriva": 0.3,
+        "en": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -74.8,
+        "lat": -2.6,
+        "texto": "¿LA PERDIÓ?"
+      },
+      {
+        "lon": -74.0,
+        "lat": -4.2,
+        "texto": "¿O NUNCA FUE SUYA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Wikipedia (en): Rio Protocol (29-01-1942; Tobar Donoso y Solf y Muro; garantes EE. UU., Brasil, Argentina y Chile; ~200.000 km² de Maynas; renuncia al acceso directo al Marañón y al Amazonas)",
+        "url": "https://en.wikipedia.org/wiki/Rio_Protocol"
+      },
+      {
+        "texto": "Wikipedia (es): Protocolo de Río de Janeiro",
+        "url": "https://es.wikipedia.org/wiki/Protocolo_de_R%C3%ADo_de_Janeiro"
+      },
+      {
+        "texto": "Wikipedia (en): Ecuadorian–Peruvian territorial dispute (vuelos de EE. UU. 1943-1946 y el Cenepa; 78 km sin demarcar; nulidad de 1960; Brasilia 26-10-1998)",
+        "url": "https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute"
+      },
+      {
+        "texto": "Wikipedia (en): Ecuadorian–Peruvian War (5-07-1941; ocupación de El Oro; paracaidistas en Puerto Bolívar)",
+        "url": "https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_War"
+      },
+      {
+        "texto": "Wikipedia (en): Paratrooper Company (Perú; Puerto Bolívar 1941, primer uso en combate en América)",
+        "url": "https://en.wikipedia.org/wiki/Paratrooper_Company"
+      },
+      {
+        "texto": "Wikipedia (en): Brasilia Presidential Act (26-10-1998; Saramiriza y Pijuayal, 150 ha por 50 años)",
+        "url": "https://en.wikipedia.org/wiki/Brasilia_Presidential_Act"
+      },
+      {
+        "texto": "Tratado de Comercio y Navegación Perú-Ecuador (1998), texto en PA-X",
+        "url": "https://www.peaceagreements.org/view/625/"
+      },
+      {
+        "texto": "Wikipedia (es): Francisco de Orellana (12-02-1542, llegada al Amazonas)",
+        "url": "https://es.wikipedia.org/wiki/Francisco_de_Orellana"
+      },
+      {
+        "texto": "Expreso (Perú), 5-02-1996: la cifra de 200.000 km² según la versión peruana",
+        "url": "https://www.congreso.gob.pe/Docs/congresistas1995/Alfonso_Baella/files/publicaciones/expreso/expreso_05_de_febrero_de_1996.pdf"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 8,
+      "centro": [
+        -75.6,
+        -2.8
+      ],
+      "zoomInicial": 6.6,
+      "zoomFinal": 6.8,
+      "lineas": [
+        {
+          "id": "amazonas",
+          "puntos": [
+            [
+              -73.57,
+              -4.51
+            ],
+            [
+              -73.24,
+              -3.75
+            ],
+            [
+              -71.86,
+              -3.32
+            ],
+            [
+              -70.52,
+              -3.91
+            ],
+            [
+              -69.96,
+              -4.23
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": -1,
+          "dice": "Amazonas",
+          "etiqueta": "RÍO AMAZONAS"
+        },
+        {
+          "id": "orellana",
+          "puntos": [
+            [
+              -78.51,
+              -0.22
+            ],
+            [
+              -77.0,
+              -0.6
+            ],
+            [
+              -75.5,
+              -1.4
+            ],
+            [
+              -73.2,
+              -3.3
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 0,
+          "dice": "salió",
+          "etiqueta": "ORELLANA 1542"
+        },
+        {
+          "id": "limite-1942",
+          "fronteraEntre": [
+            "Ecuador",
+            "Peru"
+          ],
+          "color": "amarillo",
+          "estilo": "solida",
+          "dibujarEn": 3,
+          "dice": "firmó",
+          "etiqueta": "LÍMITE DE 1942"
+        },
+        {
+          "id": "cenepa",
+          "puntos": [
+            [
+              -78.38,
+              -3.62
+            ],
+            [
+              -78.33,
+              -3.85
+            ],
+            [
+              -78.28,
+              -4.05
+            ],
+            [
+              -78.22,
+              -4.3
+            ],
+            [
+              -78.2,
+              -4.63
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 4,
+          "dice": "Cenepa",
+          "etiqueta": "RÍO CENEPA"
+        },
+        {
+          "id": "sin-hitos",
+          "puntos": [
+            [
+              -78.36,
+              -3.41
+            ],
+            [
+              -78.403,
+              -3.613
+            ],
+            [
+              -78.414,
+              -3.772
+            ],
+            [
+              -78.479,
+              -3.849
+            ],
+            [
+              -78.562,
+              -3.979
+            ]
+          ],
+          "color": "coral",
+          "estilo": "punteada",
+          "dibujarEn": 4,
+          "dice": "78",
+          "etiqueta": "SIN HITOS"
+        },
+        {
+          "id": "maranon",
+          "puntos": [
+            [
+              -78.2,
+              -4.63
+            ],
+            [
+              -77.55,
+              -4.47
+            ],
+            [
+              -77.42,
+              -4.56
+            ],
+            [
+              -76.55,
+              -4.83
+            ],
+            [
+              -76.0,
+              -4.64
+            ],
+            [
+              -74.6,
+              -4.75
+            ],
+            [
+              -73.57,
+              -4.51
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "solida",
+          "dibujarEn": 6,
+          "dice": "Marañón",
+          "etiqueta": "RÍO MARAÑÓN"
+        }
+      ]
+    }
+  }
+}
