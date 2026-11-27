@@ -23,6 +23,7 @@ Shorts, Opus en el largo y su tráiler; veredictos en `salida/revisiones/guiones
 | sáb 05-12 | Julius Popper (bandera) | Ayacucho 1824 (contingente) | |
 | dom 06-12 | Salitre | **Tráiler 1975** (bandera) | **LARGO "1975: Perú tenía más tanques. ¿Por qué no hubo guerra con Chile?"** (8:57) |
 
+**2026-11-27 madrugada: los 14 Shorts de la semana subidos y programados** (privados con `publishAt` verificado por API; ids en el JSON). Falta solo el largo y su render.
 Estado y ids: ver el bloque JSON (manda). Lo que falta para el domingo está en "Pendiente" de `salida/revisiones/2026-11-26.md`.
 
 ## ✅ 2026-11-19 (ritual del jueves) — semana 23 → 29-11 ASEGURADA (manda sobre lo de abajo)
@@ -193,7 +194,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
   "version": 1,
   "canal": "linea-punteada",
   "zona": "America/Santiago",
-  "actualizado": "2026-11-27T04:42:20.530Z",
+  "actualizado": "2026-11-27T05:00:00.000Z",
   "semanas": [
     {
       "inicio": "2026-11-16",
@@ -1109,9 +1110,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-cristo-redentor-andes.json",
-      "videoId": null,
+      "videoId": "NDmX-aLQ2Ng",
       "referente": "https://www.youtube.com/shorts/dMVhf5379s4",
       "porQue": "Chile+Argentina (80 %); bandera con ojos (A/B)",
       "bloqueo": null
@@ -1125,9 +1126,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-isla-de-aves.json",
-      "videoId": null,
+      "videoId": "9izEEli7_g4",
       "referente": "https://www.youtube.com/shorts/jO245y7O5u0",
       "porQue": "20 % LatAm no chileno; reemplaza a \"10 centavos\" (revisor 3,86 → reserva)",
       "bloqueo": null
@@ -1141,9 +1142,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-rey-de-la-araucania.json",
-      "videoId": null,
+      "videoId": "r4oylwCW6IM",
       "referente": "https://www.youtube.com/watch?v=9xdaFZl_zwk",
       "porQue": "Chile; anécdota + humor seco",
       "bloqueo": null
@@ -1157,9 +1158,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-uruguay-reclama-a-brasil.json",
-      "videoId": null,
+      "videoId": "8Zy4BvGSUaU",
       "referente": "https://www.youtube.com/watch?v=KopaQVi4LVc",
       "porQue": "disputa viva LatAm; bandera con ojos",
       "bloqueo": null
@@ -1173,9 +1174,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-lago-con-dos-nombres.json",
-      "videoId": null,
+      "videoId": "hhYHnBXFPjE",
       "referente": "https://www.youtube.com/shorts/TquxttS76_Q",
       "porQue": "Chile+Argentina; bandera con ojos",
       "bloqueo": null
@@ -1189,9 +1190,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-ecuador-perdio-su-amazonia.json",
-      "videoId": null,
+      "videoId": "nM5kAOPMiaY",
       "referente": "https://www.youtube.com/shorts/9YgSOT0Ce4w",
       "porQue": "vecinos LatAm con demanda (177 K)",
       "bloqueo": null
@@ -1205,9 +1206,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-puerto-del-hambre.json",
-      "videoId": null,
+      "videoId": "Lfupc3DEhCc",
       "referente": "https://www.youtube.com/shorts/7N0LQwZIPII",
       "porQue": "Chile; día de la lectura del lote",
       "bloqueo": null
@@ -1221,9 +1222,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-bolivia-dos-capitales.json",
-      "videoId": null,
+      "videoId": "5BgMFoY3ms8",
       "referente": "https://www.youtube.com/shorts/XcZV6DpldlU",
       "porQue": "vecino; bandera con ojos",
       "bloqueo": null
@@ -1237,9 +1238,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-confederacion-peru-boliviana.json",
-      "videoId": null,
+      "videoId": "_Ne5HnKj0ZE",
       "referente": "https://www.youtube.com/shorts/Llin2lpS2d4",
       "porQue": "Chile+vecinos, outlier 3,8 M; bandera con ojos",
       "bloqueo": null
@@ -1253,9 +1254,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-primer-bebe-antartico.json",
-      "videoId": null,
+      "videoId": "XXujy4zU1CQ",
       "referente": "https://www.youtube.com/shorts/POGA2KBk01I",
       "porQue": "Chile+Argentina; outlier Ñerd 377 K",
       "bloqueo": null
@@ -1269,9 +1270,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-julius-popper-tierra-del-fuego.json",
-      "videoId": null,
+      "videoId": "k0EaY-e9muM",
       "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
       "porQue": "Chile+Argentina; bandera con ojos",
       "bloqueo": null
@@ -1289,9 +1290,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
         "fecha": "2026-12-09",
         "url": "https://es.wikisource.org/wiki/Capitulaci%C3%B3n_de_Ayacucho"
       },
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-ayacucho-1824.json",
-      "videoId": null,
+      "videoId": "NuQ0EgEtXPk",
       "referente": "https://www.youtube.com/shorts/Z51DtnpA9K8",
       "porQue": "efeméride 202 años (9-12), justo antes de la fecha",
       "bloqueo": null
@@ -1305,9 +1306,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-salitre-pueblos-fantasma.json",
-      "videoId": null,
+      "videoId": "ELKwan-w5CA",
       "referente": "https://www.youtube.com/watch?v=j-oIDQ6iLSU",
       "porQue": "Chile",
       "bloqueo": null
@@ -1321,9 +1322,9 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "La Guerra del Pacífico en el mapa",
       "contingencia": null,
-      "estado": "renderizado",
+      "estado": "programado",
       "guion": "contenido/guiones/2026-11-26-frontera-peru-1975-trailer.json",
-      "videoId": null,
+      "videoId": "UJnyNDe-V-0",
       "referente": "https://www.youtube.com/shorts/hYzFaRO0_C8",
       "porQue": "Short tráiler del largo (GUION §10); related video → largo",
       "bloqueo": null

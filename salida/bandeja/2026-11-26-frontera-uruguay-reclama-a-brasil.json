@@ -12,7 +12,14 @@
     "#geografia"
   ],
   "duracionSeg": 85.5,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "shorts-2026-11-26-45915568023"
+  "artefacto": "shorts-2026-11-26-45915568023",
+  "publicarEn": "2026-12-01T21:00:00.000Z",
+  "videoId": "8Zy4BvGSUaU",
+  "url": "https://youtube.com/shorts/8Zy4BvGSUaU",
+  "programado": "2026-12-01 18:00",
+  "subidoEn": "2026-11-27T05:24:36.955252Z",
+  "nota": "Schedule pulsado a mano tras timeout (Checking)",
+  "reprogramadoEn": "2026-11-27T05:53:47.421Z"
 }

@@ -12,7 +12,12 @@
     "#argentina"
   ],
   "duracionSeg": 81.5,
-  "estado": "listo",
+  "estado": "subido",
   "tipo": "short",
-  "artefacto": "shorts-2026-11-26-45915500588"
+  "artefacto": "shorts-2026-11-26-45915500588",
+  "publicarEn": "2026-12-05T12:00:00-03:00",
+  "videoId": "k0EaY-e9muM",
+  "url": "https://youtube.com/shorts/k0EaY-e9muM",
+  "programado": "2026-12-05 12:00",
+  "subidoEn": "2026-11-27T05:44:25.112Z"
 }
