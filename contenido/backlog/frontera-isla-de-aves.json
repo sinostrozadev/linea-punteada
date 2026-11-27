@@ -1,0 +1,865 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-isla-de-aves",
+  "titulo": "Isla de Aves: 4 hectáreas y 200 millas de mar. ¿Isla o roca? 🇻🇪🇩🇲",
+  "descripcion": "Isla de Aves es un islote venezolano de menos de cuatro hectáreas, a unos 550 km de la costa de Venezuela y a unos 200 km de Guadalupe. Contamos el guano de 1854, el laudo de Isabel II de España en 1865, el huracán Allen que la partió en dos en 1980 y sus tortugas verdes. Venezuela la considera una isla con zona económica de 200 millas; Dominica y otros países del Caribe oriental han sostenido que es una roca según el artículo 121 de la Convención del Mar, que Venezuela votó en contra en 1982 y nunca firmó. En 2006 el primer ministro de Dominica dijo que la isla es venezolana. ¿Isla o roca?\n\nFuentes: https://earthobservatory.nasa.gov/images/6667/aves-island · https://legal.un.org/avl/ha/uncls/uncls.html\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#venezuela",
+    "#caribe",
+    "#geografia",
+    "#mapas",
+    "#fronteras"
+  ],
+  "props": {
+    "id": "pendiente-frontera-isla-de-aves",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/jO245y7O5u0",
+    "cabecera": "ISLA DE AVES — ¿ISLA O ROCA?",
+    "acento": "cian",
+    "gancho": {
+      "texto": "Isla de Aves mide menos de cuatro hectáreas, un huracán puede taparla entera, y Venezuela reclama desde ahí 200 millas de mar. Está a 550 kilómetros de Venezuela y a 200 de Guadalupe.",
+      "rotulo": "200 MILLAS",
+      "planos": [
+        {
+          "centro": [
+            -63.6,
+            15.6
+          ],
+          "zoom": 5.0,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -63.4,
+            13.4
+          ],
+          "zoom": 4.6,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Está"
+        },
+        {
+          "centro": [
+            -62.6,
+            15.8
+          ],
+          "zoom": 5.4,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Guadalupe"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -60.158,
+              15.67
+            ],
+            [
+              -60.245,
+              16.412
+            ],
+            [
+              -60.501,
+              17.116
+            ],
+            [
+              -60.913,
+              17.748
+            ],
+            [
+              -61.461,
+              18.276
+            ],
+            [
+              -62.118,
+              18.673
+            ],
+            [
+              -62.85,
+              18.92
+            ],
+            [
+              -63.62,
+              19.003
+            ],
+            [
+              -64.39,
+              18.92
+            ],
+            [
+              -65.122,
+              18.673
+            ],
+            [
+              -65.779,
+              18.276
+            ],
+            [
+              -66.327,
+              17.748
+            ],
+            [
+              -66.739,
+              17.116
+            ],
+            [
+              -66.995,
+              16.412
+            ],
+            [
+              -67.082,
+              15.67
+            ],
+            [
+              -66.995,
+              14.928
+            ],
+            [
+              -66.739,
+              14.224
+            ],
+            [
+              -66.327,
+              13.592
+            ],
+            [
+              -65.779,
+              13.064
+            ],
+            [
+              -65.122,
+              12.667
+            ],
+            [
+              -64.39,
+              12.42
+            ],
+            [
+              -63.62,
+              12.337
+            ],
+            [
+              -62.85,
+              12.42
+            ],
+            [
+              -62.118,
+              12.667
+            ],
+            [
+              -61.461,
+              13.064
+            ],
+            [
+              -60.913,
+              13.592
+            ],
+            [
+              -60.501,
+              14.224
+            ],
+            [
+              -60.245,
+              14.928
+            ]
+          ],
+          "color": "amarillo",
+          "trama": "plena",
+          "etiqueta": "200 MILLAS",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -63.62,
+          "lat": 15.67,
+          "texto": "ISLA DE AVES",
+          "tipo": "pin",
+          "aparecerEn": 0
+        },
+        {
+          "lon": -64.5,
+          "lat": 10.4,
+          "texto": "VENEZUELA",
+          "tipo": "pais",
+          "aparecerEn": "Venezuela#2"
+        },
+        {
+          "lon": -61.68,
+          "lat": 16.17,
+          "texto": "GUADALUPE",
+          "tipo": "pin",
+          "aparecerEn": "Guadalupe"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -63.62,
+            15.67
+          ],
+          "hasta": [
+            -63.17,
+            10.72
+          ],
+          "texto": "~550 KM",
+          "aparecerEn": "550"
+        },
+        {
+          "desde": [
+            -63.62,
+            15.67
+          ],
+          "hasta": [
+            -61.77,
+            16.06
+          ],
+          "texto": "~200 KM",
+          "aparecerEn": "Guadalupe"
+        }
+      ],
+      "clave": [
+        "Aves",
+        "200",
+        "Venezuela"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1854 un capitán estadounidense encontró guano, excremento de ave vendido como abono. Holanda dijo que el islote era de Saba.",
+        "rotulo": {
+          "texto": "GUANO",
+          "dice": "guano"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.5,
+              16.6
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63.4,
+              16.7
+            ],
+            "zoom": 7.2,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "excremento"
+          },
+          {
+            "centro": [
+              -63.4,
+              16.7
+            ],
+            "zoom": 6.3,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Holanda"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -63.23,
+            "lat": 17.63,
+            "texto": "SABA",
+            "tipo": "pin",
+            "aparecerEn": "Saba"
+          },
+          {
+            "lon": -63.62,
+            "lat": 15.67,
+            "texto": "AVES",
+            "tipo": "pin",
+            "aparecerEn": 0
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -63.62,
+              15.67
+            ],
+            "hasta": [
+              -63.23,
+              17.63
+            ],
+            "texto": "~220 KM",
+            "aparecerEn": "Saba"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -63.62,
+            "lat": 15.95,
+            "icono": "🐦",
+            "escala": 1,
+            "aparecerEn": "guano"
+          }
+        ],
+        "clave": [
+          "1854",
+          "guano",
+          "Saba"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1865 la reina Isabel Segunda de España, árbitro aceptada por los dos, falló a favor de Venezuela.",
+        "rotulo": {
+          "texto": "1865",
+          "dice": "1865"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.6,
+              15.7
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63.6,
+              15.7
+            ],
+            "zoom": 7.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "España"
+          },
+          {
+            "centro": [
+              -63.6,
+              15.7
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Venezuela"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -63.62,
+            "lat": 15.67,
+            "texto": "ISLA DE AVES",
+            "tipo": "pin",
+            "aparecerEn": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1865",
+            "sub": "LAUDO DE ISABEL II DE ESPAÑA",
+            "icono": "📜",
+            "aparecerEn": "reina",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1865",
+          "reina",
+          "Venezuela"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1968 un estudio predijo que hacia el año 2000 podría desaparecer. En 1980 el huracán Allen la partió en dos. El coral la volvió a unir, y en 2008 desovaron más de mil tortugas verdes.",
+        "rotulo": {
+          "texto": "AÑO 2000",
+          "dice": "2000"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 10.5,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 12.5,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Allen"
+          },
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 13.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "coral"
+          },
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 12.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "tortugas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -63.62,
+            "lat": 15.67,
+            "texto": "ISLA DE AVES",
+            "tipo": "pin",
+            "aparecerEn": 0
+          }
+        ],
+        "foto": {
+          "buscar": "Aves Island ISS013",
+          "archivo": "File:Aves Island ISS013.jpg",
+          "pie": "ISLA DE AVES · FOTO DE LA NASA (2006)",
+          "aparecerEn": "coral",
+          "duracionSeg": 2.6
+        },
+        "tarjetas": [
+          {
+            "texto": "+1.000",
+            "sub": "TORTUGAS VERDES EN 2008",
+            "icono": "🐢",
+            "aparecerEn": "tortugas",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2000",
+          "Allen",
+          "tortugas"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Según la Convención del Mar, las rocas donde no puede vivir gente no tienen zona económica. Desde 1978, la Armada tiene ahí una base sobre pilotes.",
+        "rotulo": {
+          "texto": "ROCAS",
+          "dice": "rocas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 13.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 13.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "rocas"
+          },
+          {
+            "centro": [
+              -63.62,
+              15.67
+            ],
+            "zoom": 14.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Armada"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -63.62,
+            "lat": 15.67,
+            "texto": "BASE NAVAL 1978",
+            "tipo": "pin",
+            "aparecerEn": "1978"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "ART. 121",
+            "sub": "CONVENCIÓN DEL MAR: ROCAS SIN ZONA",
+            "icono": "⚖️",
+            "aparecerEn": "Convención",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "rocas",
+          "Convención",
+          "1978"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Venezuela dice que es una isla. Dominica y otros vecinos del Caribe han planteado que es una roca. En 1978 Estados Unidos y Holanda firmaron límites con Aves como base.",
+        "rotulo": {
+          "texto": "¿ISLA O ROCA?",
+          "dice": "roca"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.4,
+              15.8
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -62.8,
+              15.6
+            ],
+            "zoom": 5.5,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "Dominica"
+          },
+          {
+            "centro": [
+              -64.6,
+              16.8
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Estados"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -60.158,
+                15.67
+              ],
+              [
+                -60.245,
+                16.412
+              ],
+              [
+                -60.501,
+                17.116
+              ],
+              [
+                -60.913,
+                17.748
+              ],
+              [
+                -61.461,
+                18.276
+              ],
+              [
+                -62.118,
+                18.673
+              ],
+              [
+                -62.85,
+                18.92
+              ],
+              [
+                -63.62,
+                19.003
+              ],
+              [
+                -64.39,
+                18.92
+              ],
+              [
+                -65.122,
+                18.673
+              ],
+              [
+                -65.779,
+                18.276
+              ],
+              [
+                -66.327,
+                17.748
+              ],
+              [
+                -66.739,
+                17.116
+              ],
+              [
+                -66.995,
+                16.412
+              ],
+              [
+                -67.082,
+                15.67
+              ],
+              [
+                -66.995,
+                14.928
+              ],
+              [
+                -66.739,
+                14.224
+              ],
+              [
+                -66.327,
+                13.592
+              ],
+              [
+                -65.779,
+                13.064
+              ],
+              [
+                -65.122,
+                12.667
+              ],
+              [
+                -64.39,
+                12.42
+              ],
+              [
+                -63.62,
+                12.337
+              ],
+              [
+                -62.85,
+                12.42
+              ],
+              [
+                -62.118,
+                12.667
+              ],
+              [
+                -61.461,
+                13.064
+              ],
+              [
+                -60.913,
+                13.592
+              ],
+              [
+                -60.501,
+                14.224
+              ],
+              [
+                -60.245,
+                14.928
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "rayas",
+            "aparecerEn": "isla",
+            "quedarse": 0
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -61.36,
+            "lat": 15.42,
+            "texto": "DOMINICA",
+            "tipo": "pin",
+            "aparecerEn": "Dominica"
+          },
+          {
+            "lon": -66.1,
+            "lat": 18.4,
+            "texto": "PUERTO RICO (EE. UU.)",
+            "tipo": "pin",
+            "aparecerEn": "Estados"
+          },
+          {
+            "lon": -63.23,
+            "lat": 17.63,
+            "texto": "SABA (P. BAJOS)",
+            "tipo": "pin",
+            "aparecerEn": "Holanda"
+          },
+          {
+            "lon": -63.62,
+            "lat": 15.67,
+            "texto": "AVES",
+            "tipo": "pin",
+            "aparecerEn": 0
+          }
+        ],
+        "clave": [
+          "isla",
+          "roca",
+          "1978"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Esa Convención empezó a negociarse en Caracas, en 1974. En 1982 se aprobó por 130 votos contra 4. Uno de esos cuatro fue Venezuela, que nunca la firmó.",
+        "rotulo": {
+          "texto": "4 EN CONTRA",
+          "dice": "contra"
+        },
+        "planos": [
+          {
+            "centro": [
+              -65.3,
+              13.0
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -66.9,
+              10.5
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Caracas"
+          },
+          {
+            "centro": [
+              -65.3,
+              13.0
+            ],
+            "zoom": 4.8,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "1982"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -66.9,
+            "lat": 10.5,
+            "texto": "CARACAS 1974",
+            "tipo": "pin",
+            "aparecerEn": "Caracas"
+          },
+          {
+            "lon": -63.62,
+            "lat": 15.67,
+            "texto": "AVES",
+            "tipo": "pin",
+            "aparecerEn": 0
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "130 vs 4",
+            "tipo": "barras",
+            "sub": "VOTO DE LA CONVENCIÓN, 1982",
+            "barras": [
+              {
+                "etiqueta": "A FAVOR",
+                "valor": 130
+              },
+              {
+                "etiqueta": "EN CONTRA",
+                "valor": 4
+              }
+            ],
+            "aparecerEn": "130",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "Caracas",
+          "130",
+          "Venezuela"
+        ]
+      }
+    ],
+    "remate": "¿Isla de Aves es una isla o una roca?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -63.6,
+          15.6
+        ],
+        "zoom": 5.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -64.9,
+        "lat": 15.67,
+        "texto": "¿ISLA?"
+      },
+      {
+        "lon": -62.3,
+        "lat": 15.67,
+        "texto": "¿ROCA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "NASA Earth Observatory: Aves Island (0,5 × 0,2 km, 4 m, sumergida en huracanes, Allen 1980)",
+        "url": "https://earthobservatory.nasa.gov/images/6667/aves-island"
+      },
+      {
+        "texto": "Lazo, R. (2015). Historia cartográfica de Isla de Aves. Tiempo y Espacio 64 (3,6 ha; estudio de 1968)",
+        "url": "https://ve.scielo.org/pdf/te/v25n64/art26.pdf"
+      },
+      {
+        "texto": "ONU: Convención de las Naciones Unidas sobre el Derecho del Mar, art. 121",
+        "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/convemar_es.pdf"
+      },
+      {
+        "texto": "ONU, Colección de Tratados: estado de la Convención (Venezuela no figura)",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XXI-6&chapter=21&Temp=mtdsg3&clang=_en"
+      },
+      {
+        "texto": "ONU, Oficina de Asuntos Jurídicos: historia de la Convención (Caracas 1974; voto 130-4-17)",
+        "url": "https://legal.un.org/avl/ha/uncls/uncls.html"
+      },
+      {
+        "texto": "Departamento de Estado de EE. UU., FRUS 1981-88 vol. XLI doc. 157 (los 4 votos en contra)",
+        "url": "https://history.state.gov/historicaldocuments/frus1981-88v41/d157"
+      },
+      {
+        "texto": "ONU DOALOS: Tratado de límites Países Bajos-Venezuela, 31-03-1978",
+        "url": "https://static.un.org/depts/los/LEGISLATIONANDTREATIES/PDFFILES/TREATIES/VEN-NLD1978BD.PDF"
+      },
+      {
+        "texto": "Vera y Buitrago (2012). Chelonia mydas en Isla de Aves 2001-2008. Rev. Biol. Trop. 60(2)",
+        "url": "https://tropicalstudies.org/rbt/pages/vols/abstracts/abs60-2/abstract-19Vera.html"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 8,
+      "centro": [
+        -63.6,
+        15.6
+      ],
+      "zoomInicial": 5.0,
+      "zoomFinal": 5.2,
+      "lineas": []
+    }
+  }
+}
