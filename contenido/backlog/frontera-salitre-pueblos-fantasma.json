@@ -1,0 +1,660 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-salitre-pueblos-fantasma",
+  "titulo": "El salitre pagó casi la mitad de Chile. ¿Por qué hoy son ruinas? 🇨🇱",
+  "descripcion": "Entre 1880 y 1920, el impuesto a la exportación de salitre aportó cerca de la mitad de los ingresos ordinarios del Estado chileno. Tras la Guerra del Pacífico, Chile se quedó con Tarapacá y Antofagasta, donde estaban los mayores yacimientos del mundo, y en la pampa llegaron a existir más de 200 oficinas salitreras. Una de ellas nació en 1872 como La Palma y en 1934 tomó el nombre de James Thomas Humberstone. El 9 de septiembre de 1913 BASF encendió en Oppau la primera planta Haber-Bosch; con la Primera Guerra Mundial, el salitre sintético y la crisis de 1929, la industria se vino abajo. Humberstone y Santa Laura cerraron en 1960 y desde 2005 son Patrimonio de la Humanidad. ¿Se pudo salvar? Cuéntanos en los comentarios.\n\nFuentes:\nhttps://countrystudies.us/chile/57.htm\nhttps://www.memoriachilena.gob.cl/602/w3-article-3309.html\nhttps://whc.unesco.org/es/list/1178\nhttps://www.basf.com/global/en/who-we-are/history/chronology/1902-1924/1913\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#chile",
+    "#salitre",
+    "#humberstone",
+    "#historia",
+    "#geografia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-salitre-pueblos-fantasma",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/watch?v=j-oIDQ6iLSU",
+    "cabecera": "TARAPACÁ — EL ORO BLANCO",
+    "acento": "coral",
+    "gancho": {
+      "texto": "Hacia 1900 el salitre aportó cerca de la mitad de los ingresos de Chile, y hoy casi todas sus oficinas son ruinas.",
+      "rotulo": "1900",
+      "planos": [
+        {
+          "centro": [
+            -69.6,
+            -22.6
+          ],
+          "zoom": 5.2,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -69.8,
+            -20.6
+          ],
+          "zoom": 6.4,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "oficinas"
+        }
+      ],
+      "areas": [
+        {
+          "poligono": [
+            [
+              -70.3,
+              -19.2
+            ],
+            [
+              -70.15,
+              -20.2
+            ],
+            [
+              -70.15,
+              -21.4
+            ],
+            [
+              -70.3,
+              -22.5
+            ],
+            [
+              -70.45,
+              -23.6
+            ],
+            [
+              -70.55,
+              -25.4
+            ],
+            [
+              -70.6,
+              -26.05
+            ],
+            [
+              -68.4,
+              -26.05
+            ],
+            [
+              -68.1,
+              -25.1
+            ],
+            [
+              -67.0,
+              -23.0
+            ],
+            [
+              -67.9,
+              -22.3
+            ],
+            [
+              -68.2,
+              -21.3
+            ],
+            [
+              -68.8,
+              -20.0
+            ],
+            [
+              -69.1,
+              -19.2
+            ]
+          ],
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -69.8,
+          "lat": -20.21,
+          "texto": "HUMBERSTONE",
+          "tipo": "pin",
+          "aparecerEn": "oficinas"
+        }
+      ],
+      "clave": [
+        "1900",
+        "mitad",
+        "ruinas"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En 1879 Chile fue a la guerra contra Perú y Bolivia. Al terminar, se quedó con Tarapacá y Antofagasta, y con los mayores yacimientos de salitre del mundo.",
+        "rotulo": {
+          "texto": "1879",
+          "dice": "1879"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -22.6
+            ],
+            "zoom": 5.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.6,
+              -22.8
+            ],
+            "zoom": 5.5,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "yacimientos"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.3,
+                -19.2
+              ],
+              [
+                -70.15,
+                -20.2
+              ],
+              [
+                -70.15,
+                -21.4
+              ],
+              [
+                -70.3,
+                -22.5
+              ],
+              [
+                -70.45,
+                -23.6
+              ],
+              [
+                -70.55,
+                -25.4
+              ],
+              [
+                -70.6,
+                -26.05
+              ],
+              [
+                -68.4,
+                -26.05
+              ],
+              [
+                -68.1,
+                -25.1
+              ],
+              [
+                -67.0,
+                -23.0
+              ],
+              [
+                -67.9,
+                -22.3
+              ],
+              [
+                -68.2,
+                -21.3
+              ],
+              [
+                -68.8,
+                -20.0
+              ],
+              [
+                -69.1,
+                -19.2
+              ]
+            ],
+            "color": "rojo",
+            "trama": "plena",
+            "aparecerEn": "quedó",
+            "quedarse": 0
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.4,
+            "lat": -20.3,
+            "texto": "TARAPACÁ",
+            "tipo": "region",
+            "aparecerEn": "Tarapacá"
+          },
+          {
+            "lon": -69.0,
+            "lat": -23.6,
+            "texto": "ANTOFAGASTA",
+            "tipo": "region",
+            "aparecerEn": "Antofagasta"
+          }
+        ],
+        "clave": [
+          "1879",
+          "Tarapacá",
+          "Antofagasta"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El Estado cobró un impuesto alto por exportarlo. Un inglés, John Thomas North, se hizo tan rico que lo apodaron el Rey del Salitre.",
+        "rotulo": {
+          "texto": "IMPUESTO",
+          "dice": "impuesto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.9,
+              -21.0
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.1,
+              -20.3
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "North"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.15,
+            "lat": -20.21,
+            "texto": "IQUIQUE",
+            "tipo": "pin",
+            "aparecerEn": "exportarlo"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "REY DEL SALITRE",
+            "sub": "JOHN THOMAS NORTH",
+            "icono": "👑",
+            "aparecerEn": "Rey",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "impuesto",
+          "North",
+          "Rey"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En la pampa llegaron a existir más de 200 oficinas. Una nació en 1872 como La Palma y en 1934 tomó el apellido del ingeniero inglés James Thomas Humberstone.",
+        "rotulo": {
+          "texto": "200 OFICINAS",
+          "dice": "200"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -20.8
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.8,
+              -20.22
+            ],
+            "zoom": 10.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Palma"
+          },
+          {
+            "centro": [
+              -69.8,
+              -20.21
+            ],
+            "zoom": 11.2,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Humberstone"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -69.75,
+            "lat": -20.5,
+            "icono": "🏭",
+            "escala": 0.8,
+            "aparecerEn": "200"
+          },
+          {
+            "lon": -69.65,
+            "lat": -21.0,
+            "icono": "🏭",
+            "escala": 0.8,
+            "aparecerEn": "oficinas"
+          },
+          {
+            "lon": -69.9,
+            "lat": -21.3,
+            "icono": "🏭",
+            "escala": 0.8,
+            "aparecerEn": "oficinas"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.8,
+            "lat": -20.21,
+            "texto": "LA PALMA 1872",
+            "tipo": "pin",
+            "aparecerEn": "Palma"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1934",
+            "sub": "LA PALMA PASA A LLAMARSE HUMBERSTONE",
+            "icono": "📜",
+            "aparecerEn": "apellido",
+            "duracionSeg": 2.5
+          }
+        ],
+        "clave": [
+          "200",
+          "Palma",
+          "Humberstone"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Allí el sueldo solía pagarse en fichas de la empresa, que solo servían en su propia pulpería.",
+        "rotulo": {
+          "texto": "FICHAS",
+          "dice": "fichas"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -20.21
+            ],
+            "zoom": 11.4,
+            "entrada": "corte",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.8,
+              -20.21
+            ],
+            "zoom": 12.0,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "fichas"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "FICHAS",
+            "sub": "SOLO VALÍAN EN LA PULPERÍA",
+            "icono": "🪙",
+            "aparecerEn": "pulpería",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "sueldo",
+          "fichas",
+          "pulpería"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 9 de septiembre de 1913, en Oppau, la alemana BASF encendió la primera fábrica que sacaba nitrógeno del aire.",
+        "rotulo": {
+          "texto": "1913",
+          "dice": "1913"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -20.6
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.8,
+              -21.4
+            ],
+            "zoom": 7.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "aire"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "9 SEP 1913",
+            "sub": "BASF · OPPAU, ALEMANIA",
+            "icono": "🏭",
+            "aparecerEn": "Oppau",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1913",
+          "BASF",
+          "nitrógeno"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "En 1914 estalló la Primera Guerra Mundial. El bloqueo británico dejó a Alemania sin salitre chileno, y Alemania lo fabricó. El sintético ganó mercados y la crisis de 1929 hizo el resto.",
+        "rotulo": {
+          "texto": "1929",
+          "dice": "1929"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -22.6
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -72.5,
+              -22.0
+            ],
+            "zoom": 5.0,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "bloqueo"
+          },
+          {
+            "centro": [
+              -69.8,
+              -22.6
+            ],
+            "zoom": 5.6,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "sintético"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -73.5,
+            "lat": -21.5,
+            "icono": "⚓",
+            "escala": 1,
+            "aparecerEn": "bloqueo"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1929",
+            "sub": "LA GRAN DEPRESIÓN",
+            "icono": "📉",
+            "aparecerEn": "crisis",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "guerra",
+          "bloqueo",
+          "1929"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Humberstone y Santa Laura cerraron en 1960. En 2005 la UNESCO las declaró Patrimonio de la Humanidad. Su teatro de 1935 sigue en pie.",
+        "rotulo": {
+          "texto": "UNESCO",
+          "dice": "UNESCO"
+        },
+        "planos": [
+          {
+            "centro": [
+              -69.8,
+              -20.21
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -69.805,
+              -20.206
+            ],
+            "zoom": 11.0,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "UNESCO"
+          },
+          {
+            "centro": [
+              -69.8,
+              -20.209
+            ],
+            "zoom": 11.8,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "teatro"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -69.7955,
+            "lat": -20.2086,
+            "texto": "HUMBERSTONE",
+            "tipo": "pin",
+            "aparecerEn": "Humberstone"
+          },
+          {
+            "lon": -69.812,
+            "lat": -20.202,
+            "texto": "SANTA LAURA",
+            "tipo": "pin",
+            "aparecerEn": "Laura"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2005",
+            "sub": "PATRIMONIO DE LA HUMANIDAD",
+            "icono": "🏛️",
+            "aparecerEn": "Patrimonio",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1960",
+          "UNESCO",
+          "teatro"
+        ]
+      }
+    ],
+    "remate": "¿Chile pudo salvar el salitre o estaba condenado?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -69.8,
+          -22.0
+        ],
+        "zoom": 5.6,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -71.6,
+        "lat": -21.4,
+        "texto": "¿SALVABLE?"
+      },
+      {
+        "lon": -67.9,
+        "lat": -21.4,
+        "texto": "¿CONDENADO?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Library of Congress Country Studies, Chile: los impuestos al salitre ≈ la mitad de los ingresos ordinarios 1880-1920; fin del auge con la Primera Guerra y los sustitutos sintéticos",
+        "url": "https://countrystudies.us/chile/57.htm"
+      },
+      {
+        "texto": "Memoria Chilena: La industria del salitre en Chile (1880-1930) (anexión de Tarapacá y Antofagasta, impuesto a la exportación, John Thomas North 'Rey del Salitre', fertilizantes artificiales, crisis de 1929)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-3309.html"
+      },
+      {
+        "texto": "UNESCO Patrimonio Mundial: Oficinas salitreras de Humberstone y Santa Laura (más de 200 oficinas; inscritas en 2005)",
+        "url": "https://whc.unesco.org/es/list/1178"
+      },
+      {
+        "texto": "Ministerio de las Culturas: UNESCO retira a Humberstone y Santa Laura de la Lista en Peligro (2019)",
+        "url": "https://www.cultura.gob.cl/actualidad/unesco-saca-a-las-oficinas-salitreras-humberstone-y-santa-laura-de-la-lista-de-patrimonio-mundial-en-peligro/"
+      },
+      {
+        "texto": "BASF: 1913, primera planta de síntesis de amoníaco en Oppau (9-09-1913)",
+        "url": "https://www.basf.com/global/en/who-we-are/history/chronology/1902-1924/1913"
+      },
+      {
+        "texto": "Google Arts & Culture / Ministerio de las Culturas: Humberstone y Santa Laura (La Palma 1872, cierre 1960, teatro 1934-35, más de 200 oficinas)",
+        "url": "https://artsandculture.google.com/story/XQVRfkn12rzafA"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -69.6,
+        -22.6
+      ],
+      "zoomInicial": 5.2,
+      "zoomFinal": 5.6,
+      "lineas": [],
+      "marcadores": []
+    }
+  }
+}
