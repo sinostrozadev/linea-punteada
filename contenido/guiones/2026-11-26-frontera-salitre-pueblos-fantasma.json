@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-salitre-pueblos-fantasma",
+  "id": "2026-11-26-frontera-salitre-pueblos-fantasma",
   "titulo": "El salitre pagó casi la mitad de Chile. ¿Por qué hoy son ruinas? 🇨🇱",
   "descripcion": "Entre 1880 y 1920, el impuesto a la exportación de salitre aportó cerca de la mitad de los ingresos ordinarios del Estado chileno. Tras la Guerra del Pacífico, Chile se quedó con Tarapacá y Antofagasta, donde estaban los mayores yacimientos del mundo, y en la pampa llegaron a existir más de 200 oficinas salitreras. Una de ellas nació en 1872 como La Palma y en 1934 tomó el nombre de James Thomas Humberstone. El 9 de septiembre de 1913 BASF encendió en Oppau la primera planta Haber-Bosch; con la Primera Guerra Mundial, el salitre sintético y la crisis de 1929, la industria se vino abajo. Humberstone y Santa Laura cerraron en 1960 y desde 2005 son Patrimonio de la Humanidad. ¿Se pudo salvar? Cuéntanos en los comentarios.\n\nFuentes:\nhttps://countrystudies.us/chile/57.htm\nhttps://www.memoriachilena.gob.cl/602/w3-article-3309.html\nhttps://whc.unesco.org/es/list/1178\nhttps://www.basf.com/global/en/who-we-are/history/chronology/1902-1924/1913\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#geografia"
   ],
   "props": {
-    "id": "pendiente-frontera-salitre-pueblos-fantasma",
+    "id": "2026-11-26-frontera-salitre-pueblos-fantasma",
     "formula": "directa",
     "referente": "https://www.youtube.com/watch?v=j-oIDQ6iLSU",
     "cabecera": "TARAPACÁ — EL ORO BLANCO",
@@ -81,8 +81,8 @@
               -25.1
             ],
             [
-              -67.0,
-              -23.0
+              -67,
+              -23
             ],
             [
               -67.9,
@@ -94,7 +94,7 @@
             ],
             [
               -68.8,
-              -20.0
+              -20
             ],
             [
               -69.1,
@@ -191,8 +191,8 @@
                 -25.1
               ],
               [
-                -67.0,
-                -23.0
+                -67,
+                -23
               ],
               [
                 -67.9,
@@ -204,7 +204,7 @@
               ],
               [
                 -68.8,
-                -20.0
+                -20
               ],
               [
                 -69.1,
@@ -226,7 +226,7 @@
             "aparecerEn": "Tarapacá"
           },
           {
-            "lon": -69.0,
+            "lon": -69,
             "lat": -23.6,
             "texto": "ANTOFAGASTA",
             "tipo": "region",
@@ -250,7 +250,7 @@
           {
             "centro": [
               -69.9,
-              -21.0
+              -21
             ],
             "zoom": 6.6,
             "entrada": "zoom",
@@ -304,7 +304,7 @@
               -69.8,
               -20.8
             ],
-            "zoom": 8.0,
+            "zoom": 8,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -339,7 +339,7 @@
           },
           {
             "lon": -69.65,
-            "lat": -21.0,
+            "lat": -21,
             "icono": "🏭",
             "escala": 0.8,
             "aparecerEn": "oficinas"
@@ -398,7 +398,7 @@
               -69.8,
               -20.21
             ],
-            "zoom": 12.0,
+            "zoom": 12,
             "entrada": "corte",
             "deriva": 0.3,
             "en": "fichas"
@@ -441,7 +441,7 @@
               -69.8,
               -21.4
             ],
-            "zoom": 7.0,
+            "zoom": 7,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "aire"
@@ -482,9 +482,9 @@
           {
             "centro": [
               -72.5,
-              -22.0
+              -22
             ],
-            "zoom": 5.0,
+            "zoom": 5,
             "entrada": "paneo",
             "deriva": 0.3,
             "en": "bloqueo"
@@ -537,7 +537,7 @@
               -69.8,
               -20.21
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -546,7 +546,7 @@
               -69.805,
               -20.206
             ],
-            "zoom": 11.0,
+            "zoom": 11,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "UNESCO"
@@ -599,7 +599,7 @@
       {
         "centro": [
           -69.8,
-          -22.0
+          -22
         ],
         "zoom": 5.6,
         "entrada": "zoom",

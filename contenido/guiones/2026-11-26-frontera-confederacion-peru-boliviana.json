@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-confederacion-peru-boliviana",
+  "id": "2026-11-26-frontera-confederacion-peru-boliviana",
   "titulo": "Perú y Bolivia fueron un solo país. ¿Quién lo deshizo? 🇵🇪🇧🇴🇨🇱",
   "descripcion": "Entre 1836 y 1839, Perú y Bolivia formaron la Confederación Perú-Boliviana: tres estados (Nor-Peruano, Sud-Peruano y Bolivia) bajo el mariscal Andrés de Santa Cruz, Supremo Protector. Arequipa y Cusco la apoyaron; buena parte del norte peruano desconfió. Chile le declaró la guerra en 1836 y la Confederación Argentina de Rosas en 1837. Tras la paz de Paucarpata, que Chile rechazó, Manuel Bulnes ganó en Yungay el 20 de enero de 1839. ¿Unión o conquista? Cuéntanos en los comentarios.\n\nFuentes:\nhttps://www.memoriachilena.gob.cl/602/w3-article-639.html\nhttps://es.wikipedia.org/wiki/Estado_Sud-Peruano\nhttps://en.wikipedia.org/wiki/War_of_the_Confederation\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#mapas"
   ],
   "props": {
-    "id": "pendiente-frontera-confederacion-peru-boliviana",
+    "id": "2026-11-26-frontera-confederacion-peru-boliviana",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/Llin2lpS2d4",
     "cabecera": "PERÚ Y BOLIVIA — UN SOLO PAÍS",
@@ -88,14 +88,14 @@
       "etiquetas": [
         {
           "lon": -70.6,
-          "lat": -30.0,
+          "lat": -30,
           "texto": "CHILE",
           "tipo": "pais",
           "aparecerEn": "Chile"
         },
         {
-          "lon": -64.0,
-          "lat": -30.0,
+          "lon": -64,
+          "lat": -30,
           "texto": "ARGENTINA",
           "tipo": "pais",
           "aparecerEn": "Argentina"
@@ -118,8 +118,8 @@
         "planos": [
           {
             "centro": [
-              -71.0,
-              -13.0
+              -71,
+              -13
             ],
             "zoom": 4.4,
             "entrada": "zoom",
@@ -127,20 +127,20 @@
           },
           {
             "centro": [
-              -76.0,
+              -76,
               -9.5
             ],
-            "zoom": 5.0,
+            "zoom": 5,
             "entrada": "zoom",
             "deriva": 0.2,
             "en": "Nor-Peruano"
           },
           {
             "centro": [
-              -66.0,
-              -17.0
+              -66,
+              -17
             ],
-            "zoom": 5.0,
+            "zoom": 5,
             "entrada": "zoom",
             "deriva": 0.2,
             "en": "Bolivia"
@@ -148,8 +148,8 @@
         ],
         "etiquetas": [
           {
-            "lon": -77.0,
-            "lat": -7.0,
+            "lon": -77,
+            "lat": -7,
             "texto": "NOR-PERUANO",
             "tipo": "region",
             "aparecerEn": "Nor-Peruano"
@@ -192,8 +192,8 @@
         "planos": [
           {
             "centro": [
-              -70.0,
-              -16.0
+              -70,
+              -16
             ],
             "zoom": 5.4,
             "entrada": "zoom",
@@ -201,8 +201,8 @@
           },
           {
             "centro": [
-              -72.0,
-              -15.0
+              -72,
+              -15
             ],
             "zoom": 5.8,
             "entrada": "zoom",
@@ -212,7 +212,7 @@
           {
             "centro": [
               -76.5,
-              -9.0
+              -9
             ],
             "zoom": 5.4,
             "entrada": "zoom",
@@ -268,8 +268,8 @@
         "planos": [
           {
             "centro": [
-              -72.0,
-              -24.0
+              -72,
+              -24
             ],
             "zoom": 4.2,
             "entrada": "zoom",
@@ -295,8 +295,8 @@
             "aparecerEn": "Portales"
           },
           {
-            "lon": -78.0,
-            "lat": -24.0,
+            "lon": -78,
+            "lat": -24,
             "texto": "OCÉANO PACÍFICO",
             "tipo": "mar",
             "aparecerEn": "Pacífico"
@@ -308,8 +308,8 @@
             "lon": -72.8,
             "lat": -30.5,
             "mirar": [
-              -70.0,
-              -16.0
+              -70,
+              -16
             ],
             "expresion": "enojo",
             "escala": 0.8,
@@ -334,7 +334,7 @@
           {
             "centro": [
               -68.3,
-              -30.0
+              -30
             ],
             "zoom": 5.4,
             "entrada": "zoom",
@@ -403,9 +403,9 @@
           {
             "centro": [
               -71.8,
-              -20.0
+              -20
             ],
-            "zoom": 5.0,
+            "zoom": 5,
             "entrada": "zoom",
             "deriva": 0.2
           },
@@ -464,7 +464,7 @@
         "planos": [
           {
             "centro": [
-              -76.0,
+              -76,
               -11.5
             ],
             "zoom": 5.4,
@@ -545,10 +545,10 @@
         "planos": [
           {
             "centro": [
-              -70.0,
-              -20.0
+              -70,
+              -20
             ],
-            "zoom": 4.0,
+            "zoom": 4,
             "entrada": "zoom",
             "deriva": 0.3
           }
@@ -590,13 +590,13 @@
     ],
     "remateEtiquetas": [
       {
-        "lon": -76.0,
-        "lat": -9.0,
+        "lon": -76,
+        "lat": -9,
         "texto": "¿UNIÓN?"
       },
       {
         "lon": -65.5,
-        "lat": -19.0,
+        "lat": -19,
         "texto": "¿CONQUISTA?"
       }
     ],
@@ -648,11 +648,11 @@
               -12.3
             ],
             [
-              -74.0,
-              -12.0
+              -74,
+              -12
             ],
             [
-              -73.0,
+              -73,
               -11.5
             ],
             [

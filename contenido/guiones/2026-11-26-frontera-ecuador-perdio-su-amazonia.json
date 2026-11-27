@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-ecuador-perdio-su-amazonia",
+  "id": "2026-11-26-frontera-ecuador-perdio-su-amazonia",
   "titulo": "Ecuador se dice amazónico. ¿Por qué no llega al Amazonas? 🇪🇨🇵🇪",
   "descripcion": "Ecuador se define como país amazónico, pero desde 1942 su frontera no llega al río Amazonas. Repasamos los argumentos de los dos países, la guerra de 1941, el Protocolo de Río de Janeiro del 29 de enero de 1942, el río Cenepa que las fotos aéreas encontraron donde el tratado veía una sola divisoria, la nulidad que declaró Ecuador en 1960 y la paz de Brasilia de 1998. Las cifras de territorio cambian mucho según la fuente. ¿Perdió Ecuador su Amazonía o nunca fue suya?\n\nFuentes:\nhttps://en.wikipedia.org/wiki/Rio_Protocol\nhttps://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_territorial_dispute\nhttps://en.wikipedia.org/wiki/Brasilia_Presidential_Act\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#fronteras"
   ],
   "props": {
-    "id": "pendiente-frontera-ecuador-perdio-su-amazonia",
+    "id": "2026-11-26-frontera-ecuador-perdio-su-amazonia",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/9YgSOT0Ce4w",
     "cabecera": "ECUADOR — LEJOS DEL AMAZONAS",
@@ -42,7 +42,7 @@
         },
         {
           "centro": [
-            -74.0,
+            -74,
             -3.6
           ],
           "zoom": 7.3,
@@ -120,7 +120,7 @@
               -78.3,
               -0.6
             ],
-            "zoom": 8.0,
+            "zoom": 8,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -163,7 +163,7 @@
                 -0.22
               ],
               [
-                -77.0,
+                -77,
                 -0.6
               ],
               [
@@ -245,7 +245,7 @@
                 -0.9
               ],
               [
-                -73.0,
+                -73,
                 -1.7
               ],
               [
@@ -253,7 +253,7 @@
                 -2.3
               ],
               [
-                -70.0,
+                -70,
                 -2.9
               ],
               [
@@ -281,7 +281,7 @@
                 -4.75
               ],
               [
-                -76.0,
+                -76,
                 -4.64
               ],
               [
@@ -338,7 +338,7 @@
             "etiqueta": "MAYNAS",
             "etiquetaEn": [
               -74.6,
-              -3.0
+              -3
             ],
             "aparecerEn": "Maynas"
           }
@@ -415,10 +415,10 @@
           },
           {
             "centro": [
-              -80.0,
+              -80,
               -3.3
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "corte",
             "deriva": 0.25,
             "en": "paracaidistas"
@@ -468,7 +468,7 @@
         ],
         "etiquetas": [
           {
-            "lon": -80.0,
+            "lon": -80,
             "lat": -3.27,
             "texto": "PUERTO BOLÍVAR",
             "tipo": "pin",
@@ -519,7 +519,7 @@
           {
             "centro": [
               -76.2,
-              -3.0
+              -3
             ],
             "zoom": 6.5,
             "entrada": "zoom",
@@ -548,7 +548,7 @@
                 -0.9
               ],
               [
-                -73.0,
+                -73,
                 -1.7
               ],
               [
@@ -556,7 +556,7 @@
                 -2.3
               ],
               [
-                -70.0,
+                -70,
                 -2.9
               ],
               [
@@ -584,7 +584,7 @@
                 -4.75
               ],
               [
-                -76.0,
+                -76,
                 -4.64
               ],
               [
@@ -641,7 +641,7 @@
             "etiqueta": "200.000 KM² (ECUADOR)",
             "etiquetaEn": [
               -74.6,
-              -3.0
+              -3
             ],
             "aparecerEn": "200.000"
           }
@@ -722,7 +722,7 @@
               -78.45,
               -3.7
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "paneo",
             "deriva": 0.2,
             "en": "Quedaron"
@@ -753,7 +753,7 @@
         ],
         "iconos": [
           {
-            "lon": -78.0,
+            "lon": -78,
             "lat": -3.6,
             "icono": "✈️",
             "escala": 0.9,
@@ -889,8 +889,8 @@
           },
           {
             "centro": [
-              -75.0,
-              -4.0
+              -75,
+              -4
             ],
             "zoom": 6.9,
             "entrada": "zoom",
@@ -914,7 +914,7 @@
             "aparecerEn": "terrenos"
           },
           {
-            "lon": -77.0,
+            "lon": -77,
             "lat": -4.85,
             "texto": "RÍO MARAÑÓN",
             "tipo": "rio",
@@ -991,7 +991,7 @@
         "texto": "¿LA PERDIÓ?"
       },
       {
-        "lon": -74.0,
+        "lon": -74,
         "lat": -4.2,
         "texto": "¿O NUNCA FUE SUYA?"
       }
@@ -1082,7 +1082,7 @@
               -0.22
             ],
             [
-              -77.0,
+              -77,
               -0.6
             ],
             [
@@ -1192,7 +1192,7 @@
               -4.83
             ],
             [
-              -76.0,
+              -76,
               -4.64
             ],
             [

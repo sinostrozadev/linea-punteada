@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-cristo-redentor-andes",
+  "id": "2026-11-26-frontera-cristo-redentor-andes",
   "titulo": "El Cristo de los Andes celebra una guerra que nunca ocurrió 🇨🇱🇦🇷",
   "descripcion": "En la frontera entre Chile y Argentina, a unos 3.800 metros, hay un Cristo de bronce que celebra una guerra que nunca empezó. Los Pactos de Mayo de 1902 mandaron la disputa a arbitraje y frenaron la carrera naval: Argentina vendió a Japón dos cruceros que pelearon en Tsushima en 1905. El Cristo de Mateo Alonso se inauguró el 13 de marzo de 1904. ¿Es más chileno o más argentino?\n\nFuentes:\nhttps://es.wikipedia.org/wiki/Cristo_Redentor_de_los_Andes\nhttps://es.wikipedia.org/wiki/Pactos_de_Mayo\nhttps://en.wikipedia.org/wiki/Kasuga-class_cruiser\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#geografia"
   ],
   "props": {
-    "id": "pendiente-frontera-cristo-redentor-andes",
+    "id": "2026-11-26-frontera-cristo-redentor-andes",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/dMVhf5379s4",
     "cabecera": "LOS ANDES — EL CRISTO DE LA FRONTERA",
@@ -33,7 +33,7 @@
         {
           "centro": [
             -69.9,
-            -33.0
+            -33
           ],
           "zoom": 7.6,
           "entrada": "corte",
@@ -123,8 +123,8 @@
         "planos": [
           {
             "centro": [
-              -66.0,
-              -37.0
+              -66,
+              -37
             ],
             "zoom": 4.4,
             "entrada": "zoom",
@@ -132,8 +132,8 @@
           },
           {
             "centro": [
-              -66.0,
-              -37.0
+              -66,
+              -37
             ],
             "zoom": 4.6,
             "entrada": "corte",
@@ -144,14 +144,14 @@
         "iconos": [
           {
             "lon": -74.5,
-            "lat": -34.0,
+            "lat": -34,
             "icono": "🚢",
             "escala": 1,
             "aparecerEn": "Chile"
           },
           {
             "lon": -74.5,
-            "lat": -37.0,
+            "lat": -37,
             "icono": "🚢",
             "escala": 1,
             "aparecerEn": "acorazados"
@@ -224,14 +224,14 @@
         "iconos": [
           {
             "lon": -73.6,
-            "lat": -36.0,
+            "lat": -36,
             "icono": "⚖️",
             "escala": 1,
             "aparecerEn": "arbitraje"
           },
           {
             "lon": -66.6,
-            "lat": -36.0,
+            "lat": -36,
             "icono": "🚢",
             "escala": 1,
             "tachado": true,
@@ -254,8 +254,8 @@
         "planos": [
           {
             "centro": [
-              -60.0,
-              -30.0
+              -60,
+              -30
             ],
             "zoom": 2.6,
             "entrada": "zoom",
@@ -284,18 +284,18 @@
         ],
         "iconos": [
           {
-            "lon": -64.0,
-            "lat": -40.0,
+            "lon": -64,
+            "lat": -40,
             "icono": "🚢",
             "escala": 1,
             "ruta": [
               [
-                -64.0,
-                -40.0
+                -64,
+                -40
               ],
               [
-                -35.0,
-                -15.0
+                -35,
+                -15
               ]
             ],
             "duracionSeg": 2.5,
@@ -303,7 +303,7 @@
           },
           {
             "lon": 129.4,
-            "lat": 34.0,
+            "lat": 34,
             "icono": "⚔️",
             "escala": 1.1,
             "aparecerEn": "pelearon"
@@ -421,7 +421,7 @@
               -70.03,
               -32.82
             ],
-            "zoom": 11.0,
+            "zoom": 11,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "mula"
@@ -514,7 +514,7 @@
               -70.06,
               -32.83
             ],
-            "zoom": 12.0,
+            "zoom": 12,
             "entrada": "corte",
             "deriva": 0.3,
             "en": "montañas"
@@ -572,7 +572,7 @@
               -70.0708,
               -32.8253
             ],
-            "zoom": 13.0,
+            "zoom": 13,
             "entrada": "corte",
             "deriva": 0.3
           },
@@ -581,7 +581,7 @@
               -70.0708,
               -32.8253
             ],
-            "zoom": 10.0,
+            "zoom": 10,
             "entrada": "corte",
             "deriva": -0.2,
             "en": "montañas"

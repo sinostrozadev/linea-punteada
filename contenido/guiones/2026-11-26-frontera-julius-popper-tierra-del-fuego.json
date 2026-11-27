@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-julius-popper-tierra-del-fuego",
+  "id": "2026-11-26-frontera-julius-popper-tierra-del-fuego",
   "titulo": "Tierra del Fuego: un rumano tuvo su propia moneda de oro 🇨🇱🇦🇷",
   "descripcion": "En 1889, en Tierra del Fuego, el ingeniero rumano Julius Popper mandó acuñar su propia moneda de oro en una isla que Chile y Argentina se habían repartido en 1881. Con mapas: el oro de El Páramo en la bahía San Sebastián, las piezas de 1 y 5 gramos de Lavaderos de Oro del Sud, la estampilla de 1891 para pagar el reparto de sus cartas hasta un correo oficial, sus choques con los gobernadores y su muerte en 1893. Sus hombres participaron además en las matanzas de los selk'nam. ¿Empresario audaz o invasor? Cuéntanos.\n\nFuentes:\n- https://es.wikipedia.org/wiki/Julio_Popper\n- https://en.wikipedia.org/wiki/Julius_Popper\n- https://patfotos.org/eng/VwSCTM/popper1.html\n- https://www.firstissues.org/countries/tdf.html\n- https://es.wikipedia.org/wiki/Tratado_de_L%C3%ADmites_de_1881_entre_Argentina_y_Chile\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -12,7 +12,7 @@
     "#argentina"
   ],
   "props": {
-    "id": "pendiente-frontera-julius-popper-tierra-del-fuego",
+    "id": "2026-11-26-frontera-julius-popper-tierra-del-fuego",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
     "cabecera": "TIERRA DEL FUEGO — EL ORO DE POPPER",
@@ -133,7 +133,7 @@
               -68.23,
               -53.12
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "zoom",
             "deriva": 0.3,
             "en": "isla"
@@ -183,7 +183,7 @@
           {
             "centro": [
               -68.6,
-              -53.0
+              -53
             ],
             "zoom": 7.9,
             "entrada": "zoom",
@@ -225,7 +225,7 @@
           },
           {
             "lon": -67.6,
-            "lat": -54.0,
+            "lat": -54,
             "texto": "ARGENTINA",
             "tipo": "pais",
             "aparecerEn": "este"
@@ -391,7 +391,7 @@
           },
           {
             "centro": [
-              -70.0,
+              -70,
               -53.15
             ],
             "zoom": 8.4,
@@ -412,7 +412,7 @@
               ],
               [
                 -69.5,
-                -53.0
+                -53
               ],
               [
                 -70.91,
@@ -549,7 +549,7 @@
           {
             "centro": [
               -63.5,
-              -44.0
+              -44
             ],
             "zoom": 5.6,
             "entrada": "zoom",
@@ -615,7 +615,7 @@
     ],
     "remateEtiquetas": [
       {
-        "lon": -70.0,
+        "lon": -70,
         "lat": -53.6,
         "texto": "¿EMPRESARIO?"
       },
