@@ -38,3 +38,48 @@ Documento completo: `/home/santiago/projects/yt/_propuestas/2026-11-26-viral-lin
 - Lote de 10 Shorts (5 con medios, 5 sin) después de leer el lote "directa" el 03-12.
 - Integrar NASA SVS; adaptador de Qwen3 a `tiempos.json`; `medios[]` en `lugar` y `ruta`; llevar las reglas nuevas al generador semanal solo si el lote pasa el umbral.
 - Antes de publicar el largo: pasada de hechos por Sater (*Andean Tragedy*) y Memoria Chilena (varios datos tienen confianza media).
+
+---
+
+# Revisión 2026-11-26 (noche) · ritual del jueves: semana 30-11 → 06-12
+
+Formato fijo (lo lee el panel): Detectado · Mejorado · Herramientas exploradas · Agregado · Pendiente.
+Regla vigente: "cerrar frentes" (fórmula directa tal cual, sin `medios[]` ni `vozRitmo`; lectura del lote el 03-12).
+
+## Detectado
+- Semana 23 → 29-11: todo publicado o programado con `publishAt` verificado por API (21:00 del 26-11).
+- Contingencia: CIJ Guyana c. Venezuela sin sentencia ni fecha (se espera ene-2027); zanjas en la frontera norte de Chile = tema
+  migratorio/político, no entra; efeméride Ayacucho 202 años (9-12) → sáb 05-12 18:00.
+- Revisor independiente: 11 de 15 guiones rechazados en ronda 1 (todos por hechos dichos con una sola fuente, cifras de prensa
+  como hecho o títulos que afirmaban una estimación: "Perú era superior", "10 veces más tanques"); 14 aprobados en ronda 2;
+  "10 centavos" quedó en 3,86 (giro flojo) → `contenido/reserva/`, lo reemplaza Isla de Aves.
+- Hoja de contacto del bebé antártico: el cuadro 0 no mostraba el sujeto (solo parches celestes) → área corregida y re-render.
+- `validar-guion` cuenta cada bandera emoji como 4 caracteres: dos títulos de 70 "visibles" pasaban de 70.
+- Piloto 8777 en el canal En Números Rojos con "Oops" pegajoso: `subir-studio-largo.mjs` se negó a subir (bien) y el clasificador
+  bloqueó navegar el piloto a mano. Ninguna subida esta noche.
+- Disco C: bajó de 10 a 6 GB libres durante la noche (renders descargados + voz y props del largo).
+
+## Mejorado
+- Nada en código ni plantillas (regla del día). Guiones corregidos según el revisor; cuadro 0 del bebé antártico.
+
+## Herramientas exploradas
+- Ninguna nueva. Extracción de fotogramas a medida con `fotogramaCrudo`/`componerFila` de `scripts/lib/fotogramas.mts` para mirar
+  un tramo concreto de un render (el "cuadro vacío" del Cristo era el vuelo Japón → Andes).
+
+## Agregado
+- 14 guiones de Shorts (fórmula directa) + 1 largo, con tabla de hechos (`contenido/verificaciones/`) y veredicto
+  (`salida/revisiones/guiones/`). 14 Shorts renderizados en la nube (`producir.yml`, 10 fragmentos) y en `salida/bandeja/`
+  (79–88 s), hojas de contacto en `salida/revisiones/hojas/`.
+- Largo "1975: Perú tenía más tanques. ¿Por qué no hubo guerra con Chile?" (8:57, apertura con escena en Tacna el 29-8-1975,
+  5 capítulos, mid-rolls ~3:44 y ~6:59), preparado (voz y props) sin rechazos.
+- `docs/PLAN-SEMANAL.md`: bloque "Hito del jue 2026-11-26" y JSON con la semana 30-11 → 06-12.
+
+## Pendiente
+- **Subir y programar los 14 Shorts** (ranuras 30-11 12:00 → 06-12 18:00) cuando el piloto quede en Línea Punteada (tope: dom 29-11),
+  con `flock -w 1800 /tmp/piloto.lock env LP_CANAL_ID=UCp05AZK18-TL8pp74ntbdUw node herramientas/navegador/subir-studio-largo.mjs <id> <fecha> <hora>`
+  y verificación con `scripts/programados.mts` / `reprogramar.mts`.
+- **Render del largo 1975**: local (`flock -w 7200 /tmp/bolita-render.lock env LINEA_LOCK_RENDER=/tmp/lp-largo-interno.lock npx tsx scripts/render-largo.mts contenido/borradores/largo-peru-1975.json --sin-preparar`)
+  solo con ≥ 8 GB libres en C: (hoy 6 GB: Santiago debe compactar el vhdx con `Downloads\compactar-wsl.ps1`). Después: carátula GPT
+  (`salida/caratulas/largo-peru-1975.png`, pedida), subir, pausas publicitarias, related video del tráiler → largo el dom 06-12 ≥ 19:00.
+- `docs/GUION.md` §10 usa "Perú era superior…" como título de ejemplo: el revisor lo rechazó por valorativo; cambiar el ejemplo
+  cuando se levante "cerrar frentes".

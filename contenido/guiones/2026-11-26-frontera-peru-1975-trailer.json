@@ -1,6 +1,6 @@
 {
   "plantilla": "frontera",
-  "id": "pendiente-frontera-peru-1975-trailer",
+  "id": "2026-11-26-frontera-peru-1975-trailer",
   "titulo": "Chile contó 400 tanques peruanos contra 40. ¿Y la guerra? 🇵🇪🇨🇱",
   "descripcion": "En 1975 el Perú del general Juan Velasco Alvarado se había llenado de tanques soviéticos: según la inteligencia chilena, más de 400 contra 40 de Chile. Chile cavó fosas y sembró minas alrededor de Arica y pidió ayuda a Estados Unidos. Un excapitán peruano dice que la guerra tenía fecha, el 6 de agosto de 1975; Francisco Morales Bermúdez lo negó. El 29 de agosto, en Tacna, Morales Bermúdez sacó a Velasco del poder. ¿La guerra la frenó ese golpe o nunca iba a empezar? Cuéntanos en los comentarios.\n\nFuentes:\n- https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d194\n- https://www.academiahistoriamilitar.cl/academia/wp-content/uploads/2024/09/LA-CRISIS-MILITAR-ENTRE-CHILE-Y-PERU-1974-1975-UNA-VISION-DESDE-LA-IDEOLOGIA-PERUANA.pdf\n- https://www.apminebanconvention.org/fileadmin/_APMBC_SITE/News/2020-Comunicado-Chile-finaliza-desminado.pdf\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
   "hashtags": [
@@ -11,7 +11,7 @@
     "#geografia"
   ],
   "props": {
-    "id": "pendiente-frontera-peru-1975-trailer",
+    "id": "2026-11-26-frontera-peru-1975-trailer",
     "formula": "directa",
     "referente": "https://www.youtube.com/shorts/hYzFaRO0_C8",
     "cabecera": "TACNA — LA GUERRA QUE NO FUE",
@@ -22,7 +22,7 @@
       "planos": [
         {
           "centro": [
-            -71.0,
+            -71,
             -18.6
           ],
           "zoom": 6.4,
@@ -95,7 +95,7 @@
           {
             "centro": [
               -73.5,
-              -15.0
+              -15
             ],
             "zoom": 5.6,
             "entrada": "zoom",
@@ -154,7 +154,7 @@
           {
             "centro": [
               -71.5,
-              -24.0
+              -24
             ],
             "zoom": 4.6,
             "entrada": "zoom",
@@ -163,7 +163,7 @@
           {
             "centro": [
               -71.5,
-              -24.0
+              -24
             ],
             "zoom": 4.9,
             "entrada": "corte",
@@ -199,7 +199,7 @@
               -70.31,
               -18.48
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -374,7 +374,7 @@
               -70.25,
               -18.01
             ],
-            "zoom": 9.0,
+            "zoom": 9,
             "entrada": "zoom",
             "deriva": 0.3
           },
@@ -445,7 +445,7 @@
           },
           {
             "pais": "CL",
-            "lon": -70.0,
+            "lon": -70,
             "lat": -18.6,
             "mirar": [
               -70.25,

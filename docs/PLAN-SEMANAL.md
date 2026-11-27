@@ -1,5 +1,30 @@
 # Línea Punteada — Plan semanal (rodante)
 
+## 🔒 Hito del jue 2026-11-26 — semana 30-11 → 06-12 (manda sobre lo de abajo)
+
+Ritual del 26-11 (sesión de producción, Claude). Semana en curso (23 → 29-11): todo publicado o programado con `publishAt`
+verificado por API a las 21:00 del 26-11 (`scripts/programados.mts`). Fórmula directa tal cual, sin `medios[]` ni `vozRitmo`
+(regla "cerrar frentes"; el lote con medios va después de la lectura del 03-12). Banderas con ojos en 7 de 14 Shorts (A/B).
+Contingencia revisada: CIJ Guyana c. Venezuela sin sentencia (fallo esperado ene-2027, sin fecha oficial); noticias de zanjas en
+la frontera norte de Chile (tema migratorio y político: no entra); efeméride Ayacucho 202 años (9-12) → sáb 05-12 18:00.
+Temas del lote propuesto el 26-11 (torpedera, muelle de Arica, Triple Alianza, Valdivia, Biobío, Chiloé, Ushuaia, Lima 1881)
+**no se usaron**: quedan reservados para ese lote.
+Guiones: 15 escritos por agentes Opus con web (tabla de hechos en `contenido/verificaciones/`), revisor independiente (Sonnet en
+Shorts, Opus en el largo y su tráiler; veredictos en `salida/revisiones/guiones/`), umbral estricto (promedio ≥ 4, ninguno < 3).
+"10 centavos" (lun 30 18:00) quedó en 3,86 tras 2 rondas → `contenido/reserva/`; lo reemplaza Isla de Aves.
+
+| Día | 12:00 | 18:00 | 19:00 |
+|---|---|---|---|
+| lun 30-11 | Cristo Redentor de los Andes (bandera) | Isla de Aves | |
+| mar 01-12 | Rey de la Araucanía | Uruguay reclama a Brasil (bandera) | |
+| mié 02-12 | Lago General Carrera / Buenos Aires (bandera) | Ecuador 1942 | |
+| jue 03-12 | Puerto del Hambre | Bolivia: dos capitales (bandera) | |
+| vie 04-12 | Confederación Perú-Boliviana (bandera) | Primer bebé antártico | |
+| sáb 05-12 | Julius Popper (bandera) | Ayacucho 1824 (contingente) | |
+| dom 06-12 | Salitre | **Tráiler 1975** (bandera) | **LARGO "1975: Perú tenía más tanques. ¿Por qué no hubo guerra con Chile?"** (8:57) |
+
+Estado y ids: ver el bloque JSON (manda). Lo que falta para el domingo está en "Pendiente" de `salida/revisiones/2026-11-26.md`.
+
 ## ✅ 2026-11-19 (ritual del jueves) — semana 23 → 29-11 ASEGURADA (manda sobre lo de abajo)
 
 Todo programado y con `publishAt` verificado por API (`scripts/programados.mts` y `videos.list`). Guiones con fórmula directa,
@@ -168,17 +193,17 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
   "version": 1,
   "canal": "linea-punteada",
   "zona": "America/Santiago",
-  "actualizado": "2026-11-19T18:00:00Z",
+  "actualizado": "2026-11-27T04:42:20.530Z",
   "semanas": [
     {
       "inicio": "2026-11-16",
       "fin": "2026-11-22",
-      "rol": "en-curso"
+      "rol": "cerrada"
     },
     {
       "inicio": "2026-11-23",
       "fin": "2026-11-29",
-      "rol": "siguiente"
+      "rol": "en-curso"
     },
     {
       "inicio": "2026-11-30",
@@ -844,7 +869,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "lote 2/6 (bandera: no)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-malvinas-500-km.json",
       "videoId": "qiIzAO6oFqU",
       "referente": "https://www.youtube.com/shorts/F2VoOweP8DA",
@@ -860,7 +885,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "lote 3/6 (bandera: sí)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-mendoza-fue-chilena.json",
       "videoId": "75pQ9Z-EiKc",
       "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
@@ -876,7 +901,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "lote 4/6 (bandera: no)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-tierra-del-fuego-regla.json",
       "videoId": "CjCF53JgcIY",
       "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
@@ -892,7 +917,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "lote 5/6 (bandera: sí)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-antartida-tres-reclamos.json",
       "videoId": "L2FQ-4_oGeU",
       "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
@@ -908,7 +933,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "lote 6/6 (bandera: no)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-presidente-hayes-paraguay.json",
       "videoId": "saWVBOhFN5U",
       "referente": "https://www.youtube.com/shorts/EDCfVGL8NzI",
@@ -924,7 +949,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "ritual 19-11 (bandera: sí)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-forma-de-chile.json",
       "videoId": "cWbAjgCysMU",
       "referente": "https://www.youtube.com/shorts/9Y5bltTFVZI",
@@ -940,7 +965,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "ritual 19-11 (bandera: no)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-esequibo-dos-tercios.json",
       "videoId": "BiZoEyHu2jM",
       "referente": "https://www.youtube.com/shorts/yhyz06uBbw0",
@@ -956,7 +981,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "tipo": "evergreen",
       "serie": "ritual 19-11 (bandera: sí)",
       "contingencia": null,
-      "estado": "programado",
+      "estado": "publicado",
       "guion": "contenido/guiones/2026-11-19-frontera-estrecho-de-magallanes-1881.json",
       "videoId": "t2H8xt9IU5Q",
       "referente": "https://www.youtube.com/shorts/XGmIcyDKEzY",
@@ -1080,15 +1105,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "El Cristo de los Andes celebra una guerra que nunca ocurrió 🇨🇱🇦🇷",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-cristo-redentor-andes.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/dMVhf5379s4",
+      "porQue": "Chile+Argentina (80 %); bandera con ojos (A/B)",
       "bloqueo": null
     },
     {
@@ -1096,15 +1121,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Isla de Aves: 4 hectáreas y 200 millas de mar. ¿Isla o roca? 🇻🇪🇩🇲",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-isla-de-aves.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/jO245y7O5u0",
+      "porQue": "20 % LatAm no chileno; reemplaza a \"10 centavos\" (revisor 3,86 → reserva)",
       "bloqueo": null
     },
     {
@@ -1112,15 +1137,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Un francés se proclamó rey de la Araucanía. Chile lo declaró loco 🇨🇱",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-rey-de-la-araucania.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/watch?v=9xdaFZl_zwk",
+      "porQue": "Chile; anécdota + humor seco",
       "bloqueo": null
     },
     {
@@ -1128,15 +1153,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Uruguay todavía reclama dos pedazos que administra Brasil 🇺🇾🇧🇷",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-uruguay-reclama-a-brasil.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/watch?v=KopaQVi4LVc",
+      "porQue": "disputa viva LatAm; bandera con ojos",
       "bloqueo": null
     },
     {
@@ -1144,15 +1169,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "El lago más grande de Chile se llama distinto en Argentina 🇨🇱🇦🇷",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-lago-con-dos-nombres.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/TquxttS76_Q",
+      "porQue": "Chile+Argentina; bandera con ojos",
       "bloqueo": null
     },
     {
@@ -1160,15 +1185,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Ecuador se dice amazónico. ¿Por qué no llega al Amazonas? 🇪🇨🇵🇪",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-ecuador-perdio-su-amazonia.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/9YgSOT0Ce4w",
+      "porQue": "vecinos LatAm con demanda (177 K)",
       "bloqueo": null
     },
     {
@@ -1176,15 +1201,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Puerto del Hambre: la fundó España, la bautizó un inglés 🇨🇱🇬🇧",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-puerto-del-hambre.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/7N0LQwZIPII",
+      "porQue": "Chile; día de la lectura del lote",
       "bloqueo": null
     },
     {
@@ -1192,15 +1217,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Bolivia: capital en Sucre, gobierno en La Paz. ¿Por qué? 🇧🇴",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-bolivia-dos-capitales.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/XcZV6DpldlU",
+      "porQue": "vecino; bandera con ojos",
       "bloqueo": null
     },
     {
@@ -1208,15 +1233,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Perú y Bolivia fueron un solo país. ¿Quién lo deshizo? 🇵🇪🇧🇴🇨🇱",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-confederacion-peru-boliviana.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/Llin2lpS2d4",
+      "porQue": "Chile+vecinos, outlier 3,8 M; bandera con ojos",
       "bloqueo": null
     },
     {
@@ -1224,15 +1249,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "El primer bebé de la Antártida nació en 1978. ¿Para qué? 🇦🇷🇨🇱🇦🇶",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-primer-bebe-antartico.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/POGA2KBk01I",
+      "porQue": "Chile+Argentina; outlier Ñerd 377 K",
       "bloqueo": null
     },
     {
@@ -1240,15 +1265,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Tierra del Fuego: un rumano tuvo su propia moneda de oro 🇨🇱🇦🇷",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-julius-popper-tierra-del-fuego.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/AQFGqi3t73o",
+      "porQue": "Chile+Argentina; bandera con ojos",
       "bloqueo": null
     },
     {
@@ -1256,15 +1281,19 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
-      "tipo": "evergreen",
+      "tema": "Ayacucho: España cayó en horas, pero la paz tardó 55 años 🇵🇪🇪🇸",
+      "tipo": "contingente",
       "serie": null,
-      "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "contingencia": {
+        "hecho": "Batalla de Ayacucho (9-12-1824), 202 años",
+        "fecha": "2026-12-09",
+        "url": "https://es.wikisource.org/wiki/Capitulaci%C3%B3n_de_Ayacucho"
+      },
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-ayacucho-1824.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/Z51DtnpA9K8",
+      "porQue": "efeméride 202 años (9-12), justo antes de la fecha",
       "bloqueo": null
     },
     {
@@ -1272,15 +1301,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "12:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "El salitre pagó casi la mitad de Chile. ¿Por qué hoy son ruinas? 🇨🇱",
       "tipo": "evergreen",
       "serie": null,
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-salitre-pueblos-fantasma.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/watch?v=j-oIDQ6iLSU",
+      "porQue": "Chile",
       "bloqueo": null
     },
     {
@@ -1288,15 +1317,15 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "18:00",
       "formato": "short",
       "plantilla": "frontera",
-      "tema": "(ritual jue 26-11: fórmula directa, Chile/vecinos; ajustar a la lectura del lote del 03-12)",
+      "tema": "Chile contó 400 tanques peruanos contra 40. ¿Y la guerra? 🇵🇪🇨🇱",
       "tipo": "evergreen",
-      "serie": null,
+      "serie": "La Guerra del Pacífico en el mapa",
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "renderizado",
+      "guion": "contenido/guiones/2026-11-26-frontera-peru-1975-trailer.json",
       "videoId": null,
-      "referente": null,
-      "porQue": null,
+      "referente": "https://www.youtube.com/shorts/hYzFaRO0_C8",
+      "porQue": "Short tráiler del largo (GUION §10); related video → largo",
       "bloqueo": null
     },
     {
@@ -1304,16 +1333,16 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "hora": "19:00",
       "formato": "largo",
       "plantilla": "largo",
-      "tema": "Largo Chile/vecinos con apertura en escena (candidato: \"Perú era superior: ¿por qué no hubo guerra con Chile en 1975?\")",
+      "tema": "1975: Perú tenía más tanques. ¿Por qué no hubo guerra con Chile?",
       "tipo": "evergreen",
-      "serie": null,
+      "serie": "La Guerra del Pacífico en el mapa",
       "contingencia": null,
-      "estado": "idea",
-      "guion": null,
+      "estado": "dirigido",
+      "guion": "contenido/borradores/largo-peru-1975.json",
       "videoId": null,
       "referente": "https://www.youtube.com/watch?v=XjDbQw-Qn7I",
-      "porQue": "GUION.md §10; Short tráiler dom 06-12 18:00",
-      "bloqueo": null
+      "porQue": "largo dominical (horas YPP); apertura con escena (Tacna, 29-8-1975); 8:57",
+      "bloqueo": "render local pendiente: disco C: con 6 GB libres (regla ≥ 8 GB); la plantilla largo no tiene render en la nube; carátula GPT pedida"
     }
   ]
 }
