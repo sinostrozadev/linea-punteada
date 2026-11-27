@@ -1,0 +1,590 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-bolivia-dos-capitales",
+  "titulo": "Bolivia: capital en Sucre, gobierno en La Paz. ¿Por qué? 🇧🇴",
+  "descripcion": "Bolivia tiene dos ciudades centrales: Sucre, capital según la Constitución, y La Paz, sede del gobierno y del Parlamento. El origen es la Guerra Federal de 1898–1899: el Congreso aprobó en noviembre de 1898 la Ley de Radicatoria, que dejaba el gobierno en Sucre de forma permanente; La Paz se levantó, formó una Junta Federal y el ejército de José Manuel Pando, con comunidades aymaras de Pablo Zárate Willka, ganó en el Segundo Crucero el 10 de abril de 1899. El Tribunal Supremo sigue en Sucre. La Constitución de 2009 dice en su artículo 6: «Sucre es la Capital de Bolivia». Tú, ¿qué dices?\n\nFuentes:\nhttps://pdba.georgetown.edu/Constitutions/Bolivia/bolivia09.html\nhttps://es.wikipedia.org/wiki/Sucre\nhttps://en.wikipedia.org/wiki/Bolivian_Civil_War\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#bolivia",
+    "#historia",
+    "#geografia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-bolivia-dos-capitales",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/XcZV6DpldlU",
+    "cabecera": "BOLIVIA — SUCRE Y LA PAZ",
+    "acento": "cian",
+    "gancho": {
+      "texto": "Bolivia tiene su capital en Sucre, pero desde 1899 el presidente y el Parlamento trabajan en La Paz, a unos 400 kilómetros. Lo decidió una guerra civil.",
+      "rotulo": "¿2 CAPITALES?",
+      "planos": [
+        {
+          "centro": [
+            -65.2,
+            -16.9
+          ],
+          "zoom": 5.9,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -66.6,
+            -17.8
+          ],
+          "zoom": 6.6,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "Paz"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Bolivia",
+          "color": "verde",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -65.26,
+          "lat": -19.05,
+          "texto": "SUCRE",
+          "tipo": "pin",
+          "aparecerEn": "Sucre"
+        },
+        {
+          "lon": -68.15,
+          "lat": -16.5,
+          "texto": "LA PAZ",
+          "tipo": "pin",
+          "aparecerEn": "Paz"
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -68.15,
+            -16.5
+          ],
+          "hasta": [
+            -65.26,
+            -19.05
+          ],
+          "texto": "~400 KM",
+          "aparecerEn": "400"
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "BO",
+          "lon": -63.2,
+          "lat": -15.4,
+          "mirar": [
+            -68.15,
+            -16.5
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "Sucre",
+        "1899",
+        "La Paz"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "Sucre tuvo cuatro nombres: Charcas, La Plata, Chuquisaca y, desde 1839, Sucre, por el mariscal Antonio José de Sucre. Una ley de ese año la confirmó como capital.",
+        "rotulo": {
+          "texto": "4 NOMBRES",
+          "dice": "cuatro"
+        },
+        "planos": [
+          {
+            "centro": [
+              -65.3,
+              -19.0
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -65.26,
+              -19.05
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "1839"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -65.26,
+            "lat": -19.05,
+            "texto": "LA PLATA",
+            "tipo": "pin",
+            "aparecerEn": "Plata",
+            "desaparecerEn": "Chuquisaca"
+          },
+          {
+            "lon": -65.26,
+            "lat": -19.05,
+            "texto": "CHUQUISACA",
+            "tipo": "pin",
+            "aparecerEn": "Chuquisaca",
+            "desaparecerEn": "1839"
+          },
+          {
+            "lon": -65.26,
+            "lat": -19.05,
+            "texto": "SUCRE",
+            "tipo": "pin",
+            "aparecerEn": "1839"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1839",
+            "sub": "LEY: CAPITAL SUCRE",
+            "icono": "📜",
+            "aparecerEn": "ley",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "cuatro",
+          "1839",
+          "capital"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1898 gobernaba el conservador Severo Fernández Alonso. En La Paz, los liberales pedían un país federal y llevar el gobierno a su ciudad.",
+        "rotulo": {
+          "texto": "1898",
+          "dice": "1898"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.6,
+              -17.8
+            ],
+            "zoom": 6.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.1,
+              -16.6
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Paz"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -65.26,
+            "lat": -19.05,
+            "texto": "GOBIERNO",
+            "tipo": "pin",
+            "aparecerEn": "gobernaba"
+          },
+          {
+            "lon": -68.15,
+            "lat": -16.5,
+            "texto": "LIBERALES",
+            "tipo": "pin",
+            "aparecerEn": "liberales"
+          }
+        ],
+        "clave": [
+          "1898",
+          "La Paz",
+          "federal"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En noviembre el Congreso aprobó la Ley de Radicatoria: el gobierno quedaba en Sucre de forma permanente. Los diputados de La Paz abandonaron el Congreso.",
+        "rotulo": {
+          "texto": "RADICATORIA",
+          "dice": "Radicatoria"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.9,
+              -17.6
+            ],
+            "zoom": 7.7,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -65.3,
+              -19.0
+            ],
+            "zoom": 7.8,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "Sucre"
+          },
+          {
+            "centro": [
+              -67.4,
+              -17.2
+            ],
+            "zoom": 7.9,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "diputados"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -65.9,
+            "lat": -18.6,
+            "icono": "📜",
+            "escala": 1,
+            "aparecerEn": "Ley"
+          },
+          {
+            "lon": -65.26,
+            "lat": -19.05,
+            "icono": "🏛️",
+            "ruta": [
+              [
+                -65.26,
+                -19.05
+              ],
+              [
+                -68.15,
+                -16.5
+              ]
+            ],
+            "duracionSeg": 3,
+            "escala": 0.9,
+            "aparecerEn": "diputados"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "NOV 1898",
+            "sub": "LEY DE RADICATORIA",
+            "icono": "📜",
+            "aparecerEn": "aprobó",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Radicatoria",
+          "Sucre",
+          "diputados"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 12 de diciembre La Paz formó una Junta Federal. El coronel José Manuel Pando armó un ejército con liberales y con comunidades aymaras de Pablo Zárate Willka.",
+        "rotulo": {
+          "texto": "JUNTA FEDERAL",
+          "dice": "Junta"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.15,
+              -16.5
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -68.0,
+              -16.8
+            ],
+            "zoom": 8.4,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "ejército"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -69.6,
+                -15.6
+              ],
+              [
+                -68.0,
+                -15.9
+              ],
+              [
+                -66.8,
+                -17.4
+              ],
+              [
+                -66.9,
+                -18.6
+              ],
+              [
+                -68.3,
+                -18.6
+              ],
+              [
+                -69.4,
+                -17.3
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "rayas",
+            "etiqueta": "ALTIPLANO",
+            "aparecerEn": "aymaras"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.15,
+            "lat": -16.5,
+            "texto": "JUNTA FEDERAL",
+            "tipo": "pin",
+            "aparecerEn": "Junta"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "12 DIC 1898",
+            "sub": "JUNTA FEDERAL",
+            "icono": "⚖️",
+            "aparecerEn": "diciembre",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "diciembre",
+          "Pando",
+          "aymaras"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "El 10 de abril de 1899, en el Segundo Crucero, Pando ganó tras unas cuatro horas de combate. El presidente se exilió en Chile. Y el federalismo por el que pelearon nunca se aplicó.",
+        "rotulo": {
+          "texto": "10 ABR 1899",
+          "dice": "abril"
+        },
+        "planos": [
+          {
+            "centro": [
+              -67.0,
+              -17.9
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -67.0,
+              -17.9
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "presidente"
+          },
+          {
+            "centro": [
+              -66.4,
+              -17.6
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "federalismo"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -66.99,
+            "lat": -17.86,
+            "texto": "SEGUNDO CRUCERO",
+            "tipo": "pin",
+            "aparecerEn": "Crucero"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -66.85,
+            "lat": -17.75,
+            "icono": "⚔️",
+            "escala": 1,
+            "aparecerEn": "combate"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "BO",
+            "lon": -63.4,
+            "lat": -16.0,
+            "mirar": [
+              -68.15,
+              -16.5
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "federalismo",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "1899",
+          "Pando",
+          "federalismo"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "El gobierno se quedó en La Paz y el Tribunal Supremo, en Sucre. La Constitución de 2009, en su artículo 6, dice seis palabras: Sucre es la Capital de Bolivia.",
+        "rotulo": {
+          "texto": "ARTÍCULO 6",
+          "dice": "artículo"
+        },
+        "planos": [
+          {
+            "centro": [
+              -66.7,
+              -17.8
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -65.26,
+              -19.05
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Constitución"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -68.15,
+            "lat": -16.5,
+            "texto": "GOBIERNO",
+            "tipo": "pin",
+            "aparecerEn": "gobierno"
+          },
+          {
+            "lon": -65.26,
+            "lat": -19.05,
+            "texto": "TRIBUNAL SUPREMO",
+            "tipo": "pin",
+            "aparecerEn": "Tribunal"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "ARTÍCULO 6",
+            "sub": "«SUCRE ES LA CAPITAL DE BOLIVIA»",
+            "icono": "📜",
+            "aparecerEn": "seis",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "La Paz",
+          "Sucre",
+          "2009"
+        ]
+      }
+    ],
+    "remate": "¿La capital de Bolivia es Sucre o La Paz?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -66.7,
+          -17.8
+        ],
+        "zoom": 6.2,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -65.0,
+        "lat": -19.9,
+        "texto": "¿SUCRE?"
+      },
+      {
+        "lon": -68.4,
+        "lat": -15.8,
+        "texto": "¿LA PAZ?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Constitución Política del Estado Plurinacional de Bolivia (2009), art. 6.I",
+        "url": "https://pdba.georgetown.edu/Constitutions/Bolivia/bolivia09.html"
+      },
+      {
+        "texto": "Cámara de Diputados de Bolivia: texto oficial de la Constitución",
+        "url": "https://diputados.gob.bo/wp-content/uploads/2025/05/constitucion-politica.pdf"
+      },
+      {
+        "texto": "Wikipedia: Sucre (nombres, ley del 12-07-1839, capital constitucional, sede judicial)",
+        "url": "https://es.wikipedia.org/wiki/Sucre"
+      },
+      {
+        "texto": "Wikipedia (en): Bolivian Civil War (Ley Radicatoria, Junta Federal 12-12-1898, Segundo Crucero 10-04-1899)",
+        "url": "https://en.wikipedia.org/wiki/Bolivian_Civil_War"
+      },
+      {
+        "texto": "Encyclopedia of Latin American History: Federalist War (1898–1899)",
+        "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/federalist-war-1898-1899"
+      },
+      {
+        "texto": "Tribunal Supremo de Justicia de Bolivia: sede en Sucre",
+        "url": "https://tsj.bo/institucion/sede-tribunal/"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 7,
+      "centro": [
+        -65.2,
+        -16.9
+      ],
+      "zoomInicial": 5.9,
+      "zoomFinal": 6.3,
+      "paises": [
+        "Bolivia"
+      ],
+      "lineas": []
+    }
+  }
+}
