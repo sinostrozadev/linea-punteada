@@ -1,0 +1,676 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-confederacion-peru-boliviana",
+  "titulo": "Perú y Bolivia fueron un solo país. ¿Quién lo deshizo? 🇵🇪🇧🇴🇨🇱",
+  "descripcion": "Entre 1836 y 1839, Perú y Bolivia formaron la Confederación Perú-Boliviana: tres estados (Nor-Peruano, Sud-Peruano y Bolivia) bajo el mariscal Andrés de Santa Cruz, Supremo Protector. Arequipa y Cusco la apoyaron; buena parte del norte peruano desconfió. Chile le declaró la guerra en 1836 y la Confederación Argentina de Rosas en 1837. Tras la paz de Paucarpata, que Chile rechazó, Manuel Bulnes ganó en Yungay el 20 de enero de 1839. ¿Unión o conquista? Cuéntanos en los comentarios.\n\nFuentes:\nhttps://www.memoriachilena.gob.cl/602/w3-article-639.html\nhttps://es.wikipedia.org/wiki/Estado_Sud-Peruano\nhttps://en.wikipedia.org/wiki/War_of_the_Confederation\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#peru",
+    "#bolivia",
+    "#chile",
+    "#historia",
+    "#mapas"
+  ],
+  "props": {
+    "id": "pendiente-frontera-confederacion-peru-boliviana",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/Llin2lpS2d4",
+    "cabecera": "PERÚ Y BOLIVIA — UN SOLO PAÍS",
+    "acento": "coral",
+    "gancho": {
+      "texto": "Perú y Bolivia fueron un solo país entre 1836 y 1839, hasta que Chile y Argentina le hicieron la guerra.",
+      "rotulo": "UN SOLO PAÍS",
+      "planos": [
+        {
+          "centro": [
+            -70.5,
+            -13.5
+          ],
+          "zoom": 4.3,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -68.5,
+            -20.5
+          ],
+          "zoom": 3.6,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "Chile"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "Bolivia",
+          "color": "amarillo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "PE",
+          "lon": -75.5,
+          "lat": -9.5,
+          "mirar": [
+            -65.5,
+            -16.5
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "BO",
+          "lon": -65.5,
+          "lat": -16.5,
+          "mirar": [
+            -75.5,
+            -9.5
+          ],
+          "expresion": "normal",
+          "escala": 0.9,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.6,
+          "lat": -30.0,
+          "texto": "CHILE",
+          "tipo": "pais",
+          "aparecerEn": "Chile"
+        },
+        {
+          "lon": -64.0,
+          "lat": -30.0,
+          "texto": "ARGENTINA",
+          "tipo": "pais",
+          "aparecerEn": "Argentina"
+        }
+      ],
+      "clave": [
+        "Perú",
+        "Bolivia",
+        "guerra"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "La armó el mariscal boliviano Andrés de Santa Cruz con tres estados: el Nor-Peruano, con capital en Lima, el Sud-Peruano y Bolivia.",
+        "rotulo": {
+          "texto": "3 ESTADOS",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71.0,
+              -13.0
+            ],
+            "zoom": 4.4,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -76.0,
+              -9.5
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "Nor-Peruano"
+          },
+          {
+            "centro": [
+              -66.0,
+              -17.0
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "Bolivia"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.0,
+            "lat": -7.0,
+            "texto": "NOR-PERUANO",
+            "tipo": "region",
+            "aparecerEn": "Nor-Peruano"
+          },
+          {
+            "lon": -77.04,
+            "lat": -12.05,
+            "texto": "LIMA",
+            "tipo": "pin",
+            "aparecerEn": "Lima"
+          },
+          {
+            "lon": -72.3,
+            "lat": -14.6,
+            "texto": "SUD-PERUANO",
+            "tipo": "region",
+            "aparecerEn": "Sud-Peruano"
+          },
+          {
+            "lon": -64.8,
+            "lat": -17.8,
+            "texto": "BOLIVIA",
+            "tipo": "region",
+            "aparecerEn": "Bolivia"
+          }
+        ],
+        "clave": [
+          "Santa Cruz",
+          "tres",
+          "Lima"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Santa Cruz quedó como Supremo Protector, por diez años y reelegible. Arequipa y Cusco lo apoyaron. Buena parte de la élite del norte peruano desconfió.",
+        "rotulo": {
+          "texto": "PROTECTOR",
+          "dice": "Protector"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.0,
+              -16.0
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -72.0,
+              -15.0
+            ],
+            "zoom": 5.8,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "Arequipa"
+          },
+          {
+            "centro": [
+              -76.5,
+              -9.0
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "norte"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -71.54,
+            "lat": -16.4,
+            "texto": "AREQUIPA",
+            "tipo": "pin",
+            "aparecerEn": "Arequipa"
+          },
+          {
+            "lon": -71.97,
+            "lat": -13.53,
+            "texto": "CUSCO",
+            "tipo": "pin",
+            "aparecerEn": "Cusco"
+          },
+          {
+            "lon": -79.03,
+            "lat": -8.11,
+            "texto": "TRUJILLO",
+            "tipo": "pin",
+            "aparecerEn": "norte"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "10 AÑOS",
+            "sub": "SUPREMO PROTECTOR · REELEGIBLE",
+            "icono": "👑",
+            "aparecerEn": "diez",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Protector",
+          "Arequipa",
+          "norte"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El ministro chileno Diego Portales la vio como una amenaza para el comercio de Chile en el Pacífico. En diciembre de 1836, Chile declaró la guerra.",
+        "rotulo": {
+          "texto": "DIC 1836",
+          "dice": "diciembre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -72.0,
+              -24.0
+            ],
+            "zoom": 4.2,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -71.2,
+              -33.2
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Portales"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Portales"
+          },
+          {
+            "lon": -78.0,
+            "lat": -24.0,
+            "texto": "OCÉANO PACÍFICO",
+            "tipo": "mar",
+            "aparecerEn": "Pacífico"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "CL",
+            "lon": -72.8,
+            "lat": -30.5,
+            "mirar": [
+              -70.0,
+              -16.0
+            ],
+            "expresion": "enojo",
+            "escala": 0.8,
+            "aparecerEn": "guerra",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "Portales",
+          "amenaza",
+          "1836"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En mayo de 1837 se sumó la Confederación Argentina de Juan Manuel de Rosas. Semanas después, soldados amotinados fusilaron a Portales en el cerro Barón, en Valparaíso.",
+        "rotulo": {
+          "texto": "1837",
+          "dice": "1837"
+        },
+        "planos": [
+          {
+            "centro": [
+              -68.3,
+              -30.0
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -71.4,
+              -33.1
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "amotinados"
+          },
+          {
+            "centro": [
+              -71.62,
+              -33.04
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Barón"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -65.2,
+            "lat": -26.82,
+            "texto": "NORTE ARGENTINO",
+            "tipo": "pin",
+            "aparecerEn": "Rosas"
+          },
+          {
+            "lon": -71.6,
+            "lat": -33.04,
+            "texto": "CERRO BARÓN",
+            "tipo": "pin",
+            "aparecerEn": "Barón"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "6 JUN 1837",
+            "sub": "FUSILAMIENTO DE PORTALES",
+            "icono": "📜",
+            "aparecerEn": "Valparaíso",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Rosas",
+          "Portales",
+          "Valparaíso"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "La primera expedición casi no peleó: en Paucarpata, su jefe Manuel Blanco Encalada firmó la paz. En Chile la rechazaron.",
+        "rotulo": {
+          "texto": "PAUCARPATA",
+          "dice": "Paucarpata"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71.8,
+              -20.0
+            ],
+            "zoom": 5.0,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -71.5,
+              -16.43
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Paucarpata"
+          },
+          {
+            "centro": [
+              -71.5,
+              -16.43
+            ],
+            "zoom": 8.2,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "paz"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -71.5,
+            "lat": -16.43,
+            "texto": "PAUCARPATA",
+            "tipo": "pin",
+            "aparecerEn": "Paucarpata"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "NOV 1837",
+            "sub": "TRATADO DE PAUCARPATA",
+            "icono": "✍️",
+            "aparecerEn": "firmó",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Paucarpata",
+          "paz",
+          "rechazaron"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "La segunda la mandó Manuel Bulnes, con peruanos enemigos de Santa Cruz. El 20 de enero de 1839, en Yungay, ganó en un solo día. Ese año la Confederación se disolvió.",
+        "rotulo": {
+          "texto": "YUNGAY 1839",
+          "dice": "Yungay"
+        },
+        "planos": [
+          {
+            "centro": [
+              -76.0,
+              -11.5
+            ],
+            "zoom": 5.4,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -77.75,
+              -9.14
+            ],
+            "zoom": 7.4,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Yungay"
+          },
+          {
+            "centro": [
+              -70.5,
+              -13.5
+            ],
+            "zoom": 4.3,
+            "entrada": "zoom",
+            "deriva": 0.2,
+            "en": "disolvió"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.75,
+            "lat": -9.14,
+            "texto": "YUNGAY",
+            "tipo": "pin",
+            "aparecerEn": "Yungay"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "PE",
+            "lon": -75.5,
+            "lat": -9.5,
+            "mirar": [
+              -65.5,
+              -16.5
+            ],
+            "expresion": "triste",
+            "escala": 0.9,
+            "aparecerEn": "disolvió",
+            "quedarse": 0
+          },
+          {
+            "pais": "BO",
+            "lon": -65.5,
+            "lat": -16.5,
+            "mirar": [
+              -75.5,
+              -9.5
+            ],
+            "expresion": "triste",
+            "escala": 0.9,
+            "aparecerEn": "disolvió",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "Bulnes",
+          "peruanos",
+          "Yungay"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "En Chile, el 20 de enero es el Día del Roto Chileno, por Yungay. Y los restos de Santa Cruz, muerto en Francia, descansan en Bolivia.",
+        "rotulo": {
+          "texto": "20 DE ENERO",
+          "dice": "enero"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.0,
+              -20.0
+            ],
+            "zoom": 4.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "CHILE",
+            "tipo": "pin",
+            "aparecerEn": "Roto"
+          },
+          {
+            "lon": -68.15,
+            "lat": -16.5,
+            "texto": "LA PAZ",
+            "tipo": "pin",
+            "aparecerEn": "Bolivia"
+          }
+        ],
+        "clave": [
+          "Roto",
+          "Yungay",
+          "Bolivia"
+        ]
+      }
+    ],
+    "remate": "¿La Confederación fue una unión o una conquista?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.5,
+          -13.5
+        ],
+        "zoom": 4.3,
+        "entrada": "zoom",
+        "deriva": 0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -76.0,
+        "lat": -9.0,
+        "texto": "¿UNIÓN?"
+      },
+      {
+        "lon": -65.5,
+        "lat": -19.0,
+        "texto": "¿CONQUISTA?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Memoria Chilena (Biblioteca Nacional): La guerra contra la Confederación Perú-Boliviana (amenaza comercial; Portales asesinado el 6-06-1837 en el cerro Barón; Paucarpata rechazado; Bulnes; Yungay 20-01-1839)",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-639.html"
+      },
+      {
+        "texto": "Wikipedia: Confederación Perú-Boliviana (decreto 28-10-1836; Pacto de Tacna 1-05-1837; tres estados; Supremo Protector 10 años reelegible; disolución por Gamarra 25-08-1839)",
+        "url": "https://es.wikipedia.org/wiki/Confederaci%C3%B3n_Per%C3%BA-Boliviana"
+      },
+      {
+        "texto": "Wikipedia: Estado Sud-Peruano (Arequipa, Ayacucho, Cuzco, Puno y Litoral; límite con Lima, Junín y Amazonas)",
+        "url": "https://es.wikipedia.org/wiki/Estado_Sud-Peruano"
+      },
+      {
+        "texto": "Wikipedia: War of the Confederation (declaración de Chile 28-12-1836; Argentina mayo de 1837; Yungay 20-01-1839)",
+        "url": "https://en.wikipedia.org/wiki/War_of_the_Confederation"
+      },
+      {
+        "texto": "BioBioChile: La vez que Perú y Bolivia fueron un solo país (apoyo de Arequipa y Cusco, reticencia del norte peruano; origen del Día del Roto Chileno)",
+        "url": "https://www.biobiochile.cl/noticias/sociedad/historia/2024/07/13/la-vez-que-peru-y-bolivia-fueron-un-solo-pais-y-chile-lo-disolvio-el-origen-del-roto-chileno.shtml"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -70.5,
+        -13.5
+      ],
+      "zoomInicial": 4.3,
+      "zoomFinal": 4.5,
+      "lineas": [
+        {
+          "id": "limite-nor-sud",
+          "puntos": [
+            [
+              -75.3,
+              -15.3
+            ],
+            [
+              -75.6,
+              -13.6
+            ],
+            [
+              -75.2,
+              -12.3
+            ],
+            [
+              -74.0,
+              -12.0
+            ],
+            [
+              -73.0,
+              -11.5
+            ],
+            [
+              -71.6,
+              -10.8
+            ],
+            [
+              -70.6,
+              -10.9
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 0,
+          "dice": "Sud-Peruano",
+          "etiqueta": "LÍMITE APROX."
+        }
+      ]
+    }
+  }
+}

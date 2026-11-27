@@ -1,0 +1,559 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-primer-bebe-antartico",
+  "titulo": "El primer bebé de la Antártida nació en 1978. ¿Para qué? 🇦🇷🇨🇱🇦🇶",
+  "descripcion": "El 7 de enero de 1978 nació en la Base Esperanza, en la punta de la península Antártica, Emilio Marcos Palma: el nacimiento más austral que registra Guinness. La zona la reclaman Argentina, Chile y el Reino Unido. En 1984 Chile inauguró Villa Las Estrellas, en la isla Rey Jorge, y ahí nació Juan Pablo Camacho, el primer chileno nacido en la Antártida. Pero el Tratado Antártico de 1959 dice que nada de lo que se haga mientras rija sirve para reclamar soberanía. ¿Nacer ahí debería contar?\n\nFuentes:\nhttps://www.guinnessworldrecords.com/world-records/73079-most-southerly-birth\nhttps://www.argentina.gob.ar/ejercito/antartida/base-esperanza\nhttps://en.wikisource.org/wiki/Antarctic_Treaty\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#antartida",
+    "#argentina",
+    "#chile",
+    "#geografia",
+    "#historia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-primer-bebe-antartico",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/POGA2KBk01I",
+    "cabecera": "BASE ESPERANZA — ANTÁRTIDA",
+    "acento": "cian",
+    "gancho": {
+      "texto": "El primer ser humano nacido en la Antártida llegó en 1978, en una base argentina, y no fue por casualidad.",
+      "rotulo": "1978",
+      "planos": [
+        {
+          "centro": [
+            -58.5,
+            -63.6
+          ],
+          "zoom": 5.6,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -57.4,
+            -63.4
+          ],
+          "zoom": 6.2,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "base"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Antarctica",
+          "color": "azul",
+          "trama": "plena",
+          "etiqueta": "ANTÁRTIDA",
+          "etiquetaEn": [
+            -61.5,
+            -65.2
+          ],
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -56.99,
+          "lat": -63.4,
+          "texto": "BASE ESPERANZA",
+          "tipo": "pin",
+          "aparecerEn": "base"
+        }
+      ],
+      "clave": [
+        "Antártida",
+        "1978",
+        "casualidad"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "A fines de 1977, un avión llevó a la Base Esperanza a una mujer embarazada. Era la esposa del jefe del destacamento del Ejército argentino.",
+        "rotulo": {
+          "texto": "1977",
+          "dice": "1977"
+        },
+        "planos": [
+          {
+            "centro": [
+              -62.5,
+              -58.5
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -57.3,
+              -63.3
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Esperanza"
+          },
+          {
+            "centro": [
+              -57.0,
+              -63.4
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "esposa"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.99,
+            "lat": -63.4,
+            "texto": "BASE ESPERANZA",
+            "tipo": "pin",
+            "aparecerEn": "Esperanza"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -63.0,
+            "lat": -59.5,
+            "icono": "✈️",
+            "escala": 1,
+            "aparecerEn": "avión"
+          }
+        ],
+        "clave": [
+          "1977",
+          "avión",
+          "embarazada"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 7 de enero de 1978 nació Emilio Marcos Palma. El Libro Guinness anotó su nacimiento como el más austral del mundo.",
+        "rotulo": {
+          "texto": "7 ENE 1978",
+          "dice": "enero"
+        },
+        "planos": [
+          {
+            "centro": [
+              -57.0,
+              -63.4
+            ],
+            "zoom": 8.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -57.0,
+              -63.4
+            ],
+            "zoom": 8.6,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Guinness"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.99,
+            "lat": -63.4,
+            "texto": "FORTÍN SARGENTO CABRAL",
+            "tipo": "pin",
+            "aparecerEn": "nació"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "7 ENE 1978",
+            "sub": "EL NACIMIENTO MÁS AUSTRAL",
+            "icono": "👶",
+            "aparecerEn": "Guinness",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Emilio",
+          "Guinness",
+          "austral"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Esa punta de hielo la reclaman tres países a la vez: Argentina, Chile y el Reino Unido. El Reino Unido decía que podía pedir su ciudadanía. Nunca la pidió.",
+        "rotulo": {
+          "texto": "TRES PAÍSES",
+          "dice": "tres"
+        },
+        "planos": [
+          {
+            "centro": [
+              -63.5,
+              -63.0
+            ],
+            "zoom": 4.8,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -63.5,
+              -63.0
+            ],
+            "zoom": 5.0,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "decía"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -63.5,
+            "lat": -66.6,
+            "texto": "ARGENTINA · CHILE · R. UNIDO",
+            "tipo": "region",
+            "aparecerEn": "Argentina"
+          }
+        ],
+        "clave": [
+          "tres",
+          "Reino Unido",
+          "Nunca"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Chile también llevó gente: el 9 de abril de 1984 inauguró Villa Las Estrellas, en la isla Rey Jorge, con las primeras familias.",
+        "rotulo": {
+          "texto": "1984",
+          "dice": "1984"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.0,
+              -62.8
+            ],
+            "zoom": 6.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.9,
+              -62.2
+            ],
+            "zoom": 7.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Estrellas"
+          },
+          {
+            "centro": [
+              -58.96,
+              -62.2
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "primeras"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.96,
+            "lat": -62.2,
+            "texto": "VILLA LAS ESTRELLAS",
+            "tipo": "pin",
+            "aparecerEn": "Estrellas"
+          },
+          {
+            "lon": -58.6,
+            "lat": -62.05,
+            "texto": "ISLA REY JORGE",
+            "tipo": "region",
+            "aparecerEn": "Jorge"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -56.99,
+              -63.4
+            ],
+            "hasta": [
+              -58.96,
+              -62.2
+            ],
+            "texto": "~170 KM",
+            "aparecerEn": "Chile"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1984",
+            "sub": "PRIMERAS FAMILIAS",
+            "icono": "🏠",
+            "aparecerEn": "Jorge",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "Chile",
+          "1984",
+          "familias"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "El 21 de noviembre, a las seis y media de la mañana, nació ahí Juan Pablo Camacho, el primer chileno nacido en la Antártida. Su padre era médico de la Fuerza Aérea.",
+        "rotulo": {
+          "texto": "21 NOV 1984",
+          "dice": "noviembre"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.96,
+              -62.2
+            ],
+            "zoom": 8.8,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -58.96,
+              -62.2
+            ],
+            "zoom": 9.4,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Juan"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -58.96,
+            "lat": -62.2,
+            "texto": "VILLA LAS ESTRELLAS",
+            "tipo": "pin",
+            "aparecerEn": "ahí"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -58.7,
+            "lat": -62.12,
+            "icono": "👶",
+            "escala": 1,
+            "aparecerEn": "Juan"
+          }
+        ],
+        "clave": [
+          "noviembre",
+          "Camacho",
+          "chileno"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "Pero Argentina y Chile ya habían firmado el Tratado Antártico de 1959. Dice que nada de lo que se haga mientras rija servirá de base para reclamar soberanía.",
+        "rotulo": {
+          "texto": "TRATADO 1959",
+          "dice": "1959"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.0,
+              -63.0
+            ],
+            "zoom": 6.4,
+            "entrada": "zoom",
+            "deriva": -0.2
+          },
+          {
+            "centro": [
+              -60.0,
+              -64.0
+            ],
+            "zoom": 4.8,
+            "entrada": "zoom",
+            "deriva": -0.2,
+            "en": "nada"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "ART. IV",
+            "sub": "TRATADO ANTÁRTICO · 1959",
+            "icono": "📜",
+            "aparecerEn": "Tratado",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "Tratado",
+          "1959",
+          "soberanía"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Suelen contarse once nacidos en la Antártida: ocho en la base argentina y tres en la chilena.",
+        "rotulo": {
+          "texto": "11 NACIDOS",
+          "dice": "once"
+        },
+        "planos": [
+          {
+            "centro": [
+              -58.0,
+              -62.8
+            ],
+            "zoom": 6.2,
+            "entrada": "zoom",
+            "deriva": 0.2
+          },
+          {
+            "centro": [
+              -58.0,
+              -62.8
+            ],
+            "zoom": 6.6,
+            "entrada": "corte",
+            "deriva": 0.2,
+            "en": "chilena"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -56.99,
+            "lat": -63.4,
+            "texto": "ESPERANZA · 8",
+            "tipo": "pin",
+            "aparecerEn": "ocho"
+          },
+          {
+            "lon": -58.96,
+            "lat": -62.2,
+            "texto": "LAS ESTRELLAS · 3",
+            "tipo": "pin",
+            "aparecerEn": "chilena"
+          }
+        ],
+        "clave": [
+          "once",
+          "ocho",
+          "tres"
+        ]
+      }
+    ],
+    "remate": "¿Nacer en la Antártida debería dar derecho sobre ella?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -58.0,
+          -62.8
+        ],
+        "zoom": 6.0,
+        "entrada": "zoom",
+        "deriva": -0.2
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -60.5,
+        "lat": -62.0,
+        "texto": "¿SÍ?"
+      },
+      {
+        "lon": -55.8,
+        "lat": -63.6,
+        "texto": "¿NO?"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Guinness World Records: Most southerly birth (Emilio Marcos Palma, 7-01-1978, base Sargento Cabral)",
+        "url": "https://www.guinnessworldrecords.com/world-records/73079-most-southerly-birth"
+      },
+      {
+        "texto": "Ejército Argentino: Base Esperanza (primer niño antártico; ocho nacidos; 63°24' S 56°59' O)",
+        "url": "https://www.argentina.gob.ar/ejercito/antartida/base-esperanza"
+      },
+      {
+        "texto": "24 Horas (TVN): Juan Pablo Camacho, 21-11-1984, 06:30; Villa Las Estrellas inaugurada el 9-04-1984 con seis familias",
+        "url": "https://www.24horas.cl/tendencias/espectaculosycultura/chile-en-la-antartica-a-treinta-anos-del-primer-chileno-nacido-en-el-fin-del-mundo---1506774"
+      },
+      {
+        "texto": "Tratado Antártico (1-12-1959), artículo IV.2",
+        "url": "https://en.wikisource.org/wiki/Antarctic_Treaty"
+      },
+      {
+        "texto": "Explorersweb: Born in Antarctica, 11 'citizens' (8 en Esperanza, 3 en Frei; último 23-01-1985)",
+        "url": "https://explorersweb.com/?p=108478"
+      },
+      {
+        "texto": "Wikipedia: Territorial claims in Antarctica (Argentina 25-74° O, Chile 53-90° O, Reino Unido 20-80° O)",
+        "url": "https://en.wikipedia.org/wiki/Territorial_claims_in_Antarctica"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 1,
+      "centro": [
+        -58.5,
+        -63.6
+      ],
+      "zoomInicial": 5.6,
+      "zoomFinal": 6.0,
+      "lineas": [
+        {
+          "id": "limite-chile-53",
+          "puntos": [
+            [
+              -53,
+              -60
+            ],
+            [
+              -53,
+              -66.5
+            ]
+          ],
+          "color": "amarillo",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Chile",
+          "etiqueta": "CHILE DESDE 53° O"
+        },
+        {
+          "id": "limite-argentina-74",
+          "puntos": [
+            [
+              -74,
+              -60
+            ],
+            [
+              -74,
+              -66.5
+            ]
+          ],
+          "color": "celeste",
+          "estilo": "punteada",
+          "dibujarEn": 2,
+          "dice": "Argentina",
+          "etiqueta": "ARGENTINA HASTA 74° O"
+        }
+      ]
+    }
+  }
+}
