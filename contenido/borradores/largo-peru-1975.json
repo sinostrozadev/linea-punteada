@@ -1,0 +1,2583 @@
+{
+  "plantilla": "largo",
+  "id": "largo-peru-1975",
+  "titulo": "1975: Perú tenía más tanques. ¿Por qué no hubo guerra con Chile?",
+  "descripcion": "¿Por qué no hubo guerra entre Perú y Chile en 1975? El gobierno militar de Juan Velasco Alvarado (1968-1975) llenó el sur del Perú de tanques soviéticos; según la inteligencia chilena, más de 400 contra 40. Chile cavó fosas y sembró minas alrededor de Arica, se acercó a Bolivia en Charaña y pidió ayuda a Estados Unidos. Un excapitán peruano dice que la guerra tenía fecha: el 6 de agosto de 1975. Otros lo niegan. El 29 de agosto, desde Tacna, Francisco Morales Bermúdez sacó a Velasco del poder (el Tacnazo). Contamos las versiones de los dos lados con documentos desclasificados de Estados Unidos, y lo que quedó: casi 180.000 minas que Chile terminó de retirar en 2020.\n\nLas cifras de tanques varían mucho entre fuentes; damos cada una con su origen. La línea del mapa es el hilo de la historia, no un recorrido real. Fotos de Wikimedia Commons.\n\nFuentes: Foreign Relations of the United States 1969-1976, vol. E-11 (docs. 181, 194, 293, 299, 303, 307, 322) https://history.state.gov/historicaldocuments/frus1969-76ve11p2 · Academia de Historia Militar (2024) https://www.academiahistoriamilitar.cl/academia/wp-content/uploads/2024/09/LA-CRISIS-MILITAR-ENTRE-CHILE-Y-PERU-1974-1975-UNA-VISION-DESDE-LA-IDEOLOGIA-PERUANA.pdf · Los Tiempos (2021) https://www.lostiempos.com/oh/actualidad/20210731/guerra-prevista-6-agosto-1975 · Convención de Ottawa (2020) https://www.apminebanconvention.org/fileadmin/_APMBC_SITE/News/2020-Comunicado-Chile-finaliza-desminado.pdf\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#historia",
+    "#mapas",
+    "#Chile",
+    "#Perú",
+    "#geografia",
+    "#GuerraFria"
+  ],
+  "referente": "https://www.youtube.com/watch?v=XjDbQw-Qn7I",
+  "serie": "La Guerra del Pacífico en el mapa",
+  "props": {
+    "id": "largo-peru-1975",
+    "acento": "amarillo",
+    "mapa": {
+      "proyeccion": "globo",
+      "fondo": "relieve",
+      "color": "coral",
+      "escala": 1.1,
+      "mes": 8,
+      "mostrarContador": false,
+      "puntos": [
+        {
+          "lon": -77.03,
+          "lat": -12.05,
+          "etiqueta": "LIMA",
+          "fecha": "1968-10-03"
+        },
+        {
+          "lon": -70.25,
+          "lat": -18.01,
+          "etiqueta": "TACNA"
+        },
+        {
+          "lon": -70.31,
+          "lat": -18.48,
+          "etiqueta": "ARICA"
+        },
+        {
+          "lon": -69.45,
+          "lat": -17.59,
+          "etiqueta": "CHARAÑA",
+          "fecha": "1975-02-08"
+        },
+        {
+          "lon": -70.24,
+          "lat": -18.01,
+          "etiqueta": "TACNAZO",
+          "fecha": "1975-08-29"
+        },
+        {
+          "lon": -70.375,
+          "lat": -18.35,
+          "etiqueta": "LA CONCORDIA"
+        },
+        {
+          "lon": -70.33,
+          "lat": -18.33,
+          "etiqueta": "ÚLTIMAS MINAS",
+          "fecha": "2020-02-27"
+        }
+      ]
+    },
+    "apertura": {
+      "texto": "Veintinueve de agosto de mil novecientos setenta y cinco, dos de la madrugada, Tacna. En un cuartel al pie del cerro Arunta, un general reúne a los jefes regionales del ejército. A unos cincuenta kilómetros, en Arica, Chile cavó fosas contra tanques. Esa mañana cae un presidente. ¿Y la guerra?",
+      "planos": [
+        {
+          "centro": [
+            -70.25,
+            -18.01
+          ],
+          "zoom": 10.2,
+          "entrada": "corte",
+          "deriva": 0.2
+        },
+        {
+          "centro": [
+            -70.3,
+            -18.25
+          ],
+          "zoom": 8.8,
+          "entrada": "zoom",
+          "deriva": 0.2,
+          "en": "kilómetros"
+        },
+        {
+          "centro": [
+            -70.3,
+            -18.25
+          ],
+          "zoom": 9.0,
+          "entrada": "corte",
+          "deriva": 0.1,
+          "en": "presidente"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "rojo",
+          "trama": "rayas",
+          "etiqueta": "PERÚ",
+          "aparecerEn": "cuartel"
+        },
+        {
+          "pais": "Chile",
+          "color": "azul",
+          "trama": "rayas",
+          "etiqueta": "CHILE",
+          "aparecerEn": "Chile"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.25,
+          "lat": -18.01,
+          "texto": "TACNA",
+          "tipo": "pin",
+          "aparecerEn": "Tacna"
+        },
+        {
+          "lon": -70.31,
+          "lat": -18.48,
+          "texto": "ARICA",
+          "tipo": "pin",
+          "aparecerEn": "Arica"
+        }
+      ],
+      "tarjetas": [
+        {
+          "texto": "29-8-1975",
+          "sub": "TACNA · 2:00 DE LA MADRUGADA",
+          "tipo": "cifra",
+          "aparecerEn": "mil",
+          "duracionSeg": 3.2
+        }
+      ],
+      "cotas": [
+        {
+          "desde": [
+            -70.25,
+            -18.01
+          ],
+          "hasta": [
+            -70.31,
+            -18.48
+          ],
+          "texto": "≈ 50 KM",
+          "aparecerEn": "kilómetros"
+        }
+      ],
+      "contexto": {
+        "texto": "¿Y LA GUERRA?",
+        "dice": "guerra"
+      }
+    },
+    "tarjetaTitulo": {
+      "texto": "¿POR QUÉ NO HUBO GUERRA EN 1975?",
+      "clave": "1975"
+    },
+    "capitulos": [
+      {
+        "titulo": "EL GENERAL DE PIURA",
+        "bloques": [
+          {
+            "texto": "Siete años antes, el tres de octubre de mil novecientos sesenta y ocho, el general Juan Velasco Alvarado saca de Palacio al presidente Fernando Belaúnde sin disparar un tiro, y lo manda al exilio. Velasco había nacido en Piura, en el norte del Perú.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "octubre"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Belaúnde"
+              },
+              {
+                "centro": [
+                  -78.5,
+                  -9.0
+                ],
+                "zoom": 5.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Piura"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Palacio"
+              },
+              {
+                "lon": -80.63,
+                "lat": -5.19,
+                "texto": "PIURA",
+                "tipo": "pin",
+                "aparecerEn": "Piura"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "3-10-1968",
+                "sub": "GOLPE SIN DISPAROS EN LIMA",
+                "tipo": "cifra",
+                "aparecerEn": "octubre",
+                "duracionSeg": 3.2
+              }
+            ],
+            "polaroid": {
+              "buscar": "Juan Velasco Alvarado 1971",
+              "archivo": "File:Generaal Juan Velasco Alvarado , president Peru, Bestanddeelnr 924-6976.jpg",
+              "pie": "Juan Velasco Alvarado (1910-1977)",
+              "anio": "1971",
+              "aparecerEn": "Velasco",
+              "duracionSeg": 3.5,
+              "lado": "derecha"
+            }
+          },
+          {
+            "texto": "Su gobierno se llama a sí mismo revolucionario. Expropia empresas extranjeras, en mil novecientos sesenta y nueve hace una reforma agraria y se acerca a Cuba y a la Unión Soviética.",
+            "tramo": [
+              0,
+              0
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -76.5,
+                  -11.0
+                ],
+                "zoom": 6.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "revolucionario"
+              },
+              {
+                "centro": [
+                  -76.5,
+                  -11.0
+                ],
+                "zoom": 6.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "expropia"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "gobierno"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -75.8,
+                "lat": -10.2,
+                "icono": "tratado",
+                "aparecerEn": "agraria"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1969",
+                "sub": "REFORMA AGRARIA",
+                "tipo": "cifra",
+                "aparecerEn": "sesenta",
+                "duracionSeg": 3.0
+              }
+            ],
+            "contexto": {
+              "texto": "CUBA Y LA URSS",
+              "dice": "Cuba"
+            }
+          },
+          {
+            "texto": "Y empieza a comprar armas. Años después, el general Francisco Morales Bermúdez lo explicaría así: comparado con el norte, el sur del Perú estaba desmantelado y el equilibrio estratégico se había roto.",
+            "tramo": [
+              0,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -73.5,
+                  -15.0
+                ],
+                "zoom": 5.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "armas"
+              },
+              {
+                "centro": [
+                  -70.6,
+                  -17.8
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "norte"
+              },
+              {
+                "centro": [
+                  -70.6,
+                  -17.8
+                ],
+                "zoom": 7.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "desmantelado"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.25,
+                "lat": -18.01,
+                "texto": "TACNA",
+                "tipo": "pin",
+                "aparecerEn": "sur"
+              },
+              {
+                "lon": -71.2,
+                "lat": -16.8,
+                "texto": "SUR DEL PERÚ",
+                "tipo": "region",
+                "aparecerEn": "sur"
+              }
+            ],
+            "fuente": {
+              "texto": "Morales Bermúdez, citado por J. Rodríguez Elizondo",
+              "dice": "explicaría"
+            },
+            "contexto": {
+              "texto": "«EL SUR ESTABA DESMANTELADO»",
+              "dice": "desmantelado"
+            }
+          },
+          {
+            "texto": "Llegan tanques soviéticos T cincuenta y cuatro y T cincuenta y cinco, artillería, lanzacohetes y radares. A fines de mil novecientos setenta y cuatro, la embajada de Estados Unidos en Lima calcula doscientos o más tanques soviéticos.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.4,
+                  -17.6
+                ],
+                "zoom": 7.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "tanques"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -17.6
+                ],
+                "zoom": 8.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "radares"
+              },
+              {
+                "centro": [
+                  -73.5,
+                  -14.5
+                ],
+                "zoom": 5.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "embajada"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.5,
+                "lat": -17.3,
+                "icono": "guerra",
+                "aparecerEn": "tanques"
+              },
+              {
+                "lon": -70.9,
+                "lat": -17.0,
+                "icono": "🚀",
+                "aparecerEn": "lanzacohetes"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -71.2,
+                "lat": -16.6,
+                "texto": "SUR DEL PERÚ",
+                "tipo": "region",
+                "aparecerEn": "artillería"
+              },
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Lima"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "200+",
+                "sub": "TANQUES SOVIÉTICOS · EMBAJADA DE EE. UU.",
+                "tipo": "cifra",
+                "aparecerEn": "doscientos",
+                "duracionSeg": 3.4,
+                "pictos": {
+                  "icono": "guerra",
+                  "n": 10
+                }
+              }
+            ],
+            "fuente": {
+              "texto": "Embajada de EE. UU. en Lima, 1974",
+              "dice": "calcula"
+            }
+          },
+          {
+            "texto": "A Washington le preocupa: hasta entonces, en todo el continente, solo Cuba tenía armas soviéticas en cantidad. En septiembre de mil novecientos setenta y cuatro el embajador se lo plantea a Velasco, y según su telegrama, Velasco le responde: «Ustedes alimentan y arman a Chile».",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -75.0,
+                  -15.0
+                ],
+                "zoom": 4.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Washington"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "embajador"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 8.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "alimentan"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Velasco"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "SEPT. 1974",
+                "sub": "EL EMBAJADOR SE REÚNE CON VELASCO",
+                "tipo": "cifra",
+                "aparecerEn": "septiembre",
+                "duracionSeg": 3.0
+              }
+            ],
+            "contexto": {
+              "texto": "«ARMAN A CHILE»",
+              "dice": "arman"
+            },
+            "fuente": {
+              "texto": "Telegrama 8043, embajada de EE. UU.",
+              "dice": "telegrama"
+            }
+          },
+          {
+            "texto": "Para entonces, Velasco ya no es el mismo. En mil novecientos setenta y tres perdió una pierna, y sigue gobernando enfermo.",
+            "tramo": [
+              1,
+              1
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Velasco"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "pierna"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1973",
+                "sub": "VELASCO PIERDE UNA PIERNA",
+                "tipo": "cifra",
+                "aparecerEn": "setenta",
+                "duracionSeg": 3.0
+              }
+            ],
+            "clave": [
+              "enfermo"
+            ]
+          }
+        ],
+        "siguiente": {
+          "texto": "Del otro lado de la frontera, alguien está contando esos tanques. Y le va a pedir ayuda a Estados Unidos.",
+          "tramo": [
+            1,
+            2
+          ],
+          "planos": [
+            {
+              "centro": [
+                -70.3,
+                -18.3
+              ],
+              "zoom": 8.2,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "frontera"
+            },
+            {
+              "centro": [
+                -70.3,
+                -18.3
+              ],
+              "zoom": 8.6,
+              "entrada": "corte",
+              "deriva": 0.1,
+              "en": "contando"
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -70.31,
+              "lat": -18.48,
+              "texto": "ARICA",
+              "tipo": "pin",
+              "aparecerEn": "otro"
+            }
+          ],
+          "contexto": {
+            "texto": "¿QUIÉN CUENTA?",
+            "dice": "contando"
+          }
+        }
+      },
+      {
+        "titulo": "CONTAR TANQUES",
+        "bloques": [
+          {
+            "texto": "En septiembre de mil novecientos setenta y tres, en Chile, los militares derrocan a Salvador Allende, y Augusto Pinochet encabeza la junta. Desde entonces hay dos gobiernos militares, uno a cada lado de la frontera: uno de izquierda en Lima y otro de derecha en Santiago.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.5,
+                  -24.0
+                ],
+                "zoom": 4.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "septiembre"
+              },
+              {
+                "centro": [
+                  -73.0,
+                  -22.0
+                ],
+                "zoom": 4.0,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "frontera"
+              },
+              {
+                "centro": [
+                  -73.0,
+                  -22.0
+                ],
+                "zoom": 4.3,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Santiago"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "texto": "SANTIAGO",
+                "tipo": "pin",
+                "aparecerEn": "Santiago"
+              },
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Lima"
+              }
+            ],
+            "areas": [
+              {
+                "pais": "Chile",
+                "color": "azul",
+                "trama": "rayas",
+                "etiqueta": "CHILE",
+                "aparecerEn": "Chile"
+              },
+              {
+                "pais": "Peru",
+                "color": "rojo",
+                "trama": "rayas",
+                "etiqueta": "PERÚ",
+                "aparecerEn": "frontera"
+              }
+            ],
+            "polaroid": {
+              "buscar": "Augusto Pinochet foto oficial",
+              "archivo": "File:Augusto Pinochet foto oficial.jpg",
+              "pie": "Augusto Pinochet (1915-2006)",
+              "anio": "1974",
+              "aparecerEn": "Pinochet",
+              "duracionSeg": 3.5,
+              "lado": "izquierda"
+            }
+          },
+          {
+            "texto": "A comienzos de mil novecientos setenta y cinco, el jefe de la inteligencia chilena, Manuel Contreras, se reúne con el subdirector de la CIA, Vernon Walters. Según el memorándum de esa reunión, Contreras le dice que el Perú tiene ciento treinta y siete tanques en el sur, pero no tiene tripulaciones suficientes.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.0,
+                  -19.5
+                ],
+                "zoom": 6.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "inteligencia"
+              },
+              {
+                "centro": [
+                  -70.6,
+                  -17.8
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "memorándum"
+              },
+              {
+                "centro": [
+                  -70.6,
+                  -17.8
+                ],
+                "zoom": 7.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "tripulaciones"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "137",
+                "sub": "TANQUES EN EL SUR DEL PERÚ · ENERO 1975",
+                "tipo": "cifra",
+                "aparecerEn": "ciento",
+                "duracionSeg": 3.4
+              }
+            ],
+            "fuente": {
+              "texto": "Memorándum de la CIA, 7-1-1975",
+              "dice": "memorándum"
+            },
+            "contexto": {
+              "texto": "CONTRERAS Y LA CIA",
+              "dice": "Walters"
+            },
+            "etiquetas": [
+              {
+                "lon": -70.65,
+                "lat": -33.45,
+                "texto": "SANTIAGO",
+                "tipo": "pin",
+                "aparecerEn": "chilena"
+              }
+            ],
+            "areas": [
+              {
+                "pais": "Peru",
+                "color": "rojo",
+                "trama": "rayas",
+                "etiqueta": "SUR DEL PERÚ",
+                "aparecerEn": "sur"
+              }
+            ]
+          },
+          {
+            "texto": "Pinochet pide ayuda para comprar armas defensivas, entre ellas doscientos cincuenta tanques. En julio, Contreras vuelve con otra cifra: el Perú tendría más de cuatrocientos tanques. Chile, cuarenta.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.5,
+                  -18.6
+                ],
+                "zoom": 7.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Pinochet"
+              },
+              {
+                "centro": [
+                  -70.5,
+                  -18.6
+                ],
+                "zoom": 7.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "julio"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -18.3
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "cuarenta"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "400 CONTRA 40",
+                "sub": "TANQUES SEGÚN LA INTELIGENCIA CHILENA",
+                "tipo": "barras",
+                "aparecerEn": "cuatrocientos",
+                "duracionSeg": 4.0,
+                "barras": [
+                  {
+                    "etiqueta": "PERÚ",
+                    "valor": 400
+                  },
+                  {
+                    "etiqueta": "CHILE",
+                    "valor": 40
+                  }
+                ]
+              }
+            ],
+            "fuente": {
+              "texto": "Memorándum de V. Walters, 9-7-1975 (FRUS)",
+              "dice": "julio"
+            }
+          },
+          {
+            "texto": "Las cifras no coinciden entre fuentes: doscientos, trescientos, cuatrocientos. Pero todas apuntan al mismo lado. Entre los blindados chilenos del norte había tanques Sherman de la Segunda Guerra Mundial.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.4,
+                  -18.3
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "cifras"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -18.3
+                ],
+                "zoom": 8.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "lado"
+              },
+              {
+                "centro": [
+                  -70.31,
+                  -18.48
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Sherman"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "norte"
+              }
+            ],
+            "contexto": {
+              "texto": "200 · 300 · 400",
+              "dice": "doscientos"
+            },
+            "iconos": [
+              {
+                "lon": -70.2,
+                "lat": -18.45,
+                "icono": "guerra",
+                "aparecerEn": "Sherman"
+              }
+            ]
+          },
+          {
+            "texto": "Chile refuerza el norte. Llama a reservistas, manda regimientos a Arica y, alrededor de la ciudad, levanta fosas antitanques, obstáculos de concreto y campos minados.",
+            "tramo": [
+              2,
+              2
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.31,
+                  -18.48
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "refuerza"
+              },
+              {
+                "centro": [
+                  -70.31,
+                  -18.48
+                ],
+                "zoom": 10.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "fosas"
+              },
+              {
+                "centro": [
+                  -70.33,
+                  -18.4
+                ],
+                "zoom": 9.4,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "minados"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.42,
+                    -18.36
+                  ],
+                  [
+                    -70.15,
+                    -18.33
+                  ],
+                  [
+                    -70.1,
+                    -18.45
+                  ],
+                  [
+                    -70.3,
+                    -18.55
+                  ],
+                  [
+                    -70.4,
+                    -18.5
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "rayas",
+                "etiqueta": "DEFENSAS DE ARICA",
+                "aparecerEn": "fosas"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              }
+            ],
+            "clave": [
+              "minados"
+            ]
+          },
+          {
+            "texto": "Y juega otra carta: Bolivia. El ocho de febrero de mil novecientos setenta y cinco, Pinochet y el general Hugo Banzer se abrazan en Charaña, en la frontera. Chile ofrecerá a Bolivia un corredor al mar justo al norte de Arica, pegado al Perú.",
+            "tramo": [
+              2,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -69.9,
+                  -18.0
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Bolivia"
+              },
+              {
+                "centro": [
+                  -69.45,
+                  -17.59
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Charaña"
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -18.2
+                ],
+                "zoom": 8.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "corredor"
+              }
+            ],
+            "areas": [
+              {
+                "pais": "Bolivia",
+                "color": "verde",
+                "trama": "rayas",
+                "etiqueta": "BOLIVIA",
+                "aparecerEn": "Bolivia"
+              },
+              {
+                "poligono": [
+                  [
+                    -70.4,
+                    -18.35
+                  ],
+                  [
+                    -70.33,
+                    -18.36
+                  ],
+                  [
+                    -69.52,
+                    -17.53
+                  ],
+                  [
+                    -69.48,
+                    -17.5
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "solida",
+                "etiqueta": "CORREDOR",
+                "aparecerEn": "corredor"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.45,
+                "lat": -17.59,
+                "texto": "CHARAÑA",
+                "tipo": "pin",
+                "aparecerEn": "Charaña"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "8-2-1975",
+                "sub": "EL ABRAZO DE CHARAÑA",
+                "tipo": "cifra",
+                "aparecerEn": "febrero",
+                "duracionSeg": 3.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -69.6,
+                "lat": -17.75,
+                "icono": "tratado",
+                "aparecerEn": "abrazan"
+              }
+            ]
+          },
+          {
+            "texto": "Pero por el tratado de mil novecientos veintinueve, Chile no puede ceder esas tierras sin el acuerdo del Perú. La respuesta le toca a Lima. Un año antes, Velasco había dicho que el Perú no se resignaría jamás a lo que perdió en la guerra de mil ochocientos setenta y nueve.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.0,
+                  -18.0
+                ],
+                "zoom": 7.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "tratado"
+              },
+              {
+                "centro": [
+                  -73.5,
+                  -15.0
+                ],
+                "zoom": 5.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Lima"
+              },
+              {
+                "centro": [
+                  -73.5,
+                  -15.0
+                ],
+                "zoom": 5.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "jamás"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Lima"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.1,
+                "lat": -17.9,
+                "icono": "tratado",
+                "aparecerEn": "tratado"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1929",
+                "sub": "TRATADO DE LIMA",
+                "tipo": "cifra",
+                "aparecerEn": "veintinueve",
+                "duracionSeg": 3.2
+              }
+            ],
+            "contexto": {
+              "texto": "«NO SE RESIGNARÁ JAMÁS»",
+              "dice": "resignaría"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Del lado peruano, años después, hubo quien contó que la guerra ya tenía fecha. Un miércoles de agosto.",
+          "tramo": [
+            3,
+            3
+          ],
+          "planos": [
+            {
+              "centro": [
+                -70.4,
+                -17.8
+              ],
+              "zoom": 7.8,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "peruano"
+            },
+            {
+              "centro": [
+                -70.4,
+                -17.8
+              ],
+              "zoom": 8.2,
+              "entrada": "corte",
+              "deriva": 0.1,
+              "en": "miércoles"
+            }
+          ],
+          "contexto": {
+            "texto": "¿UN MIÉRCOLES DE AGOSTO?",
+            "dice": "miércoles"
+          }
+        }
+      },
+      {
+        "titulo": "UN MIÉRCOLES DE AGOSTO",
+        "bloques": [
+          {
+            "texto": "Eloy Villacrez era capitán del ejército peruano. Décadas después, en entrevistas, contó que los estrategas habían fijado el día: el miércoles seis de agosto de mil novecientos setenta y cinco.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -18.0
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "capitán"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.0
+                ],
+                "zoom": 8.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "seis"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "6-8-1975",
+                "sub": "EL DÍA D, SEGÚN VILLACREZ",
+                "tipo": "cifra",
+                "aparecerEn": "seis",
+                "duracionSeg": 3.4
+              }
+            ],
+            "fuente": {
+              "texto": "Testimonio de E. Villacrez (Los Tiempos, 2021)",
+              "dice": "entrevistas"
+            }
+          },
+          {
+            "texto": "Según su relato, el plan tenía tres pasos: invadir Arica, tomar Iquique y quizás llegar a Antofagasta. Y Villacrez dijo que Velasco quería esa guerra.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.4,
+                  -20.0
+                ],
+                "zoom": 6.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "plan"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -21.0
+                ],
+                "zoom": 5.6,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "Antofagasta"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -21.0
+                ],
+                "zoom": 5.9,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "quería"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Arica"
+              },
+              {
+                "lon": -70.15,
+                "lat": -20.21,
+                "texto": "IQUIQUE",
+                "tipo": "pin",
+                "aparecerEn": "Iquique"
+              },
+              {
+                "lon": -70.4,
+                "lat": -23.65,
+                "texto": "ANTOFAGASTA",
+                "tipo": "pin",
+                "aparecerEn": "Antofagasta"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.0,
+                "lat": -18.6,
+                "icono": "guerra",
+                "aparecerEn": "invadir",
+                "ruta": [
+                  [
+                    -70.2,
+                    -18.1
+                  ],
+                  [
+                    -70.1,
+                    -19.4
+                  ],
+                  [
+                    -70.2,
+                    -22.5
+                  ]
+                ],
+                "duracionSeg": 5
+              }
+            ],
+            "contexto": {
+              "texto": "SU VERSIÓN",
+              "dice": "relato"
+            }
+          },
+          {
+            "texto": "No es el único. Augusto Zimmermann, que dirigió la oficina de informaciones de Velasco, publicó esa misma fecha en mil novecientos ochenta y dos. Según él, Velasco soñaba con ver la bandera peruana en el Morro de Arica.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.31,
+                  -18.47
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Zimmermann"
+              },
+              {
+                "centro": [
+                  -70.31,
+                  -18.47
+                ],
+                "zoom": 9.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "publicó"
+              },
+              {
+                "centro": [
+                  -70.323,
+                  -18.48
+                ],
+                "zoom": 10.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Morro"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1982",
+                "sub": "ZIMMERMANN PUBLICA LA FECHA",
+                "tipo": "cifra",
+                "aparecerEn": "ochenta",
+                "duracionSeg": 3.0
+              }
+            ],
+            "contexto": {
+              "texto": "OTRO TESTIMONIO",
+              "dice": "único"
+            },
+            "etiquetas": [
+              {
+                "lon": -70.323,
+                "lat": -18.48,
+                "texto": "MORRO DE ARICA",
+                "tipo": "pin",
+                "aparecerEn": "Morro"
+              }
+            ],
+            "foto": {
+              "buscar": "Morro de Arica",
+              "archivo": "File:Morro de Arica 2.JPG",
+              "pie": "EL MORRO DE ARICA, HOY",
+              "aparecerEn": "Morro",
+              "duracionSeg": 3.0
+            },
+            "iconos": [
+              {
+                "lon": -70.36,
+                "lat": -18.47,
+                "icono": "bandera",
+                "aparecerEn": "bandera"
+              }
+            ]
+          },
+          {
+            "texto": "Hay otra versión, la del jurista Alberto Ruiz Eldridge, que también formó parte de ese gobierno. Da casi las mismas fechas, pero al revés: el Perú se preparaba para defenderse de un ataque que, según él, organizaban Chile y Estados Unidos.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -18.25
+                ],
+                "zoom": 8.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "versión"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.25
+                ],
+                "zoom": 8.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "revés"
+              },
+              {
+                "centro": [
+                  -70.6,
+                  -19.0
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "ataque"
+              }
+            ],
+            "contexto": {
+              "texto": "OTRA VERSIÓN: DEFENSA",
+              "dice": "defenderse"
+            },
+            "tarjetas": [
+              {
+                "texto": "3 AL 6 DE AGOSTO",
+                "sub": "SEGÚN RUIZ ELDRIDGE",
+                "tipo": "cifra",
+                "aparecerEn": "fechas",
+                "duracionSeg": 3.0
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "gobierno"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.6,
+                "lat": -18.9,
+                "icono": "guerra",
+                "aparecerEn": "ataque",
+                "ruta": [
+                  [
+                    -70.4,
+                    -19.4
+                  ],
+                  [
+                    -70.3,
+                    -18.2
+                  ]
+                ],
+                "duracionSeg": 3
+              }
+            ]
+          },
+          {
+            "texto": "Morales Bermúdez lo negó: el rearme era para equilibrar un sur desmantelado, no para usarlo. Y el historiador chileno Joaquín Fermandois escribió que no está claro que el Perú quisiera de verdad la guerra, y que Velasco pudo quedar preso de su propia retórica.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -71.5,
+                  -17.0
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "negó"
+              },
+              {
+                "centro": [
+                  -71.5,
+                  -17.0
+                ],
+                "zoom": 6.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "historiador"
+              },
+              {
+                "centro": [
+                  -70.8,
+                  -17.6
+                ],
+                "zoom": 7.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "retórica"
+              }
+            ],
+            "polaroid": {
+              "buscar": "F. Morales Bermudez 1975",
+              "archivo": "File:F. Morales Bermúdez.jpg",
+              "pie": "Francisco Morales Bermúdez (1921-2022)",
+              "anio": "1975",
+              "aparecerEn": "Bermúdez",
+              "duracionSeg": 3.5,
+              "lado": "derecha"
+            },
+            "contexto": {
+              "texto": "¿PRESO DE SU RETÓRICA?",
+              "dice": "preso"
+            },
+            "fuente": {
+              "texto": "Historiador J. Fermandois, 2005",
+              "dice": "escribió"
+            }
+          },
+          {
+            "texto": "La embajada de Estados Unidos, a fines de mil novecientos setenta y cuatro, veía poco probable que el Perú empezara una guerra a propósito. Pero advertía otra cosa: con tantas tropas en la frontera, no se podía descartar una guerra por error de cálculo.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -18.2
+                ],
+                "zoom": 8.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "embajada"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.2
+                ],
+                "zoom": 8.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "propósito"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.2
+                ],
+                "zoom": 8.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "frontera"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "DIC. 1974",
+                "sub": "TELEGRAMA DE LA EMBAJADA",
+                "tipo": "cifra",
+                "aparecerEn": "fines",
+                "duracionSeg": 3.0
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.42,
+                    -18.33
+                  ],
+                  [
+                    -70.3,
+                    -18.36
+                  ],
+                  [
+                    -69.95,
+                    -18.0
+                  ],
+                  [
+                    -69.55,
+                    -17.55
+                  ],
+                  [
+                    -69.8,
+                    -17.4
+                  ],
+                  [
+                    -70.2,
+                    -17.8
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "rayas",
+                "etiqueta": "TROPAS A LOS DOS LADOS",
+                "aparecerEn": "tropas"
+              }
+            ],
+            "contexto": {
+              "texto": "GUERRA POR ERROR",
+              "dice": "error"
+            },
+            "fuente": {
+              "texto": "Telegrama 10425, embajada de EE. UU.",
+              "dice": "advertía"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Y mientras unos ponían fecha y otros la negaban, en Lima el hombre que tenía que dar la orden se estaba quedando sin poder.",
+          "tramo": [
+            3,
+            3
+          ],
+          "planos": [
+            {
+              "centro": [
+                -74.0,
+                -14.5
+              ],
+              "zoom": 5.4,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "Lima"
+            },
+            {
+              "centro": [
+                -77.03,
+                -12.05
+              ],
+              "zoom": 8.4,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "orden"
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -77.03,
+              "lat": -12.05,
+              "texto": "LIMA",
+              "tipo": "pin",
+              "aparecerEn": "Lima"
+            }
+          ],
+          "contexto": {
+            "texto": "SIN PODER",
+            "dice": "poder"
+          }
+        }
+      },
+      {
+        "titulo": "EL TACNAZO",
+        "bloques": [
+          {
+            "texto": "El cinco de febrero de mil novecientos setenta y cinco, la policía de Lima se declara en huelga. Hay saqueos e incendios en el centro, el ejército sale a la calle, y hay muertos.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "febrero"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "saqueos"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "ejército"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "5-2-1975",
+                "sub": "HUELGA POLICIAL EN LIMA",
+                "tipo": "cifra",
+                "aparecerEn": "cinco",
+                "duracionSeg": 3.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -77.04,
+                "lat": -12.04,
+                "icono": "🔥",
+                "aparecerEn": "incendios"
+              }
+            ]
+          },
+          {
+            "texto": "Tres semanas después, el veintiocho de febrero, Velasco sufre un derrame cerebral. Se recupera, pero ya se habla de su sucesor. Un informe de la CIA de marzo apunta a uno: su primer ministro, Francisco Morales Bermúdez.",
+            "tramo": [
+              3,
+              3
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "semanas"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.9,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "sucesor"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 9.3,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "ministro"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "28-2-1975",
+                "sub": "DERRAME CEREBRAL DE VELASCO",
+                "tipo": "cifra",
+                "aparecerEn": "veintiocho",
+                "duracionSeg": 3.2
+              }
+            ],
+            "fuente": {
+              "texto": "Memorándum de la CIA, 25-3-1975 (FRUS)",
+              "dice": "informe"
+            },
+            "contexto": {
+              "texto": "EL SUCESOR",
+              "dice": "sucesor"
+            }
+          },
+          {
+            "texto": "Morales Bermúdez es también el comandante del ejército. A fines de agosto viaja al sur, a Tacna, que cada veintiocho de agosto celebra el día en que volvió al Perú, en mil novecientos veintinueve, tras casi cincuenta años bajo Chile.",
+            "tramo": [
+              3,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -74.0,
+                  -15.0
+                ],
+                "zoom": 5.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "comandante"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Tacna"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 9.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "volvió"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.25,
+                "lat": -18.01,
+                "texto": "TACNA",
+                "tipo": "pin",
+                "aparecerEn": "Tacna"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1929",
+                "sub": "TACNA VUELVE AL PERÚ",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "veintinueve",
+                "duracionSeg": 3.4,
+                "desde": "1880",
+                "hasta": "1929"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.2,
+                "lat": -17.95,
+                "icono": "bandera",
+                "aparecerEn": "celebra"
+              }
+            ]
+          },
+          {
+            "texto": "A la ceremonia llegan los jefes de las regiones militares. Velasco se queda en Lima. A las dos de la madrugada del veintinueve, en el cuartel Tarapacá, Morales Bermúdez se reúne con ellos a puerta cerrada.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "ceremonia"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 10.0,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "madrugada"
+              },
+              {
+                "centro": [
+                  -70.24,
+                  -18.03
+                ],
+                "zoom": 10.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "cuartel"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.24,
+                "lat": -18.03,
+                "texto": "CUARTEL TARAPACÁ",
+                "tipo": "pin",
+                "aparecerEn": "cuartel"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "2:00",
+                "sub": "29 DE AGOSTO · REUNIÓN A PUERTA CERRADA",
+                "tipo": "cifra",
+                "aparecerEn": "dos",
+                "duracionSeg": 3.2
+              }
+            ],
+            "clave": [
+              "cerrada"
+            ]
+          },
+          {
+            "texto": "En la mañana, una radio de Tacna anuncia que Velasco ha sido removido. Los comandantes de las cinco regiones militares firman un comunicado de apoyo. Y Morales Bermúdez da en Tacna su primer discurso como presidente.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "radio"
+              },
+              {
+                "centro": [
+                  -73.0,
+                  -14.0
+                ],
+                "zoom": 4.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "regiones"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 9.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "discurso"
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.25,
+                "lat": -17.99,
+                "icono": "📻",
+                "aparecerEn": "radio"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "5 DE 5",
+                "sub": "REGIONES MILITARES CON MORALES BERMÚDEZ",
+                "tipo": "cifra",
+                "aparecerEn": "cinco",
+                "duracionSeg": 3.4
+              }
+            ],
+            "contexto": {
+              "texto": "PRIMER DISCURSO",
+              "dice": "discurso"
+            }
+          },
+          {
+            "texto": "Velasco no resiste. Deja el Palacio de Gobierno sin que nadie salga a defenderlo. Muere en Lima el veinticuatro de diciembre de mil novecientos setenta y siete.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -74.0,
+                  -15.0
+                ],
+                "zoom": 5.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Palacio"
+              },
+              {
+                "centro": [
+                  -77.03,
+                  -12.05
+                ],
+                "zoom": 8.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Muere"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -77.03,
+                "lat": -12.05,
+                "texto": "LIMA",
+                "tipo": "pin",
+                "aparecerEn": "Lima"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1968-1975",
+                "sub": "SIETE AÑOS DE VELASCO",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "resiste",
+                "duracionSeg": 3.2,
+                "desde": "1968",
+                "hasta": "1975"
+              }
+            ]
+          },
+          {
+            "texto": "Años después, Morales Bermúdez explicó por qué lo hizo: la economía, la subida del petróleo y un presidente enfermo. «Si Velasco está enfermo, el que le sigue soy yo», dijo. En esa explicación no menciona a Chile.",
+            "tramo": [
+              4,
+              4
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 9.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "explicó"
+              },
+              {
+                "centro": [
+                  -70.25,
+                  -18.01
+                ],
+                "zoom": 9.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "sigue"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.25
+                ],
+                "zoom": 8.6,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "explicación"
+              }
+            ],
+            "contexto": {
+              "texto": "«EL QUE LE SIGUE SOY YO»",
+              "dice": "sigue"
+            },
+            "iconos": [
+              {
+                "lon": -70.1,
+                "lat": -17.95,
+                "icono": "dinero",
+                "aparecerEn": "economía"
+              },
+              {
+                "lon": -70.4,
+                "lat": -18.05,
+                "icono": "🛢️",
+                "aparecerEn": "petróleo"
+              }
+            ],
+            "fuente": {
+              "texto": "Morales Bermúdez, citado por J. Rodríguez Elizondo",
+              "dice": "dijo"
+            }
+          }
+        ],
+        "siguiente": {
+          "texto": "Pero en Arica, un coronel chileno ya había tratado con el hombre que ahora mandaba en Lima. Fue en una ceremonia en la frontera.",
+          "tramo": [
+            4,
+            5
+          ],
+          "planos": [
+            {
+              "centro": [
+                -70.31,
+                -18.3
+              ],
+              "zoom": 8.8,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "Arica"
+            },
+            {
+              "centro": [
+                -70.375,
+                -18.35
+              ],
+              "zoom": 10.0,
+              "entrada": "zoom",
+              "deriva": 0.2,
+              "en": "ceremonia"
+            }
+          ],
+          "etiquetas": [
+            {
+              "lon": -70.31,
+              "lat": -18.48,
+              "texto": "ARICA",
+              "tipo": "pin",
+              "aparecerEn": "Arica"
+            }
+          ],
+          "contexto": {
+            "texto": "UNA CEREMONIA EN LA FRONTERA",
+            "dice": "ceremonia"
+          }
+        }
+      },
+      {
+        "titulo": "LO QUE QUEDÓ EN LA ARENA",
+        "bloques": [
+          {
+            "texto": "Era noviembre de mil novecientos setenta y cuatro. En la Línea de la Concordia, la frontera entre Tacna y Arica, delegaciones de los dos ejércitos hacen una ceremonia de amistad. La peruana la encabeza Morales Bermúdez. En Arica está destinado el coronel chileno Odlanier Mena.",
+            "tramo": [
+              5,
+              5
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.375,
+                  -18.35
+                ],
+                "zoom": 10.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "noviembre"
+              },
+              {
+                "centro": [
+                  -70.375,
+                  -18.35
+                ],
+                "zoom": 10.8,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "ceremonia"
+              },
+              {
+                "centro": [
+                  -70.33,
+                  -18.42
+                ],
+                "zoom": 9.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "destinado"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.375,
+                "lat": -18.35,
+                "texto": "LÍNEA DE LA CONCORDIA",
+                "tipo": "pin",
+                "aparecerEn": "Concordia"
+              },
+              {
+                "lon": -70.31,
+                "lat": -18.48,
+                "texto": "ARICA",
+                "tipo": "pin",
+                "aparecerEn": "destinado"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "NOV. 1974",
+                "sub": "CEREMONIA DE AMISTAD EN LA FRONTERA",
+                "tipo": "cifra",
+                "aparecerEn": "noviembre",
+                "duracionSeg": 3.2
+              }
+            ],
+            "iconos": [
+              {
+                "lon": -70.36,
+                "lat": -18.33,
+                "icono": "tratado",
+                "aparecerEn": "amistad"
+              }
+            ]
+          },
+          {
+            "texto": "Mena contó después que Morales Bermúdez le propuso llevar cuarenta o cincuenta tanques a la ceremonia, y que él pusiera algo simbólico: una banda y un pelotón. Mena aceptó. En su regimiento, dijo, tenía dos tanques.",
+            "tramo": [
+              5,
+              5
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.375,
+                  -18.35
+                ],
+                "zoom": 10.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "contó"
+              },
+              {
+                "centro": [
+                  -70.375,
+                  -18.35
+                ],
+                "zoom": 10.6,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "simbólico"
+              },
+              {
+                "centro": [
+                  -70.33,
+                  -18.42
+                ],
+                "zoom": 10.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "regimiento"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "50 CONTRA 2",
+                "sub": "TANQUES EN LA CEREMONIA, SEGÚN MENA",
+                "tipo": "barras",
+                "aparecerEn": "cincuenta",
+                "duracionSeg": 4.0,
+                "barras": [
+                  {
+                    "etiqueta": "PERÚ",
+                    "valor": 50
+                  },
+                  {
+                    "etiqueta": "CHILE",
+                    "valor": 2
+                  }
+                ]
+              }
+            ],
+            "fuente": {
+              "texto": "Testimonio del coronel O. Mena",
+              "dice": "contó"
+            },
+            "clave": [
+              "dos"
+            ]
+          },
+          {
+            "texto": "Según Mena, Morales Bermúdez se oponía a la guerra. Es su versión. Lo que sí está documentado es que, tras la caída de Velasco, la tensión bajó.",
+            "tramo": [
+              5,
+              5
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -18.25
+                ],
+                "zoom": 8.8,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Mena"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.25
+                ],
+                "zoom": 9.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "documentado"
+              }
+            ],
+            "contexto": {
+              "texto": "SU VERSIÓN",
+              "dice": "versión"
+            },
+            "clave": [
+              "bajó"
+            ]
+          },
+          {
+            "texto": "Bajó, pero no terminó. En mil novecientos setenta y seis, el Perú compra aviones Sukhoi a la Unión Soviética, y en Washington todavía temen un conflicto con Chile, aunque fuera sin quererlo. El corredor de Charaña se estanca, y en mil novecientos setenta y ocho Bolivia rompe relaciones con Chile.",
+            "tramo": [
+              5,
+              5
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.6,
+                  -17.6
+                ],
+                "zoom": 7.2,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "Sukhoi"
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -17.9
+                ],
+                "zoom": 7.8,
+                "entrada": "paneo",
+                "deriva": 0.2,
+                "en": "Charaña"
+              },
+              {
+                "centro": [
+                  -70.0,
+                  -17.9
+                ],
+                "zoom": 8.2,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "rompe"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "18 SUKHOI",
+                "sub": "COMPRA PERUANA DE 1976",
+                "tipo": "cifra",
+                "aparecerEn": "Sukhoi",
+                "duracionSeg": 3.2
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -69.45,
+                "lat": -17.59,
+                "texto": "CHARAÑA",
+                "tipo": "pin",
+                "aparecerEn": "Charaña"
+              }
+            ],
+            "areas": [
+              {
+                "pais": "Bolivia",
+                "color": "verde",
+                "trama": "rayas",
+                "etiqueta": "BOLIVIA",
+                "aparecerEn": "Bolivia"
+              }
+            ],
+            "fuente": {
+              "texto": "Memorándum Shlaudeman-Lord a Kissinger, 10-9-1976",
+              "dice": "Washington"
+            }
+          },
+          {
+            "texto": "El centenario de la guerra de mil ochocientos setenta y nueve llegó en mil novecientos setenta y nueve, y pasó sin guerra. Lo que quedó en la arena fueron las minas, que Chile había sembrado en los años setenta a lo largo de sus fronteras.",
+            "tramo": [
+              5,
+              5
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.3,
+                  -18.4
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "centenario"
+              },
+              {
+                "centro": [
+                  -70.3,
+                  -18.4
+                ],
+                "zoom": 9.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "quedó"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "1879-1979",
+                "sub": "UN CENTENARIO SIN GUERRA",
+                "tipo": "linea-tiempo",
+                "aparecerEn": "centenario",
+                "duracionSeg": 3.2,
+                "desde": "1879",
+                "hasta": "1979"
+              }
+            ],
+            "areas": [
+              {
+                "poligono": [
+                  [
+                    -70.42,
+                    -18.36
+                  ],
+                  [
+                    -70.15,
+                    -18.33
+                  ],
+                  [
+                    -70.1,
+                    -18.45
+                  ],
+                  [
+                    -70.3,
+                    -18.55
+                  ],
+                  [
+                    -70.4,
+                    -18.5
+                  ]
+                ],
+                "color": "amarillo",
+                "trama": "rayas",
+                "etiqueta": "CAMPOS MINADOS",
+                "aparecerEn": "minas"
+              }
+            ],
+            "clave": [
+              "minas"
+            ]
+          },
+          {
+            "texto": "El veintisiete de febrero de dos mil veinte, Chile sacó las últimas minas antipersonales de su territorio, en la Quebrada Escritos, en la región de Arica y Parinacota. En total, en todo el país, casi ciento ochenta mil.",
+            "tramo": [
+              5,
+              6
+            ],
+            "planos": [
+              {
+                "centro": [
+                  -70.33,
+                  -18.33
+                ],
+                "zoom": 9.0,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "febrero"
+              },
+              {
+                "centro": [
+                  -70.33,
+                  -18.33
+                ],
+                "zoom": 9.4,
+                "entrada": "corte",
+                "deriva": 0.1,
+                "en": "Quebrada"
+              },
+              {
+                "centro": [
+                  -70.4,
+                  -19.5
+                ],
+                "zoom": 6.4,
+                "entrada": "zoom",
+                "deriva": 0.2,
+                "en": "total"
+              }
+            ],
+            "etiquetas": [
+              {
+                "lon": -70.33,
+                "lat": -18.33,
+                "texto": "QUEBRADA ESCRITOS",
+                "tipo": "pin",
+                "aparecerEn": "Quebrada"
+              },
+              {
+                "lon": -69.8,
+                "lat": -18.2,
+                "texto": "ARICA Y PARINACOTA",
+                "tipo": "region",
+                "aparecerEn": "región"
+              }
+            ],
+            "tarjetas": [
+              {
+                "texto": "27-2-2020",
+                "sub": "LAS ÚLTIMAS MINAS ANTIPERSONALES",
+                "tipo": "cifra",
+                "aparecerEn": "veintisiete",
+                "duracionSeg": 3.4
+              }
+            ],
+            "fuente": {
+              "texto": "Convención de Ottawa, comunicado del 3-3-2020",
+              "dice": "sacó"
+            }
+          }
+        ]
+      }
+    ],
+    "cierre": {
+      "texto": "Perú tenía más tanques. Chile, más minas. Para unos, la guerra la frenó un golpe en Tacna. Para otros, nunca iba a empezar. ¿Tú qué crees?",
+      "planos": [
+        {
+          "centro": [
+            -70.3,
+            -18.25
+          ],
+          "zoom": 8.4,
+          "entrada": "zoom",
+          "deriva": -0.2
+        },
+        {
+          "centro": [
+            -70.25,
+            -18.01
+          ],
+          "zoom": 9.2,
+          "entrada": "zoom",
+          "deriva": 0.1,
+          "en": "golpe"
+        },
+        {
+          "centro": [
+            -70.3,
+            -18.25
+          ],
+          "zoom": 8.2,
+          "entrada": "zoom",
+          "deriva": -0.2,
+          "en": "empezar"
+        }
+      ],
+      "etiquetas": [
+        {
+          "lon": -70.25,
+          "lat": -18.01,
+          "texto": "TACNA · 29-8-1975"
+        },
+        {
+          "lon": -70.33,
+          "lat": -18.33,
+          "texto": "Q. ESCRITOS · 27-2-2020"
+        }
+      ],
+      "serie": "La Guerra del Pacífico en el mapa",
+      "segundosFinales": 14
+    },
+    "fuentes": [
+      {
+        "texto": "FRUS 1969-1976, vol. E-11 parte 2, doc. 181 (Walters a Kissinger, 7-1-1975)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d181"
+      },
+      {
+        "texto": "FRUS 1969-1976, vol. E-11 parte 2, doc. 194 (Walters a Kissinger, 9-7-1975)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d194"
+      },
+      {
+        "texto": "FRUS, doc. 293 (Departamento de Estado a Lima, 25-1-1974)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d293"
+      },
+      {
+        "texto": "FRUS, doc. 299 (embajada en Lima, 24-9-1974)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d299"
+      },
+      {
+        "texto": "FRUS, doc. 303 (embajada en Lima, 11-12-1974)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d303"
+      },
+      {
+        "texto": "FRUS, doc. 307 (CIA, sucesión en Perú, 25-3-1975)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d307"
+      },
+      {
+        "texto": "FRUS, doc. 322 (Shlaudeman y Lord a Kissinger, 10-9-1976)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d322"
+      },
+      {
+        "texto": "R. Urrutia Bravo, La crisis militar entre Chile y Perú (1974-1975), Academia de Historia Militar, 2024",
+        "url": "https://www.academiahistoriamilitar.cl/academia/wp-content/uploads/2024/09/LA-CRISIS-MILITAR-ENTRE-CHILE-Y-PERU-1974-1975-UNA-VISION-DESDE-LA-IDEOLOGIA-PERUANA.pdf"
+      },
+      {
+        "texto": "R. Sagárnaga, La guerra prevista para el 6 de agosto de 1975, Los Tiempos, 2021",
+        "url": "https://www.lostiempos.com/oh/actualidad/20210731/guerra-prevista-6-agosto-1975"
+      },
+      {
+        "texto": "Convención sobre la Prohibición de Minas Antipersonal: Chile finaliza el desminado (3-3-2020)",
+        "url": "https://www.apminebanconvention.org/fileadmin/_APMBC_SITE/News/2020-Comunicado-Chile-finaliza-desminado.pdf"
+      },
+      {
+        "texto": "Wikipedia: Tacnazo",
+        "url": "https://es.wikipedia.org/wiki/Tacnazo"
+      }
+    ]
+  }
+}

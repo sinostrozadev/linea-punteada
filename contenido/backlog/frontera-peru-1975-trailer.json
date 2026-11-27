@@ -1,0 +1,567 @@
+{
+  "plantilla": "frontera",
+  "id": "pendiente-frontera-peru-1975-trailer",
+  "titulo": "Chile contó 400 tanques peruanos contra 40. ¿Y la guerra? 🇵🇪🇨🇱",
+  "descripcion": "En 1975 el Perú del general Juan Velasco Alvarado se había llenado de tanques soviéticos: según la inteligencia chilena, más de 400 contra 40 de Chile. Chile cavó fosas y sembró minas alrededor de Arica y pidió ayuda a Estados Unidos. Un excapitán peruano dice que la guerra tenía fecha, el 6 de agosto de 1975; Francisco Morales Bermúdez lo negó. El 29 de agosto, en Tacna, Morales Bermúdez sacó a Velasco del poder. ¿La guerra la frenó ese golpe o nunca iba a empezar? Cuéntanos en los comentarios.\n\nFuentes:\n- https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d194\n- https://www.academiahistoriamilitar.cl/academia/wp-content/uploads/2024/09/LA-CRISIS-MILITAR-ENTRE-CHILE-Y-PERU-1974-1975-UNA-VISION-DESDE-LA-IDEOLOGIA-PERUANA.pdf\n- https://www.apminebanconvention.org/fileadmin/_APMBC_SITE/News/2020-Comunicado-Chile-finaliza-desminado.pdf\n\nVoz sintetizada. Mapas propios con datos de Natural Earth (dominio público) y NASA.",
+  "hashtags": [
+    "#shorts",
+    "#peru",
+    "#chile",
+    "#historia",
+    "#geografia"
+  ],
+  "props": {
+    "id": "pendiente-frontera-peru-1975-trailer",
+    "formula": "directa",
+    "referente": "https://www.youtube.com/shorts/hYzFaRO0_C8",
+    "cabecera": "TACNA — LA GUERRA QUE NO FUE",
+    "acento": "amarillo",
+    "gancho": {
+      "texto": "En 1975, según la inteligencia chilena, Perú tenía más de 400 tanques y Chile apenas 40. Y la guerra nunca empezó.",
+      "rotulo": "400 VS 40",
+      "planos": [
+        {
+          "centro": [
+            -71.0,
+            -18.6
+          ],
+          "zoom": 6.4,
+          "entrada": "corte",
+          "deriva": 0.3
+        },
+        {
+          "centro": [
+            -70.8,
+            -18.5
+          ],
+          "zoom": 6.7,
+          "entrada": "zoom",
+          "deriva": 0.3,
+          "en": "guerra"
+        }
+      ],
+      "areas": [
+        {
+          "pais": "Peru",
+          "color": "rojo",
+          "trama": "plena",
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "banderas": [
+        {
+          "pais": "PE",
+          "lon": -72.2,
+          "lat": -16.4,
+          "mirar": [
+            -69.6,
+            -20.6
+          ],
+          "expresion": "normal",
+          "escala": 1.3,
+          "aparecerEn": 0,
+          "quedarse": 0
+        },
+        {
+          "pais": "CL",
+          "lon": -69.6,
+          "lat": -20.6,
+          "mirar": [
+            -72.2,
+            -16.4
+          ],
+          "expresion": "normal",
+          "escala": 1.3,
+          "aparecerEn": 0,
+          "quedarse": 0
+        }
+      ],
+      "clave": [
+        "400",
+        "40",
+        "nunca"
+      ]
+    },
+    "escenas": [
+      {
+        "tipo": "acto",
+        "texto": "En Lima gobernaba desde 1968 el general Juan Velasco Alvarado. Compró tanques soviéticos y los llevó al sur del Perú.",
+        "rotulo": {
+          "texto": "VELASCO",
+          "dice": "Velasco"
+        },
+        "planos": [
+          {
+            "centro": [
+              -73.5,
+              -15.0
+            ],
+            "zoom": 5.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.2,
+              -17.2
+            ],
+            "zoom": 6.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "sur"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -77.03,
+            "lat": -12.05,
+            "texto": "LIMA",
+            "tipo": "pin",
+            "aparecerEn": "Lima"
+          }
+        ],
+        "iconos": [
+          {
+            "lon": -70.9,
+            "lat": -17.2,
+            "icono": "guerra",
+            "aparecerEn": "tanques"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "1968",
+            "sub": "VELASCO TOMA EL PODER",
+            "aparecerEn": "1968",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "1968",
+          "soviéticos",
+          "sur"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En Santiago mandaba Pinochet. Por medio de su jefe de inteligencia, pidió a Estados Unidos ayuda para comprar 250 tanques.",
+        "rotulo": {
+          "texto": "250 TANQUES",
+          "dice": "250"
+        },
+        "planos": [
+          {
+            "centro": [
+              -71.5,
+              -24.0
+            ],
+            "zoom": 4.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -71.5,
+              -24.0
+            ],
+            "zoom": 4.9,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "Unidos"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.65,
+            "lat": -33.45,
+            "texto": "SANTIAGO",
+            "tipo": "pin",
+            "aparecerEn": "Santiago"
+          }
+        ],
+        "clave": [
+          "Pinochet",
+          "Unidos",
+          "250"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Alrededor de Arica, Chile cavó fosas antitanque y sembró campos minados.",
+        "rotulo": {
+          "texto": "MINAS",
+          "dice": "minados"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.31,
+              -18.48
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.31,
+              -18.48
+            ],
+            "zoom": 9.3,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "minados"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          }
+        ],
+        "areas": [
+          {
+            "poligono": [
+              [
+                -70.42,
+                -18.36
+              ],
+              [
+                -70.15,
+                -18.33
+              ],
+              [
+                -70.1,
+                -18.45
+              ],
+              [
+                -70.3,
+                -18.55
+              ],
+              [
+                -70.4,
+                -18.5
+              ]
+            ],
+            "color": "amarillo",
+            "trama": "rayas",
+            "aparecerEn": "fosas"
+          }
+        ],
+        "clave": [
+          "Arica",
+          "fosas",
+          "minados"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "En 1974 hubo una ceremonia de amistad en la frontera. Según el coronel chileno de Arica, el general peruano Francisco Morales Bermúdez le propuso llevar 50 tanques. Él tenía dos en su regimiento.",
+        "rotulo": {
+          "texto": "50 VS 2",
+          "dice": "dos"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.375,
+              -18.35
+            ],
+            "zoom": 9.6,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.375,
+              -18.35
+            ],
+            "zoom": 9.9,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "tanques"
+          },
+          {
+            "centro": [
+              -70.34,
+              -18.42
+            ],
+            "zoom": 9.6,
+            "entrada": "paneo",
+            "deriva": 0.3,
+            "en": "regimiento"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.375,
+            "lat": -18.35,
+            "texto": "LA CONCORDIA",
+            "tipo": "pin",
+            "aparecerEn": "frontera"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "50 VS 2",
+            "sub": "TANQUES EN LA CEREMONIA, SEGÚN MENA",
+            "aparecerEn": "50",
+            "duracionSeg": 3.5
+          }
+        ],
+        "clave": [
+          "1974",
+          "50",
+          "dos"
+        ]
+      },
+      {
+        "tipo": "acto",
+        "texto": "Un excapitán peruano, Eloy Villacrez, dijo que la guerra tenía fecha: el miércoles 6 de agosto de 1975. Morales Bermúdez lo negó: según él, las armas solo equilibraban el sur.",
+        "rotulo": {
+          "texto": "6 DE AGOSTO",
+          "dice": "agosto"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.3,
+              -18.25
+            ],
+            "zoom": 8.4,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.3,
+              -18.25
+            ],
+            "zoom": 8.7,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "negó"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "6-8-1975",
+            "sub": "EL DÍA D, SEGÚN VILLACREZ",
+            "aparecerEn": "miércoles",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "fecha",
+          "negó",
+          "equilibraban"
+        ]
+      },
+      {
+        "tipo": "giro",
+        "texto": "El 29 de agosto, en Tacna, a unos 50 kilómetros de Arica, Morales Bermúdez sacó del poder a Velasco, que estaba enfermo y sin una pierna. Velasco no resistió.",
+        "rotulo": {
+          "texto": "TACNAZO",
+          "dice": "Tacna"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.25,
+              -18.01
+            ],
+            "zoom": 9.0,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.28,
+              -18.25
+            ],
+            "zoom": 8.6,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Arica"
+          },
+          {
+            "centro": [
+              -70.25,
+              -18.01
+            ],
+            "zoom": 9.2,
+            "entrada": "zoom",
+            "deriva": 0.3,
+            "en": "Velasco"
+          }
+        ],
+        "etiquetas": [
+          {
+            "lon": -70.25,
+            "lat": -18.01,
+            "texto": "TACNA",
+            "tipo": "pin",
+            "aparecerEn": "Tacna"
+          },
+          {
+            "lon": -70.31,
+            "lat": -18.48,
+            "texto": "ARICA",
+            "tipo": "pin",
+            "aparecerEn": "Arica"
+          }
+        ],
+        "cotas": [
+          {
+            "desde": [
+              -70.25,
+              -18.01
+            ],
+            "hasta": [
+              -70.31,
+              -18.48
+            ],
+            "texto": "≈ 50 KM",
+            "aparecerEn": "kilómetros"
+          }
+        ],
+        "banderas": [
+          {
+            "pais": "PE",
+            "lon": -69.95,
+            "lat": -17.85,
+            "mirar": [
+              -70.25,
+              -18.01
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "Tacna",
+            "quedarse": 0
+          },
+          {
+            "pais": "CL",
+            "lon": -70.0,
+            "lat": -18.6,
+            "mirar": [
+              -70.25,
+              -18.01
+            ],
+            "expresion": "sorpresa",
+            "escala": 0.9,
+            "aparecerEn": "Tacna",
+            "quedarse": 0
+          }
+        ],
+        "clave": [
+          "29",
+          "Tacna",
+          "resistió"
+        ]
+      },
+      {
+        "tipo": "hoy",
+        "texto": "Chile sacó sus últimas minas antipersonales en febrero de 2020, en la región de Arica. En todo el país, casi 180 mil.",
+        "rotulo": {
+          "texto": "180 MIL MINAS",
+          "dice": "180"
+        },
+        "planos": [
+          {
+            "centro": [
+              -70.1,
+              -18.35
+            ],
+            "zoom": 8.2,
+            "entrada": "zoom",
+            "deriva": 0.3
+          },
+          {
+            "centro": [
+              -70.1,
+              -18.35
+            ],
+            "zoom": 8.5,
+            "entrada": "corte",
+            "deriva": 0.3,
+            "en": "180"
+          }
+        ],
+        "tarjetas": [
+          {
+            "texto": "2020",
+            "sub": "LAS ÚLTIMAS MINAS ANTIPERSONALES",
+            "aparecerEn": "2020",
+            "duracionSeg": 3
+          }
+        ],
+        "clave": [
+          "2020",
+          "Arica",
+          "180"
+        ]
+      }
+    ],
+    "remate": "¿La guerra la frenó un golpe en Tacna, o nunca iba a empezar?",
+    "rematePlanos": [
+      {
+        "centro": [
+          -70.3,
+          -18.25
+        ],
+        "zoom": 8.2,
+        "entrada": "zoom",
+        "deriva": 0.3
+      }
+    ],
+    "remateEtiquetas": [
+      {
+        "lon": -70.25,
+        "lat": -18.01,
+        "texto": "TACNA · 29-8-1975"
+      },
+      {
+        "lon": -70.31,
+        "lat": -18.48,
+        "texto": "ARICA"
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "FRUS 1969-1976, vol. E-11, doc. 194 (Walters a Kissinger, 9-7-1975)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d194"
+      },
+      {
+        "texto": "FRUS 1969-1976, vol. E-11, doc. 181 (7-1-1975)",
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d181"
+      },
+      {
+        "texto": "Academia de Historia Militar (2024): La crisis militar entre Chile y Perú 1974-1975",
+        "url": "https://www.academiahistoriamilitar.cl/academia/wp-content/uploads/2024/09/LA-CRISIS-MILITAR-ENTRE-CHILE-Y-PERU-1974-1975-UNA-VISION-DESDE-LA-IDEOLOGIA-PERUANA.pdf"
+      },
+      {
+        "texto": "Los Tiempos (2021): La guerra prevista para el 6 de agosto de 1975",
+        "url": "https://www.lostiempos.com/oh/actualidad/20210731/guerra-prevista-6-agosto-1975"
+      },
+      {
+        "texto": "Convención de Ottawa (2020): Chile finaliza el desminado",
+        "url": "https://www.apminebanconvention.org/fileadmin/_APMBC_SITE/News/2020-Comunicado-Chile-finaliza-desminado.pdf"
+      }
+    ],
+    "mapa": {
+      "fondo": "satelite",
+      "mes": 8,
+      "centro": [
+        -70.8,
+        -18.5
+      ],
+      "zoomInicial": 6.4,
+      "zoomFinal": 8.2,
+      "lineas": []
+    }
+  }
+}
