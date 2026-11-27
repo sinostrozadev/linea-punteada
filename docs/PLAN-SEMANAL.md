@@ -1342,7 +1342,7 @@ Shorts: 13 guiones `frontera` en `contenido/backlog/` con hechos verificados (in
       "videoId": null,
       "referente": "https://www.youtube.com/watch?v=XjDbQw-Qn7I",
       "porQue": "largo dominical (horas YPP); apertura con escena (Tacna, 29-8-1975); 8:57",
-      "bloqueo": "render local pendiente: disco C: con 6 GB libres (regla ≥ 8 GB); la plantilla largo no tiene render en la nube; carátula GPT pedida"
+      "bloqueo": "render local pendiente: disco C: con 6 GB libres (regla ≥ 8 GB); la plantilla largo no tiene render en la nube; carátula GPT lista (salida/caratulas/largo-peru-1975-b.png)"
     }
   ]
 }

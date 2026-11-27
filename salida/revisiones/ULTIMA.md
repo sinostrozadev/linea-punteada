@@ -79,7 +79,7 @@ Regla vigente: "cerrar frentes" (fórmula directa tal cual, sin `medios[]` ni `v
   con `flock -w 1800 /tmp/piloto.lock env LP_CANAL_ID=UCp05AZK18-TL8pp74ntbdUw node herramientas/navegador/subir-studio-largo.mjs <id> <fecha> <hora>`
   y verificación con `scripts/programados.mts` / `reprogramar.mts`.
 - **Render del largo 1975**: local (`flock -w 7200 /tmp/bolita-render.lock env LINEA_LOCK_RENDER=/tmp/lp-largo-interno.lock npx tsx scripts/render-largo.mts contenido/borradores/largo-peru-1975.json --sin-preparar`)
-  solo con ≥ 8 GB libres en C: (hoy 6 GB: Santiago debe compactar el vhdx con `Downloads\compactar-wsl.ps1`). Después: carátula GPT
-  (`salida/caratulas/largo-peru-1975.png`, pedida), subir, pausas publicitarias, related video del tráiler → largo el dom 06-12 ≥ 19:00.
+  solo con ≥ 8 GB libres en C: (hoy 6 GB: Santiago debe compactar el vhdx con `Downloads\compactar-wsl.ps1`). Carátula GPT lista y revisada
+  (`salida/caratulas/largo-peru-1975-b.png`, molde del nicho; la A con marca + subtítulo se descartó). Después: subir, pausas publicitarias, related video del tráiler → largo el dom 06-12 ≥ 19:00.
 - `docs/GUION.md` §10 usa "Perú era superior…" como título de ejemplo: el revisor lo rechazó por valorativo; cambiar el ejemplo
   cuando se levante "cerrar frentes".
